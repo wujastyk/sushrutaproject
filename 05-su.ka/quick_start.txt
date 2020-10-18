@@ -1,0 +1,70 @@
+====== Quick start ======
+
+Use the form below to create a new template. When you no longer need this page, just delete it!
+
+<form>
+action    template _ "@@Page ID@@"
+
+fieldset  "File Info"
+textbox   "Page ID" "=[a short name]"
+textbox "Name of file" "=[MSS 123 from XXX institution]"
+
+fieldset "Manuscript repository"
+textbox "Collection" !
+textbox "Repository" !
+textbox "Institution" !
+textbox "City, town, or village" !
+textbox "Region" !
+textbox "Country" !
+
+fieldset "Manuscript identification"
+textbox "Institutional identifier" !
+textbox "NCC identifier" !
+textbox "Siglum"
+
+fieldset "Manuscript description"
+textbox "Summary" !
+yesno "Complete?" "=true" ="!false"
+select "Format" "pothi|book|scroll"
+number "Extent (number of folios/pages)" !
+select "Extent type" "folios|pages"
+select "Material" "paper|industrial paper|handmade paper|palm-leaf|palmyra palm-leaf|talipot palm-leaf|birch bark|vellum"
+select "Script" "Devanāgarī|Malayālam|Śāradā|Telugu"
+
+fieldset "Script and Layout Details" "Script" "Devanāgarī"
+hidden "Lang ISO" "=sa-Deva"
+textbox "Script description" ! "=Sanskrit in Devanāgarī script."
+textbox "Layout description" ! "=[description of marginal frame lines, etc.]"
+number "Columns" ! "=1"
+number "Lines per page" !
+
+fieldset "Script and Layout Details" "Script" "Malayālam"
+hidden "Lang ISO" "=sa-Mlym"
+textbox "Script description" ! "=Sanskrit in Malayālam script."
+textbox "Layout description" ! "=[description of marginal frame lines, etc.]"
+number "Columns" ! "=1"
+number "Lines per page" !
+
+fieldset "Script and Layout Details" "Script" "Śāradā"
+hidden "Lang ISO" "=sa-Shrd"
+textbox "Script description" ! "=Sanskrit in Śāradā script."
+textbox "Layout description" ! "=[description of marginal frame lines, etc.]"
+number "Columns" ! "=1"
+number "Lines per page" !
+
+fieldset "Script and Layout Details" "Script" "Telugu"
+hidden "Lang ISO" "=sa-Telu"
+textbox "Script description" ! "=Sanskrit in Telugu script."
+textbox "Layout description" ! "=[description of marginal frame lines, etc.]"
+number "Columns" ! "=1"
+number "Lines per page" !
+
+fieldset "Text description"
+textbox "Author" !
+textbox "Title" !
+textbox "Commentator" !
+textbox "Title of commentary" !
+
+fieldset ""
+submit "Create page"
+</form>

@@ -1,0 +1,129 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+    <fileDesc>
+      <titleStmt>
+        <title>@@Name of file|[name of file]@@</title>
+      </titleStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <placeName>
+              <settlement>@@City, town, or village|[city, town, or village]@@</settlement>
+              <region>@@Region|[region]@@</region>
+              <country>@@Country|[country]@@</country>
+            </placeName>
+            <institution>@@Institution|[institution]@@</institution>
+            <repository>@@Repository|[repository]@@</repository>
+            <collection>@@Collection|[collection]@@</collection>
+            <idno>@@Institutional identifier|[manuscript identifier]@@</idno>
+            <idno type="NCC">@@NCC identifier|[NCC identifier]@@</idno>
+            <idno type="siglum">@@Siglum|[siglum]@@</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>@@Summary|[description of manuscript]@@</summary>
+            <msItem n="1" defective="@@Complete?|true@@">
+            <!-- @defective: 'false' for complete, 'true' for incomplete -->
+              <author xml:lang="sa" role="author">@@Author|[author]@@</author>
+              <author xml:lang="sa" role="commentator">@@Commentator|[commentator]@@</author>
+              <title xml:lang="sa">@@Title|[title of text]@@</title>
+              <title xml:lang="sa" type="commentary">@@Title of commentary|[title of commentary]@@</title>
+              <!-- rubric, incipit, explicit, and finalRubric are given as examples -->
+              <rubric xml:lang="sa"><milestone n="1v1"/>|| śrīvardhamānajineśvarāya namaḥ || śrīgurubhyo namaḥ ||</rubric>
+              <incipit xml:lang="sa"><milestone n="1v1"/>athāto vedotpattimadhyāyaṃ vyākhyāsyāmaḥ |</incipit>
+              <explicit xml:lang="sa"><milestone n="165v"/>na hīyate 'rthān manaso 'bhyupetād etadvaco brāhmam atīva satyam ||</explicit>
+              <finalRubric xml:lang="sa"><milestone n="165v"/>iti suśrutasaṃhitāyām uttaratantre doṣabhedavikalpo nāma ṣaṭ_ṣaṣṭitamo 'dhyāyaḥ || ||</finalRubric>
+              <textLang mainLang="@@Lang ISO|sa@@">@@Script description|[Sanskrit in Devanāgarī script.]@@</textLang>
+              <!-- @mainLang can be "sa-Deva", "sa-Mlym", "sa-Telu", "sa-Newa", etc. See ISO 15924 for more details. -->
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="@@Format|pothi@@">
+            <!-- @form can be "pothi", "book", scroll", etc. -->
+              <supportDesc material="@@Material|palm-leaf@@">
+              <!-- @material can be "paper", "industrial paper", "handmade paper", "palm-leaf", "palmyra palm-leaf", "talipot palm-leaf", "birch bark", "vellum", etc. -->
+                <extent>
+                  <measure quantity="@@Extent (number of folios/pages)|XX@@" unit="@@Extent type@@"/>
+                  <!-- @unit can be "folios" or "pages" -->
+                  <dimensions type="leaf" unit="cm">
+                  <!-- @unit can be "cm" or "in" -->
+                    <height>[height]</height>
+                    <width>[width]</width>
+                  </dimensions>
+                  <dimensions type="written" unit="cm">
+                  <!-- dimensions of writing area -->
+                    <height>[height]</height>
+                    <width>[width]</width>
+                  </dimensions>
+                </extent>
+                <!-- the following <foliation> tags are examples -->
+                <foliation n="1" type="original">Scribal foliation 1-25.</foliation>
+                <foliation n="2" type="modern">Modern numerals written in pencil, centre-right margin, recto and verso.</foliation>
+                <condition>[whether the manuscript is complete, description of wear and damage]</condition>
+              </supportDesc>
+              <layoutDesc>
+                <layout columns="@@Columns@@" writtenLines="@@Lines per page|XX@@" ruledLines="XX">
+                <!-- @writtenLines is the number of lines of text per page. @ruledLines is the number of rulings that have been printed or impressed on a page, i.e. the number of lines in a blank notebook. -->
+                  <p>[description of marginal frame lines, etc.]</p>
+                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scope="sole" script="devanāgarī" medium="black ink">
+                <p>Copied by the scribe _.</p>
+              </handNote>
+              <handNote scope="major" script="devanāgarī" medium="red ink">
+                <p>[description of another hand]</p>
+              </handNote>
+              <handNote scope="minor" script="english" medium="green highlighter">
+                <p>[description of another hand]</p>
+              </handNote>
+            </handDesc>
+            <additions>
+              <!-- the following additions are examples -->
+              <p>Marginal annotations and corrections throughout.</p>
+              <p>Marginal illustration on folio _.</p>
+            </additions>
+            <bindingDesc>
+              <p>[description of cover, binding, and/or stringholes]</p>
+            </bindingDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="Vikrama" when="1737">Vikrama Saṃvat 1737 (AD 1681).</origDate>
+              <!-- calendar can be "Vikrama", "Śaka", etc. Dates can be approximate or exact. -->
+              <origPlace xml:lang="en">[place of production]</origPlace>
+            </origin>
+            <provenance>[record of ownership]</provenance>
+            <acquisition>[how it was acquired]</acquisition>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <change when="%Y-%m-%d">
+        <persName>[name of editor]</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="sa-Latn">
+    <body>
+      <milestone n="1a1"/>
+      <!-- @n is where the transcription begins, if not from the beginning of the manuscript -->
+      <div n="1">
+        <p xml:id="namaskara">
+śrīvardhamānajineśvarāya namaḥ || śrīgurubhyo namaḥ ||
+        </p>
+         <lg type="verse" xml:id="SuŚru-1.1.1">
+            <l>athāto vedotpattimadhyāyaṃ vyākhyāsyāmaḥ |</l>
+            <l>yathovāca bhagavān_ dhanvantariḥ || 1 ||</l>
+         </lg>
+         <p xml:id="SuŚru-1.1.2">
+atha khalu bhagavantam amaravaramṛṣigaṇaparivṛtam āśramasthaṃ kāśirājaṃ divodāsaṃ dhanvantarim aupadhenavavaitaraṇair abhrapauṣkalāvatakaravīryagopurarakṣitasuśrutaprabhṛtaya ūcuḥ || 2 ||
+        </p>
+        <p xml:id="SuŚru-1.1.3">
+bhagavan | śārīramānasāgantuvyādhibhir vividhavedanābhighātopadrutān_ sanāthān apy anāthavadviceṣṭamānān_ vikrośataś ca mānavānabhisamīkṣya manasi naḥ pīḍā bhavati | teṣāṃ sukhaiṣiṇāṃ rogopaśamārtham ātmanaś ca prāṇayātrārthaṃ <add place="inline">prajāhitahetoḥ</add> āyurvedaṃ śrotum icchāma ihopadiśyamānam | atrā''yattam aihikam āmuṣmikaṃ  ca śreyaḥ | tadbhagavantam upapannāḥ smaḥ śiṣyatveneti || 3 ||
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,166 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+    <fileDesc>
+      <titleStmt>
+        <title>[MSS Kathmandu KL 699]</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Suśruta project, University of Alberta</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <placeName>
+              <settlement>Kathmandu</settlement>
+              <region>[region]</region>
+              <country>Nepal</country>
+            </placeName>
+            <institution>Kaiser Library</institution>
+            <repository>https://www.klib.gov.np/</repository>
+            <collection>[collection]</collection>
+            <idno>699</idno>
+            <idno type="NCC">[NCC identifier]</idno>
+            <idno type="siglum">K</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>[description of manuscript]</summary>
+            <msItem defective="true" n="1">
+              <!-- @defective: 'false' for complete, 'true' for incomplete -->
+              <author role="author" xml:lang="sa">Suśruta</author>
+              <author role="commentator" xml:lang="sa">[commentator]</author>
+              <title xml:lang="sa">Suśrutasaṃhitā</title>
+              <title type="commentary" xml:lang="sa">[title of commentary]</title>
+              <!-- rubric, incipit, explicit, and finalRubric are given as examples -->
+
+              <textLang mainLang="sa">[Sanskrit in Devanāgarī script.]</textLang>
+              <!-- @mainLang can be "sa-Deva", "sa-Mlym", "sa-Telu", "sa-Newa", etc. See ISO 15924 for more details. -->
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="pothi">
+              <!-- @form can be "pothi", "book", scroll", etc. -->
+              <supportDesc material="paper">
+                <!-- @material can be "paper", "industrial paper", "handmade paper", "palm-leaf", "palmyra palm-leaf", "talipot palm-leaf", "birch bark", "vellum", etc. -->
+                <!-- the following <foliation> tags are examples -->
+              </supportDesc>
+
+            </objectDesc>
+            <handDesc>
+              <handNote medium="black ink" scope="sole" script="devanāgarī">
+                <p>Copied by the scribe _.</p>
+              </handNote>
+              <handNote medium="red ink" scope="major" script="devanāgarī">
+                <p>[description of another hand]</p>
+              </handNote>
+              <handNote medium="green highlighter" scope="minor" script="english">
+                <p>[description of another hand]</p>
+              </handNote>
+            </handDesc>
+            <additions>
+              <!-- the following additions are examples -->
+              <p>Marginal annotations and corrections throughout.</p>
+              <p>Marginal illustration on folio _.</p>
+            </additions>
+            <bindingDesc>
+              <p>[description of cover, binding, and/or stringholes]</p>
+            </bindingDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="Vikrama" when="1737">Vikrama Saṃvat 1737 (AD 1681).</origDate>
+              <!-- calendar can be "Vikrama", "Śaka", etc. Dates can be approximate or exact. -->
+              <origPlace xml:lang="en">[place of production]</origPlace>
+            </origin>
+            <provenance>[record of ownership]</provenance>
+            <acquisition>[how it was acquired]</acquisition>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <change when="2020-04-21">
+        <persName>[name of editor]</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="sa-Latn">
+    <body>
+      <div n="1" subtype="sthāna">
+
+        <div n="1" subtype="adhyāyaḥ">
+
+          <p xml:id="Su.1.1.0">oṃ namaḥ kamalahastāya|| </p>
+
+
+          <l xml:id="Su.1.1.1">athāto vedotpattim ādhyāyaṃ vyākhyāsyāmaḥ/ </l>
+
+          <l xml:id="Su.1.1.2">
+            <gap extent="1" unit="unit"/>
+          </l>
+
+          <l xml:id="Su.1.1.3">atha khalu bhagavantam amaravaram ṛṣigaṇādhiparivṛttam
+            āśramasthakrājāṃ <add place="margin">divvodāsam</add> dhanvantari aupadhenavaḥ
+            vaitaraṇaurabhrapuṣkalāvatakaravīragaupurarakṣitabhaujāsuśrutaprabhṛtaya ūcuḥ </l>
+
+          <l xml:id="Su.1.1.4">bhagavañ chārīramānasāgantubhi vyādhibhir vidhavedanābhighātpadrutān
+            sanā </l>
+
+          <!-- 
+        
+        <l>himavacchailakuñjastha<add>ṃ</add> sumanaska<add>m</add> mahaujasaṃ|
+          <caesura/>
+           śīrṇṇaparṇṇaphalāhāram āyurve<add>(!)</add>viśāradaṃ|
+          <caesura/>
+           kṛtāgnikṛtyam āsīnaṃ pūtavalkaladhāriṇaṃ|| </l>
+
+        <l>dhanvantarin dharmmabhṛtām variṣṭham amṛtodbhavaṃ| suśrutapramukhāḥ śiṣyāḥ
+            pra<add>(!)</add>pracchur bhiṣajottamam iti(!)||</l>
+
+        <l>bhagavad bheṣajānāṃ te yatpūrvvaṃ samu///3 pravyaktiṃ kāraṇaṃ deva tena sarvvan na
+          vidyate| </l>
+        <l>bahūni nāmadheyāni bheṣajānāṃ ca bahuśruta| śrūyante deśabhāṣābhis tena śoko hi no
+          mahāṃ|</l>
+        <l>nānādeśābhilaptānāṃ dravyānāmnām(!) pṛthak pṛthak| pravyaktiṃ kāraṇaṃ tan no bhaven
+          mohapraśāntaye|</l>
+        <l>kiñcit sad api bhaiṣajyā satām ajñāś cikitsikaḥ(!)| paśyann api na jānīte tena bu///2
+          hanyate| </l>
+        <l>tasmāt sarvāṇi nāmāni deśabhāṣāṃ vibhāgaśaḥ| oṣadhīnāṃ samācakṣva <add>sarvau<unclear> 〇
+            </unclear>ṣadha</add>viśārada|  </l>
+        <l>ity ukto bhagavāñ chiṣyaiḥ kāśirāja udāradhīḥ|</l>
+        <l><gap extent="4" unit="char"/><note>Two symbols are blotched and appear to be overwitten
+            by something else. Most natural reading that may come here would be something like
+            tataḥ, ataḥ, etc.</note>ḥ prahlādayan teṣāṃ pratyuvācāmalam vacaḥ| va<unclear>+ +
+            〇</unclear> sādhv arthavān praśno bhavadbhir ayam īritaḥ|</l>
+        <l>apṛṣṭenāpi vaktavyaṃ prajānāṃ hitam acchatā<add>(!)</add>| cha//2 nim āvṛtya varṇṇānāṃ
+          gurulāghavāt|</l>
+
+        <l>nānādeśaprasūtānāṃ śiṣyāṇāñ conabodhinā<add>ṃ</add>| pāṭhalāghavakāmāc ca
+          nānābhāṣābhibhāṣiṇāṃ|</l>
+
+        <l>dravyānāṃ yatsamākhyānāṃ vistaras tasya vakṣyate| gaṇā vidārigandhādyā ya uktvā
+          dravyasaṃgrahe| </l>
+
+        <l>ekaikam auṣadhan teṣāñ chabdaiḥ paryāyavācakaiḥ| ekaikenaiva vakṣyā<add>m</add>i ///1
+            <add>(re)</add>naivānupūrvvaśaḥ|| </l>
+        <l>vidāri gandhāṃśumatī sālaparṇṇī triparṇyapi| sthirā ca dīrghamūlā ca dhruvā cāpi
+          prakīrttitā|| </l>
+        <l><note>[in the folio in IMG_0126.JPG]</note> oṃ namaḥ kamalahastāya|| athāto vedotpattim
+            <unclear>ā</unclear>adhyāyaṃ vyākhyāsyāmaḥ|| </l>
+        <l xml:id="Su.1.1.3xxx">
+atha khalu bhagavantam amaravaram ṛṣigaṇaparivṛtam āśramasthakāśirājaṃ
+          divodāsa[[dhanvantari]]m
+          aupadhenavavaitaraṇaurabhrapuṣkalāvatakaravīragopurarakṣitabhojāsuśrutaprabhṛtaya ūcur
+</l>
+
+        <l xml:id="Su.1.1.4">(bhagava)[[ñ cha]]r(ī)ramānasāgantubhi<add>r</add> vyādh(i)bh(ir vi)///
+          dhavedanābhighātopadrutāṃ (sa)nāthān anāthavad viceṣṭamānān
+            vikrośata<unclear>...</unclear>ś ca mānavānam abhisamīkṣya abhisamīkṣya manasi naḥ
+          pīḍābhavat teṣāṃ sukhaiṣiṇāṃ rogopaśamārtham ātmanaś ca prāṇayātrārtham āyuśvedam icchāma
+          upadśyamānam atrāyattam aihikam āmuṣmikañ ca śreyas tad bhagavantam upasannā sma
+          śiṣyatve/// </l>
+           -->
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

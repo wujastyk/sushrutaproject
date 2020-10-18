@@ -1,0 +1,1843 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+        <fileDesc>
+            <titleStmt>
+                <title>[Ācārya 1931 &amp; 1938 ed Nidānasthāna]</title>
+            </titleStmt>
+
+            <publicationStmt>
+                <authority>SARIT: Search and Retrieval of Indic Texts</authority>
+                <idno>2014-06-24</idno>
+                <availability status="restricted">
+                    <p>Copyright Notice</p>
+                    <p>Copyright (C) Tsutomu Yamashita and Yasutaka Muroya and SARIT. </p>
+                    <p>
+                        <ref target="http://creativecommons.org/licenses/by-sa/3.0/" type="licence"
+                            >Distributed by <ref target="http://sarit.indology.info" type="url"
+                                >SARIT</ref> under a Creative Commons Attribution-ShareAlike 3.0
+                            Unported License. </ref>
+                    </p>
+                    <p>Under this licence, you are free<list>
+                            <item>to Share — to copy, distribute and transmit the work</item>
+                            <item>to Remix — to adapt the work </item>
+                        </list></p>
+                    <p>Under the following conditions:</p>
+                    <p>
+                        <list>
+                            <item>Attribution — You must attribute the work in the manner specified
+                                by the author or licensor (but not in any way that suggests that
+                                they endorse you or your use of the work).</item>
+                            <item>Share Alike — If you alter, transform, or build upon this work,
+                                you may distribute the resulting work only under the same or similar
+                                license to this one.</item>
+                        </list>
+                    </p>
+                    <p>More information and fuller details of this license are given on the Creative
+                        Commons website.</p>
+                    <p>SARIT assumes no responsibility for unauthorised use that infringes the
+                        rights of any copyright owners, known or unknown.</p>
+                </availability>
+                <date>2013-2016</date>
+            </publicationStmt>
+            <notesStmt>
+                <note type="footnote">Suśrutasaṃhitā (without commentaries) transcribed by Tsutomu
+                    Yamashita and Yasutaka Muroya on the basis of Y. T. Ācārya's 1931 and 1938
+                    Bombay editions</note>
+            </notesStmt>
+
+
+
+            <sourceDesc>
+                <bibl>
+                    <title>The Suśrutasaṃhitā of Suśruta, with the Nibandhsangraha Commentary of Śrī
+                        Ḍalhaṇācārya.</title>
+                    <editor>Yādavaśarman Trivikramātmaja Ācārya</editor>
+                    <publisher>Pāndurang Jāvaji</publisher>
+                    <pubPlace>Bombay</pubPlace>
+                    <date>1931</date>
+                    <edition>Revised second edition</edition>
+                    <note type="footnote">The sūtrasthāna (Su.1) and śārīrasthāna (Su.3) of this
+                        SARIT edition are mainly based on this edition.</note>
+                    <note type="footnote">This SARIT edition omits the commentarial material from
+                        this edition.</note>
+                </bibl>
+                <bibl>
+                    <title>Suśrutasamhitā of Suśruta with the Nibandhasaṅgraha Commentary of Śrī
+                        Ḍalhanāchārya and the Nyāyacandrikā Pañjikā of Śrī Gayadāsāchārya on
+                        Nidānasthāna, edited from the begining to the 9th ādhyāya of Cikitsāsthāna
+                        by Vaidya Jādavji Trikamji Āchārya and the rest by Nārāyaṇ Rām
+                        Āchārya</title>
+                    <!-- <editor role="sections:1.1-4.9">Yādavaśarman Trivikramātmaja Ācāryā</editor>
+                    <editor role="sections:4.10-6.66">Nārāyaṇ Rām Āchārya</editor>-->
+                    <publisher>Nirṇaya Sāgar Press</publisher>
+                    <pubPlace>Bombay</pubPlace>
+                    <date>1938</date>
+                    <edition>Reprint edition Varanasi/Delhi: Chaukhambha Orientalia, 1992.</edition>
+                    <note>The nidānasthāna (Su.2), cikitsāsthāna (Su.4) , kalpasthāna (Su.5) and
+                        uttaratantra (Su.6) are based on this edition</note>
+                    <note>This SARIT edition omits the commentarial material from this
+                        edition.</note>
+                </bibl>
+                <msDesc xml:id="Sanskrit" xml:lang="en">
+                    <msIdentifier>
+                        <idno type="siglum">Āp</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+
+        </fileDesc>
+        <revisionDesc>
+            <change when="2020-04-18">
+                <persName>[name of editor]</persName>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:lang="sa-Latn">
+
+        <body>
+       <div n="2" type="level1" subtype="sthāna">
+                <head>nidānasthānam</head>
+                <div n="1" type="level2" subtype="adhyāyaḥ">
+                    <head>prathamo+adhyāyaḥ/</head>
+                    <l xml:id="Su.2.1.1"><label>ni.1.1</label> athāto vātavyādhinidānaṁ
+                        vyākhyāsyāmahaḥ// </l>
+                    <l xml:id="Su.2.1.2"><label>ni.1.2</label> yathovāca bhagavān dhanvantariḥ// </l>
+                    <l xml:id="Su.2.1.3"><label>ni.1.3</label> dhanvantariṁ dharmabhṛtāṁ
+                        variṣṭhamamṛtodbhavam/ caraṇāvupasaṁgṛhya suśrutaḥ paripṛcchati// </l>
+                    <l xml:id="Su.2.1.4"><label>ni.1.4</label> vāyoḥ prakṛtibhūtasya vyāpannasya
+                        ca kopanaiḥ/ sthānaṁ karma ca rogāṁśca vada me vadatāṁ vara// </l>
+                    <l xml:id="Su.2.1.5"><label>ni.1.5</label> tasya tadvacanaṁ <ref
+                            rend="superscript footnote marker">&#x2020;</ref>prābravīdbhiṣajaṁ
+                        varaḥ/ svayaṁbhūreṣa bhagavān vāyurityabhiśabditaḥ// </l>
+                    <l xml:id="Su.2.1.6"><label>ni.1.6</label> svātantryānnityabhāvācca
+                        sarvagatvāttathaiva ca/ sarveṣāmeva sarvātmā sarvalokanamaskṛtaḥ// </l>
+                    <l xml:id="Su.2.1.7"><label>ni.1.7</label> sthityutpattivināśeṣu bhūtānāmeṣa
+                        kāraṇam/ avyakto vyaktakarmā ca rūkṣaḥ<ref
+                            rend="superscript footnote marker">&#x2020;</ref> śīto laghuḥ kharaḥ// </l>
+                    <l xml:id="Su.2.1.8"><label>ni.1.8</label> tiryaggo dviguṇaścaiva rajobahula
+                        eva ca/ acintyavīryo doṣāṇāṁ netā rogasamūharāṭ// </l>
+                    <l xml:id="Su.2.1.9"><label>ni.1.9</label> āśukārī muhuścārī
+                        pakvādhānagudālayaḥ/ dehe vicaratastasya lakṣaṇāni nibodha me// </l>
+                    <l xml:id="Su.2.1.10"><label>ni.1.10</label> doṣadhātvagnisamatāṁ saṁprāptiṁ
+                        viṣayeṣu ca/ kriyāṇāmānulomyaṁ ca karotyakupito+anilaḥ// <ref
+                            rend="superscript footnote marker">&#x2020;</ref>/
+                        indriyārthopasaṁprāptiṁ doṣadhātvagnyavaikṛtam/ kriyāṇāmānulomyaṁ ca
+                        kuryādvāyuradūṣitaḥ//) </l>
+                    <l xml:id="Su.2.1.11"><label>ni.1.11</label> yathā+agniḥ pañcadhā bhinno
+                        nāmasthānakriyāmayaiḥ/ bhinno+anilastasthā hyeko nāmasthānakriyāmayaiḥ// </l>
+                    <l xml:id="Su.2.1.12"><label>ni.1.12</label> prāṇodānau samānaśca
+                        vyānaścāpāna eva ca/ sthānasthā mārutāḥ pañca yāpayanti śarīriṇam// </l>
+                    <l xml:id="Su.2.1.13"><label>ni.1.13</label> yo vāyurvaktrasaṁcārī sa prāṇo
+                        nāma dehadhṛk/ so+annaṁ praveśayatyantaḥ prāṇāṁścāpyavalambate// </l>
+                    <l xml:id="Su.2.1.14"><label>ni.1.14</label> prāyaśaḥ kurute duṣṭo
+                        hikkāśvāsādikān gadān// udāno nāma yastūrdhvamupaiti pavanottamaḥ// </l>
+                    <l xml:id="Su.2.1.15"><label>ni.1.15</label> tena
+                        bhāṣitagītādiviśeṣo+abhipravartate/ ūrdhvajatrugatān rogān karoti ca
+                        viśeṣataḥ// </l>
+                    <l xml:id="Su.2.1.16"><label>ni.1.16</label> āmapakvāśayacaraḥ samāno <ref
+                            rend="superscript footnote marker">&#x2020;</ref>vahnisaṅgataḥ/ so+annaṁ
+                        pacati tajjāṁśca <ref rend="superscript footnote marker"
+                        >&#x2020;</ref>viśeṣānvivinakti hi// </l>
+                    <l xml:id="Su.2.1.17"><label>ni.1.17</label> gulmāgnisādātīsāraprabhṛtīn<ref
+                            rend="superscript footnote marker">&#x2020;</ref> kurute gadān/
+                        kṛtsnadehacaro vyāno rasasaṁvahanodyataḥ// </l>
+                    <l xml:id="Su.2.1.18"><label>ni.1.18</label> svedāsṛksrāvaṇaścāpi pañcadhā
+                        ceṣṭayatyapi/ kruddhaśca kurute rogān prāyaśaḥ sarvadehagān// </l>
+                    <l xml:id="Su.2.1.19"><label>ni.1.19</label> pakvādhānālayo+apānaḥ kāle
+                        karṣati cāpyadhaḥ/ <ref rend="superscript footnote marker"
+                        >&#x2020;</ref>samīraṇaḥ śakṛnmūtraṁ śukragarbhārtavāni ca// </l>
+                    <l xml:id="Su.2.1.20"><label>ni.1.20</label> kuddhaśca kurute rogān ghorān
+                        bastigudāśrayān/ śukradoṣapramehāstu vyānāpānaprakopajāḥ// </l>
+                    <l xml:id="Su.2.1.21"><label>ni.1.21</label> yugapat kupitāścāpi dehaṁ
+                        bhindyurasaṁśayam/ ata ūrdhvaṁ pravakṣyāmi nānāsthānāntarāśritaḥ// </l>
+                    <l xml:id="Su.2.1.22"><label>ni.1.22</label> bahuśaḥ kupito vāyurvikārān
+                        kurute hi yān/ vāyurāmāśaye kruddhaśchardyādīn kurute gadān// </l>
+                    <l xml:id="Su.2.1.23"><label>ni.1.23</label> mohaṁ mūrcchāṁ pipāsāṁ ca
+                        hṛdgrahaṁ pārśvavedanām/ pakvāśayastho+antrakūjaṁ <ref
+                            rend="superscript footnote marker">&#x2020;</ref>śūlaṁ nābhau karoti
+                        ca// </l>
+                    <l xml:id="Su.2.1.24"><label>ni.1.24</label> kṛcchramūtrapurīṣatvamānāhaṁ
+                        trikavedanām/ śrotrādiṣvindriyavadhaṁ kuryāt kruddhaḥ samīraṇaḥ// </l>
+                    <l xml:id="Su.2.1.25"><label>ni.1.25</label> vaivarṇyaṁ sphuraṇaṁ raukṣyaṁ
+                        suptiṁ cumucumāyanam/ tvakstho nistodanaṁ kuryāt tvagbhedaṁ paripoṭanam// </l>
+                    <l xml:id="Su.2.1.26"><label>ni.1.26</label> vraṇāṁśca raktago granthīn <ref
+                            rend="superscript footnote marker">&#x2020;</ref>saśūlān māṁsasaṁśritaḥ/
+                        tathā medaḥśritaḥ kuryādgrandhīnmandarujo+avraṇān// </l>
+                    <l xml:id="Su.2.1.27"><label>ni.1.27</label> kuryāt sirāgataḥ śūlaṁ
+                        sirākuñcanapūraṇam/ snāyuprāptaḥ <ref rend="superscript footnote marker"
+                            >&#x2020;</ref>stambhakampau śūlamākṣepaṇaṁ tathā// </l>
+                    <l xml:id="Su.2.1.28"><label>ni.1.28</label> hanti sandhigataḥ sandhīn
+                        śūlaśophau karoti ca/ asthiśoṣaṁ prabhedaṁ ca kuryācchūlaṁ ca tacchritaḥ// </l>
+                    <l xml:id="Su.2.1.29"><label>ni.1.29</label> tathā majjagate ruk ca na
+                        kadācit praśāmyati/ apravṛttiḥ pravṛttirvā vikṛtā<ref
+                            rend="superscript footnote marker">&#x2020;</ref> śukrage+anile// </l>
+                    <l xml:id="Su.2.1.30"><label>ni.1.30</label> hastapādaśirodhātūṁstathā
+                        saṁcarati kramāt/ vyāpnuyādvā+akhilaṁ dehaṁ vāyuḥ sarvagato nṛṇām// </l>
+                    <l xml:id="Su.2.1.31"><label>ni.1.31</label> stambhanākṣepaṇasvāpaśophaśūlāni
+                            sarvagaḥ<ref rend="superscript footnote marker">&#x2020;</ref>/
+                        sthāneṣūkteṣu saṁmiśraḥ saṁmiśrāḥ kurute rujaḥ// </l>
+                    <l xml:id="Su.2.1.32"><label>ni.1.32</label> kuryādavayavaprāpto<ref
+                            rend="superscript footnote marker">&#x2020;</ref> mārutastvamitān gadān/
+                        dāhasaṁtāpamūrcchāḥ syurvāyau pittasamanvite// </l>
+                    <l xml:id="Su.2.1.33"><label>ni.1.33</label> śaityaśophagurutvāni tasminneva
+                        kaphāvṛte/ sūcībhiriva nistodaḥ sparśadveṣaḥ prasuptatā// </l>
+                    <l xml:id="Su.2.1.34"><label>ni.1.34</label> śeṣāḥ pittavikārāḥ syurmārute
+                        śoṇitānvite/ prāṇe pittāvṛte chardirdāhaścaivopajāyate// </l>
+                    <l xml:id="Su.2.1.35"><label>ni.1.35</label> daurbalyaṁ sadanaṁ tandrā
+                            vaivarṇyaṁ<ref rend="superscript footnote marker">&#x2020;</ref> ca
+                        kaphāvṛte/ udāne pittasaṁyukte mūrcchādāhabhramaklamāḥ// </l>
+                    <l xml:id="Su.2.1.36"><label>ni.1.36</label> asvedaharṣau mando+agniḥ
+                        śītastambhau kaphāvṛte/ samāne pittasaṁyukte svedadāhauṣṇyamūrcchanam// </l>
+                    <l xml:id="Su.2.1.37"><label>ni.1.37</label>
+                        <ref rend="superscript footnote marker">&#x2020;</ref>kaphādhikaṁ ca
+                        viṇmūtraṁ romaharṣaḥ kaphāvṛte/ apāne pittasaṁyukte dāhauṣṇye
+                            syādasṛgdaraḥ<ref rend="superscript footnote marker">&#x2020;</ref>// </l>
+                    <l xml:id="Su.2.1.38"><label>ni.1.38</label> adhaḥkāyagurutvaṁ ca
+                            tasminneva<ref rend="superscript footnote marker">&#x2020;</ref>
+                        kaphāvṛte/ vyāne pittāvṛte dāho gātravikṣepaṇaṁ klamaḥ// </l>
+                    <l xml:id="Su.2.1.39"><label>ni.1.39</label>
+                        <ref rend="superscript footnote marker">&#x2020;</ref>gurūṇi sarvagātrāṇi
+                        stambhanaṁ cāsthiparvaṇām/ liṅgaṁ kaphāvṛte vyāne ceṣṭāstambhastathaiva ca// </l>
+                    <l xml:id="Su.2.1.40"><label>ni.1.40</label> prāyaśaḥ sukumārāṇāṁ
+                        mithyā++āhāravihāriṇām/ <ref rend="superscript footnote marker"
+                            >&#x2020;</ref>rogādhvapramadāmadyavyāyāmaiścātipīḍanāt// </l>
+                    <l xml:id="Su.2.1.41"><label>ni.1.41</label> ṛtusātmyaviparyāsāt snehādīnāṁ
+                        ca vibhramāt/ avyavāye tathā sthūle vātaraktaṁ prakupyati<ref
+                            rend="superscript footnote marker">&#x2020;</ref>//) </l>
+                    <l xml:id="Su.2.1.42"><label>ni.1.42</label> hastyaśvoṣṭrairgacchato+anyaiśca
+                        vāyuḥ kopaṁ yātaḥ kāraṇaiḥ sevitaiḥ svaiḥ/ tīkṣṇoṣṇāmlakṣāraśākādibhojyaiḥ
+                        saṁtāpādyairbhūyasā sevitaiśca// </l>
+                    <l xml:id="Su.2.1.43"><label>ni.1.43</label> kṣipraṁ raktaṁ duṣṭimāyāni<ref
+                            rend="superscript footnote marker">&#x2020;</ref> tacca vāyormārgaṁ
+                        saṁruṇaddhyāśu yātaḥ/ kruddho+atyarthaṁ mārgarodhāt sa <ref
+                            rend="superscript footnote marker">&#x2020;</ref>vāyuratyudriktaṁ
+                            dūṣayedraktamāśu<ref rend="superscript footnote marker">&#x2020;</ref>// </l>
+                    <l xml:id="Su.2.1.44"><label>ni.1.44</label> tat saṁpṛktaṁ vāyunā dūṣitena
+                        tatprāvalyāducyate vātaraktam/ tadvat pittaṁ dūṣitenāsṛjā++āktaṁ śleṣmā
+                        duṣṭo dūṣitenāsṛjā++āktaḥ// </l>
+                    <l xml:id="Su.2.1.45"><label>ni.1.45</label>
+                        <ref rend="superscript footnote marker">&#x2020;</ref>sparśodvignau
+                        todabhedapraśoṣasvāpopetau vātaraktena pādau/ pittāsṛgbhyāmugradāhau
+                        bhavetāmatyarthoṣṇau raktaśophau mṛdū ca// </l>
+                    <l xml:id="Su.2.1.46"><label>ni.1.46</label> kaṇḍūmantau śvetaśītau saśophau
+                        pīnastabdhau śleṣmaduṣṭe tu rakte/ <ref rend="superscript footnote marker"
+                            >&#x2020;</ref>sarvairduṣṭe śoṇite cāpi doṣāḥ svaṁ svaṁ rūpaṁ
+                        pādayordarśayanti// </l>
+                    <l xml:id="Su.2.1.47"><label>ni.1.47</label> prāgrūpe śithilau svinnau <ref
+                            rend="superscript footnote marker">&#x2020;</ref>śītalau saviparyayau/
+                        vaivarṇyatodasuptatvagurutvauṣasamanvitau// </l>
+                    <l xml:id="Su.2.1.48"><label>ni.1.48</label> pādayormūlamāsthāya
+                        kadāciddhastayorapi/ āsvorviṣamiva kruddhaṁ taddehamanusarpati// </l>
+                    <l xml:id="Su.2.1.49"><label>ni.1.49</label> ājānusphuṭitaṁ yacca prabhinnaṁ
+                        prasrutaṁ ca yat/ upadravaiśca yajyuṣṭaṁ prāṇamāṁsakṣayādibhiḥ// </l>
+                    <l xml:id="Su.2.1.50"><label>ni.1.50</label> śoṇitaṁ tadasādhyaṁ syādyāpyaṁ
+                        saṁvatsarotthitam/ yadā tu dhamanīḥ sarvāḥ kupito+abhyeti mārutaḥ// </l>
+                    <l xml:id="Su.2.1.51"><label>ni.1.51</label> tadākṣipatyāśu muhurmuhurdehaṁ
+                        muhuścaraḥ/ muhurmuhustadākṣepādākṣepaka iti smṛtaḥ// </l>
+                    <l xml:id="Su.2.1.52"><label>ni.1.52</label> so+apatānakasaṁjño yaḥ
+                        pātayatyantarā+antarā/ kaphānvito bhṛśaṁ vāyustāsveva yadi tiṣṭhati// </l>
+                    <l xml:id="Su.2.1.53"><label>ni.1.53</label> sa daṇḍavat stambhayati kṛcchro
+                        daṇḍāpatānakaḥ/ hanugrahastadā+atyarthaṁ kṛcchrānniṣevate// </l>
+                    <l xml:id="Su.2.1.54"><label>ni.1.54</label> dhanustulyaṁ namedyastu sa
+                        dhanuḥstambhasaṁjñakaḥ/ aṅgulīgulphajaṭharahradvakṣogalasaṁśritaḥ// </l>
+                    <l xml:id="Su.2.1.55"><label>ni.1.55</label> snāyupratānamanilo
+                        yadā++ākṣipati vegavān/ viṣṭabdhākṣaḥ stabdhahanurbhagnapārśvaḥ kaphaṁ
+                        vaman// </l>
+                    <l xml:id="Su.2.1.56"><label>ni.1.56</label> abhyantaraṁ dhanuriva yadā
+                        namati mānavaḥ/ tadā+asyābhyantarāyāmaṁ kurute māruto balī// </l>
+                    <l xml:id="Su.2.1.57"><label>ni.1.57</label> bāhyasnāyupratānastho bāhyāyāmaṁ
+                        karoti ca/ tamasādhyaṁ budhāḥ prāhurvakṣaḥkaṭhyūrubhañjanam// </l>
+                    <l xml:id="Su.2.1.58"><label>ni.1.58</label> kaphapittānvito vāyurvāyureva ca
+                        kevalaḥ/ kuryādākṣepakaṁ tvanyaṁ caturthamabhighātajam// </l>
+                    <l xml:id="Su.2.1.59"><label>ni.1.59</label> garbhapātanimittaśca
+                        śoṇitātisravācca yaḥ/ abhighātanimittaśca na sidhyatyapatānakaḥ// </l>
+                    <l xml:id="Su.2.1.60"><label>ni.1.60</label> adhogamāḥ satiryaggā
+                        dhamanīrūrdhvadehagāḥ/ yadā prakupito+atyarthaṁ mātariśvā prapadyate// </l>
+                    <l xml:id="Su.2.1.61"><label>ni.1.61</label> tadā+anyatarapakṣasya
+                        sandhibandhān vimokṣayan/ hanti pakṣaṁ tamāhurhi pakṣāghātaṁ bhiṣagvarāḥ// </l>
+                    <l xml:id="Su.2.1.62"><label>ni.1.62</label> yasya kṛtsnaṁ
+                        śarīrārdhamakarmaṇyamacetanam/ <ref rend="superscript footnote marker"
+                            >&#x2020;</ref>tataḥ patasyasūn vā+api <ref
+                            rend="superscript footnote marker">&#x2020;</ref>tyajatyanilapīḍitaḥ// </l>
+                    <l xml:id="Su.2.1.63"><label>ni.1.63</label> śuddhavātahataṁ pakṣaṁ
+                        kṛcchrasādhyatamaṁ viduḥ/ sādhyamanyena saṁsṛṣṭamasādhyaṁ kṣayahetukam// </l>
+                    <l xml:id="Su.2.1.64"><label>ni.1.64</label> vāyurūrdhvaṁ vrajet sthānāt
+                        kupito hṛdayaṁ śiraḥ/ śaṅkhau ca pīḍayatyaṅgānyākṣipennamayecca saḥ// </l>
+                    <l xml:id="Su.2.1.65"><label>ni.1.65</label> nimīlitākṣo niśceṣṭaḥ stabdhākṣo
+                        vā+api kūjati/ nirucchvāso+athavā kṛcchrāducchvasyānnaṣṭacetanaḥ// </l>
+                    <l xml:id="Su.2.1.66"><label>ni.1.66</label> svasthaḥ syāddhṛdaye mukte
+                        hyāvṛte tu pramuhyati/ kaphānvitena vātena jñeya eṣo+apatantrakaḥ// </l>
+                    <l xml:id="Su.2.1.67"><label>ni.1.67</label>
+                            divāsvapnāsanasthānavivṛtādhvanirīkṣaṇaiḥ<ref
+                            rend="superscript footnote marker">&#x2020;</ref>/ manyāstambhaṁ
+                        prakurute sa eva śleṣmaṇā++āvṛtaḥ// </l>
+                    <l xml:id="Su.2.1.68"><label>ni.1.68</label> (<ref
+                            rend="superscript footnote marker"
+                        >&#x2020;</ref>garbhiṇīsūtikābālavṛddhakṣīṇeṣvasṛkkṣaye/)
+                        uccairvyāharato+atyarthaṁ svādataḥ kaṭhināni vā/ hasato <ref
+                            rend="superscript footnote marker">&#x2020;</ref>jṛmbhato
+                        bhārādviṣamācchayanādapi// </l>
+                    <l xml:id="Su.2.1.69"><label>ni.1.69</label>
+                        śironāsauṣṭhacibukalalāṭekṣaṇasandhigaḥ/ ardayitvā+anilo vaktramarditaṁ
+                        janayatyataḥ// </l>
+                    <l xml:id="Su.2.1.70"><label>ni.1.70</label> vakrībhavati vaktrārdhaṁ grīvā
+                        cāpyapavartate/ śiraścalati vāksaṅgo netrādīnāṁ ca vaikṛtam// </l>
+                    <l xml:id="Su.2.1.71"><label>ni.1.71</label> grīvācibukadantānāṁ tasmin
+                        pārśve tu vedanā/ yasyāgrajo romaharṣo vepathurnetramāvilam// </l>
+                    <l xml:id="Su.2.1.72"><label>ni.1.72</label> vāyurūrdhvaṁ tvaci svāpastodo
+                        manyāhanugrahaḥ/ tamarditamiti grāhurvyādhiṁ vyādhiviśāradāḥ// </l>
+                    <l xml:id="Su.2.1.73"><label>ni.1.73</label> kṣīṇasyānimiṣākṣasya
+                            prasaktaṁ<ref rend="superscript footnote marker">&#x2020;</ref>
+                        saktabhāṣiṇaḥ/ na sidhyatyarditaṁ bāḍhaṁ trivarṣaṁ vepanasya ca// </l>
+                    <l xml:id="Su.2.1.74"><label>ni.1.74</label>
+                        <ref rend="superscript footnote marker">&#x2020;</ref>pārṣṇipratyaṅgulīnāṁ
+                        tu kaṇḍarā yā+anilārditāḥ/ <ref rend="superscript footnote marker"
+                            >&#x2020;</ref>sakthnaḥ kṣepaṁ nigṛhṇīyādgṛdhrasīti hi sā smṛtā// </l>
+                    <l xml:id="Su.2.1.75"><label>ni.1.75</label>
+                        <ref rend="superscript footnote marker">&#x2020;</ref>talapratyaṅgulīnāṁ tu
+                        kaṇḍarā bāhupṛṣṭhataḥ/ bāhvoḥ karmakṣayakarī viśvācīti hi sā smṛtā// </l>
+                    <l xml:id="Su.2.1.76"><label>ni.1.76</label> vātaśoṇitajaḥ śopho jānumadhye
+                        mahārujaḥ/ śiraḥ kroṣṭukapūrvaṁ tu sthūlaḥ kroṣṭukamūrdhavat// </l>
+                    <l xml:id="Su.2.1.77"><label>ni.1.77</label> vāyuḥ <ref
+                            rend="superscript footnote marker">&#x2020;</ref>kaṭyāṁ sthitaḥ sakthnaḥ
+                        kaṇḍarāmākṣipedyadā/ svañjastadā bhavejjantuḥ, paṅguḥ sakthnordvayorvadhāt// </l>
+                    <l xml:id="Su.2.1.78"><label>ni.1.78</label> prakrāman vepate yastu
+                        svañjanniva ca gacchati/ kalāyasvañjaṁ taṁ vidyānmuktasandhiprabandhanam// </l>
+                    <l xml:id="Su.2.1.79"><label>ni.1.79</label> nyaste tu viṣamaṁ(me) pāde rujaḥ
+                        kuryāt samīraṇaḥ/ vātakaṇṭaka ityeṣa vijñeyaḥ khaḍu(la)kāśritaḥ// </l>
+                    <l xml:id="Su.2.1.80"><label>ni.1.80</label> pādayoḥ kurute dāhaṁ
+                        pittāsṛksahito+anilaḥ/ viśeṣataścaṅkramaṇāt pādadāhaṁ tamādiśet// </l>
+                    <l xml:id="Su.2.1.81"><label>ni.1.81</label> hṛṣyataścaraṇau yasya bhavataśca
+                            prasuptavat<ref rend="superscript footnote marker">&#x2020;</ref>/
+                        pādaharṣaḥ sa vijñeyaḥ kaphavātaprakopajaḥ// </l>
+                    <l xml:id="Su.2.1.82"><label>ni.1.82</label> aṁsadeśasthito vāyuḥ
+                        śoṣayitvāṁ+asabandhanam/ sirāścākuñcya tatrastho janayatyavabāhukam// </l>
+                    <l xml:id="Su.2.1.83"><label>ni.1.83</label> yadā śabdavahaṁ sroto
+                        vāyurāvṛtya tiṣṭhati/ śuddhaḥ śleṣmānvito vā+api bādhiryaṁ tena jāyate// </l>
+                    <l xml:id="Su.2.1.84"><label>ni.1.84</label> hanuśaṅkhaśirogrīvaṁ yasya
+                        bhindannivānilaḥ/ karṇayoḥ kurute śūlaṁ karṇaśūlaṁ taducyate// </l>
+                    <l xml:id="Su.2.1.85"><label>ni.1.85</label> āvṛtya sakapho vāyurdhamanīḥ
+                        śabdavāhīnīḥ/ narān karotyakriyakānmūkaminmiṇagadgadān// </l>
+                    <l xml:id="Su.2.1.86"><label>ni.1.86</label> adho yā vedanāṁ yāti
+                        varcomūtrāśayotthitā/ bhindatīva gudopasthaṁ sā tūnītyabhidhīyate// </l>
+                    <l xml:id="Su.2.1.87"><label>ni.1.87</label> gudopasthotthitā saiva
+                        pratilomavisarpiṇī/ vegaiḥ pakvāśayaṁ yāti pratitūnīti sā smṛtā// </l>
+                    <l xml:id="Su.2.1.88"><label>ni.1.88</label>
+                        sāṭopamatyugrarujamādhmātamudaraṁ bhṛśam/ ādhmānamiti jānīyādghoraṁ
+                        vātanirodhajam// </l>
+                    <l xml:id="Su.2.1.89"><label>ni.1.89</label> vimuktapārśvahṛdayaṁ
+                        tadevāmāśayotthitam/ pratyādhmānaṁ vijānīyāt kaphavyākulitānilam// </l>
+                    <l xml:id="Su.2.1.90"><label>ni.1.90</label> aṣṭhīlāvadghanaṁ
+                        granthimūrdhvamāyatamunnatam/ vātāṣṭhīlāṁ vijānīyādbahirmārgavarodhinīm<ref
+                            rend="superscript footnote marker">&#x2020;</ref>// </l>
+                    <l xml:id="Su.2.1.91"><label>ni.1.91</label> enāmeva rujāyuktāṁ
+                        vātaviṇmūtrarodhinīm/ pratyaṣṭhīlāmiti vadejjāṭhare tiryagutthitām//</l>
+                    <trailer>iti suśrutasaṁhitāyāṁ nidānasthāne vātavyādhinidānaṁ nāma
+                        prathamo+adhyāyaḥ //1//</trailer>
+                </div>
+                <div n="2" type="level2" subtype="adhyāyaḥ">
+                    <head>dvitīyo+adhyāyaḥ/</head>
+                    <l xml:id="Su.2.2.1"><label>ni.2.1</label> athāto+arśasāṁ nidānaṁ
+                        vyākhyāsyāmaḥ// </l>
+                    <l xml:id="Su.2.2.2"><label>ni.2.2</label> yathovāca bhagavān dhanvantariḥ// </l>
+                    <l xml:id="Su.2.2.3"><label>ni.2.3</label> ṣaḍarśāṁsi bhavanti
+                        vātapittakaphaśoṇitasannipātaiḥ sahajāni cet// </l>
+                    <l xml:id="Su.2.2.4"><label>ni.2.4</label> tatrānātmavatāṁ yathoktaiḥ
+                        prakopaṇairviruddhādhyaśanastrīprasaṅgotkaṭukāsanapṛṣṭhayānavvegavidhāraṇādibhirviśeṣaiḥ
+                        prakupitā doṣā ekaśo dviśaḥ samastāḥ śoṇitasahitā vā yathoktaṁ prasṛtāḥ
+                        pradhānadhamanīranuprapadyādho gatvā gudamāgamya pradūṣya
+                        gudavalīrmāṁsaprarohāñjanayanti viśeṣato mandāgneḥ, tathā
+                            tṛṇakāṣṭhopalaloṣṭhavastrādibhiḥ<ref rend="superscript footnote marker"
+                            >&#x2020;</ref> śītodakasaṁsparśanādvā kandāḥ parivṛddhimāsādayanti,
+                        tānyarśāṁsītyācakṣate// </l>
+                    <l xml:id="Su.2.2.5"><label>ni.2.5</label> tatra
+                        sthūlāntrapratibaddhamardhapañcāṅgulaṁ gudamāhuḥ, tasmin
+                        valayastisro+adhyāṅgulāntarasaṁbhūtāḥ pravāhaṇī visarjanī saṁvaraṇī ceti
+                            caturaṅgulāyatāḥ<ref rend="superscript footnote marker">&#x2020;</ref>;
+                        sarvāstiryagekāṅgulocchritāḥ// </l>
+                    <l xml:id="Su.2.2.6"><label>ni.2.6</label> śaṅkhāvartanibhāścāpi uparyupari
+                        saṁsthitāḥ/ gajatālunibhāścāpi varṇataḥ saṁprakīrtitāḥ/ romāntebhyo
+                        yavādhyardho gudauṣṭhaḥ parikīrtitaḥ// </l>
+                    <l xml:id="Su.2.2.7"><label>ni.2.7</label> prathamā tu
+                        gudauṣṭhādaṅgulamātre// </l>
+                    <l xml:id="Su.2.2.8"><label>ni.2.8</label> teṣāṁ tu bhaviṣyatāṁ pūrvarūpāṇi
+                        anne+aśraddhā kṛcchrāt paktiramlīkā paridāho viṣṭambhaḥ pipāsā
+                        sakthisadanamāṭopaḥ kārśyamudgārabāhulyamakṣṇoḥ śvayathurantrakūjanaṁ
+                        gudaparikartanamāśaṅkā pāṇḍurogagrahaṇīdoṣaśoṣāṇāṁ kāsaśvāsau
+                        balahānirmramastandrā nidrendriyadaurbalyaṁ ca// </l>
+                    <l xml:id="Su.2.2.9"><label>ni.2.9</label> jāteṣvetānyeva lakṣaṇāni
+                        pravyaktatarāṇi bhavanti// </l>
+                    <l xml:id="Su.2.2.10"><label>ni.2.10</label> tatra mārutāt
+                        pariśuṣkāruṇavivarṇāni viṣamamadhyāni <ref
+                            rend="superscript footnote marker"
+                        >&#x2020;</ref>kadambapuṣpatuṇḍikerīnāḍīmukulasūcīmukhākṛtīni ca bhavanti;
+                        tairupadrutaḥ saśūlaṁ saṁhatamupaveśyate,
+                        kaṭīpṛṣṭhapārśvameḍhragudamābhipradeśeṣu cāsya vedanā bhavanti,
+                        gulmāṣṭhīlāplīhodarāṇi cāsya tannimittānyeva bhavanti,
+                        kṛṣṇatvaṅnakhanayanadaśanavadanamūtrapurīṣaśca puruṣo bhavati// </l>
+                    <l xml:id="Su.2.2.11"><label>ni.2.11</label> pittānnīlāgrāṇi tanūni visarpīṇi
+                        pītāvabhāsāni yakṛtprakāśāni śukajihvāsaṁsthānāni yavamadhyāni
+                        jalaukovaktrasadṛśāni praklinnāni ca bhavanti; tairupadrutaḥ sadāhaṁ
+                        sarudhiramatisāryate, jvaradāhapipāsāmūrcchāścāsyopadravā bhavanti,
+                        pītatvaṅnakhanayanadaśanavadanamūtrapurīṣaśca puruṣo bhavati// </l>
+                    <l xml:id="Su.2.2.12"><label>ni.2.12</label> śleṣmajāni śvetāni mahāmūlāni
+                        sthirāṇi vṛttāni snigdhāni pāṇḍūni karīrapanasāsthigostanākārāṇi, na
+                        bhidyante na sravanti kaṇḍūbahulāni ca bhavanti; tairupadrutaḥ
+                        saśleṣmāṇamanalpaṁ māṁsadhāvanaprakāśamatisāryate,
+                        śophaśītajvarārocakāvipākaśirogauravāṇi cāsya tannimittānyeva bhavanti,
+                        śuklatvaṅgakhanayanadaśanavadanamūtrapurīṣaśca puruṣo bhavati// </l>
+                    <l xml:id="Su.2.2.13"><label>ni.2.13</label> raktajāni
+                            nyagrodhaprarohavidrumakākaṇantikāphalasadṛśāni<ref
+                            rend="superscript footnote marker">&#x2020;</ref> pittalakṣaṇāni ca,
+                        yadā+avagāḍhapurīṣapīḍitāni bhavanti tadā+atyarthaṁ duṣṭamanalpamasṛk sahasā
+                        visṛjanti, tasya cātipravṛttau śoṇitāti yogopadravā bhavanti// </l>
+                    <l xml:id="Su.2.2.14"><label>ni.2.14</label> sannipātajāni
+                            sarvadoṣalakṣaṇayuktāni<ref rend="superscript footnote marker"
+                            >&#x2020;</ref>// </l>
+                    <l xml:id="Su.2.2.15"><label>ni.2.15</label> sahajāni
+                        duṣṭaśoṇitaśukranimittāni, teṣāṁ doṣata eva prasādhanaṁ kartavyaṁ,
+                        viśeṣataścaitāni durdarśanāni paruṣāṇi <ref
+                            rend="superscript footnote marker">&#x2020;</ref>pāṁsūni
+                        dāruṇānyantarmukhāni; tairupadrutaḥ kṛśo+alpabhuk
+                        sirāsantatagātro+alpaprajaḥ kṣīṇaretāḥ kṣāmasvaraḥ
+                            krodhano+alpāgniprāṇaḥ<ref rend="superscript footnote marker"
+                            >&#x2020;</ref> paramalasaśca, tathā ghrāṇaśiro+akṣināsāśravaṇarogī,
+                        satatamantrakūjāṭopahṛdayopalepārocakaprabhṛtibhiḥ pīḍyate// </l>
+                    <l xml:id="Su.2.2.16"><label>ni.2.16</label> bhavati cātra---
+                        bāhyamadhyavalisthānāṁ pratikuryādbhiṣagvaraḥ/ antarvalisamutthānāṁ
+                        pratyākhyāyācaret kriyām// </l>
+                    <l xml:id="Su.2.2.17"><label>ni.2.17</label> parkupitāstu doṣā
+                        meḍhramabhiprapannā māṁsaśoṇite pradūṣya kaṇḍūṁ janayanti, tataḥ kaṇḍūyanāt
+                        kṣataṁ samupajāyate, tasmiṁśca kṣate duṣṭamāṁsajāḥ prarohāḥ
+                        picchilalarudhirasrāviṇo jāyante kūrcakino+abhyantaramupariṣṭādvā, te tu
+                        śepho vināśayantyupaghnanti ca puṁstvaṁ; yonimabhiprapannāḥ sukumārān
+                        durgandhān picchilarudhirasrāviṇaśchatrākārān karīrāñjanayanti, te tu
+                        yonimupaghnantyārtavaṁ ca; nābhimabhiprapannāḥ sukumārān durgandhān
+                        picchilān gaṇḍūpadamukhasadṛśān karīrāñjanayanti; ta evordhvamāgatāḥ
+                        śrotrākṣighrāṇavadaneṣvarśāṁsyupanirvartayanti; tatra karṇajeṣu bādhiryaṁ
+                        śūlaṁ pūtikarṇatā ca, netrajeṣu vartmā varodho vedanā srāvo darśananāśaśca,
+                        ghrāṇajeṣu pratiśyāyo+atimātraṁ kṣavathuḥ kṛcchrocchvāsatā pūtinasyaṁ
+                        sānunāsikavākyatvaṁ śiroduḥkhaṁ ca; vaktrajeṣu
+                        kaṇṭhauṣṭhatālūnāmanyatamasmiṁstairgadgadavākyatā rasājñānaṁ mukharogāśca
+                        bhavanti// </l>
+                    <l xml:id="Su.2.2.18"><label>ni.2.18</label> vyānastu prakupitaḥ śleṣmāṇaṁ
+                        parigṛhya bahiḥ sthirāṇi kīlavadarśāṁsi nirvartayati, tāni
+                        carmakīlānyarśāṁsītyācakṣate// </l>
+                    <l xml:id="Su.2.2.19"><label>ni.2.19</label> bhavanti cātra--- teṣu kīleṣu
+                        nistodo mārutenopajāyate/ śleṣmaṇā tu savarṇatvaṁ granthitvaṁ ca
+                        vinirdiśet// </l>
+                    <l xml:id="Su.2.2.20"><label>ni.2.20</label> pittaśoṇitajaṁ <ref
+                            rend="superscript footnote marker">&#x2020;</ref>raukṣyaṁ kṛṣṇatvaṁ
+                        ślakṣṇatā tathā/ samudīrṇakharatvaṁ ca carmakīlasya lakṣaṇam// </l>
+                    <l xml:id="Su.2.2.21"><label>ni.2.21</label> arśasāṁ lakṣaṇaṁ vyāsāduktaṁ
+                            sāmānyatastu<ref rend="superscript footnote marker">&#x2020;</ref> yat/
+                        tatsarvaṁ prāgvinirdiṣṭātsādhayedbhiṣajāṁ varaḥ// </l>
+                    <l xml:id="Su.2.2.22"><label>ni.2.22</label> arśaḥsu dṛśyate rūpaṁ yadā
+                            doṣadvayasya<ref rend="superscript footnote marker">&#x2020;</ref> tu/
+                        saṁsargaṁ taṁ vijānīyāt saṁsargaḥ sa ca ṣaḍvidhiḥ// </l>
+                    <l xml:id="Su.2.2.23"><label>ni.2.23</label> tridoṣāṇyalpaliṅgāni yāpyāni tu
+                        vinirdiśet/ dvandvajāni dvitīyāyāṁ valau yānyāśritāni ca// </l>
+                    <l xml:id="Su.2.2.24"><label>ni.2.24</label> kṛcchrasādhyāni tānyāhuḥ
+                        parisaṁvatsarāṇi ca/ sannipātasamutthāni sahajāni tu varjayet// </l>
+                    <l xml:id="Su.2.2.25"><label>ni.2.25</label> sarvāḥ syurvalayo yeṣāṁ
+                        durnāmabhirupadrutāḥ/ taistu pratihato vāyurapānaḥ sannivartate// </l>
+                    <l xml:id="Su.2.2.26"><label>ni.2.26</label> tato vyānena saṅgamya <ref
+                            rend="superscript footnote marker">&#x2020;</ref>jyotirmṛdgāti
+                        dehinām//</l>
+                    <trailer>iti suśrutasaṁhitāyāṁ nidānasthāne+arśonidānaṁ nāma
+                        dvitīyo+adhyāyaḥ//2// </trailer>
+                </div>
+                <div n="3" type="level2" subtype="adhyāyaḥ">
+                    <head>tṛtīyo+adhyāyaḥ/</head>
+                    <l xml:id="Su.2.3.1"><label>ni.3.1</label> athāto+aśmarīṇāṁ nidānaṁ
+                        vyākhyāsyāmaḥ// </l>
+                    <l xml:id="Su.2.3.2"><label>ni.3.2</label> yathovāca bhagavān dhanvantariḥ// </l>
+                    <l xml:id="Su.2.3.3"><label>ni.3.3</label> catasro+aśmaryo bhavanti;
+                        śleṣmādhiṣṭhānāḥ; tadyathā śleṣmaṇā, vātena, pittena, śukreṇa cet// </l>
+                    <l xml:id="Su.2.3.4"><label>ni.3.4</label>
+                        <ref rend="superscript footnote marker"
+                        >&#x2020;</ref>tatrāsaṁśodhanaśīlasyāpathyakāriṇaḥ prakupitaḥ śleṣmā
+                        mūtrasaṁpṛkto+anupraviśya bastimaśmarīṁ janayati// </l>
+                    <l xml:id="Su.2.3.5"><label>ni.3.5</label>
+                        <ref rend="superscript footnote marker">&#x2020;</ref>tāsāṁ pūrvarūpāṇi
+                        jvaro vastipīḍārocakau mūtrakṛcchraṁ bastiśiromuṣkaśephasāṁ vedanā <ref
+                            rend="superscript footnote marker">&#x2020;</ref>kṛcchrāvasādo
+                        bastagandhitvaṁ mūtrasyeti// </l>
+                    <l xml:id="Su.2.3.6"><label>ni.3.6</label> yathāsvavedanāvarṇaṁ duṣṭaṁ
+                        sāndramathāvilam/ pūrvarūpe+aśmanaḥ kṛcchrānmūtraṁ sṛjati mānavaḥ<ref
+                            rend="superscript footnote marker">&#x2020;</ref>// </l>
+                    <l xml:id="Su.2.3.7"><label>ni.3.7</label> atha jātāsu
+                        nābhibastisevanīmehaneṣvanyatamasmin mehato vedanā mūtradhārāsaṅgaḥ
+                        sarudhiramūtratā mūtravikiraṇaṁ gomedakaprakāśamatyāvilaṁ<ref
+                            rend="superscript footnote marker">&#x2020;</ref> sasikataṁ visṛjati;
+                        dhāvanalaṅghanaplavanapṛṣṭhayānoṣṇādhvagamanaiścāsya vedanā bhavanti<ref
+                            rend="superscript footnote marker">&#x2020;</ref>// </l>
+                    <l xml:id="Su.2.3.8"><label>ni.3.8</label>
+                        <ref rend="superscript footnote marker">&#x2020;</ref>tatra śleṣmāśmarī
+                        śleṣmalamannamabhyavaharato+atyarthamupalipyādhaḥ parivṛddhiṁ parivṛddhiṁ
+                        prāpya bastimukhamadhiṣṭhāya sroto niruṇaddhi, tasya mūtrapratighātāddālyate
+                        bhidyate nistudyata iva ca bastirguruḥ śītaśca bhavati; aśmarī cātra śvetā
+                        snigdhā mahatī kukkuṭāṇḍapratīkāśā madhūkapuṣpavarṇā vā bhavati, tāṁ
+                        ślaiṣmikīmiti vidyāt// </l>
+                    <l xml:id="Su.2.3.9"><label>ni.3.9</label> pittayutastu śleṣmā
+                        saṁghātamupagamya yathoktāṁ parivṛddhiṁ prāpya bastimukhamadhiṣṭhāya sroto
+                        niruṇaddhi, tasya mūtrapratīghātādūṣyate cūṣyate dahyate pacyata iva
+                        bastiruṣṇavātaśca bhavati; aśmarī cātra saraktā pītāvabhāsā kṛṣṇā
+                        bhallātakāsthipratimā madhuvarṇā vā bhavati, tāṁ paittikīmiti vidyāt// </l>
+                    <l xml:id="Su.2.3.10"><label>ni.3.10</label> vātayutastu śleṣmā
+                        saṁghātamupagamya yathoktāṁ parivṛddhiṁ prāpya bastimukhamadhiṣṭhāya sroto
+                        niruṇaddhi, tasya mūtrapratīghātāttīvrā vedanā bhavati, tadā+atyarthaṁ
+                        pīḍyamāno dantān khādati, nābhiṁ pīḍayati, meḍhraṁ pramṛdgāti, pāyuṁ
+                        spṛśati, viśardhate, vidahati, vātamūtrapurīṣāṇi kṛcchreṇa cāsya mehato
+                        niḥsaranti; aśmarī cātra śyāvā paruṣā viṣamā kharā
+                        kadambapuṣpavatkaṇṭakācitā bhavati, tāṁ vātikīmiti vidyāt// </l>
+                    <l xml:id="Su.2.3.11"><label>ni.3.11</label> prāyeṇaitāstisro+aśmaryo
+                        divāsvapnasamaśanādhyaśanaśītasnigdhagurumadhurāhārapriyatvādviśeṣeṇa
+                        bālānāṁ bhavanti; teṣāmevālpabastikāyatvādanupacitamāṁsatvācca basteḥ
+                        sukhagrahaṇāharaṇā bhavanti/ mahatāṁ tu śukrāśmarī śukranimittā bhavati// </l>
+                    <l xml:id="Su.2.3.12"><label>ni.3.12</label> maithunavighātādatimaithunādvā
+                            <ref rend="superscript footnote marker">&#x2020;</ref>śukraṁ
+                            calitamanirgacchadvimārgagamanādanilo<ref
+                            rend="superscript footnote marker">&#x2020;</ref>+abhitaḥ saṁgṛhya
+                        meḍhravṛṣaṇayorantare saṁharati, saṁhṛtya copaśoṣayati; sā <ref
+                            rend="superscript footnote marker">&#x2020;</ref>mūtramārgamāvṛṇoti,
+                        mūtrakṛcchraṁ bastivedanāṁ vṛṣaṇayośca śvayathumāpādayati, pīḍitamātre ca
+                        tasminneva praveśe pravilayamāpadyate; tāṁ śukrāśmarīmiti vidyāt// </l>
+                    <l xml:id="Su.2.3.13"><label>ni.3.13</label> bhavanti cātra --- śarkarā
+                        sikatā meho bhasmākhyo+aśmarivaikṛtam/ aśmaryā śarkarā jñeyā
+                        tulyavyañjanavedanā// </l>
+                    <l xml:id="Su.2.3.14"><label>ni.3.14</label> pavane+anuguṇe sā tu niretyalpā
+                        viśeṣataḥ/ sā bhinnamūrtirvātena śarkaretyabhidhīyate// </l>
+                    <l xml:id="Su.2.3.15"><label>ni.3.15</label> hṛtpīḍā sakthisadanaṁ kukṣiśūlaṁ
+                        ca vepathuḥ/ tṛṣṇordhvago+anilaḥ kārṣṇyaṁ daurbalyaṁ pāṇḍugātratā// </l>
+                    <l xml:id="Su.2.3.16"><label>ni.3.16</label> arocakrāvipākau tu śarkarārte
+                        bhavanti ca/ mūtramārgapravṛttā sā saktā kuryādupadravān// </l>
+                    <l xml:id="Su.2.3.17"><label>ni.3.17</label> daurbalyaṁ sadanaṁ kārśyaṁ
+                        kukṣiśūlamarocakam/ pāṇḍutvamuṣṇavātaṁ ca tṛṣṇāṁ hṛtpīḍanaṁ vamim// </l>
+                    <l xml:id="Su.2.3.18"><label>ni.3.18</label>
+                        nābhipṛṣṭhakaṭūmuṣkagudavaṅkṣaṇaśephasām/ ekavārastanutvakko madhye
+                        bastiradhomukhaḥ// </l>
+                    <l xml:id="Su.2.3.19"><label>ni.3.19</label> bastirbastiśiraśaiva pauruṣaṁ
+                        vṛṣaṇau gudaḥ/ ekasaṁbandhino hyete gudāsthivivarāśritāḥ// </l>
+                    <l xml:id="Su.2.3.20"><label>ni.3.20</label>
+                        <ref rend="superscript footnote marker">&#x2020;</ref>alābvā iva rūpeṇa
+                        sirāsnāyuparigrahaḥ/ mūtrāśayo malādhāraḥ prāṇāyatanamuttamam// </l>
+                    <l xml:id="Su.2.3.21"><label>ni.3.21</label> pakvāśayagatāstatra nāḍyo
+                        mūtravahāstu yāḥ/ tarpayanti <ref rend="superscript footnote marker"
+                            >&#x2020;</ref>sadā mūtraṁ saritaḥ sāgaraṁ yathā// </l>
+                    <l xml:id="Su.2.3.22"><label>ni.3.22</label> sūkṣmatvānnopalabhyante
+                        mukhānyāsāṁ sahasraśaḥ/ nāḍībhirupanītasya mūtrasyāmāśayāntarāt// </l>
+                    <l xml:id="Su.2.3.23"><label>ni.3.23</label> jāgrataḥ svapataścaiva sa
+                        niḥsyandena pūryate/ āmukhātsalile nyastaḥ pārśvebhyaḥ pūryate navaḥ// </l>
+                    <l xml:id="Su.2.3.24"><label>ni.3.24</label> ghaṭo yathā tathā viddhi
+                        bastirmūtreṇa pūryate/ evameva praveśena vātaḥ pittaṁ kapho+api vā// </l>
+                    <l xml:id="Su.2.3.25"><label>ni.3.25</label> mūtrayuktamupasnehāt praviśya
+                        kurute+aśmarīm/ apsu svacchā(sthā)svapi yathā niṣiktāsu nave ghaṭe// </l>
+                    <l xml:id="Su.2.3.26"><label>ni.3.26</label> kālāntareṇa paṅkaḥ
+                        syādaśmarīsaṁbhavastathā/ saṁhantyāpo yathā divyā māruto+agniśca vaidyutaḥ// </l>
+                    <l xml:id="Su.2.3.27"><label>ni.3.27</label> tadvadvalāsaṁ bastisthamūṣmā
+                        saṁhanti sānilaḥ/ mārute praguṇe bastau mūtraṁ samyak pravartate/ vikārā
+                        vividhāścāpi pratilome bhavanti hi// </l>
+                    <l xml:id="Su.2.3.28"><label>ni.3.28</label> mūtrāghātāḥ pramehāśca
+                        śukradoṣāstathaiva ca/ mūtradoṣāśca ye kecidvastāveva bhavanti hi//</l>
+                    <trailer>iti suśrutasaṁhitāyāṁ nidānasthāne+aśmarīnidānaṁ nāma tṛtīyo+adhyāyaḥ//
+                    </trailer>
+                </div>
+                <div n="4" type="level2" subtype="adhyāyaḥ">
+                    <head>caturtho+adhyāyaḥ/</head>
+                    <l xml:id="Su.2.4.1"><label>ni.4.1</label> athāto bhagandarāṇāṁ nidānaṁ
+                        vyākhyāsyāmaḥ// </l>
+                    <l xml:id="Su.2.4.2"><label>ni.4.2</label> yathovāca bhagavān dhanvantariḥ// </l>
+                    <l xml:id="Su.2.4.3"><label>ni.4.3</label>
+                        vātapittaśleṣmasannipātāgantunimittāḥ
+                        śataponakoṣṭragrīvaparisrāviśambūkāvartonmārgiṇo yathāsaṁkhyaṁ pañca
+                        bhagandarā bhavanti/ te tu bhagagudabastipradeśadāraṇācca bhagandarā
+                        ityucyante/ abhinnāḥ piḍakāḥ, bhinnāstu bhagandarāḥ// </l>
+                    <l xml:id="Su.2.4.5"><label>ni.4.5</label> tatrāpathyasevināṁ vāyuḥ
+                        prakupitaḥ sannivṛttaḥ sthirībhūto <ref rend="superscript footnote marker"
+                            >&#x2020;</ref>gudamabhito+aṅgule dvyaṅgule vā māṁsaśoṇite
+                        pradūṣyāruṇavarṇāṁ piḍakāṁ janayati, sā+asya todādīn vedanāviśeṣāñjanayati,
+                        apratikriyamāṇā ca pākamupaiti, mūtrāśayābhyāsagatatvācca vraṇaḥ praklinnaḥ
+                        śataponakavadaṇumukhaiśchidrairāpūryate, tāni ca chidrāṇyajasramacchaṁ
+                        phenānuviddhamadhikamāsrāvaṁ <ref rend="superscript footnote marker"
+                            >&#x2020;</ref>sravanti, vraṇaśca tāḍyate bhidyate chidyate sūcībhiriva
+                        nistudyate, gudaṁ cāvadīryate, upekṣite ca vātamūtrapurīṣaretasāmapyāgamaśca
+                        taireva chidrairbhavati; taṁ bhagandaraṁ śataponakamityācakṣate// </l>
+                    <l xml:id="Su.2.4.6"><label>ni.4.6</label> pittaṁ tu prakupitamanilenādhaḥ
+                        preritaṁ pūrvavadavasthitaṁ raktāṁ <ref rend="superscript footnote marker"
+                            >&#x2020;</ref>tanvīmucchritāmuṣṭragrīvākāāṁ piḍakāṁ janayati; sā+asya
+                        coṣādīn vedanāviśeṣāñjanayati; apratikriyamāṇā ca pākamupaiti;
+                        vraṇaścāgnikṣārābhyāmiva dahyate, durgandhamuṣṇamāsrāvaṁ sravati,
+                        upekṣitaśca vātamūtrapurīṣaretāṁsi visṛjati; taṁ
+                        bhagandaramuṣṭragrīvamityācakṣate// </l>
+                    <l xml:id="Su.2.4.7"><label>ni.4.7</label> śleṣmā tu prakupitaḥ
+                        samīraṇenādhaḥ preritaḥ pūrvavadavasthitaḥ śuklāvabhāsāṁ sthirāṁ kaṇḍūmatīṁ
+                        piḍakāṁ janayati, sā+asya kaṇḍvādīn vedanāviśeṣāñajanayati, apratikriyamāṇā
+                        ca pākamupaiti, vraṇaśca kaṭhinaḥ saṁrambhī kaṇḍūprāyaḥ
+                        picchilamajasramāsrāvaṁ sravati, upekṣitaśca vātamūtrapurīṣaretāṁsi
+                        visṛjati; taṁ bhagandaraṁ parīsrāviṇamityācakṣate// </l>
+                    <l xml:id="Su.2.4.8"><label>ni.4.8</label> vāyuḥ prakupitaḥ prakupitau
+                        pittaśleṣmāṇau parigṛhyādho gatvā pūrvavadavasthitaḥ pādāṅguṣṭhāgrapramāṇāṁ
+                        sarvaliṅgāṁ piḍakāṁ janayati, sā+asya todadāhakaṇḍvādīn
+                        vedanāviśeṣāñjanayati, apratikriyamāṇā ca pākamuapaiti, vraṇaśca
+                        nānāvidhavarṇamāsrāvaṁ sravati, pūrṇanadīśambūkāvartavaccātra samuttiṣṭhanti
+                        vedanāviśeṣāḥ; taṁ bhagandaraṁ śambūkāvartamityācakṣate// </l>
+                    <l xml:id="Su.2.4.9"><label>ni.4.9</label> mūḍhena<ref
+                            rend="superscript footnote marker">&#x2020;</ref> māṁsalubdhena
+                        yadasthiśalyamannena sahābhyavahṛtaṁ
+                        yadā+avagāḍhapurīṣonmiśramapānenādhaḥpreritamasamyagāgataṁ gudamapakṣiṇoti
+                        tadā kṣatanimittaḥ kotha upajāyate, tasmiṁśca kṣate
+                        pūyarudhirāvakīrṇamāṁsakothe bhūmāviva jalapraklinnāyāṁ krimayaḥ saṁjāyante,
+                        te bhakṣayanto gudamanekadhā pārśvato dārayanti, tasya tairmārgaiḥ
+                        kṛmikṛtairvātamūtrapurīṣaretāṁsyabhiniḥsarantiḥ; taṁ
+                        bhagandaramunmārgiṇamityācakṣate// </l>
+                    <l xml:id="Su.2.4.10"><label>ni.4.10</label> bhavanti cātra ---
+                        utpadyate+alparuk śophāt<ref rend="superscript footnote marker"
+                            >&#x2020;</ref> kṣipraṁ cāpyupaśāmayati/ pāyvantadeśe piḍakā sā
+                        jñeyā+anyā bhagandarāt// </l>
+                    <l xml:id="Su.2.4.11"><label>ni.4.11</label> pāyoḥ syād dvyaṅgule deśe
+                        gūḍamūlā sarugjvarā/ bhāgandarīti vijñeyā piḍakā+ato viparyayāt// </l>
+                    <l xml:id="Su.2.4.12"><label>ni.4.12</label> yānayānānmalotsargāt
+                        kaṇḍūrugdāhaśophavān/ pāyurbhavedrujaḥ kaṭyāṁ pūrvarūpaṁ bhagandare// </l>
+                    <l xml:id="Su.2.4.13"><label>ni.4.13</label> ghorāḥ sādhayituṁ duḥkhāḥ sarva
+                        eva bhagandarāḥ/ <ref rend="superscript footnote marker"
+                        >&#x2020;</ref>teṣvasādhyastridoṣotthaḥ kṣatajaśca bhagandaraḥ//</l>
+                    <trailer>iti suśrutasaṁhitāyāṁ nidānasthāne bhagandaranidānaṁ nāma
+                        caturtho+adhyāyaḥ //4//</trailer>
+                </div>
+                <div n="5" type="level2" subtype="adhyāyaḥ">
+                    <head>pañcamo+adhyāyaḥ/</head>
+                    <l xml:id="Su.2.5.1"><label>ni.5.1</label> athātaḥ kuṣṭhanidānaṁ
+                        vyākhyāsyāmaḥ// </l>
+                    <l xml:id="Su.2.5.2"><label>ni.5.2</label> yathovāca bhagavān dhanvantariḥ// </l>
+                    <l xml:id="Su.2.5.3"><label>ni.5.3</label>
+                        <ref rend="superscript footnote marker">&#x2020;</ref>mithyāhārācārasya
+                        viśeṣādguruviruddhāsātmyājīrṇāhitāśinaḥ snehapītasya vāntasya vā
+                        vyāyāmagrāmyadharmasevino grāmyānūpaudakamāṁsāni vā payasā+abhīkṣṇamaśnato
+                        yo vā majjatyapsūṣmābhitaptaḥ sahasāchardiṁ vā pratihanti, tasya
+                        pittaśleṣmāṇau prakupitau parigṛhyānilaḥ pravṛddhastiryaggāḥ sirāḥ
+                        sarprapadya samuddhūya bāhyaṁ mārgaṁ prati samantādvikṣipati, yatra yatra ca
+                        doṣo vikṣipto niścarati tatra tatra maṇḍalāni prādurbhavanti, evaṁ
+                        samutpannastvaci doṣastatra tatra ca parivṛddhiṁ
+                        prāpyāpratikriyamāṇo+abhyantaraṁ pratipadyate dhātūnabhidūṣayan// </l>
+                    <l xml:id="Su.2.5.4"><label>ni.5.4</label> tasya pūrvarūpāṇi
+                        tvakpāruṣyamakasmādromaharṣaḥ kaṇḍūḥ svedabāhulyamasvedanaṁ vā+<ref
+                            rend="superscript footnote marker">&#x2020;</ref>aṅgapradeśānāṁ svāpaḥ
+                        kṣatavisarpaṇamasṛjaḥ kṛṣṇatā ceti// </l>
+                    <l xml:id="Su.2.5.5"><label>ni.5.5</label> tatra sapta mahākuṣṭhāni, ekādaśa
+                        kṣudrakuṣṭhāni, evamaṣṭādaśa kuṣṭhāni bhavanti/ tatra
+                        mahākuṣṭhānyaruṇodumbararṣya(rkṣa)jihvakapālakākaṇaka@puṇḍarīkadadrukuṣṭhānīti/
+                        kṣudrakuṣṭhānyapi sthūlāruṣkaṁ mahākuṣṭhamekakuṣṭhaṁ carmadalaṁ visarpaḥ
+                        parisarpaḥ sidhmaṁ vicarcikā kiṭibhaṁ(maṁ) pāmā cakasā ceti// </l>
+                    <l xml:id="Su.2.5.6"><label>ni.5.6</label> sarvāṇi kuṣṭhāni savātāni
+                        sapittāni saśleṣmāṇi sakrimīṇi ca bhavanti, utsannatastu
+                        doṣagrahaṇamabhibhavāt// </l>
+                    <l xml:id="Su.2.5.7"><label>ni.5.7</label> tatra vātenāruṇaṁ,
+                        pittenodumbararṣya(rkṣa)jihvakapālakākaṇakāni, sleṣmaṇā puṇḍarīkaṁ
+                        dadrukuṣṭhaṁ ceti/ teṣāṁ mahattvaṁ kriyāgurutvamuttarottaraṁ
+                        dhātvanupraveśādasādhyatvaṁ ceti// </l>
+                    <l xml:id="Su.2.5.8"><label>ni.5.8</label> tatra, vātenāruṇābhāni tanūni
+                        visarpīṇi todabhedasvāpayuktānyaruṇāni/ pittena <ref
+                            rend="superscript footnote marker"
+                        >&#x2020;</ref>pakvodumbaraphalākṛtivarṇānyaudumbarāṇi, <ref
+                            rend="superscript footnote marker">&#x2020;</ref>ṛṣya(kṣa)jihvāprakāśāni
+                        kharāṇi ṛṣya(kṣa)jihvāni, kṛṣṇakapālikāprakāśāni kapālakuṣṭhāni,
+                        kākaṇantikāphalasadṛśānyatīva raktakṛṣṇāni kākaṇakāni<ref
+                            rend="superscript footnote marker">&#x2020;</ref>; teṣāṁ
+                        caturṇāmapyoṣacoṣaparidāhadhūmāyanāni kṣiprotthānaprapākabheditvāni
+                        krimijanma ca sāmānyāni liṅgāni/ śleṣmaṇā puṇḍarīkapatraprakāśāni
+                        pauṇḍarīkāṇi, atasīpuṣpavarṇāni tāmrāṇi vā visarpīṇi piḍakāvanti ca
+                        dadrukuṣṭhāni; tayordvayorapyutsannatā parimaṇḍalatā kaṇḍūścirotthānatvaṁ
+                        ceti sāmānyāni rūpāṇi// </l>
+                    <l xml:id="Su.2.5.9"><label>ni.5.9</label> kṣudrakuṣṭhānyata ūrdhvaṁ
+                        vakṣyāmaḥ --- <ref rend="superscript footnote marker">&#x2020;</ref>sthūlāni
+                        sandhiṣvatidāruṇāni <ref rend="superscript footnote marker"
+                        >&#x2020;</ref>sthūlāruṣi syuḥ kaṭhinānyarūṁṣi/ tvakkocabhedasvapanāṅgasādāḥ
+                        kuṣṭhe mahatpūrvayute <ref rend="superscript footnote marker"
+                        >&#x2020;</ref>bhavanti// </l>
+                    <l xml:id="Su.2.5.10"><label>ni.5.10</label> kṛṣṇāruṇaṁ yena bhaveccharīraṁ
+                        tadekakuṣṭhaṁ pravadanti kuṣṭham<ref rend="superscript footnote marker"
+                            >&#x2020;</ref>/ syuryena kaṇḍūvyathanauṣacoṣāstaleṣu<ref
+                            rend="superscript footnote marker">&#x2020;</ref> taccarmadalaṁ
+                        vadanti// </l>
+                    <l xml:id="Su.2.5.11"><label>ni.5.11</label> visarpavat sarpati sarvato
+                        yastvagraktamāṁsānyabhibhūya śīghram/ mūrcchāvidāhāratitodapākām kṛtvā
+                        visarpaḥ sa bhavedvikāraḥ// </l>
+                    <l xml:id="Su.2.5.12"><label>ni.5.12</label> śanaiḥ śarīre piḍakāḥ <ref
+                            rend="superscript footnote marker">&#x2020;</ref>sravantyaḥ sarpanti
+                        yāstaṁ parisarpamāhuḥ/ kaṇḍvanvitaṁ śvetamapāyi sidhma<ref
+                            rend="superscript footnote marker">&#x2020;</ref> vidyāttanu<ref
+                            rend="superscript footnote marker">&#x2020;</ref> prāyaśa ūrdhvakāye// </l>
+                    <l xml:id="Su.2.5.13"><label>ni.5.13</label> rājyo+atikaṇḍvartirujaḥ sarūkṣā
+                        bhavanti gātreṣu vicarcikāyām/ kaṇḍūmatī dāharujopapannā vipādikā
+                        pādagateyameva// </l>
+                    <l xml:id="Su.2.5.14"><label>ni.5.14</label> yat srāvi vṛttaṁ ghanamugrakaṇḍu
+                        tat snigdhakṛṣṇaṁ kiṭibhaṁ(maṁ) vadanti/ <ref
+                            rend="superscript footnote marker"
+                        >&#x2020;</ref>sāsrāvakaṇḍūparidāhakābhiḥ pāmā+aṇukābhiḥ piḍakābhirūhyā// </l>
+                    <l xml:id="Su.2.5.15"><label>ni.5.15</label> sphoṭaiḥ sadāhairati saiva
+                        kacchūḥ sphikpāṇipādaprabhavairnirūpyā/ <ref
+                            rend="superscript footnote marker">&#x2020;</ref>kaṇḍvanvitā yā piḍakā
+                        śarīre saṁsrāvahīnā rakasocyate sā// </l>
+                    <l xml:id="Su.2.5.16"><label>ni.5.16</label>
+                        <ref rend="superscript footnote marker">&#x2020;</ref>aruḥ sasidhmaṁ rakasā
+                        mahacca yaccaikakuṣṭhaṁ kaphajānyamūni/ vāyoḥ prakopāt parisarpamekaṁ śeṣāṇi
+                        pittaprabhavāṇi vidyāt// </l>
+                    <l xml:id="Su.2.5.17"><label>ni.5.17</label> kilāsamapi kuṣṭhavikalpa<ref
+                            rend="superscript footnote marker">&#x2020;</ref> eva; tattrividhaṁ
+                        vātena, pittena, śleṣmaṇā ceti/ kuṣṭhakilāsayorantaraṁ tvaggatameva
+                        kilāsamaparisrāvi ca/ tadvātena maṇḍalamaruṇaṁ paruṣaṁ paridhvaṁsi ca,
+                        pittena padmapatrapratīkāśaṁ saparidāhaṁ ca, śleṣmaṇā śvetaṁ snigdhaṁ
+                        bahalaṁ kaṇḍūmacca/ teṣu saṁbaddhamaṇḍalamantejātaṁ raktaroma
+                        cāsādhyamagnidagdhaṁ ca// </l>
+                    <l xml:id="Su.2.5.18"><label>ni.5.18</label> kuṣṭheṣu tu
+                        tvaksaṁkocasvāpasvedaśophabhedakauṇyasvaropaghātā vātena,
+                            pākāvadaraṇāṅgulipatanakarṇanāsābhaṅgākṣirāgasattvotpattayaḥ<ref
+                            rend="superscript footnote marker">&#x2020;</ref> pittena,
+                        kaṇḍūvarṇabhedaśophāsrāvagauravāṇi śleṣmaṇā// </l>
+                    <l xml:id="Su.2.5.19"><label>ni.5.19</label> tatrādibalapravṛttaṁ pauṇḍarīkaṁ
+                        kākaṇaṁ cāsādhyam// </l>
+                    <l xml:id="Su.2.5.20"><label>ni.5.20</label> bhavanti cātra --- yathā
+                        banaspatirjātaḥ prāpya <ref rend="superscript footnote marker"
+                            >&#x2020;</ref>kālaprakarṣaṇam/ antarbhūmiṁ vigāheta
+                        mūlairvṛṣṭivivardhitaiḥ// </l>
+                    <l xml:id="Su.2.5.21"><label>ni.5.21</label> evaṁ kuṣṭhaṁ samutpannaṁ tvaci
+                        kālaprakarṣataḥ/ krameṇa dhātūn vyāpnoti narasyāpratikāriṇaḥ// </l>
+                    <l xml:id="Su.2.5.22"><label>ni.5.22</label> sparśahāniḥ
+                        svedanatvamīṣatkaṇḍūśca jāyate/ vaivarṇyaṁ rūkṣabhāvaśca kuṣṭhe tvaci <ref
+                            rend="superscript footnote marker">&#x2020;</ref>samāśrite// </l>
+                    <l xml:id="Su.2.5.23"><label>ni.5.23</label> tvaksvāpo romaharṣaśca
+                        svedasyābhipravartanam/ kaṇḍūrvipūyakaścaiva kuṣṭhe śoṇitasaṁśrite// </l>
+                    <l xml:id="Su.2.5.24"><label>ni.5.24</label> bāhulyaṁ vaktraśoṣaśca kārkaśyaṁ
+                        piḍakodgamaḥ/ todaḥ sphoṭaḥ sthiratvaṁ ca kuṣṭhe māṁsasamāśrite// </l>
+                    <l xml:id="Su.2.5.25"><label>ni.5.25</label> daurgandhyamupadehaśca pūyo+atha
+                        krimayastathā/ gātrāṇāṁ bhedanaṁ cāpi kuṣṭhe medaḥsamāśrite// </l>
+                    <l xml:id="Su.2.5.26"><label>ni.5.26</label> nāsābhaṅgo+akṣirāgaśca kṣate ca
+                        krimisaṁbhavaḥ/ bhavet svaropaghātaśca hyasthimajjasamāśrite// </l>
+                    <l xml:id="Su.2.5.27"><label>ni.5.27</label> kauṇyaṁ gatikṣayo+aṅgānāṁ
+                        saṁbhedaḥ kṣatasarpaṇam/ śukrasthānagate liṅgaṁ prāguktāni tathaiva ca// </l>
+                    <l xml:id="Su.2.5.28"><label>ni.5.28</label> strīpuṁsayoḥ
+                        kuṣṭhadoṣādduṣṭaśoṇitaśukrayoḥ/ yadapatyaṁ tayorjātaṁ jñeyaṁ tadapi
+                        kuṣṭhitam// </l>
+                    <l xml:id="Su.2.5.29"><label>ni.5.29</label> kuṣṭhamātmavataḥ sādhyaṁ
+                        tvagraktapiśitāśritam/ medogataṁ bhavedyāpyamasādhyamata uttaram// </l>
+                    <l xml:id="Su.2.5.30"><label>ni.5.30</label>
+                        brahmastrīsajjanavadhaparasvaharaṇādibhiḥ/ karmabhiḥ pāparogasya prāhuḥ
+                        kuṣṭhasya saṁbhavam<ref rend="superscript footnote marker">&#x2020;</ref>// </l>
+                    <l xml:id="Su.2.5.31"><label>ni.5.31</label> mriyate yadi kuṣṭhena
+                        punarjāte+api gacchati/ gātaḥ kaṣṭarato rogo yathā kuṣṭhaṁ prakīrtitam// </l>
+                    <l xml:id="Su.2.5.32"><label>ni.5.32</label> āhārācārayoḥ proktāmāsthāya
+                        mahatīṁ kriyām/ auṣadhīnāṁ viśiṣṭānāṁ tapasaśca niṣevaṇāt/ yastena mucyate
+                        jantuḥ sa puṇyāṁ gatimāpnuyāt// </l>
+                    <l xml:id="Su.2.5.33"><label>ni.5.33</label> prasaṅgādgātrasaṁsparśānniśvāsāt
+                        sahabhojanāt/ sahaśayyāsanāccāpi vastramālyānulepanāt// </l>
+                    <l xml:id="Su.2.5.34"><label>ni.5.34</label> kuṣṭhaṁ jvaraśca śoṣaśca
+                        netrābhiṣyanda eva ca/ aupasargikarogāśca saṁkrāmanti narānnaram//</l>
+                    <trailer>iti suśrutasaṁhitāyāṁ nidānasthāne kuṣṭhanidānaṁ nāma pañcamo+adhyāyaḥ
+                        //5//</trailer>
+                </div>
+                <div n="6" type="level2" subtype="adhyāyaḥ">
+                    <head>ṣaṣṭho+adhyāyaḥ/</head>
+                    <l xml:id="Su.2.6.1"><label>ni.6.1</label> athātaḥ pramehanidānaṁ
+                        vyākhyāsyāmaḥ// </l>
+                    <l xml:id="Su.2.6.2"><label>ni.6.2</label> yathovāca bhagavān dhanvantariḥ// </l>
+                    <l xml:id="Su.2.6.3"><label>ni.6.3</label> divāsvapnāvyāyāmālasyaprasaktaṁ
+                        śītasnigdhamadhuramedyadravānnapānasevinaṁ puruṣaṁ jānīyāt pramehī
+                        bhaviṣyatīti// </l>
+                    <l xml:id="Su.2.6.4"><label>ni.6.4</label> tasya <ref
+                            rend="superscript footnote marker"
+                        >&#x2020;</ref>caivaṁpravṛttasyāparipakvā eva vātapittaśleṣmāṇo yadā medasā
+                        sahaikatvamupetya mūtravāhisrotāṁsyanusṛtyādho gatvā bastermukhamāśritya
+                        nirbhidyante tadā pramehāñjanayanti// </l>
+                    <l xml:id="Su.2.6.5"><label>ni.6.5</label> teṣāṁ tu pūrvarūpāṇi
+                        hastapādataladāhaḥ snigdhapicchilagurutā gātrāṇāṁ madhuraśuklamūtratā tandrā
+                        sādaḥ pipāsā durgandhaśca śvāsastālugalajihvādanteṣu malotpattirjaṭilībhāvaḥ
+                        keśānāṁ vṛddhiśca nakhānām// </l>
+                    <l xml:id="Su.2.6.6"><label>ni.6.6</label> tatrāvilaprabhūtamūtralakṣaṇāḥ
+                        sarva eva pramehā bhavanti// </l>
+                    <l xml:id="Su.2.6.7"><label>ni.6.7</label> sarva eva sarvadoṣasamutthāḥ saha
+                        piḍakābhiḥ// </l>
+                    <l xml:id="Su.2.6.8"><label>ni.6.8</label> tatra, <ref
+                            rend="superscript footnote marker"
+                        >&#x2020;</ref>kaphādudakekṣuvālikāsurāsikatāśanairlavaṇapiṣṭasāndraśukraphenamehā
+                        daśa sādhyāḥ, doṣadūṣyāṇāṁ samakriyatvāt;
+                        pittānnīlaharidrāmlakṣāramañjiṣṭhāśoṇitamehāḥ ṣaḍ yāpyāḥ, doṣadūṣyāṇāṁ
+                        viṣamakriyatvāt; vātāt sarpirvasākṣaudrahastimehāścatvāro+asādhyatamāḥ,
+                        mahātyayikatvāt// </l>
+                    <l xml:id="Su.2.6.9"><label>ni.6.9</label> tatra vātapittamedobhiranvitaḥ
+                        śleṣmā śleṣmapramehāñjanayati, vātakaphaśoṇitamedobhiranvitaṁ pittaṁ
+                        pittapramehān, kaphapittavasāmajjamedobhiranvito vāyurvātapramehān// </l>
+                    <l xml:id="Su.2.6.10"><label>ni.6.10</label> tatra,
+                        śvetamavedanamudakasadṛśamudakamehī mehati; ikṣurasatulyamikṣuvālikāmehī;
+                        surātulyaṁ surāmehī; sarujaṁ sikatānuviddhaṁ sikatāmehī; śanaiḥ sakaphaṁ
+                        mṛtsnaṁ śanairmehī; viśadaṁ lavaṇatulyaṁ lavaṇamehī; hṛṣṭaromā
+                        piṣṭarasatulyaṁ piṣṭamehī; āvilaṁ sāndraṁ sāndramehī; śukratulyaṁ śukramehī;
+                        stokaṁ stokaṁ saphenamacchaṁ phenamehī mehati// </l>
+                    <l xml:id="Su.2.6.11"><label>ni.6.11</label> ata ūrdhvaṁ pittanimittān
+                        vakṣyāmaḥ saphenamacchaṁ nīlaṁ nīlamehī mehati; sadāhaṁ haridrābhaṁ
+                        haridrāmehī; amlarasagandhamamlamehī; srutakṣārapratimaṁ kṣāramehī;
+                        mañjiṣṭhodakaprakāśaṁ mañjiṣṭhāmehī; śoṇitaprakāśaṁ śoṇitamehī mehati// </l>
+                    <l xml:id="Su.2.6.12"><label>ni.6.12</label> ata ūrdhvaṁ vātanimittān
+                        vakṣyāmaḥ sarpiḥprakāśaṁ sarpirmehī mehati; vasāprakāśaṁ vasāmehī;
+                        kṣaudrarasavarṇaṁ kṣaudramehī; mattamātaṅgavadanuprabandhaṁ<ref
+                            rend="superscript footnote marker">&#x2020;</ref> hastimehī mehati// </l>
+                    <l xml:id="Su.2.6.13"><label>ni.6.13</label>
+                        <ref rend="superscript footnote marker"
+                        >&#x2020;</ref>makṣikopasarpaṇamālasyaṁ māṁsopacayaḥ pratiśyāyaḥ
+                        śaithilyārocakāvipākāḥ kaphaprasekacchardinidrākāsaśvāsāśceti
+                        śleṣmajānāmupadravāḥ; vṛṣaṇayoravadaraṇaṁ bastibhedo meḍhratodo hṛdi
+                        śūlamamlīkājvarātīsārārocakā vamathuḥ <ref
+                            rend="superscript footnote marker">&#x2020;</ref>paridhūpanaṁ dāho
+                        mūrcchā pipāsā nidrānāśaḥ pāṇḍurogaḥ pītaviṇmūtranetratvaṁ ceti paittikānāṁ;
+                        hṛdgraho laulyamanidrā stambhaḥ kampaḥ śūlaṁ baddhapurīṣatvaṁ ceti<ref
+                            rend="superscript footnote marker">&#x2020;</ref> vātajānām/ evamete
+                        viṁśati pramehāḥ sopadravā vyākhyātāḥ// </l>
+                    <l xml:id="Su.2.6.14"><label>ni.6.14</label> tatra
+                        vasāmedobhyāmabhipannaśarīrasya tribhirdoṣaiścānugatadhātoḥ pramehiṇo
+                            daśa<ref rend="superscript footnote marker">&#x2020;</ref> piḍakā
+                        jāyante/ tadyathā śarāvikā, sarṣapikā, kacchapikā, jālinī, vinatā, putriṇī,
+                        masūrikā, alajī, vidārikā, vidradhikā ceti// </l>
+                    <l xml:id="Su.2.6.15"><label>ni.6.15</label> śarāvamātrā tadrūpā nimnamadhyā
+                        śarāvikā/ gaurasarṣapasaṁsthānā tatpramāṇā ca sārṣapī// </l>
+                    <l xml:id="Su.2.6.16"><label>ni.6.16</label> sadāhā kūrmasaṁsthānā jñeyā
+                        kacchapikā budhaiḥ/ jālinī tīvradāhā tu māṁsajālasamāvṛtā<ref
+                            rend="superscript footnote marker">&#x2020;</ref>// </l>
+                    <l xml:id="Su.2.6.17"><label>ni.6.17</label> mahatī piḍakā nīlā piḍakā vinatā
+                            smṛtā<ref rend="superscript footnote marker">&#x2020;</ref>/
+                        mahatyalpācitā jñeyā piḍakā sā tu putriṇī// </l>
+                    <l xml:id="Su.2.6.18"><label>ni.6.18</label> masūrasamasaṁsthānā jñeyā sā tu
+                        masūrikā/ raktā sitā sphoṭavatī dāruṇā tvalajī bhavet// </l>
+                    <l xml:id="Su.2.6.19"><label>ni.6.19</label> vidārīkandavadvṛttā kaṭhinā ca
+                        vidārikā/ vidradherlakṣaṇairyuktā jñeyā vidradhikā budhaiḥ// </l>
+                    <l xml:id="Su.2.6.20"><label>ni.6.20</label> gude hṛdi śirasyaṁse pṛṣṭhe
+                        marmaṇi cotthitāḥ/ sopadravā <ref rend="superscript footnote marker"
+                            >&#x2020;</ref>durbalāgreḥ piḍakāḥ parivarjayet// </l>
+                    <l xml:id="Su.2.6.21"><label>ni.6.21</label> kṛtsnaṁ śarīraṁ niṣpīḍya
+                        medomajjavasāyutaḥ/ adhaḥ prakramate vayustenāsādhyāstu vātajāḥ// </l>
+                    <l xml:id="Su.2.6.22"><label>ni.6.22</label> pramehapūrvarūpāṇāmākṛtiryatra
+                        dṛśyate/ kiṁciccāpyadhikaṁ mūtraṁ taṁ <ref
+                            rend="superscript footnote marker">&#x2020;</ref>pramehiṇamādiśet// </l>
+                    <l xml:id="Su.2.6.23"><label>ni.6.23</label> kṛtsnānyardhāni vā yasmin
+                        pūrvarūpāṇi mānave/ pravṛttamūtramatyarthaṁ taṁ pramehiṇamādiśet<ref
+                            rend="superscript footnote marker">&#x2020;</ref>// </l>
+                    <l xml:id="Su.2.6.24"><label>ni.6.24</label> piḍakāpiḍitaṁ
+                        gāḍhamupasṛṣṭamupadravaiḥ/ madhumehinamācaṣṭe sa cāsādhyaḥ prakīrtitaḥ// </l>
+                    <l xml:id="Su.2.6.25"><label>ni.6.25</label> sa cāpi gamanāt sthānaṁ
+                        sthānadāsanamicchati/ āsanādvṛṇute śayyāṁ śayanāt <ref
+                            rend="superscript footnote marker">&#x2020;</ref>svapnamicchati// </l>
+                    <l xml:id="Su.2.6.26"><label>ni.6.26</label> yathā hi <ref
+                            rend="superscript footnote marker">&#x2020;</ref>varṇānāṁ
+                        pañcānāmutkarṣāpakarṣakṛtena saṁyogaviśeṣeṇa
+                        śabalababhrukapilakapotamecakādīnāṁ varṇānāmanekeṣāmutpattirbhavati, evameva
+                        doṣadhātumalāhāraviśeṣeṇotkarṣāpakarṣakṛtena saṁyogaviśeṣeṇa pramehāṇāṁ
+                        nānākaraṇaṁ bhavati// </l>
+                    <l xml:id="Su.2.6.27"><label>ni.6.27</label> bhavati cātra sarva eva
+                        pramehāstu kālenāpratikurvataḥ<ref rend="superscript footnote marker"
+                            >&#x2020;</ref>/ madhumehatvamāyānti tadā+asādhyā bhavanti hi//</l>
+                    <trailer>iti suśrutasaṁhitāyāṁ nidānasthāne pramehanidānaṁ nāma ṣaṣṭho+adhyāyaḥ
+                        //6//</trailer>
+                </div>
+                <div n="7" type="level2" subtype="adhyāyaḥ">
+                    <head>saptamo+adhyāyaḥ/</head>
+                    <l xml:id="Su.2.7.1"><label>ni.7.1</label> athāta udarāṇāṁ nidānaṁ
+                        vyākhyāsyāmaḥ// </l>
+                    <l xml:id="Su.2.7.2"><label>ni.7.2</label> yathovāca bhagavān dhanvantariḥ// </l>
+                    <l xml:id="Su.2.7.3"><label>ni.7.3</label> dhanvantarirdharmabhṛtāṁ variṣṭho
+                            rājarṣirindrapratimo+abhavadyaḥ<ref rend="superscript footnote marker"
+                            >&#x2020;</ref>/ brahmarṣiputraṁ vinayopapannaṁ śiṣyaṁ śubhaṁ
+                        suśrutamanvaśāt saḥ// </l>
+                    <l xml:id="Su.2.7.4"><label>ni.7.4</label> pṛthak samastairapi ceha doṣaiḥ
+                        plīhodaraṁ baddhagudaṁ tathaiva/ āgantukaṁ saptamamaṣṭamaṁ ca dakodaraṁ ceti
+                        vadanti tāni// </l>
+                    <l xml:id="Su.2.7.5"><label>ni.7.5</label> sudurbalāgnerahitāśanasya
+                        saṁśuṣkapūtyannaniṣevaṇādvā/ snehādimithyācaraṇācca jantorvṛddhiṁ gatāḥ
+                        koṣṭhamabhiprapannāḥ// </l>
+                    <l xml:id="Su.2.7.6"><label>ni.7.6</label> gulmākṛtivyañjitalakṣaṇāni
+                        kurvanti ghorāṇyudarāṇi doṣāḥ/ koṣṭhādupasnehavadannasāro niḥsṛtya
+                        duṣṭo+anilaveganunnaḥ// </l>
+                    <l xml:id="Su.2.7.7"><label>ni.7.7</label> tvacaḥ samunnamya śanaiḥ
+                        samantādvivardhamāno jaṭharaṁ karoti/ tatpūrvarūpaṁ
+                        balavarṇakāṅkṣāvalīvināśo jaṭhare hi rājyaḥ// </l>
+                    <l xml:id="Su.2.7.8"><label>ni.7.8</label> jīrṇāparijñānavidāhavatyo bastau
+                        rujaḥ pādagataśca śophaḥ/ saṁgṛhya pārśvodarapṛṣṭhanābhīryadvardhate
+                        kṛṣṇasirāvanaddham// </l>
+                    <l xml:id="Su.2.7.9"><label>ni.7.9</label> saśūlamānāhavadugraśabdaṁ
+                        satodabhedaṁ pavanātmakaṁ tat/ yaccoṣatṛṣṇājvaradāhayuktaṁ pītaṁ sirā bhānti
+                        ca yatra pītāḥ// </l>
+                    <l xml:id="Su.2.7.10"><label>ni.7.10</label> pītākṣiviṇmūtranakhānanasya
+                        pittodaraṁ tattvacirābhivṛddhi/ yacchītalaṁ śuklasirāvanaddhaṁ guru sthiraṁ
+                        śuklanakhānanasya// </l>
+                    <l xml:id="Su.2.7.11"><label>ni.7.11</label> snigdhaṁ mahacchophayutaṁ
+                        sasādaṁ kaphodaraṁ tattu cirābhivṛddhi/ striyo+annapānaṁ
+                        nakharomamūtraviḍārtavairyuktamasādhuvṛttāḥ// </l>
+                    <l xml:id="Su.2.7.12"><label>ni.7.12</label> yasmai prayacchantyarayo
+                        garāṁśca duṣṭāmbudūṣīviṣasevanādvā/ tenāśu raktaṁ kupitāśca doṣāḥ kurvanti
+                        ghoraṁ jaṭharaṁ triliṅgam// </l>
+                    <l xml:id="Su.2.7.13"><label>ni.7.13</label> viśeṣataḥ kupyati dahyate ca sa
+                        cāturo mūrcchati saṁprasaktaṁ pāṇḍuḥ kṛśaḥ śuṣyati tṛṣṇayā ca// </l>
+                    <l xml:id="Su.2.7.14"><label>ni.7.14</label>
+                        <ref rend="superscript footnote marker">&#x2020;</ref>prakīrtitaṁ dūṣyudaraṁ
+                        tu ghoraṁ plīhodaraṁ kīrtayato nibodha/ vidāhyabhiṣyandiratasya jantoḥ
+                        praduṣṭamatyarthamasṛk kaphaśca// </l>
+                    <l xml:id="Su.2.7.15"><label>ni.7.15</label> plīhābhivṛddhiṁ satataṁ karoti
+                        plīhodaraṁ tat pravadanti tajjñāḥ/ vāme ca pārśve parivṛddhimeti viśeṣataḥ
+                        sīdati cāturo+atra// </l>
+                    <l xml:id="Su.2.7.16"><label>ni.7.16</label> mandajvarāgniḥ
+                        kaphapittaliṅgairupadrutaḥ kṣīṇabalo+atipāṇḍuḥ/ savyetarasmin yakṛti
+                        praduṣṭe jñeyaṁ yakṛddālyudaraṁ tadeva// </l>
+                    <l xml:id="Su.2.7.17"><label>ni.7.17</label> yasyāntramannairupalepibhirvā
+                        bālāśmabhirvā <ref rend="superscript footnote marker">&#x2020;</ref>sahitaiḥ
+                        pṛthagvā/ saṁcīyate tatra malaḥ sadoṣaḥ krameṇa nāḍyāmiva saṁkaro hi// </l>
+                    <l xml:id="Su.2.7.18"><label>ni.7.18</label> nirudhyate cāsya gude purīṣaṁ
+                        nireti kṛcchrādapi cālpamalpam/ hṛnnābhimadhye parivṛddhimeti ta(ya)ccodaraṁ
+                        viṭsamagandhikaṁ ca// </l>
+                    <l xml:id="Su.2.7.19"><label>ni.7.19</label> pracchardayan baddhagudī
+                        vibhāvyaḥ tataḥ parisrāvyudaraṁ nibodha/ śalyaṁ yadannopahitaṁ tadantraṁ
+                        bhinatti yasyāgatamanyathā vā// </l>
+                    <l xml:id="Su.2.7.20"><label>ni.7.20</label> tasmāt sruto+antrāt
+                        salilaprakāśaḥ srāvaḥ sravedvai gudatastu bhūyaḥ/nābheradhaścodarameti
+                        vṛddhiṁ nistudyate+atīva vidahyate ca// </l>
+                    <l xml:id="Su.2.7.21"><label>ni.7.21</label> etat parisrāvyudaraṁ pradiṣṭaṁ
+                        dakodaraṁ kīrtayato nibodha/ yaḥ snehapīto+apyanuvāsito vā vānto
+                        virikto+apyathavā nirūḍhaḥ// </l>
+                    <l xml:id="Su.2.7.22"><label>ni.7.22</label> pibejjalaṁ śītalamāśu tasya
+                        srotāṁsi duṣyanti hi tadvahāni/ snehopalipteṣvathavā+api teṣu dakodaraṁ
+                        pūrvavadabhyupaiti// </l>
+                    <l xml:id="Su.2.7.23"><label>ni.7.23</label> snigdhaṁ mahat saṁparivṛttanābhi
+                        bhṛśonnataṁ pūrṇamivāmbunā ca/ yathā dṛtiḥ kṣubhyati kampate ca śabdāyate
+                        cāpi <ref rend="superscript footnote marker">&#x2020;</ref>dakodaraṁ tat// </l>
+                    <l xml:id="Su.2.7.24"><label>ni.7.24</label> ādhmānaṁ
+                        gamane+aśaktirdaurbalyaṁ durbalāgnitā/ śophaḥ sadanamaṅgānāṁ saṅgo
+                        vātapurīṣayoḥ/ dāhastṛṣṇā ca sarveṣu jaṭhareṣu bhavanti hi// </l>
+                    <l xml:id="Su.2.7.25"><label>ni.7.25</label> ante salilabhāvaṁ hi bhajante
+                        jaṭharāṇi tu/ sarvāṇyeva parīpākāttadā <ref
+                            rend="superscript footnote marker">&#x2020;</ref>tāni vivarjayet//</l>
+                    <trailer>iti suśrutasaṁhitāyāṁ nidānasthāne udaranidānaṁ nāma saptamo+adhyāyaḥ
+                        //7//</trailer>
+                </div>
+                <div n="8" type="level2" subtype="adhyāyaḥ">
+                    <head>aṣṭamo+adhyāyaḥ/</head>
+                    <l xml:id="Su.2.8.1"><label>ni.8.1</label> athāto mūḍhagarbhanidānaṁ
+                        vyākhyāsyāmaḥ// </l>
+                    <l xml:id="Su.2.8.2"><label>ni.8.2</label> yathovāca bhagavān dhanvantariḥ// </l>
+                    <l xml:id="Su.2.8.3"><label>ni.8.3</label>
+                        grāmyadharmayānavāhanādhvagamanapraskhalanaprapatanaprapīḍānadhāvanābhighātaviṣamaśayanāsanopavāsavegābhighātātirūkṣakaṭutiktabhojanaśokātikṣārasevanātisāravamanavirecanapreṅkholanājīrṇagarbhaśātanaprabhṛtibhirviśeṣairbandhānānmucyate
+                        garbhaḥ, phalamiva vṛntabandhanādabhighātaviśeṣaiḥ; sa vimuktabandhano
+                        garbhāśayamatikramya yakṛtplīhāntravivarairavasraṁsamānaḥ
+                        koṣṭhasaṁkṣobhamāpādayati, tasyā jaṭharasaṁkṣomādvāyurapāno mūḍhaḥ
+                        pārśvabastiśīrṣodarayoniśūlānāhamūtrasaṅgānāmanyatamamāpādya garbhaṁ <ref
+                            rend="superscript footnote marker">&#x2020;</ref>cyāvayati taruṇaṁ
+                        śoṇitasrāveṇa; tameva
+                        kadācidvivṛddhamasamyagāgatamapatyapathamanuprāptamanirasyamānaṁ
+                        viguṇāpānasaṁmohitaṁ garbhaṁ mūḍhagarbhamityācakṣate// </l>
+                    <l xml:id="Su.2.8.4"><label>ni.8.4</label> tataḥ kīlaḥ<ref
+                            rend="superscript footnote marker">&#x2020;</ref> pratikhuro bījakaḥ
+                        parigha iti/ tatra ūrdhvabāhuśiraḥpādo yo yonimukhaṁ niruṇaddhi kīla iva sa
+                        kīlaḥ; niḥsṛtahastapādaśirāḥ kāyasaṅgī pratikhuraḥ; yo
+                        nirgacchatyekaśirobhujaḥ sa bījakaḥ; yastu parigha iva yonimukhamāvṛtya
+                        tiṣṭhati sa parighaḥ; iti caturvidho bhavatītyeke bhāṣante/ tattu na samyak;
+                        kasmāt sa yadā viguṇānilaprapīḍito+apatyapathamanekadhā prapadyate tadā
+                        saṅkhyā hīyate// </l>
+                    <l xml:id="Su.2.8.5"><label>ni.8.5</label> tatra kaściddvābhyāṁ sakthibhyāṁ
+                        yonimukhaṁ pratipadyate; kaścidābhugnaikasakthirekena;
+                        kaścidābhugnasakthiśarīraḥ sphigdeśena tiryagāgataḥ;
+                        kaściduraḥpārśvapṛṣṭhānāmanyatamena yonidvāraṁ pidhāyāvatiṣṭhate;
+                        antaḥpārśvāpavṛttaśirāḥ kaścidekena bāhunā; kaścidābhugnaśirā bāhudvayena;
+                        kaścidābhugnamadhyo hastapādaśirobhiḥ; kaścidekena sakthnā yonimukhaṁ
+                        pratipadyate+apareṇa pāyum; ityaṣṭavidhā mūḍhagarbhagatiruddiṣṭā samāsena// </l>
+                    <l xml:id="Su.2.8.6"><label>ni.8.6</label> tatra dvāvantyāvasādhyau
+                        mūḍhagarbhau, śeṣānapi <ref rend="superscript footnote marker"
+                            >&#x2020;</ref>viparītendriyārthākṣepakayonibhraṁśasṁvaraṇamakkallaśvāsakāsabhramanipīḍitān
+                        pariharet// </l>
+                    <l xml:id="Su.2.8.7"><label>ni.8.7</label>
+                        <ref rend="superscript footnote marker">&#x2020;</ref>bhavanti cātra kālasya
+                        pariṇāmena muktaṁ vṛntādyathā paham/ prapadyate svabhāvena nānyathā patituṁ
+                        dhruvam// </l>
+                    <l xml:id="Su.2.8.8"><label>ni.8.8</label> evaṁ kālaprakarṣeṇa mukto
+                        nāḍīnibandhanāt/ garbhāśayastho yo garbho jananāya prapadyate// </l>
+                    <l xml:id="Su.2.8.9"><label>ni.8.9</label> kṛmivātābhighātaistu
+                        tadevopadrutaṁ phalam/ patatyakāle+api yathā tathā syādgarbhavicyutiḥ// </l>
+                    <l xml:id="Su.2.8.10"><label>ni.8.10</label> ācaturthāttato māsāt
+                            prasravedgarbhavicyutiḥ<ref rend="superscript footnote marker"
+                            >&#x2020;</ref>/ tataḥ sthiraśarīrasya pātaḥ pañcamaṣaṣṭhayoḥ// </l>
+                    <l xml:id="Su.2.8.11"><label>ni.8.11</label> pravidhyati śiro yā tu śītāṅgī
+                        nirapatrapā/ nīloddhatasirā hanti sā garbhaṁ sa ca tāṁ tathā// </l>
+                    <l xml:id="Su.2.8.12"><label>ni.8.12</label> garbhāspandanamāvīnāṁ praṇāśaḥ
+                        śyāvapāṇḍutā/ bhavatyucchvāsapūtitvaṁ <ref
+                            rend="superscript footnote marker">&#x2020;</ref>śūlaṁ cāntarbhṛte
+                        śiśau// </l>
+                    <l xml:id="Su.2.8.13"><label>ni.8.13</label> mānasāgantubhirmāturupatāpaiḥ
+                        prapīḍitaḥ/ garbho vyāpadyate kukṣau vyādhibhiśca prapīḍitaḥ// </l>
+                    <l xml:id="Su.2.8.14"><label>ni.8.14</label>
+                        <ref rend="superscript footnote marker">&#x2020;</ref>bastamāravipannāyāḥ
+                        kukṣiḥ praspandate yadi/ tatkṣaṇājjanmakāle taṁ
+                        pāṭayitvoddharedbhiṣak//</l>
+                    <trailer>iti suśrutasaṁhitāyāṁ nidānasthāne mūḍhagarbhanidānaṁ
+                        nāmāṣṭamo+adhyāyaḥ //8//</trailer>
+                </div>
+                <div n="9" type="level2" subtype="adhyāyaḥ">
+                    <head>navamo+adhyāyaḥ/</head>
+                    <l xml:id="Su.2.9.1"><label>ni.9.1</label> athāto vidradhīnāṁ nidānaṁ
+                        vyākhyāsyāmaḥ// </l>
+                    <l xml:id="Su.2.9.2"><label>ni.9.2</label> yathovāca bhagavān dhanvantariḥ// </l>
+                    <l xml:id="Su.2.9.3"><label>ni.9.3</label> sarvāmaraguruḥ
+                        śrīmānnimittāntarabhūmipaḥ/ śiṣyāyovāca nikhilamidaṁ vidradhilakṣaṇam// </l>
+                    <l xml:id="Su.2.9.4"><label>ni.9.4</label> tvagraktamāṁsamedāṁsi
+                        pradūṣyāsthisamāśritāḥ/ doṣāḥ śophaṁ śanairghoraṁ janayantyucchritā bhṛśam// </l>
+                    <l xml:id="Su.2.9.5"><label>ni.9.5</label> mahāmūlaṁ rujāvantaṁ vṛttaṁ cā
+                        (vā)+apyathavā++āyatam/ tamāhurvidradhiṁ dhīrā vijñeyaḥ sa ca ṣaṅvidhaḥ// </l>
+                    <l xml:id="Su.2.9.6"><label>ni.9.6</label> pṛthagdoṣaiḥ samastaiśca
+                        kṣatenāpyasṛjā tathā/ ṣaṇṇāmapi hi teṣāṁ tu lakṣaṇaṁ saṁpravakṣyate// </l>
+                    <l xml:id="Su.2.9.7"><label>ni.9.7</label> kṛṣṇo+aruṇo vā paruṣo
+                        bhṛśamatyarthavedanaḥ/ citrotthānaprapākaśca vidradhirvātasaṁbhavaḥ// </l>
+                    <l xml:id="Su.2.9.8"><label>ni.9.8</label> pakvodumbarasaṅkāśaḥ śyāvo vā
+                        jvaradāhavān/ kṣiprotthānaprapākaśca vidradhiḥ pittasaṁbhavaḥ// </l>
+                    <l xml:id="Su.2.9.9"><label>ni.9.9</label> śaravasadṛśaḥ pāṇḍuḥ śītaḥ
+                        stabdho+alpavedanaḥ/ cirotthānaprapākaśca sakaṇḍuśca kaphotthitaḥ// </l>
+                    <l xml:id="Su.2.9.10"><label>ni.9.10</label> tanupītasitāścaiṣāmāsrāvāḥ
+                        kramaśaḥ smṛtāḥ/ nānāvarṇarujāsrāvo ghāṭālo viṣamo mahān// </l>
+                    <l xml:id="Su.2.9.11"><label>ni.9.11</label> viṣamaṁ pacyate cāpi vidradhiḥ
+                        sānnipātikaḥ/ taistairbhāvairabhihate kṣate vā+apathyasevinaḥ// </l>
+                    <l xml:id="Su.2.9.12"><label>ni.9.12</label> kṣatoṣmā vāyuvisṛtaḥ saraktaṁ
+                        pittamīrayet/ jvarastṛṣṇā ca dāhaśca jāyate tasya dehinaḥ// </l>
+                    <l xml:id="Su.2.9.13"><label>ni.9.13</label> eṣa vidradhirāgantuḥ
+                        pittavidradhilakṣaṇaḥ/ kṛṣṇasphoṭāvṛtaḥ śyāvastīvradāharujājvaraḥ<ref
+                            rend="superscript footnote marker">&#x2020;</ref>// </l>
+                    <l xml:id="Su.2.9.14"><label>ni.9.14</label> pittavidradhiliṅgastu
+                        raktavidradhirucyate/ uktā vidradhayo hyete teṣvasādhyastu sarvajaḥ// </l>
+                    <l xml:id="Su.2.9.15"><label>ni.9.15</label> ābhyantarānatastūrdhvaṁ
+                        vidradhīn paricakṣate/ gurvasātmyaviruddhānnaśuṣkasaṁsṛṣṭabhojanāt<ref
+                            rend="superscript footnote marker">&#x2020;</ref>// </l>
+                    <l xml:id="Su.2.9.16"><label>ni.9.16</label>
+                        ativyavāyavyāyāmavegāghātavidāhibhiḥ/ pṛthak saṁbhūya vā doṣāḥ kupitā
+                        gulmarūpiṇam// </l>
+                    <l xml:id="Su.2.9.17"><label>ni.9.17</label> valmīkavatsamunnaddhamantaḥ
+                        kurvanti vidradhim/ gude bastimukhe nābhyāṁ kukṣau vaṅkṣaṇayostathā// </l>
+                    <l xml:id="Su.2.9.18"><label>ni.9.18</label> vṛkkayoryakṛti plīhni hṛdaye
+                        klomni vā tathā/ teṣāṁ liṅgāni jānīyādbāhyavidradhilakṣaṇaiḥ// </l>
+                    <l xml:id="Su.2.9.19"><label>ni.9.19</label>
+                        <ref rend="superscript footnote marker">&#x2020;</ref>āmapakvaiṣaṇīyācca
+                        pakvāpakvaṁ vinirdiśet/ adhiṣṭhānaviśeṣeṇa liṅgaṁ śṛṇu viśeṣataḥ// </l>
+                    <l xml:id="Su.2.9.20"><label>ni.9.20</label> gude vātanirodhastu bastau
+                        kṛcchrālpamūtratā/ nābhyāṁ hikkā tathā++āṭopaḥ kukṣau mārutakopanam// </l>
+                    <l xml:id="Su.2.9.21"><label>ni.9.21</label> kaṭīpṛṣṭhagrahastīvro
+                        vaṅkṣaṇotthe tu vidradhau/ vṛkkayoḥ pārśvasaṅkocaḥ
+                        plīhnyucchvāsāvarodhanam// </l>
+                    <l xml:id="Su.2.9.22"><label>ni.9.22</label> sarvāṅgapragrahastīvro hṛdi
+                        śūlaśca dāruṇaḥ/ śvāso yakṛti tṛṣṇā ca pipāsā klomaje+adhikā// </l>
+                    <l xml:id="Su.2.9.23"><label>ni.9.23</label> āmo vā yadi vā pakvo mahān vā
+                        yadi vetaraḥ/ sarvo marmotthitaścāpi<ref rend="superscript footnote marker"
+                            >&#x2020;</ref> vidradhiḥ kaṣṭa ucyate// </l>
+                    <l xml:id="Su.2.9.24"><label>ni.9.24</label> nābheruparijāḥ pakvā
+                        yāntyūrdhvamitare tvadhaḥ/ jīvatyadho niḥsruteṣu sruteṣūrdhvaṁ na jīvati// </l>
+                    <l xml:id="Su.2.9.25"><label>ni.9.25</label> hṛnnābhibastivarjyā ye teṣu
+                        bhinneṣu bāhyataḥ/ jīvet kadācit puruṣo netareṣu kadācana// </l>
+                    <l xml:id="Su.2.9.26"><label>ni.9.26</label> strīṇāmapaprajātānāṁ prajātānāṁ
+                        tathā+ahitaiḥ/ dāhajvarakaro ghoro jāyate raktavidradhiḥ// </l>
+                    <l xml:id="Su.2.9.27"><label>ni.9.27</label> api samyakprajātānāmasṛk
+                        kāyādaniḥsṛtam/ raktajaṁ vidradhiṁ kuryāt kuksau makkallasaṁjñitam// </l>
+                    <l xml:id="Su.2.9.28"><label>ni.9.28</label> saptāhānnopaśāntaścettato+asau
+                        saṁprapacyate/ viśeṣamatha vakṣyāmi spaṣṭaṁ vidradhigulmayoḥ// </l>
+                    <l xml:id="Su.2.9.29"><label>ni.9.29</label>
+                        gulmadoṣasamutthānadvidradhergulmakasya ca/ kasmānna pacyate gulmo vidradhiḥ
+                        pākameti ca// </l>
+                    <l xml:id="Su.2.9.30"><label>ni.9.30</label> na nibandho+asti gulmānāṁ
+                        vidradhiḥ sanibandhanaḥ/ gulmākārāḥ svayaṁ doṣā vidradhirmāṁsaśoṇite// </l>
+                    <l xml:id="Su.2.9.31"><label>ni.9.31</label> vivarānucaro granthirapsu
+                        budbudako yathā/ evaṁprakāro gulmastu tasmāt pākaṁ na gacchati// </l>
+                    <l xml:id="Su.2.9.32"><label>ni.9.32</label> māṁsaśoṇitavāhulyāt pākaṁ
+                        gacchati vidradhiḥ/ māṁsaśoṇitahīnatvādgulmaḥ pākaṁ na gacchati// </l>
+                    <l xml:id="Su.2.9.33"><label>ni.9.33</label> gulmastiṣṭhati doṣe sve
+                        vidradhirmāṁsaśoṇite/ vidradhiḥ pacyate tasmād gulmaścāpi na pacyate// </l>
+                    <l xml:id="Su.2.9.34"><label>ni.9.34</label> hṛnnābhibastijaḥ pakvo varjyo
+                        yaśca tridoṣajaḥ/ atha majjaparīpāko ghoraḥ samupajāyate// </l>
+                    <l xml:id="Su.2.9.35"><label>ni.9.35</label> so+asthimāṁsanirodhena dvāraṁ na
+                        labhate yadā/ tataḥ sa vyādhinā tena jvalaneneva dahyate// </l>
+                    <l xml:id="Su.2.9.36"><label>ni.9.36</label> asthi(tha) majjoṣmaṇā tena
+                        śīryate dahyamānavat/ vikāraḥ śalyabhūto+ayaṁ kleśayedāturaṁ ciram// </l>
+                    <l xml:id="Su.2.9.37"><label>ni.9.37</label> athāsya karmaṇā vyādhirdvāraṁ tu
+                        labhate yadā/ tato medaḥpramaṁ snigdhaṁ śuklaṁ śītamatho guru// </l>
+                    <l xml:id="Su.2.9.38"><label>ni.9.38</label> bhinne+asthni niḥsravet<ref
+                            rend="superscript footnote marker">&#x2020;</ref> pūyametadasthigataṁ
+                        viduḥ/ vidradhiṁ śāstrakuśalāḥ sarvadoṣarujāvaham//</l>
+                    <trailer>iti suśrutasaṁhitāyāṁ nidānasthāne vidradhinidānaṁ nāma navamo+adhyāyaḥ
+                        //9//</trailer>
+                </div>
+                <div n="10" type="level2" subtype="adhyāyaḥ">
+                    <head>daśamo+adhyāyaḥ/</head>
+                    <l xml:id="Su.2.10.1"><label>ni.10.1</label> athāto
+                        visarpanāḍīstanaroganidānaṁ vyākhyāsyāmaḥ// </l>
+                    <l xml:id="Su.2.10.2"><label>ni.10.2</label> yathovāca bhagavān
+                        dhanvantariḥ// </l>
+                    <l xml:id="Su.2.10.3"><label>ni.10.3</label> tvaṅmāṁsaśoṇitagatāḥ kupitāstu
+                        doṣāḥ sarvāṅgasāriṇamihāsthitamātmaliṅgam/ kurvanti <ref
+                            rend="superscript footnote marker">&#x2020;</ref>vistṛtamanunnatamāśu
+                        śophaṁ taṁ sarvato visaraṇācca visarpamāhuḥ// </l>
+                    <l xml:id="Su.2.10.4"><label>ni.10.4</label> vātātmako+asitamṛduḥ
+                        paruṣo+aṅgamardasaṁbhedatodapavanajvaraliṅgayuktaḥ/ gaṇḍairyadā tu
+                        viṣamairatidūṣitatvādyuktaḥ sa eva kathitaḥ khalu varjanīyaḥ// </l>
+                    <l xml:id="Su.2.10.5"><label>ni.10.5</label> pittātmako
+                        drutagatirjvaradāhapākasphoṭaprabhedabahulaḥ kṣatajaprakāśaḥ/
+                        doṣapravṛddhihatamāṁsasiro yadā syāt srotojakardamanibho na tadā sa
+                        sidhyet// </l>
+                    <l xml:id="Su.2.10.6"><label>ni.10.6</label> śleṣmātmakaḥ sarati
+                        mandamaśīghrapākaḥ snigdhaḥ sitaśvayathuralparugugrahaṇḍuḥ/
+                        sarvātmakastrividhavarṇarujo+avagāḍhaḥ pakvo na sidhyati ca
+                            māṁsasirāpraśātāt<ref rend="superscript footnote marker"
+                        >&#x2020;</ref>// </l>
+                    <l xml:id="Su.2.10.7"><label>ni.10.7</label> sadyaḥkṣatavraṇamupetya narasya
+                        pittaṁ raktaṁ ca doṣabahulasya karoti śoham/ śyāvaṁ
+                        salohitamatijvaradāhapākaṁ sphoṭaiḥ kulatthasadṛśairasitaiśca kīrṇam// </l>
+                    <l xml:id="Su.2.10.8"><label>ni.10.8</label> sidhyanti vātakaphapittakṛtā
+                        visarpāḥ sarvātmakaḥ kṣatakṛtaśca na siddhimeti/ paittānilāvapi ca
+                        darśitapūrvaliṅgau sarve ca marmasu bhavanti hi kṛcchrasādhyāḥ// </l>
+                    <l xml:id="Su.2.10.9"><label>ni.10.9</label> śophaṁ na <ref
+                            rend="superscript footnote marker">&#x2020;</ref>pakvamiti
+                        pakvamupekṣate yo yo vā vraṇaṁ pracurapūyamasādhuvṛttaḥ/ abhyantaraṁ
+                        praviśati pravidārya tasya sthānāni pūrvavihitāni<ref
+                            rend="superscript footnote marker">&#x2020;</ref> tataḥ sa pūyaḥ// </l>
+                    <l xml:id="Su.2.10.10"><label>ni.10.10</label>
+                        tasyātimātragamanādgatirityataśca nāḍīva yadvahati tena matā tu nāḍī/
+                        doṣaistribirbhavati sā pṛthagekaśaśca saṁmūrcchitairapi ca
+                        śalyanimittato+anyā// </l>
+                    <l xml:id="Su.2.10.11"><label>ni.10.11</label> tatrānilāt paruṣasūkṣmamukhī
+                        saśūlā phenānuviddhamadhikaṁ sravati kṣapāyām/
+                        tṛṭtāpatodasadanajvarabhedahetuḥ pītaṁ sravatyadhikamuṣṇamahaḥsu pittāt// </l>
+                    <l xml:id="Su.2.10.12"><label>ni.10.12</label> jñeyā
+                        kaphādbahughanārjunapicchilāsrā rātrisrutiḥ stimitarukkaṭhinā sakaṇḍūḥ/
+                        doṣadvayābhihitalakṣaṇadarśanena tisro gatīrvyatikaraprabhavāstu vidyāt// </l>
+                    <l xml:id="Su.2.10.13"><label>ni.10.13</label>
+                        dāhajvaraśvasanamūrcchanavaktraśoṣā yasyāṁ bhavantyabhihitāni ca lakṣaṇāni/
+                        tāmādiśet pavanapittakaphaprakopādghorāmasukṣayakarīmiva kālarātrim// </l>
+                    <l xml:id="Su.2.10.14"><label>ni.10.14</label> naṣṭaṁ <ref
+                            rend="superscript footnote marker"
+                        >&#x2020;</ref>kathaṁcidanumārgamudīriteṣu sthāneṣu śalyamacireṇa gatiṁ
+                        karoti/ sā phenilaṁ mathitamacchamasṛgvimiśramuṣṇaṁ sraveta sahasā sarujā ca
+                        nityam// </l>
+                    <l xml:id="Su.2.10.15"><label>ni.10.15</label> yāvatyo gatayo yaiśca kāraṇaiḥ
+                        saṁbhavanti hi/ tāvantaḥ stanarogāḥ syuḥ strīṇāṁ taireva hetubhiḥ// </l>
+                    <l xml:id="Su.2.10.16"><label>ni.10.16</label> dhamanyaḥ saṁvṛtadvārāḥ
+                        kanyānāṁ stanasaṁśritāḥ/ <ref rend="superscript footnote marker"
+                            >&#x2020;</ref>doṣāvisaraṇāttāsāṁ na bhavanti stanāmayāḥ// </l>
+                    <l xml:id="Su.2.10.17"><label>ni.10.17</label> tāsāmeva prajātānāṁ
+                        garbhiṇīnāṁ ca tāḥ punaḥ/ svabhāvādeva vivṛtā jāyante saṁbhavantyataḥ// </l>
+                    <l xml:id="Su.2.10.18"><label>ni.10.18</label> rasaprasādo madhuraḥ
+                        pakvāhāranimittajaḥ/ kṛtsnadehāt stanau prāptaḥ stanyamityabhidhīyate// </l>
+                    <l xml:id="Su.2.10.19"><label>ni.10.19</label> viśasteṣvapi gātreṣu yathā
+                        śukraṁ na dṛśyate/ <ref rend="superscript footnote marker"
+                        >&#x2020;</ref>sarvadehāśritatvācca śukralakṣaṇamucyate// </l>
+                    <l xml:id="Su.2.10.20"><label>ni.10.20</label> tadeva ceṣṭayuvaterdarśanāt
+                        smaraṇādapi/ śabdasaṁśravaṇāt sparśāt saṁharṣācca pravartate// </l>
+                    <l xml:id="Su.2.10.21"><label>ni.10.21</label> suprasannaṁ manastatra harṣaṇe
+                        heturucyate/ <ref rend="superscript footnote marker"
+                        >&#x2020;</ref>āhārarasayonitvādevaṁ stanyamapi striyāḥ// </l>
+                    <l xml:id="Su.2.10.22"><label>ni.10.22</label> tadevāpatyasaṁsparśāddarśanāt
+                        smaraṇādapi/ grahaṇācca śarīrasya śukravat saṁpravartate// </l>
+                    <l xml:id="Su.2.10.23"><label>ni.10.23</label> sneho nirantarastatra prasrave
+                        heturucyate/ tat kaṣāyaṁ bhavedvātāt kṣiptaṁ ca plavate+ambhasi// </l>
+                    <l xml:id="Su.2.10.24"><label>ni.10.24</label> pittādamlaṁ sakaṭukaṁ
+                        rājyo+ambhasi ca pītikāḥ/ kaphādghanaṁ picchilaṁ ca jale cāpyavasīdati/
+                        sarvairduṣṭaiḥ sarvaliṅgamabhighātācca duṣyati// </l>
+                    <l xml:id="Su.2.10.25"><label>ni.10.25</label> yat kṣīramudake
+                            kṣiptamekībhavati<ref rend="superscript footnote marker">&#x2020;</ref>
+                        pāṇḍuram/ madhuraṁ cāvivarṇaṁ ca prasannaṁ tadvinirdiśet// </l>
+                    <l xml:id="Su.2.10.26"><label>ni.10.26</label> sakṣīrau vā+apyadugdhau vā
+                        prāpya doṣaḥ stanau striyāḥ/ raktaṁ māṁsaṁ ca sandūṣya stanarogāya kalpate// </l>
+                    <l xml:id="Su.2.10.27"><label>ni.10.27</label> pañcānāmapi teṣāṁ tu hitvā
+                        śoṇitavidradhim/ lakṣaṇāni samānāni bāhyavidradhilakṣaṇaiḥ//</l>
+                    <trailer>iti suśrutasaṁhitāyāṁ nidānasthāne visarpanāḍīstanaroganidānaṁ nāma
+                        daśamo+adhyāyaḥ //10//</trailer>
+                </div>
+                <div n="11" type="level2" subtype="adhyāyaḥ">
+                    <head>ekādaśo+adhyāyaḥ//</head>
+                    <l xml:id="Su.2.11.1"><label>ni.11.1</label> athāto
+                        granthapacyarbudagalagaṇḍānāṁ nidānaṁ vyākhyāsyāmaḥ// </l>
+                    <l xml:id="Su.2.11.2"><label>ni.11.2</label> yathovāca bhagavān
+                        dhanvantariḥ// </l>
+                    <l xml:id="Su.2.11.3"><label>ni.11.3</label> vātādayo māṁsamasṛk ca duṣṭāḥ
+                        saṁdūṣya medaśca kaphānuviddham<ref rend="superscript footnote marker"
+                            >&#x2020;</ref>/ vṛttonnataṁ vigrathitaṁ tu śophaṁ kurvantyato
+                        granthiriti pradiṣṭaḥ// </l>
+                    <l xml:id="Su.2.11.4"><label>ni.11.4</label> āyamyate vyathyata<ref
+                            rend="superscript footnote marker">&#x2020;</ref> eti todaṁ pratyasyate
+                            <ref rend="superscript footnote marker">&#x2020;</ref>kṛtyata eti
+                        bhedam/ kṛṣṇo+amṛdurbastirivātataśca binnaḥ sraveccānilajo+asramaccham// </l>
+                    <l xml:id="Su.2.11.5"><label>ni.11.5</label> dandahyate dhūpyati <ref
+                            rend="superscript footnote marker">&#x2020;</ref>cūṣyate ca pāpacyate
+                        prajvalatīva cāpi/ raktaḥ sapīto+apyathavā+api pittādbhinnaḥ
+                        sraveduṣṇamatīva cāsram// </l>
+                    <l xml:id="Su.2.11.6"><label>ni.11.6</label> śīto+avivarṇo+alparujo+atikaṇḍūḥ
+                        pāṣāṇavat saṁhananopapannaḥ/ cirābhivṛddhiśca kaphaprakopādbhinnaḥ
+                        sravecchuklaghanaṁ ca pūyam// </l>
+                    <l xml:id="Su.2.11.7"><label>ni.11.7</label> śarīravṛddhikṣayavṛddhihāniḥ
+                        snigdho mahānalparujo+atikaṇḍūḥ/ medaḥkṛto gacchati cātra bhinne
+                        piṇyākasarpiḥpratimaṁ tu medaḥ// </l>
+                    <l xml:id="Su.2.11.8"><label>ni.11.8</label> vyāyāmajātairabalasya
+                        taistairākṣipya vāyurhi sirāpratānam/ saṁpīḍya saṅkocya viśoṣya cāpi
+                        granthiṁ karotyunnatamāśu vṛttam// </l>
+                    <l xml:id="Su.2.11.9"><label>ni.11.9</label> granthiḥ sirājaḥ sa tu
+                        kṛcchrasādhyo bhavedyadi syāt sarujaścalaśca/ aruk sa <ref
+                            rend="superscript footnote marker">&#x2020;</ref>evāpyacalo mahāṁśca
+                        marmotthitaścāpi vivarjanīyaḥ// </l>
+                    <l xml:id="Su.2.11.10"><label>ni.11.10</label>
+                        hanvasthikakṣākṣakabāhusandhimanyāgaleṣūpacitaṁ tu medaḥ/ granthiṁ sthiraṁ
+                        vṛttamathāyataṁ vā snigdhaṁ kaphaścālparujaṁ karoti// </l>
+                    <l xml:id="Su.2.11.11"><label>ni.11.11</label> taṁ
+                            granthibhistvāmalakāsthimātrairmatsyāṇḍajālapratimaistathā<ref
+                            rend="superscript footnote marker">&#x2020;</ref>+anyaiḥ/
+                        ananyavarṇairupacīyamānaṁ cayaprakarṣādapacīṁ vadanti// </l>
+                    <l xml:id="Su.2.11.12"><label>ni.11.12</label> kaṇḍūyutāste+alparujaḥ
+                        prabhinnāḥ sravanti naśyanti bhavanti cānye/ medaḥkaphābhyāṁ khalu roga eṣa
+                        sudustaro varṣagaṇānubandhī// </l>
+                    <l xml:id="Su.2.11.13"><label>ni.11.13</label> gātrapradeśe kvacideva doṣāḥ
+                        saṁmūrcchitā māṁsamabhipradūṣya/ vṛttaṁ sthiraṁ mandarujaṁ
+                        mahāntamanalpamūlaṁ ciravṛddhyapākam// </l>
+                    <l xml:id="Su.2.11.14"><label>ni.11.14</label> kurvanti māṁsopacayaṁ tu
+                        śophaṁ tamarbudaṁ śāstravido vadanti/ vātena pittena kaphena cāpi raktena
+                        māṁsena ca medasā ca// </l>
+                    <l xml:id="Su.2.11.15"><label>ni.11.15</label> tajjāyate tasya ca lakṣaṇāni
+                        grantheḥ samānāni sadā bhavanti/ doṣaḥ praduṣṭo rudhiraṁ sirāstu saṁpīḍya
+                        saṅkocya gatastvapākam// </l>
+                    <l xml:id="Su.2.11.16"><label>ni.11.16</label> sāsrāvamunnahyati māṁsapiṇḍaṁ
+                        māṁsāṅkurairācitamāśuvṛddhim/ sravatyajasraṁ rudhiraṁ
+                        praduṣṭamasādhyametadrudhirātmakaṁ syāt// </l>
+                    <l xml:id="Su.2.11.17"><label>ni.11.17</label> raktakṣayopadravapīḍitatvāt
+                        pāṇḍurbhavet so+arbudapīḍitastu/ muṣṭiprahārādibhirardite+aṅge māṁsaṁ
+                        praduṣṭaṁ prakaroti śopham// </l>
+                    <l xml:id="Su.2.11.18"><label>ni.11.18</label> avedanaṁ
+                        snigdhamananyavarṇamapākamaśmopamamapracālyam/ praduṣṭamāṁsasya narasya
+                        bāḍhametadbhavenmāṁsaparāyaṇasya// </l>
+                    <l xml:id="Su.2.11.19"><label>ni.11.19</label> māṁsārbudaṁ
+                        tvetadasādhyamuktaṁ sādhyeṣvapīmāni vivarjayettu/ saṁprasrutaṁ marmaṇi yacca
+                        jātaṁ srotaḥsu vā yacca bhavedacālyam// </l>
+                    <l xml:id="Su.2.11.20"><label>ni.11.20</label>
+                        <ref rend="superscript footnote marker">&#x2020;</ref>yajjāyate+anyat khalu
+                        pūrvajāte jñeyaṁ tadadhyarbudamarbudajñaiḥ/ yaddvandvajātaṁ yugapat kramādvā
+                        dvirarbudaṁ tacca bhavedasādhyam// </l>
+                    <l xml:id="Su.2.11.21"><label>ni.11.21</label> na pākamāyānti
+                        kaphādhikatvānmedobahutvācca viśeṣatastu/ doṣasthiratvādgrathanācca teṣāṁ
+                        sarvārbudānyeva nisargatastu// </l>
+                    <l xml:id="Su.2.11.22"><label>ni.11.22</label> vātaḥ kaphaścaiva <ref
+                            rend="superscript footnote marker">&#x2020;</ref>gale pravṛddhau manye
+                        tu saṁsṛtya tathaiva medaḥ/ kurvanti gaṇḍaṁ kramaśaḥ svaliṅgaiḥ samanvitaṁ
+                        taṁ galagaṇḍamāhuḥ// </l>
+                    <l xml:id="Su.2.11.23"><label>ni.11.23</label> todānvitaḥ kṛṣṇasirāvanaddhaḥ
+                        kṛṣṇo+aruṇo vā pavanātmakastu/ medonvitaścopacitaśca
+                            kālādbhavedatisnigdhataro<ref rend="superscript footnote marker"
+                            >&#x2020;</ref>+arujaśca// </l>
+                    <l xml:id="Su.2.11.24"><label>ni.11.24</label> pāruṣyayuktaściravṛddhyapāko
+                        yadṛcchayā pākamiyāt kadācit vairasyamāsyasya ca tasya jantorbhavettathā
+                        tālugalapraśoṣaḥ// </l>
+                    <l xml:id="Su.2.11.25"><label>ni.11.25</label> sthiraḥ
+                            savarṇo+alparugugrakaṇḍūḥ<ref rend="superscript footnote marker"
+                            >&#x2020;</ref> śīto mahāṁścāpi kaphātmakastu/ cirābhivṛddhiṁ kurute
+                        cirācca prapacyate mandarujaḥ kadācit// </l>
+                    <l xml:id="Su.2.11.26"><label>ni.11.26</label> mādhuryamāsyasya ca tasya
+                        jantorbhavettathā tālugalapralepaḥ/ snigdho mṛduḥ pāṇḍuraniṣṭagandho <ref
+                            rend="superscript footnote marker">&#x2020;</ref>medaḥkṛto
+                        nīrugathātikaṇḍūḥ// </l>
+                    <l xml:id="Su.2.11.27"><label>ni.11.27</label> pralambate+alābuvadalpamūlo
+                            <ref rend="superscript footnote marker"
+                        >&#x2020;</ref>dehānurūpakṣayavṛddhiyuktaḥ/ snigdhāsyatā tasya bhavecca
+                            jantorgale+<ref rend="superscript footnote marker"
+                        >&#x2020;</ref>anuśabdaṁ kurute ca nityam// </l>
+                    <l xml:id="Su.2.11.28"><label>ni.11.28</label> kṛcchrācchvasantaṁ
+                        mṛdusarvagātraṁ saṁvatsarātītamarocakārtam/ kṣīṇaṁ ca vaidyo galagaṇḍinaṁ tu
+                        bhinnasvaraṁ caiva vivarjayettu// </l>
+                    <l xml:id="Su.2.11.29"><label>ni.11.29</label> nibaddhaḥ śvayathuryasya
+                        muṣkavallambate gale/ mahān vā yadi vā hrasvo <ref
+                            rend="superscript footnote marker">&#x2020;</ref>galagaṇḍaṁ
+                        tamādiśet//</l>
+                    <trailer>iti suśrutasaṁhitāyāṁ nidānasthāne galagaṇḍagaṇḍamālāpacyarbudanidānaṁ
+                        nāmaikādaśo+adhyāyaḥ //11//</trailer>
+                </div>
+                <div n="12" type="level2" subtype="adhyāyaḥ">
+                    <head>dvādaśo+adhyāyaḥ/</head>
+                    <l xml:id="Su.2.12.1"><label>ni.12.1</label> athāto vṛddhyupadaṁśaślīpadānāṁ
+                        nidānaṁ vyākhyāsyāmaḥ// </l>
+                    <l xml:id="Su.2.12.2"><label>ni.12.2</label> yathovāca bhagavān
+                        dhanvantariḥ// </l>
+                    <l xml:id="Su.2.12.3"><label>ni.12.3</label>
+                        vātapittaśleṣmaśoṇitamedomūtrāntranimittāḥ sapta vṛddhayo bhavanti/
+                            tāsāṁ<ref rend="superscript footnote marker">&#x2020;</ref>
+                        mūtrāntranimitte vṛddhī vātasamutthe kevalamutpattiheturanyatamaḥ// </l>
+                    <l xml:id="Su.2.12.4"><label>ni.12.4</label> adhaḥ prakupito+anyatamo hi
+                        doṣaḥ phalakośavāhinīrabhiprapadya dhamanīḥ phalakoṣayorvṛddhiṁ janayati tāṁ
+                        vṛddhimityācakṣate// </l>
+                    <l xml:id="Su.2.12.5"><label>ni.12.5</label> tāsāṁ bhaviṣyatīnāṁ pūrvarūpāṇi
+                        bastikaṭīmuṣkameḍhreṣu vedanā mārutanigrahaḥ phalakośaśophaśceti// </l>
+                    <l xml:id="Su.2.12.6"><label>ni.12.6</label> tatrānilaparipūrṇāṁ
+                        bastimivātatāṁ paruṣāmanimittānilarujāṁ vātavṛddhimācakṣate;
+                        pakvodumbarasaṅkāśāṁ jvaradāhoṣmavatīṁ cāśusamutthānapākāṁ pittavṛddhiṁ;
+                        kaṭhināmalpavedanāṁ <ref rend="superscript footnote marker"
+                        >&#x2020;</ref>śītāṁ kaṇḍūmatīṁ śleṣmavṛddhiṁ; kṛṣṇasphoṭāvṛtāṁ
+                        pittavṛddhiliṅgāṁ raktavṛddhiṁ, mṛdusnigdhāṁ kaṇḍūmatīmalpavedanāṁ
+                        tālaphalaprakāśāṁ medovṛddhiṁ; mūtrasaṁdhāraṇaśīlasya mūtravṛddhirbhavati,
+                        sā gacchato+ambupūrṇā dṛtiriva kṣubhyati mūtrakṛcchravedanāṁ vṛṣaṇayoḥ
+                        śvayathuṁ kośayoścāpādayati, tāṁ mūtravṛddhiṁ vidyāt;
+                        bhāraharaṇabalavadvigrahavṛkṣaprapatanādibhirāyāsaviśeṣair <ref
+                            rend="superscript footnote marker">&#x2020;</ref>vāyurabhipravṛddhaḥ
+                        prakupitaśca sthūlāntrasyetarasya<ref rend="superscript footnote marker"
+                            >&#x2020;</ref> caikadeśaṁ <ref rend="superscript footnote marker"
+                            >&#x2020;</ref>viguṇamādāyādho gatvā vaṅkṣaṇasandhimupetya granthirūpeṇa
+                        sthitvā+apratikriyamāṇe ca kālāntareṇa phalakośaṁ praviśya
+                        muṣkaśophamāpādayati, ādhmāto bastirivātataḥ pradīrghaḥ sa śopho bhavati,
+                        saśabdamavapīḍitaścordhvamupaiti, vimuktaśca <ref
+                            rend="superscript footnote marker">&#x2020;</ref>punarādhmāyate,
+                        tāmantravṛddhimasādhyāmityācakṣate// </l>
+                    <l xml:id="Su.2.12.7"><label>ni.12.7</label>
+                            tatrātimaithunādatibrahmacaryādvā<ref rend="superscript footnote marker"
+                            >&#x2020;</ref> tathā+atibrahmacāriṇīṁ cirotsṛṣṭāṁ rajasvalāṁ
+                        dīrgharomāṁ karkaśaromāṁ saṅkīrṇaromāṁ nigūḍharomāmalpadvārāṁ
+                        mahādvārāmapriyāmakāmāmacaukṣasalilaprakṣālitayonimaprakṣālitayoniṁ
+                        yonirogopasṛṣṭāṁ svabhāvato vā duṣṭayoniṁ viyoniṁ vā
+                        nārīmatyarthamupasevamānasya tathā
+                        karajadaśanaviṣaśūkanipātanādbandhanāddhastābhighātāccatuṣpadīgamanādacaukṣasalilaprakṣālanādavapīḍanācchrukravegavighāraṇānmaithunānte
+                            vā+<ref rend="superscript footnote marker"
+                        >&#x2020;</ref>aprakṣālanādibhirmeḍhramāgamya prakupitā doṣāḥ kṣate+akṣate
+                        vā śvayathumupajanayanti, tamupadaṁśamityācakṣate// </l>
+                    <l xml:id="Su.2.12.8"><label>ni.12.8</label> sa pañcavidhastribhirdoṣaiḥ
+                        pṛthak samastairasṛjā <ref rend="superscript footnote marker"
+                        >&#x2020;</ref>ceti// </l>
+                    <l xml:id="Su.2.12.9"><label>ni.12.9</label> tatra vātike pāruṣyaṁ
+                        tvakparipuṭanaṁ stabdhameḍhratā paruṣaśophatā vividhāśca<ref
+                            rend="superscript footnote marker">&#x2020;</ref> vātavedanāḥ; paittike
+                        jvaraḥ śvayathuḥ pakvoḍumbarasaṅkāśastīvradāhaḥ kṣiprapākaḥ pittavedanāśca;
+                        ślaiṣmike śvayathuḥ kaṇḍūmān kaṭhinaḥ snigdhaḥ śleṣmavedanāśca; raktaje
+                        kṛṣṇasphoṭaprādurbhāvo+atyarthamasṛkpravṛttiḥ pittaliṅgānyatyarthaṁ
+                        jvaradāhau śoṣaśca, yāpyaścaiva kadācit; sarvaje
+                        sarvaliṅgadarśanamavadaraṇaṁ ca śephasaḥ kṛmiprādurbhāvo maraṇaṁ ceti// </l>
+                    <l xml:id="Su.2.12.10"><label>ni.12.10</label> kupitāstu doṣā
+                        vātapittaśleṣmāṇo+adhaḥprapannā vaṅkṣaṇorujānujaṅghāsvavatiṣṭhamānāḥ
+                        kālāntareṇa pādamāśritya śanaiḥ śophaṁ janayanti, taṁ <ref
+                            rend="superscript footnote marker">&#x2020;</ref>ślīpadamityācakṣate/
+                        tattrividhaṁ vātapittakaphanimittamiti// </l>
+                    <l xml:id="Su.2.12.11"><label>ni.12.11</label> tatra vātajaṁ kharaṁ kṛṣṇaṁ
+                        paruṣamanimittānilarujaṁ parisphuṭati ca bahuśaḥ; pittajaṁ tu
+                        pītāvabhāsamīṣanmṛdu jvaradāhaprāyaṁ ca; śleṣmajaṁ tu śvetaṁ snigdhāvabhāsaṁ
+                        mandavedānaṁ bhārikaṁ mahāgranthikaṁ kaṇṭakairupacitaṁ ca// </l>
+                    <l xml:id="Su.2.12.12"><label>ni.12.12</label> tatra
+                        saṁvatsarātītamatimahadvalmīkajātaṁ prasṛtamiti varjanīyāni// </l>
+                    <l xml:id="Su.2.12.13"><label>ni.12.13</label> bhavanti cātra trīṇyapyetāni
+                        jānīyācchlīpadāni kaphocchrayāt/ gurutvaṁ ca mahattvaṁ ca yasmānnāsti vinā
+                        kaphāt// </l>
+                    <l xml:id="Su.2.12.14"><label>ni.12.14</label> purāṇodakabhūyiṣṭhāḥ
+                        sarvartuṣu ca śītalāḥ/ ye deśāsteṣu jāyante ślīpadāni viśeṣataḥ// </l>
+                    <l xml:id="Su.2.12.15"><label>ni.12.15</label> pādavaddhastayoścāpi ślīpadaṁ
+                        jāyate nṛṇām/ karṇākṣināsikauṣṭheṣu kecidicchanti tadvidaḥ//</l>
+                    <trailer>iti suśrutasaṁhitāyāṁ nidānasthāne vṛddhyupadaṁśaślīpadanidānaṁ nāma
+                        dvādaśo+adhyāyaḥ //12//</trailer>
+                </div>
+                <div n="13" type="level2" subtype="adhyāyaḥ">
+                    <head>trayodaśo+adhyāyaḥ/</head>
+                    <l xml:id="Su.2.13.1"><label>ni.13.1</label> athātaḥ kṣudrarogāṇāṁ nidānaṁ
+                        vyākhyāsyāmaḥ// </l>
+                    <l xml:id="Su.2.13.2"><label>ni.13.2</label> yathovāca bhagavān
+                        dhanvantariḥ// </l>
+                    <l xml:id="Su.2.13.3"><label>ni.13.3</label> samāsena catuścatvāriṁśat
+                        kṣudrarogā bhavanti/ tadyathā ajagallikā yavaprakhyā andhālajī vivṛtā
+                        kacchapikā valmīakaṁ indravṛddhā panasikā pāṣāṇagardabhaḥ jālagardabhaḥ
+                        kakṣā visphoṭakaḥ agnirohiṇī cippaṁ kunakhaḥ anuśayī vidārikā śarkarārbudaṁ
+                        pāmā vicarcikā rakasā pādadārikā kadaraṁ alasendraluptau dāruṇakaḥ aruṁṣikā
+                        palitaṁ masūrikā yauvanapiḍakā padminīkaṇṭakaḥ jatumaṇiḥ maśakaḥ carmakīlaḥ
+                        tilakālakaḥ nyacchaṁ vyaṅgaḥ parivartikā avapāṭikā niruddhaprakaśaḥ
+                        saṁniruddhagudaḥ ahipūtanaṁ vṛṣaṇakacchraḥ gudabhraṁśaśceti// </l>
+                    <l xml:id="Su.2.13.4"><label>ni.13.4</label> snigdhā savarṇā grathitā nīrujāa
+                        mudrasannibhā/ kaphavātotthitā jñeyā bālānāmajagallikā// </l>
+                    <l xml:id="Su.2.13.5"><label>ni.13.5</label> yavākārā sukaṭhinā grathitā
+                        māṁsasaṁśritā/ piḍakā śleṣmavātābhyāṁ yavaprakhyeti socyate// </l>
+                    <l xml:id="Su.2.13.6"><label>ni.13.6</label> ghanamavaktrāṁ piḍakāmunnatāṁ
+                        parimaṇḍalām/ andhālajīmalpapūyāṁ tāṁ vidyāt kaphavātajām// </l>
+                    <l xml:id="Su.2.13.7"><label>ni.13.7</label> vivṛtāsyāṁ mahādāhāṁ
+                        pakvodumbarasannibhām/ vivṛtāmiti tāṁ vidyāt pittotthāṁ parimaṇḍalām// </l>
+                    <l xml:id="Su.2.13.8"><label>ni.13.8</label> grathitāḥ pañca vā ṣaḍvā dāruṇāḥ
+                        kacchaponnatāḥ/ kaphānilābhyāṁ piḍakā jñeyā kacchapikā budhaiḥ// </l>
+                    <l xml:id="Su.2.13.9"><label>ni.13.9</label> pāṇipādatale sandhau
+                        grīvāyāmūrdhvajatruṇi/ granthirvalmīkavadyastu śanaiḥ samupacīyate// </l>
+                    <l xml:id="Su.2.13.10"><label>ni.13.10</label>
+                        todakledaparīdāhakaṇḍūmadbhirmukhairvṛtaḥ/ vyādhirvalmīka ityeṣa
+                        kaphapittānilidbhavaḥ// </l>
+                    <l xml:id="Su.2.13.11"><label>ni.13.11</label>
+                        <ref rend="superscript footnote marker">&#x2020;</ref>padmāpuṣkaravanmadhye
+                        piḍakābhiḥ samācitām/ indravṛddhāṁ tu tāṁ vidyādvātapittotthitāṁ bhiṣak// </l>
+                    <l xml:id="Su.2.13.12"><label>ni.13.12</label> maṇḍalaṁ vṛttamutsannaṁ
+                        saraktaṁ piḍakācitam/ rujākarīṁ gadarbhikāṁ tāṁ vidyādvātapittajām/ <ref
+                            rend="superscript footnote marker">&#x2020;</ref>karṇau pari samantādvā
+                        pṛṣṭhe vā piḍakograruk/ śālūkavatpanasikāṁ tāṁ vidyācchleṣmavātajām// </l>
+                    <l xml:id="Su.2.13.13"><label>ni.13.13</label> hanusandhau samudbhūtaṁ
+                        śophamalparujaṁ sthiram/ <ref rend="superscript footnote marker"
+                            >&#x2020;</ref>pāṣāṇagardabhaṁ vidyādbalāsapavanātmakam// </l>
+                    <l xml:id="Su.2.13.14"><label>ni.13.14</label> visarpavat sarpati <ref
+                            rend="superscript footnote marker">&#x2020;</ref>yo dāhajvarakarastanuḥ/
+                        apākaḥ śvayathuḥ pittāt sa jñeyo jālagardabhaḥ// </l>
+                    <l xml:id="Su.2.13.15"><label>ni.13.15</label> piḍikāmuttamāṅgasthāṁ
+                        vṛttāmugrarujājvarām/ sarvātmakāṁ sarvaliṅgāṁ jānīyādirivellikām// </l>
+                    <l xml:id="Su.2.13.16"><label>ni.13.16</label> bāhupārśvāṁsakakṣāsu
+                        kṛṣṇasphoṭāṁ savedanām/ pittaprakopasaṁbhūtāṁ kakṣāmiti vinirdiśet// </l>
+                    <l xml:id="Su.2.13.17"><label>ni.13.17</label> ekāmevaṁvidhāṁ dṛṣṭvā piṭikāṁ
+                        sphoṭasannibhām/ tvaggatāṁ pittakopena gandhanāmāṁ pracakṣate// </l>
+                    <l xml:id="Su.2.13.18"><label>ni.13.18</label> agnidagdhanibhāḥ sphoṭāḥ
+                        sajvarāḥ pittaraktataḥ/ kvacit sarvatra vā dehe smṛtā visphoṭakā iti// </l>
+                    <l xml:id="Su.2.13.19"><label>ni.13.19</label> kakṣābhāgeṣu ye sphoṭā jāyante
+                        māṁsadāru(ra)ṇāḥ/ antardāhajvarakarā dīptapāvakasannibhāḥ// </l>
+                    <l xml:id="Su.2.13.20"><label>ni.13.20</label> saptāhādvā daśāhādvā pakṣādvā
+                        ghnanti mānavam/ tāmagnirohiṇīṁ vidyādasādhyāṁ sannipātataḥ// </l>
+                    <l xml:id="Su.2.13.21"><label>ni.13.21</label> nakhamāṁsamadhiṣṭhāya pittaṁ
+                        vātaśca vedanām<ref rend="superscript footnote marker">&#x2020;</ref>/
+                        karoti dāhapākau ca taṁ vyādhiṁ cippamādiśet// </l>
+                    <l xml:id="Su.2.13.22"><label>ni.13.22</label> tadevākṣatarogākhyaṁ
+                            tathopanakhamityapi<ref rend="superscript footnote marker"
+                            >&#x2020;</ref>/ abhighātāt praduṣṭo yo nakho rūkṣo+asitaḥ kharaḥ// </l>
+                    <l xml:id="Su.2.13.23"><label>ni.13.23</label> bhavettaṁ kunakhaṁ vidyāt
+                        kulīnamiti saṁjñitam/ gambhīrāmalpasaṁrambhāṁ savarṇāmuparisthitām// </l>
+                    <l xml:id="Su.2.13.24"><label>ni.13.24</label> kaphādantaḥprapākāṁ tāṁ
+                        vidyādanuśayīṁ <ref rend="superscript footnote marker">&#x2020;</ref>bhiṣak/
+                        vidārīkandavadvṛttāṁ kakṣāvaṅkṣaṇasandhiṣu// </l>
+                    <l xml:id="Su.2.13.25"><label>ni.13.25</label> raktāṁ vidārikāṁ vidyāt
+                        sarvajāṁ sarvalakṣaṇām<ref rend="superscript footnote marker"
+                        >&#x2020;</ref>/ prāpya māṁsasirāsnāyu śleṣmā medastathā+anilaḥ// </l>
+                    <l xml:id="Su.2.13.26"><label>ni.13.26</label> granthiṁ kurvanti bhinno+asau
+                        madhusarpirvasānimam/ <ref rend="superscript footnote marker"
+                        >&#x2020;</ref>sravatyāsrāvamatyarthaṁ tatra vṛddhiṁ <ref
+                            rend="superscript footnote marker">&#x2020;</ref>gato+anilaḥ// </l>
+                    <l xml:id="Su.2.13.27"><label>ni.13.27</label> māṁsaṁ viśoṣya grathitāṁ
+                        śarkarāṁ <ref rend="superscript footnote marker">&#x2020;</ref>janayet
+                        punaḥ/ durgandhaṁ klinnamatyrthaṁ nānāvarṇaṁ tataḥ sirāḥ// </l>
+                    <l xml:id="Su.2.13.28"><label>ni.13.28</label> sravanti sahasā raktaṁ
+                        tadvidyāccharkarārbudam/ pāmāvicarcyau kuṣṭheṣu rakasā ca prakīrtitā// </l>
+                    <l xml:id="Su.2.13.29"><label>ni.13.29</label> parikramaṇaśīlasya
+                        vāyuratyartharūkṣayoḥ/ pādayoḥ kurute dārīṁ sarujāṁ talasaṁśritaḥ// </l>
+                    <l xml:id="Su.2.13.30"><label>ni.13.30</label> śarkaronmathite pāde kṣate vā
+                        kaṇṭakādibhiḥ/ <ref rend="superscript footnote marker"
+                        >&#x2020;</ref>medoraktānugaiścaiva doṣairvā jāyate nṛṇām// </l>
+                    <l xml:id="Su.2.13.31"><label>ni.13.31</label> sakīlakaṭhino
+                        granthirnimnamadhyonnato+api vā/ kolamātraḥ saruk srāvī jāyate kadarastu
+                        saḥ// </l>
+                    <l xml:id="Su.2.13.32"><label>ni.13.32</label> klinnāṅgulyantarau pādau
+                        kaṇḍūdāharuganvitau/ duṣṭakardamasaṁsparśādalasaṁ taṁ vinirdiśet// </l>
+                    <l xml:id="Su.2.13.33"><label>ni.13.33</label> romakūpānugaṁ pittaṁ vātena
+                        saha mūrcchitam/ pracyāvayati romāṇi tataḥ śleṣmā saśoṇitaḥ// </l>
+                    <l xml:id="Su.2.13.34"><label>ni.13.34</label> ruṇaddhi romakūpāṁstu
+                        tato+anyeṣāmasaṁbhavaḥ/ tadindraluptaṁ khālityaṁ rujyeti ca vibhāvyate// </l>
+                    <l xml:id="Su.2.13.35"><label>ni.13.35</label> dāruṇā kaṇḍurā rūkṣā
+                        keśabhūmiḥ prapāṭyate/ kaphavātaprakopeṇa vidyāddāruṇakaṁ tu tam// </l>
+                    <l xml:id="Su.2.13.36"><label>ni.13.36</label> arūṁṣi bahuvaktrāṇi
+                        bahukledīni mūrdhani/ kaphāsṛkkṛmikopena<ref
+                            rend="superscript footnote marker">&#x2020;</ref> nṛṇāṁ
+                        vidyādaruṁṣikām// </l>
+                    <l xml:id="Su.2.13.37"><label>ni.13.37</label> krodhaśokaśramakṛtaḥ śarīroṣmā
+                        śirogataḥ/ pittaṁ ca keśān pacati palitaṁ tena jāyate// </l>
+                    <l xml:id="Su.2.13.38"><label>ni.13.38</label> dāhajvararujāvantastāmrāḥ
+                        sphoṭāḥ sapītakāḥ<ref rend="superscript footnote marker">&#x2020;</ref>/
+                        gātreṣu vadane cāntarvijñeyāstā masūrikāḥ// </l>
+                    <l xml:id="Su.2.13.39"><label>ni.13.39</label> śālmalīkaṇṭakaprakhyāḥ
+                        kaphamārutaśoṇitaiḥ/ jāyante piḍakā yūnaṁ vaktre <ref
+                            rend="superscript footnote marker">&#x2020;</ref>yā mukhadūṣikāḥ// </l>
+                    <l xml:id="Su.2.13.40"><label>ni.13.40</label> kaṇṭakairācitaṁ <ref
+                            rend="superscript footnote marker">&#x2020;</ref>vṛttaṁ kaṇḍūmat
+                        pāṇḍumaṇḍalam/ padminīkaṇṭakaprakhyaistadākhyaṁ kaphavātajam// </l>
+                    <l xml:id="Su.2.13.41"><label>ni.13.41</label> nīrujaṁ samamutsannaṁ maṇḍalaṁ
+                        kapharaktajam/ sahajaṁ <ref rend="superscript footnote marker"
+                            >&#x2020;</ref>raktamīṣacca ślakṣṇaṁ jatumaṇiṁ viduḥ// </l>
+                    <l xml:id="Su.2.13.42"><label>ni.13.42</label> avedanaṁ sthiraṁ caiva yasya
+                        gātreṣu dṛśyate/ māṣavatkṛṣṇamutsannamanilānmaṣakaṁ vadet// </l>
+                    <l xml:id="Su.2.13.43"><label>ni.13.43</label> kṛṣṇāni tilamātrāṇi nīrujāni
+                        samāni ca/ vātapittakaphocchoṣāttān<ref rend="superscript footnote marker"
+                            >&#x2020;</ref> vidyāttilakālakān// </l>
+                    <l xml:id="Su.2.13.44"><label>ni.13.44</label> maṇḍalaṁ mahadalpaṁ vā yadi vā
+                        sitam/ sahajaṁ nīrujaṁ gātre nyacchamityabhidhīyate// </l>
+                    <l xml:id="Su.2.13.45"><label>ni.13.45</label> samutthānanidānābhyāṁ
+                        carmakīlaṁ prakīrtitam/ krodhāyāsaprakupito vāyuḥ pittena saṁyutaḥ// </l>
+                    <l xml:id="Su.2.13.46"><label>ni.13.46</label> sahasā mukhamāgatya maṇḍalaṁ
+                        visṛjatyataḥ/ nīrujaṁ tanukaṁ śyāvaṁ mukhe vyaṅgaṁ tamādiśet// </l>
+                    <l xml:id="Su.2.13.47"><label>ni.13.47</label> kṛṣṇamevaṁguṇaṁ gātre mukhe vā
+                        nīlikāṁ viduḥ/ mardanāt pīḍanāccāti tathaivāpyabhighātataḥ/ meḍhracarma yadā
+                        vāyurbhajate sarvataścaraḥ// </l>
+                    <l xml:id="Su.2.13.48"><label>ni.13.48</label> tadā vātopasṛṣṭaṁ tu carma
+                        pratinivartate/ maṇeradhastāt kośaśca granthirūpeṇa lambate// </l>
+                    <l xml:id="Su.2.13.49"><label>ni.13.49</label> savedanaḥ sadāhaśca pākaṁ ca
+                        vrajati kvacit/ mārutāgantusaṁbhūtāṁ vidyāttāṁ <ref
+                            rend="superscript footnote marker">&#x2020;</ref>privartikām// </l>
+                    <l xml:id="Su.2.13.50"><label>ni.13.50</label> sakaṇḍūḥ kaṭhinā cāpi saiva
+                        śleṣmasamutthitā/ <ref rend="superscript footnote marker"
+                        >&#x2020;</ref>alpīyaḥkhāṁ yadā harṣādbālāṁ gacchet striyaṁ naraḥ// </l>
+                    <l xml:id="Su.2.13.51"><label>ni.13.51</label> hastābhighātādathavā
+                        carmaṇyudvartite balāt/ mardanātpīḍanādvā+api śukravegavighātataḥ// </l>
+                    <l xml:id="Su.2.13.52"><label>ni.13.52</label> yasyāvapāṭhyate carma tāṁ
+                        vidyādavapāṭikām/ vātopasṛṣṭamevaṁ tu carma saṁśrayate maṇim// </l>
+                    <l xml:id="Su.2.13.53"><label>ni.13.53</label> maṇiścarmopanaddhastu<ref
+                            rend="superscript footnote marker">&#x2020;</ref> mūtrasroto ruṇaddhi
+                        ca/ niruddhaprakaśe tasminmandaghāramavedanam<ref
+                            rend="superscript footnote marker">&#x2020;</ref>// </l>
+                    <l xml:id="Su.2.13.54"><label>ni.13.54</label> mūtraṁ pravartate
+                            jantormaṇirna<ref rend="superscript footnote marker">&#x2020;</ref> ca
+                        vidīryate/ niruddhaprakaśaṁ vidyāddurūḍhāṁ<ref
+                            rend="superscript footnote marker">&#x2020;</ref> cāvapāṭikām// </l>
+                    <l xml:id="Su.2.13.55"><label>ni.13.55</label> vegasaṁghāraṇādvāyurvihato
+                        gudamāśritaḥ/ niruṇaddhi mahatsrotaḥ sūkṣmadvāraṁ karoti ca// </l>
+                    <l xml:id="Su.2.13.56"><label>ni.13.56</label> mārgasya saukṣmyāt kṛcchreṇa
+                        purīṣaṁ tasya gacchati/ sanniruddhagudaṁ vyādhimenaṁ vidyāt sudustaram// </l>
+                    <l xml:id="Su.2.13.57"><label>ni.13.57</label>
+                        śakṛnmūtrasamāyukte+adhaute+apāne śiśorbhavet/ svinnasyāsnāpyamānasya kaṇḍū
+                        raktakaphodbhavā// </l>
+                    <l xml:id="Su.2.13.58"><label>ni.13.58</label> kaṇḍūyanāttataḥ kṣipraṁ
+                        sphoṭāḥ srāvaśca jāyate/ ekībhūtaṁ vraṇairghoraṁ taṁ vidyādahipūtanam// </l>
+                    <l xml:id="Su.2.13.59"><label>ni.13.59</label> snānotsādanahīnasya malo
+                        vṛṣṇasaṁśritaḥ/ yadā praklidyate svedāt kaṇḍūṁ saṁjanayettadā// </l>
+                    <l xml:id="Su.2.13.60"><label>ni.13.60</label> tatra kaṇḍūyanāt kṣipraṁ
+                        sphoṭāḥ srāvaśca jāyate/ prāhurvṛṣaṇakacchūṁ tāṁ śleṣmaraktaprakopajām// </l>
+                    <l xml:id="Su.2.13.61"><label>ni.13.61</label> pravāhaṇātisārābhyāṁ
+                        nirgacchati gudaṁ bahiḥ/ rūkṣadurbaladehasya taṁ gudabhraṁśamādiśet<ref
+                            rend="superscript footnote marker">&#x2020;</ref>//</l>
+                    <trailer>iti suśrutasaṁhitāyāṁ nidānasthāne kṣudraroganidānaṁ nāma
+                        trayodaśo+adhyāyaḥ //13//</trailer>
+                </div>
+                <div n="14" type="level2" subtype="adhyāyaḥ">
+                    <head>caturdaśo+adhyāyaḥ/</head>
+                    <l xml:id="Su.2.14.1"><label>ni.14.1</label> athātaḥ śūkadoṣanidānaṁ
+                        vyākhyāsyāmaḥ// </l>
+                    <l xml:id="Su.2.14.2"><label>ni.14.2</label> yathovāca bhagavān
+                        dhanvantariḥ// </l>
+                    <l xml:id="Su.2.14.3"><label>ni.14.3</label>
+                        liṅgavṛddhimicchatāmakramapravṛttānāṁ śūkadoṣanimittā daśa cāṣṭau ca
+                        vyādhayo jāyante/ tadyathā sarṣapikā aṣṭhīlikā grathitaṁ kumbhīkā alajī
+                        mṛditaṁ saṁmūḍhapiḍakā avamanthaḥ puṣkarikā sparśahāniḥ uttamā śataponakaḥ
+                        tvakpākaḥ śoṇitārbudaṁ māṁsārbudaṁ māṁsapākaḥ vidradhiḥ tilakālakaśceti// </l>
+                    <l xml:id="Su.2.14.4"><label>ni.14.4</label> gaurasarṣapatulyā tu
+                        śūkadurbhagnahetukā/ piḍakā kapharaktābhyāṁ jñeyā sarṣapikā budhaiḥ// </l>
+                    <l xml:id="Su.2.14.5"><label>ni.14.5</label> kaṭhinā viṣamairantairmārutasya
+                        prakopataḥ/ śūkaistu <ref rend="superscript footnote marker"
+                        >&#x2020;</ref>viṣasaṁbhugnaiḥ piḍakā+aṣṭhīlikā bhavet<ref
+                            rend="superscript footnote marker">&#x2020;</ref>// </l>
+                    <l xml:id="Su.2.14.6"><label>ni.14.6</label> śūkairyat pūritaṁ
+                        śaśvadgrathitaṁ <ref rend="superscript footnote marker">&#x2020;</ref>tat
+                        kaphotthitam/ kumbhīkā raktapittotthā jāmbavāsthinibhā+aśubhā// </l>
+                    <l xml:id="Su.2.14.7"><label>ni.14.7</label>
+                        <ref rend="superscript footnote marker"
+                        >&#x2020;</ref>alajīlakṣaṇairyuktāmalajīṁ ca vitarkayet/ mṛditaṁ pīḍitaṁ
+                        yattu saṁrabdhaṁ vāyukopataḥ// </l>
+                    <l xml:id="Su.2.14.8"><label>ni.14.8</label> pāṇibhyāṁ bhṛśasaṁmūḍhe
+                        saṁmūḍhapiḍakā bhavet/ dīrghā bahvyaśca piḍakā dīryante madhyatastu yāḥ// </l>
+                    <l xml:id="Su.2.14.9"><label>ni.14.9</label> so+avamanthaḥ kaphāsṛgbhyāṁ
+                        vedanāromaharṣakṛt/ pittaśoṇitasaṁbhūtā piḍakā piḍakācitā// </l>
+                    <l xml:id="Su.2.14.10"><label>ni.14.10</label>
+                        <ref rend="superscript footnote marker">&#x2020;</ref>padmapuṣkarasṁsthānā
+                        jñeyā puṣkariketi sā/ janayet sparśahāniṁ tu śoṇitaṁ śūkadūpitam// </l>
+                    <l xml:id="Su.2.14.11"><label>ni.14.11</label> mudgamāṣopamā raktā piḍakā
+                        raktapittajā/ <ref rend="superscript footnote marker"
+                        >&#x2020;</ref>uttamaiṣā tu vijñeyā śūkājīrṇanimittajā// </l>
+                    <l xml:id="Su.2.14.12"><label>ni.14.12</label>
+                        <ref rend="superscript footnote marker"
+                        >&#x2020;</ref>chidrairaṇumukhairvastu citaṁ yasya samantataḥ/ vātaśoṇitajo
+                        vyādhirvijñeyaḥ śataponakaḥ// </l>
+                    <l xml:id="Su.2.14.13"><label>ni.14.13</label> pittaraktakṛto<ref
+                            rend="superscript footnote marker">&#x2020;</ref> jñeyastvakpāko
+                        jvaradāhavān/ kṛṣṇaiḥ sphoṭaiḥ saraktaiśca piḍakābhiśca pīḍitam<ref
+                            rend="superscript footnote marker">&#x2020;</ref>/ yasya vastu
+                        rujaścogrā jñeyaṁ tacchoṇitārbudam// </l>
+                    <l xml:id="Su.2.14.14"><label>ni.14.14</label> māṁsadoṣeṇa jānīyādarbudaṁ
+                        māṁsasaṁbhavam/ śīryante yasya māṁsāni yatra sarvāśca vedanāḥ// </l>
+                    <l xml:id="Su.2.14.15"><label>ni.14.15</label> vidyāttaṁ māṁsapākaṁ tu
+                        sarvadoṣakṛtaṁ bhiṣak/ vidradhiṁ sannipātena yathoktamabhinirdiśet// </l>
+                    <l xml:id="Su.2.14.16"><label>ni.14.16</label> kṛṣṇāni citrāṇyathavā śūkāni
+                        saviṣāṇi ca/ pātitāni pacantyāśu meḍhraṁ niravaśeṣataḥ// </l>
+                    <l xml:id="Su.2.14.17"><label>ni.14.17</label> kālāni bhūtvā māṁsāni śīryante
+                        yasya dehinaḥ/ sannipātasamutthānaṁ taṁ vidyāttilakālakam// </l>
+                    <l xml:id="Su.2.14.18"><label>ni.14.18</label> tatra māṁsārbudaḥ yacca
+                        māṁsapākaśca yaḥ smṛtaḥ/ vidradhiśca na sidhyanti ye ca
+                        syustilakālakāḥ//</l>
+                    <trailer>iti suśrutasaṁhitāyāṁ nidānasthāne śūkadoṣanidānaṁ nāma
+                        caturdaśo+adhyāyaḥ//14// </trailer>
+                </div>
+                <div n="15" type="level2" subtype="adhyāyaḥ">
+                    <head>pañcadaśo+adhyāyaḥ/</head>
+                    <l xml:id="Su.2.15.1"><label>ni.15.1</label> athāto bhagnānāṁ nidānaṁ
+                        vyākhyāsyāmaḥ// </l>
+                    <l xml:id="Su.2.15.2"><label>ni.15.2</label> yathovāca bhagavān
+                        dhanvantariḥ// </l>
+                    <l xml:id="Su.2.15.3"><label>ni.15.3</label>
+                        patanapīḍanaprahārakṣepaṇavyālamṛgadaśanaprabhṛtibhirabhighātaviśeṣairanekavidhamasthnāṁ
+                            <ref rend="superscript footnote marker"
+                        >&#x2020;</ref>bhaṅgamupadiśanti// </l>
+                    <l xml:id="Su.2.15.4"><label>ni.15.4</label>
+                        <ref rend="superscript footnote marker">&#x2020;</ref>tatra
+                        bhaṅga(gna)jātamanekavidhamanusāryamāṇaṁ dvividhamevopapadyate sandhimukataṁ
+                        kāṇḍabhagnaṁ ca/ tatra ṣaḍvidhaṁ sandhimuktaṁ dvādaśavidhaṁ kāṇḍabhagnaṁ
+                        bhavati// </l>
+                    <l xml:id="Su.2.15.5"><label>ni.15.5</label> tatra sandhimuktam utpiṣṭaṁ
+                        viśliṣṭaṁ vivartitam avakṣiptam atikṣiptaṁ tiryakkṣiptamiti ṣaḍvidham// </l>
+                    <l xml:id="Su.2.15.6"><label>ni.15.6</label> tatra
+                        prasāraṇākuñcanavivartanākṣepaṇāśaktirugrarujatvaṁ sparśāsahatvaṁ ceti
+                        sāmānyaṁ sandhimuktalakṣaṇamuktam// </l>
+                    <l xml:id="Su.2.15.7"><label>ni.15.7</label> vaiśeṣikaṁ tūtpiṣṭe
+                        sandhāvumayataḥ śopho vedanāprādurbhāvo viśeṣataśca nānāprakārā vedanā
+                        rātrau prādurbhavanti; viśliṣṭe+alpaḥ śopho vedanāsātatyaṁ sandhivikriyā ca;
+                        vivartite tu sandhipārśvāpagamanādviṣamāṅgatā vedanā ca; avakṣipte
+                        sandhiviśleṣastīvrarujatvaṁ ca; atikṣipte dvayoḥ sandhyasthnoratikrāntatā
+                        vedanā ca; tiryakkṣipte tvekāsthipārśvāpagamanamatyarthaṁ vedanā ceti// </l>
+                    <l xml:id="Su.2.15.8"><label>ni.15.8</label> kāṇḍabhagnamata ūrdhvaṁ
+                        vakṣyāmaḥ karkaṭakam aśvakarṇaṁ cūrṇitaṁ piccitam asthicchallitaṁ
+                        kāṇḍabhagnaṁ majjānugatam atipātitaṁ vakraṁ chinnaṁ pāṭitaṁ sphuṭitamiti
+                        dvādaśavidham// </l>
+                    <l xml:id="Su.2.15.9"><label>ni.15.9</label>
+                        <ref rend="superscript footnote marker">&#x2020;</ref>śvayathubāhulyaṁ
+                        spandanavivartanasparśāsahiṣṇutvamavapīḍyamāne śabdaḥ srastāṅgatā
+                        vividhavedanāprādurbhāvaḥ sarvāsvavasthāsu na śarmalābha iti samāsena
+                        kāṇḍabhagnalakṣaṇamuktam// </l>
+                    <l xml:id="Su.2.15.10"><label>ni.15.10</label> viśeṣastu
+                        saṁmūḍhamubhayato+asthi madhye bha(la)gnaṁ granthirivonnataṁ karkaṭakam
+                        aśvakarṇavadudgatamaśvakarṇakaṁ, <ref rend="superscript footnote marker"
+                            >&#x2020;</ref>spṛśyamānaṁ śabdavaccūrṇitamavagacchet, piccitaṁ pṛthutāṁ
+                            gatamanalpaśophaṁ<ref rend="superscript footnote marker">&#x2020;</ref>,
+                        pārśvayorasthi hīnodgatamasthicchalitaṁ, vellate prakampamānaṁ kāṇḍabhagnam,
+                        asthyavayavo+asthimadhyamanupraviśya majjānamunnahyatīti majjānugatam, asthi
+                        niḥśeṣataśchinnamatipātitam, ābhugnamavimuktāsthi vakram,
+                        anyatarapārśvāvaśiṣṭaṁ chinnaṁ, pāṭitamaṇubahuvidāritaṁ vedanāvacca,
+                        śūkapūrṇamivādhmātaṁ vipulaṁ visphuṭitaṁ sphuṭitamiti// </l>
+                    <l xml:id="Su.2.15.11"><label>ni.15.11</label> teṣu
+                        cūrṇitacchinnātipātitamajjānugatāni kṛcchrasādhyāni <ref
+                            rend="superscript footnote marker">&#x2020;</ref>kṛśavṛddhabālānāṁ
+                        kṣatakṣīṇakuṣṭhiśvāsināṁ <ref rend="superscript footnote marker"
+                            >&#x2020;</ref>sandhyupagataṁ ceti// </l>
+                    <l xml:id="Su.2.15.12"><label>ni.15.12</label> bhavanti cātra bhinnaṁ kapālaṁ
+                        kaṭhyāṁ tu sandhimuktaṁ tathā cyutam/ jaghanaṁ prati piṣṭaṁ ca
+                        varjayettaccikitsakaḥ// </l>
+                    <l xml:id="Su.2.15.13"><label>ni.15.13</label> asaṁśliṣṭaṁ kapālaṁ tu lalāṭe
+                        cūrṇitaṁ ca yat/ bhagnaṁ stanāntare śaṅkhe pṛṣṭhe mūrdhni ca varjayet// </l>
+                    <l xml:id="Su.2.15.14"><label>ni.15.14</label> ādito yacca durjātamasthi
+                        sandhirathāpi vā/ <ref rend="superscript footnote marker"
+                        >&#x2020;</ref>samyagyamitamapyasthi <ref rend="superscript footnote marker"
+                            >&#x2020;</ref>durnyāsāddurnibandhanāt// </l>
+                    <l xml:id="Su.2.15.15"><label>ni.15.15</label> saṅkhobhādvā+api
+                        yadgacchedvikriyāṁ tacca varjayet/ madhyasya vayaso+avasthāstisro yāḥ
+                        parikīrtitāḥ// </l>
+                    <l xml:id="Su.2.15.16"><label>ni.15.16</label> tatra sthiro
+                        bhavejjanturupakrānto vijānatā<ref rend="superscript footnote marker"
+                            >&#x2020;</ref>/ taruṇāsthīni namyante bhajyante nalakāni tu// </l>
+                    <l xml:id="Su.2.15.17"><label>ni.15.17</label> kapālān vibhidyante<ref
+                            rend="superscript footnote marker">&#x2020;</ref> sphuṭanti rucakāni
+                        ca//</l>
+                    <trailer>iti suśrutasaṁhitāyāṁ nidānasthāne bhagnanidānaṁ nāma
+                        pañcadaśo+adhyāyaḥ //15//</trailer>
+                </div>
+                <div n="16" type="level2" subtype="adhyāyaḥ">
+                    <head>ṣoḍaśo+adhyāyaḥ/</head>
+                    <l xml:id="Su.2.16.1"><label>ni.16.1</label> athāto mukharogāṇāṁ nidānaṁ
+                        vyākhyāsyāmaḥ// </l>
+                    <l xml:id="Su.2.16.2"><label>ni.16.2</label> yathovāca bhagavān
+                        dhanvantariḥ// </l>
+                    <l xml:id="Su.2.16.3"><label>ni.16.3</label> mukharogāḥ pañcaṣaṣṭirbhavanti
+                        saptasvāyataneṣu/ tatrāyatanāni oṣṭhau, dantamūlāni, dantāḥ, jihvā, tālu,
+                        kaṇṭhaḥ, sarvāṇi ceti/ tatrāṣṭāvoṣṭhayoḥ, pañcadaśa dantamūleṣu, aṣṭau
+                        danteṣu, pañca jihvāyāṁ, nava tāluni, saptadaśa kaṇṭhe, trayaḥ
+                        sarveṣvāyataneṣu// </l>
+                    <l xml:id="Su.2.16.4"><label>ni.16.4</label> tatrauṣṭhaprakopā
+                        vātapittaśleṣmasannipātaraktamāṁsamedobhighātanimittāḥ// </l>
+                    <l xml:id="Su.2.16.5"><label>ni.16.5</label> karkaśau paruṣau stabdhau kṛṣṇau
+                            tīvraruganvitau<ref rend="superscript footnote marker">&#x2020;</ref>/
+                        dālyete paripāṭhyete hyoṣṭhau mārutakopataḥ// </l>
+                    <l xml:id="Su.2.16.6"><label>ni.16.6</label>
+                        <ref rend="superscript footnote marker">&#x2020;</ref>ācitau piḍākābhistu
+                        sarṣapākṛtibhirbhṛśam/ sadāhapākasaṁsrāvau<ref
+                            rend="superscript footnote marker">&#x2020;</ref> nīlau pītau ca
+                        pittataḥ// </l>
+                    <l xml:id="Su.2.16.7"><label>ni.16.7</label> savarṇābhistu cīyete
+                        piḍakābhiravedanau/ <ref rend="superscript footnote marker"
+                        >&#x2020;</ref>kaṇḍūmantau kaphācchūnau picchilau śītalau gurū// </l>
+                    <l xml:id="Su.2.16.8"><label>ni.16.8</label> sakṛt kṛṣṇau sakṛt pītau
+                        sakṛcchvetau tathaiva ca/ sannipātena vijñeyāvanekapiḍikācitau// </l>
+                    <l xml:id="Su.2.16.9"><label>ni.16.9</label> kharjūraphalavarṇābhiḥ <ref
+                            rend="superscript footnote marker">&#x2020;</ref>piḍakābhiḥ samācitau/
+                        raktopasṛṣṭau rudhiraṁ sravataḥ śoṇitaprabhau// </l>
+                    <l xml:id="Su.2.16.10"><label>ni.16.10</label> māsaduṣṭau gurū sthūlau
+                        māṁsapiṇḍavadudgatau/ jantavaścātra mūrcchanti <ref
+                            rend="superscript footnote marker">&#x2020;</ref>sṛkkasyobhayato
+                        mukhāt// </l>
+                    <l xml:id="Su.2.16.11"><label>ni.16.11</label>
+                        <ref rend="superscript footnote marker">&#x2020;</ref>medasā ghṛtamaṇḍābhau
+                        kaṇḍūmantau sthirau mṛdū// acchaṁ sphaṭikasaṅkāśamāsrāvaṁ sravayo <ref
+                            rend="superscript footnote marker">&#x2020;</ref>gurū// </l>
+                    <l xml:id="Su.2.16.12"><label>ni.16.12</label>
+                        <ref rend="superscript footnote marker">&#x2020;</ref>kṣatajābhau vidīryete
+                        pāṭhyete cābhighātataḥ/ <ref rend="superscript footnote marker"
+                            >&#x2020;</ref>grathitau ca samākhyātāvoṣṭhau kaṇḍūsamanvitau// </l>
+                    <l xml:id="Su.2.16.13"><label>ni.16.13</label> dantamūlagatāstu śītādo,
+                        dantapuppuṭako, dantaveṣṭakaḥ, śauṣiro, mahāśauṣiraḥ, paridara, upakuśo,
+                        dantavaidarbho, vardhanaḥ, adhimāṁso, nāḍyaḥ pañceti// </l>
+                    <l xml:id="Su.2.16.14"><label>ni.16.14</label> śoṇitaṁ dantaveṣṭebhyo
+                        yasyākasmāt pravartate/ durgandhīni sakṛṣṇāni prakledīni mṛdūni ca// </l>
+                    <l xml:id="Su.2.16.15"><label>ni.16.15</label> dantamāṁsāni śīryante pacanti
+                        ca parasparam/ śītādo nāma sa vyādhiḥ kaphaśoṇitasaṁbhavaḥ// </l>
+                    <l xml:id="Su.2.16.16"><label>ni.16.16</label> dantayostriṣu vā yasya
+                        śvayathuḥ <ref rend="superscript footnote marker">&#x2020;</ref>sarujo
+                        mahān/ dantapuppuṭako jñeyaḥ kapharaktanimittajaḥ// </l>
+                    <l xml:id="Su.2.16.17"><label>ni.16.17</label> sravanti pūyarudhiraṁ calā
+                        dantā bhavanti ca/ dantaveṣṭaḥ sa vijñeyo duṣṭaśoṇitasaṁbhavaḥ// </l>
+                    <l xml:id="Su.2.16.18"><label>ni.16.18</label> śvayathurdantamūleṣu rujāvān
+                            kapharaktajaḥ<ref rend="superscript footnote marker">&#x2020;</ref>/
+                        lālāsrāvī sa vijñeyaḥ kaṇḍūmāñ<ref rend="superscript footnote marker"
+                            >&#x2020;</ref> śauṣiro gadaḥ// </l>
+                    <l xml:id="Su.2.16.19"><label>ni.16.19</label> dantāścalanti veṣṭebhyastālu
+                        cāpyavadīryate/ dantamāṁsāni pacyante mukhaṁ ca paripīḍyate// </l>
+                    <l xml:id="Su.2.16.20"><label>ni.16.20</label> yasmin sa sarvajo
+                        vyādhirmahāśauṣirasaṁjñakaḥ/ dantamāṁsāni śīryante yasmin ṣṭhīvati
+                            cāpyasṛk<ref rend="superscript footnote marker">&#x2020;</ref>// </l>
+                    <l xml:id="Su.2.16.21"><label>ni.16.21</label> pittāsṛkkaphajo vyādhirjñeyaḥ
+                        paridaro hi saḥ/ ceṣṭeṣu dāhaḥ pākaśca tebhyo dantāścalanti <ref
+                            rend="superscript footnote marker">&#x2020;</ref>ca// </l>
+                    <l xml:id="Su.2.16.22"><label>ni.16.22</label> āghaṭṭitāḥ prasravanti śoṇitaṁ
+                        mandavedanāḥ/ ādhmāyante srute rakte mukhaṁ pūti ca jāyate// </l>
+                    <l xml:id="Su.2.16.23"><label>ni.16.23</label> yasminnupakuśaḥ sa <ref
+                            rend="superscript footnote marker">&#x2020;</ref>syāt pittaraktakṛto
+                        gadaḥ/ ghṛṣṭeṣu dantamūleṣu saṁrambho jāyate mahān// </l>
+                    <l xml:id="Su.2.16.24"><label>ni.16.24</label> bhavanti ca calā dantāḥ sa
+                        vaidarbho+abhighātajaḥ/ mārutenādhiko danto jāyate tīvravedanaḥ// </l>
+                    <l xml:id="Su.2.16.25"><label>ni.16.25</label> vardhanaḥ sa mato <ref
+                            rend="superscript footnote marker">&#x2020;</ref>vyādhirjāte ruk ca
+                        praśāmyati/ hānavye paścime dante mahāñchotho mahārujaḥ// </l>
+                    <l xml:id="Su.2.16.26"><label>ni.16.26</label> lālāsrāvī kaphakṛto vijñeyaḥ
+                        so+adhimāṁsakaḥ/ dantamūlagatā nāḍyaḥ pañca jñeyā yatheritāḥ// </l>
+                    <l xml:id="Su.2.16.27"><label>ni.16.27</label> dantagatāstu dālanaḥ,
+                        krimidantako, dantaharṣo, bhañjanakaḥ, dantaśarkarā, kapālikā, śyāvadantako,
+                        hanumokṣaśceti// </l>
+                    <l xml:id="Su.2.16.28"><label>ni.16.28</label>
+                        <ref rend="superscript footnote marker">&#x2020;</ref>dālyante bahudhā dantā
+                        yasmiṁstīvraruganvitāḥ/ dālanaḥ sa iti jñeyaḥ sadāgatinimittajaḥ// </l>
+                    <l xml:id="Su.2.16.29"><label>ni.16.29</label> kṛṣṇaścchidrī calaḥ srāvī
+                        sasṁrambho mahārujaḥ/ animittarujo vātādvijñeyaḥ kṛmidantakaḥ// </l>
+                    <l xml:id="Su.2.16.30"><label>ni.16.30</label> śītamuṣṇaṁ ca <ref
+                            rend="superscript footnote marker">&#x2020;</ref>daśanāḥ sahante
+                        sparśanaṁ na ca/ yasya taṁ dantaharṣaṁ tu vyādhiṁ vidyāt samīraṇāt// </l>
+                    <l xml:id="Su.2.16.31"><label>ni.16.31</label> vaktraṁ vakraṁ <ref
+                            rend="superscript footnote marker">&#x2020;</ref>bhavedyasmin
+                        dantabhaṅgaśca tīvraruk/ kaphavātakṛto vyādhiḥ sa bhañjanakasaṁjñitaḥ// </l>
+                    <l xml:id="Su.2.16.32"><label>ni.16.32</label>
+                        <ref rend="superscript footnote marker">&#x2020;</ref>śarkareva sthirībhūto
+                        malo dnateṣu yasya vai/ sā dantānāṁ guṇaharī vijñeyā dantaśarkarā// </l>
+                    <l xml:id="Su.2.16.33"><label>ni.16.33</label> dalanti dantavalkāni yadā
+                        śarkarayā saha/ jñeyā kapālikā saiva daśanānāṁ <ref
+                            rend="superscript footnote marker">&#x2020;</ref>vināśinī// </l>
+                    <l xml:id="Su.2.16.34"><label>ni.16.34</label> yo+asṛṅniśreṇa pittena dagdho
+                        dantastvaśeṣataḥ/ śyāvatāṁ nīlatāṁ vā+api gataḥ sa śyāvadantakaḥ// </l>
+                    <l xml:id="Su.2.16.35"><label>ni.16.35</label> vātena taistairbhāvaistu
+                            hanusandhirvidaṁhataḥ<ref rend="superscript footnote marker"
+                            >&#x2020;</ref>/ hanumokṣa iti jñeyo vyādhirarditalakṣaṇaḥ// </l>
+                    <l xml:id="Su.2.16.36"><label>ni.16.36</label> jihvāgatāstu
+                        kaṇṭakāstrividhāstribhirdoṣaiḥ, alāsa, upajihvikā ceti// </l>
+                    <l xml:id="Su.2.16.37"><label>ni.16.37</label> jihvā+anilena sphuṭitā
+                        prasuptā bhavecca śākacchadanaprakāśā/ pittena<ref
+                            rend="superscript footnote marker">&#x2020;</ref> pītā paridahyate ca
+                        citā saraktairapi kaṇṭakaiśca/ kaphena gurvī bahalā citā ca māṁsodgamaiḥ
+                        śālmalikaṇṭakābhaiḥ// </l>
+                    <l xml:id="Su.2.16.38"><label>ni.16.38</label> jihvātale<ref
+                            rend="superscript footnote marker">&#x2020;</ref> yaḥ śvayathuḥ
+                        pragāḍhaḥ so+alāsasaṁjñaḥ kapharaktamūrtiḥ/ jihvāṁ sa tu stambhayati
+                        pravṛddho mūle tu jihvā bhṛśameti pākam// </l>
+                    <l xml:id="Su.2.16.39"><label>ni.16.39</label> jihvāgrarūpaḥ śvayathurhi
+                        jihvāmunnamya jātaḥ kapharaktayoniḥ<ref rend="superscript footnote marker"
+                            >&#x2020;</ref>/ prasekakaṇḍūparidāhayuktā
+                        prakathyate+asāvupajihviketi// </l>
+                    <l xml:id="Su.2.16.40"><label>ni.16.40</label> tālugatāstu galaśuṇḍikā,
+                        tuṇḍikerī, adhruṣaḥ, kacchapaḥ, arbudaṁ, māṁsasaṅghātaḥ, tālupuppuṭaḥ,
+                        tāluśoṣaḥ, tālupāka iti// </l>
+                    <l xml:id="Su.2.16.41"><label>ni.16.41</label> śleṣmāsṛgbhyāṁ tālumūlāt
+                        pravṛddho dīrghaḥ śopho dhmātabastiprakāśaḥ/ tṛṣṇākāsaśvāsakṛt saṁpradiṣṭo
+                        vyādhirvaidyaiḥ kaṇṭhaśuṇḍīti nāmnā// </l>
+                    <l xml:id="Su.2.16.42"><label>ni.16.42</label> śophaḥ<ref
+                            rend="superscript footnote marker">&#x2020;</ref> stabdho
+                        lohiṁtastāludeśe raktājñeyaḥ so+adhruṣo rugjvarāḍhyaḥ// </l>
+                    <l xml:id="Su.2.16.43"><label>ni.16.43</label> kūrmotsanno<ref
+                            rend="superscript footnote marker"
+                        >&#x2020;</ref>+avedano+aśīghrajanmā+arakto jñeyaḥ kacchapaḥ śleṣmaṇā syāt/
+                        padmākāraṁ tālumadhye tu śophaṁ vidyādraktādarbudaṁ proktaliṅgam// </l>
+                    <l xml:id="Su.2.16.44"><label>ni.16.44</label> duṣṭaṁ māṁsaṁ śleṣmaṇā nīrujaṁ
+                        ca tālvantaḥsthaṁ māṁsasaṅghātamāhuḥ/ <ref
+                            rend="superscript footnote marker">&#x2020;</ref>nīruk sthāyī kolamātraḥ
+                        kaphāt syānmedoyuktāt<ref rend="superscript footnote marker">&#x2020;</ref>
+                        puppuṭastāludeśe// </l>
+                    <l xml:id="Su.2.16.45"><label>ni.16.45</label> śoso+<ref
+                            rend="superscript footnote marker">&#x2020;</ref>atyarthaṁ dīryate cāpi
+                        tāluḥ <ref rend="superscript footnote marker">&#x2020;</ref>śvāso
+                        vātāttāluśoṣaḥ sapittāt/ pittaṁ kuryāt pākamatyarthaghoraṁ tālunyenaṁ
+                        tālupākaṁ vadanti// </l>
+                    <l xml:id="Su.2.16.46"><label>ni.16.46</label> kaṇṭhagatāstu rohiṇyaḥ pañca,
+                        kaṇṭhaśālūkam, adhijihvo, balayo, balāsa<ref
+                            rend="superscript footnote marker">&#x2020;</ref>, ekavṛndo, vṛndaḥ,
+                        śataghnī, gilāyuḥ, galavidradhiḥ, galaughaḥ, svaraghno, māṁsatāno, vidārī
+                        ceti// </l>
+                    <l xml:id="Su.2.16.47"><label>ni.16.47</label> gale+anilaḥ pittakaphau ca
+                        mūrcchitau pṛthak samastāśca tathaiva śoṇitam<ref
+                            rend="superscript footnote marker">&#x2020;</ref>/ pradūṣya māṁsaṁ
+                        galarodhino+aṅkurān sṛjanti yān sā+asuharā hi rohiṇī// </l>
+                    <l xml:id="Su.2.16.48"><label>ni.16.48</label> jihvāṁ samantādbhṛśavedanā ye
+                        māṁsāṅkurāḥ kaṇṭhanirodhinaḥ syuḥ/ tāṁ rohiṇīṁ vātakṛtāṁ vadanti
+                            vātātmakopadravagāḍhayuktām<ref rend="superscript footnote marker"
+                            >&#x2020;</ref>// </l>
+                    <l xml:id="Su.2.16.49"><label>ni.16.49</label> kṣiprodgamā kṣipravidāhapākā
+                        tīvrajvarā pittanimittajā syāt/ srotonirodhinyapi<ref
+                            rend="superscript footnote marker">&#x2020;</ref> mandapākā gurvī sthirā
+                        sā kaphasaṁbhavā vai// </l>
+                    <l xml:id="Su.2.16.50"><label>ni.16.50</label> gambhīrapākā+aprativāravīryā
+                        tridoṣaliṅgā trayasaṁbhavā syāt/ sphoṭācitā pittasamānaliṅgā+asādhyā
+                        pradiṣṭā rudhirātmikeyam// </l>
+                    <l xml:id="Su.2.16.51"><label>ni.16.51</label> kolāsthimātraḥ kaphasṁbhavo yo
+                        granthirgale kaṇṭakaśūkabhūtaḥ/ kharaḥ sthiraḥ śastranipātasādhyastaṁ
+                        kaṇṭhaśālūkamiti bruvanti// </l>
+                    <l xml:id="Su.2.16.52"><label>ni.16.52</label> jihvāgrarūpaḥ śvayathuḥ
+                        kaphāttu <ref rend="superscript footnote marker"
+                        >&#x2020;</ref>jihvāprabandhopari raktamiśrāt/ jñeyo+adhijihvaḥ khalu roga
+                        eṣa vivarjayedāgatapākamenam// </l>
+                    <l xml:id="Su.2.16.53"><label>ni.16.53</label> balāsa evāyatamunnataṁ ca
+                        śophaṁ karotyannagatiṁ nivārya/ taṁ sarvathaivāprativāravīryaṁ vivarjanīyaṁ
+                        valayaṁ vadanti// </l>
+                    <l xml:id="Su.2.16.54"><label>ni.16.54</label> gale tu śophaṁ kurutaḥ
+                        pravṛddhau śleṣmānilau śvāsarujopapannam/ marmacchidaṁ
+                            dustarametadāhurbalāsasṁjñaṁ<ref rend="superscript footnote marker"
+                            >&#x2020;</ref> nipuṇā vikāram// </l>
+                    <l xml:id="Su.2.16.55"><label>ni.16.55</label> vṛttonnato yaḥ śvayathuḥ
+                        sadāhaḥ kaṇḍvanvito+apākyamṛdurguruśca/ nāmnaikavṛndaḥ parikīrtito+asau
+                        vyādhirbalāsakṣatajaprasūtaḥ// </l>
+                    <l xml:id="Su.2.16.56"><label>ni.16.56</label> samunnataṁ vṛttamamandadāhaṁ
+                        tīvrajvaraṁ vṛndamudāharanti/ taṁ cāpi pittakṣatajaprakopādvidyāt satodaṁ
+                            pavanāsrajaṁ<ref rend="superscript footnote marker">&#x2020;</ref> tu// </l>
+                    <l xml:id="Su.2.16.57"><label>ni.16.57</label> vartirghanā kaṇṭhanirodhinī yā
+                        citā+atimātraṁ piśitaprarohaiḥ/ <ref rend="superscript footnote marker"
+                            >&#x2020;</ref>nānārujocchrāyakarī tridoṣājjñeyā śataghnīva
+                        śataghnyasādhyā// </l>
+                    <l xml:id="Su.2.16.58"><label>ni.16.58</label> granthirgale
+                        tvāmalakāsthimātraḥ sthiro+alparuk syāt kapharaktamūrtiḥ<ref
+                            rend="superscript footnote marker">&#x2020;</ref>/ saṁlakṣyate
+                        saktamivāśanaṁ ca sa śastrasādhyastu gilāyusaṁjñaḥ// </l>
+                    <l xml:id="Su.2.16.59"><label>ni.16.59</label> sarvaṁ galaṁ vyāpya samutthito
+                        yaḥ śopho rujo yatra ca santi sarvāḥ/ sa sarvadoṣo galavidradhistu tasyaiva
+                        tulyaḥ khalu sarvajasya// </l>
+                    <l xml:id="Su.2.16.60"><label>ni.16.60</label> śopho mahānannajalāvarodhī
+                        tīvrajvaro vātagaternihantā/ kaphena jāto rudhirānvitena gale galaughaḥ
+                        parikīrtyate+asau// </l>
+                    <l xml:id="Su.2.16.61"><label>ni.16.61</label> yo+atipratāmyan śvasiti
+                        prasaktaṁ bhinnasvaraḥ śuṣkavimuktakaṇṭhaḥ/ kaphopadigdheṣvanilāyaneṣu
+                        jñeyaḥ sa rogaḥ śvasanāt svaraghnaḥ// </l>
+                    <l xml:id="Su.2.16.62"><label>ni.16.62</label> pratānavān yaḥ śvayathuḥ
+                        sukaṣṭo galoparodhaṁ kurute krameṇa/ sa māṁsatānaḥ kathito+avalambī
+                        prāṇapraṇut sarvakṛto vikāraḥ// </l>
+                    <l xml:id="Su.2.16.63"><label>ni.16.63</label> sadāhatodaṁ śvayathuṁ
+                        saraktamantargale pūtiviśīrṇamāṁsam/ pittena vidyādvadane vidārīṁ pārśve
+                        viśeṣāt sa tu yena śete// </l>
+                    <l xml:id="Su.2.16.64"><label>ni.16.64</label> sarvasarāstu
+                        vātapittakaphaśoṇitanimittāḥ// </l>
+                    <l xml:id="Su.2.16.65"><label>ni.16.65</label> sphoṭaiḥ satodairvadanaṁ
+                        samantādyasyācitaṁ sarvasaraḥ sa vātāt/ raktaiḥ sadāhaistanubhiḥ
+                        sapītairyasyācitaṁ cāpi sa pittakopāt// </l>
+                    <l xml:id="Su.2.16.66"><label>ni.16.66</label>
+                        <ref rend="superscript footnote marker">&#x2020;</ref>kaṇḍūyutairalparujaiḥ
+                        sarvaṇairyasyācitaṁ cāpi sa vai kaphena/ raktena pittodita eka eva kaiścit
+                        pradiṣṭo mukhapākasṁjñaḥ<ref rend="superscript footnote marker"
+                            >&#x2020;</ref>//</l>
+                    <trailer>iti suśrutasaṁhitāyāṁ nidānasthāne mukharoganidānaṁ nāma
+                        ṣoḍaśo+adhyāyaḥ//16//</trailer>
+                </div>
+            <trailer>samāptaṃ cedaṃ sūtrasthānam /</trailer>
+            </div>
+        </body>
+    </text>
+</TEI>
