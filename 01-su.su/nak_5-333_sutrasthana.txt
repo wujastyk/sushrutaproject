@@ -18,7 +18,7 @@
             <institution>Kaiser Library</institution>
             <repository>https://www.klib.gov.np/</repository>
             <collection>[collection]</collection>
-            <idno>699</idno>
+            <idno>5-333</idno>
             <idno type="NCC">[NCC identifier]</idno>
             <idno type="siglum">H</idno>
           </msIdentifier>
@@ -27,12 +27,11 @@
             <msItem defective="true" n="1">
               <!-- @defective: 'false' for complete, 'true' for incomplete -->
               <author role="author" xml:lang="sa">Suśruta</author>
-              <author role="commentator" xml:lang="sa">[commentator]</author>
               <title xml:lang="sa">Suśrutasaṃhitā</title>
               <title type="commentary" xml:lang="sa">[title of commentary]</title>
               <!-- rubric, incipit, explicit, and finalRubric are given as examples -->
 
-              <textLang mainLang="sa">[Sanskrit in Devanāgarī script.]</textLang>
+              <textLang mainLang="sa-Newa">[Sanskrit in Nepalese script.]</textLang>
               <!-- @mainLang can be "sa-Deva", "sa-Mlym", "sa-Telu", "sa-Newa", etc. See ISO 15924 for more details. -->
             </msItem>
           </msContents>
@@ -43,28 +42,8 @@
                 <!-- @material can be "paper", "industrial paper", "handmade paper", "palm-leaf", "palmyra palm-leaf", "talipot palm-leaf", "birch bark", "vellum", etc. -->
                 <!-- the following <foliation> tags are examples -->
               </supportDesc>
-
             </objectDesc>
-            <handDesc>
-              <handNote medium="black ink" scope="sole" script="devanāgarī">
-                <p>Copied by the scribe _.</p>
-              </handNote>
-              <handNote medium="red ink" scope="major" script="devanāgarī">
-                <p>[description of another hand]</p>
-              </handNote>
-              <handNote medium="green highlighter" scope="minor" script="english">
-                <p>[description of another hand]</p>
-              </handNote>
-            </handDesc>
-            <additions>
-              <!-- the following additions are examples -->
-              <p>Marginal annotations and corrections throughout.</p>
-              <p>Marginal illustration on folio _.</p>
-            </additions>
-            <bindingDesc>
-              <p>[description of cover, binding, and/or stringholes]</p>
-            </bindingDesc>
-          </physDesc>
+            </physDesc>
           <history>
             <origin>
               <origDate calendar="Nepala" when="0663">Nepala Saṃvat 663 (1465 CE).</origDate>
@@ -81,6 +60,7 @@
       <change when="2020-10-21" who="Dominik Wujastyk"> Started the file. </change>
     </revisionDesc>
   </teiHeader>
+  
   <text xml:lang="sa-Latn">
     <body>
       <div n="1" subtype="sthāna">
