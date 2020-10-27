@@ -82,7 +82,7 @@
 
                 <msDesc xml:id="Sanskrit" xml:lang="en">
                     <msIdentifier>
-                        <idno type="siglum">Āp</idno>
+                        <idno type="siglum">Ā<sub>1931</sub></idno>
                     </msIdentifier>
                 </msDesc>
             </sourceDesc>
@@ -106,15 +106,21 @@
                         <gap n="1" unit="line"/>
                     </l>
 
-                    <l xml:id="Su.1.1.1">athāto vedotpattim adhyāyaṃ vyākhyāsyāmaḥ // </l>
+                    <l xml:id="Su.1.1.1">athāto <app>
+                            <lem>vedotpattim adhyāyaṃ</lem>
+                            <rdg>vedotpattināmādhyāya</rdg>
+                            <rdg>vedotpattiṃ nāmādhyāyaṃ</rdg>
+                        </app> vyākhyāsyāmaḥ||1|| </l>
 
-                    <l xml:id="Su.1.1.2">yathovāca bhagavān dhanvantariḥ // </l>
+                    <l xml:id="Su.1.1.2">yathovāca bhagavān dhanvantariḥ||2||</l>
 
                     <l xml:id="Su.1.1.3">atha khalu bhagavantam amaravaram ṛṣigaṇaparivṛtam
                         āśramasthaṃ kāśirājaṃ divodāsaṃ dhanvantarim
-                            aupadhenavavaitaraṇaurabhrapauṣkalāvata-<ref rend="superscript
-                            footnote marker">&#x2020;</ref>karavīryagopurarakṣitasuśrutaprabhṛtaya
-                        ūcuḥ // <note type="footnote"> karavīra</note>
+                            aupadhenavavaitaraṇaurabhrapauṣkalāvata-<ref
+                            rend="superscript
+                            footnote marker"
+                            >&#x2020;</ref>karavīryagopurarakṣitasuśrutaprabhṛtaya ūcuḥ||3||<note
+                            type="footnote"> karavīra</note>
                     </l>
 
                     <l xml:id="Su.1.1.4">bhagavan śārīramānasāgantuvyādhibhir
@@ -124,7 +130,7 @@
                         icchāma ihopadiśyamānaṃ atrāyattam aihikam āmuṣmikaṃ ca śreyaḥ tad
                         bhagavantam upapannāḥ smaḥ śiṣyatveneti // </l>
 
-                                   <l xml:id="Su.1.1.5"><label>sū.1.5</label>tān uvāca bhagavān svāgataṃ vaḥ sarva
+                    <l xml:id="Su.1.1.5"><label>sū.1.5</label>tān uvāca bhagavān svāgataṃ vaḥ sarva
                         evāmīmāṃsyā adhyāpyāś ca bhavanto vatsāḥ // </l>
 
                     <l xml:id="Su.1.1.6"><label>sū.1.6</label> iha khalvāyurvedo nāmopāṅgam
@@ -135,8 +141,8 @@
                     <l xml:id="Su.1.1.7"><label>sū.1.7</label> tad yathā śalyaṃ śālākyaṃ kāyacikitsā
                         bhūtavidyā kaumārabhṛtyaṃ agadatantraṃ rasāyanatantraṃ vājīkaraṇatantram
                         iti// </l>
-                    
-                    
+
+
                     <!--
                     <l xml:id="Su.1.1.8.0"><label>sū.1.8.0</label> athāsya pratyaṅgalakṣaṇasamāsaḥ / </l>
 
