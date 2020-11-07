@@ -1,0 +1,110 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+    <fileDesc>
+      <titleStmt>
+        <title>[MSS Kathmandu KL 699]</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Suśruta project, University of Alberta</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <placeName>
+              <settlement>Kathmandu</settlement>
+              <region>[region]</region>
+              <country>Nepal</country>
+            </placeName>
+            <institution>Kaiser Library</institution>
+            <repository>https://www.klib.gov.np/</repository>
+            <collection>[collection]</collection>
+            <idno>699</idno>
+            <idno type="NCC">[NCC identifier]</idno>
+            <idno type="siglum">K</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>[description of manuscript]</summary>
+            <msItem defective="true" n="1">
+              <!-- @defective: 'false' for complete, 'true' for incomplete -->
+              <author role="author" xml:lang="sa">Suśruta</author>
+              <title xml:lang="sa">Suśrutasaṃhitā</title>
+              <title type="commentary" xml:lang="sa">[title of commentary]</title>
+              <!-- rubric, incipit, explicit, and finalRubric are given as examples -->
+
+              <textLang mainLang="sa-Newa">[Sanskrit in Nepalese script.]</textLang>
+              <!-- @mainLang can be "sa-Deva", "sa-Mlym", "sa-Telu", "sa-Newa", etc. See ISO 15924 for more details. -->
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="pothi">
+              <!-- @form can be "pothi", "book", scroll", etc. -->
+              <supportDesc material="palm-leaf">
+                <!-- @material can be "paper", "industrial paper", "handmade paper", "palm-leaf", "palmyra palm-leaf", "talipot palm-leaf", "birch bark", "vellum", etc. -->
+                <!-- the following <foliation> tags are examples -->
+              </supportDesc>
+
+            </objectDesc> 
+           </physDesc>
+          
+          <history>
+            <origin>
+              <origDate calendar="Nepal" when="0301">M Saṃvat 301 (878 CE).</origDate>
+              <!-- calendar can be "Vikrama", "Śaka", etc. Dates can be approximate or exact. -->
+              <origPlace xml:lang="en">[place of production]</origPlace>
+            </origin>
+            <provenance>[record of ownership]</provenance>
+            <acquisition>[how it was acquired]</acquisition>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <change when="2020-04-21">
+        <persName>[name of editor]</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="sa-Latn">
+    <body>
+      <div n="1" subtype="sthāna">
+
+        <div n="1" subtype="adhyāyaḥ">
+
+          <p xml:id="Su.1.1.0"><pb/>oṃ namaḥ kamalahastāya|| </p>
+
+
+
+          <l xml:id="Su.1.1.1">athāto vedotpattim <subst><del>ā</del><add>a</add></subst>dhyāyaṃ vyākhyāsyāmaḥ|</l>
+
+          <l xml:id="Su.1.1.2"/>
+
+          <l xml:id="Su.1.1.3">atha khalu bhagavantam amaravaram ṛṣigaṇaparivṛttam
+
+āśramastha<supplied evidence="conjecture" reason="hole in MS">ṃ</supplied> kāśirājāṃ divodāsam <add place="margin">dhanvantari</add> aupadhenavaḥ vaitaraṇaurabhrapuṣkalāvatakaravīragopurarakṣitabhojāsuśrutaprabhṛtaya ūcu</l>
+
+          <l xml:id="Su.1.1.4">bhagava<unclear>ñ chā</unclear>rīramānasāgantubhi<gap reason="damaged" unit="akṣara" quantity="1"/> vyādhibhir <unclear>vi</unclear>dhavedanābhighātopadrutā<unclear>n sa</unclear>nāthān anāthavad viceṣṭamānān vikrośataś<gap reason="erased" unit="akṣara" quantity="2"/> ca mānavānam abhisamīkṣya manasi naḥ pīḍā bhavati teṣāṃ sukhaiṣiṇāṃ rogopaśamārtham ātmanaś ca prāṇayātrārtham āyuśvedam icchāma upadiśyamānam atrāyattam aihikam āmuṣmikañ ca śreyas tad bhagavantam upasa<unclear>nn</unclear>ā sma śiṣyatve </l>
+
+          <l xml:id="Su.1.1.5">tān uvāca bhagavān svāgataṃ vaḥ sarva evāmīmāṃsyā a<subst><add place="below line">dhyā</add></subst>pyāś ca bhavanto vatsāḥ |</l>
+          
+          <l xml:id="Su.1.1.6"> iha khalv āyurvedo nāma yam upāṅgam atharvavedasyoktam anutpādyaiva ca prajaḥ śloka<add place="below the line">śata</add>sahasramadhyāyasahasrañ ca kṛtavān svayambhūr alpāyuṣkālpamedhastvañ cālokya narāṇāṃ bhūyo ṣṭadhā praṇītavān tad yathā | </l>
+          
+          <l xml:id="Su.1.1.7"> śalyaṃ śālākyaṃ kā<gap reason="damaged" unit="akṣara" quantity="1"/>cikitsā bhūtavidyā kaumārabhṛtyam agadatantraṃ rasāyanatantraṃ vājīkaraṇatantram iti |</l>
+          
+          <l xml:id="Su.1.1.8.1"> <gap reason="damaged" unit="akṣara" quantity="2"/>sya pratyakāṅgalakṣaṇasamāsas tatra śalyam nāma vividhatṛṇakāṣṭhapāṣāṇ<note place="inline"/>sata</note>apāṃśulohaloṣṭāsthibālanakhapūyāsrāva<unclear>du</unclear>ṣṭavraṇāntargarbhaśalyoddharaṇārthaṃ yantraśastrakṣārāgnipraṇidhāna<gap extent="1" unit="word"/>viniścayārthañ ca </l>
+          
+          <l xml:id="Su.1.1.8.2">ṣaṣṭyābhi<gap reason="damaged" unit="akṣara" quantity="2"/><supplied>dhā</supplied>nair iti | śālākyatantran nāmordhvajātrugatānāṃ vikārāṇāṃ śravaṇanayanavadanaghrāṇādisaṃś<gap reason="damaged" unit="akṣara" quantity="1"/>itānāṃ vikārāṇām upaśamakaraṇārthaṃ </l>
+          <l xml:id="Su.1.1.8.3">kāyacikītsā nāma sarvaśarīrāvasthitā<del rend="crossed out"/del><supplied>nāṃ vyā</supplied>dhīnām upaśamakaraṇārthaṃ jvāraśāhvagulmaraktapittonmādāpasmārapramehātisārādīnāñ ca |</l>
+          
+          <l xml:id="Su.1.1.8.4">bhūtavidyā nāma devagandha<gap reason="damaged" unit="akṣara" quantity="2"/><supplied>rvaya</supplied>kṣarākṣasapitṛpiśācavināyakanāgagrahopasṛṣṭacetasāṃ śāntikarmabaliharaṇādigrahopaśamanārtham |</l>         
+          <l xml:id="Su.1.1.8.5">kaumārabhṛtyaṃ nāma kumārabharaṇadhātrīkṣīradoṣasaṃśodhanārthaṃ duṣṭastanyagrahasamutthitānāñ ca vyādhīnām upaśamakaraṇārtham |</l>  
+          
+          
+          
+          
+          
+        
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
