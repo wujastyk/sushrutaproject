@@ -24,7 +24,7 @@ By Kengo Harimoto, with addition by Dominik Wujastyk
 </tr>
 <tr class="odd">
 <td>4</td>
-<td>n/a</td>
+<td>folio missing</td>
 </tr>
 <tr class="even">
 <td>5</td>
@@ -48,7 +48,7 @@ By Kengo Harimoto, with addition by Dominik Wujastyk
 </tr>
 <tr class="odd">
 <td>10</td>
-<td>n/a</td>
+<td>folio missing</td>
 </tr>
 <tr class="even">
 <td>11</td>
@@ -56,7 +56,7 @@ By Kengo Harimoto, with addition by Dominik Wujastyk
 </tr>
 <tr class="odd">
 <td>12</td>
-<td>n/a</td>
+<td>folio missing</td>
 </tr>
 <tr class="even">
 <td>13</td>
@@ -76,7 +76,7 @@ By Kengo Harimoto, with addition by Dominik Wujastyk
 </tr>
 <tr class="even">
 <td>16</td>
-<td>n/a</td>
+<td>folio missing</td>
 </tr>
 <tr class="odd">
 <td>17</td>
@@ -84,15 +84,15 @@ By Kengo Harimoto, with addition by Dominik Wujastyk
 </tr>
 <tr class="even">
 <td>18</td>
-<td>n/a</td>
+<td>folio missing</td>
 </tr>
 <tr class="odd">
 <td>19</td>
-<td>n/a</td>
+<td>folio missing</td>
 </tr>
 <tr class="even">
 <td>20</td>
-<td>n/a</td>
+<td>folio missing</td>
 </tr>
 <tr class="odd">
 <td>21</td>
@@ -100,7 +100,7 @@ By Kengo Harimoto, with addition by Dominik Wujastyk
 </tr>
 <tr class="even">
 <td>22</td>
-<td>n/a</td>
+<td>folio missing</td>
 </tr>
 <tr class="odd">
 <td>23</td>
@@ -112,7 +112,7 @@ By Kengo Harimoto, with addition by Dominik Wujastyk
 </tr>
 <tr class="odd">
 <td>25</td>
-<td>n/a</td>
+<td>folio missing</td>
 </tr>
 <tr class="even">
 <td>26</td>
@@ -132,7 +132,7 @@ By Kengo Harimoto, with addition by Dominik Wujastyk
 </tr>
 <tr class="even">
 <td>30–67</td>
-<td>n/a</td>
+<td>folio missing</td>
 </tr>
 <tr class="odd">
 <td>68</td>
@@ -140,7 +140,7 @@ By Kengo Harimoto, with addition by Dominik Wujastyk
 </tr>
 <tr class="even">
 <td>69–89</td>
-<td>n/a</td>
+<td>folio missing</td>
 </tr>
 <tr class="odd">
 <td>90</td>
@@ -148,7 +148,7 @@ By Kengo Harimoto, with addition by Dominik Wujastyk
 </tr>
 <tr class="even">
 <td>91–109</td>
-<td>n/a</td>
+<td>folio missing</td>
 </tr>
 <tr class="odd">
 <td>110</td>
@@ -156,7 +156,7 @@ By Kengo Harimoto, with addition by Dominik Wujastyk
 </tr>
 <tr class="even">
 <td>111</td>
-<td>n/a</td>
+<td>folio missing</td>
 </tr>
 <tr class="odd">
 <td>112_</td>
@@ -208,7 +208,7 @@ By Kengo Harimoto, with addition by Dominik Wujastyk
 </tr>
 <tr class="odd">
 <td>122–124</td>
-<td>n/a</td>
+<td>folio missing</td>
 </tr>
 <tr class="even">
 <td>125</td>
@@ -272,7 +272,7 @@ By Kengo Harimoto, with addition by Dominik Wujastyk
 </tr>
 <tr class="odd">
 <td>140</td>
-<td>n/a</td>
+<td>folio missing</td>
 </tr>
 <tr class="even">
 <td>141</td>
@@ -432,7 +432,7 @@ By Kengo Harimoto, with addition by Dominik Wujastyk
 </tr>
 <tr class="odd">
 <td>177–186</td>
-<td>n/a</td>
+<td>folio missing</td>
 </tr>
 <tr class="even">
 <td>180_</td>
@@ -452,7 +452,7 @@ By Kengo Harimoto, with addition by Dominik Wujastyk
 </tr>
 <tr class="even">
 <td>184_</td>
-<td>n/a</td>
+<td>folio missing</td>
 </tr>
 <tr class="odd">
 <td>185_</td>
@@ -616,7 +616,7 @@ By Kengo Harimoto, with addition by Dominik Wujastyk
 </tr>
 <tr class="odd">
 <td>218</td>
-<td>n/a</td>
+<td>folio missing</td>
 </tr>
 <tr class="even">
 <td>219</td>
