@@ -1,10 +1,10 @@
+<!DOCTYPE TEI SYSTEM "file:/home/dom/Dropbox/Xdrive/projects/Susruta%20project/Saktumiva%20files/01-su.su/provisional-edition_sutrasthana.dtd">
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
         <fileDesc>
             <titleStmt>
                 <title>Provisional edition</title>
             </titleStmt>
-
             <publicationStmt>
                 <authority>The Suśruta Project</authority>
                 <idno>SS.sū.2020-11</idno>
@@ -38,50 +38,36 @@
                         rights of any copyright owners, known or unknown.</p>
                 </availability>
                 <date>2013-2016</date>
-
             </publicationStmt>
-
-
             <sourceDesc>
-
                 <msDesc xml:id="Sanskrit" xml:lang="en">
                     <msIdentifier>
                         <idno type="siglum">DW<sub>ed</sub></idno>
                     </msIdentifier>
                 </msDesc>
             </sourceDesc>
-
         </fileDesc>
         <revisionDesc>
             <change when="2020-11-04" who="Dominik Wujastyk">Began this file.</change>
         </revisionDesc>
     </teiHeader>
-
     <text xml:lang="sa-Latn">
-
         <body>
             <div n="1" subtype="sthāna">
-
                 <div n="1" subtype="adhyāyaḥ">
-
                     <l xml:id="Su.1.1.0"/>
-
                     <l xml:id="Su.1.1.1">athāto vedotpattim adhyāyaṃ vyākhyāsyāmaḥ||1|| </l>
-
                     <l xml:id="Su.1.1.2"/>
-
-                    <l xml:id="Su.1.1.3">atha khalu bhagavantam amaravaram ṛṣigaṇaparivṛttam
-                        āśramasthaṃ kāśirājaṃ divodāsam
+                    <l xml:id="Su.1.1.3">atha khalu bhagavantam <metamark function="blah blah"
+                            >amaravaram</metamark> ṛṣigaṇaparivṛttam āśramasthaṃ kāśirājaṃ divodāsam
                         aupadhenavavaitaraṇaurabhrapuṣkalāvatakaravīragopurarakṣitabhojasuśrutaprabhṛtaya
                         ūcuḥ||3||</l>
-
                     <l xml:id="Su.1.1.4">bhagavañ śārīramānasāgantubhir vyādhibhir
                         vividhavedanābhighātopadrutān sanāthān apy anāthavad viceṣṭamānān vikrośataś
                         ca mānavānam abhisamīkṣya manasi naḥ pīḍā bhavati| teṣāṃ sukhaiṣiṇāṃ
                         rogopaśamārtham ātmanaś ca prāṇayātrārthaṃ āyurvedaṃ icchāma upadiśyamānam
                         atrāyattam aihikam āmuṣmikañ ca śreyas tad bhagavantam upapannāḥ smaḥ
                         śiṣyatve||</l>
-
                 </div>
             </div>
         </body>
