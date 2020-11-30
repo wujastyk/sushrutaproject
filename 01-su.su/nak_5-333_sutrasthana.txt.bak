@@ -1,0 +1,177 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+    <fileDesc>
+      <titleStmt>
+        <title>[MSS Kathmandu NAK 5-333]</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Suśruta project, University of Alberta</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <placeName>
+              <settlement>Kathmandu</settlement>
+              <region>[region]</region>
+              <country>Nepal</country>
+            </placeName>
+            <institution>Kaiser Library</institution>
+            <repository>https://www.klib.gov.np/</repository>
+            <collection>[collection]</collection>
+            <idno>5-333</idno>
+            <idno type="NCC">[NCC identifier]</idno>
+            <idno type="siglum">H</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>[description of manuscript]</summary>
+            <msItem defective="true" n="1">
+              <!-- @defective: 'false' for complete, 'true' for incomplete -->
+              <author role="author" xml:lang="sa">Suśruta</author>
+              <title xml:lang="sa">Suśrutasaṃhitā</title>
+              <title type="commentary" xml:lang="sa">[title of commentary]</title>
+              <!-- rubric, incipit, explicit, and finalRubric are given as examples -->
+              
+              <textLang mainLang="sa-Newa">[Sanskrit in Nepalese script.]</textLang>
+              <!-- @mainLang can be "sa-Deva", "sa-Mlym", "sa-Telu", "sa-Newa", etc. See ISO 15924 for more details. -->
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="pothi">
+              <!-- @form can be "pothi", "book", scroll", etc. -->
+              <supportDesc material="paper">
+                <!-- @material can be "paper", "industrial paper", "handmade paper", "palm-leaf", "palmyra palm-leaf", "talipot palm-leaf", "birch bark", "vellum", etc. -->
+                <!-- the following <foliation> tags are examples -->
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="Nepala" when="0663">Nepala Saṃvat 663 (1465 CE).</origDate>
+              <!-- calendar can be "Vikrama", "Śaka", etc. Dates can be approximate or exact. -->
+              <origPlace xml:lang="en">[place of production]</origPlace>
+            </origin>
+            <provenance>[record of ownership]</provenance>
+            <acquisition>[how it was acquired]</acquisition>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <change when="2020-10-21" who="Dominik Wujastyk"> Started the file. </change>
+    </revisionDesc>
+  </teiHeader>
+  
+  <text xml:lang="sa-Latn">
+    <body>
+      <div n="1" subtype="sthāna">
+        
+        <div n="1" subtype="adhyāyaḥ">
+          
+          <p xml:id="Su.1.1.0"><pb n="1v"/>oṃ namo dhanvantaraye ||</p>
+          
+          <l xml:id="Su.1.1.1">athāto vedotpattiṃ nāmādhyāyaṃ vyākhyāsyāmaḥ||</l>
+          
+          <l xml:id="Su.1.1.2">
+            <gap extent="1" unit="unit"/> </l>
+          
+          <l xml:id="Su.1.1.3">atha khalu bhagavantam amaravaram ṛṣigaṇaparivṛtam āśramasthaṃ kāśirājaṃ divodāsaṃ dhanvantarim aupadhe<lb n="2"/>navavairaṇorabhrapuṣkalāvatakaravīragopurarakṣitabhojasuśrutaprabhṛtaya ūcur </l>
+          
+          <l xml:id="Su.1.1.4">bhagavac chārīramānasāgantubhir vvyādhibhir
+            vvividhavedanābhighātopadrutāṃ sanāthānanā<lb n="3"/>thavad viceṣṭamānān vikrośataś ca mānavānām abhisamīkṣya manasi naḥ pīḍā bhavat | teṣāṃ sukhaiṣiṇāṃ rogopaśamārtham ātmanaś ca prāṇayātrārtham āyurvvedam icchāma<lb n="4"/> upadiśyamānam attrāya untam auhikam āmuṣmikañ ca śreyas tad bhagavantam upasannā smaḥ śiṣyatveneti ||</l>
+          
+          <l xml:id="Su.1.1.5">tān uvāca bhagavān svāgatam vaḥ sarvva evāmīmāṃsyā<lb n="5"/> adhyāpyāś ca bhagavanto vatsāḥ |</l>
+          
+          <l xml:id="Su.1.1.6"> iha khalv āyurvvedo nāma yad upāṅgam atharvvavedasyoktam anutpādyaiva ca prajāḥ ślokaśatasahasram adhyoyasahasrañ ca kṛtavān svayambhū<lb n="7"/>r alpāyuṣkālpamedhastvañ ca alokya narāṇām bhūyo 'ṣṭadhā praṇītavān tad yathā | </l>
+          
+          <l xml:id="Su.1.1.7"> śalyaṃ śālākyaṅ<!--not 100% certain about the ṅka, maybe 75%--> kāyacikitsābhūtavidyākaumārabhṛtyam agadatantrarasāyanatantraṃ<pb n="2r"/> vājīkaraṇatantram iti |</l>
+          
+          <l xml:id="Su.1.1.8.1">athāsya pratyekāṅgalakṣaṇasamāsas tatra
+            śalyan nāma vividhatṛṇakāṣṭhapāṣāṇapāṃśuloṣṭāsthibālanakhapūyāśrāvaduṣṭavraṇāntargarbhaśalyo<lb n="1"/>ddharaṇārthaṃ yantraśastrakṣārāgnipraṇidhānaviniścayārthañ ca </l>
+          
+          <l xml:id="Su.1.1.8.2">ṣaṣṭyābhidhānair iti | śālākyatantran nāmordhvajātrugatānāṃ vikārāṇāṃ
+            śravaṇanayana<note place="top-margin">vadana</note>vadanaghrāṇādisaṃśritānāṃ<lb n="2"/> vikārāṇām upaśamakaraṇārthaṃ </l>
+          
+          <l xml:id="Su.1.1.8.3">kāyacikītsā nāma sarvvaśarīrāvasthitānāṃ vyādhīnām upaśamakaraṇārthaṃ jvaraśophagulmaraktapittonmādāpasmārapramehātīsārā<lb n="3"/>dīnāñ ca |</l>
+          
+          <l xml:id="Su.1.1.8.4">bhūtavidyā nāma devadānavagandharvvayakṣarākṣasapitṛpiśācavināyakanāgagrahopasṛṣṭacetasāṃ śāntikarmabaliharaṇādigrahopaśamanārthaṃ |</l>
+          
+          <l xml:id="Su.1.1.8.5">kaumārabhṛ<lb n="4"/>tyan nāma kumārābharaṇadhātrīkṣīradoṣasaṃśodhanārthaṃ duṣṭastanyagrahasamutthitānāñ ca<!--There's an extra squiggle after ca. Not sure what it is. Looks like a misplaced avagraha--> vyādhīnām upaśamakaraṇārthaṃ |</l>
+          
+          <l xml:id="Su.1.1.8.6"> agadatantran nāma
+            sarppakīṭalūtādaṣṭasarīsṛ<lb n="5"/>paviṣavyañjanārtham
+            vividhaviṣarve<!--Not sure about ve. looks like rve. Was viṣavega intended, but haplography occurred-->gopaśamanārthañ ca ||</l>
+          
+          <l xml:id="Su.1.1.8.7"> rasāyanatantran nāma vayaḥsthāpanam āyurmmedhākaraṇaṃ vyādhyupaśamakaraṇārthañ ca |</l>
+          
+          <l xml:id="Su.1.1.8.8"> vājīkaraṇatantran nāma svalpaduṣṭakṣī<pb n="2v"/> ṇaviśuṣkaretasāṃ śukrāpyāyatanaprasādopacayajanananimittaṃ praharṣajananārthañ ca |</l>
+          
+          <l xml:id="Su.1.1.9"> evam ayam āyurvvedo ṣṭāṅga upadiśyate atra kasmai kim varṇyatām iti </l>
+          
+          <l xml:id="Su.1.1.10">ta ūcur asmākaṃ sa<lb n="2"/>rvvam eva śalyajñānam alaṃ kṛtvāpadiṣṭu bhagavān iti </l>
+          
+          <l xml:id="Su.1.1.11"> sa uvācaivam astv iti</l>
+          
+          <l xml:id="Su.1.1.12">ta ūcur bhūyo 'smākaṃ sarvveṣām evaikamatīnā<unclear>ṃ</unclear> matam abhisamīkṣya suśruto bhagavantam
+            prakṣa<lb n="3"/><gap quantity="2" unit="akṣara"/> syopadiśyamānaṃ vayam apy upadhārayiṣyāmaḥ |</l>
+          
+          <l xml:id="Su.1.1.13"> sa uvācaivam astv iti | </l>
+          
+          <l xml:id="Su.1.1.14-16"> iha khalv āyurvvede prayojanaṃ vyādhyupasṛṣṭasya vyādhiparimokaṣaḥ svastharakṣaṇañ ca āyur asmin vida<lb n="4"/>nty anena cāyurvvedas tasyāṅgavaram āgamapratyakṣānumānopamānair aviruddham ucyamānam upadhārayadhvam | </l>
+          
+          <l xml:id="Su.1.1.17"> etad dhy aṅgam prathamam pradhānam prāgabhihitvād vraṇasaṃrohaṇakaratvā<lb n="5"/>d yajñaśiraḥpradhānasandhānāc ca śrūyate hi yathā purā rudreṇa <subst><add place="bottom-margin">yajña</add></subst>śiraśchinnam aśvityām punaḥ sandhitam ity </l>
+          
+          <l xml:id="Su.1.1.18"> aṣṭānām api cāyurvvedatantrāṇām etad evādhikam āśu kriyā<lb n="6"/>karaṇād yantraśastrakṣārāgnipraṇidhānāt  sarvvatantrasāmānyāc ca |</l>
+          
+          <l xml:id="Su.1.1.19"> tad idaṃ śāśvatam puṇyaṃ svargyāṃ yaṃ <subst><add place="bottom-margin">ya</add></subst>śasyamāyuṣyaṃ vṛttikarañ
+            ca | </l>
+          
+          <l xml:id="Su.1.1.20"> tad brahmovāca tat prajāpatiradhijage<pb n="3r"/> tasmād aśvināv aśvibhyām indra indrādaḥaṃ mayā tv iha pradeyam arthibhyaḥ prajāhitahetoḥ || bha ||</l>
+          
+          <l xml:id="Su.1.1.21ab"> ahaṃ hi dhanvantarirādidevo jarārujāmṛtyuharo 'marāṇāṃ | </l>
+          
+          <l xml:id="Su.1.1.21cd"> śalyam mahacchā<lb n="2"/>stravaraṃ gṛhītvā prāpto 'smi gam bhūya ihopadeṣṭuṃ || </l>
+          
+          <l xml:id="Su.1.1.22"> tatrāsmiñ śā<!--Not sure about the ñśā-->stre pañcamahābhūtaśarīrisamavāyaḥ puruṣa ity ucyate | tasmin kriyā so 'dhiṣṭhānaṃ kasmāl lokadvaividhyā<lb n="3"/>l loko hi dvividhan sthāvaro jaṅgamaś ca dvividhātmaka evāgneyaḥ saumyaś ca tadbhūyastvāt pañcātmako vā | tatra caturvvidho bhūtagrāmaḥ saṃsvedajo hridajarāyujāṇujasaṃjñās tasmi<lb n="4"/>n puruṣaḥ pradhānas tasyopakaraṇam anyat tasmāt puruṣo 'dhiṣṭhānaṃ </l>
+          
+          <l xml:id="Su.1.1.23"> tadduḥkhasaṃyogā vyādhaya ity ucyante </l>
+          
+          <l xml:id="Su.1.1.24"> te caturvvidhā āgantavaḥ śārīrā mānasā svābhāvikāś ceti |</l>
+          
+          <l xml:id="Su.1.1.25.1"> te<lb n="5"/>ṣv āgantavo 'bhighātanimittāḥ </l>
+          
+          <l xml:id="Su.1.1.25.2"> śārīrāstvan na mūlā vātapittakaphaśoṇitavaiṣamyanimittāḥ </l>
+          
+          <l xml:id="Su.1.1.25.3"> mānasās tu
+            krodhāśokadainyaharṣakāmaviṣāderṣyāsūyāmātsaryalo<lb n="6"/>bhādaya icchādveṣanimittāḥ </l>
+          
+          <l xml:id="Su.1.1.25.4"> svābhāvikās tu kṣutpipāsājarāmṛtyunidrāprakṛtayaḥ </l>
+          
+          <l xml:id="Su.1.1.26"> ta ete manaḥśarīrādhiṣṭhānā bhavanti |</l>
+          
+          <l xml:id="Su.1.1.27"> teṣāṃ lekhanabṛmhanasaṃśodhanasaṃśamanāhārācārāḥ<pb n="3v"/> samyakprayuktā
+            nigrahahetavo bhavanti</l>
+          
+          <l xml:id="Su.1.1.28"> prāṇināṃ punar mmūlam āhāro balavarṇṇaujasāñ ca sa ṣaṭsu raseṣv āyattarasāḥ punar ddravyāśrayiṇaḥ | dravyāṇi punar auṣadhyaḥ | tā dvividhāḥ | sthāvarā<lb n="2"/> jaṅgamāś ca | </l>
+          
+          <l xml:id="Su.1.1.29"> tāsāṃ sthāvarāś caturvvidhāḥ | vanaspatayo vṛkṣā oṣadhyo vīrudha iti | tāsv apuṣpā phalavantyo vanaspatayaḥ |
+            puṣpaphalo ye tā vṛkṣāḥ | phalapākaniṣṭhās tv
+            oṣadhya<lb n="3"/>ḥ | prabhānavatyo vīrudha iti
+            ||</l>
+          
+          <l xml:id="Su.1.1.30"> jaṅgamāḥ khalv api catuvidhāḥ | jarāyujāṇḍajasaṃsvedajodbhidā iti | teṣām paśumanuṣyavyālādayo jarāyujāḥ | khagasarīsṛpasarppās tv aṇḍa<lb n="4"/>jāḥ | krimikuṣṭha<!--not sure about the ṣṭha-->pipīlikāprabhṛtayaḥ saṃsvedajāḥ |
+            indragopakamaṇḍūkaprabhṛtayaś codbhidāḥ | </l>
+          
+          <l xml:id="Su.1.1.31"> tatra sthāvarebhyas tvakpatrapuṣpaphalamūlakandakṣīraniryāsasārasnehasva<lb n="5"/>rasāḥ prayojanavantaḥ |jaṅgamebhyaś carmmaromanakharudhirādayaḥ || </l>
+          
+          <l xml:id="Su.1.1.32"> pārthivas tu suvarṇṇarajatādayaḥ || </l>
+          
+          <l xml:id="Su.1.1.33"> kālakṛtās tu pravātanivātātapacchāyātamojyotsnāśītoṣṇavarṣā<lb n="6"/>su
+            samplavāḥ | kālaviśeṣās tu nimeṣakāṣṭhākalāmuhurttāhorātrapakṣamāsartvayanasamvatsarayugaviśeṣāḥ | </l>
+          
+          
+          
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
