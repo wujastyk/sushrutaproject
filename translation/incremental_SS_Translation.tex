@@ -4,7 +4,8 @@
 \documentclass[12pt]{article}
 \usepackage{xelatex-generic-biblatex-indexing,
     hyperref}
-\addbibresource{incremental_SS_translation.bib}
+%\addbibresource{incremental_SS_translation.bib}
+\addbibresource{biblio4-utf8.bib}
 
 \renewcommand{\SS}{\emph{Suśrutasaṃhitā}}
 
@@ -17,13 +18,16 @@
 \begin{document}
        \input{sanskrit-hyphenations}
     
-    \nocite{forb-1856}
+    %\nocite{forb-1856}
     \maketitle
     
-    \section{Sūtrasthāna}
+    \section{Sūtrasthāna, adhyāya 1}
 \begin{itemize}
     \item [1.1]
-    Now, I will narrate the chapter, the origin of this knowledge.
+    Now I shall narrate the chapter, the origin of this knowledge.\footnote{Ḍalhaṇa 
+    understands the word "\saneng{veda}{knowledge}" as specifically "medical knowledge."  
+    He says that the word "longevity" (\emph{āyur}) \ssaneng{āyur}{life, longevity}
+     has been elided.}
     
 %    Notes Dec 8:
 %    Dominik: N's ādhyāyaṃ corruption of H's nāmādhyāyaṃ: possible evidence that N was created 
@@ -32,16 +36,20 @@
 %    Commentary Ḍalhaṇa (c. 1200 CE) notes āyur dropped from veda in vedotpattim
 %    
     
-    \item[1.2]
+    \item[1.2]\footnote{At this point, later manuscripts and commentaries include the 
+    statement "as the venerable Dhanvantari stated."  The absence of this statement in the 
+    early Nepalese MSS is noteworthy.}
 %     <!-- Notes Dec 8:
 %    Dom: note the omission of Dhanvantari, which is in the edition.
 %    On Dhanvantari, see Meulenbeld HIM, authorities associated with Suśruta. He's an authority on 
 %surgery or toxicology-->
     
-    \item[1.3] Now, it is said that Aupadhenava, Vaitaraṇa, Aurabhra, Puṣkalāvata, Karavīra, 
-    Gopurarakṣita, Bhoja, Suśruta and [others] spoke to Lord Divodāsa, the best of the gods, who was 
-    in his ashram surrounded by an entourage of sages.\footnote{On these persons, see \cite[IA 
-    369\,ff.]{meul-hist}}
+    \item[1.3] Now, it is said that Aupadhenava, Vaitaraṇa, Aurabhra, Puṣkalāvata,
+Karavīra, Gopurarakṣita, Bhoja, Suśruta and [others] spoke to Lord Divodāsa,
+the best of the gods, who was in his ashram surrounded by an entourage of
+sages.\footnote{On these persons, see \cite[IA 369\,ff.]{meul-hist}. 
+\citet{kleb-2021} has discussed these authors in the context of an anonymous commentary 
+on the \SS\ that cites them.}
     
 %    Notes Dec 8:
 %    Dom: Check these names in Meulenbeld 
@@ -65,19 +73,29 @@ were alone, and acting frantically, shouting out, we have been distressed.
     
    
     
-    \item [1.28] \saneng{punar}{Thus}, living creatures and their strength, complexion (varṇa) 
-    and energy (ojas) are rooted in food.  That (food) depends on the six \saneng{rasa}{flavours}.  
-    Next (punar), the flavours depend on \saneng{dravya}{substance}, and substances 
-    depend on medicinal herbs.  There are two kinds of them (herbs):  stationary and 
-    motile. Suśruta sū.1.28\footcites[I, 21]{shar-susr}[7]{susr-trikamji2004}
+    \item [1.28] Thus, living creatures and their strength,
+\saneng{varṇa}{complexion} and \saneng{ojas}{energy} are rooted in food.  That
+(food) depends on the six \saneng{rasa}{flavours}. Thus, the flavours depend
+on \saneng{dravya}{substance}, and substances depend on medicinal herbs. 
+There are two kinds of them (herbs):  stationary and mobile.\footnote{Suśruta
+sū.1.28\footcites[I, 21]{shar-susr}[7]{susr-trikamji2004}.}
 \end{itemize}
 
-\section{Nidānasthāna}
-Cf.\ \cite{adri-engl}.
+%\section{Nidānasthāna}
+%Cf.\ \cite{adri-engl}.
+\nocite{adri-engl}
+
+
+\newpage
+
 
     \printshorthands
 
-    \printbibliography[notkeyword=edition,notkeyword=shorthand]
+    \printbibliography[notkeyword=edition,
+        notkeyword=shorthand]
+    
+    
+    \newpage
     
     \printindex[lexical]
     
