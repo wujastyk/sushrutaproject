@@ -56,6 +56,37 @@
                 </msDesc>
             </sourceDesc>
         </fileDesc>
+
+        <xenoData>
+            <stemma format="nexml"> <nex:nexml generator="Bio::Phylo::Project v.0.58" version="0.9"
+                    xmlns="http://www.nexml.org/2009" xmlns:dc="http://purl.org/dc/elements/1.1/"
+                    xmlns:map="http://phylomap.org/terms.owl#" xmlns:nex="http://www.nexml.org/2009"
+                    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://www.nexml.org/2009 http://www.nexml.org/2009/nexml.xsd"
+                    > <otus id="otus1" label="TaxaBlock">
+                        <otu id="otu1" label="H"/>
+                        <otu id="otu2" label="K"/>
+                        <otu id="otu3" label="N"/>
+                    </otus> <trees otus="otus1" id="trees1" label="TreesBlock">
+                        <tree id="tree1" label="tree1" xsi:type="nex:FloatTree">
+                            <node id="n1" label="H" otu="H"/>
+                            <node id="n2" label="K" otu="K"/>
+                            <node id="n3" label="N" otu="N"/>
+                            <node id="n4" label="n4"/>
+                            <node id="n5" label="n5" root="true"/>
+                            <edge source="n4" target="n1" id="e1" length="0.0035507990444223723"/>
+                            <edge source="n4" target="n3" id="e3" length="0.0020830037724790633"/>
+                            <edge source="n5" target="n4" id="e4" length="0.0"/>
+                            <edge source="n5" target="n2" id="e5" length="0.0"/>
+                        </tree>
+                    </trees>
+                </nex:nexml>
+            </stemma>
+        </xenoData>
+
+
         <revisionDesc>
             <change when="2020-11-04" who="Dominik Wujastyk">Began this file.</change>
         </revisionDesc>
@@ -101,14 +132,14 @@
                     <l xml:id="SS.1.1.7">[7] śalyaṃ śālākyaṃ kāyacikitsābhūtavidyākaumārabhṛtyam
                         agadatantraṃ rasāyanatantraṃ vājīkaraṇatantram iti |</l>
 
-                    <l xml:id="SS.1.1.8.1">[8] athāsya pratyekāṅgalakṣaṇasamāsaḥ |</l> 
-                        
-                    <l xml:id="SS.1.1.8.1a">[9] tatra śalyan nāma vividhatṛṇakāṣṭhapāṣāṇapāṃsulohaloṣṭāsthibālanakhapūyāsrāvaduṣṭavraṇāntargarbhaśalyoddharaṇārthaṃ
+                    <l xml:id="SS.1.1.8.1">[8] athāsya pratyekāṅgalakṣaṇasamāsaḥ |</l>
+
+                    <l xml:id="SS.1.1.8.1a">[9] tatra śalyan nāma
+                        vividhatṛṇakāṣṭhapāṣāṇapāṃsulohaloṣṭāsthibālanakhapūyāsrāvaduṣṭavraṇāntargarbhaśalyoddharaṇārthaṃ
                         yantraśastrakṣārāgnipraṇidhānaviniścayārthañ ca ṣaṣṭyābhidhānair iti | </l>
 
-                    <l xml:id="SS.1.1.8.2">[10] śālākyatantran
-                        nāmordhvajatrugatānāṃ vikārāṇāṃ śravaṇanayanavadanaghrāṇādisaṃśritānāṃ
-                        vikārāṇām upaśamakaraṇārtham |</l>
+                    <l xml:id="SS.1.1.8.2">[10] śālākyatantran nāmordhvajatrugatānāṃ vikārāṇāṃ
+                        śravaṇanayanavadanaghrāṇādisaṃśritānāṃ vikārāṇām upaśamakaraṇārtham |</l>
 
                     <l xml:id="SS.1.1.8.3">[11] kāyacikītsā nāma sarvaśarīrāvasthitānāṃ vyādhīnām
                         upaśamakaraṇārthaṃ jvaraśophagulmaraktapittonmādāpasmārapramehātisārādīnāñ
@@ -117,22 +148,27 @@
                     <l xml:id="SS.1.1.8.4">[12] bhūtavidyā nāma
                         devagandharvayakṣarākṣasapitṛpiśācavināyakanāgagrahopasṛṣṭacetasāṃ
                         śāntikarmabaliharaṇādigrahopaśamanārthaṃ |</l>
-                    
-                    <l xml:id="SS.1.1.8.5">[13] kaumārabhṛtyan nāma kumārabharaṇadhātrīkṣīradoṣasaṃśodhanārthaṃ
-                        duṣṭastanyagrahasamutthitānāñ ca vyādhīnām upaśamakaraṇārtham |</l>
-                    
-                    <l xml:id="SS.1.1.8.6">[14] agadatantran nāma sarpakīṭadaṣṭaviṣavyañjanārthaṃ vividhaviṣasaṃyogopaśamanārthañ ca |</l>
-                    
-                    <l xml:id="SS.1.1.8.7">[15] rasāyanatantran nāma vayaḥsthāpanam āyurmmedhākaraṇaṃ vyādhyupaśamakaraṇārthañ ca|</l>
-                    
+
+                    <l xml:id="SS.1.1.8.5">[13] kaumārabhṛtyan nāma
+                        kumārabharaṇadhātrīkṣīradoṣasaṃśodhanārthaṃ duṣṭastanyagrahasamutthitānāñ ca
+                        vyādhīnām upaśamakaraṇārtham |</l>
+
+                    <l xml:id="SS.1.1.8.6">[14] agadatantran nāma sarpakīṭadaṣṭaviṣavyañjanārthaṃ
+                        vividhaviṣasaṃyogopaśamanārthañ ca |</l>
+
+                    <l xml:id="SS.1.1.8.7">[15] rasāyanatantran nāma vayaḥsthāpanam
+                        āyurmmedhākaraṇaṃ vyādhyupaśamakaraṇārthañ ca|</l>
+
                     <l xml:id="SS.1.1.8.8">[16] vājīkaraṇatantran nāma
                         svalpaduṣṭakṣīṇaviśuṣkaretasāṃ śukrāpyāyanaprasādopacayajanananimittaṃ
                         praharṣajananārthañ ca |</l>
-                    
-                    <l xml:id="SS.1.1.9">[17] evam ayam āyurvedo 'ṣṭāṅga upadiśyate atra
-                        kasmai kiṃ varṇyatām iti |</l>
-                    
-                    <l xml:id="SS.1.1.10">[18] ta ūcur asmākaṃ sarvam eva śalyajñānam alaṃ kṛtvopadiśatu bhagavān iti | </l>
+
+                    <l xml:id="SS.1.1.9">[17] evam ayam āyurvedo 'ṣṭāṅga upadiśyate atra kasmai kiṃ
+                        varṇyatām iti |</l>
+
+                    <l xml:id="SS.1.1.10">[18] ta ūcur asmākaṃ sarvam eva śalyajñānam alaṃ
+                        kṛtvopadiśatu bhagavān iti | </l>
+
 
 
 
