@@ -1,14 +1,18 @@
-\RequirePackage{snapshot}
+%\RequirePackage{snapshot}
 % !TeX encoding = UTF-8
 % !TeX spellcheck = en_GB
 \documentclass[12pt]{article}
-\usepackage{xelatex-generic-biblatex-indexing,
-    hyperref}
+\usepackage{fontspec}
+\usepackage{natbib}
+\usepackage{hyperref}
+
 %\addbibresource{incremental_SS_translation.bib}
-\addbibresource{biblio4-utf8.bib}
+%\addbibresource{biblio4-utf8.bib}
 
 \renewcommand{\SS}{\emph{Suśrutasaṃhitā}}
 
+\newcommand{\saneng}[2]{#2 (\emph{#1})}
+\newcommand{\ssaneng}[2]{\relax }
 
 
 \title{A Translation of the New Edition of the \SS}
@@ -16,7 +20,10 @@
 \date{\texttt{Draft of \today }}
 
 \begin{document}
-       \input{sanskrit-hyphenations}
+
+\bibliographystyle{plainnat}
+
+     %  \input{sanskrit-hyphenations}
     
     %\nocite{forb-1856}
     \maketitle
@@ -126,7 +133,7 @@ to be taught.
 (food) depends on the six \saneng{rasa}{flavours}. Thus, the flavours depend
 on \saneng{dravya}{substance}, and substances depend on medicinal herbs. 
 There are two kinds of them (herbs):  stationary and mobile.\footnote{Suśruta
-sū.1.28\footcites[I, 21]{shar-susr}[7]{susr-trikamji2004}.}
+sū.1.28 \cite[I, 21]{shar-susr}, \cite[7]{susr-trikamji2004}.}
 \end{itemize}
 
 %\section{Nidānasthāna}
@@ -137,14 +144,18 @@ sū.1.28\footcites[I, 21]{shar-susr}[7]{susr-trikamji2004}.}
 \newpage
 
 
-    \printshorthands
 
-    \printbibliography[notkeyword=edition,
-        notkeyword=shorthand]
+
+    %\printshorthands
+
+ %   \printbibliography[notkeyword=edition,
+ %       notkeyword=shorthand]
     
     
-    \newpage
+   % \newpage
     
-    \printindex[lexical]
+%    \printindex[lexical]
+
+\bibliography{biblio4-utf8}
     
 \end{document}
