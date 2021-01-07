@@ -1,14 +1,21 @@
-\RequirePackage{snapshot}
+%\RequirePackage{snapshot}
 % !TeX encoding = UTF-8
 % !TeX spellcheck = en_GB
 \documentclass[12pt]{article}
-\usepackage{xelatex-generic-biblatex-indexing,
-    hyperref}
+\usepackage{fontspec}
+\usepackage{natbib}
+\usepackage{hyperref}
+
+%\setmainfont{TeX Gyre Pagella}
+\let\dev\relax
+
 %\addbibresource{incremental_SS_translation.bib}
-\addbibresource{biblio4-utf8.bib}
+%\addbibresource{biblio4-utf8.bib}
 
 \renewcommand{\SS}{\emph{Suśrutasaṃhitā}}
 
+\newcommand{\saneng}[2]{#2 (\emph{#1})}
+\newcommand{\ssaneng}[2]{\relax }
 
 
 \title{A Translation of the New Edition of the \SS}
@@ -16,7 +23,10 @@
 \date{\texttt{Draft of \today }}
 
 \begin{document}
-       \input{sanskrit-hyphenations}
+
+\bibliographystyle{plainnat}
+
+     %  \input{sanskrit-hyphenations}
     
     %\nocite{forb-1856}
     \maketitle
@@ -59,12 +69,11 @@
 %surgery or toxicology-->
     
     \item[3] Now, as is well-known, Aupadhenava, Vaitaraṇa, Aurabhra, Puṣkalāvata,
-Karavīra, Gopurarakṣita, Bhoja, Suśruta and others addressed Lord Divodāsa, king of 
-Kāśi, 
-the best of the immortals, who was in his ashram surrounded by an entourage of
-sages.\footnote{On these persons, see \cite[IA 369\,ff.]{meul-hist}. 
-\citet{kleb-2021} has discussed these authors in the context of an anonymous commentary 
-on the \SS\ that cites them.}
+Karavīra, Gopurarakṣita, Bhoja, Suśruta and others addressed Lord Divodāsa,
+king of Kāśi, the best of the immortals, who was in his ashram surrounded by
+an entourage of sages.\footnote{On these persons, see \cite[IA
+369\,ff.]{meul-hist}. \citet{kleb-2021a} has discussed these authors in the
+context of an anonymous commentary on the \SS\ that cites them.}
 
 \nocite{emen-1969}
     
@@ -115,12 +124,18 @@ taught.  Welfare\ssaneng{śreyas}{welfare}, both in this world and in
 to be taught.
    
     
+    \item[6]   \footnote{The relative pronoun \emph{yad} has no correlative.}
+    
+    \item[7]
+    
+    
+    
     \item [28] Thus, living creatures and their strength,
 \saneng{varṇa}{complexion} and \saneng{ojas}{energy} are rooted in food.  That
 (food) depends on the six \saneng{rasa}{flavours}. Thus, the flavours depend
 on \saneng{dravya}{substance}, and substances depend on medicinal herbs. 
 There are two kinds of them (herbs):  stationary and mobile.\footnote{Suśruta
-sū.1.28\footcites[I, 21]{shar-susr}[7]{susr-trikamji2004}.}
+sū.1.28 \cite[I, 21]{shar-susr}, \cite[7]{susr-trikamji2004}.}
 \end{itemize}
 
 %\section{Nidānasthāna}
@@ -131,14 +146,18 @@ sū.1.28\footcites[I, 21]{shar-susr}[7]{susr-trikamji2004}.}
 \newpage
 
 
-    \printshorthands
 
-    \printbibliography[notkeyword=edition,
-        notkeyword=shorthand]
+
+    %\printshorthands
+
+ %   \printbibliography[notkeyword=edition,
+ %       notkeyword=shorthand]
     
     
-    \newpage
+   % \newpage
     
-    \printindex[lexical]
+%    \printindex[lexical]
+
+\bibliography{biblio4-utf8}
     
 \end{document}
