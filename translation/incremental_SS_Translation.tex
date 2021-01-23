@@ -1,34 +1,19 @@
-%\RequirePackage{snapshot}
+\RequirePackage{snapshot}
 % !TeX encoding = UTF-8
 % !TeX spellcheck = en_GB
 \documentclass[12pt]{article}
-\usepackage{fontspec}
-\usepackage{natbib}
-\usepackage{hyperref}
-
-\setmainfont %{TeX Gyre Pagella}
-{Libertinus Serif}
-
-\let\dev\relax
-
-%\addbibresource{incremental_SS_translation.bib}
-%\addbibresource{biblio4-utf8.bib}
+\usepackage{xelatex-generic-biblatex-indexing,
+    hyperref}
+\addbibresource {\jobname.bib}
 
 \renewcommand{\SS}{\emph{Suśrutasaṃhitā}}
-
-\newcommand{\saneng}[2]{#2 (\emph{#1})}
-\newcommand{\ssaneng}[2]{\relax }
-
 
 \title{A Translation of the New Edition of the \SS}
 \author{Jason Birch and Dominik Wujastyk}
 \date{\texttt{Draft of \today }}
 
 \begin{document}
-
-\bibliographystyle{plainnat}
-
-     %  \input{sanskrit-hyphenations}
+       \input{sanskrit-hyphenations}
     
     %\nocite{forb-1856}
     \maketitle
@@ -51,9 +36,9 @@
 \begin{itemize}
     \item [1]
     Now I shall narrate the chapter on the origin of this knowledge.\footnote{Ḍalhaṇa 
-    understands the word "\saneng{veda}{knowledge}" as specifically "medical knowledge."  
-    He says that the word "longevity" (\emph{āyur}) \ssaneng{āyur}{life, longevity}
-     has been elided.}
+    understood the word "\saneng{veda}{knowledge}" as specifically "medical knowledge."  
+    He said that the word "longevity" (\emph{āyur}) \ssaneng{āyur}{life, longevity}
+     had been elided.}
     
 %    Notes Dec 8:
 %    Dominik: N's ādhyāyaṃ corruption of H's nāmādhyāyaṃ: possible evidence that N was created 
@@ -62,19 +47,25 @@
 %    Commentary Ḍalhaṇa (c. 1200 CE) notes āyur dropped from veda in vedotpattim
 %    
     
-    \item[2]\footnote{At this point, later manuscripts and commentaries include the 
-    statement "as the venerable Dhanvantari stated."  The absence of this statement in the 
-    early Nepalese MSS is noteworthy. See the discussion of \cite{kleb-2021b}.}
-%     <!-- Notes Dec 8:
+    \item[2]\footnote{At this point, later manuscripts and commentaries include
+the statement "as the venerable Dhanvantari stated."  The absence of this
+statement in the early Nepalese MSS is highly noteworthy because it removes
+the outer narrative frame of the \SS\
+\parencites[148]{wuja-2013}[\S\,3.1.2]{kleb-2021b}.} %     <!-- Notes Dec 8:
 %    Dom: note the omission of Dhanvantari, which is in the edition.
-%    On Dhanvantari, see Meulenbeld HIM, authorities associated with Suśruta. He's an authority on 
+%    On Dhanvantari, see Meulenbeld HIM, authorities associated with Suśruta. He's
+% an authority on
 %surgery or toxicology-->
     
     \item[3] Now, as is well-known, Aupadhenava, Vaitaraṇa, Aurabhra, Puṣkalāvata,
 Karavīra, Gopurarakṣita, Bhoja, Suśruta and others addressed Lord Divodāsa,
 king of Kāśi, the best of the immortals, who was in his ashram surrounded by
 an entourage of sages.\footnote{On these persons, see \cite[IA
-369\,ff.]{meul-hist}. \citet{kleb-2021a} has discussed these authors in the
+369\,ff.]{meul-hist}. The authority Bhoja does not appear in the list as
+published in the vulgate edition \citep[1]{susr-trikamji2}, and was not
+included in \cite{meul-hist} amongst “authorities mentioned in the \SS.” 
+\citeauthor{meul-hist} gathered textual evidence about Bhoja at \cite[IA
+690--691]{meul-hist}. \citet{kleb-2021a} has discussed these authors in the
 context of an anonymous commentary on the \SS\ that cites them.}
 
 \nocite{emen-1969}
@@ -148,7 +139,7 @@ parts.\footnote{Svayambhū is another name for Brahmā, the creator.}
     and aphrodisiacs.
     % why do some of the auxiliaries end in tantra? Dom: Some were disciplines that had a separate life outside āyurveda. The others were more particular to vaidyas.
         \item[8.1a] Now,  a collection of the characteristics of each component of Āyurveda.
-        
+    
         \item[8.1b] Among them, [the component] called surgery has the goal of extracting various grasses, wood, stone, dust, iron (?), soil, bone, hair, nails, discharge of pus, malignant wounds and foreign bodies inside the womb, and of determining the application of surgical instruments, knives, caustics and fire by means of sixty definitions.
         %Ḍalhaṇa seems to read duṣṭavraṇāntar, and glosses antar as madhyāt. He then reads garbhaśalya (HIM - foetuses stuck in the womb). Ḍalhaṇa is aware of the reading ṣaṣṭyā vidhānaiḥ (following uddhraṇārtha), and says some explain it as apatarpaṇādyai rakṣāvidhānāntair dvivraṇīyoktair ity arthaḥ. However, mss. 699 and 533 read abhi° not vi°
         
@@ -209,7 +200,9 @@ a shorter list, and the vulgate edition adds \saneng{mūṣika}{rodents}.}
 
   
     \newpage
-    
+
+\section{Sūtrasthāna, adhyāya 28}
+% Adhyāya 28  
     
     \item [28] Thus, living creatures and their strength,
 \saneng{varṇa}{complexion} and \saneng{ojas}{energy} are rooted in food.  That
@@ -221,24 +214,20 @@ sū.1.28 \cite[I, 21]{shar-susr}, \cite[7]{susr-trikamji2004}.}
 
 %\section{Nidānasthāna}
 %Cf.\ \cite{adri-engl}.
-\nocite{adri-engl}
+\nocite{*}
 
 
 \newpage
 
 
+    \printshorthands
 
-
-    %\printshorthands
-
- %   \printbibliography[notkeyword=edition,
- %       notkeyword=shorthand]
+    \printbibliography[notkeyword=edition,
+        notkeyword=shorthand]
     
     
-   % \newpage
+    \newpage
     
-%    \printindex[lexical]
-
-\bibliography{biblio4-utf8}
+    \printindex[lexical]
     
 \end{document}
