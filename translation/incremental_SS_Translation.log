@@ -1,6 +1,7 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2021.1.11)  23 JAN 2021 15:23
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2021.1.24)  25 JAN 2021 11:10
 entering extended mode
  \write18 enabled.
+ Source specials enabled.
  %&-line parsing enabled.
 **incremental_SS_Translation.tex
 (./incremental_SS_Translation.tex
@@ -928,7 +929,7 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'oxyear.dbx' found.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex-oxref/oxyear.dbx
-File: oxyear.dbx 2020/10/19 v2.1 Data model for the Oxref family of styles
+File: oxyear.dbx 2021/01/18 v2.2 Data model for the Oxref family of styles
 )
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
@@ -1069,13 +1070,13 @@ Package biblatex Info: Trying to load bibliography style 'oxyear'...
 Package biblatex Info: ... file 'oxyear.bbx' found.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex-oxref/oxyear.bbx
-File: oxyear.bbx 2020/10/19 v2.1 Author-year bibliography style inspired by the
+File: oxyear.bbx 2021/01/18 v2.2 Author-year bibliography style inspired by the
  Oxford Guide to Style
 Package biblatex Info: Trying to load bibliography style 'oxref'...
 Package biblatex Info: ... file 'oxref.bbx' found.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex-oxref/oxref.bbx
-File: oxref.bbx 2020/10/19 v2.1 Base settings for bibliography styles inspired 
+File: oxref.bbx 2021/01/18 v2.2 Base settings for bibliography styles inspired 
 by the Oxford Guide to Style
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/xpatch/xpatch.sty
@@ -1264,15 +1265,17 @@ fined, overwriting.
 \blx@ox@namebox=\box99
 \blx@ox@altnamebox=\box100
 \c@locpubpairs=\count432
-\c@blx@ox@relitem=\count433
 Package biblatex Info: Delimiter 'begrelateddelimmultivolume' in context '' alr
 eady defined, overwriting.
+Package biblatex Info: Delimiter 'begrelateddelim' in context '' already define
+d, overwriting.
+\c@blx@ox@relitem=\count433
 ))
 Package biblatex Info: Trying to load citation style 'oxyear'...
 Package biblatex Info: ... file 'oxyear.cbx' found.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex-oxref/oxyear.cbx
-File: oxyear.cbx 2020/10/19 v2.1 Author-year citation style inspired by the Oxf
+File: oxyear.cbx 2021/01/18 v2.2 Author-year citation style inspired by the Oxf
 ord Guide to Style
 Package biblatex Info: Trying to load citation style 'authoryear-comp'...
 Package biblatex Info: ... file 'authoryear-comp.cbx' found.
@@ -1602,7 +1605,7 @@ Package biblatex Info: Trying to load language 'british' -> 'british-oxref'...
 Package biblatex Info: ... file 'british-oxref.lbx' found.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex-oxref/british-oxref.lbx
-File: british-oxref.lbx 2020/10/19 v2.1 British English conventions required by
+File: british-oxref.lbx 2021/01/18 v2.2 British English conventions required by
  the biblatex-oxref styles
 Package biblatex Info: Trying to load language 'british'...
 Package biblatex Info: ... file 'british.lbx' found.
@@ -1614,7 +1617,7 @@ Package biblatex Info: Trying to load language 'english' -> 'english-oxref'...
 Package biblatex Info: ... file 'english-oxref.lbx' found.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex-oxref/english-oxref.lbx
-File: english-oxref.lbx 2020/10/19 v2.1 Generic English conventions required by
+File: english-oxref.lbx 2021/01/18 v2.2 Generic English conventions required by
  the biblatex-oxref styles
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
@@ -1721,203 +1724,200 @@ File: se-ascii-print.def 2019/11/29 v1.12 stringenc: Printable ASCII characters
 
 ]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 42.
-LaTeX Info: Redefining \rmfamily on input line 42.
-LaTeX Info: Redefining \sffamily on input line 42.
-LaTeX Info: Redefining \ttfamily on input line 42.
-LaTeX Info: Redefining \rmfamily on input line 42.
-LaTeX Info: Redefining \sffamily on input line 42.
-LaTeX Info: Redefining \ttfamily on input line 42.
+(Font)              <5> on input line 43.
+LaTeX Info: Redefining \rmfamily on input line 43.
+LaTeX Info: Redefining \sffamily on input line 43.
+LaTeX Info: Redefining \ttfamily on input line 43.
+LaTeX Info: Redefining \rmfamily on input line 43.
+LaTeX Info: Redefining \sffamily on input line 43.
+LaTeX Info: Redefining \ttfamily on input line 43.
 
-Underfull \hbox (badness 7415) in paragraph at lines 61--71
-[]\TU/TeXGyrePagella(1)/m/n/12 Now, as is well-known, Aupadhenava, Vaitaraṇa, A
-urabhra,
+Underfull \hbox (badness 7415) in paragraph at lines 63--73
+[][]\TU/TeXGyrePagella(1)/m/n/12 Now, as is well-known, Aupadhenava, Vaitaraṇa,
+ Aurabhra,
  []
 
-LaTeX Info: Redefining \rmfamily on input line 90.
-LaTeX Info: Redefining \sffamily on input line 90.
-LaTeX Info: Redefining \ttfamily on input line 90.
-LaTeX Info: Redefining \rmfamily on input line 90.
-LaTeX Info: Redefining \sffamily on input line 90.
-LaTeX Info: Redefining \ttfamily on input line 90.
-LaTeX Info: Redefining \rmfamily on input line 107.
-LaTeX Info: Redefining \sffamily on input line 107.
-LaTeX Info: Redefining \ttfamily on input line 107.
-LaTeX Info: Redefining \rmfamily on input line 107.
-LaTeX Info: Redefining \sffamily on input line 107.
-LaTeX Info: Redefining \ttfamily on input line 107.
+LaTeX Info: Redefining \rmfamily on input line 92.
+LaTeX Info: Redefining \sffamily on input line 92.
+LaTeX Info: Redefining \ttfamily on input line 92.
+LaTeX Info: Redefining \rmfamily on input line 92.
+LaTeX Info: Redefining \sffamily on input line 92.
+LaTeX Info: Redefining \ttfamily on input line 92.
+LaTeX Info: Redefining \rmfamily on input line 110.
+LaTeX Info: Redefining \sffamily on input line 110.
+LaTeX Info: Redefining \ttfamily on input line 110.
+LaTeX Info: Redefining \rmfamily on input line 110.
+LaTeX Info: Redefining \sffamily on input line 110.
+LaTeX Info: Redefining \ttfamily on input line 110.
 [2]
-Underfull \hbox (badness 2452) in paragraph at lines 153--164
-[]\TU/TeXGyrePagella(1)/m/n/12 [The component] called knowledge of spirits is f
-or appeasing
+Underfull \hbox (badness 1394) in paragraph at lines 166--177
+[][]\TU/TeXGyrePagella(1)/m/n/12 “[The component] called knowledge of spirits i
+s for appeasing
  []
 
-LaTeX Info: Redefining \rmfamily on input line 175.
-LaTeX Info: Redefining \sffamily on input line 175.
-LaTeX Info: Redefining \ttfamily on input line 175.
-LaTeX Info: Redefining \rmfamily on input line 175.
-LaTeX Info: Redefining \sffamily on input line 175.
-LaTeX Info: Redefining \ttfamily on input line 175.
-LaTeX Info: Redefining \rmfamily on input line 175.
-LaTeX Info: Redefining \sffamily on input line 175.
-LaTeX Info: Redefining \ttfamily on input line 175.
-LaTeX Info: Redefining \rmfamily on input line 175.
-LaTeX Info: Redefining \sffamily on input line 175.
-LaTeX Info: Redefining \ttfamily on input line 175.
-LaTeX Info: Redefining \rmfamily on input line 175.
-LaTeX Info: Redefining \sffamily on input line 175.
-LaTeX Info: Redefining \ttfamily on input line 175.
-LaTeX Info: Redefining \rmfamily on input line 175.
-LaTeX Info: Redefining \sffamily on input line 175.
-LaTeX Info: Redefining \ttfamily on input line 175.
-[3]
-Underfull \hbox (badness 10000) in paragraph at lines 183--184
-
- []
-
-[4]
-LaTeX Info: Redefining \rmfamily on input line 209.
-LaTeX Info: Redefining \sffamily on input line 209.
-LaTeX Info: Redefining \ttfamily on input line 209.
-LaTeX Info: Redefining \rmfamily on input line 209.
-LaTeX Info: Redefining \sffamily on input line 209.
-LaTeX Info: Redefining \ttfamily on input line 209.
-LaTeX Info: Redefining \rmfamily on input line 209.
-LaTeX Info: Redefining \sffamily on input line 209.
-LaTeX Info: Redefining \ttfamily on input line 209.
-LaTeX Info: Redefining \rmfamily on input line 209.
-LaTeX Info: Redefining \sffamily on input line 209.
-LaTeX Info: Redefining \ttfamily on input line 209.
-LaTeX Info: Redefining \rmfamily on input line 210.
-LaTeX Info: Redefining \sffamily on input line 210.
-LaTeX Info: Redefining \ttfamily on input line 210.
-LaTeX Info: Redefining \rmfamily on input line 210.
-LaTeX Info: Redefining \sffamily on input line 210.
-LaTeX Info: Redefining \ttfamily on input line 210.
-LaTeX Info: Redefining \rmfamily on input line 211.
-LaTeX Info: Redefining \sffamily on input line 211.
-LaTeX Info: Redefining \ttfamily on input line 211.
-LaTeX Info: Redefining \rmfamily on input line 211.
-LaTeX Info: Redefining \sffamily on input line 211.
-LaTeX Info: Redefining \ttfamily on input line 211.
- [5]
-LaTeX Info: Redefining \rmfamily on input line 223.
-LaTeX Info: Redefining \sffamily on input line 223.
-LaTeX Info: Redefining \ttfamily on input line 223.
+LaTeX Info: Redefining \rmfamily on input line 190.
+LaTeX Info: Redefining \sffamily on input line 190.
+LaTeX Info: Redefining \ttfamily on input line 190.
+LaTeX Info: Redefining \rmfamily on input line 190.
+LaTeX Info: Redefining \sffamily on input line 190.
+LaTeX Info: Redefining \ttfamily on input line 190.
+LaTeX Info: Redefining \rmfamily on input line 190.
+LaTeX Info: Redefining \sffamily on input line 190.
+LaTeX Info: Redefining \ttfamily on input line 190.
+LaTeX Info: Redefining \rmfamily on input line 190.
+LaTeX Info: Redefining \sffamily on input line 190.
+LaTeX Info: Redefining \ttfamily on input line 190.
+LaTeX Info: Redefining \rmfamily on input line 190.
+LaTeX Info: Redefining \sffamily on input line 190.
+LaTeX Info: Redefining \ttfamily on input line 190.
+LaTeX Info: Redefining \rmfamily on input line 190.
+LaTeX Info: Redefining \sffamily on input line 190.
+LaTeX Info: Redefining \ttfamily on input line 190.
+[3] [4] [5]
+LaTeX Info: Redefining \rmfamily on input line 238.
+LaTeX Info: Redefining \sffamily on input line 238.
+LaTeX Info: Redefining \ttfamily on input line 238.
+LaTeX Info: Redefining \rmfamily on input line 238.
+LaTeX Info: Redefining \sffamily on input line 238.
+LaTeX Info: Redefining \ttfamily on input line 238.
+LaTeX Info: Redefining \rmfamily on input line 238.
+LaTeX Info: Redefining \sffamily on input line 238.
+LaTeX Info: Redefining \ttfamily on input line 238.
+LaTeX Info: Redefining \rmfamily on input line 238.
+LaTeX Info: Redefining \sffamily on input line 238.
+LaTeX Info: Redefining \ttfamily on input line 238.
+LaTeX Info: Redefining \rmfamily on input line 239.
+LaTeX Info: Redefining \sffamily on input line 239.
+LaTeX Info: Redefining \ttfamily on input line 239.
+LaTeX Info: Redefining \rmfamily on input line 239.
+LaTeX Info: Redefining \sffamily on input line 239.
+LaTeX Info: Redefining \ttfamily on input line 239.
+LaTeX Info: Redefining \rmfamily on input line 240.
+LaTeX Info: Redefining \sffamily on input line 240.
+LaTeX Info: Redefining \ttfamily on input line 240.
+LaTeX Info: Redefining \rmfamily on input line 240.
+LaTeX Info: Redefining \sffamily on input line 240.
+LaTeX Info: Redefining \ttfamily on input line 240.
+ [6]
+LaTeX Info: Redefining \rmfamily on input line 252.
+LaTeX Info: Redefining \sffamily on input line 252.
+LaTeX Info: Redefining \ttfamily on input line 252.
 
 
 LaTeX Font Warning: Font shape `TU/Sanskrit2003(0)/m/it' undefined
-(Font)              using `TU/Sanskrit2003(0)/m/n' instead on input line 223.
+(Font)              using `TU/Sanskrit2003(0)/m/n' instead on input line 252.
 
-LaTeX Info: Redefining \rmfamily on input line 223.
-LaTeX Info: Redefining \sffamily on input line 223.
-LaTeX Info: Redefining \ttfamily on input line 223.
+LaTeX Info: Redefining \rmfamily on input line 252.
+LaTeX Info: Redefining \sffamily on input line 252.
+LaTeX Info: Redefining \ttfamily on input line 252.
 
-Underfull \hbox (badness 10000) in paragraph at lines 223--223
+Underfull \hbox (badness 10000) in paragraph at lines 252--252
 \TU/Sanskrit2003(0)/m/n/12 डल्हणाचार्यविरचितया निबन्धसंग्रहाख्यव्याख्यया समुल्ल
 सिता, आचार्योपाह्वेन
  []
 
 
-Underfull \hbox (badness 1052) in paragraph at lines 223--223
+Underfull \hbox (badness 1052) in paragraph at lines 252--252
 \TU/Sanskrit2003(0)/m/n/12 त्रिविक्रमात्मजेन यादवशर्मणा संशोधिता []\TU/TeXGyreP
 agella(1)/m/it/12 = The Sushrutasamhita of Su-
  []
 
 
-Underfull \hbox (badness 2600) in paragraph at lines 223--223
+Underfull \hbox (badness 2600) in paragraph at lines 252--252
 \TU/TeXGyrePagella(1)/m/n/12 (Mumbayyāṃ: Nirṇayasāgaramudrāyantrālaye), \TU/TeX
 GyrePagella(0)/m/sc/12 ark: [][]$[][][] [][]
  []
 
-LaTeX Info: Redefining \rmfamily on input line 223.
-LaTeX Info: Redefining \sffamily on input line 223.
-LaTeX Info: Redefining \ttfamily on input line 223.
-LaTeX Info: Redefining \rmfamily on input line 223.
-LaTeX Info: Redefining \sffamily on input line 223.
-LaTeX Info: Redefining \ttfamily on input line 223.
+LaTeX Info: Redefining \rmfamily on input line 252.
+LaTeX Info: Redefining \sffamily on input line 252.
+LaTeX Info: Redefining \ttfamily on input line 252.
+LaTeX Info: Redefining \rmfamily on input line 252.
+LaTeX Info: Redefining \sffamily on input line 252.
+LaTeX Info: Redefining \ttfamily on input line 252.
 
-Underfull \hbox (badness 10000) in paragraph at lines 223--223
+Underfull \hbox (badness 10000) in paragraph at lines 252--252
 \TU/Sanskrit2003(0)/m/it/12 शारीर-चिकित्सा-कल्पस्थानोत्तरतन्त्रात्मकः. आचार्योप
 ाह्वेन त्रिविक्रमात्मजेन
  []
 
-LaTeX Info: Redefining \rmfamily on input line 223.
-LaTeX Info: Redefining \sffamily on input line 223.
-LaTeX Info: Redefining \ttfamily on input line 223.
-LaTeX Info: Redefining \rmfamily on input line 223.
-LaTeX Info: Redefining \sffamily on input line 223.
-LaTeX Info: Redefining \ttfamily on input line 223.
-LaTeX Info: Redefining \rmfamily on input line 223.
-LaTeX Info: Redefining \sffamily on input line 223.
-LaTeX Info: Redefining \ttfamily on input line 223.
-LaTeX Info: Redefining \rmfamily on input line 223.
-LaTeX Info: Redefining \sffamily on input line 223.
-LaTeX Info: Redefining \ttfamily on input line 223.
+LaTeX Info: Redefining \rmfamily on input line 252.
+LaTeX Info: Redefining \sffamily on input line 252.
+LaTeX Info: Redefining \ttfamily on input line 252.
+LaTeX Info: Redefining \rmfamily on input line 252.
+LaTeX Info: Redefining \sffamily on input line 252.
+LaTeX Info: Redefining \ttfamily on input line 252.
+LaTeX Info: Redefining \rmfamily on input line 252.
+LaTeX Info: Redefining \sffamily on input line 252.
+LaTeX Info: Redefining \ttfamily on input line 252.
+LaTeX Info: Redefining \rmfamily on input line 252.
+LaTeX Info: Redefining \sffamily on input line 252.
+LaTeX Info: Redefining \ttfamily on input line 252.
 
-Underfull \hbox (badness 10000) in paragraph at lines 223--223
+Underfull \hbox (badness 10000) in paragraph at lines 252--252
 \TU/Sanskrit2003(0)/m/it/12 विरचिता सुश्रुतसंहिता, श्रीडल्हणाचार्यविरचितया निबन
 ्धसंग्रहाख्यव्याख्यया
  []
 
-[6]
-Underfull \hbox (badness 2781) in paragraph at lines 226--226
+[7]
+runsystem(xindex -c iast -a -n manuscripts.idx)...executed.
+
+(./manuscripts.ind)
+Underfull \hbox (badness 2781) in paragraph at lines 259--259
 [][]\TU/TeXGyrePagella(1)/m/n/12 Emeneau, M. B. (1969), ‘  Sanskrit Syntactic P
 articles – ”kila, khalu,
  []
 
 
-Underfull \hbox (badness 1436) in paragraph at lines 226--226
+Underfull \hbox (badness 1436) in paragraph at lines 259--259
 [][]\TU/TeXGyrePagella(1)/m/n/12 Harimoto, K. (2011), ‘  In Search of the Oldes
 t Nepalese Manuscript’,
  []
 
 
-Underfull \hbox (badness 2884) in paragraph at lines 226--226
+Underfull \hbox (badness 2884) in paragraph at lines 259--259
 \TU/TeXGyrePagella(1)/m/it/12 Rivista degli Studi Orientali\TU/TeXGyrePagella(1
 )/m/n/12 , 84/1–4: 85–106, \TU/TeXGyrePagella(0)/m/sc/12 issn\TU/TeXGyrePagella
 (1)/m/n/12 : 0392-4866, \TU/TeXGyrePagella(0)/m/sc/12 url:
  []
 
 
-Underfull \hbox (badness 7704) in paragraph at lines 226--226
+Underfull \hbox (badness 7704) in paragraph at lines 259--259
 [][][] \TU/TeXGyrePagella(1)/m/n/12 (2014), ‘  Nepalese Manuscripts of the Suśr
 utasaṃhitā’, \TU/TeXGyrePagella(1)/m/it/12 Journal
  []
 
 
-Underfull \hbox (badness 2884) in paragraph at lines 226--226
+Underfull \hbox (badness 2884) in paragraph at lines 259--259
 \TU/TeXGyrePagella(1)/m/it/12 of Indian and Buddhist Studies (Indogaku Bukkyoga
 ku Kenkyu)\TU/TeXGyrePagella(1)/m/n/12 , 62/
  []
 
 
-Underfull \hbox (badness 1776) in paragraph at lines 226--226
+Underfull \hbox (badness 1776) in paragraph at lines 259--259
 \TU/TeXGyrePagella(1)/m/n/12 3: 23–29 (1087-1093). \TU/TeXGyrePagella(0)/m/sc/1
 2 doi\TU/TeXGyrePagella(1)/m/n/12 : [][]$[][] []  [] [][][][] [] [][][] []  [] 
 [][] []  [] [] []  [] [][][][]$[][], \TU/TeXGyrePagella(0)/m/sc/12 url: [][]\TU
 /TeXGyrePagella(1)/m/n/12 ht-
  []
 
-
-Underfull \hbox (badness 1178) in paragraph at lines 226--226
+[8]
+Underfull \hbox (badness 1178) in paragraph at lines 259--259
 [][]\TU/TeXGyrePagella(1)/m/n/12 Wujastyk, D. (2013), ‘  New Manuscript Evidenc
 e for the Textual and
  []
 
 
-Underfull \hbox (badness 3646) in paragraph at lines 226--226
+Underfull \hbox (badness 3646) in paragraph at lines 259--259
 \TU/TeXGyrePagella(1)/m/n/12 Cultural History of Early Classical Indian Medicin
 e’, in \TU/TeXGyrePagella(1)/m/it/12 Medical
  []
 
 
-Underfull \hbox (badness 1755) in paragraph at lines 226--226
+Underfull \hbox (badness 1755) in paragraph at lines 259--259
 \TU/TeXGyrePagella(1)/m/it/12 Texts and Manuscripts in Indian Cultural History\
 TU/TeXGyrePagella(1)/m/n/12 , ed. D. Wujastyk,
  []
 
-[7]
 runsystem(xindex -c iast -a -n lexical.idx)...executed.
 
 (./lexical.ind)
@@ -2019,7 +2019,7 @@ braces):
 >  {greek/babelname}  =>  {greek}
 >  {greek/localnumeral}  =>  {greeknumerals}
 >  {greek/Localnumeral}  =>  {Greeknumerals}.
- [8] (./incremental_SS_Translation.aux
+ [9] (./incremental_SS_Translation.aux
 Package polyglossia Info: Option: english variant=british.
 Package polyglossia Info: Option: english variant=british.
 LaTeX Info: Redefining \rmfamily on input line 24.
@@ -2039,21 +2039,17 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package rerunfilecheck Info: File `incremental_SS_Translation.out' has not chan
 ged.
 (rerunfilecheck)             Checksum: CC3E4B93172CE5B031CFE407EFC02484;343.
-
-Package biblatex Warning: Please rerun LaTeX.
-(biblatex)                Page breaks have changed.
-
 Package logreq Info: Writing requests to 'incremental_SS_Translation.run.xml'.
 \openout1 = `incremental_SS_Translation.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24874 strings out of 477220
- 498567 string characters out of 5830449
- 1966826 words of memory out of 5000000
- 42412 multiletter control sequences out of 15000+600000
+ 24899 strings out of 477220
+ 499246 string characters out of 5830449
+ 1968374 words of memory out of 5000000
+ 42435 multiletter control sequences out of 15000+600000
  407847 words of font info for 91 fonts, out of 8000000 for 9000
  3131 hyphenation exceptions out of 8191
  140i,8n,163p,2101b,6127s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on incremental_SS_Translation.pdf (8 pages).
+Output written on incremental_SS_Translation.pdf (9 pages).
