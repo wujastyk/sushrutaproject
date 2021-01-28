@@ -1,0 +1,140 @@
+% Formerly used xindy; now updated to use xindex
+%
+\usepackage[imakeidx]{xindex} 
+%useful if there are multiple indexes, and 
+% to make indexing happen during a normal XeTeX run.
+% see https://cikitsa.blogspot.ca/2016/07/getting-xindy-to-work-for-iast-encoded.html
+%
+
+% A lexical index that sorts words with diacritical marks. I use this with
+% \saneng{}{} to make indexes and reverse indexes of Sanskrit terms.
+
+\makeindex[name=lexical,
+title=Lexical Index,
+columns=3,
+%options= --input-markup xelatex -M iast.xdy -L general,
+%options = --input-markup xelatex -M de-accent
+options=  -c iast -a -n, % nocasesensitive, noheadings
+]
+%
+
+%  Now an index of manuscripts, used by the \MS or \MScite commands.
+
+\makeindex[name=manuscripts,
+title=Index of Manuscripts,
+%program=texindy,
+%options = --input-markup xelatex -M iast.xdy -L general,
+%options = --input-markup xelatex -M de-accent
+options = -c iast,
+columns=1]
+
+\indexsetup{ %level=\chapter*,
+    noclearpage,
+% firstpagestyle=fancy
+othercode=\footnotesize
+    \newcommand{\lettergroup}[1]{\relax}
+}
+
+% simple command to print the English, put the Skt. 
+% in parentheses, and send both words to a lexical index.
+\newcommand{\saneng}[2]
+% #1 = Sanskrit
+% #2 = English
+{#2 (\sansk{#1})%
+    %%{\def\tuck{\kern -.175em }%
+    %%  \def\loweramount{.6ex }%
+    %%  \leavevmode 
+    %%  \lower\loweramount
+    %%  \hbox{\tiny $\llcorner$}\tuck #2 (\sansk{#1})%
+    %%  \raise\loweramount 
+    %%  \hbox{\tuck \tiny $\urcorner$}%
+    % and now make the index entries:
+    %  \index[lex]{\sansk{#1}!#2@#2}%
+    %  \index[lex]{#2@#2!\sansk{#1}}}%
+    \index[lexical]{#2!#1@\emph{#1}}%
+    \index[lexical]{#1@\emph{#1}!#2}}
+
+% variant that puts the English input first:
+\newcommand{\engsan}[2]
+% #2 = Sanskrit
+% #1 = English
+{#1 (\sansk{#2})%
+    %%{\def\tuck{\kern -.175em }%
+    %%  \def\loweramount{.6ex }%
+    %%  \leavevmode 
+    %%  \lower\loweramount
+    %%  \hbox{\tiny $\llcorner$}\tuck #2 (\sansk{#1})%
+    %%  \raise\loweramount 
+    %%  \hbox{\tuck \tiny $\urcorner$}%
+    % and now make the index entries:
+    %  \index[lex]{\sansk{#1}!#2@#2}%
+    %  \index[lex]{#2@#2!\sansk{#1}}}%
+    \index[lexical]{#1!#2@\emph{#2}}%
+    \index[lexical]{#2@\emph{#2}!#1}}
+
+\providecommand{\ssaneng}[2]% silent index entry
+% #1 = Sanskrit
+% #2 = English
+{%#2 (\sansk{#1})%
+    %%{\def\tuck{\kern -.175em }%
+    %%  \def\loweramount{.6ex }%
+    %%  \leavevmode 
+    %%  \lower\loweramount
+    %%  \hbox{\tiny $\llcorner$}\tuck #2 (\sansk{#1})%
+    %%  \raise\loweramount 
+    %%  \hbox{\tuck \tiny $\urcorner$}%
+    % and now make the index entries:
+    %  \index[lex]{\sansk{#1}!#2@#2}%
+    %  \index[lex]{#2@#2!\sansk{#1}}}%
+    \index[lexical]{#2!#1@\emph{#1}}%
+    \index[lexical]{#1@\emph{#1}!#2}}
+
+% Older code, using index.sty:
+
+% Lexical index, for inclusion in \engsan or \saneng
+%
+%\usepackage{index,amssymb}
+%\newindex{lex}{ldx}{lnd}{Lexical Index}
+\makeatletter
+\renewcommand\@idxitem{\par\hangindent 15\p@ }% from sanmed.sty
+%\newcommand\skt[2]{#1%\footnote{#1: Skt. \emph{#2}}%
+%% #1 = English 
+%% #2 = Sanskrit
+%% next lines experimental
+%  \index[skt]{#1!#2@\emph{#2}}%
+%  \index[skt]{#2@\emph{#2}!#1}}
+\makeatother
+
+% test version of \saneng that puts tick marks around the indexed words.
+%\newcommand{\saneng}[2]
+%% #1 = Sanskrit
+%% #2 = English
+%{\def\tuck{\kern -.175em }%
+%  \def\loweramount{.6ex }%
+%  \leavevmode 
+%  \lower\loweramount
+%  \hbox{\tiny $\llcorner$}\tuck #2 (\sansk{#1})%
+%  \raise\loweramount 
+%  \hbox{\tuck \tiny $\urcorner$}%
+%% and now make the index entries:
+%%  \index[lex]{\sansk{#1}!#2@#2}%
+%%  \index[lex]{#2@#2!\sansk{#1}}}%
+%  \index[lex]{#2!#1@\emph{#1}}%
+%  \index[lex]{#1@\emph{#1}!#2}}
+
+% Index of manuscripts, old version for index.sty
+%\newindex{mex}{mdx}{mnd}{Index of Manuscripts}
+%\newcommand{\MS}[1]{MS #1\index[mex]{#1}}
+%\newcommand{\MSsilent}[1]{\index[mex]{#1}}
+
+%new version with imakeidx:
+\newcommand{\MS}[1]{MS #1\index[manuscripts]{#1}} 
+    \let\MScite=\MS
+\newcommand{\MSsilent}[1]{\index[manuscripts]{#1}} 
+    \let\MSnocite=\MSsilent
+    
+
+%\renewcommand{\doublespacing}{%
+%  \renewcommand{\baselinestretch}{1.5}
+%  \addtolength{\footnotesep}{0.5\footnotesep}}
+
