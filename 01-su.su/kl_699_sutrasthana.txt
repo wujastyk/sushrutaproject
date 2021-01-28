@@ -67,12 +67,13 @@
       <zone xml:id="zone_u4k_nw3_f4b" lry="291" lrx="2473" uly="243" ulx="2351"/>
     </surface>
   </facsimile>
-  
+
   <text xml:lang="sa-Latn">
     <body>
       <div n="1" subtype="sthāna">
         <div n="1" subtype="adhyāyaḥ">
-          <p facs="#zone_k3n_lth_14b" xml:id="SS.1.1.0"><pb n="1v"/><milestone n="1v"/>oṃ namaḥ kamalahastāya|| </p>
+          <p facs="#zone_k3n_lth_14b" xml:id="SS.1.1.0"><pb n="1v"/><milestone n="1v"/>oṃ namaḥ
+            kamalahastāya|| </p>
           <l xml:id="SS.1.1.1">athāto vedotpattim <subst>
               <del>ā</del>
               <add>a</add>
@@ -152,8 +153,8 @@
 
 
           <l xml:id="SS.1.1.10"><gap quantity="11" reason="damaged" unit="akṣara"/><!-- missing ta ūcur asmākaṃ sarvam eva-->
-            <pb n="2r"/><milestone n="2r"/>śalyajñāna<unclear reason="damaged">m<add place="bottom margin"
-                resp="later scribe">+malaṃkṛ+</add> upadiśatu bhagavān iti sa </unclear>
+            <pb n="2r"/><milestone n="2r"/>śalyajñāna<unclear reason="damaged">m<add
+                place="bottom margin" resp="later scribe">+malaṃkṛ+</add> upadiśatu bhagavān iti sa </unclear>
             <gap quantity="13" reason="damaged" unit="akṣara"
             /><!-- missing m alaṃ kṛtvopadiśatu bhagavān iti-->
           </l>
@@ -196,10 +197,12 @@
           <l xml:id="SS.1.1.20"> tad brahmā provāca tat prajāpa<cb/>tir adhijage tasmād aśvināv
             aśvibhyām indraḥ indrād aḥaṃ mayā tv iha pradeyam arthibhyaḥ prajā<lb n="4"/>hitahetoḥ
             ||</l>
+          
+          <l xml:id="SS.1.1.20x">bha||</l>
+          
 
-          <l xml:id="SS.1.1.21ab"> ahaṃ hi dhanvantarir ādidevo jarārujāmṛtyuharo marāṇāṃ | </l>
-
-          <l xml:id="SS.1.1.21cd">
+          <l xml:id="SS.1.1.21">  ahaṃ hi dhanvantarir ādidevo jarārujāmṛtyuharo marāṇāṃ |
+            <caesura/>
             <gap quantity="1" reason="damaged" unit="akṣara"/><!-- missing śa--><cb/>lyam
             mahacchāstravaraṃ gṛhītvā prāpto smi gāṃ bhūya ihopadeṣṭuṃ || </l>
 
@@ -251,7 +254,7 @@
               <add place="right-margin">sarpā</add>
             </subst>s tv aṇḍajāḥ | kṛmikuṭṭha<!--°kuṣṭha°? but looks like ṭṭha-->pipīlikāprabhṛtayaḥ
             saṃsvedajāḥ | indragopakamaṇḍūka<cb/>prabhṛtayaś codbhidāḥ | </l>
-         
+
 
           <l xml:id="SS.1.1.31"> tatra sthāvarebhyas
             tvakpatrapuṣpaphalamūlakandakṣīraniryāsasārasnehasvarasāḥ prayojanavantaḥ |
@@ -315,13 +318,11 @@
       </div>
     </body>
   </text>
-  
+
   <facsimile>
-  <graphic n="test" 
-  url="file:///home/dom/Dropbox/Digitized%20MSS%20extracts/Susrutasamhita/Kathmandu,%20Kaiser%20Shum%20Shere%20Library%20and%20NAK/MS%20KL%20699%20from%20Andrey%20Klebanov%20col/001v%20IMG_0126.JPG"/>
-   
+ 
     <graphic n="1v" url="https://www.dropbox.com/s/9wz8gbyeg3ox6t8/001v%20IMG_0126.JPG?dl=0"/>
-    
+
     <graphic n="2r" url="https://www.dropbox.com/s/spy14rcvdgxn8s2/002r%20IMG_0111.JPG?dl=0"/>
   </facsimile>
 
