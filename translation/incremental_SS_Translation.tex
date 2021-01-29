@@ -13,11 +13,17 @@
 \setlist[enumerate]{noitemsep} % enumitem global setting for \items
 \setlist[itemize]{noitemsep} 
 
-% Make a new environment for the translation with tweaked spacing.
-\newenvironment{translation}
-    {\begin{itemize}[noitemsep,
-            left=0pt .. \parindent]}
-    {\end{itemize}}
+%% Make a new environment for the translation with tweaked spacing.
+%% The old-fashioned LaTeX way:
+%\newenvironment{translation}
+%    {\begin{itemize}[noitemsep,
+%            left=0pt .. \parindent]}
+%    {\end{itemize}}
+
+%% Make a new environment for the translation with tweaked spacing.
+%% Do it the enumitem way:
+\newlist{translation}{enumerate}{2}
+\setlist[translation]{label=\textbullet,noitemsep,left=0pt .. \parindent}
 
 %
 %\newcommand{\item}[1]{$^{#1}$}
@@ -364,12 +370,12 @@ a shorter list, and the vulgate edition adds \saneng{mūṣika}{rodents}.}
         people.' And in this regard, there is [this verse].
         
         \item[27] 
-  
+   
         \begin{quote}
             For, I (i.e., Brahmā) am Dhanvantari, the first god, the remover of old age, pain and 
             death of mortals. Having understood surgery, the best of the great knowledge 
             systems, I arrived on earth again to teach it here.
-        \end{quote}    
+     \end{quote}    
     
 \end{translation}    
     
