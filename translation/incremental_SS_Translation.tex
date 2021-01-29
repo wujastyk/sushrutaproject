@@ -3,9 +3,27 @@
 % !TeX spellcheck = en_GB
 \documentclass[12pt]{article}
 \usepackage{xelatex-generic-biblatex-indexing,
-    hyperref}
+    hyperref,
+    booktabs, % better-looking tables
+    wasysym, %for the blob symbols in the table
+}
 
 \addbibresource {\jobname.bib}
+
+\setlist[enumerate]{noitemsep} % enumitem global setting for \items
+\setlist[itemize]{noitemsep} 
+
+% Make a new environment for the translation with tweaked spacing.
+\newenvironment{translation}
+    {\begin{itemize}[noitemsep,
+            left=0pt .. \parindent]}
+    {\end{itemize}}
+
+%
+%\newcommand{\item}[1]{$^{#1}$}
+
+%\newenvironment{translation}{\list }{\endlist }
+
 
 \renewcommand{\SS}{\emph{Suśrutasaṃhitā}}
 
@@ -33,14 +51,119 @@ producing this new translation of the classic work.
         \tableofcontents
         
         \newpage
+        \section{The Manuscripts used in the Vulgate editions by 
+        Yādavaśarma Trivikrama Ācārya}
+        
+        Yādavaśarma Trivikrama Ācārya produced three successive editions of the \SS\ 
+        with the commentary of Ḍalhaṇa, in 1915, 1931 and 1938.  These editions, 
+        especially the last, are considered the most scholarly and reliable editions of the 
+        work, and have been constantly reprinted up to the present day.
+        
+        The 1915 edition was based on three manuscripts.  The 1931 edition used 
+        another nine.  For his final 1938 edition, Ācārya used a further 
+        three.\footnote{\cite[22]{susr-trikamji3}.}
+        
+        \subsection{The manuscripts of the 1915 edition}
+        
+        \begin{enumerate}
+            \item[1] Calcutta, Royal Asiatic Society.  Covers the sūtra, nidāna, śārīra and 
+            kalpa sthānas.  
+            
+            \item [2] Jaipur, Pandit Gaṅgādharabhaṭṭaśarman, lecturer at the Royal 
+            Sanskrit University.  Covers the cikitsāsthānna and the uttaratantra.
+            
+            \item [3]  Bundi, my great friend the royal physician Paṃ.\ Śrīprasādaśarman  
+            Covers the uttaratantra.
+        \end{enumerate}
+        
+        \subsection{The manuscripts of the 1931 edition}
+
+\begin{enumerate}
+
+    \item[1] Vārāṇasī, professor of literature, the great Gaurīnāthapāṭhaka.  With the 
+    \emph{Nibandhasaṅgraha}. Covers the nidānasthāna and uttaratantra.
+    
+    \item [2]  Ahmedabad.  My friend Sva.\ Vā.\ Vaidya Raṇachoḍalāla Motīlālaśarman.  
+    With the \emph{Nibandhasaṅgraha}.  Covers the śārīrasthāna.
+    
+    \item [3] From the library of my great friend Sva.\ Vā.\ Vaidya Murārajīśarman.  
+    Extremely old. No commentary.  Covers the śārīrasthāna. 
+    
+    \item [4]  Puṇe, BORI library.  With the \emph{Nibandhasaṅgraha}. Covers the
+śārīrasthāna.\footnote{Not one of the three MSS of the
+\emph{śārīrasthāna}described in \cite{shar-vaid}.}
+    
+    \item [5]  With the \emph{Nibandhasaṅgraha}. Complete.
+    
+    \item [6]
+    
+    \item [7] 
+    
+    \item [8]
+    
+    \item [9]
+
+\end{enumerate}
+    
+        \subsection{The manuscripts of the 1938 edition}
+        
+        \begin{enumerate}
+            \item [1]
+            
+            \item[2]
+            
+            \item [3]
+        \end{enumerate}
+    
+        \begin{tabular}{c|ccc|ccccccccc|ccc}
+            \toprule
+              \multicolumn{16}{c}{\emph{Manuscripts}} \\
+ \emph{edition}            &\multicolumn{3}{c}{1915}
+&                \multicolumn{9}{c}{1935} 
+  &              \multicolumn{3}{c}{1938} \\
+                 \emph{sthāna}  & 1 & 2 & 3 & 1 &2  &3  &4  &5  &6  &7  &8  &9  &1  
+                 &2 &3 \\
+            \midrule
+
+             \emph{sū}. &  \newmoon&  &  &
+               &  &  &  & \newmoon & ? &  & \newmoon & \newmoon 1--43 &  
+             \newmoon & &\newmoon \\
+            
+             \emph{ni}. &\newmoon  &  &  &
+              \newmoon &  &  &  &  \newmoon&  ?&  & \newmoon &  &  
+              \newmoon&\newmoon & \newmoon\\
+            
+             \emph{śā}. &  \newmoon&  &  &
+              & \newmoon & \newmoon & \newmoon & \newmoon &  ? &  &  
+              \newmoon&  &  
+              \newmoon& &\newmoon \\
+            
+             \emph{ci}. &  & \newmoon &  &
+               &  &  &  &\newmoon & ? &  \newmoon&\newmoon  &  &
+              \newmoon & &\newmoon 1--9 \\
+            
+             \emph{ka}.  &\newmoon  &  &  &
+               &  &  &  &\newmoon  &  ?&  & \newmoon &  &  
+             \newmoon  & & \\
+
+            \emph{utt}.  &  & \newmoon &\newmoon  &
+            \newmoon  &  &  &  & \newmoon & ? &  & \newmoon &  &  
+            & & \\
+            \bottomrule
+        \end{tabular}
+        
+        
+        \newpage
     
     \section{Sūtrasthāna, adhyāya 1}
-\begin{itemize}
-    \item [1]
-    Now I shall narrate the chapter on the origin of this knowledge.\footnote{Ḍalhaṇa 
-    understood the word "\saneng{veda}{knowledge}" as specifically "medical knowledge."  
-    He said that the word "longevity" (\emph{āyur}) \ssaneng{āyur}{life, longevity}
-     had been elided.}
+    
+\begin{translation}
+
+    \item[1] Now I shall narrate the chapter on the origin of this
+knowledge.\footnote{Ḍalhaṇa understood the word "\saneng{veda}{knowledge}" as
+specifically "medical knowledge." He said that the word "longevity"
+(\emph{āyur}) \ssaneng{āyur}{life, longevity} had been elided.
+     
 %    
 %    Notes Dec 8:
 %    Dominik: N's ādhyāyaṃ corruption of H's nāmādhyāyaṃ: possible evidence that N was created 
@@ -49,8 +172,8 @@ producing this new translation of the classic work.
 %    Commentary Ḍalhaṇa (c. 1200 CE) notes āyur dropped from veda in vedotpattim
 %    
 %    
-\footnote{At this point, later manuscripts and commentaries include
-the statement "as the venerable Dhanvantari stated."  The absence of this
+After this opening statement, later manuscripts and commentaries include
+the attribution, "as the venerable Dhanvantari stated."  The absence of this
 statement in the early Nepalese MSS is highly noteworthy because it removes
 the outer narrative frame of the \SS\
 \parencites[148]{wuja-2013}[\S\,3.1.2]{kleb-2021b}.  On the figure of Dhanvatari in 
@@ -60,7 +183,7 @@ medical literature, see \cite[IA 358--361]{meul-hist}.} %     <!-- Notes Dec 8:
 % an authority on
 %surgery or toxicology-->
     
-    \item[2] Now, as is well-known, Aupadhenava, Vaitaraṇa, Aurabhra, Puṣkalāvata,
+\item[2] Now, as is well-known, Aupadhenava, Vaitaraṇa, Aurabhra, Puṣkalāvata,
 Karavīra, Gopurarakṣita, Bhoja, Suśruta and others addressed Lord Divodāsa,
 king of Kāśi, the best of the immortals, who was in his ashram surrounded by
 an entourage of sages.\footnote{On these persons, see \cite[IA
@@ -189,7 +312,8 @@ folio.  Although MSS N and H include \saneng{lūtā}{spiders} and
 \saneng{sarīsṛpa}{creepy-crawlies} in the list, it does seem that MS K had
 a shorter list, and the vulgate edition adds \saneng{mūṣika}{rodents}.}
         
-        \item[15] “[The component] called the discipline of rejuvenation is maintaining 
+        \item[15] “[The component] called the discipline of rejuvenation is 
+        maintaining 
         youth, bringing about a long life and mental vigour and for curing diseases.
         
         % Got to here 2021-01-13
@@ -203,35 +327,51 @@ a shorter list, and the vulgate edition adds \saneng{mūṣika}{rodents}.}
         
         "Among these [components], tell us which is for whom."
         
-        \item[18] They said, "After you have conveyed the knowledge of surgery, teach 
+        \item[18] They said, "After you have conveyed the knowledge of surgery, 
+        teach 
         us everything."
         
         \item[19] He said, "so be it."
         
-        \item[20] They then said, "Having considered the view of all of us, when we are 
+        \item[20] They then said, "Having considered the view of all of us, when we 
+        are 
         unanimous, Suśruta will question you. We too will learn what is being taught to 
         him."
         
         \item[21] He said, "so be it.
         
-        \item[22] “Now, as is well-known, the aim of Āyurveda is eliminating the disease of one who have been assailed by disease and protecting the healthy;  āyurveda is [that knowledge] in which they find a long-life, or that by which long-life is known. Learn its best component (i.e., surgery), which is being taught in accordance with tradition, perception, inference and analogy.
+        \item[22] “Now, as is well-known, the aim of Āyurveda is eliminating the 
+        disease of one who have been assailed by disease and protecting the healthy;  
+        āyurveda is [that knowledge] in which they find a long life, or that by which 
+        long life is known. Learn its best component (i.e., surgery), which is being 
+        taught in accordance with tradition, perception, inference and analogy.
         
-        \item[23] "For this component is first, the most important, because it is referred to first; it cures wounds and joins together the most important thing, Yajña's head. For, just as it has been said of old, 'the head that had been cut off by Rudra was joined again by the two Aśvins.'
+        \item[23] "For this component is first, the most important, because it is 
+        referred to first; it cures wounds and joins together the most important thing, 
+        Yajña's head. For, just as it has been said of old, 'the head that had been cut off 
+        by Rudra was joined again by the two Aśvins.'
         
-        \item[24] "And also, of the eight disciplines of Āyurveda, [surgery] alone is the best because of the quick action of its procedures, its application of blunt instruments, knives, caustics and fire, and it is common to all disciplines.
+        \item[24] "And also, of the eight disciplines of Āyurveda, [surgery] alone is 
+        the best because of the quick action of its procedures, its application of blunt 
+        instruments, knives, caustics and fire, and it is common to all disciplines.
         
-        \item[25] "Therefore, [surgery] is eternal, meritorious, leads to heaven, brings renown, bestows a long life, and affords a livelihood.
+        \item[25] "Therefore, [surgery] is eternal, meritorious, leads to heaven, 
+        brings renown, bestows a long life, and affords a livelihood.
         
-        \item[26] "Brahmā said this, 'Prajāpati learned it. From him, the Aśvins. From the Aśvins, 
+        \item[26] "Brahmā said this, 'Prajāpati learned it. From him, the Aśvins. From 
+        the Aśvins, 
         Indra. From Indra, I. In this world, I will transmit to those who desire it for the benefit of 
         people.' And in this regard, there is [this verse].
         
-        \item[27] \begin{quote}
+        \item[27] 
+  
+        \begin{quote}
             For, I (i.e., Brahmā) am Dhanvantari, the first god, the remover of old age, pain and 
             death of mortals. Having understood surgery, the best of the great knowledge 
             systems, I arrived on earth again to teach it here.
         \end{quote}    
     
+\end{translation}    
     
 
   
@@ -239,14 +379,15 @@ a shorter list, and the vulgate edition adds \saneng{mūṣika}{rodents}.}
 
 \section{Sūtrasthāna, adhyāya 28}
 % Adhyāya 28  
-    
-    \item [1] Thus, living creatures and their strength,
+\begin{translation}    
+    \item[1] Thus, living creatures and their strength,
 \saneng{varṇa}{complexion} and \saneng{ojas}{energy} are rooted in food.  That
 (food) depends on the six \saneng{rasa}{flavours}. Thus, the flavours depend
 on \saneng{dravya}{substance}, and substances depend on medicinal herbs. 
 There are two kinds of them (herbs):  stationary and mobile.\footnote{Suśruta
 sū.1.28 \cite[I, 21]{shar-susr}, \cite[7]{susr-trikamji2004}.}
-\end{itemize}
+
+\end{translation}
 
 %\section{Nidānasthāna}
 %Cf.\ \cite{adri-engl}.
