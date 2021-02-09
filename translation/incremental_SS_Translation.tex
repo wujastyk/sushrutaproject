@@ -3,10 +3,22 @@
 % !TeX spellcheck = en_GB
 \documentclass[12pt]{article}
 \usepackage{xelatex-generic-biblatex-indexing,
-    hyperref,
     booktabs, % better-looking tables
     wasysym, %for the blob symbols in the table
 }
+\usepackage{hyperref}
+
+% just print hyperlinked “URL” in the bibliography, not the long, ugly URL.
+\DeclareFieldFormat{url}{%
+    \ifhyperref
+   % {\textsc{url: }\href{#1}{URL}}
+    {\href{#1}{\textsc{url}}}
+    {\textsc{url: }\nolinkurl{#1}}} %DW bug here
+\DeclareFieldFormat{eprint:ark}{%
+%    \textsc{ark:}\space
+    \ifhyperref  
+    {\href{https://n2t.net/#1}{\nolinkurl{#1}}}
+    {\nolinkurl{#1}}}
 
 \addbibresource {\jobname.bib}
 \setlist[enumerate]{noitemsep} % enumitem global setting for \items
@@ -99,9 +111,14 @@ producing this new translation of the classic work.
 śārīrasthāna.\footnote{Not one of the three MSS of the
 \emph{śārīrasthāna}described in \cite{shar-vaid}.}
     
-    \item [5]  With the \emph{Nibandhasaṅgraha}. Complete.
+    \item [5]  Puṇe, BORI library.  With the \emph{Nibandhasaṅgraha}. Complete.  
+    With some damaged folia.
     
-    \item [6]
+    \item [6]  Bombay, Asiatic Society.  Incomplete.\footnote{Possibly \MScite{Mumbai, 
+    AS B.I.3} or \MScite{Mumbai, AS B.D.109} \citep[v.\,1, \# 212 and 
+    213]{vela-1930}.  But both these have the \emph{Nibandhasaṅgraha}.  The first 
+    covers only the śārīrasthāna; the second may be complete, but Velankar calls it 
+    only “disorderly.”}
     
     \item [7] 
     
@@ -442,9 +459,10 @@ the final vowel of the noun \emph{oṣadhi} may be lengthened
 that the word be used in a Vedic mantra and not in the nominative.  Neither
 condition is met in this passage, yet the author uses the form \emph{oṣadhī}. 
 This form is in fact not uncommon in medical literature as well as in epics,
-purāṇas, smṛtis, and other parts of Sanskrit literature \citep{oberlies}.} There are 
+purāṇas, smṛtis, and other parts of Sanskrit literature.} There are 
 two types:
 \saneng{sthāvara}{stationary} and \saneng{jaṅgama}{moving}.
+
 
 
 \item [31]  Of these, there are four types of stationary ones:
@@ -457,27 +475,27 @@ is a plant that branches out, \emph{vanaspati} is a tree with fruit, and
 \emph{vānaspatya} is a tree with fruit and flowers.}
 Amongst these, the “fruit trees” have fruit but no flowers.\footnote{The MSS agree 
 in reading \emph{phalavantyaḥ} “having flowers” which is grammatically 
-non-standard. It is also found in the  \emph{Viṣṇudharmottarapurāṇa} 
-(1.92.27cd--28) edition 56r .}  The “flowering trees” 
+non-standard. This form is also found in the  \emph{Viṣṇudharmottarapurāṇa} 
+(1.92.27, \cite[1.92.27][56r]{sarm-1912}).}  The “flowering trees” 
 have flowers and fruit.  The “herbs” die when the fruit is ripe. “Shrubs” put out 
 shoots.
 
-   \item[32]  As is well known, moving remedies are also of four types: 
-   those 
-   \saneng{jarāyuja}{born in in a caul}, those 
-   \saneng{aṇḍaja}{born from eggs}, those 
-   \saneng{svedaja}{born of sweat}, and  
-   \saneng{udbhid}{shoots}.
-Amongst these, those born in a caul include \saneng{paśu}{animals}, humans, and 
-\saneng{vyāla}{wild animals}.  Birds, \saneng{sarīsṛpa}{creepy-crawlies} and 
-snakes are “born of eggs.”
-\saneng{kṛmi}{Worms}, \saneng{kunta}{small insects} and 
-\saneng{pipīlika}{ants} and others are born of sweat.\footnote{The word 
-\emph{kunta} is found in literature, 
-commonly as a compound with \emph{pipīlika}; possibly the compound is a type of 
-ant.}  Shoots include 
-\saneng{indragopa}{red velvet mites} and 
-\saneng{maṇḍūka}{frogs}.
+% \citep{ober-2003} didn't have anything on phalavantyo that I could find quickly.
+
+
+   \item[32]  As is well known, moving remedies are also of four types: those
+\saneng{jarāyuja}{born in in a caul}, those \saneng{aṇḍaja}{born from eggs},
+those \saneng{svedaja}{born of sweat}, and \saneng{udbhid}{shoots}. Amongst
+these, those born in a caul include \saneng{paśu}{animals}, humans, and
+\saneng{vyāla}{wild animals}.  Birds, \saneng{sarīsṛpa}{creepy-crawlies} and
+snakes are “born of eggs.” \saneng{kṛmi}{Worms}, \saneng{kunta}{small insects}
+and \saneng{pipīlika}{ants} and others are born of sweat.\footnote{The word
+\emph{kunta}, though marked as “lexical” in most dictionaries, is in fact found
+in literature, commonly as a compound with \emph{pipīlika}; the compound
+sometimes seems to be understood a type of ant (\emph{tatpuruṣa} compound)
+rather than as a pair of insects (\emph{dvandva} compound).}  Shoots include
+\saneng{indragopa}{red velvet mites} and \saneng{maṇḍūka}{frogs}.\footnote{On
+\emph{indragopa}, see \cite{lien-1978}.}|
 
     
 \end{translation}    
