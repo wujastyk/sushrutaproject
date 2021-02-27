@@ -1,69 +1,111 @@
-# MS Kathmandu NAK 5-333
-## Concordance of folios and Suśrutasaṃhitā passages in the vulgate
-
-## By Harshal Bhatt, with editing by Dominik Wujastyk
+# Table of Contents
 
 
-|Folio|Suśruta text contained|
-| --- | --- |
-|01v:1	|Start of 1.1	1oṃnamo dhanvantaraye .. athāto vedotpattiṃ nāmādhyāyaṃ vyākhyāsyāmaḥ ..|
-|04v:2	|End of 1.1	sa puṇyakarmā bhuvi pūjito nṛpairasukṣaye  śakrasalokatāmiyāditi ..1..|
-|04v:2	|Start of 1.2	athātaḥ śiṣyopanayanīyamadhyāyaṃ vyākhyāsyāmaḥ ..|
-|05v:2	|End of 1.2	nā'dhyayamanyeṣu ca yeṣu viprā nādhīyate nāśucinā ca nityamiti ..2..|
-|05v:2	|Start of 1.3	athāto'dhyayanasampradānīyaṃ vyākhyāsyāmaḥ ..|
-|07r:6	|End of 1.3	tadabhyāse ca siddhau ca yatetādhyayanāntaga iti ..3..|
-|07r:6	|Start of 1.4	athātaḥ prabhāṣaṇīyamadhyāyamvyākhyāsyāmaḥ ..|
-|08v:6	|End of 1.4	śeṣāṇāṃ śalyatantrāṇāṃ mūlānyetāni nirddiśediti ..4..|
-|08r:1	|Start of 1.5	athāto'gropaharaṇīyamadhyāyaṃ vyākhyāsyāmaḥ ..|
-|10v:5	|End of 1.5	ghṛtena sā śāntimupaiti siktā koṣṇena yaṣṭīmadhukānviteneti ..5..|
-|10v:6	|Start of 1.6	athāto ṛtucaryāmvyākhyāsyāmaḥ ..|
-|12r:2	|End of 1.6	viṣameṣvapi vā doṣā kupyantyṛtuṣudehināmiti ..6..|
-|12r:3	|Start of 1.7	athāto yantravidhimadhyāyamvyākhyāsyāmaḥ ..|
-|14r:3	|End of 1.7	yasmātsmṛtaṃ kaṅkamukhaṃ pradhānaṃ sthāneṣu sarvveṣvavikāri yacceti ..ña..|
-|14r:3	|Start of 1.8	athātaḥ śastrāvacāraṇīyamadhyāyamvyākhyāsyāmaḥ ..|
-|16v:1	|End of 1.8	kārayetkaraṇaprāptaḥ karmmāraḥ karmmakovida iti ..8..|
-|16v:1	|Start of 1.9	athāto yogyāsūtrīyamadhyāyaṃ vyākhyāsyāmaḥ ..|
-|16v:6	|End of 1.9	yasya yasyeha sādharmmyantatra yogyāñca kārayet ..9..|
-|16v:6	|Start of 1.10	athāto viśikhānupraveśanīyaṃ vyākhyāsyāmaḥ ..|
-|17v:3	|End of 1.10	dattantābhirnna gṛhṇīyādannādanyadbhiṣagvadeti ..e..|
-|17v:3	|Start of 1.11	athātaḥ kṣārapākavidhimadhyāyamvyākhyāsyāmaḥ ..|
-|19v:6	|End of 1.11	rogānnihanyādacireṇa dhīrānniti ..etra?..|
-|19v:6	|Start of 1.12	athāto'gnikarmmavidhimvyākhyāsyāmaḥ ..|
-|22v:1	|End of 1.12	tathātitejasā dagdhe siddhirnnaikāntikī bhavediti ..edvi?.. 0 ..|
-|22v:1	|Start of 1.13	athāto jalāyuṣkādhyāyamvyākhyāsyāmaḥ ..|
-|24v:5	|End of 1.13	jānīyādyojalaukānāṃ sarākṣaḥ? karttumarhati ..etri?..|
-|24v:5	|Start of 1.14	athātaḥ śoṇitavarṇṇanīyamvyākhyāsyāmaḥ ..|
-|27v:5	|End of 1.14	śophaṃ satodaṃ koṣṇena sarppiṣā pariṣecayediti ..eyka?..|
-|27v:5	|Start of 1.15	athāto doṣadhātumalakṣayavṛddhimvyākhyāsyāmaḥ ..|
-|30r:3	|End of 1.15	prasannātmendriyamanāḥ svastha ityupadiśyate ..eha.. 0 ..|
-|30r:3	|Start of 1.16	athātaḥ karṇṇavyadhavidhimvyākhyāsyāmaḥ ..|
-|33v:4	|End of 1.16	hīnampunarvvarddhayituṃ yateta samañca kuryādativṛddhamāṃsamiti ..etra?..|
-|33v:4	|Start of 1.17	athāta āmapakvaiṣaṇīyamvyākhyāsyāmaḥ ..		|
-|35v:5	|End of 1.17	ete kramā vraṇasyoktāssaptamamvaikṛtāpahamiti ..eñ..|
-|35v:5	|Start of 1.18	athāta ālepanavraṇavandhavidhimvyākhyāsyāmaḥ ..	|
-|37r:3	|End of 1.18	ṛtuñca parisaṃkhyāya tato vandhanniveśayediti ..eḍa..|
-|37r:3	|Start of 1.19	athāto vraṇitopāsanīyamvyākhyāsyāmaḥ ..|
-|39v:6	|End of 1.19	āyuśca dīrghamāpnoti dhanvantarivaco yathā ..eḍe..	|
-|39v:6	|Start of 1.20	athāto hināhitīyaṃ vyākhyāsyāmaḥ ..|
-|41v:1	|End of 1.20	vraṇitopāsanīyañca viruddhānnanaviṃśatiḥ .. dvitīyodaśa ..yaṃ..|
-|41v:1	|Start of 1.21	athāto vraṇapraśnaṃ vyākhyāsyāmaḥ ..|
-|45v:5	|End of 1.21	ādehadhāraṇājjāntā?rvvraṇastasmānnirucyata iti ..thaṃtra?..|
-|45v:5	|Start of 1.22	athāto vraṇāśrāvavijñānīyamvyākhyāsyāmaḥ ..|
-|47v:1	|End of 1.22	sarvvaśophavikāreṣu vraṇavallakṣayedbhiṣagiti ..thaṃdvi..|
-|47v:1	|Start of 1.23	athātaḥ kṛtyākṛtyavidhiṃ vyākhyāsyāmaḥ ..|
-|48r:5	|End of 1.23	harṣātkrodhādbhayādvāpi vraṇorūḍho'pi dīryate .. yatri?..|
-|48r:6	|Start of 1.24	athāto vyādhisamuddeśīyamvyākhyāsyāmaḥ ..|
-|50r:6	|End of 1.24	vistareṇottare tantre sarvvavādhāmpravakṣmaha iti ..thaṃpka?..|
-|50r:6	|Start of 1.25 thāto'ṣṭavidhiśastrakarmmavidhiniścayamvyākhyāsyāmaḥ ..|
-|53r:1	|End of 1.25	vikāraḥ sādhyate kaściccaturbhirapi karmmabhiḥ ..thaha?..|
-|53r:2	|Start of 1.26	athātaḥ praṇaṣṭaśalyavijñānīyaṃ vyākhyāsyāmaḥ ..|
-|55r:1	|End of 1.26	śalyāni na visīryante śarīre mṛnmayāni ceti ..thaṃtra?..|
-|55r:1	|Start of 1.27	athātaḥ śalyāpanayanīyaṃ vyākhyāsyāmaḥ ..|
-|57v.2	|End of 1.27	vaikalyammaraṇaṃ cāpi tasmādyatnādvinirharediti ..thaṃña..|
-|57v:2	|Start of 1.28	athāto viparītavraṇavijñānīyamvyākhyāsyāmaḥ ..|
-|58v:3	|End of 1.28	varjjayedapi tāmprājñaḥ saṃrakṣannātmano yaśaḥ ..thaṃḍa?..|
-|58v:3	|Start of 1.29	athāto viparītadūtasvapnadarśanīyaṃ vyākhyāsyāmaḥ ..|
-|62v:3	|End of 1.29	sa dīrghāyuriti khyātastasmai karmma samācaret ..thaḍe?..|
-|62v:3	|Start of 1.30	athātaḥ pañcendriyārthavipratipattimvyākhyāsyāmaḥ ..|
-|63v:6	|End of 1.30	pañcendriyārthavibhrāntimproktaṃ vai tṛtīyodaśa ..la..|
 
+|      |      |
+| ---- | ---- |
+|      |      |
+| Folio | Content of Suśrutasaṃhitā |
+|   |  |
+|01v:1	| Start of 1.1	1ॐनमो धन्वन्तरये ।। अथातो वेदोत्पत्तिं नामाध्यायं व्याख्यास्यामः ।।|
+|04v:2	| End of 1.1		स पुण्यकर्मा भुवि पूजितो नृपैरसुक्षये  शक्रसलोकतामियादिति ।।1।।|
+|04v:2	| Start of 1.2	अथातः शिष्योपनयनीयमध्यायं व्याख्यास्यामः ।।|
+|05v:2	| End of 1.2		नाऽध्ये?यमन्येषु च येषु विप्रा नाधीयते नाशुचिना च नित्यमिति ।।2।।|
+|05v:2	| Start of 1.3	अथातोऽध्ययनसम्प्रदानीयं व्याख्यास्यामः ।।|
+|07r:6	| End of 1.3		तदभ्यासे च सिद्धौ च यतेताध्ययनान्तग इति ।।3।।|
+|07r:6	| Start of 1.4	अथातः प्रभाषणीयमध्यायम्व्याख्यास्यामः ।।|
+|08v:6	| End of 1.4		शेषाणां शल्यतन्त्राणां मूलान्येतानि निर्द्दिशेदिति ।।4।।|
+|08r:1	| Start of 1.5	अथातोऽग्रोपहरणीयमध्यायं व्याख्यास्यामः ।।|
+|10v:6	| End of 1.5		घृतेन सा शान्तिमुपैति सिक्ता कोष्णेन यष्टीमधुकान्वितेनेति ।।5।।|
+|10v:6	| Start of 1.6	अथातो ऋतुचर्याम्व्याख्यास्यामः ।।|
+|12r:2	| End of 1.6		विषमेष्वपि वा दोषा कुप्यन्त्यृतुषुदेहिनामिति ।।6?।।|
+|12r:3	| Start of 1.7	अथातो यन्त्रविधिमध्यायम्व्याख्यास्यामः ।।|
+|14r:3	| End of 1.7		यस्मात्स्मृतं कङ्कमुखं प्रधानं स्थानेषु सर्व्वेष्वविकारि यच्चेति ।।ञ।।|
+|14r:3	| Start of 1.8	अथातः शस्त्रावचारणीयमध्यायम्व्याख्यास्यामः ।।|
+|16v:1	| End of 1.8		कारयेत्करणप्राप्तः कर्म्मारः कर्म्मकोविद इति ।।8?।।|
+|16v:1	| Start of 1.9	अथातो योग्यासूत्रीयमध्यायं व्याख्यास्यामः ।।|
+|16v:6	| End of 1.9		यस्य यस्येह साधर्म्म्यन्तत्र योग्याञ्च कारयेत् ।।9?।।|
+|16v:6	| Start of 1.10	अथातो विशिखानुप्रवेशनीयं व्याख्यास्यामः ।।|
+|17v:4	| End of 1.10		विशिखानुप्रवेशञ्च प्रोक्तस्वै प्रथमो दश ।।ए?।।|
+|17v:4	| Start of 1.11	अथातः क्षारपाकविधिमध्यायम्व्याख्यास्यामः ।।|
+|19v:6	| End of 1.11		रोगान्निहन्यादचिरेण द्यो?रान्निति ।।एत्र?।।|
+|19v:6	| Start of 1.12	अथातोऽग्निकर्म्मविधिम्व्याख्यास्यामः ।।|
+|22v:1	| End of 1.12		तथातितेजसा दग्धे सिद्धिर्न्नैकान्तिकी भवेदिति ।।एद्वि?।। 0 ।।|
+|22v:1	| Start of 1.13	अथातो जलायुष्काध्यायम्व्याख्यास्यामः ।।|
+|24v:5	| End of 1.13		जानीयाद्योजलौकानां सराक्षः? कर्त्तुमर्हति ।।एत्रि?।।|
+|24v:5	| Start of 1.14	अथातः शोणितवर्ण्णनीयम्व्याख्यास्यामः ।।|
+|27v:5	| End of 1.14		शोफं सतोदं कोष्णेन सर्प्पिषा परिषेचयेदिति ।।एय्क?।।|
+|27v:5	| Start of 1.15	अथातो दोषधातुमलक्षयवृद्धिम्व्याख्यास्यामः ।।|
+|30r:3	    | End of 1.15		प्रसन्नात्मेन्द्रियमनाः स्वस्थ इत्युपदिश्यते ।।एह।। 0 ।।|
+|30r:3     | Start of 1.16	अथातः कर्ण्णव्यधविधिम्व्याख्यास्यामः ।।|
+|33v:4	| End of 1.16		हीनम्पुनर्व्वर्द्धयितुं यतेत समञ्च कुर्यादतिवृद्धमांसमिति ।।एत्र?।। |
+|33v:4	 |  Start of 1.17	अथात आमपक्वैषणीयम्व्याख्यास्यामः ।।		|
+|35v:5	  |  End of 1.17		एते क्रमा व्रणस्योक्तास्सप्तमम्वैकृतापहमिति ।।एञ्।।|
+|35v:5	  |  Start of 1.18	अथात आलेपनव्रणवन्धविधिम्व्याख्यास्यामः ।।	|
+|37r:3	| End of 1.18		ऋतुञ्च परिसंख्याय ततो वन्धन्निवेशयेदिति ।।एड।।|
+|37r:3	| Start of 1.19	अथातो व्रणितोपासनीयम्व्याख्यास्यामः ।।|
+|39v:6	  |  End of 1.19		आयुश्च दीर्घमाप्नोति धन्वन्तरिवचो यथा ।।एडे।।	|
+|39v:6	| Start of 1.20	अथातो हिनाहितीयं व्याख्यास्यामः ।।|
+|41v:1	| End of 1.20		व्रणितोपासनीयञ्च विरुद्धान्ननविंशतिः ।। द्वितीयोदश ।।यं।।|
+|41v:1	| Start of 1.21	अथातो व्रणप्रश्नं व्याख्यास्यामः ।।|
+|45v:5	| End of 1.21		आदेहधारणाज्जान्ता?र्व्व्रणस्तस्मान्निरुच्यत इति ।।थंत्र?।।|
+|45v:5	| Start of 1.22	अथातो व्रणाश्रावविज्ञानीयम्व्याख्यास्यामः ।।|
+|47v:1	| End of 1.22		सर्व्वशोफविकारेषु व्रणवल्लक्षयेद्भिषगिति ।।थंद्वि।।|
+|47v:1	| Start of 1.23	अथातः कृत्याकृत्यविधिं व्याख्यास्यामः ।।|
+|48r:5	| End of 1.23		हर्षात्क्रोधाद्भयाद्वापि व्रणोरूढोऽपि दीर्यते ।। यत्रि?।।|
+|48r:6	| Start of 1.24	अथातो व्याधिसमुद्देशीयम्व्याख्यास्यामः ।।|
+|50r:6	| End of 1.24		विस्तरेणोत्तरे तन्त्रे सर्व्ववाधाम्प्रवक्ष्मह इति ।।थंप्क?।।|
+|50r:6	| Start of 1.25	अथातोऽष्टविधिशस्त्रकर्म्मविधिनिश्चयम्व्याख्यास्यामः ।।|
+|53r:1	| End of 1.25		विकारः साध्यते कश्चिच्चतुर्भिरपि कर्म्मभिः ।।थह?।।|
+|53r:2	| Start of 1.26	अथातः प्रणष्टशल्यविज्ञानीयं व्याख्यास्यामः ।।|
+|55r:1	| End of 1.26		शल्यानि न विसीर्यन्ते शरीरे मृन्मयानि चेति ।।थंत्र?।।|
+|55r:1	| Start of 1.27	अथातः शल्यापनयनीयं व्याख्यास्यामः ।।|
+|57v.2	| End of 1.27		वैकल्यम्मरणं चापि तस्माद्यत्नाद्विनिर्हरेदिति ।।थंञ।।|
+|57v:2	| Start of 1.28	अथातो विपरीतव्रणविज्ञानीयम्व्याख्यास्यामः ।।|
+|58v:3	| End of 1.28		वर्ज्जयेदपि ताम्प्राज्ञः संरक्षन्नात्मनो यशः ।।थंड?।।|
+|58v:3	| Start of 1.29	अथातो विपरीतदूतस्वप्नदर्शनीयं व्याख्यास्यामः ।।|
+|62v:3	| End of 1.29		स दीर्घायुरिति ख्यातस्तस्मै कर्म्म समाचरेत् ।।थडे?।।|
+|62v:3	| Start of 1.30	अथातः पञ्चेन्द्रियार्थविप्रतिपत्तिम्व्याख्यास्यामः ।।|
+|63v:6	| End of 1.30		पञ्चेन्द्रियार्थविभ्रान्तिम्प्रोक्तं वै तृतीयोदश ।।ल।।|
+|63v:6	| Start of 1.31	अथातश्च्छायाविप्रतिपत्तिम्व्याख्यास्यामः ।।|
+|64r:4	| End of 1.31		तस्मात्मोहाः क्रियाः सर्व्वान्भवन्तीह गतायुषमिति ।।लत्र?।।|
+|64r:4	| Start of 1.32	अथातः स्वभावविप्रतिपत्तिं व्याख्यास्यामः ।।|
+|66v:2	| End of 1.32		साध्यासाध्यपरीक्षञ्च स राज्ञः सम्मतो भवेदिति ।।लद्वि।।0।।|
+|66v:2	| Start of 1.33	अथातो वारणीयम्व्याख्यास्यामः ।।|
+|67v:4	| End of 1.33		नेत्राभ्याञ्च विकुर्व्वाणमपस्मारो विनाशयेत् ।।लत्रि।।0।।|
+|67v:4	| Start of 1.34	अथातो युक्तसेनीयं व्याख्यास्यामः ।।|
+|68v:6	| End of 1.34		वैद्यवाक्ककृदश्रान्तः पादः परिचरः स्मृतः ।।लप्क।।|
+|68v:6	| Start of 1.35	अथात आतुरोपक्रमनीयम्व्याख्यास्यामः ।।|
+|72v:3	| End of 1.35		आहारस्वप्नचेष्टादौ तद्देशः सगुणे सतीति ।।लह।। ।।|
+|72v:3	| Start of 1.36	अथातो मिश्रकन्नामाध्यायम्व्याख्यास्यामः।।|
+|73r:6	| End of 1.36		प्रयुञ्जीत भिषक्प्राज्ञो? यथोद्दिष्टषु कर्म्मसु ।।लत्र।।|
+|73r:6	| Start of 1.37	अथातो भूमिप्रविभागविज्ञानीयम्व्याख्यास्यामः ।।|
+|74r:6	| End of 1.37		मूलाहाराश्च ये तेषां भेषजव्यक्तिरिष्यत इति ।।लञ्।।|
+|74r:6	| Start of 1.38	अथातो द्रव्यसङ्ग्रहणीयम्व्याख्यास्यामः ।।|
+|78r:3	| End of 1.38		चिकित्सितेषु वक्ष्यामि ज्ञात्वा रोगवलावलमिति ।।लड?।।|
+|78r:3	| Start of 1.39	अथातः संशोधनसंशमनीयम्व्याख्यास्यामः ।।|
+|80v:5	| End of 1.39		अव्याय दुर्व्वलस्यापि शोधनं हि तदा भवेदिति ।।लडे?।। ।।|
+|80v:5	| Start of 1.40	अथातो द्रव्यरसवीर्यविपाकविज्ञानीयम्व्याख्यास्यामः ।।|
+|82r:4	| End of 1.40		रसवीर्यविपाकेन प्रोक्तमन्यद्दशैव तु ।। ।।चतुर्थो दश।। फ ।।|
+|82r:4	| Start of 1.41	अथातो द्रव्यविशेषविज्ञानीयम्व्याख्यास्यामः ।।|
+|84r:3	| End of 1.41		स्थानवृद्धिक्षयात्तस्माद्देहिनां द्रव्यहेतुका इति ।।फत्र?।।|
+|84r:3	| Start of 1.42	अथातो रसविशेषविज्ञानीयं व्याख्यास्यामः ।।|
+|87r:5	| End of 1.42		यथा दोषाः प्रकुपिता वशं यान्ति वलीयस इति ।।फद्वि?।।|
+|87r:5	| Start of 1.43	अथातो वमनद्रव्यविकल्पविज्ञानीयम्व्याख्यास्यामः ।।|
+|89v:2	| End of 1.43		पेयलेह्यादिभोज्येषु वमनान्युपल्पयेत् ।।युत्रि?।।|
+|89v:2	| Start of 1.44	अथातो विरेचनद्रव्यविकल्पविज्ञानीयम्व्याख्यास्यामः ।।|
+|91r:1	| End of 1.44		अन्नेषु भेज्येषु? तत्थैव लेहे विरेचनं साधु नियोजनीय इति ।।फक्क?।।|
+|91r:1	| Start of 1.45	अथातो द्रवद्रव्यविशेषविज्ञानीयं व्याख्यास्यामः ।।|
+|98v:5	| End of 1.45		देशकालविभागज्ञा नृपतेः कर्त्तुमर्हतीति ।।फक्य?।।|
+|98v:6	| Start of 1.46	अथातोऽन्नपानविधिम्व्याख्यास्यामः ।।|
+|123r:2	| End of 1.46		स भूमिपालाय विधातुमौषधम्महात्मनाञ्चार्हति वैद्यसत्तम इति ।।0।।|
+
+						द्रव्यस्थानं रसस्थानम्वमनञ्च विरेचनः । 
+
+						द्रवद्रव्यपरिस्थानमन्नपानेन षट्स्मृतः ।।0।।|
+
+						सूत्रस्थाने पुरा प्रोक्तञ्चत्वारिंशत्षडुत्तरः ।|
+
+						अध्यायाः काशिराजेन पूर्णं सर्व्वं सविस्तरः ।।|
+
+						।। इति सुश्रुते शल्यतन्त्रे सूत्रस्थानं समाप्तः ।। ।।|
