@@ -326,9 +326,37 @@
 | 392r:7 | Start of 6.35(11)|
 | 394v:1 | End of 6.35(11)|
 
+HB says:
 
-
-
+> In some printed editions, SS has following *Adhyāyas,* which are not found in this MS.
+>
+> 6.14, *Bhedyarogapratiṣedhaḥ,* 11 verses
+>
+> 6.24, *Pratiśyāyapratiṣedhaḥ,* 42 verses
+>
+> 6.38(12), *Yonivyāptapratiṣedhaḥ,* 32 verses 
+>
+> In *Uttarasthāna,* after 24th *Adhyāya,* *Kumārataṇtra* starts and colophon shows *Kumārataṇtre Prathamodhyāyaḥ* instead of *Pañcaviṁśodhyāyaḥ* and it continues up to 35th *Adhyāya.* I have given number as below:
+>
+> *Kumārataṇtra*
+>
+> 388v:6         Start of 6.25(1)
+>
+> 389r:1         End of 6.25(1)
+>
+>  
+>
+> 389r:1         Start of 6.26(2)
+>
+> 390v:3         End of 6.26(2)
+>
+>  
+>
+> 390v:3         Start of 6.27(3)
+>
+> 390r:1         End of 6.27(3)
+>
+> Same in the next *Kāyacikitsātaṇtra*
 
 
 
