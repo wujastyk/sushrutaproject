@@ -41,7 +41,9 @@
                 <address>
                     <name>University of Alberta</name>
                 </address>
-                <authority><name>The Suśruta Project</name></authority>
+                <authority>
+                    <name>The Suśruta Project</name>
+                </authority>
                 <date>2020</date>
                 <pubPlace>The University of Alberta</pubPlace>
                 <publisher>The Suśruta Project (<ref target="http://sushrutaproject.org"
@@ -63,13 +65,13 @@
     </teiHeader>
     <text xml:lang="sa-Latn">
         <body>
-    
+
             <div n="1" type="sthāna">
-   
+
                 <head>[Sūtrasthāna]</head>
 
                 <div n="1" type="adhyāyaḥ">
-                  
+
                     <head>[Adhyāya 1]</head>
 
 
@@ -169,8 +171,8 @@
                         prajāhitahetoḥ |</l>
 
                     <l xml:id="SS.1.1.20x">bha |</l>
-                    
-                    <div2 xml:id="SS.1.1.20x-app" target="#SS.1.1.20x" type="apparatus">
+
+                    <div2 target="#SS.1.1.20x" type="apparatus" xml:id="SS.1.1.20x-app">
                         <list type="Notes">
                             <item>The Nepalese witnesses use the abbreviation "bha" for "bhavati
                                 cātra", introducing the next verse.</item>
@@ -190,7 +192,7 @@
                         tasyopakaraṇam anyat <hi> |</hi> tasmāt puruṣo 'dhiṣṭhānaṃ <hi>|</hi>
                     </l>
 
-                    <div2 xml:id="SS.1.1.22-app" target="#SS.1.1.22" type="apparatus">
+                    <div2 target="#SS.1.1.22" type="apparatus" xml:id="SS.1.1.22-app">
                         <list type="Notes">
                             <item>The reading of dvidhan might be a corruption of dvidhas, which is
                                 a permitted sandhi.</item>
@@ -228,7 +230,7 @@
                         khagasarīsṛpasarpās tv aṇḍajāḥ | kṛmikuntapipīlikāprabhṛtayaḥ saṃsvedajāḥ |
                         indragopakamaṇḍūkaprabhṛtayaś codbhidāḥ | </l>
 
-                    <div2 type="apparatus" xml:id="SS.1.1.30-app" target="#SS.1.1.30">
+                    <div2 target="#SS.1.1.30" type="apparatus" xml:id="SS.1.1.30-app">
                         <list type="Notes">
                             <item target="#SS.1.1.30-n1">kuṭṭha is Prākṛta for "skin disease,
                                 leprosy," but this sense does not fit this passage; the word here
@@ -310,28 +312,43 @@
 
                     <l xml:id="SS.1.16.3"> [2] rakṣābhūṣaṇanimittam bālasya karṇau vyadhayet| tau
                         ṣaṣṭhe māse saptame vā śuklapakṣe praśasteṣu tithikaraṇamuhūrtanakṣatreṣu
-                        kṛtamaṅgalaṃ †svastivācanan† dhātryaṅke kumāram
-                        upaveśyābhisāntvayamānaḥ bhiṣag vāmahastenākṛṣya karṇan daivakṛte
-                        chidre dakṣiṇahastena ṛju vidhyet| pūrvan dakṣiṇaṃ kumārasya vāmaṅ
-                        kanyāyāḥ | pratanuṃ sūcyā bahalam ārayā | </l>
+                        kṛtamaṅgalaṃ †svastivācanan† dhātryaṅke kumāram upaveśyābhisāntvayamānaḥ
+                        bhiṣag vāmahastenākṛṣya karṇan daivakṛte chidre dakṣiṇahastena ṛju vidhyet|
+                        pūrvan dakṣiṇaṃ kumārasya vāmaṅ kanyāyāḥ | pratanuṃ sūcyā bahalam ārayā | </l>
 
-                    <l xml:id="SS.1.16.4">[3] śoṇitabahutvanivedanāyāṃ
-                        cānyadeśaviddham iti jānīyāt | nirupadravatā
-                            taddeśaviddhaliṅgam |</l>
-                    
-                    <l xml:id="SS.1.16.5">[4] tatra yadṛcchāviddhāyāṃ sirāyām ajñena jvaradāhaśvayathuvedanāgranthimanyāstambhāpatānakaśirograhakarṇaśūlāni bhavanti | </l>
-                    
-                    <l xml:id="SS.1.16.6">[5] doṣasamudayād apraśastavyadhād vā tatra vartim apahṛtya yavamadhukamañjiṣṭhāgandharvahastamūlair madhughṛtapragāḍhair ālepayet | surūḍhañ cainam punar vidhyet | </l>
-                    
-                    <l xml:id="SS.1.16.7">[6] samyagviddham āmatailapariṣekeṇopacaret | tryahāt tryahād vartiṃ sthūlatarāṅ kurvīta  pariṣekañ ca tam eva | </l>
-                    
-                    <l xml:id="SS.1.16.8"> [7] atha vyapagatadoṣopadrave karṇe pravardhanārthaṃ laghu pravardhanakām āmuñcet |</l>
-                    
-                    <l xml:id="SS.1.16.9">evaṃ samvarddhitaḥ karṇaś chidyate tu dvidhā nṛṇāṃ |<caesura/>
-                        doṣaṭo vābhighātād vā sandhānān tasya me śṛṇu ||
-                    </l>
-                    
-                    <l xml:id="SS.1.16.10"> tatra samāsena pañcadaśasandhānākṛtayo bhavanti |  tadyathā | nemīsandhānakaḥ | utpalabhedyakaḥ | vallūrakaḥ | āsaṅgimaḥ | gaṇḍakarṇaḥ| āhāryaḥ |  nirvedhimaḥ | vyāyojimaḥ | kapāṭasandhikaḥ | ardhakapāṭasandhikaḥ | saṅkṣiptaḥ | hīnakarṇaḥ | vallīkarṇaḥ | yaṣṭīkarṇaḥ | kākauṣṭhaḥ | iti | teṣu tatra pṛthulāyasamobhayapālir nemīsandhānakaḥ | vṛttāyatasamobhayapālir utpalabhedakaḥ | hrasvavṛttasamobhayapālir vallūrakarṇakaḥ | abhyantaradīrghaikapālir āsaṅgimaḥ | bāhyaikadīrghaikapālir gaṇḍakarṇakaḥ apālir ubhayato 'py āhāryaḥ | pīṭhopamapālir nirvedhimaḥ | aśusthūlasamaviṣamapālir vyāyojimaḥ | abhyantaradīrghaikapālir itarālpapāliḥ | kapāṭāsandhikaḥ | bāhyadīrghaikapālir itarālpapāliś cārdhakapāṭasandhikaḥ | </l>
+                    <l xml:id="SS.1.16.4">[3] śoṇitabahutvanivedanāyāṃ cānyadeśaviddham iti jānīyāt
+                        | nirupadravatā taddeśaviddhaliṅgam |</l>
+
+                    <l xml:id="SS.1.16.5">[4] tatra yadṛcchāviddhāyāṃ sirāyām ajñena
+                        jvaradāhaśvayathuvedanāgranthimanyāstambhāpatānakaśirograhakarṇaśūlāni
+                        bhavanti | </l>
+
+                    <l xml:id="SS.1.16.6">[5] doṣasamudayād apraśastavyadhād vā tatra vartim
+                        apahṛtya yavamadhukamañjiṣṭhāgandharvahastamūlair madhughṛtapragāḍhair
+                        ālepayet | surūḍhañ cainam punar vidhyet | </l>
+
+                    <l xml:id="SS.1.16.7">[6] samyagviddham āmatailapariṣekeṇopacaret | tryahāt
+                        tryahād vartiṃ sthūlatarāṅ kurvīta pariṣekañ ca tam eva | </l>
+
+                    <l xml:id="SS.1.16.8"> [7] atha vyapagatadoṣopadrave karṇe pravardhanārthaṃ
+                        laghu pravardhanakām āmuñcet |</l>
+
+                    <l xml:id="SS.1.16.9">evaṃ samvarddhitaḥ karṇaś chidyate tu dvidhā nṛṇāṃ |
+                        <caesura/>
+                         doṣaṭo vābhighātād vā sandhānān tasya me śṛṇu || </l>
+
+                    <l xml:id="SS.1.16.10"> tatra samāsena pañcadaśasandhānākṛtayo bhavanti |
+                        tadyathā | nemīsandhānakaḥ | utpalabhedyakaḥ | vallūrakaḥ | āsaṅgimaḥ |
+                        gaṇḍakarṇaḥ| āhāryaḥ | nirvedhimaḥ | vyāyojimaḥ | kapāṭasandhikaḥ |
+                        ardhakapāṭasandhikaḥ | saṅkṣiptaḥ | hīnakarṇaḥ | vallīkarṇaḥ | yaṣṭīkarṇaḥ |
+                        kākauṣṭhaḥ | iti | teṣu tatra pṛthulāyasamobhayapālir nemīsandhānakaḥ |
+                        vṛttāyatasamobhayapālir utpalabhedakaḥ | hrasvavṛttasamobhayapālir
+                        vallūrakarṇakaḥ | abhyantaradīrghaikapālir āsaṅgimaḥ |
+                        bāhyaikadīrghaikapālir gaṇḍakarṇakaḥ apālir ubhayato 'py āhāryaḥ |
+                        pīṭhopamapālir nirvedhimaḥ | aśusthūlasamaviṣamapālir vyāyojimaḥ |
+                        abhyantaradīrghaikapālir itarālpapāliḥ | kapāṭāsandhikaḥ |
+                        bāhyadīrghaikapālir itarālpapāliś cārdhakapāṭasandhikaḥ | </l>
+
 
                 </div>
 
