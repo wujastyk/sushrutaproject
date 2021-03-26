@@ -339,4 +339,42 @@ its structure, selected structural elements and a few selected elements of conte
   publisher    = {University of Alberta Libraries},
 }
 
+@Review{seng-2020,
+  author       = {Chandak Sengoopta},
+  date         = {2020-10},
+  number       = {4},
+  pages        = {1405--1406},
+  related      = {das-2012},
+  relatedtype  = {reviewof},
+  volume       = {125},
+  doi          = {10.1093/ahr/rhz1271},
+  comment      = {The historiography of colonial science and medicine has expanded remarkably over the last few decades, with India, for understandable reasons, playing a stellar role in this literature. The long, complex history of British rule in the subcontinent offers a vast range of topics crying out for investigation by historians of science and medicine, and while many of these have been studied in great detail from different perspectives, a lot remains virtually untouched. Homoeopathy, for instance, has been enormously popular in various parts of India, but until this pioneering study by Shinjini Das, Vernacular Medicine in Colonial India: Family, Market and Homoeopathy, its history had been almost entirely overlooked by scholars.
+
+Homoeopathy established itself quite securely in nineteenth-century India, as Das shows, without any state support and despite doubts among mainstream medical practitioners about its effectiveness and scientific basis. Focusing on Bengal, where homoeopathy has long been popular, she shows how, in the late nineteenth and early twentieth centuries, the lack of support from the colonial state was not a problem. With indigenist and nationalist ideas gaining traction among the middle classes, supporters of homoeopathy positioned it as the ideal system of medicine for the indigenous masses because it was inexpensive, was noninvasive, and rarely produced toxic effects. Also, homoeopathy’s symptom-based approach to treatment could be mastered from books (unlike Ayurveda, which could only be learned through a long apprenticeship), and the lack of state regulation allowed ordinary laypeople to become homoeopaths purely through self-education. As Das shows in an instructive chapter, a number of entrepreneurs set up very successful businesses that published homoeopathic manuals, sold medicine kits, and through several journals encouraged the practice of homoeopathic medicine by the laity. The growing market of autodidacts in nineteenth-century Bengal, who purchased teach-yourself manuals on all kinds of subjects, embraced homoeopathy with fervor; countless families would acquire their own medicine chests, convinced of the health-restoring powers of the little round globules soaked in exotically named tinctures.
+
+Although all the medicines they dealt in were imported from the United States or Europe, the homoeopathic firms of Bengal projected themselves as worthy exemplars of the new nationalist spirit by emphasizing their indigenous ownership, their administrative structure (modeled on the Hindu joint family, although not as far as profit sharing was concerned), and their client base, which was not only Bengali but extended far into the rural hinterlands that were poorly served by state-educated allopathic doctors. These strategies were complemented by the intriguing notion that the supposedly German science of homoeopathy was, in fact, Hindu. The founding principle of homoeopathy—that an agent that caused particular symptoms in healthy individuals would also cure them in the diseased—had, it was claimed, first been enunciated in ancient Sanskrit texts. The German savant Samuel Hahnemann had rediscovered a truth known to the Hindu sages and developed it into a modern, scientifically persuasive system, while the authentically Hindu Ayurveda, in neglecting research for countless centuries, had become obsolete. It was the outwardly German homoeopathy that represented the true fulfillment of ancient Hindu wisdom.
+
+One would expect the allopathic doctors of Bengal to have united in opposing homoeopathy. Many of them were, of course, critical of the scientific basis of homoeopathy and dismayed by the absence of systematic training and regulation in the sector. But not all practitioners of Western medicine rejected homoeopathy. Famously, Mahendralal Sircar (1833–1904), who held an MD from the leading medical school of the time, who founded the Indian Association for the Cultivation of Science, and who was one of the most successful medical practitioners of Calcutta, switched his allegiance to homoeopathy at the height of his career because he found it more in accord with the principles of science. The support of a man of his stature obviously undermined opposition to homoeopathy, and over the years, it would not be unusual to find either Bengali doctors practicing both systems of medicine without any qualms or, indeed, patients who consulted homoeopaths as well as allopaths in different circumstances.
+
+The British rulers, despite worrying about fraudulent homoeopaths and trying occasionally to regulate the profession, could not quite control its growth or public acceptance, and the situation changed only after independence. The state and its agencies were now keen to encourage non-Western systems of medicine, and by lumping homoeopathy with Ayurveda and Unani, it introduced more opportunities for systematic training and registration in these fields. Many homoeopaths, concerned at the proliferation of practitioners of dubious merit, had also been calling for such reforms, but as training became more systematized, it drew increasingly closer to mainstream science, narrowing the gulf between allopaths and homoeopaths that the entrepreneurial firms and practitioners had exploited so creatively.
+
+Drawing upon a vast range of Bengali homoeopathic publications, Vernacular Medicine in Colonial India reconstructs the fascinating history of a medical system that, despite being as alien to India as standard Western medicine, was domesticated relatively quickly by a historically contingent and mutually reinforcing combination of “native” commercial initiative, indigenist reinscription, nationalistic resistance to the colonial state, and autodidactic enthusiasm that was further reinforced by popular misgivings about the cost, invasiveness, and patchy availability of allopathic medicine. A stimulating study of an important but hitherto ignored facet of South Asia’s fabled medical pluralism, this is not only a major contribution to the historiography of medicine but an illuminating intervention in the long-running but often repetitious debate on the unpredictable ways and transmuted versions in which Indian modernities assimilated Western ideas and practices.},
+  journaltitle = {The American Historical Review},
+}
+
+@Article{das-2012,
+  author           = {Shinjini Das},
+  date             = {2012},
+  journaltitle     = {Medical History},
+  number           = {04},
+  pages            = {463--480},
+  title            = {Debating Scientific Medicine: Homoeopathy and Allopathy in Late Nineteenth-century Medical Print in Bengall},
+  volume           = {56},
+  doi              = {10.1017/mdh.2012.28},
+  modificationdate = {2019-01-12T00:00:00},
+  publisher        = {Cambridge University Press ({CUP})},
+}
+
 @Comment{jabref-meta: databaseType:biblatex;}
+
+@Comment{jabref-entrytype: review: req[author;related;relatedtype;journal;volume;number;date;pages] opt[url;doi;urldate]}
