@@ -10,6 +10,8 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 * Straightened out the śloka numbering and the xml:id references in 1.1.16.  - DW
   * adjusted the numbering of the Vulgate transcription to more exactly match the numbering in the printed edition (of 1938, although the text itself is transcribed from 1931). 
+  * continued synchronising xml:ids from 1.16 in MSS 1-1079 and 5-333.
+  * finished synchronizing the provisional edition file. 
 
 ## 2021-03-28
 
