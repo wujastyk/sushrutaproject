@@ -415,13 +415,13 @@
 
 
 
-> -	MS NAK Folio no. 399 ends with around 6.35.164 (śāntajvaro viśodhyaḥ syādanuva….)
+> -	MS NAK Folio no. 399 ends with around 6.35.164 (śāntajvaro viśodhyaḥ syād anuva….)
 >
 > -	Pratiśyāyacikitsā adhyāya found at 6.51(16) with 30 ślokas instead of 42.
 >
 > -	Yonivyāpatpratiṣedhaḥ Adhyāya found at 6.57(23)
 >
-> -	Colophon of Adhyāya 63 shows “Uttarataṇtre svastharakṣaṇīyaṃ dwāpañcāśattamaḥ” instead of 63.
+> -	Colophon of Adhyāya 63 shows “Uttarataṇtre svastharakṣaṇīyaṃ dvāpañcāśattamaḥ” instead of 63.
 >
 > -	At the end of 48(13), 11 verses which are given in the other editions but not in this MS.
 >
