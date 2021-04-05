@@ -330,60 +330,60 @@
 | |  |  |  |
 | not found | Start of |  6.37(2) |   |
 | 486v:2 | End of |  6.37(2) | 6.40 |
-| 400r:2 | Start of |  6.38(3) | 6.41 |
-| 404r:6 | End of |  6.38(3) |   |
-| 404r:6 | Start of |  6.39(4) |   |
-| 409r:2 | End of |  6.39(4) |   |
-| 409r:2 | Start of |  6.40(5) |   |
-| 409v:6 | End of |  6.40(5) |   |
-| 410r:1 | Start of |  6.41(6) |   |
+| 486r:2 | Start of |  6.38(3) | 6.41 |
+| 441r:6 | End of |  6.38(3) |   |
+| 441r:6 | Start of |  6.39(4) |   |
+| 446r:2 | End of |  6.39(4) |   |
+| 446r:2 | Start of |  6.40(5) |   |
+| 446v:6 | End of |  6.40(5) |   |
+| 447r:1 | Start of |  6.41(6) |   |
 | 412r:3 | End of |  6.41(6) |   |
-| 412r:3 | Start of |  6.42(7) |   |
-| 414r:6 | End of |  6.42(7) |   |
-| 414r:6 | Start of |  6.43(8) |   |
-| 415v:4 | End of |  6.43(8) |   |
-| 415v:4 | Start of |  6.44(9) |   |
-| 420v:4 | End of |  6.44(9) |   |
-| 420v:4 | Start of |  6.45(10) |   |
-| 422r:4 | End of |  45(10) |   |
-| 422r:4 | Start of |  6.46(11) |   |
-| 423v:4 | End of |  6.46(11) |   |
-| 423v:4 | Start of |  6.47(12) |   |
-| 425r:3 | End of |  6.47(12) |   |
-| 425r:3 | Start of |  6.48(13) |   |
-| 427r:1 | End of |  6.48(13) |   |
-| 427r:1 | Start of |  6.49(14) |   |
-| 429r:2 | End of |  6.49(14) |   |
-| 429r:3 | Start of |  6.50(15) |   |
-| 429v:6 | End of |  6.50(15) |   |
-| 429v:6 | Start of |  6.51(16) |   |
-| 431r:4 | End of |  6.51(16) |   |
-| 431r:4 | Start of |  6.52(17) |   |
-| 432v:4 | End of |  6.52(17) |   |
-| 432v:4 | Start of |  6.53(18) |   |
-| 435r:6 | End of |  6.53(18) |   |
-| 435r:6 | Start of |  6.54(19) |   |
-| 436v:6 | End of |  6.54(19) |   |
-| 436v:6 | Start of |  6.55(20) |   |
-| 438r:4 | End of |  6.55(20) |   |
-| 438r:4 | Start of |  6.56(21) |   |
-| 440v:1 | End of |  6.56(21) |   |
-| 440v:1 | Start of |  6.57(22) |   |
-| 442v:3 | End of |  6.57(22) |   |
-| 442v:3 | Start of |  6.58(23) |   |
-| 444r:3 | End of |  6.58(23) |   |
-| 444r:3 | Start of |  6.59(1) |   |
-| 447r:3 | End of |  6.59(1) |   |
-| 447r:3 | Start of |  6.60(2) |   |
-| 448r:6 | End of |  6.60(2) |   |
-| 448r:6 | Start of |  6.61(3) |   |
-| 450v:3 | End of |  6.61(3) |   |
-| 450v:3 | Start of |  6.62 |   |
-| 452r:4 | End of |  6.62 |   |
-| 452r:4 | Start of |  6.63 |   |
-| 457v:3 | End of |  6.63 (Uttaratantre svastharakṣaṇīyaṃ dvāpañcāśattamaḥ” instead of 63) |   |
-| 457v:3 | Start of |  6.64 |   |
-| 460v:6 | End of |  6.64 |   |
+| 449r:3 | Start of |  6.42(7) |   |
+| 451r:6 | End of |  6.42(7) |   |
+| 451r:6 | Start of |  6.43(8) |   |
+| 452v:4 | End of |  6.43(8) |   |
+| 452v:4 | Start of |  6.44(9) |   |
+| 457v:4 | End of |  6.44(9) |   |
+| 457v:4 | Start of |  6.45(10) |   |
+| 459r:4 | End of |  6.45(10) |   |
+| 459r:4 | Start of |  6.46(11) |   |
+| 460v:4 | End of |  6.46(11) |   |
+| 460v:4 | Start of |  6.47(12) |   |
+| 462r:3 | End of |  6.47(12) |   |
+| 462r:3 | Start of |  6.48(13) |   |
+| 464r:1 | End of |  6.48(13) |   |
+| 464r:1 | Start of |  6.49(14) |   |
+| 466r:2 | End of |  6.49(14) |   |
+| 466r:3 | Start of |  6.50(15) |   |
+| 466v:6 | End of |  6.50(15) |   |
+| 466v:6 | Start of |  6.51(16) |   |
+| 468r:4 | End of |  6.51(16) |   |
+| 468r:4 | Start of |  6.52(17) |   |
+| 469v:4 | End of |  6.52(17) |   |
+| 469v:4 | Start of |  6.53(18) |   |
+| 472r:6 | End of |  6.53(18) |   |
+| 472r:6 | Start of |  6.54(19) |   |
+| 473v:6 | End of |  6.54(19) |   |
+| 473v:6 | Start of |  6.55(20) |   |
+| 475r:4 | End of |  6.55(20) |   |
+| 475r:4 | Start of |  6.56(21) |   |
+| 477v:1 | End of |  6.56(21) |   |
+| 477v:1 | Start of |  6.57(22) |   |
+| 479v:3 | End of |  6.57(22) |   |
+| 479v:3 | Start of |  6.58(23) |   |
+| 481r:3 | End of |  6.58(23) |   |
+| 481r:3 | Start of |  6.59(1) |   |
+| 484r:3 | End of |  6.59(1) |   |
+| 484r:3 | Start of |  6.60(2) |   |
+| 485r:6 | End of |  6.60(2) |   |
+| 485v:6 | Start of |  6.61(3) |   |
+| 404v:3 | End of |  6.61(3) |   |
+| 404v:3 | Start of |  6.62 |   |
+| 406r:4 | End of |  6.62 |   |
+| 406r:4 | Start of |  6.63 |   |
+| 411v:3 | End of |  6.63 (Uttaratantre svastharakṣaṇīyaṃ dvāpañcāśattamaḥ” instead of 63) |   |
+| 411v:3 | Start of |  6.64 |   |
+| 414v:6 | End of |  6.64 |   |
 ## Notes from Harshal Bhatt 
 
 > In some printed editions, SS has following *Adhyāyas,* which are not found in this MS.
