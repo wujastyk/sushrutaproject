@@ -1,0 +1,137 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+    <fileDesc>
+      <titleStmt>
+        <title>[MSS Kathmandu KL 699]</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Suśruta project, University of Alberta</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <placeName>
+              <settlement>Kathmandu</settlement>
+              <region>[region]</region>
+              <country>Nepal</country>
+            </placeName>
+            <institution>Kaiser Library</institution>
+            <repository>https://www.klib.gov.np/</repository>
+            <collection>[collection]</collection>
+            <idno>699</idno>
+            <idno type="NCC">[NCC identifier]</idno>
+            <idno type="siglum">K</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>[description of manuscript]</summary>
+            <msItem defective="true" n="1">
+              <!-- @defective: 'false' for complete, 'true' for incomplete -->
+              <author role="author" xml:lang="sa">Suśruta</author>
+              <title xml:lang="sa">Suśrutasaṃhitā</title>
+              <title type="commentary" xml:lang="sa">[title of commentary]</title>
+              <!-- rubric, incipit, explicit, and finalRubric are given as examples -->
+              <textLang mainLang="sa-Newa">[Sanskrit in Nepalese script.]</textLang>
+              <!-- @mainLang can be "sa-Deva", "sa-Mlym", "sa-Telu", "sa-Newa", etc. See ISO 15924 for more details. -->
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="pothi">
+              <!-- @form can be "pothi", "book", scroll", etc. -->
+              <supportDesc material="palm-leaf"
+                ><!-- @material can be "paper", "industrial paper", "handmade paper", "palm-leaf", "palmyra palm-leaf", "talipot palm-leaf", "birch bark", "vellum", etc. --><!-- the following <foliation> tags are examples --></supportDesc>
+            </objectDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="Nepal" when="0301">M Saṃvat 301 (878 CE).</origDate>
+              <!-- calendar can be "Vikrama", "Śaka", etc. Dates can be approximate or exact. -->
+              <origPlace xml:lang="en">[place of production]</origPlace>
+            </origin>
+            <provenance>[record of ownership]</provenance>
+            <acquisition>[how it was acquired]</acquisition>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <change when="2020-04-21">
+        <persName>[name of editor]</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  
+
+  <text xml:lang="sa-Latn">
+    
+    <body>
+        
+          <!--Uttaratantra-->
+        
+        <div n="6" subtype="sthāna">
+          
+            <div n="16" subtype="adhyāyaḥ">
+              
+              
+              <pb n="166r"/>
+              
+              <milestone unit="folio" n="166r"/>
+              
+              <l xml:id="Su.6.17.1"><lb n="3"/> athāto dṛṣṭigatarogapratiṣedhaṃ
+                vyā |</l> <!--vyākhyāsyāmaḥ -->
+              
+              <l xml:id="Su.6.17.2"/>
+              
+              <l xml:id="Su.6.17.3"> trayaḥ sādhyās trayo sādhyāḥ<cb/> ṣaṭ ca yāpyā bhavanti ha |
+                <caesura/>
+                rogadṛṣṭigatā nṝṇāṃ teṣu sādhyās trayas traye || </l>
+              
+              <l xml:id="Su.6.17.4"> tatraikasya pratīkāraḥ kīrtito dhūmadarśinaḥ |
+                <caesura/>
+                dṛṣṭyā<cb/> pittavidagdhāyāṃ vidagdhāyāṃ kaphena ca ||</l>
+
+              <l xml:id="Su.6.17.5"> pittaśleṣmaharaṃ kuryād vidhiṃ śastrakṣatād vinā |
+                <caesura/>
+                nasya<lb n="4"/>sekāñjanālepapuṭapākaiḥ satarpaṇaiḥ || </l>
+              
+              <l xml:id="Su.6.17.6"> ādye tu traiphalaṃ peyaṃ sarpis traivṛtam utta<cb/>re |
+                <caesura/>
+                tailvakañ cobhayoḥ pathyaṃ kevalaṃ jīrṇṇam eva vā </l>
+              
+              <l xml:id="Su.6.17.7"> gairikaḥ saindhavaḥ kṛṣṇā godantasya masīn tathā || 
+                <caesura/>
+                gomāṃsaṃ maricaṃ vī<cb/>jaṃ sirīṣasya manaḥśilāḥ ||</l>
+              
+              <l xml:id="Su.6.17.8">
+                vṛntaṃ kapitthāt madhunā svayaṃguptāphalāni vā |
+                <caesura/>
+                ete ñjane tu<lb n="5"/> catvāro yogā syur ubhayor hitāḥ |              </l>
+              
+
+            
+          
+        </div>
+      </div>
+      
+    </body>
+  </text>
+
+<!--
+
+  <facsimile>
+    <graphic n="1v" url="https://www.dropbox.com/s/9wz8gbyeg3ox6t8/001v%20IMG_0126.JPG?dl=0"/>
+    <graphic n="2r" url="https://www.dropbox.com/s/spy14rcvdgxn8s2/002r%20IMG_0111.JPG?dl=0"/>
+    <graphic n = "15v" url="https://www.dropbox.com/s/o5n0zhce4oyc06m/015v%20IMG_0065.JPG?dl=0"/>
+    -->
+   <!-- missing folia -->
+    <!-- 
+      <graphic n= "17r" url="https://www.dropbox.com/s/zqngdiuem88xg2x/017r%20IMG_0065.JPG?dl=0"/>
+    <graphic n="17v" url="https://www.dropbox.com/s/a7ondch5xqyco40/017v%20IMG_0066.JPG?dl=0"/>
+    -->
+    <!-- missing folia -->
+  <!-- 
+    <graphic n= "21r" url="https://www.dropbox.com/s/rpj0jjzxwtdflhi/021r%20IMG_0112.JPG?dl=0"/>
+    <graphic n="21v" url="https://www.dropbox.com/s/8ke3zpj0sffe3j1/021v%20IMG_0113.JPG?dl=0"/>
+  </facsimile>
+-->  
+
+</TEI>
