@@ -254,6 +254,7 @@
 | 352v:5 | End of | 5.8 |  |
 | 352v:6 | End of | 5 |  |
 |  **6. Uttarasthāna** | | | |
+|Śālākyatantra| | | |
 | 352r:1 | Start of | 6.1 |  |
 | 354r:5 | End of | 6.1 |  |
 | 354r:5 | Start of | 6.2 |  |
