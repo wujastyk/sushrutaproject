@@ -19,47 +19,43 @@
                         <repository>https://www.klib.gov.np/</repository>
                         <collection>[collection]</collection>
                         <idno>5-333</idno>
-                        <idno type="NCC">[NCC identifier]</idno>
                         <idno type="siglum">H</idno>
                     </msIdentifier>
                     <msContents>
-                        <summary>[description of manuscript]</summary>
-                        <msItem defective="true" n="1">
-                            <!-- @defective: 'false' for complete, 'true' for incomplete -->
-                            <author role="author" xml:lang="sa">Suśruta</author>
-                            <title xml:lang="sa">Suśrutasaṃhitā</title>
-                            <title type="commentary" xml:lang="sa">[title of commentary]</title>
-                            <!-- rubric, incipit, explicit, and finalRubric are given as examples -->
-
-                            <textLang mainLang="sa-Newa">[Sanskrit in Nepalese script.]</textLang>
+                        <summary>Palm-leaf, Newari script, 495 ff. Supports most of the Suśrutasaṃhitā.</summary>                   
+                            <textLang mainLang="sa-Newa">Sanskrit in Nepalese script.</textLang>
                             <!-- @mainLang can be "sa-Deva", "sa-Mlym", "sa-Telu", "sa-Newa", etc. See ISO 15924 for more details. -->
-                        </msItem>
                     </msContents>
+    
                     <physDesc>
                         <objectDesc form="pothi">
                             <!-- @form can be "pothi", "book", scroll", etc. -->
-                            <supportDesc material="paper">
+                            <supportDesc material="palm-leaf">
                                 <!-- @material can be "paper", "industrial paper", "handmade paper", "palm-leaf", "palmyra palm-leaf", "talipot palm-leaf", "birch bark", "vellum", etc. -->
                                 <!-- the following <foliation> tags are examples -->
                             </supportDesc>
                         </objectDesc>
                     </physDesc>
+                    
                     <history>
                         <origin>
                             <origDate calendar="Nepala" when="0663">Nepala Saṃvat 663 (1465
                                 CE).</origDate>
                             <!-- calendar can be "Vikrama", "Śaka", etc. Dates can be approximate or exact. -->
-                            <origPlace xml:lang="en">[place of production]</origPlace>
+                            <origPlace xml:lang="en">Nepal</origPlace>
                         </origin>
-                        <provenance>[record of ownership]</provenance>
-                        <acquisition>[how it was acquired]</acquisition>
                     </history>
+                
                 </msDesc>
             </sourceDesc>
         </fileDesc>
+      
         <revisionDesc>
-            <change when="2020-10-21" who="Dominik Wujastyk"> Started the file. </change>
+            <change when="2020-10-21" who="Dominik Wujastyk"> Started the file. </change> 
+            <change when="2021-04-01" who="Jason Birch">Transcription of 6.17</change>
+            <change when="2021-04-24" who="Madhusudan Rimal">Transcription of SS 6.42</change> 
         </revisionDesc>
+  
     </teiHeader>
 
     <text xml:lang="sa-Latn">
@@ -176,6 +172,131 @@
                          bhavanti yāpyā khalu ye śaḍāmayā hared vitatra kṛtajāṃ sirāvyadhaiḥ || </l>
 
                 </div>
+                
+                <!--  6.42 -->
+
+
+                <div n="42" subtype="adhyāyaḥ">
+                    
+                    
+                    <pb n="dscn3416  fol 441.jpg"  ana="lower image" type="filename"/>
+                    
+                    <milestone unit="folio" n="13416V"/>
+                    
+                    <l xml:id="SS.6.42.1">athāto gulmapratiṣedhaṃ vyākhyāsyāmaḥ ||</l>
+                    <l xml:id="Su.6.42.2">no dhanvantari phrase</l>
+                    
+                    
+                    <l xml:id="SS.6.42.3">yathoktaiḥ kopanair doṣāḥ kupitāḥ koṣṭhamāgatāḥ ||
+                        <caesura/>
+                        janayanti nṛṇāñ gulmaṃ sa pañcavidha ucyate ||</l>
+                    
+                    <l xml:id="SS.6.42.4">hṛnnā <pb n="3416R"/><lb n="1"/> syorantare granthiḥ saṃcārī yadi vācalaḥ |
+                        <caesura/>
+                        vṛttaś cayaḥ saṃcayavān sagulma iti saṃjñitaḥ ||</l>
+                    <l> 5ab from the vulagate is missing</l>
+                    
+                    <l xml:id="SS.6.42.5">gupitānilamūlatvād guḍhagulmodayād api |
+                        <caesura/>
+                        gulmavaddhā viśālatvād gulma itya<lb n="2"/>bhidhīyate ||</l> 
+                    
+                    <l xml:id="SS.6.42.6">sa yasmād ātmani cayaṃ gacchatyapsvava vudvudaḥ |
+                        <caesura/>
+                        <cb/>antaś carati yasmāc ca na pākamupayātyataḥ ||</l>
+                    
+                    <l xml:id="SS.6.42.7">sa vyastair jāyate doṣaiḥ samastair api cocchritaiḥ ||
+                        <caesura/>
+                        puruṣā<lb n="3"/>ṇān tathā strīṇāṃ jñeyo raktena yo paraḥ ||</l>
+                    
+                    <l xml:id="SS.6.42.8">kṛcchraviṇmūtravāta<cb/>tva mānā hetra nikūjanaṃ |
+                        <caesura/>
+                        dveṣonne vāyūr ūrdhvaś ca pūrvarūpeṣu gulmināṃ ||</l>
+                    
+                    <l xml:id="SS.6.42.9">hṛtkūkṣiśūlaṃ mūkhakha<lb n="4"/> ṇṭhaśoṣo vāyornnirodho viṣamāgnitā ca |
+                        <caesura/>
+                        te te vikārāḥ pa<cb/>vanātmikāś ca bhavanti gulme 'nilasambhave tu ||</l>
+                    
+                    <l xml:id="SS.6.42.10">svedajvarāhāravidāhadāhā stṛṣṇāṅgarāgaḥ ka<lb n="5"/> ṭūvakratā ca |
+                        <caesura/>
+                        pittasya liṅgāni ca yāni tāni bhavanti pitta<cb/>prabhave tu gulme ||</l>
+                    
+                    <l xml:id="SS.6.42.11">anne na lipsā gurūgātratā ca charddipraseko madhurāsyatā ca |
+                        <caesura/>
+                        kaphapraliṅgāni* ca yā<lb n="6"/>ni tāni bhavanti gulme kaphasambhave ca ||</l>
+                    
+                    <l xml:id="SS.6.42.12">sarvvātmakaḥ sarvvarūjopapannas taṃ yāpya sādhyām pravadanti tajjñāḥ ||
+                        <caesura/>
+                        navaprasūtāhitabhojanā yā yā cāmaliṅgam* visṛjedṛtau vā ||</l>
+                    
+                    <l xml:id="SS.6.42.13">vāyurhi<pb n="3417V"/><lb n="1"/>tasyāḥ pravigṛhyaraktaṃ karoti gulmaṃ sarūjaṃ sadāhaṃ ||
+                        <caesura/>
+                        pittasya liṅgena samānaliṅgaṃ viśeṣaṇaṃ cāparamaṃ nivodha |</l>
+                    
+                    <l xml:id="SS.6.42.14">na spandate nodarameti vṛddhim bhavanti liṅgāni ca ga<lb n="2"/>rbhiṇīnāṃ ||
+                        <caesura/>
+                        taṃ raktagulmam pravadanti tajjñāḥ sa cāpya sādhyā tu <cb/>pitānilatvāt |</l>
+                    
+                    <l xml:id="SS.6.42.15">jīrṇāsane kupyati vātagulme vidāhakāletveśanasya pittāt ||
+                        <caesura/>
+                        gulmaḥ kaphā<lb n="3"/>t mūrchati rukamātre* sarvāsu valāsu ca sannipāte |</l>
+                    
+                    <l xml:id="SS.6.42.16"> strīṇāṃ tu <cb/>yaḥ śoṇitakoṣagulmaḥ sa yoniśūlaṃ tu mūlaṃ karoti ||
+                        <caesura/>
+                        yonyāḥ parisrāvam aniṣṭagandham viśe<lb n="4"/>ṣaliṅgāni bhanti caiṣāṃ ||</l>
+                    
+                    <l xml:id="SS.6.42.17">vātagulmārdditaṃ snigdhaṃ yuktaṃ sneha<cb/>virecanaiḥ |
+                        <caesura/>
+                        upācaredyathākālaṃ nirūhaiḥ sānuvāsanaiḥ ||</l> 
+                    
+                    <l xml:id="SS.6.42.18">pittagulmārdditaṃ pītaṃ kākolyādikṛ<lb n="5"/>taṃ ghṛtaṃ |
+                        <caesura/>
+                        viriktammadhurair yogairnnirūhaiḥ samupācaret ||</l>
+                    
+                    <l xml:id="SS.6.42.19"><cb/>śleṣmagulmārdditaṃ snigdhaṃ pippalyādighṛtaṃ na tu |
+                        <caesura/>
+                        tīkṣṇairvviriktan tadrūpairnnirūhaiḥ samupācaret ||</l>
+                    
+                    <l xml:id="SS.6.42.20"><lb n="6"/>sannipātotthite gulme tridoṣaghno vidhirhitaḥ ||
+                        <caesura/>
+                        pittavadraktagulminyā nāryāḥ kāryaḥ kriyāvidhiḥ ||</l>
+                    
+                    <l xml:id="SS.6.42.21">viśeṣam aparañ cāsyāḥ śṛṇu raktaprabhedanaṃ |
+                        <caesura/>
+                        palāśakṣāra<pb n="3417R"></pb><lb n="1"/>toyena siddhaṃ sarppiḥ prayojayet ||</l>
+                    
+                    <l xml:id="SS.6.42.22">uṣṇairvvā bhedayet bhinne vidhirāsṛgdaro hitaḥ |
+                        <caesura/>
+                        ānūpaudakamajjāno vasātailaṃ ghṛtāni ca ||</l>
+                    
+                    <l xml:id="SS.6.42.23">vipaced ekataḥ śastaṃ vātagulme 'anuvāsanaṃ <lb n="2"/> |
+                        <caesura/>
+                        jāṅgalaikaśaphāñ ca vasāsarppiś ca pittaja ||</l>
+                    
+                    <l xml:id="SS.6.42.24">tailaṃ jāṅgala<cb/>majjānam eva gulmaikaphotthite ||
+                        <caesura/>
+                        dhātrīphalānāṃ svarase ṣaḍaṅge vipaceddhṛtaṃ |</l>
+                    
+                    <l xml:id="SS.6.42.25">śarkkarāsaindhavopetaṃ <lb n="3"/>tadhitam vātagulmināṃ ||
+                        <caesura/>
+                        kulatthamūlakakvāthadadhikāñjika<cb/>sarppiṣāṃ |</l>
+                    
+                    <l xml:id="SS.6.42.26">pañcāḍhakāni vipacedāvāpyadvipalāni tu ||
+                        <caesura/>
+                        sauvarccalamvitaṃ hiṃgudevadā<unclear>.</unclear>tha saindhavaṃ |</l>
+                    
+                    <l xml:id="SS.6.42.27"><lb n="4"/>vātagulmāpahaṃ sarppir etadvīpaṇam eva ca ||
+                        <caesura/>
+                        āragvadhādau vipa<cb/>ced dīpanīyayutaṃ ghṛtaṃ |</l>
+                    
+                    <l xml:id="SS.6.42.28">kṣāravarge paced cānyaṃ pacen mūtragagaṇeparaṃ ||
+                        <caesura/>
+                        ghnati gulmadvan kaphodbhūtaṃ ghṛtā<lb n="5"/>nyetānyasaṃśayaṃ |</l>
+                    
+                    <l xml:id="SS.6.42.29"/>
+                    
+                    
+                </div>
+
             </div>
         </body>
     </text>
