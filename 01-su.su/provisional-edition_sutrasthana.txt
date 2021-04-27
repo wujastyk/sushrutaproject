@@ -58,6 +58,49 @@
                 </msDesc>
             </sourceDesc>
         </fileDesc>
+    
+      <xenoData>
+      <stemma format="nexml">
+        <nex:nexml generator="Bio::Phylo::Project v.0.58" version="0.9"
+          xmlns="http://www.nexml.org/2009" xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:map="http://phylomap.org/terms.owl#" xmlns:nex="http://www.nexml.org/2009"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://www.nexml.org/2009 http://www.nexml.org/2009/nexml.xsd">
+
+    
+	<otus id="otus1" label="TaxaBlock">
+		<otu id="otu1" label="A"/>
+		<otu id="otu2" label="H"/>
+		<otu id="otu3" label="K"/>
+		<otu id="otu4" label="N"/>
+	</otus>
+	
+	<trees otus="otus1" id="trees1" label="TreesBlock">
+		<tree id="tree1" label="tree1" xsi:type="nex:FloatTree">
+			<node id="n1" label="A" otu="A"/>
+			<node id="n2" label="H" otu="H"/>
+			<node id="n3" label="K" otu="K"/>
+			<node id="n4" label="N" otu="N"/>
+			<node id="n5" label="n5"/>
+			<node id="n6" label="n6"/>
+			<node id="n7" label="n7" root="true"/>
+			<edge source="n5" target="n2" id="e1" length="0.0016219388250720487"/>
+			<edge source="n5" target="n4" id="e2" length="0.0030085840381346013"/>
+			<edge source="n6" target="n1" id="e3" length="0.023868550299649984"/>
+			<edge source="n6" target="n5" id="e5" length="5.44043353790739E-4"/>
+			<edge source="n7" target="n6" id="e6" length="4.092575344587166E-5"/>
+			<edge source="n7" target="n3" id="e7" length="7.775893154715614E-4"/>
+		</tree>
+	
+    
+          </trees>
+        </nex:nexml>
+      </stemma>
+    </xenoData>
+    
+    
         <revisionDesc>
             <change when="2020-11-04" who="Dominik Wujastyk">Began this file.</change>
         </revisionDesc>
