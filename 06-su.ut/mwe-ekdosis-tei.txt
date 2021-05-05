@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><!-- Title --></title>
+                <respStmt>
+                    <resp><!-- Edited by --></resp>
+                    <name><!-- Name --></name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <distributor><!-- Distributor name  --></distributor>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="M">
+                        <abbr type="siglum">M</abbr> Koba 888 <msDesc>
+                            <msIdentifier/>
+                        </msDesc>
+                    </witness>
+                    <witness xml:id="K">
+                        <abbr type="siglum">Ko2</abbr> Koba 999 <msDesc>
+                            <msIdentifier/>
+                        </msDesc>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <variantEncoding method="parallel-segmentation" location="internal"/>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>I <app>
+                    <lem wit="#K">saw</lem>
+                    <rdg wit="#M">met</rdg>
+                </app> my friend <app>
+                    <lem>Peter</lem>
+                    <rdg>John</rdg>
+                </app> at the station yesterday. I <app>
+                    <lem wit="#K">saw</lem>
+                    <rdg wit="#M">met</rdg>
+                </app> my friend <app>
+                    <lem>Peter</lem>
+                    <rdg>John</rdg>
+                </app> at the station yesterday. I <app>
+                    <lem wit="#K">saw</lem>
+                    <rdg wit="#M">met</rdg>
+                </app> my friend <app>
+                    <lem>Peter</lem>
+                    <rdg>John</rdg>
+                </app> at the station yesterday.</p>
+        </body>
+    </text>
+</TEI>
