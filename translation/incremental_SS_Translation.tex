@@ -5,9 +5,12 @@
 \usepackage{xelatex-generic-biblatex-indexing,
     booktabs, % better-looking tables
     wasysym, %for the blob symbols in the table
+    CC-license-footer,
 }
 \usepackage{hyperref}
-
+\usepackage[
+    text={Draft of \today\ for private study only},
+    scale=.28]{draftwatermark}
 
 % just print hyperlinked “URL” in the bibliography, not the long, ugly URL.
 \DeclareFieldFormat{url}{%
@@ -54,7 +57,7 @@ SS\,#1}
 
 \title{A Translation of the New Edition of the \SS}
 \author{Jason Birch and Dominik Wujastyk}
-\date{\texttt{Draft of \today }}
+\date{\texttt{Draft of \today}\\ \copyright\ Jason Birch and Dominik Wujastyk}
 
 \let\se\saneng  % just make typing a bit quicker
 
