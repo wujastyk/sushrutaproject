@@ -9,11 +9,17 @@
 |                       " |   4v:4b    | 1.5 agropaharaṇīyam        |      |
 |                +041.jpg |   5v:2a    | 1.6 ṛtucaryam              |      |
 |                         |            |                            |      |
+|                +071.jpg |   35r:4b   | 1.42 rasaviśeṣa            |      |
 |                         |            |                            |      |
+|                +075.jpg |   39r:2a   |                            |      |
 |                         |            |                            |      |
+|                +073.jpg |   36v:3b   | 1.44 virecanadravyavikalpa |      |
 |                         |            |                            |      |
+|                +088.jpg |  51v:3a-b  | 2.1 vātavyādhi             |      |
+|                +089.jpg |  52v:4c-d  | 2.3 [arśāṃsi]              |      |
 |                         |            |                            |      |
-|                         |            |                            |      |
+|                +102.jpg |   top:1b   | 3.2 śukraśonita            |      |
+|                +102.jpg |  lower:2a  | 4.11.9 tindukapittha       |      |
 |                         |            |                            |      |
 |                         |            |                            |      |
 |                         |            |                            |      |
