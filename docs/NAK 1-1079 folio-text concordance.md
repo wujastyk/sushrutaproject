@@ -2,12 +2,20 @@
 
 |                filename | folio:line | text sthāna.adhyāya        |      |
 | ----------------------: | :--------: | :------------------------- | ---- |
-| A1267-11+103612+037.jpg |    1v:1    | 1.1 athāto vedotpattim     |      |
+| prefix A1267-11+103612 |  |  | |
+| +037.jpg |    1v:1    | 1.1 athāto vedotpattim     |      |
 |                +038.jpg |   2v:5c    | 1.2 śiṣyopanayanam         |      |
 |                +038.jpg |   3r:4c    | 1.3 adhyayanasaṃpradānīyam |      |
 |                +040.jpg |   4v:1a    | 1.4 prabhāṣaṇīyam          |      |
 |                       " |   4v:4b    | 1.5 agropaharaṇīyam        |      |
 |                +041.jpg |   5v:2a    | 1.6 ṛtucaryam              |      |
+|  |  |  | |
+| +043.jpg | 7v:6b | 1.9 yogyāsūtrīyam | |
+| +043.jpg | lower 8v:2a | 1.10 viśikhānupraveśanīyam | |
+|  |  |  | |
+| +051.jpg | 15v:3b-c | 1.18 vraṇalepana | |
+|            |                            |       ||
+| +067.jpg |   31r:2c   | 1.38 dravyasaṅgrahaṇī      |      |
 |                         |            |                            |      |
 |                +071.jpg |   35r:4b   | 1.42 rasaviśeṣa            |      |
 |                         |            |                            |      |
