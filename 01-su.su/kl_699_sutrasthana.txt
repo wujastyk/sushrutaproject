@@ -62,18 +62,21 @@
   <facsimile>
     <surface start="#SS.1.1.0">
       <graphic url="../../KL699/001v_IMG_0126.JPG"/>
-      <zone xml:id="zone_k3n_lth_14b" lry="177" lrx="546" uly="120" ulx="170"/>
-      <zone xml:id="kayacikitsanama" lry="307" lrx="2125" uly="251" ulx="1879"/>
-      <zone xml:id="zone_u4k_nw3_f4b" lry="291" lrx="2473" uly="243" ulx="2351"/>
+      <zone lrx="546" lry="177" ulx="170" uly="120" xml:id="zone_k3n_lth_14b"/>
+      <zone lrx="2125" lry="307" ulx="1879" uly="251" xml:id="kayacikitsanama"/>
+      <zone lrx="2473" lry="291" ulx="2351" uly="243" xml:id="zone_u4k_nw3_f4b"/>
     </surface>
   </facsimile>
 
   <text xml:lang="sa-Latn">
     <body>
       <div n="1" subtype="sthāna">
+        
         <div n="1" subtype="adhyāyaḥ">
-          <p facs="#zone_k3n_lth_14b" xml:id="SS.1.1.0"><pb n="1v"/><milestone unit="folio"  n="1v"/>oṃ namaḥ
-            kamalahastāya|| </p>
+          
+          <p facs="#zone_k3n_lth_14b" xml:id="SS.1.1.0"><pb n="1v"/><milestone n="1v" unit="folio"
+            />oṃ namaḥ kamalahastāya|| </p>
+        
           <l xml:id="SS.1.1.1">athāto vedotpattim <subst>
               <del>ā</del>
               <add>a</add>
@@ -127,7 +130,7 @@
             /><!-- missing nāṃ vyā-->dhīnām upaśamakaraṇārthaṃ
             jva<cb/>raśophagulmaraktapittonmādāpasmārapramehātisārādīnāñ ca |</l>
 
-          <l xml:id="SS.1.1.8.4">bhūtavidyā nāma deva<metamark place="below" function="kākapāda"
+          <l xml:id="SS.1.1.8.4">bhūtavidyā nāma deva<metamark function="kākapāda" place="below"
               >✗</metamark>gandha<gap quantity="2" reason="damaged" unit="akṣara"
               /><!-- missing rvaya--><lb n="6"/>kṣarākṣasapitṛpiśācavināyakanāgagrahopasṛṣṭacetasāṃ
             śāntikarmabaliharaṇādigra<cb/>hopaśamanārthaṃ |</l>
@@ -153,14 +156,16 @@
 
 
           <l xml:id="SS.1.1.10"><gap quantity="11" reason="damaged" unit="akṣara"/><!-- missing ta ūcur asmākaṃ sarvam eva-->
-            <pb n="2r"/><milestone  unit="folio" n="2r"/>śalyajñāna<unclear reason="damaged">m<add
+            <pb n="2r"/><milestone n="2r" unit="folio"/>śalyajñāna<unclear reason="damaged">m<add
                 place="bottom margin" resp="later scribe">+malaṃkṛ+</add> upadiśatu bhagavān iti sa </unclear>
             <gap quantity="13" reason="damaged" unit="akṣara"
             /><!-- missing m alaṃ kṛtvopadiśatu bhagavān iti-->
           </l>
 
-          <l xml:id="SS.1.1.11"><gap quantity="8" reason="damaged" unit="akṣara"
-            /><!-- missing sa uvācaivam astv iti--></l>
+          <l xml:id="SS.1.1.11">
+            <gap quantity="8" reason="damaged" unit="akṣara"/>
+            <!-- missing sa uvācaivam astv iti-->
+          </l>
 
           <l xml:id="SS.1.1.12">
             <gap quantity="6" reason="damaged" unit="akṣara"/><!-- missing ta ūcur bhūyo
@@ -310,47 +315,66 @@
 
           <l xml:id="SS.1.1.41"> svayambhuvā proktam idaṃ sanātanam
             <caesura/>
-            paṭhet tu yaḥ kāśipatiprakāśitam |
+             paṭhet tu yaḥ kāśipatiprakāśitam |
             <caesura/>
              sa puṇyakarmā bhuvi pūjito nṛpair
             <caesura/>
              asu<cb/>kṣaye śakrasalokatām iyād iti || </l>
 
           <!--puṣpikā-->
-          
+
+        </div>
+          <!--          %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+
+
           <div n="2" subtype="adhyāyaḥ" type="level2">
-            <head>dvitīyo'dhyāyaḥ |</head>
+   
             
-            <l xml:id="SS.1.2.1"> athātaḥ śiṣyopanayanīyam adhyāyaṃ<pb n="3r"/> vyā || </l>
+            <p xml:id="SS.1.2.1"> athātaḥ śiṣyopanayanīyam adhyāyaṃ<pb n="3r"/> vyā || </p>
+    
+            <p xml:id="SS.1.2.2"/>
             
-            <l xml:id="SS.1.2.2">  </l>
-            
-            <l xml:id="SS.1.2.3"> brāhmaṇakṣatriyavaisyānām anyatamam anvayaḥ | vayaḥ<gap quantity="5" reason="damaged" unit="akṣara"/> ravinayasakti<cb/>valamedhādhṛtismṛtipratipattiyuktaṃ
-            </l>
-          
-          
+            <p xml:id="SS.1.2.3"> vrāhmaṇakṣatriyavaisyānām anyatamam anvayaḥ | vayaḥ<gap
+                quantity="5" reason="damaged" unit="akṣara"/> ra<pc> </pc>vinaya<pc
+                > </pc>śakti<cb/><pc> </pc>vala<pc> </pc>medhā<pc> </pc>dhṛti<pc
+                > </pc>smṛti<pc> </pc>pratipattiyuktaṃ tanujihvauṣṭhadantāgram 
+              ṛjuvaktrākṣināsaṃprasannacittavākceṣṭaṃ kleśasaha<cb n="2"/>ñ
+              ca śiṣyam upanayet | sa hi guṇavān tasmai deyam ato viparītaguṇaṃ
+              nopanayet |<lb n="2"/>
+                </p>
+
+            <p xml:id="SS.1.2.4"> śūdram api guṇavantam anupanītam adhyāpayed ity eke |
+              upanayanīyan tu brāhmaṇaṃ praśa<cb n="1"/>steṣu tithikaraṇamuhūrttanakṣatreṣu
+              praśastāyān diśi śucau deśe gocarmamātraṃ sthaṇḍilam
+              upalipya darbhasaṃstaraṇam a<cb n="2"/>hitaṃ kṛtvā puṣpair gandhair dhūpair
+              bhakṣyaiś ca
+              pūjayitvā palāśodumvarabilvānāṃ samidbhir
+              ghṛtam a<lb n="3"/>thaktāni dārvihomikenāgnim upasamādhāyā<certainty locus="value" cert="low">ṇḍya</certainty>ñ juhuyāt 
+              pratidevatam ṛṣibhyaḥ<cb n="1"/> śiṣyaṃ svāhākāraṃ kārayet </p>
+
           </div>
-          
-          
-          
-          
-          
-          
-          
+         
+        
+
+
+
           <div n="16" subtype="adhyāyaḥ">
+            
             <pb n="15v"/>
-            <milestone unit="folio" n="15v"/>
+            <milestone n="15v" unit="folio"/>
             <l xml:id="SS.1.16.1"><lb n="6"/>a<cb/>thātaḥ karṇṇa<!--check-->vyadhavidhiṃ vyā || </l>
             <l xml:id="SS.1.16.2"/>
             <l xml:id="SS.1.16.3"> rakṣābhūṣaṇanimittaṃ bālasya karṇau vyadhayet| tau ṣaṣṭhe māse
               saptame vā śuklapakṣe praśasteṣu ti<cb/>thikaraṇamuhūrttanakṣatreṣu kṛtamaṅgalaṃ
-              svastivācanan dhātryaṅkā<!--could be •ṅko--> kumāram upaveśyābhisāntvayamānaḥ <lb n="7"/> bhiṣag vāma<cb/>hastenākṛṣya karṇṇan daivakṛte chidre dakṣiṇahastena rma<!--check--> rju vidhyet| pūrvan dakṣiṇaṃ kumārasya
-              vāmaṅ kanyāyāḥ | <add place="bottom">pratanuṃ sūcyā</add> bahalam ārayā </l>
-            <l xml:id="SS.1.16.4"> śo<cb/>ṇitabahutvanivedanā yāṃ cānyadeśaviddham iti
-              jānīyāt | nirupadravatā taddeśaviddhaliṅgam<pb n="17r"/><milestone unit="folio" n="17r"/></l>
-            
-<!--    MS folio missing here -->
-   
+              svastivācanan dhātryaṅkā<!--could be •ṅko--> kumāram upaveśyābhisāntvayamānaḥ <lb
+                n="7"/> bhiṣag vāma<cb/>hastenākṛṣya karṇṇan daivakṛte chidre dakṣiṇahastena
+              rma<!--check--> rju vidhyet| pūrvan dakṣiṇaṃ kumārasya vāmaṅ kanyāyāḥ | <add
+                place="bottom">pratanuṃ sūcyā</add> bahalam ārayā </l>
+            <l xml:id="SS.1.16.4"> śo<cb/>ṇitabahutvanivedanā yāṃ cānyadeśaviddham iti jānīyāt |
+              nirupadravatā taddeśaviddhaliṅgam<pb n="17r"/><milestone n="17r" unit="folio"/></l>
+
+            <!--    MS folio missing here -->
+
             <l xml:id="SS.1.16.5"/>
             <l xml:id="SS.1.16.6"/>
             <l xml:id="SS.1.16.7"/>
@@ -406,11 +430,11 @@
             <l xml:id="SS.1.16.31"/>
             <l xml:id="SS.1.16.32"/>
             <trailer xml:id="SS.1.16.colophon"/>
-   
+
           </div>
-          
+
       </div>
-      </div>
+  
     </body>
   </text>
 
@@ -418,14 +442,14 @@
 
     <graphic n="1v" url="https://www.dropbox.com/s/9wz8gbyeg3ox6t8/001v%20IMG_0126.JPG?dl=0"/>
     <graphic n="2r" url="https://www.dropbox.com/s/spy14rcvdgxn8s2/002r%20IMG_0111.JPG?dl=0"/>
-    <graphic n = "15v" url="https://www.dropbox.com/s/o5n0zhce4oyc06m/015v%20IMG_0065.JPG?dl=0"/>
-   <!-- missing folia -->
-    <graphic n= "17r" url="https://www.dropbox.com/s/zqngdiuem88xg2x/017r%20IMG_0065.JPG?dl=0"/>
+    <graphic n="15v" url="https://www.dropbox.com/s/o5n0zhce4oyc06m/015v%20IMG_0065.JPG?dl=0"/>
+    <!-- missing folia -->
+    <graphic n="17r" url="https://www.dropbox.com/s/zqngdiuem88xg2x/017r%20IMG_0065.JPG?dl=0"/>
     <graphic n="17v" url="https://www.dropbox.com/s/a7ondch5xqyco40/017v%20IMG_0066.JPG?dl=0"/>
     <!-- missing folia -->
-    <graphic n= "21r" url="https://www.dropbox.com/s/rpj0jjzxwtdflhi/021r%20IMG_0112.JPG?dl=0"/>
+    <graphic n="21r" url="https://www.dropbox.com/s/rpj0jjzxwtdflhi/021r%20IMG_0112.JPG?dl=0"/>
     <graphic n="21v" url="https://www.dropbox.com/s/8ke3zpj0sffe3j1/021v%20IMG_0113.JPG?dl=0"/>
-  
+
   </facsimile>
 
 </TEI>
