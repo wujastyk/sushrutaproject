@@ -8,6 +8,8 @@
     CC-license-footer,
 }
 
+\addbibresource{incremental_SS_Translation.bib}
+
 \usepackage{hyperref}
 \usepackage[
     text={Draft of \today\ for private study only},
@@ -25,7 +27,7 @@
     {\href{https://n2t.net/#1}{\nolinkurl{#1}}}
     {\nolinkurl{#1}}}
 
-\addbibresource {\jobname.bib}
+
 \setlist[enumerate]{noitemsep} % enumitem global setting for \items
 \setlist[itemize]{noitemsep} 
 
@@ -44,7 +46,7 @@
     left=0pt .. \parindent}
 
 
-\newcommand{\VN}[2]{%\cite[#1]{V}
+\newcommand{\VN}[2]{%\cite[#1]{vulgate}
 SS\,#1}
 % later, when we've got our own numbers for our edition, we'll add them 
 % as the second argument.
@@ -579,7 +581,7 @@ and to Jejjaṭa \citep[IA, 372--3, 192]{meul-hist}.  In his view, these early
 commentators  do not agree that the \se{caturvarga}{fourfold grouping} refers
 to the quartet of \se{sthāvara}{stationary}, \se{jaṅgama}{moving},
 \se{pārthiva}{earthen products} and \se{kālakṛta}{items created by 
-time} \citep[9a]{V}.}
+time} \citep[9a]{vulgate}.}
 \end{sloka}
 
 \item[38] \begin{sloka}
@@ -1011,7 +1013,7 @@ to its original site on the cheek.}
         \plant{sappanwood}{pattāṅga}{Caesalpinia sappan, L.}{AVS 1.323, IMP 
         2.847f.},\footnote{For {pattāṅga} there are manuscript variants 
 \emph{pattrāṅga} (MS H) and \emph{pattaṅga}    (N).  We read with H and K 
-(f.\,14r:1) on \citet[1.14.36]{V}. The vulgate reads \emph{pataṅga} 
+(f.\,14r:1) on \citet[1.14.36]{vulgate}. The vulgate reads \emph{pataṅga} 
 and this reading is propagated in modern dictionaries.}
         \plant{liquorice}{yaṣṭīmadhuka}{Glycyrrhiza glabra, L.}{AVS 3.84, NK \#1136},
         and
@@ -1056,7 +1058,7 @@ three are \se{sādhya}{curable}. Amongst these three, %\item[3]
 the \se{pratīkāra}{remedy} has been stated for the one called
 “\se{dhūmadarśin}{seeing smoke}”.\footnote{This disease and its cure are 
 described earlier (SS.6.7.39 and SS.6.10.16 
-\citep[609 and 614]{V} respectively). The latter part of this verse is
+\citep[609 and 614]{vulgate} respectively). The latter part of this verse is
 hard to construe and the text here may have been altered at an early period.}
 
 \item[3--5ab]  When the eye is \se{vidagdha}{inflamed} by bile and when it is 
@@ -1069,10 +1071,10 @@ by phlegm, one should apply the method for removing bile and phlegm, using
 \se{puṭapāka}{medicines cooked in a crucible},
 together with a \se{tarpaṇa}{balm},\footnote{These therapies are described in 
 SS.6.18 
-\citep[633--640]{V}.} but not 
+\citep[633--640]{vulgate}.} but not 
 \se{śastrakṣata}{cutting with a blade}.\q{where is cutting with a knife related to 
 removing bile or phlegm.}\footnote{Dalhaṇa interprets this as 
-\se{sirāvedha}{blood-letting}, which is discussed in SS.1.14 \citep[]{V}.}
+\se{sirāvedha}{blood-letting}, which is discussed in SS.1.14 \citep[]{vulgate}.}
 
 One should drink \se{sarpis}{ghee} prepared with the \se{triphalā}{three fruits} 
 and in the first [case where the problem is bile], and \se{traivṛta}{prepared with 
@@ -1331,16 +1333,28 @@ creatures and those from marshlands should be prescribed.
 
 \item[32]
    
- \dag A \se{puṭākhya}{furnace} is done 
-with Sindh salt and a \se{kravyabhuj}{carnivore},\footnote{The declension of 
-\emph{kravyabhuj} is incorrect here.}
-honey and ghee, combined with what comes from meat.\footnote{This verse 
-seems to contain irresolvable difficulties, but there are no significant variants in the 
-Nepalese MS transmission.  The vulgate reads substantially  
-differently.}\dag
+ \dag An \se{puṭākhya}{enclosed roasting} with  Sindh salt and the product of the
+meat of a \se{kravyabhuj}{carnivore} and a \se{eṇa}{deer}, is combined with 
+honey
+and ghee.\footnote{On the \emph{puṭa} process in the 
+\emph{Suśrutasaṃhitā}, 
+which is earlier and different than that of \emph{rasaśāstra} literature, see the 
+discussion by  \citet[83]{wujad-2019}: \begin{quote}
+    The term ‘enclosed roasting’ (\emph{puṭapāka}) does occur in
+    the \emph{Suśrutasaṃhitā} in the context of eye treatments, but
+    designates a method of obtaining juice from substances by
+    wrapping them in leaves pasted with earth and cooking
+    the bolus on charcoal to finally extract a juice.
+\end{quote} 
+The process is described SS.6.18.33--38 \citep[635]{vulgate}.}
 
-\se{vasā}{Fat} from a horse, a vulture, a snake, a \se{tāmracūḍa}{cock}, combined
-with \se{madhūka}{mahua} is always good in a collyrium.
+\se{vasā}{Fat} from a horse, a vulture, a snake, and a \se{tāmracūḍa}{cock}, 
+combined
+with \se{madhūka}{mahua} is always good in a collyrium.\dag\footnote{This 
+verse contain irresolvable difficulties. There are no significant variants in the
+Nepalese MS transmission, but the text is ungrammatical.   The vulgate reads
+substantially differently but we have nevertheless made emendations in line with it
+and read the verse as two sentences.}
    
    \item [33]
    
@@ -1350,7 +1364,7 @@ with \se{madhūka}{mahua} is always good in a collyrium.
    \se{srotas}{kohl}
    and gradually combine it with
    \se{rasa}{juices}, milk and ghee.\footnote{Ḍalhaṇa specifies that the juices are 
-   meat soups of various animals \citep[628]{susr-trikamji3}.}
+   meat soups of various animals \citep[628]{vulgate}.}
    
 For thirty days, this collyrium is put in the mouth of a black snake that is
 covered with \se{kuśa}{kuśa grass}.
@@ -1392,7 +1406,7 @@ wild animals \se{puṭāhvaya}{taken hot}.\footnote{The expression
 (food) depends on the six \se{rasa}{flavours}. Thus, the flavours depend
 on \se{dravya}{substance}, and substances depend on medicinal herbs. 
 There are two kinds of them (herbs):  stationary and mobile.\footnote{\VN{1.1.28}{} \cite[I, 
-21]{shar-susr}, \cite[7]{V}.}
+21]{shar-susr}, \cite[7]{vulgate}.}
 
 \end{translation}
 
