@@ -56,7 +56,7 @@
                     <pubPlace>Bombay</pubPlace>
                     <date>1931</date>
                     <edition>Revised second edition</edition>
-                    <note type="footnote">The sūtrasthāna (Su.1) and śārīrasthāna (Su.3) of this
+                    <note type="footnote">The sūtrasthāna (SS.1) and śārīrasthāna (SS.3) of this
                         SARIT edition are mainly based on this edition.</note>
                     <note type="footnote">This SARIT edition omits the commentarial material from
                         this edition.</note>
@@ -73,8 +73,8 @@
                     <pubPlace>Bombay</pubPlace>
                     <date>1938</date>
                     <edition>Reprint edition Varanasi/Delhi: Chaukhambha Orientalia, 1992.</edition>
-                    <note>The nidānasthāna (Su.2), cikitsāsthāna (Su.4) , kalpasthāna (Su.5) and
-                        uttaratantra (Su.6) are based on this edition</note>
+                    <note>The nidānasthāna (SS.2), cikitsāsthāna (SS.4) , kalpasthāna (SS.5) and
+                        uttaratantra (SS.6) are based on this edition</note>
                     <note>This SARIT edition omits the commentarial material from this
                         edition.</note>
                 </bibl>
@@ -87,12 +87,12 @@
 
         </fileDesc>
         <revisionDesc>
-            <change who="Dominik Wujastyk" when="2021-04-04"> Separated lots of sandyakṣaras;
+            <change when="2021-04-04" who="Dominik Wujastyk"> Separated lots of sandyakṣaras;
                 commented out the adhyāyas other than 6.17 to lighten Saktumiva's collation load.
             </change>
         </revisionDesc>
     </teiHeader>
-    
+
     <text xml:lang="sa-Latn">
 
         <body>
@@ -104,7 +104,7 @@
                 <!--
                 <div n="1" type="level2" subtype="adhyāyaḥ">
                     <head>prathamo 'dhyāyaḥ | </head>
-                    <l xml:id="Su.6.1.1"><label>ut.1.1</label> athāta aupadravikam adhyāyaṃ
+                    <l xml:id="SS.6.1.1"><label>ut.1.1</label> athāta aupadravikam adhyāyaṃ
                         vyākhyāsyāmaḥ ||</l>
 
                     <l xml:id="SS.6.1.2"><label>ut.1.2</label> yathovāca bhagavān dhanvantariḥ
@@ -2884,8 +2884,8 @@
 
 
                     <l xml:id="SS.6.17.68"><label>ut.17.68</label>
-                            udgārakāsakṣavathuṣṭhīvanotkampanāni<ref
-                            rend="superscript footnote marker">1</ref> ca |
+                            udgārakāsakṣavathuṣṭhīvanotkampanāni<ref rend="superscript footnote
+                            marker">1</ref> ca |
                         <caesura/>
                          tatkālaṃ nācaredūrdhvaṃ yantraṇā snehapītavat || </l>
 
@@ -2933,8 +2933,8 @@
 
 
                     <l xml:id="SS.6.17.76"><label>ut.17.76</label>
-                            śūlāśrurāgāstvatyarthamadhovedhena<ref
-                            rend="superscript footnote marker">1</ref> picchilaḥ |
+                            śūlāśrurāgāstvatyarthamadhovedhena<ref rend="superscript footnote
+                            marker">1</ref> picchilaḥ |
                         <caesura/>
                          śalākāmanu cāsrāvas tatra<ref rend="superscript footnote marker">1</ref>
                         pūrvacikitsitam || </l>
@@ -3041,8 +3041,8 @@
 
 
                     <l xml:id="SS.6.17.93"><label>ut.17.93</label>
-                            śatāvarīpṛthakparṇīmustāmalakapadmakaiḥ<ref
-                            rend="superscript footnote marker">1</ref> |
+                            śatāvarīpṛthakparṇīmustāmalakapadmakaiḥ<ref rend="superscript footnote
+                            marker">1</ref> |
                         <caesura/>
                          sājakṣīraiḥ śṛtaṃ sarpirdāhaśūlanibarhaṇam || </l>
 
@@ -9651,12 +9651,12 @@
                 </div>
                 
                 -->
-                
-                
-                <div n="42" type="level2" subtype="adhyāyaḥ">
-                    
+
+
+                <div n="42" subtype="adhyāyaḥ" type="level2">
+
                     <head>dvicatvāriṃśattamo 'dhyāyaḥ | </head>
-                    
+
                     <l xml:id="SS.6.42.1"><label>ut.42.1</label> athāto gulmapratiṣedhaṃ
                         vyākhyāsyāmaḥ || </l>
 
@@ -9675,21 +9675,20 @@
 
 
                     <l xml:id="SS.6.42.5ab"><label>ut.42.5</label> pañca gulmāśrayā nṝṇāṃ pārśve
-                        hṛnnābhibastayaḥ |
-                        </l>
-                        
-                        <l xml:id="SS.6.42.5cd"><ref rend="superscript footnote marker"
+                        hṛnnābhibastayaḥ | </l>
+
+                    <l xml:id="SS.6.42.5cd"><ref rend="superscript footnote marker"
                         >1</ref>gupitānilamūlatvād gūḍhamūlodayād api || </l>
 
 
-                    <l xml:id="SS.6.42.6"><label>ut.42.6</label> gulmavad vā viśālatvād gulma
-                        ity abhidhīyate |
+                    <l xml:id="SS.6.42.6"><label>ut.42.6</label> gulmavad vā viśālatvād gulma ity
+                        abhidhīyate |
                         <caesura/>
                          sa yasmād ātmani cayaṃ gacchaty apsv iva budbudaḥ || </l>
 
 
-                    <l xml:id="SS.6.42.7"><label>ut.42.7</label> antaḥ sarati yasmāc ca na
-                        pākam upayātyataḥ |
+                    <l xml:id="SS.6.42.7"><label>ut.42.7</label> antaḥ sarati yasmāc ca na pākam
+                        upayātyataḥ |
                         <caesura/>
                          sa vyastairjāyate doṣaiḥ samastair api cocchritaiḥ || </l>
 
@@ -9702,9 +9701,8 @@
 
                     <l xml:id="SS.6.42.9ab"><label>ut.42.9</label> viṇmūtrānilasaṅgaś ca
                         sauhityāsahatā tathā |</l>
-                    
-                        <l xml:id="SS.6.42.9cd">
-                         dveṣo 'nne vāyurūrdhvaṃ ca pūrvarūpeṣu gulminām || </l>
+
+                    <l xml:id="SS.6.42.9cd"> dveṣo 'nne vāyurūrdhvaṃ ca pūrvarūpeṣu gulminām || </l>
 
 
                     <l xml:id="SS.6.42.10"><label>ut.42.10</label> hṛtkukṣiśūlaṃ mukhakaṇṭhaśoṣo
@@ -9719,8 +9717,8 @@
                          pittasya liṅgānyakhilāni yāni pittātmake tāni bhavanti gulme || </l>
 
 
-                    <l xml:id="SS.6.42.12"><label>ut.42.12</label> staimityam anne
-                        'ruciraṅgasādaś chardiḥ praseko madhurāsyatā ca |
+                    <l xml:id="SS.6.42.12"><label>ut.42.12</label> staimityam anne 'ruciraṅgasādaś
+                        chardiḥ praseko madhurāsyatā ca |
                         <caesura/>
                          kaphasya liṅgāni ca yāni tāni bhavanti gulme kaphasaṃbhave tu || </l>
 
@@ -9728,8 +9726,8 @@
                     <l xml:id="SS.6.42.13"><label>ut.42.13</label> sarvātmakaḥ sarvavikārayuktaḥ so
                         'sādhya uktaḥ kṣatajaṃ pravakṣye |
                         <caesura/>
-                         navaprasūtāhitabhojanā yā yā cāmagarbhaṃ visṛjedṛtau<ref
-                            rend="superscript footnote marker">1</ref> vā || </l>
+                         navaprasūtāhitabhojanā yā yā cāmagarbhaṃ visṛjedṛtau<ref rend="superscript
+                            footnote marker">1</ref> vā || </l>
 
 
                     <l xml:id="SS.6.42.14"><label>ut.42.14</label> vāyur hi tasyāḥ parigṛhya raktaṃ
@@ -9771,15 +9769,14 @@
                     <l xml:id="SS.6.42.20"><label>ut.42.20</label> viśeṣamaparaṃ cāsyāḥ śṛṇu
                         raktavibhedanam |
                         <caesura/>
-                        <ref rend="superscript footnote marker">1</ref>palāśakṣāratoyena
-                        siddhaṃ sarpiḥ prayojayet || </l>
+                        <ref rend="superscript footnote marker">1</ref>palāśakṣāratoyena siddhaṃ
+                        sarpiḥ prayojayet || </l>
 
 
                     <l xml:id="SS.6.42.21ab"><label>ut.42.21</label> dadyād uttarabastiṃ ca
                         pippalyādighṛtena tu | </l>
-                    
-                    <l xml:id="SS.6.42.21cd">
-                         uṣṇair vā bhedayed bhinne vidhirāsṛgdaro hitaḥ || </l>
+
+                    <l xml:id="SS.6.42.21cd"> uṣṇair vā bhedayed bhinne vidhirāsṛgdaro hitaḥ || </l>
 
 
                     <l xml:id="SS.6.42.22"><label>ut.42.22</label> ānūpaudakamajjāno vasā tailaṃ
@@ -9788,8 +9785,8 @@
                          vipakvam ekataḥ śastaṃ vātagulme 'nuvāsanam || </l>
 
 
-                    <l xml:id="SS.6.42.23"><label>ut.42.23</label> jāṅgalaikaśaphānāṃ tu vasā
-                        sarpiś ca paittike |
+                    <l xml:id="SS.6.42.23"><label>ut.42.23</label> jāṅgalaikaśaphānāṃ tu vasā sarpiś
+                        ca paittike |
                         <caesura/>
                          tailaṃ jāṅgalamajjāna evaṃ gulme kaphotthite || </l>
 
@@ -9860,8 +9857,8 @@
                          pañcāḍhakāni vipaced āvāpya dvipalāny atha || </l>
 
 
-                    <l xml:id="SS.6.42.35"><label>ut.42.35</label> sauvarcalaṃ sarjikāṃ ca
-                        devadārv atha saindhavam |
+                    <l xml:id="SS.6.42.35"><label>ut.42.35</label> sauvarcalaṃ sarjikāṃ ca devadārv
+                        atha saindhavam |
                         <caesura/>
                          vātagulmāpahaṃ sarpir etad dīpanam eva ca || </l>
 
@@ -9872,8 +9869,8 @@
                          nyagrodhādigaṇe vāpi gaṇe vāpy utpalādike || </l>
 
 
-                    <l xml:id="SS.6.42.37"><label>ut.42.37</label> raktapittotthitaṃ ghnanti
-                        ghṛtāny etāny asaṃśayam |
+                    <l xml:id="SS.6.42.37"><label>ut.42.37</label> raktapittotthitaṃ ghnanti ghṛtāny
+                        etāny asaṃśayam |
                         <caesura/>
                          āragvadhādau vipaceddīpanīyayutaṃ ghṛtam || </l>
 
@@ -9955,8 +9952,8 @@
                     <l xml:id="SS.6.42.50"><label>ut.42.50</label> lavaṇaṃ vṛkṣabījaṃ ca tulyaṃ
                         syādanavo guḍaḥ |
                         <caesura/>
-                         pathyābhir vā <ref rend="superscript footnote marker">1</ref>yutaṃ
-                        cūrṇaṃ gavāṃ mūtrayutaṃ pacet || </l>
+                         pathyābhir vā <ref rend="superscript footnote marker">1</ref>yutaṃ cūrṇaṃ
+                        gavāṃ mūtrayutaṃ pacet || </l>
 
 
                     <l xml:id="SS.6.42.51"><label>ut.42.51</label> guṭikāstadghṛnībhūtaṃ kṛtvā
@@ -10040,8 +10037,7 @@
 
 
                     <l xml:id="SS.6.42.64"><label>ut.42.64</label> evaṃ pīlūni <ref
-                            rend="superscript footnote marker">1</ref>bhṛṣṭāni pibet
-                        salavaṇāni tu |
+                            rend="superscript footnote marker">1</ref>bhṛṣṭāni pibet salavaṇāni tu |
                         <caesura/>
                          pippalīpippalīmūlacavyacitrakasaindhavaiḥ || </l>
 
@@ -10060,8 +10056,8 @@
 
 
                     <l xml:id="SS.6.42.67"><label>ut.42.67</label>
-                        <ref rend="superscript footnote marker">1</ref>śūlaṃ
-                        nikhānitamivāsukhaṃ yena tu vattyasau |
+                        <ref rend="superscript footnote marker">1</ref>śūlaṃ nikhānitamivāsukhaṃ
+                        yena tu vattyasau |
                         <caesura/>
                          tatra viṇmūtrasaṃrodhaḥ kṛcchrocchvāsaḥ sthirāṅgatā || </l>
 
@@ -10336,8 +10332,8 @@
                     <l xml:id="SS.6.42.112"><label>ut.42.112</label> eraṇḍaphalamūlāni mūlaṃ
                         gokṣurakasya ca |
                         <caesura/>
-                         śālaparṇīṃ <ref rend="superscript footnote marker"
-                        >1</ref>pṛśniparṇīṃ bṛhatīṃ kaṇṭakārikām || </l>
+                         śālaparṇīṃ <ref rend="superscript footnote marker">1</ref>pṛśniparṇīṃ
+                        bṛhatīṃ kaṇṭakārikām || </l>
 
 
                     <l xml:id="SS.6.42.113"><label>ut.42.113</label> dadyācchṛgālavinnāṃ ca
@@ -10358,8 +10354,8 @@
                          prasahya nāśayec chūlaṃ chinnābhramiva mārutaḥ || </l>
 
 
-                    <l xml:id="SS.6.42.116"><label>ut.42.116</label> pippalī svarjikākṣāro
-                        yavāś citraka eva ca |
+                    <l xml:id="SS.6.42.116"><label>ut.42.116</label> pippalī svarjikākṣāro yavāś
+                        citraka eva ca |
                         <caesura/>
                          sevyaṃ caitat samānīya bhasma kuryād vicakṣaṇaḥ || </l>
 
@@ -10371,8 +10367,7 @@
 
 
                     <l xml:id="SS.6.42.118"><label>ut.42.118</label> sa saṃruddhaḥ karotyāśu <ref
-                            rend="superscript footnote marker">1</ref>sādhmānaṃ guḍguḍāyanam
-                        |
+                            rend="superscript footnote marker">1</ref>sādhmānaṃ guḍguḍāyanam |
                         <caesura/>
                          sūcībhir iva nistodaṃ kṛcchrocchvāsī tadā naraḥ || </l>
 
@@ -10414,8 +10409,7 @@
 
 
                     <l xml:id="SS.6.42.125"><label>ut.42.125</label> naivāsane na śayane <ref
-                            rend="superscript footnote marker">1</ref>tiṣṭhan vā labhate
-                        sukham |
+                            rend="superscript footnote marker">1</ref>tiṣṭhan vā labhate sukham |
                         <caesura/>
                          kukṣiśūla iti khyāto vātādāmasamudbhavaḥ || </l>
 
@@ -10441,12 +10435,12 @@
                     <l xml:id="SS.6.42.129"><label>ut.42.129</label> kuṭajasya ca bījāni
                         sadyaḥśūlaharāṇi tu |
                         <caesura/>
-                         virecane<ref rend="superscript footnote marker">1</ref> prayuñjīta
-                        jñātvā doṣabalābalam || </l>
+                         virecane<ref rend="superscript footnote marker">1</ref> prayuñjīta jñātvā
+                        doṣabalābalam || </l>
 
 
-                    <l xml:id="SS.6.42.130"><label>ut.42.130</label> snehabastīnnirūhāṃś ca
-                        kuryād doṣanibarhaṇān |
+                    <l xml:id="SS.6.42.130"><label>ut.42.130</label> snehabastīnnirūhāṃś ca kuryād
+                        doṣanibarhaṇān |
                         <caesura/>
                          upanāhāḥ snehasekā dhānyāmlapariṣecanam || </l>
 
@@ -10458,8 +10452,8 @@
 
 
                     <l xml:id="SS.6.42.132"><label>ut.42.132</label> hṛdisthaḥ kurute
-                            śūlamucchvāsārodhakaṃ<ref rend="superscript footnote marker"
-                            >1</ref> param |
+                            śūlamucchvāsārodhakaṃ<ref rend="superscript footnote marker">1</ref>
+                        param |
                         <caesura/>
                          sa hṛcchūla iti khyāto rasamārutasaṃbhavaḥ || </l>
 
@@ -10497,8 +10491,7 @@
 
 
                     <l xml:id="SS.6.42.138"><label>ut.42.138</label> sarvatra vardhate kṣipraṃ
-                            bhramannatha<ref rend="superscript footnote marker">1</ref>
-                        saghoṣavān |
+                            bhramannatha<ref rend="superscript footnote marker">1</ref> saghoṣavān |
                         <caesura/>
                          pipāsā vardhate tīvrā bhramo mūrcchā ca jāyate || </l>
 
@@ -10543,23 +10536,23 @@
                         pācanaṃ phalavartayaḥ |
                         <caesura/>
                          kṣārāś cūrṇāni<ref rend="superscript footnote marker">1</ref> guṭikāḥ
-                        śasyante śūlanāśanāḥ ||<caesura/> 
-                        gulmāvasthāḥ kriyāḥ kāryā yathāvat sarvaśūlinām
-                        ||</l>
+                        śasyante śūlanāśanāḥ ||
+                        <caesura/>
+                         gulmāvasthāḥ kriyāḥ kāryā yathāvat sarvaśūlinām ||</l>
 
 
                     <trailer>iti suśrutasaṃhitāyām uttaratantrāntargate kāyacikitsātantre
                         gulmapratiṣedho nāma (caturtho 'dhyāyaḥ, āditaḥ) dvicatvāriṃśo 'dhyāyaḥ ||42
                         ||</trailer>
                 </div>
-                
-                
+
+
                 <!--                %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
 
-                   
-                <div n="43" type="level2" subtype="adhyāyaḥ">
+
+                <div n="43" subtype="adhyāyaḥ" type="level2">
                     <head>tricatvāriṃśattamo 'dhyāyaḥ | </head>
-                    
+
                     <l xml:id="SS.6.43.1"><label>ut.43.1</label> athāto hṛdrogapratiṣedhaṃ
                         vyākhyāsyāmaḥ || </l>
 
@@ -10577,9 +10570,8 @@
                          kurvanti hṛdaye bādhāṃ hṛdrogaṃ taṃ pracakṣate || </l>
 
 
-                    <l xml:id="SS.6.43.5"><label>ut.43.5</label> caturvidhaḥ sa doṣaiḥ syāt
-                            kṛmibhiś ca<ref rend="superscript footnote marker">1</ref> pṛthak
-                        pṛthak |
+                    <l xml:id="SS.6.43.5"><label>ut.43.5</label> caturvidhaḥ sa doṣaiḥ syāt kṛmibhiś
+                            ca<ref rend="superscript footnote marker">1</ref> pṛthak pṛthak |
                         <caesura/>
                          lakṣaṇaṃ tasya vakṣyāmi cikitsitamanantaram || </l>
 
@@ -10651,9 +10643,8 @@
                             >1</ref> saghṛtairbhiṣak || </l>
 
 
-                    <l xml:id="SS.6.43.17"><label>ut.43.17</label> sakṣaudraṃ <ref
-                            rend="superscript footnote marker">1</ref>vitaredbastau tailaṃ
-                        madhukasādhitam |
+                    <l xml:id="SS.6.43.17"><label>ut.43.17</label> sakṣaudraṃ <ref rend="superscript
+                            footnote marker">1</ref>vitaredbastau tailaṃ madhukasādhitam |
                         <caesura/>
                          vacānimbakaṣāyābhyāṃ vāntaṃ hṛdi kaphātmake || </l>
 
@@ -10667,8 +10658,8 @@
                     <l xml:id="SS.6.43.19"><label>ut.43.19</label> śyāmātrivṛtkalkayutaṃ ghṛtaṃ vāpi
                         virecanam |
                         <caesura/>
-                        <ref rend="superscript footnote marker">1</ref>balātailairvidadhyāc
-                        ca bastiṃ bastiviśāradaḥ || </l>
+                        <ref rend="superscript footnote marker">1</ref>balātailairvidadhyāc ca
+                        bastiṃ bastiviśāradaḥ || </l>
 
 
                     <l xml:id="SS.6.43.20"><label>ut.43.20</label> kṛmihṛdrogiṇaṃ snigdhaṃ bhojayet
@@ -10693,13 +10684,13 @@
                         hṛdrogapratiṣedho nāma (pañcamo 'dhyāyaḥ, āditaḥ) tricatvāriṃśo 'dhyāyaḥ
                         ||43 ||</trailer>
                 </div>
-             
+
                 <!--                %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5555 -->
-                       
-                <div n="44" type="level2" subtype="adhyāyaḥ">
-         
+
+                <div n="44" subtype="adhyāyaḥ" type="level2">
+
                     <head>catuś catvāriṃśattamo 'dhyāyaḥ | </head>
-                    
+
                     <l xml:id="SS.6.44.1"><label>ut.44.1</label> athātaḥ pāṇḍurogapratiṣedhaṃ
                         vyākhyāsyāmaḥ || </l>
 
@@ -10764,8 +10755,8 @@
                     <l xml:id="SS.6.44.12"><label>ut.44.12</label>
                         jvarāṅgamardabhramasādatandrākṣayānvito lāgharako(lāghavako)+alasākhyaḥ |
                         <caesura/>
-                         taṃ <ref rend="superscript footnote marker"
-                        >1</ref>vātapittāddharipītanīlaṃ halīmakaṃ nāma vadanti tajjñāḥ || </l>
+                         taṃ <ref rend="superscript footnote marker">1</ref>vātapittāddharipītanīlaṃ
+                        halīmakaṃ nāma vadanti tajjñāḥ || </l>
 
 
                     <l xml:id="SS.6.44.13"><label>ut.44.13</label> upadravāsteṣvaruciḥ pipāsā
@@ -10789,8 +10780,8 @@
                     <l xml:id="SS.6.44.16"><label>ut.44.16</label> mūtre nikumbhārdhapalaṃ vipācya
                         pibedabhīkṣṇaṃ kuḍavārdhamātram |
                         <caesura/>
-                         khādedguḍaṃ vāpyabhayāvipakvamāragvadhādikvathitaṃ<ref
-                            rend="superscript footnote marker">1</ref> pibedvā || </l>
+                         khādedguḍaṃ vāpyabhayāvipakvamāragvadhādikvathitaṃ<ref rend="superscript
+                            footnote marker">1</ref> pibedvā || </l>
 
 
                     <l xml:id="SS.6.44.17"><label>ut.44.17</label> ayorajovyoṣaviḍaṅgacūrṇaṃ
@@ -10814,8 +10805,8 @@
                     <l xml:id="SS.6.44.20"><label>ut.44.20</label> tat pāṇḍutāṃ hantyupayujyamānaṃ
                         kṣīeṇa vā māgadhikā yathāgni |
                         <caesura/>
-                         hitaṃ ca yaṣṭīmadhujaṃ<ref rend="superscript footnote marker"
-                            >1</ref> kaṣāyaṃ cūrṇaṃ samaṃ vā madhunāvalihyāt || </l>
+                         hitaṃ ca yaṣṭīmadhujaṃ<ref rend="superscript footnote marker">1</ref>
+                        kaṣāyaṃ cūrṇaṃ samaṃ vā madhunāvalihyāt || </l>
 
 
                     <l xml:id="SS.6.44.21"><label>ut.44.21</label> gomūtrayuktaṃ triphalādalānāṃ
@@ -10825,8 +10816,8 @@
 
 
                     <l xml:id="SS.6.44.22"><label>ut.44.22</label> ājaṃ śakṛtsyāt<ref
-                            rend="superscript footnote marker">1</ref> kuḍavapramāṇaṃ viḍaṃ
-                        haridrā lavaṇottamaṃ ca |
+                            rend="superscript footnote marker">1</ref> kuḍavapramāṇaṃ viḍaṃ haridrā
+                        lavaṇottamaṃ ca |
                         <caesura/>
                          pṛthak palāṃśāni samagrametaccūrṇaṃ hitāśī madhunāvalihyāt || </l>
 
@@ -10834,15 +10825,15 @@
                     <l xml:id="SS.6.44.23"><label>ut.44.23</label>
                         maṇḍūralohāgniviḍaṅgapathyāvyoṣāṃśakaḥ sarvasamānatāpyaḥ |
                         <caesura/>
-                        <ref rend="superscript footnote marker">1</ref>mūtrāsuto 'yaṃ
-                        madhunāvalehaḥ pāṇḍvāmayaṃ hantyacireṇa ghoram || </l>
+                        <ref rend="superscript footnote marker">1</ref>mūtrāsuto 'yaṃ madhunāvalehaḥ
+                        pāṇḍvāmayaṃ hantyacireṇa ghoram || </l>
 
 
                     <l xml:id="SS.6.44.24"><label>ut.44.24</label> bibhītakāyomalanāgarāṇāṃ cūrṇaṃ
                         tilānāṃ ca guḍaś ca mukhyaḥ |
                         <caesura/>
-                        <ref rend="superscript footnote marker">1</ref>takrānupāno vaṭakaḥ
-                        prayuktaḥ kṣiṇoti ghorānapi pāṇḍurogān || </l>
+                        <ref rend="superscript footnote marker">1</ref>takrānupāno vaṭakaḥ prayuktaḥ
+                        kṣiṇoti ghorānapi pāṇḍurogān || </l>
 
 
                     <l xml:id="SS.6.44.25"><label>ut.44.25</label> sauvarcalaṃ hiṅgu kirātatiktaṃ
@@ -10884,8 +10875,8 @@
                     <l xml:id="SS.6.44.31"><label>ut.44.31</label> kāleyake cāpi ghṛtaṃ vipakvaṃ
                         hitaṃ ca tat syādrajanīvimiśram |
                         <caesura/>
-                         dhātuṃ nadījaṃ jatu śailajaṃ vā kumbhāhvaye <ref
-                            rend="superscript footnote marker">1</ref>mūtrayutaṃ pibedvā || </l>
+                         dhātuṃ nadījaṃ jatu śailajaṃ vā kumbhāhvaye <ref rend="superscript footnote
+                            marker">1</ref>mūtrayutaṃ pibedvā || </l>
 
 
                     <l xml:id="SS.6.44.32"><label>ut.44.32</label> mūtre sthitaṃ
@@ -10945,22 +10936,22 @@
                         pāṇḍurogapratiṣedho nāma (ṣaṣṭho 'dhyāyaḥ, āditaḥ) catuś catvāriṃśattamo
                         'dhyāyaḥ ||44 ||</trailer>
                 </div>
-           
+
                 <!--                %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
 
-                
-                        
-                <div n="45" type="level2" subtype="adhyāyaḥ">
-                    
+
+
+                <div n="45" subtype="adhyāyaḥ" type="level2">
+
                     <head>pañcacatvāriṃśattamo 'dhyāyaḥ | </head>
-                
+
                     <l xml:id="SS.6.45.1"><label>ut.45.1</label> athāto raktapittapratiṣedhaṃ
                         vyākhyāsyāmaḥ || </l>
 
                     <l xml:id="SS.6.45.2"><label>ut.45.2</label> yathovāca bhagavān dhanvantariḥ || </l>
 
-                    <l xml:id="SS.6.45.3"><label>ut.45.3</label>
-                        krodhaśokabhayāyāsaviruddhān nātapānalān |
+                    <l xml:id="SS.6.45.3"><label>ut.45.3</label> krodhaśokabhayāyāsaviruddhān
+                        nātapānalān |
                         <caesura/>
                          kaṭvamlalabaṇakṣāratīkṣṇoṣṇātividāhinaḥ || </l>
 
@@ -10979,44 +10970,42 @@
 
                     <l xml:id="SS.6.45.6ab"><label>ut.45.6</label>
                         <ref rend="superscript footnote marker">1</ref>vidagdhayor dvayoś cāpi
-                            dvidhā bhāgaṃ<ref rend="superscript footnote marker">1</ref>
-                        pravartate |</l>
-                    
+                        dvidhā bhāgaṃ<ref rend="superscript footnote marker">1</ref> pravartate
+                        |</l>
+
                     <l xml:id="SS.6.45.6cd">kecit sayakṛtaḥ plīhnaḥ pravadanty asṛjo gatim || </l>
 
-                    <l xml:id="SS.6.45.7ab"><label>ut.45.7</label> ūrdhvaṃ sādhyam adho yāpyam asādhyaṃ
-                            yugapadgatam<ref rend="superscript footnote marker">1</ref> |</l>
-                    
-                    <l xml:id="SS.6.45.7cd">
-                         sadanaṃ śītakāmitvaṃ kaṇṭhadhūmāyanaṃ vamiḥ || </l>
+                    <l xml:id="SS.6.45.7ab"><label>ut.45.7</label> ūrdhvaṃ sādhyam adho yāpyam
+                        asādhyaṃ yugapadgatam<ref rend="superscript footnote marker">1</ref> |</l>
+
+                    <l xml:id="SS.6.45.7cd"> sadanaṃ śītakāmitvaṃ kaṇṭhadhūmāyanaṃ vamiḥ || </l>
 
 
-                    <l xml:id="SS.6.45.8"><label>ut.45.8</label> lohagandhiś ca niḥśvāso
-                        bhavaty asmin bhaviṣyati |
+                    <l xml:id="SS.6.45.8"><label>ut.45.8</label> lohagandhiś ca niḥśvāso bhavaty
+                        asmin bhaviṣyati |
                         <caesura/>
                          bāhyāsṛglakṣaṇais tasya saṅkhyādoṣocchritīr viduḥ || </l>
 
 
                     <l xml:id="SS.6.45.9"><label>ut.45.9</label>
-                        daurbalyaśvāsakāsajvaravamathumadāstandritādāhamūrcchā bhukte cānne
-                        vidāhas tv adhṛtir api sadā hṛdyatulyā ca pīḍā |
+                        daurbalyaśvāsakāsajvaravamathumadāstandritādāhamūrcchā bhukte cānne vidāhas
+                        tv adhṛtir api sadā hṛdyatulyā ca pīḍā |
                         <caesura/>
                          tṛṣṇā kaṇṭhasya bhedaḥ śirasi ca <ref rend="superscript footnote marker"
-                            >1</ref>davanaṃ pūtiniṣṭhīvanaṃ ca dveṣo bhakte 'vipāko viratir
-                        api rate raktapittopasargāḥ || </l>
+                            >1</ref>davanaṃ pūtiniṣṭhīvanaṃ ca dveṣo bhakte 'vipāko viratir api rate
+                        raktapittopasargāḥ || </l>
 
 
                     <l xml:id="SS.6.45.10"><label>ut.45.10</label> māṃsaprakṣālanābhaṃ kvathitam iva
-                        ca yat kardamāmbhonibhaṃ vā medaḥpūyāsrakalpaṃ<ref
-                            rend="superscript footnote marker">1</ref> yakṛd iva yadi vā
-                        pakvajambūphalābham |
+                        ca yat kardamāmbhonibhaṃ vā medaḥpūyāsrakalpaṃ<ref rend="superscript
+                            footnote marker">1</ref> yakṛd iva yadi vā pakvajambūphalābham |
                         <caesura/>
                          yat kṛṣṇaṃ yacca nīlaṃ bhṛśam atikuṇapaṃ yatra coktā vikārās tad varjyaṃ
                         raktapittaṃ surapatidhanuṣā yac ca tulyaṃ vibhāti || </l>
 
 
-                    <l xml:id="SS.6.45.11"><label>ut.45.11</label> nādau saṃgrāhyamudriktaṃ
-                        yad asṛgbalino 'śnataḥ |
+                    <l xml:id="SS.6.45.11"><label>ut.45.11</label> nādau saṃgrāhyamudriktaṃ yad
+                        asṛgbalino 'śnataḥ |
                         <caesura/>
                          tat pāṇḍugrahaṇīkuṣṭhaplīhagulmajvarāvaham || </l>
 
@@ -11167,8 +11156,8 @@
                     <l xml:id="SS.6.45.35"><label>ut.45.35</label> puṣpāṇi śigroś ca vicūrṇya leho
                         madhvanvitaḥ śoṇitapittaroge |
                         <caesura/>
-                         sakṣaudramindīvarabhasmavāri karañjabījaṃ <ref
-                            rend="superscript footnote marker">1</ref>madhusarpiṣī ca || </l>
+                         sakṣaudramindīvarabhasmavāri karañjabījaṃ <ref rend="superscript footnote
+                            marker">1</ref>madhusarpiṣī ca || </l>
 
 
                     <l xml:id="SS.6.45.36"><label>ut.45.36</label> jambvarjunāmrakvathitaṃ ca toyaṃ
@@ -11183,8 +11172,8 @@
                          drākṣārasaṃ kṣīraghṛtaṃ pibedvā saśarkaraṃ cekṣurasaṃ himaṃ vā || </l>
 
 
-                    <l xml:id="SS.6.45.38"><label>ut.45.38</label> śītopacāraṃ madhuraṃ ca
-                        kuryād viśeṣataḥ śoṇitapittaroge |
+                    <l xml:id="SS.6.45.38"><label>ut.45.38</label> śītopacāraṃ madhuraṃ ca kuryād
+                        viśeṣataḥ śoṇitapittaroge |
                         <caesura/>
                          drākṣāghṛtakṣaudrasitāyutena vidārigandhādivipācitena || </l>
 
@@ -11233,8 +11222,8 @@
                         raktapittapratiṣedho nāma (saptamo 'dhyāyaḥ, āditaḥ) pañcacatvāriṃśattamo
                         'dhyāyaḥ ||45 ||</trailer>
                 </div>
-                
-                
+
+
                 <!-- 
                 <div n="46" type="level2" subtype="adhyāyaḥ">
                     <head>ṣaṭcatvāriṃśattamo 'dhyāyaḥ | </head>
