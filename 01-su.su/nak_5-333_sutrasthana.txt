@@ -1,62 +1,54 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
         <fileDesc>
+            
             <titleStmt>
-                <title>MS Kathmandu NAK 5-333</title>
+                <title>MS Kathmandu NAK 5-333: Sūtrasthāna</title>
             </titleStmt>
+            
             <publicationStmt>
                 <p>Suśruta project, University of Alberta</p>
             </publicationStmt>
+            
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
                         <placeName>
                             <settlement>Kathmandu</settlement>
-                            <region>[region]</region>
                             <country>Nepal</country>
                         </placeName>
                         <institution>Kaiser Library</institution>
                         <repository>https://www.klib.gov.np/</repository>
                         <collection>[collection]</collection>
                         <idno>5-333</idno>
-                        <idno type="NCC">[NCC identifier]</idno>
                         <idno type="siglum">H</idno>
                     </msIdentifier>
+                    
                     <msContents>
-                        <summary>[description of manuscript]</summary>
                         <msItem defective="true" n="1">
-                            <!-- @defective: 'false' for complete, 'true' for incomplete -->
                             <author role="author" xml:lang="sa">Suśruta</author>
                             <title xml:lang="sa">Suśrutasaṃhitā</title>
-                            <title type="commentary" xml:lang="sa">[title of commentary]</title>
-                            <!-- rubric, incipit, explicit, and finalRubric are given as examples -->
-
-                            <textLang mainLang="sa-Newa">[Sanskrit in Nepalese script.]</textLang>
-                            <!-- @mainLang can be "sa-Deva", "sa-Mlym", "sa-Telu", "sa-Newa", etc. See ISO 15924 for more details. -->
+            
+                            <textLang mainLang="sa-Newa">Sanskrit in Nepalese script.</textLang>
                         </msItem>
                     </msContents>
                     <physDesc>
                         <objectDesc form="pothi">
-                            <!-- @form can be "pothi", "book", scroll", etc. -->
-                            <supportDesc material="paper">
-                                <!-- @material can be "paper", "industrial paper", "handmade paper", "palm-leaf", "palmyra palm-leaf", "talipot palm-leaf", "birch bark", "vellum", etc. -->
-                                <!-- the following <foliation> tags are examples -->
+                            <supportDesc material="palm-leaf">
                             </supportDesc>
                         </objectDesc>
                     </physDesc>
+
                     <history>
                         <origin>
                             <origDate calendar="Nepala" when="0663">Nepala Saṃvat 663 (1465
                                 CE).</origDate>
-                            <!-- calendar can be "Vikrama", "Śaka", etc. Dates can be approximate or exact. -->
-                            <origPlace xml:lang="en">[place of production]</origPlace>
                         </origin>
-                        <provenance>[record of ownership]</provenance>
-                        <acquisition>[how it was acquired]</acquisition>
                     </history>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
+
         <revisionDesc>
             <change when="2020-10-21" who="Dominik Wujastyk"> Started the file. </change>
             <change when="2021-05-12" who="Vandana Lele">Transcription of SS. 1.2 </change>
