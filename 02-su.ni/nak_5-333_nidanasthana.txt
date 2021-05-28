@@ -16,7 +16,7 @@
                             <country>Nepal</country>
                         </placeName>
                         <institution>Kaiser Library</institution>
-                        <repository>https://www.klib.gov.np/</repository>
+                        <repository>https://www.klib.gov.np</repository>
                         <collection>[collection]</collection>
                         <idno>5-333</idno>
                         <idno type="NCC">[NCC identifier]</idno>
@@ -63,6 +63,8 @@
                 1</change>
             <change when="2021-04-26" who="Dominik Wujastyk">Converted to IAST and normalized dandas
                 and word breaks.</change>
+        <change when="2021-05-25" who="Devayani Shenoy">Transcribed nidānasthāna adhyāya
+                2</change>
         </revisionDesc>
     </teiHeader>
 
@@ -72,12 +74,7 @@
 
                 <div n="1" subtype="adhyāyaḥ">
 
-                    <!-- <head>nidānasthānam</head>-->
-
-                    <!--  <head>prathamo'dhyāyaḥ</head>-->
-
-                    <l xml:id="SS.2.1.1">
-                        <unclear>2</unclear>athāto vātavyādhinidānaṃ vyākhyāsyāmaḥ ||</l>
+                    <l xml:id="SS.2.1.1"><unclear>2</unclear>athāto vātavyādhinidānaṃ vyākhyāsyāmaḥ ||</l>
 
                     <l xml:id="SS.2.1.2"/>
 
@@ -242,8 +239,8 @@
                     <l xml:id="SS.2.1.42">hastyaśvoṣṭrair gacchato'nyaiś ca vāyuḥ kopaṃ
                         yāyātkāraṇaiḥ sevitaiś ca |
                         <caesura/>
-                         tīkṣṇoṣṇāmlakṣāraśākādibho<unclear>jyaiḥ</unclear> santāpā<cb/>dyair bhūyaā
-                        sevitaiś ca ||</l>
+                         tīkṣṇoṣṇāmlakṣāraśākādibho<unclear>jyaiḥ</unclear> santāpā<cb/>d yair
+                        bhūyaā sevitaiś ca ||</l>
 
                     <l xml:id="SS.2.1.43">śīghraṃ raktam <unclear>vidra</unclear>vatyāśu tac ca
                         vāyor mmārggaṃ saṃruṇadhdhy āśu yātaḥ |
@@ -454,140 +451,133 @@
                 
 
                             
-                            <div n="2" type="level2" subtype="adhyāyaḥ">
-                                <head>dvitīyo'dhyāyaḥ/</head>
-                                
-                                <l xml:id="Su.2.2.1">athāto'rśasānnidānaṃ vyākhyāsyāmaḥ ।। </l>
+                            <div n="2" subtype="adhyāyaḥ">
+                                <l xml:id="Su.2.2.1">athāto'rśasānnidānaṃ vyākhyāsyāmaḥ || </l>
     
                 
                                 
                                 <l xml:id="Su.2.2.2"> </l>
                                 
                                 <l xml:id="Su.2.2.3"> ṣatarśāṃsi bha
-                                    <cb/>vanti ।। vātapittokaphaśoṇitasannipātaiḥ sahajāni ceti ।। </l>
+                                    <cb/>vanti ||
+                        vātapittokaphaśoṇitasannipātaiḥ sahajāni ceti || </l>
                                 
                                 <l xml:id="Su.2.2.4">tatrānātmavatāṃ yathoktaiḥ pra
-                                    <lb n="2"/>kopanaiḥ prakupitāḥ doṣāścaiḥ kaikaśaḥ । dvandvaśaḥ sama
-                                    <cb/>stāḥ śoṇitasahitā vā yathoktaṃ prasṛtāḥ ।
-                                    viśeṣato mandāgneḥ pradhānadhamanīranuprapadyā
-                                    <lb n="3"/>dho gatvā gudamāgamya pradūṣya gudavalīrmmāsamprarohaṃkandā
-                                    <cb/>ñjanayanti tānyarśāṃsītyācakṣate ।। </l>
+                                    <lb n="2"/>kopanaiḥ
+                        prakupitāḥ doṣāś caiḥ kaikaśaḥ | dvandvaśaḥ sama <cb/>stāḥ śoṇitasahitā vā
+                        yathoktaṃ prasṛtāḥ | viśeṣato mandāgneḥ pradhānadhamanīr anuprapadyā <lb
+ n="3"/>dho gatvā gudam āgamya pradūṣya gudavalīrmmāsam
+                        prarohaṃkandā<cb/>ñ janayanti tāny arśāṃsīty ācakṣate || </l>
                                 
                                 <l xml:id="Su.2.2.5">tatra sthūlāntrapratibaddhamardhapañcamāṅagulaṃ gudamādusta
-                                    <lb n="4"/>smina valayastisrodhyadhdaṅagulāntarasambhūtāḥ । pravāhiṇī
-                                    <cb/>visṛjanī saṃvaraṇī ceti । </l>
+                                    <lb n="4"/>smina valayastisrodhyadhdaṅagulāntarasambhūtāḥ | pravāhiṇī
+                        <cb/>visṛjanī saṃvaraṇī ceti | </l>
                                 
-                                <l xml:id="Su.2.2.6">romāntebhyo yavādhyardho gudauṣṭhaḥ । </l>
+                                <l xml:id="Su.2.2.6">romāntebhyo yavādhyardho gudauṣṭhaḥ | </l>
                                 
                                 <l xml:id="Su.2.2.7">prathamā tu gudauṣṭhādaṅagulamātre </l>
                                 
                                 
                                 <l xml:id="Su.2.2.8">teṣāṃ 
-                                    <lb n="5"/>tu bhaviṣyetāṃ pūrvarūpāṇi । 
-                                    annena śraddhā kṛcchrāt paktiramlīkānna vijṛmbheḥ saktisadanamācopaḥ kārśya<lb n="1"/>mudgārabāhulyamakṣṇoḥ śvayathurntra daparikartanaṃ kāsaśvāsaḥ pāṇḍurogagrahaṇīdoṣaḥ kadācittadā balahānirindriyayaiḥ daurbalyam । </l>
+                                    <lb n="5"/>tu bhaviṣyetāṃ pūrvarūpāṇi | annena
+                        śraddhā kṛcchrāt paktir amlīkān na vijṛmbheḥ saktisadanamācopaḥ kārśya<lb
+ n="1"/>mudgārabāhulyam akṣṇoḥ śvayathur ntra daparikartanaṃ kāsaśvāsaḥ
+                        pāṇḍurogagrahaṇīdoṣaḥ kadācittadā balahānirindriyayaiḥ daurbalyam | </l>
                                 
                                 <l xml:id="Su.2.2.9">jāteśvetānye
-                                    <lb n="2"/>va lakṣaṇāni pravyaktatarāṇi bhavanti ।। </l>
+                                    <lb n="2"/>va lakṣaṇāni pravyaktatarāṇi
+                        bhavanti || </l>
                                 
-                                <l xml:id="Su.2.2.10">tatra mārutātpariśu
-                                    <cb/>ṣkā ruṇavivarṇāni viṣamamadhyamāni 
-                                    kadambapuṣpatuṇḍikerīkānāḍīmukhasūcīmukhākṛtīni tairu
-                                    <lb n="3"/>
-                                    padrutaḥ saśūlaṃ saṃhatamupaveśyate । kaṭīpraṣṭhagudamadeṣu
-                                    <cb/>
-                                    cāsya vedanā gulmāsthīlāplīhodarāṇi cāsya tannimittānyeva kṛṣṇanakhanayanavadanamūtrapūrī
-                                    <lb n="4"/>
-                                    ṣas<unclear></unclear><unclear></unclear>śca puruṣo bhavati ।। <l xml:id="Su.2.2.11">pittāntunīlāgrāṇi tanūni visa
+                                <l xml:id="Su.2.2.10">tatra mārutāt pariśu <cb/>ṣkāruṇavivarṇāni
+                        viṣamamadhyamāni kadambapuṣpatuṇḍikerīkānāḍīmukhasūcīmukhākṛtīni tair u<lb
+ n="3"/>padrutaḥ saśūlaṃ saṃhatamupaveśyate | kaṭīpraṣṭhagudamadeṣu <cb/>
+                        cāsya vedanā gulmāsthīlāplīhodarāṇi cāsya tannimittāny eva
+                            kṛṣṇanakhanayanavadanamūtrapūrī<lb n="4"/>
+                                    ṣas<unclear/><unclear/>ś ca
+                        puruṣo bhavati || </l>
+
+                    <l xml:id="Su.2.2.11">pittāntunīlāgrāṇi tanūni visa
                                         <cb/>
                                   rpāni pīttāvabhāsāni yakṛtprakāśāni śukajihvāsaṃsthanāni yavamadhyāni 
                                         jalaukāvaktusadṛ
-                                        <lb n="5"/>
-                                        śāni praklinnāni bhavanti । tairupadṛtaḥ sadāhaṃ sadṛṣitamavi
-                                        <cb/>
-                                        pakvamatisāryate । dāhajvarapipāsāścāsyopadravā bhavanti । 
-                                        tannimittānyeva pītanakhanaya
-                                        <lb n="6"/>
-                                        navadanamūtrapurīṣaśca puruṣo bhavati । </l>
+                                        <lb n="5"
+                        />śāni praklinnāni bhavanti | tair upadṛtaḥ sadāhaṃ sadṛṣitamavi <cb/>
+                        pakvam atisāryate | dāhajvarapipāsāś cāsyopadravā bhavanti | tannimittāny
+                        eva pītanakhanaya<lb n="6"/>navadanamūtrapurīṣaś ca puruṣo bhavati | </l>
                                     
-                                    <l xml:id="Su.2.2.12">śleṣmajāni mahāmūlāni sthirāṇi vṛttāni snigdhāni<pb/> 
-                                        <lb n="1"/>
-                                        pāṇḍuni śuklāvabhāsāni karīrapanasāsthigostanākānāṇi na bhidyante na sravanti ca 
-                                        kaṇḍubahulāni ca bhavanti । tairupadṛtaḥ saśleṣmakamanalpamāmaṃvasā medaḥ । pra
-                                        <lb n="2"/>
-                                        kāśamatisāryate । sobhūśītajvarārocakāvipākaśiro
-                                        <cb/>
-                                        gauravagātu sadanāni yāsya tannimittānyeva śuklanakhanayanavadanamūtrapurīṣavaṇṇaśca
-                                        <lb n="3"/>
-                                        puruṣo bhavati ।<l xml:id="Su.2.2.13">raktajāni tunyatrodha prarohavidruma
-                                            <cb/>kākaṇantikāphalasadṛśāni pittalakṣaṇāni ceti । 
-                                            yadā tu gāḍhapurīṣaprapīḍitāni bhava
-                                            <lb n="4"/>nti । tadātyarthaṃ duṣṭamanalpamasṛk sahasā visṛjanti । tasya cā 
-                                            <cb/>ti pravṛttau śoṇitāti yogopadravāścāsya bhavanti ।। </l>
+                                    <l xml:id="Su.2.2.12">śleṣmajāni mahāmūlāni sthirāṇi vṛttāni snigdhāni<pb/><lb
+ n="1"/> pāṇḍuni śuklāvabhāsāni karīrapanasāsthigostanākānāṇi na
+                        bhidyante na sravanti ca kaṇḍubahulāni ca bhavanti | tair upadṛtaḥ
+                        saśleṣmakamanalpamāmaṃvasā medaḥ | pra<lb n="2"/>kāśam atisāryate |
+                        sobhūśītajvarārocakāvipākaśiro <cb/> gauravagātu sadanāni yāsya tannimittāny
+                        eva śuklanakhanayanavadanamūtrapurīṣavaṇṇaś ca <lb n="3"/> puruṣo bhavati
+                        |</l>
+
+                    <l xml:id="Su.2.2.13">raktajāni tunyatrodha prarohavidruma
+                                            <cb/>kākaṇantikāphalasadṛśāni pittalakṣaṇāni ceti | yadā tu
+                        gāḍhapurīṣaprapīḍitāni bhava<lb n="4"/>nti | tad ātyarthaṃ duṣṭam analpam
+                        asṛk sahasā visṛjanti | tasya cā <cb/>ti pravṛttau śoṇitāti yogopadravāś
+                        cāsya bhavanti || </l>
                                         
-                                        <l xml:id="Su.2.2.14">sannipātajāni sarvalakṣaṇayuktāni । </l>
+                                        <l xml:id="Su.2.2.14">sannipātajāni sarvalakṣaṇayuktāni | </l>
                                         
-                                        <l xml:id="Su.2.2.15">sahajāni duṣṭaśukraśoṇitanimittāni । teṣāṃ doṣata e
-                                            <cb/>va prasādanaṃ kartavyaṃ । 
-                                            viśeṣataścātra durdarśanāni paruṣāruṇa pāṇuni dāruṇānyantarmukhāni
-                                            <lb n="6"/>।
-                                            tairupavidrutaḥ kṛṣo'lpabhuk sirāsantata gātro'lpaprajaḥ kṣiṇaretaśca bhavati ।। </l>
+                                        <l xml:id="Su.2.2.15">sahajāni duṣṭaśukraśoṇitanimittāni | teṣāṃ doṣata e<cb/>va
+                        prasādanaṃ kartavyaṃ | viśeṣataś cātra durdarśanāni paruṣāruṇa pāṇuni
+                        dāruṇānyantarmukhāni <lb n="6"/>| tair upavidrutaḥ kṛṣo'lpabhuk sirāsantata
+                        gātro'lpaprajaḥ kṣiṇaretaś ca bhavati || </l>
                                         
                                         
-                                        <l xml:id="Su.2.2.16">bhavati cātra । bāhyamadhyamayordvalyoḥ pratikuryādbhiṣakvaraḥ । valyāmasyantarāyāṃ tu </l>
+                                        <l xml:id="Su.2.2.16">bhavati cātra | bāhyamadhyamayor dvalyoḥ pratikuryād
+                        bhiṣakvaraḥ | valyāmasyantarāyāṃ tu </l>
                                         
                                         
                                         <l xml:id="Su.2.2.17">
                                             
-                                            <label>ni.2.17</label> parkupitāstu doṣā
-                                            meḍhramabhiprapannā māṁsaśoṇite pradūṣya kaṇḍūṁ janayanti, tataḥ kaṇḍūyanāt
-                                            kṣataṁ samupajāyate, tasmiṁś ca kṣate duṣṭamāṁsajāḥ prarohāḥ
-                                            picchilalarudhirasrāviṇo jāyante kūrcakino'bhyantaramupariṣṭādvā, te tu
-                                            śepho vināśayantyupaghnanti ca puṁstvaṁ; yonimabhiprapannāḥ sukumārān
-                                            durgandhān picchilarudhirasrāviṇaśchatrākārān karīrāñjanayanti, te tu
-                                            yonimupaghnantyārtavaṁ ca; nābhimabhiprapannāḥ sukumārān durgandhān
-                                            picchilān gaṇḍūpadamukhasadṛśān karīrāñjanayanti; ta evordhvamāgatāḥ
-                                            śrotrākṣighrāṇavadaneṣvarśāṁsyupanirvartayanti; tatra karṇajeṣu bādhiryaṁ
-                                            śūlaṁ pūtikarṇatā ca, netrajeṣu vartmā varodho vedanā srāvo darśananāśaśca,
-                                            ghrāṇajeṣu pratiśyāyo'timātraṁ kṣavathuḥ kṛcchrocchvāsatā pūtinasyaṁ
-                                            sānunāsikavākyatvaṁ śiroduḥkhaṁ ca; vaktrajeṣu
-                                            kaṇṭhauṣṭhatālūnāmanyatamasmiṁstairgadgadavākyatā rasājñānaṁ mukharogāśca
-                                            bhavanti// </l>
+                                            <label>ni.2.17</label> parkupitāstu doṣā meḍhramabhiprapannā māṃsaśoṇite
+                        pradūṣya kaṇḍūṃ janayanti tataḥ kaṇḍūyanāt kṣataṃ samupajāyate tasmiṃś ca
+                        kṣate duṣṭamāṃsajāḥ prarohāḥ picchilalarudhirasrāviṇo jāyante
+                        kūrcakino'bhyantaramupariṣṭādvā te tu śepho vināśayantyupaghnanti ca
+                        puṃstvaṃ yonimabhiprapannāḥ sukumārān durgandhān
+                        picchilarudhirasrāviṇaśchatrākārān karīrāñ janayanti te tu
+                        yonimupaghnantyārtavaṃ ca | nābhimabhiprapannāḥ sukumārān durgandhān
+                        picchilān gaṇḍūpadamukhasadṛśān karīrāñ janayanti ta evordhvamāgatāḥ
+                        śrotrākṣighrāṇavadaneṣvarśāṃsy upanirvartayanti tatra karṇajeṣu bādhiryaṃ
+                        śūlaṃ pūtikarṇatā ca netrajeṣu vartmā varodho vedanā srāvo darśananāśaś ca,
+                        ghrāṇajeṣu pratiśyāyo'timātraṃ kṣavathuḥ kṛcchrocchvāsatā pūtinasyaṃ
+                        sānunāsikavākyatvaṃ śiroduḥkhaṃ ca vaktrajeṣu kaṇṭhauṣṭhatālūnāmanyatam
+                        asmiṃs tair gadgadavākyatā rasājñānaṃ mukharogāśca bhavanti || </l>
                                         
-                                        <l xml:id="Su.2.2.18"><label>ni.2.18</label> vyānastu prakupitaḥ śleṣmāṇaṁ
-                                            parigṛhya bahiḥ sthirāṇi kīlavadarśāṁsi nirvartayati, tāni
-                                            carmakīlānyarśāṁsītyācakṣate// </l>
+                                        <l xml:id="Su.2.2.18"><label>ni.2.18</label> vyānastu prakupitaḥ śleṣmāṇaṃ
+                        parigṛhya bahiḥ sthirāṇi kīlavadarśāṃsi nirvartayati tāni carmakīlāny
+                        arśāṃsīty ācakṣate || </l>
                                         
                                         <l xml:id="Su.2.2.19"><label>ni.2.19</label> bhavanti cātra--- teṣu kīleṣu
-                                            nistodo mārutenopajāyate/ śleṣmaṇā tu savarṇatvaṁ granthitvaṁ ca
-                                            vinirdiśet// </l>
+                        nistodo mārutenopajāyate | śleṣmaṇā tu savarṇatvaṃ granthitvaṃ ca vinirdiśet
+                        || </l>
                                         
-                                        <l xml:id="Su.2.2.20"><label>ni.2.20</label> pittaśoṇitajaṁ <ref
-                                            rend="superscript footnote marker">*</ref>raukṣyaṁ kṛṣṇatvaṁ
-                                            ślakṣṇatā tathā/ samudīrṇakharatvaṁ ca carmakīlasya lakṣaṇam// </l>
+                                        <l xml:id="Su.2.2.20"><label>ni.2.20</label> pittaśoṇitajaṃ raukṣyaṃ kṛṣṇatvaṃ
+                        ślakṣṇatā tathā| samudīrṇakharatvaṃ ca carmakīlasya lakṣaṇam|| </l>
                                         
-                                        <l xml:id="Su.2.2.21"><label>ni.2.21</label> arśasāṁ lakṣaṇaṁ vyāsāduktaṁ
-                                            sāmānyatastu<ref rend="superscript footnote marker">*</ref> yat/
-                                            tatsarvaṁ prāgvinirdiṣṭātsādhayedbhiṣajāṁ varaḥ// </l>
+                                        <l xml:id="Su.2.2.21"><label>ni.2.21</label> arśasāṃ lakṣaṇaṃ vyāsāduktaṃ
+                        sāmānyatas tu yat | tat sarvaṃ prāgvinirdiṣṭāt sādhayed bhiṣajāṃ varaḥ || </l>
                                         
-                                        <l xml:id="Su.2.2.22"><label>ni.2.22</label> arśaḥsu dṛśyate rūpaṁ yadā
-                                            doṣadvayasya<ref rend="superscript footnote marker">*</ref> tu/
-                                            saṁsargaṁ taṁ vijānīyāt saṁsargaḥ sa ca ṣaḍvidhiḥ// </l>
+                                        <l xml:id="Su.2.2.22"><label>ni.2.22</label> arśaḥsu dṛśyate rūpaṃ yadā
+                        doṣadvayasya tu | saṃsargaṃ taṃ vijānīyāt saṃsargaḥ sa ca ṣaḍvidhiḥ || </l>
                                         
                                         <l xml:id="Su.2.2.23"><label>ni.2.23</label> tridoṣāṇyalpaliṅgāni yāpyāni tu
-                                            vinirdiśet/ dvandvajāni dvitīyāyāṁ valau yānyāśritāni ca// </l>
+                        vinirdiśet | dvandvajāni dvitīyāyāṃ valau yānyāśritāni ca || </l>
                                         
                                         <l xml:id="Su.2.2.24"><label>ni.2.24</label> kṛcchrasādhyāni tānyāhuḥ
-                                            parisaṁvatsarāṇi ca/ sannipātasamutthāni sahajāni tu varjayet// </l>
+                        parisaṃvatsarāṇi ca | sannipātasamutthāni sahajāni tu varjayet || </l>
                                         
-                                        <l xml:id="Su.2.2.25"><label>ni.2.25</label> sarvāḥ syurvalayo yeṣāṁ
-                                            durnāmabhirupadrutāḥ/ taistu pratihato vāyurapānaḥ sannivartate// </l>
+                                        <l xml:id="Su.2.2.25"><label>ni.2.25</label> sarvāḥ syur valayo yeṣāṃ
+                        durnāmabhir upadrutāḥ | tais tu pratihato vāyur apānaḥ sannivartate || </l>
                                         
-                                        <l xml:id="Su.2.2.26"><label>ni.2.26</label> tato vyānena saṅgamya <ref
-                                            rend="superscript footnote marker">*</ref>jyotirmṛdgāti
-                                            dehinām//</l>
+                                        <l xml:id="Su.2.2.26"><label>ni.2.26</label> tato vyānena saṅgamya jyotirmṛdgāti
+                        dehinām ||</l>
                                         
-                                        <trailer>iti suśrutasaṁhitāyāṁ nidānasthāne'rśonidānaṁ nāma
-                                            dvitīyo'dhyāyaḥ//2// </trailer>
+                                        <trailer>iti suśrutasaṃhitāyāṃ nidānasthāne'rśonidānaṃ nāma dvitīyo'dhyāyaḥ ||2
+                        || </trailer>
                         </div>
             
                             
