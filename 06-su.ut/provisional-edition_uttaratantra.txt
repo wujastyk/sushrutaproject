@@ -58,7 +58,7 @@
                 </msDesc>
             </sourceDesc>
         </fileDesc>
-        
+
         <xenoData>
             <stemma format="nexml">
                 <nex:nexml generator="Bio::Phylo::Project v.0.58" version="0.9"
@@ -67,12 +67,13 @@
                     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
                     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                    xsi:schemaLocation="http://www.nexml.org/2009 http://www.nexml.org/2009/nexml.xsd"
-                    > <otus id="otus1" label="TaxaBlock">
+                    xsi:schemaLocation="http://www.nexml.org/2009 http://www.nexml.org/2009/nexml.xsd">
+                    <otus id="otus1" label="TaxaBlock">
                         <otu id="otu1" label="A"/>
                         <otu id="otu2" label="H"/>
                         <otu id="otu3" label="K"/>
-                    </otus> <trees otus="otus1" id="trees1" label="TreesBlock">
+                    </otus>
+                    <trees otus="otus1" id="trees1" label="TreesBlock">
                         <tree id="tree1" label="tree1" xsi:type="nex:FloatTree">
                             <node id="n1" label="A" otu="A"/>
                             <node id="n2" label="H" otu="H"/>
@@ -93,10 +94,10 @@
             <change when="2020-11-04" who="Dominik Wujastyk">Began this file.</change>
         </revisionDesc>
     </teiHeader>
-    
-    
+
+
     <text xml:lang="sa-Latn">
-    
+
         <body>
 
             <div n="1" type="sthāna">
@@ -109,365 +110,376 @@
 
 
                     <!--Uttaratantra-->
-                    
-                                 <!--Uttaratantra  -->
-                    
-                  
-                        <head>[Uttaratantra Adhyāya 16]</head>
 
-                        <l xml:id="SS.6.17.1"> [1] athāto dṛṣṭigatarogapratiṣedhaṃ vyākhyāsyāmaḥ
-                            ||</l>
-
-                        <l xml:id="SS.6.17.2"/>
-
-                        <l xml:id="SS.6.17.3"> [2] trayaḥ sādhyās trayo 'sādhyāḥ ṣaṭ ca yāpyā
-                            bhavanti ha |
-                            <caesura/>
-                             rogā dṛṣṭigatā nṝṇāṃ teṣu sādhyās trayas traye ||
-                            <caesura/>
-                             tatraikasya pratīkāraḥ kīrtito dhūmadarśinaḥ | </l>
-
-                        <l xml:id="SS.6.17.4"> [3] dṛṣṭyām pittavidagdhāyāṃ vidagdhāyāṃ kaphena ca |
-                            <caesura/>
-                             pittaśleṣmaharaṃ kuryād vidhiṃ śastrakṣatād vinā ||</l>
-
-                        <l xml:id="SS.6.17.5"> [4] nasyasekāñjanālepapuṭapākaiḥ satarpaṇaiḥ |
-                            <caesura/>
-                             ādye tu traiphalaṃ peyaṃ sarpis traivṛtam uttare ||</l>
-
-                        <l xml:id="SS.6.17.6"> [5] tailvakañ cobhayoḥ pathyaṃ kevalaṃ jīrṇam eva vā
-                            |
-                            <caesura/>
-                             gairikaḥ saindhavaḥ kṛṣṇā godantasya maṣī tathā ||</l>
-
-                        <l xml:id="SS.6.17.7"> [6] gomāṃsaṃ maricaṃ bījaṃ śirīṣasya manaḥśilā |
-                            <caesura/>
-                             vṛntaṃ kapitthān madhunā svayaṃguptāphalāni vā ||</l>
-
-                        <l xml:id="SS.6.17.8"> [7] ete 'ñjane tu catvāro yogāḥ syur ubhayor hitāḥ |
-                            <caesura/>
-                             kupyakāśokaśālāmrapriyaṅgunalinotpalaiḥ ||</l>
-
-                        <l xml:id="SS.6.17.9"> [8] piṣṭair hareṇvāmalakapathyāpippalisaṃyutaiḥ |
-                            <caesura/>
-                             kārayed añjanaṃ vaidyaḥ sarpiḥkṣaudrasamāyutaṃ || </l>
-
-                        <l xml:id="SS.6.17.10"> [9] añjayed dvāv api bhiṣak pittasleṣmavibhāvitau |
-                            <caesura/>
-                             hareṇavo 'mrajambūbhyāṃ puṣpasvarasam eva ca ||</l>
-
-                        <l xml:id="SS.6.17.11"> [10] ghṛtakṣaudravipakvan tu tat prayojyam
-                            athāñjanaṃ |
-                            <caesura/>
-                             nalinotpalakiñjalkagairikā gośakṛdrasaḥ || </l>
-
-                        <l xml:id="SS.6.17.12"> [11] guḍikāñjanam etad vā dinarātryandhayor hitam |
-                            <caesura/>
-                             rasāñjanaghṛtakṣaudratālīśaṃ svarṇagairikaiḥ || </l>
-
-                        <l xml:id="SS.6.17.13"> [12] gośakṛdrasasaṃyuktaṃ pittopahatadṛṣṭaye |
-                            <caesura/>
-                             śītasauvīrakam vāpi piṣṭvātha rasabhāvitaṃ || </l>
+                    <!--Uttaratantra  -->
 
 
-                        <l xml:id="SS.6.17.14"> [13] kūrmapittena matimān bhāvayed rauhitena vā |
-                            <caesura/>
-                             cūrṇāñjanena tu sadā prayojyaḥ pittaśāntaye || </l>
+                    <head>[Uttaratantra Adhyāya 16]</head>
 
-                        <l xml:id="SS.6.17.15"> [14] kārśmarī<pc
-                            > </pc>puṣpamadhukadārvīlodhrarasāñjanaiḥ |
-                            <caesura/>
-                             sakṣaudram añjanaṃ tadvā hitam atrāñjane sadā || </l>
+                    <l xml:id="SS.6.17.1"> [1] athāto dṛṣṭigatarogapratiṣedhaṃ vyākhyāsyāmaḥ ||</l>
 
-                        <l xml:id="SS.6.17.27"> [15] nadīja<pc> </pc>śaṅkha<pc> </pc>trikaṭūny
-                            athāñjanaṃ
-                            <caesura/>
-                             manaḥśilā dve rajane yakṛdrasaḥ |
-                            <caesura/>
-                             sacandaneyaṃ guḍikāthavāñjane
-                            <caesura/>
-                             praśasyate vai divaseṣv apaśyatāṃ ||</l>
+                    <l xml:id="SS.6.17.2"/>
 
-                        <l xml:id="SS.6.17.16"> [16] srotojaṃ saindhavaṃ kṛṣṇāṃ hareṇuñ cāpi peṣayet
-                            |
-                            <caesura/>
-                             ajāmūtreṇa tā vartyaḥ kṣaṇadāndhāñjane hitāḥ || </l>
+                    <l xml:id="SS.6.17.3"> [2] trayaḥ sādhyās trayo 'sādhyāḥ ṣaṭ ca yāpyā bhavanti
+                        ha |
+                        <caesura/>
+                         rogā dṛṣṭigatā nṝṇāṃ teṣu sādhyās trayas traye ||
+                        <caesura/>
+                         tatraikasya pratīkāraḥ kīrtito dhūmadarśinaḥ | </l>
 
-                        <l xml:id="SS.6.17.17"> [17] kālānusārivāṃ kṛṣṇāṃ nāgaraṃ madhukan tathā |
-                            <caesura/>
-                             tālīśapatraṃ rajane saṅkhañ caiva yakṛdrasaḥ || </l>
+                    <l xml:id="SS.6.17.4"> [3] dṛṣṭyām pittavidagdhāyāṃ vidagdhāyāṃ kaphena ca |
+                        <caesura/>
+                         pittaśleṣmaharaṃ kuryād vidhiṃ śastrakṣatād vinā ||</l>
 
-                        <l xml:id="SS.6.17.18"> [18] piṣṭvā vartyo 'thavā tatra chāyāśuṣkā rujāpahā
-                            |
-                            <caesura/>
-                             manaḥśilābhayāvyoṣaṃ tathā kālānusārivāṃ || </l>
+                    <l xml:id="SS.6.17.5"> [4] nasyasekāñjanālepapuṭapākaiḥ satarpaṇaiḥ |
+                        <caesura/>
+                         ādye tu traiphalaṃ peyaṃ sarpis traivṛtam uttare ||</l>
 
-                        <l xml:id="SS.6.17.19"> [19] samudraphenaś ca hitā vartyaś chāgapayonvitāḥ |
-                            <caesura/>
-                             gomūtrapittamadirāyakṛddhātrīrasaiḥ pacet || </l>
+                    <l xml:id="SS.6.17.6"> [5] tailvakañ cobhayoḥ pathyaṃ kevalaṃ jīrṇam eva vā |
+                        <caesura/>
+                         gairikaḥ saindhavaḥ kṛṣṇā godantasya maṣī tathā ||</l>
 
-                        <l xml:id="SS.6.17.20"> [20] kṣaudrāñjanaṃ rase vānyadyakṛtas traiphalena vā
-                            |
-                            <caesura/>
-                             gomūtrājyārṇavamalaṃ pippalīkṣaudrakaṭphalaiḥ || </l>
+                    <l xml:id="SS.6.17.7"> [6] gomāṃsaṃ maricaṃ bījaṃ śirīṣasya manaḥśilā |
+                        <caesura/>
+                         vṛntaṃ kapitthān madhunā svayaṃguptāphalāni vā ||</l>
 
-                        <l xml:id="SS.6.17.21"> [21] saindhavopahitaṃ yuñjyān nihitaṃ veṇugahvare |
-                            <caesura/>
-                             meṣād yakṛd ghṛtañ cājaṃ pippalīsaidhavaṃ madhu || </l>
+                    <l xml:id="SS.6.17.8"> [7] ete 'ñjane tu catvāro yogāḥ syur ubhayor hitāḥ |
+                        <caesura/>
+                         kupyakāśokaśālāmrapriyaṅgunalinotpalaiḥ ||</l>
 
-                        <l xml:id="SS.6.17.22"> [22] rasam āmalakānāñ ca pakvā samyaṅ nidhāpayet |
-                            <caesura/>
-                             kośake khādire tadvā hitaṃ kṣaudrāñjanaṃ bhavet || </l>
+                    <l xml:id="SS.6.17.9"> [8] piṣṭair hareṇvāmalakapathyāpippalisaṃyutaiḥ |
+                        <caesura/>
+                         kārayed añjanaṃ vaidyaḥ sarpiḥkṣaudrasamāyutaṃ || </l>
 
-                        <l xml:id="SS.6.17.23"> [23] māgadhyajāsthimajjailāyakṛdyuktā hareṇavaḥ ||
-                            <caesura/>
-                             yakṛdrasenāñjanam vā śleṣmopahatadṛṣṭaye || </l>
+                    <l xml:id="SS.6.17.10"> [9] añjayed dvāv api bhiṣak pittasleṣmavibhāvitau |
+                        <caesura/>
+                         hareṇavo 'mrajambūbhyāṃ puṣpasvarasam eva ca ||</l>
 
-                        <l xml:id="SS.6.17.24">[24] paceta godhāyakṛd antrakalpitaṃ
-                            <caesura/>
-                             supūritaṃ māgadhikābhir agninā |
-                            <caesura/>
-                             niṣevitaṃ yad yakṛd añjanena vā
-                            <caesura/>
-                             nihanti naktāndhyam asaṃśayaṃ khalu || </l>
-                        <!-- metre= Vaṃśastha -->
+                    <l xml:id="SS.6.17.11"> [10] ghṛtakṣaudravipakvan tu tat prayojyam athāñjanaṃ |
+                        <caesura/>
+                         nalinotpalakiñjalkagairikā gośakṛdrasaḥ || </l>
 
-                        <l xml:id="SS.6.17.25"/>
+                    <l xml:id="SS.6.17.12"> [11] guḍikāñjanam etad vā dinarātryandhayor hitam |
+                        <caesura/>
+                         rasāñjanaghṛtakṣaudratālīśaṃ svarṇagairikaiḥ || </l>
 
-                        <l xml:id="SS.6.17.26ab">[25] plīhā yakṛc cāpy upabhakṣayed ubhe
-                            <caesura/>
-                            prakalpya śūlye ghṛtatailasaṃyute |
-                            <caesura/>
-                    
-<!-- vulgate 27 corresponds to [15] in the Nepalese recension-->
-                    
-                        bhavanti yāpyāḥ khalu ye ṣaḍāmayā
-                            <caesura/>
-                            hared dhi tatra kṣatajaṃ sirāvyadhaiḥ || 
-                            <!-- metre of 25 = kumārī -->
-                            </l>
-      
+                    <l xml:id="SS.6.17.13"> [12] gośakṛdrasasaṃyuktaṃ pittopahatadṛṣṭaye |
+                        <caesura/>
+                         śītasauvīrakam vāpi piṣṭvātha rasabhāvitaṃ || </l>
+
+
+                    <l xml:id="SS.6.17.14"> [13] kūrmapittena matimān bhāvayed rauhitena vā |
+                        <caesura/>
+                         cūrṇāñjanena tu sadā prayojyaḥ pittaśāntaye || </l>
+
+                    <l xml:id="SS.6.17.15"> [14] kārśmarī<pc
+                        > </pc>puṣpamadhukadārvīlodhrarasāñjanaiḥ |
+                        <caesura/>
+                         sakṣaudram añjanaṃ tadvā hitam atrāñjane sadā || </l>
+
+                    <l xml:id="SS.6.17.27"> [15] nadīja<pc> </pc>śaṅkha<pc> </pc>trikaṭūny
+                        athāñjanaṃ
+                        <caesura/>
+                         manaḥśilā dve rajane yakṛdrasaḥ |
+                        <caesura/>
+                         sacandaneyaṃ guḍikāthavāñjane
+                        <caesura/>
+                         praśasyate vai divaseṣv apaśyatāṃ ||</l>
+
+                    <l xml:id="SS.6.17.16"> [16] srotojaṃ saindhavaṃ kṛṣṇāṃ hareṇuñ cāpi peṣayet |
+                        <caesura/>
+                         ajāmūtreṇa tā vartyaḥ kṣaṇadāndhāñjane hitāḥ || </l>
+
+                    <l xml:id="SS.6.17.17"> [17] kālānusārivāṃ kṛṣṇāṃ nāgaraṃ madhukan tathā |
+                        <caesura/>
+                         tālīśapatraṃ rajane saṅkhañ caiva yakṛdrasaḥ || </l>
+
+                    <l xml:id="SS.6.17.18"> [18] piṣṭvā vartyo 'thavā tatra chāyāśuṣkā rujāpahā |
+                        <caesura/>
+                         manaḥśilābhayāvyoṣaṃ tathā kālānusārivāṃ || </l>
+
+                    <l xml:id="SS.6.17.19"> [19] samudraphenaś ca hitā vartyaś chāgapayonvitāḥ |
+                        <caesura/>
+                         gomūtrapittamadirāyakṛddhātrīrasaiḥ pacet || </l>
+
+                    <l xml:id="SS.6.17.20"> [20] kṣaudrāñjanaṃ rase vānyadyakṛtas traiphalena vā |
+                        <caesura/>
+                         gomūtrājyārṇavamalaṃ pippalīkṣaudrakaṭphalaiḥ || </l>
+
+                    <l xml:id="SS.6.17.21"> [21] saindhavopahitaṃ yuñjyān nihitaṃ veṇugahvare |
+                        <caesura/>
+                         meṣād yakṛd ghṛtañ cājaṃ pippalīsaidhavaṃ madhu || </l>
+
+                    <l xml:id="SS.6.17.22"> [22] rasam āmalakānāñ ca pakvā samyaṅ nidhāpayet |
+                        <caesura/>
+                         kośake khādire tadvā hitaṃ kṣaudrāñjanaṃ bhavet || </l>
+
+                    <l xml:id="SS.6.17.23"> [23] māgadhyajāsthimajjailāyakṛdyuktā hareṇavaḥ ||
+                        <caesura/>
+                         yakṛdrasenāñjanam vā śleṣmopahatadṛṣṭaye || </l>
+
+                    <l xml:id="SS.6.17.24">[24] paceta godhāyakṛd antrakalpitaṃ
+                        <caesura/>
+                         supūritaṃ māgadhikābhir agninā |
+                        <caesura/>
+                         niṣevitaṃ yad yakṛd añjanena vā
+                        <caesura/>
+                         nihanti naktāndhyam asaṃśayaṃ khalu || </l>
+                    <!-- metre= Vaṃśastha -->
+
+                    <l xml:id="SS.6.17.25"/>
+
+                    <l xml:id="SS.6.17.26ab">[25] plīhā yakṛc cāpy upabhakṣayed ubhe
+                        <caesura/>
+                         prakalpya śūlye ghṛtatailasaṃyute |
+                        <caesura/>
+                        <!-- vulgate 27 corresponds to [15] in the Nepalese recension--> bhavanti
+                        yāpyāḥ khalu ye ṣaḍāmayā
+                        <caesura/>
+                         hared dhi tatra kṣatajaṃ sirāvyadhaiḥ || <!-- metre of 25 = kumārī -->
+                    </l>
+
                     <l xml:id="SS.6.17.28cd">[26] virecayec cāpi purāṇasarpiṣā
-                            <caesura/>
-                             virecanāṅgopahitena bhūtaye ||</l>
+                        <caesura/>
+                         virecanāṅgopahitena bhūtaye ||</l>
 
-                        <l xml:id="SS.6.17.29"> payovimiśraṃ pavanodbhave hitaṃ
-                            <caesura/>
-                             vadanti pañcāṅgulatailam eva tu |
-                            <caesura/>
-                             [27] pibed ghṛtaṃ traiphalam eva śodhanaṃ
-                            <caesura/>
-                             viśeṣataḥ śoṇitapittarogayoḥ || </l>
-                        
-                        <l xml:id="SS.6.17.30"> trivṛdvirekaḥ kaphaje praśasyate
-                            <caesura/>
-                             tridoṣaje tailasugandhi tatkṛtaṃ |
-                            <caesura/>
-                             [28] purāṇasarpis timireṣu śasyate
-                            <caesura/>
-                            hitaṃ bhaved āyasabhājane sthitaṃ || </l>
-                        
-                        <l xml:id="SS.6.17.31"> hitañ ca vidyāt triphalāghṛtaṃ sadā
-                            <caesura/>
-                            kṛtañ ca tan meṣaviṣāṇasañjñayā |
-                            <caesura/>
-                            [29] lihet sapāṇaṃ triphalāṃ sucūrṇitāṃ
-                            <caesura/>
-                            ghṛtapragāḍhān timirāturo naraḥ || </l>
-                        
-                        <l xml:id="SS.6.17.32"> kaphābhibhūtaḥ khalu tailasaṃyutāṃ 
-                            <caesura/>
-                            madhupragāḍhām athavāpi yojayet |
-                            <caesura/>
-                            [30] gavāṃ śakṛtkvāthavipakvam uttamaṃ 
-                            <caesura/>
-                            hitan tu tailan timireṣu nasyataḥ || </l>
-                        
-                        <l xml:id="SS.6.17.33"> ghṛtaṃ hitaṃ kevalam eva paittike
-                            <caesura/>
-                            tathā tu tailaṃ pavanāsṛgutthite |
-                        </l>
-                        
-               <!--         <div2 xml:id="SS.6.17.33-app" target="#SS.6.17.33" type="apparatus">
+                    <l xml:id="SS.6.17.29"> payovimiśraṃ pavanodbhave hitaṃ
+                        <caesura/>
+                         vadanti pañcāṅgulatailam eva tu |
+                        <caesura/>
+                         [27] pibed ghṛtaṃ traiphalam eva śodhanaṃ
+                        <caesura/>
+                         viśeṣataḥ śoṇitapittarogayoḥ || </l>
+
+                    <l xml:id="SS.6.17.30"> trivṛdvirekaḥ kaphaje praśasyate
+                        <caesura/>
+                         tridoṣaje tailasugandhi tatkṛtaṃ |
+                        <caesura/>
+                         [28] purāṇasarpis timireṣu śasyate
+                        <caesura/>
+                         hitaṃ bhaved āyasabhājane sthitaṃ || </l>
+
+                    <l xml:id="SS.6.17.31"> hitañ ca vidyāt triphalāghṛtaṃ sadā
+                        <caesura/>
+                         kṛtañ ca tan meṣaviṣāṇasañjñayā |
+                        <caesura/>
+                         [29] lihet sapāṇaṃ triphalāṃ sucūrṇitāṃ
+                        <caesura/>
+                         ghṛtapragāḍhān timirāturo naraḥ || </l>
+
+                    <l xml:id="SS.6.17.32"> kaphābhibhūtaḥ khalu tailasaṃyutāṃ
+                        <caesura/>
+                         madhupragāḍhām athavāpi yojayet |
+                        <caesura/>
+                         [30] gavāṃ śakṛtkvāthavipakvam uttamaṃ
+                        <caesura/>
+                         hitan tu tailan timireṣu nasyataḥ || </l>
+
+                    <l xml:id="SS.6.17.33"> ghṛtaṃ hitaṃ kevalam eva paittike
+                        <caesura/>
+                         tathā tu tailaṃ pavanāsṛgutthite | </l>
+
+                    <!--         <div2 xml:id="SS.6.17.33-app" target="#SS.6.17.33" type="apparatus">
                             <list type="Notes">
                                 <item></item>
                             </list>
                         </div2>-->
-                        
-                        <l xml:id="SS.6.17.34"> [31] tathāśvagandhātibalābalāśritaṃ
-                            <caesura/>
-                            nasye tu vāte trivṛtaṃ prayojayet ||
-                            <caesura/>
-                            jalodbhavānūpajamāṃsa<pc> </pc>saṃskṛtād
-                            <caesura/>
-                            ghṛtam vidheyaṃ payaso yad utthitaṃ ||</l>
-                        
-                        <l xml:id="SS.6.17.35"> [32] sasaindhava<pc> </pc>kravyabhugeṇamāṃsajo 
-                            <caesura/> 
-                            yutaḥ puṭākhyo madhunā ghṛtena ca |
-                            <caesura/>
-                            vasāśvagṛdhroragatāmracūḍajā
-                            <caesura/>
-                            madhūkayuktā ca hitā sadāñjane || </l>
-                        
-                        <l xml:id="SS.6.17.36"> [33] tathāñjanaṃ srotasijan niṣevitaṃ
-                            <caesura/>
-                            kramād rasakṣīraghṛteṣu yujyate |
-                            <caesura/>
-                            sthitaṃ daśāhatrayam etad añjanaṃ
-                            <caesura/>
-                            kṛṣṇoragāsye kuśasaṃpraveṣṭite || </l>
-                        
-                        <l xml:id="SS.6.17.37"> [34] samāgadhīkṣārakasaindhavānvitaṃ
-                            <caesura/>
-                            tad añjanaṃ syāt timire 'tha rāgiṇi |
-                            <caesura/>
-                            subhāvitañ cāpi payas tu yad bhavet
-                            <caesura/>
-                            sarpasya kṛṣṇasya mukhena bhūriṇā || </l>
-                        
-                        <l xml:id="SS.6.17.38"> [35] ghṛtaṃ hitan tatprabhavan tu paittike
-                            <caesura/>
-                            vadanti nasyaṃ madhurauṣadhaśritaṃ |
-                            <caesura/>
-                            hitaṃ ca tat tarpaṇam atra samyutaḥ
-                            <caesura/>
-                            puṭāhvayo jāṅgalamāṃsajaś ca yaḥ || </l>
-                        
-                        <l xml:id="SS.6.17.39"> [36] rasāñjanakṣaudrayutā manaḥśilā
-                            <caesura/>
-                            dravāñjanañ cātra madhūkasaṃyutam |
-                            <caesura/>
-                            samāñjanaṃ vā kanakākarodbhavaṃ 
-                            <caesura/>
-                            supeṣitaṃ tuttham uśanti tadvidaḥ || </l>
-                        
-                        <l xml:id="SS.6.17.40">
-                            [37] sameṣaśṛṅgāñjanabhāgasammitaḥ
-                            <caesura/>
-                            śaṅkho 'ñjanāt kācamalaṃ vyapohati | </l>
-                        
-                        
-                        <l xml:id="SS.6.17.41"> palāśarohītamadhūkajā rasāḥ
-                            <caesura/>
-                            prayojitā vā madirāgrapeṣitāḥ ||
-                            <caesura/>
-                            [38] uśīralodhratriphalāpriyaṅgubhiḥ
-                            <caesura/>
-                            paceta nasyaṃ kapharogaśāntaye | </l>
-                        
-                        <l xml:id="SS.6.17.42"> viḍaṅgapāṭhākiṇihīṅgudītvacaḥ
-                            <caesura/>
-                            prayojayed dhūmam uśīram eva ca ||
-                            <caesura/>
-                            [39] vanaspatikvāthavibhāvitaṃ ghṛtaṃ
-                            <caesura/>
-                            hitaṃ haridrānalade ca tarpaṇe | </l>
-                        
-                        <l xml:id="SS.6.17.43"> samāgadhāsaindhavamākṣikāḍhya vā
-                            <caesura/>
-                            sajāṅgalaḥ syāt puṭapākam eva ca ||
-                            <caesura/>
-                            [40] manaḥśilātryūṣaṇaśaṅkhamākṣikaiḥ
-                            <caesura/>
-                            sasindhukāsīsarasāñjanaiḥ kriyā | </l>
-                        
-                        <l xml:id="SS.6.17.44">hitaṃ <!-- hite in the MSS --> ca kāsīsarasāñjanāñjanaṃ
-                            <caesura/>
-                            vadanti pathyāguḍanāgarair yutaṃ ||
-                            <caesura/>
-                            [41] yad añjanam vā bahuśo niṣevitaṃ
-                            <caesura/>
-                            samūtravarge triphalodake śritaṃ | </l>
-                    
+
+                    <l xml:id="SS.6.17.34"> [31] tathāśvagandhātibalābalāśritaṃ
+                        <caesura/>
+                         nasye tu vāte trivṛtaṃ prayojayet ||
+                        <caesura/>
+                         jalodbhavānūpajamāṃsa<pc> </pc>saṃskṛtād
+                        <caesura/>
+                         ghṛtam vidheyaṃ payaso yad utthitaṃ ||</l>
+
+                    <l xml:id="SS.6.17.35"> [32] sasaindhava<pc> </pc>kravyabhugeṇamāṃsajo
+                        <caesura/>
+                         yutaḥ puṭākhyo madhunā ghṛtena ca |
+                        <caesura/>
+                         vasāśvagṛdhroragatāmracūḍajā
+                        <caesura/>
+                         madhūkayuktā ca hitā sadāñjane || </l>
+
+                    <l xml:id="SS.6.17.36"> [33] tathāñjanaṃ srotasijan niṣevitaṃ
+                        <caesura/>
+                         kramād rasakṣīraghṛteṣu yujyate |
+                        <caesura/>
+                         sthitaṃ daśāhatrayam etad añjanaṃ
+                        <caesura/>
+                         kṛṣṇoragāsye kuśasaṃpraveṣṭite || </l>
+
+                    <l xml:id="SS.6.17.37"> [34] samāgadhīkṣārakasaindhavānvitaṃ
+                        <caesura/>
+                         tad añjanaṃ syāt timire 'tha rāgiṇi |
+                        <caesura/>
+                         subhāvitañ cāpi payas tu yad bhavet
+                        <caesura/>
+                         sarpasya kṛṣṇasya mukhena bhūriṇā || </l>
+
+                    <l xml:id="SS.6.17.38"> [35] ghṛtaṃ hitan tatprabhavan tu paittike
+                        <caesura/>
+                         vadanti nasyaṃ madhurauṣadhaśritaṃ |
+                        <caesura/>
+                         hitaṃ ca tat tarpaṇam atra samyutaḥ
+                        <caesura/>
+                         puṭāhvayo jāṅgalamāṃsajaś ca yaḥ || </l>
+
+                    <l xml:id="SS.6.17.39"> [36] rasāñjanakṣaudrayutā manaḥśilā
+                        <caesura/>
+                         dravāñjanañ cātra madhūkasaṃyutam |
+                        <caesura/>
+                         samāñjanaṃ vā kanakākarodbhavaṃ
+                        <caesura/>
+                         supeṣitaṃ tuttham uśanti tadvidaḥ || </l>
+
+                    <l xml:id="SS.6.17.40"> [37] sameṣaśṛṅgāñjanabhāgasammitaḥ
+                        <caesura/>
+                         śaṅkho 'ñjanāt kācamalaṃ vyapohati | </l>
+
+
+                    <l xml:id="SS.6.17.41"> palāśarohītamadhūkajā rasāḥ
+                        <caesura/>
+                         prayojitā vā madirāgrapeṣitāḥ ||
+                        <caesura/>
+                         [38] uśīralodhratriphalāpriyaṅgubhiḥ
+                        <caesura/>
+                         paceta nasyaṃ kapharogaśāntaye | </l>
+
+                    <l xml:id="SS.6.17.42"> viḍaṅgapāṭhākiṇihīṅgudītvacaḥ
+                        <caesura/>
+                         prayojayed dhūmam uśīram eva ca ||
+                        <caesura/>
+                         [39] vanaspatikvāthavibhāvitaṃ ghṛtaṃ
+                        <caesura/>
+                         hitaṃ haridrānalade ca tarpaṇe | </l>
+
+                    <l xml:id="SS.6.17.43"> samāgadhāsaindhavamākṣikāḍhya vā
+                        <caesura/>
+                         sajāṅgalaḥ syāt puṭapākam eva ca ||
+                        <caesura/>
+                         [40] manaḥśilātryūṣaṇaśaṅkhamākṣikaiḥ
+                        <caesura/>
+                         sasindhukāsīsarasāñjanaiḥ kriyā | </l>
+
+                    <l xml:id="SS.6.17.44">hitaṃ <!-- hite in the MSS --> ca kāsīsarasāñjanāñjanaṃ
+                        <caesura/>
+                         vadanti pathyāguḍanāgarair yutaṃ ||
+                        <caesura/>
+                         [41] yad añjanam vā bahuśo niṣevitaṃ
+                        <caesura/>
+                         samūtravarge triphalodake śritaṃ | </l>
+
                     <div2 xml:id="SS.6.17.44-app" target="#SS.6.17.44" type="apparatus">
                         <list type="sources">
-                            <item target="SS.6.17.44-n1">
-                                The unanimous Nepalese reading hite is hard to construe but may be original.
-                            </item>
+                            <item target="SS.6.17.44-n1"> The unanimous Nepalese reading hite is
+                                hard to construe but may be original. </item>
                         </list>
                     </div2>
-                    
-                    
-                        
-                        <l xml:id="SS.6.17.45">niśācarāsye praṇidhāya cāñjanaṃ
-                            <caesura/>
-                            nyased dvimāsaṃ salilotthite punaḥ || 
-                            <caesura/>
-                            [42] madhūkaśigroḥ kusumaiḥ samāyutaṃ
-                            <caesura/>
-                            tad añjanaṃ sarvakṛte prayojayet | </l>  
-                    
-                        <l xml:id="SS.6.17.46"> kriyās tu sarvās tv athavāpi raktaje 
-                            <caesura/>
-                            hitaḥ kramo mlāyini vāpi pittahā |
-                            <caesura/>
-                            [43] doṣānvitasyāpi mukhapralepanaṃ 
-                            <caesura/>
-                            kuryāc ca sarveṣu vidhiṃ samīkṣya tu |
-                            <caesura/>
-                             kramo hitaḥ syandaharaḥ suyojitaḥ
-                            <caesura/>
-                            sarveṣv athaiteṣu yathāsvam eva ||</l>
-                    
+
+
+
+                    <l xml:id="SS.6.17.45">niśācarāsye praṇidhāya cāñjanaṃ
+                        <caesura/>
+                         nyased dvimāsaṃ salilotthite punaḥ ||
+                        <caesura/>
+                         [42] madhūkaśigroḥ kusumaiḥ samāyutaṃ
+                        <caesura/>
+                         tad añjanaṃ sarvakṛte prayojayet | </l>
+
+                    <l xml:id="SS.6.17.46"> kriyās tu sarvās tv athavāpi raktaje
+                        <caesura/>
+                         hitaḥ kramo mlāyini vāpi pittahā |
+                        <caesura/>
+                         [43] doṣānvitasyāpi mukhapralepanaṃ
+                        <caesura/>
+                         kuryāc ca sarveṣu vidhiṃ samīkṣya tu |
+                        <caesura/>
+                         kramo hitaḥ syandaharaḥ suyojitaḥ
+                        <caesura/>
+                         sarveṣv athaiteṣu yathāsvam eva ||</l>
+
                     <div2 xml:id="SS.6.17.46-app" target="#SS.6.17.46" type="apparatus">
                         <list type="sources">
-                            <item target="SS.6.17.46-n1">This hemistich appears to be partly omitted and partly rearranged in the vulgate. 
-                    </item>
-                            <item>The emendation of syandahitaḥ to syandaharaḥ is based on the vulgate reading.  The Nepalese MSS may be exhibiting dittography.</item></list></div2>
-                    
+                            <item target="SS.6.17.46-n1">This hemistich appears to be partly omitted
+                                and partly rearranged in the vulgate. </item>
+                            <item>The emendation of syandahitaḥ to syandaharaḥ is based on the
+                                vulgate reading. The Nepalese MSS may be exhibiting
+                                dittography.</item>
+                        </list>
+                    </div2>
+
                     <l xml:id="SS.6.17.47"> [44] doṣocchraye naiva ca viplute gade
                         <caesura/>
-                        dravyāṇi nasyādiṣu yojayed bhiṣak |
+                         dravyāṇi nasyādiṣu yojayed bhiṣak |
                         <caesura/>
-                        punaś ca kalpe'ñjanavistaraḥ śubhaḥ
+                         punaś ca kalpe'ñjanavistaraḥ śubhaḥ
                         <caesura/>
-                        pravakṣyate tac ca samīkṣya yojayet ||</l>
-                    
+                         pravakṣyate tac ca samīkṣya yojayet ||</l>
+
                     <l xml:id="SS.6.17.48"> [45] ghṛtam purāṇaṃ triphalāṃ śatāvarīn
                         <caesura/>
-                        tathaiva mudgāmalakaṃ yavān api |
+                         tathaiva mudgāmalakaṃ yavān api |
                         <caesura/>
-                        niṣevamāṇasya hi yatnato bhayaṃ
+                         niṣevamāṇasya hi yatnato bhayaṃ
                         <caesura/>
-                        na vidyate vai timirātsu ghorataḥ || </l>
-                    
+                         na vidyate vai timirātsu ghorataḥ || </l>
+
                     <l xml:id="SS.6.17.49">[46] śatāvarīpāyasa eva kevalam
                         <caesura/>
-                        tathā kṛto vāmalakeṣu pāyasaḥ |
+                         tathā kṛto vāmalakeṣu pāyasaḥ |
                         <caesura/>
-                        prabhūtasarpistriphalodakottaro
+                         prabhūtasarpistriphalodakottaro
                         <caesura/>
-                        yavaudano vā timiram vyapohati || </l>
-                    
+                         yavaudano vā timiram vyapohati || </l>
+
                     <l xml:id="SS.6.17.52"> [47] timire rāgiṇi sirā na vyadhyā syur vijānatā |
                         <caesura/>
-                        yantreṇotpīḍito doṣas tathā hanty āsu darśanaṃ ||</l>
-                    
+                         yantreṇotpīḍito doṣas tathā hanty āśu darśanaṃ ||</l>
+
                     <l xml:id="SS.6.17.53"> [48] arāgaṃ timiraṃ sādhyam ādyaṃ paṭalam āśritaṃ |
                         <caesura/>
-                        rāgi dvitīye kṛcchrañ ca tṛtīye yāpyam ucyate || </l>
-                    
+                         rāgi dvitīye kṛcchrañ ca tṛtīye yāpyam ucyate || </l>
+
                     <l xml:id="SS.6.17.55">[49] ślaiṣmike liṅganāśe tu karma vakṣyāmi siddhaye |
                         <caesura/>
-                        bhaved vṛddhendvātapatramuktāvartākṛtiḥ sitaḥ ||</l>
-                    
+                         bhaved vṛddhendvātapatramuktāvartākṛtiḥ sitaḥ ||</l>
+
                     <l xml:id="SS.6.17.56"> [50] viṣamo vā tanur madhye rājimān vā bahuprabhaḥ |
                         <caesura/>
-                        dṛṣṭistho lakṣyate doṣaḥ sarujo vā salohitaḥ || </l>
-                    
+                         dṛṣṭistho lakṣyate doṣaḥ sarujo vā salohitaḥ || </l>
+
                     <l xml:id="SS.6.17.57"> [51] snigdhasvinnasya tasyātha kāle nātyuṣṇaśītale |
                         <caesura/>
-                        yantritasyopaviṣṭasya svān nāsāṃ paśyataḥ samaṃ || </l>
-                    
-                    <l xml:id="SS.6.17.58"> [52] matimāñ chuklabhāgau dvau kṛṣṇān muktvā hy apāṅgataḥ |
+                         yantritasyopaviṣṭasya svān nāsāṃ paśyataḥ samaṃ || </l>
+
+                    <l xml:id="SS.6.17.58"> [52] matimāñ chuklabhāgau dvau kṛṣṇān muktvā hy
+                        apāṅgataḥ |
                         <caesura/>
-                        nipīḍya nayane samyak chidre daivakṛte tataḥ || </l>
-                    
-                    
-                    
-                        
-                        
+                         nipīḍya nayane samyak chidre daivakṛte tataḥ || </l>
+
+
+
+
+
+
+                <l xml:id="SS.6.17.59"> [53] śalākayā tāmramayyā lauhyā vā yavavakrayā |
+                        <caesura/>
+                    </l>
+
+                    <l xml:id="SS.6.17.60"> madhyapradeśinyaṅguṣṭhasthirahastagṛhītayā |
+                        <caesura/>
+                         [54] adakṣiṇaṃ dakṣiṇena hastenetaram anyathā || </l>
+
+                    <l xml:id="SS.6.17.61"> vāribindvāgamaḥ samyak chabdaś ca vyadhane bhavet |
+                        <caesura/>
+                         [55] saṃsicya viddhamātran tu yoṣitstanyena kovidaḥ || </l>
+
+
+
+
+
+
                 </div>
 
             </div>
