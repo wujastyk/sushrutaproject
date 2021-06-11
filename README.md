@@ -1,4 +1,4 @@
-# Suśruta Project manuscript transcriptions
+# Suśruta Project manuscript transcriptions ccc
 
 This is the repository for the manuscript and edition transcriptions created as part of the [sushrutaproject.org](http://sushrutaproject.org), q.v. for the full details.
 
