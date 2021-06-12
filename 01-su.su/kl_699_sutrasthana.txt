@@ -2,7 +2,7 @@
   <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
     <fileDesc>
       <titleStmt>
-        <title>[MSS Kathmandu KL 699]</title>
+        <title>MS Kathmandu KL 699: Sūtrasthāna</title>
       </titleStmt>
       <publicationStmt>
         <p>Suśruta project, University of Alberta</p>
@@ -19,7 +19,6 @@
             <repository>https://www.klib.gov.np/</repository>
             <collection>[collection]</collection>
             <idno>699</idno>
-            <idno type="NCC">[NCC identifier]</idno>
             <idno type="siglum">K</idno>
           </msIdentifier>
           <msContents>
@@ -28,9 +27,8 @@
               <!-- @defective: 'false' for complete, 'true' for incomplete -->
               <author role="author" xml:lang="sa">Suśruta</author>
               <title xml:lang="sa">Suśrutasaṃhitā</title>
-              <title type="commentary" xml:lang="sa">[title of commentary]</title>
               <!-- rubric, incipit, explicit, and finalRubric are given as examples -->
-              <textLang mainLang="sa-Newa">[Sanskrit in Nepalese script.]</textLang>
+              <textLang mainLang="sa-Newa">Sanskrit in Nepalese script.</textLang>
               <!-- @mainLang can be "sa-Deva", "sa-Mlym", "sa-Telu", "sa-Newa", etc. See ISO 15924 for more details. -->
             </msItem>
           </msContents>
@@ -45,33 +43,23 @@
                                 and <foreign xml:lang="sa">sa</foreign> not
                                 distinguished.</scriptNote>
                         </scriptDesc>
+            <!--                     this śa/sa equivalence may be wrong. Still checking, 2021-06-12  - DW -->
+            
           </physDesc>
           <history>
             <origin>
               <origDate calendar="Nepal" when="0301">M Saṃvat 301 (878 CE).</origDate>
               <!-- calendar can be "Vikrama", "Śaka", etc. Dates can be approximate or exact. -->
-              <origPlace xml:lang="en">[place of production]</origPlace>
             </origin>
-            <provenance>[record of ownership]</provenance>
-            <acquisition>[how it was acquired]</acquisition>
           </history>
         </msDesc>
       </sourceDesc>
     </fileDesc>
     <revisionDesc>
-      <change when="2020-04-21">
-        <persName>[name of editor]</persName>
-      </change>
+      <change when="2020-01-06" who="Jason Birch">Transcribed 1.1.</change>
+      <change when="2020-03-31" who="Jason Birch">Transcribed 1.16.</change>
     </revisionDesc>
   </teiHeader>
-  <facsimile>
-    <surface start="#SS.1.1.0">
-      <graphic url="../../KL699/001v_IMG_0126.JPG"/>
-      <zone lrx="546" lry="177" ulx="170" uly="120" xml:id="zone_k3n_lth_14b"/>
-      <zone lrx="2125" lry="307" ulx="1879" uly="251" xml:id="kayacikitsanama"/>
-      <zone lrx="2473" lry="291" ulx="2351" uly="243" xml:id="zone_u4k_nw3_f4b"/>
-    </surface>
-  </facsimile>
 
   <text xml:lang="sa-Latn">
     <body>
