@@ -31,7 +31,7 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ## 2021-03-28
 
- * Harshal has finished the concordance of MS NAK 5-333. - HB
+ * Harshal has finished the concordance of MS NAK 5-333. - HB xxx
 
 ### Todo 
 
