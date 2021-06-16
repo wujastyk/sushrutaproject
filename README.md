@@ -2,7 +2,8 @@
 
 This is the repository for the manuscript and edition transcriptions created as part of the [sushrutaproject.org](http://sushrutaproject.org), q.v. for the full details.
 
-This repository is currently maintained by Dominik Wujastyk and Jason Birch. DDD
+
+This repository is currently maintained by Dominik Wujastyk and Jason Birch. D
 
 ## Saktumiva
 
