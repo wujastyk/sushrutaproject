@@ -164,3 +164,4 @@
 
 1.  Those section titles correspond to 6.58 and 6.38, but the text that
     follow are not found in the edition.
+* 191_r IMG_0047.JPG is as 191_r IMG_0048. 
