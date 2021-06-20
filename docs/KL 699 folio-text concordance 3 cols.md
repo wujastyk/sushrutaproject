@@ -1,52 +1,55 @@
 # MS Kathmandu KL 699
 ##  Concordance of folios and Suśrutasaṃhitā passages in the vulgate
 ## By Kengo Harimoto, with addition by Dominik Wujastyk
-|  |  | **Suśruta text contained** ||
-| ---------- | ---------- | ----------- | |
+
+
+
+|  |  | **Suśruta text contained** | |
+| ---------- | ---------- | ----------- | ------------ |
 | folio | start | middle |end|
-|  | **1. Sūtrasthāna** || |
-| 1 | 1.1.1 || 1.1.9? |
-| 2 | 1.1.10 ||1.2.1 |
+|  | **1. Sūtrasthāna** | | |
+| 1 | 1.1.1 | | 1.1.9? |
+| 2 | 1.1.10 | |1.2.1 |
 | 3 | 1.2.3 | 1.3.4 |1.3.23 |
-| 4 | folio missing |||
+| 4 | folio missing | ||
 | 5 | 1.4.6 | 1.5.17 | 1.5.42 |
 | 6 | 1.5.42 | 1.6.10 | 1.6.18 |
 | 7 | 1.6.18 | 1.7.12 | 1.8.1 |
 | 8 | 1.8.1 | 1.8.14 | 1.10.5 |
 | 9 | 1.10.5 | 1.11.11 | 1.11.26 |
-| 10 | folio missing |||
+| 10 | folio missing | ||
 | 11 | 1.11.26 | 1.12.12 | 1.12.32 |
-| 12 | folio missing |||
+| 12 | folio missing | ||
 | 13 | 1.13.21 | 1.14.15 | 1.14.35 |
-| 14b | 6.4.177 | 6.4.17 ||
+| 14b | 6.4.177 | 6.4.17 | |
 | 14 | 1.14.35 | 1.15.7 | 1.15.17 |
 | 15 | 1.15.17 | 1.15.36 | 1.16.4 (<strong>significant divergence</strong>) |
-| 16 | folio missing |||
+| 16 | folio missing | ||
 | 17 | 1.17.4 | 1.7.10 | 1.18.18 |
-| 18 | folio missing |||
-| 19 | folio missing |||
-| 20 | folio missing |||
+| 18 | folio missing | ||
+| 19 | folio missing | ||
+| 20 | folio missing | ||
 | 21 | 1.21.31 | 1.22.7 | 1.23.3 |
-| 22 | folio missing |||
+| 22 | folio missing | ||
 | 23 | 1.24.7 | 1.24.11 | 1.25 (<strong>completely different text</strong>) |
 | 24 | 1.25.xxx | 1.25.36/1.25.40 | 1.26.11 |
-| 25 | folio missing |||
+| 25 | folio missing | ||
 | 26 | 1.27.19 | 1.28.14 | 1.29.20* |
 | 27 | 1.29.19* | 1.29.39 | 1.29.65 |
 | 28 | 1.29.65 | 1.30.4 | 1.31.4 |
 | 29 | 1.31.4 | 1.31.29 | 1.32.4 |
-| 30 | 67 | folio missing ||
-|  |  |  ||
-|  | **2. Nidāna** |||
+| 30 | 67 | folio missing | |
+|  |  |  | |
+|  | **2. Nidāna** | ||
 | 68 | 2.16.32 | 2.16.50 | 3.1.1 |
-| 69 | 89 | folio missing ||
+| 69 | 89 | folio missing | |
 | 90 | 4.2.24 | 4.2.50 | 4.2.77 |
-| 91 | 109 | folio missing ||
-|  |  |  ||
-|  | **4. Cikitsā** |||
+| 91 | 109 | folio missing | |
+|  |  |  | |
+|  | **4. Cikitsā** | ||
 | 110 | 4.39.23 | 4.40.3* | 4.40.14 |
-| 111 | folio missing |||
-| 112_ |  |||
+| 111 | folio missing | ||
+| 112_ |  | ||
 | 112 | 4.19.23 | 4.19.44 | 4.20.xxx |
 | 113_ | 4.23.xxx | 5.7.19* | 5.7.37 (part of the Nighaṇṭu?) |
 | 113 | 4.34.18* | ??? | ??? |
@@ -58,7 +61,7 @@
 | 119 | 4.24.89 | 4.24.98 | 4.24.119 |
 | 120 | 4.24.119 | 4.25.9 | 4.25.28* |
 | 121 | 4.25.28* | 4.26.3 | 4.26.26 |
-| 122 | 124 | folio missing ||
+| 122 | 124 | folio missing | |
 | 125 | 4.29.12 | 4.29.28 | 4.30.7 |
 | 126 | 4.30.7 | 4.30.28* | 4.31.5 |
 | 127 | 4.31.5 | 4.31.11 | 4.31.35 |
@@ -74,11 +77,11 @@
 | 137 | 4.37.97 | 4.37.121 | ??? |
 | 138 | ??? | 4.38.3 | 4.38.19 |
 | 139 | 4.38.84 | 4.48.115 | 4.39.23 |
-| 140 | folio missing |||
+| 140 | folio missing | ||
 | 141 | 4.40.14 | 4.40.22 | 4.40.37 |
 | 142 | 4.40.37 | 4.40.57 | conclusion of the Cikitsāsthāna? |
 |  |  |  |  |
-|  | **5. Kalpa** |||
+|  | **5. Kalpa** | ||
 | 143 | conclusion of the Cikitsāsthāna | 5.1.29 | 5.1.48 |
 | 144 | 5.1.48 | 5.1.68 | 5.2.5 |
 | 145 | 5.2.5 | 5.2.19 | 5.2.36 |
@@ -95,7 +98,7 @@
 | 156 | 5.8.97 | 5.8.121 | 5.8.140  <strong>text not in the edition</strong> |
 | 157 | <strong>text not in the edition</strong>  "sausrute śalyatantre kalpasthānaṃ samāptaḥ" | 6.1.8 | 6.1.25 |
 |  |  |  |  |
-|  | **6. Uttara** |||
+|  | **6. Uttara** | ||
 | 158 | 6.1.25 | 6.1.42 | 6.3.10 |
 | 159 | 6.3.10 | 6.3.28? | end of 6.3 |
 | 160 | beginning of 6.4 | 6.6.28 | 6.7.19 |
@@ -118,19 +121,19 @@
 | 174 | 6.26.30!* | 6.26.45 | 6.27.16 |
 | 175 | 6.27.16 | 6.29.8 | beginning of 6.33 |
 | 176 | 6.33.3 | 6.36.9 | end of 6.37 |
-| 177 | 186 | folio missing ||
+| 177 | 186 | folio missing | |
 | 180_ | 6.39.104 | 6.39.126 | 6.39.151 |
 | 181_ | 6.39.151 | 6.39.177? | 6.39.201? |
 | 182_ | 6.39.201? | 6.39.215 | 6.39.250 |
 | 183_ | 6.39.250 | 6.39.273 | 6.39.295 |
-| 184_ | folio missing |||
+| 184_ | folio missing | ||
 | 185_ | 6.39.??? | end of 6.39 | 6.40.20 |
 | 186_ | 6.40.20 | 6.40.42 | 6.40.69 |
 | 187_ | 6.40.70 | 6.40.101 | 6.40.125? |
 | 187 | 6.42.19 | 6.42.24  <strong>completely different text</strong> from the edition | 6.42.46 |
 | 188_ | 6.40.126? | 6.40.145 | 6.40.149  <strong>completely different text</strong> |
 | 188 | 6.42.46 | 6.42.66 | <strong>completely different text  </strong>6.44.4 |
-| 189_ | <strong>different text  </strong> 6.40.176 |||
+| 189_ | <strong>different text  </strong> 6.40.176 | ||
 | 189 | 6.44.4 | 6.44.26  beginning of 6.45, followed by <strong>completely different text</strong> | 6.45.15 |
 | 190 | 6.45.15 | 6.45.39 | 6.46.20 |
 | 191_ | 6.41.18 | 6.41.29 | 6.41.38 |
@@ -146,8 +149,8 @@
 | 198 | 6.54.34 | 6.55.17 | 6.55.45 |
 | 199 | 6.55.45 | 6.56.17 | 6.56.10? |
 | 200 | 6.56.10? | 6.58.13 | 6.58.44 |
-| 200x | (only verso) beginning of the Sauśrutanighaṇṭu |||
-| 201 | 6.58.44  a section end and beginning (mūtrāghātapratiṣedha) | <strong>no parallel</strong>  section end and beginning (yonivyāpatpratiṣedha)  <strong>no parallel</strong>[1] ||
+| 200x | (only verso) beginning of the Sauśrutanighaṇṭu | ||
+| 201 | 6.58.44  a section end and beginning (mūtrāghātapratiṣedha) | <strong>no parallel</strong>  section end and beginning (yonivyāpatpratiṣedha)  <strong>no parallel</strong>[1] | |
 | 202 | <strong>no parallel</strong>  6.38.9?  6.38.32? | end of section/beginning of a section (mānuṣapratiṣedha)  parallel to 6.60 |  6.60.20 |
 | 203 | 6.60.20 | 6.60.45 | 6.61.23 |
 | 204 | 6.61.23 | 6.62.13 | 6.63.8 |
@@ -156,16 +159,16 @@
 | 207 | <strong>no parallel</strong> | 6.64.5 | 6.64.75 |
 | 208 | 6.64.75 | 6.65.9 | 6.65.25 |
 | 209 | 6.65.25 | 6.66.6 | 6.66.16 |
-| 210 | possibly continuation from 200x |||
-| 211 | continues 210|||
-| 212 | continues 211 |||
-| 213 | continues 212 |||
-| 214 | continues 213 |||
-| 215 | continues 214 |||
-| 216 | continues 215? |||
-| 217 | continues 216 |||
-| 218 | folio missing |||
-| 219 | colophon of the Nighaṇṭu |||
+| 210 | possibly continuation from 200x | ||
+| 211 | continues 210| ||
+| 212 | continues 211 | ||
+| 213 | continues 212 | ||
+| 214 | continues 213 | ||
+| 215 | continues 214 | ||
+| 216 | continues 215? | ||
+| 217 | continues 216 | ||
+| 218 | folio missing | ||
+| 219 | colophon of the Nighaṇṭu | ||
 
 1.  Those section titles correspond to 6.58 and 6.38, but the text that
     follow are not found in the edition.
