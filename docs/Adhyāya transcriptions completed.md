@@ -21,9 +21,6 @@ References are canonical (i.e., the Ācārya vulgate).
 |               | 1.22      |                  |      |
 |               |           |                  |      |
 |               |           |                  |      |
-|               |           |                  |      |
-|               |           |                  |      |
-|               |           |                  |      |
 |               | 2.01      |                  |      |
 |               | 2.02      |                  |      |
 |               | 2.03      |                  |      |
