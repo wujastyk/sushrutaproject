@@ -52,4 +52,3 @@ References are canonical (i.e., the Ācārya vulgate).
 |               |           |                  |      |
 |               |           |                  |      |
 
-#
