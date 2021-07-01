@@ -16,7 +16,7 @@
                             <country>Nepal</country>
                         </placeName>
                         <institution>Kaiser Library</institution>
-                        <repository>https://www.klib.gov.np/</repository>
+                        <repository>https://www|klib|gov|np/</repository>
                         <collection>[collection]</collection>
                         <idno>699</idno>
                         <idno type="siglum">K</idno>
@@ -28,13 +28,13 @@
                             <author role="author" xml:lang="sa">Suśruta</author>
                             <title xml:lang="sa">Suśrutasaṃhitā</title>
                             <!-- rubric, incipit, explicit, and finalRubric are given as examples -->
-                            <textLang mainLang="sa-Newa">Sanskrit in Nepalese script.</textLang>
+                            <textLang mainLang="sa-Newa">Sanskrit in Nepalese script|</textLang>
                             <!-- @mainLang can be "sa-Deva", "sa-Mlym", "sa-Telu", "sa-Newa", etc. See ISO 15924 for more details. -->
                         </msItem>
                     </msContents>
 
                     <physDesc>
-                        <p resp="Harshal Bhatt">Folios 4r and 4v are missing.</p>
+                        <p resp="Harshal Bhatt">Folios 4r and 4v are missing|</p>
                         <objectDesc form="pothi">
                             <!-- @form can be "pothi", "book", scroll", etc. -->
                             <supportDesc material="palm-leaf"
@@ -45,14 +45,14 @@
                         <scriptDesc>
                             <scriptNote xml:id="script-śa-sa"><foreign xml:lang="sa">śa</foreign>
                                 and <foreign xml:lang="sa">sa</foreign> not
-                                distinguished.</scriptNote>
+                                distinguished|</scriptNote>
                         </scriptDesc>
                         <!--                     this śa/sa equivalence may be wrong. Still checking, 2021-06-12  - DW -->
 
                     </physDesc>
                     <history>
                         <origin>
-                            <origDate calendar="Nepal" when="0301">M Saṃvat 301 (878 CE).</origDate>
+                            <origDate calendar="Nepal" when="0301">M Saṃvat 301 (878 CE)|</origDate>
                             <!-- calendar can be "Vikrama", "Śaka", etc. Dates can be approximate or exact. -->
                         </origin>
                     </history>
@@ -63,20 +63,20 @@
         </fileDesc>
 
         <revisionDesc>
-            <change when="2020-01-06" who="Jason Birch">Transcribed 1.1.</change>
-            <change when="2020-03-31" who="Jason Birch">Transcribed 1.16.</change>
-            <change when="2021-06-13" who="Deepro Chakraborty">Transcribed 1.21</change>
-            <change when="2021-06-22" who="Harshal Bhatt">Added transcription of 1.3</change>
-            <change when="2021-06-25" who="Harshal Bhatt">Added transcription of 1.4</change>
-            <change when="2021-06-25" who="Harshal Bhatt">Added transcription of 1.5</change>
+            <change when="2020-01-06" who="Jason Birch">Transcribed 1|1|</change>
+            <change when="2020-03-31" who="Jason Birch">Transcribed 1|16|</change>
+            <change when="2021-06-13" who="Deepro Chakraborty">Transcribed 1|21</change>
+            <change when="2021-06-22" who="Harshal Bhatt">Added transcription of 1|3</change>
+            <change when="2021-06-25" who="Harshal Bhatt">Added transcription of 1|4</change>
+            <change when="2021-06-25" who="Harshal Bhatt">Added transcription of 1|5</change>
 
-            <change when="2021-06-13" who="Deepro Chakraborty">added Su Ch. 21 of KL699 and NAK5-33,
+            <change when="2021-06-13" who="Deepro Chakraborty">added Su Ch| 21 of KL699 and NAK5-33,
                 some corrections in the vulgate</change>
-            <change when="2021-06-24" who="Deepro Chakraborty">added Su Ch. 22 of KL699 and NAK5-33,
+            <change when="2021-06-24" who="Deepro Chakraborty">added Su Ch| 22 of KL699 and NAK5-33,
                 some corrections in the vulgate</change>
-            <change when="2021-06-24" who="Deepro Chakraborty">added Su Ch. 23 of KL699 and NAK5-33,
+            <change when="2021-06-24" who="Deepro Chakraborty">added Su Ch| 23 of KL699 and NAK5-33,
                 some corrections in the vulgate</change>
-            <change when="2021-06-28" who="Deepro Chakraborty">added Su Ch. 24 of KL699 and NAK5-33,
+            <change when="2021-06-28" who="Deepro Chakraborty">added Su Ch| 24 of KL699 and NAK5-33,
                 some corrections in the vulgate</change>
 
 
@@ -206,11 +206,11 @@
 
                     <l xml:id="SS.1.1.14-16"> iha khalv āyurvedaprayojanaṃ vyādhyupasṛṣṭasya
                         vyādhiparimokṣaḥ svasthara<lb n="2"/>kṣaṇañ cāyur asmin vi<add place="above
-                            line" resp="later scribe">ṃ</add>da<unclear reason="smudged"
-                            >ntya</unclear>nena vāyur<!-- could be cāyur --> vindyata ity āyurvedas
-                        tasyāṅgavaram āgamapratyakṣā<cb/>nu<add place="inline"
-                        >nā</add><!-- unwanted correction? -->mānopamānair aviruddham ucyamānam
-                        upadhārayadhvam | </l>
+                            line" resp="later scribe">ṃ</add>da<unclear
+                            reason="smudged">ntya</unclear>nena vāyur<!-- could be cāyur -->
+                        vindyata ity āyurvedas tasyāṅgavaram āgamapratyakṣā<cb/>nu<add
+                            place="inline">nā</add><!-- unwanted correction? -->mānopamānair
+                        aviruddham ucyamānam upadhārayadhvam | </l>
 
 
                     <l xml:id="SS.1.1.17"> etad dhy aṅgaṃ prathamaṃ pradhānaṃ prāgabhihitatvād
@@ -399,6 +399,7 @@
 
 
 
+
                 </div>
 
 
@@ -537,25 +538,26 @@
 
                     <l xml:id="SS.1.4.6">nāmarthavaśātteṣāntadvidyebhya eva vyākhyāna<unclear
                             extent="10" reason="torn" unit="syllables"/>stre
-                        sarvaśāstrāṇā<cb/>mavarodhaḥ karttum̐ śakya iti .. <unclear>6</unclear>
-                        ..</l>
+                        sarvaśāstrāṇā<cb/>mavarodhaḥ karttum̐ śakya iti || <unclear>6</unclear>
+                        ||</l>
 
                     <l xml:id="SS.1.4.7"/>
 
-                    <l xml:id="SS.1.4.7ab">śāstramekamadhīyāno na vidyācchāstraniścayaṃ .</l>
+                    <l xml:id="SS.1.4.7ab">śāstramekamadhīyāno na vidyācchāstraniścayaṃ |</l>
 
-                    <l xml:id="SS.1.4.7cd">tasmād vahuśrutaḥ śāstraṃ vijānī<cb/>yāccikitsakaḥ .</l>
+                    <l xml:id="SS.1.4.7cd">tasmād vahuśrutaḥ śāstraṃ vijānī<cb/>yāccikitsakaḥ |</l>
 
                     <l xml:id="SS.1.4.8ab">śāstraṃ gurumukhodgīrṇṇam ādāyopā<unclear reason="torn"
-                            >sya</unclear> cāsakṛt .</l>
+                            >sya</unclear> cāsakṛt |</l>
 
                     <l xml:id="SS.1.4.8cd">yaḥ karma kurute vai<unclear reason="torn">dyaḥ</unclear>
-                        sa vaidyonye tu taskarāḥ ..</l>
+                        sa vaidyonye tu taskarāḥ ||</l>
 
-                    <l xml:id="SS.1.4.9ab">opadhenavamaurabhraṃ sauśrutampauṣkalāvataṃ .</l>
+                    <l xml:id="SS.1.4.9ab">opadhenavamaurabhraṃ sauśrutampauṣkalāvataṃ |</l>
 
                     <l xml:id="SS.1.4.9cd">śeṣāṇāṃ śalyata<cb/>ntrāṇāṃ mūlānyetāni nirddiśediti
-                            ..<unclear extent="2" unit="syllables"/>..</l>
+                            ||<unclear extent="2" unit="syllables"/>||</l>
+
 
 
 
@@ -767,7 +769,204 @@
                             unit="syllable"/><cb/>hya ||</l>
                 </div>
 
+                <div n="6" type="adhyāyaḥ">
 
+                    <!-- Folio 6r:1 -->
+
+                    <l xml:id="SS.1.6.1">athāto ṛtucaryaṃ vyā ||</l>
+
+                    <l xml:id="SS.1.6.2"/>
+
+                    <l xml:id="SS.1.6.3">kālo hi bhagavāṃ
+                        svayambhur anādimadhyanidhanotrarasavyāpatsampattayo jīvi<cb/>tamaraṇe ca
+                        manuṣyāṇām āyatte ssa sūkṣmām api kalānna līyata iti kālaḥ | saṅkalayati<lb
+                            n="2"/> kalayati vā bhūtānīti kālaḥ |</l>
+
+                    <l xml:id="SS.1.6.4">tasya samvatsarātmano bhagavānādityo gativiśeṣeṇa<cb/>
+                        nimeṣakāṣṭhākalāmuhūrttāhorātrapakṣamāsartvayanasamvatsarayugapravibhāgaṃ
+                        karoti |</l>
+
+                    <l xml:id="SS.1.6.5">tatra laghvakṣinipātamātro<cb/>nimeṣaḥ | pañcadaśanimeṣā
+                        kāṣṭhā triṅśatkāṣṭhā kalā | viṅśatikalāmuhūrttaḥ kalāyāḥ daśa<lb n="3"
+                        />bhāgaś ca | triṃśatmuhūrttamahorātraṃ | pañcadaśāhorātraḥ pakṣaḥ | sa
+                        dvividhaḥ kṛṣṇaḥ śuklaś ca tau<cb/> māsaḥ | </l>
+
+                    <l xml:id="SS.1.6.6">tatra māghādayo dvādaśamāsāḥ samvatsaraḥ |
+                        dvimāsikamṛtuṅkṛtvā ṣa<unclear>ḍṛ</unclear>tavo bhavanti || te ca
+                        śiśiravasantagrī<cb/>ṣmavarṣāśaraddhemantāḥ | teṣāntapastapasyau śiśiraḥ |
+                        madhumādhavau vasantaḥ | śuciśukrau grīṣmaḥ<lb n="4"/> nabhonabhasyau varṣā
+                        | iṣorjau śarat | sahassahasyau hemanta iti |</l>
+
+                    <l xml:id="SS.1.6.7">ta ete śītoṣṇavarṣa<add place="above"
+                                ><unclear>vāta</unclear></add>la<cb/>kṣaṇāḥ | candrādityayoḥ
+                        kālavibhāgakaratvādayane dve bhavataḥ | dakṣiṇamuttarañ ca |
+                        tayordakṣiṇamvarṣāśaraddhemantāḥ<cb/> teṣu bhagavānāpyāyate somaḥ |
+                            <unclear>āmla</unclear>lavaṇamadhurāś ca rasā balavanto bhavanti |
+                            uttarottara<cb n="5"/>ñca sarvaprāṇināṃ balamabhivarddhate | uttaraṃ
+                        śiśiravasantagrīṣmāḥ | teṣu bhagavānāpyāyate<cb/>rkaḥ | kaṭutiktakaṣāyāś ca
+                        rasā bala<add place="below"><unclear>va</unclear></add>ttarā bhavanti |
+                            uttarottara<del>ā</del>ś ca prāṇinām balam parihīyate ||</l>
+
+                    <l xml:id="SS.1.6.8">bha ||</l>
+
+                    <l xml:id="SS.1.6.8ab">somaḥ kloda<cb/>yate bhūmiṃ sūryaḥ śoṣayate punaḥ |</l>
+
+                    <l xml:id="SS.1.6.8cd">tāvubhāvapi saṃśritya vāyuḥ pālayati prajāḥ ||</l>
+
+                    <l xml:id="SS.1.6.9"><unclear reason="torn">atha</unclear><lb n="6"/> khalvayane
+                            yugapatsamva<add place="below">tsa</add>saro bhavati | <add
+                            place="above">te dve ayane varṣasamvatsaraḥ parivatsaraḥ
+                                i<unclear>ḍā</unclear>vatsaraḥ vatsara ityevaṃ
+                                paṃcapa<unclear>ñca<!--Same additional line is also given at below margin but it is unclear. So, I've transcribed above margin line which
+                    is probably by some different hand. Curvers of consonants and vowels matches with NAK 5-333 e.g. a, ñca, sa etc.  --></unclear>
+                            varṣāni ||</add> te pañcayugamiti saṃjñā labhante sa eṣa
+                        nimeṣādiryugaparya<cb/>ntaḥ kālaścakravatparivarttamānaḥ kālacakra ityucyate
+                        | </l>
+
+                    <l xml:id="SS.1.6.9a">evaṃ dakṣiṇāyane rātrirvyākhyātā ||</l>
+
+                    <l xml:id="SS.1.6.10">iha tu varṣāśaraddhema<cb/>ntavasantagrīṣmaprāvṛṣaḥ
+                        ṣaḍṛtavo bhavanti | doṣopacayaprakopapraśamanimittaṃ | <unclear
+                            reason="torn">te tu bhādra</unclear><lb n="7"/> padādyairdvimāsike
+                        naivaṃ vyākhyātāḥ | tadyathā | bhadrapadāśvayu<cb/>jau varṣāḥ
+                        kārttikamārgaśīrṣau śarat | pauṣamāghauhemantaḥ | phālgunacetrau vasantaḥ |
+                        vaiśākhajyeṣṭhau grīṣmaḥ |<pb n="6v"/> āṣāḍhaśrāvaṇau prāvṛḍiti<cb/> ||</l>
+
+                    <l xml:id="SS.1.6.11">tatra varṣā svauṣadhyastaruṇyolpavīryā
+                            <unclear>ā</unclear>hāratvam upagatā vidahyante | āpaścāpraśāntāḥ
+                        kṣitimalaprāyāstāstāstūpayu<cb/>jyamānā nabhasi meghāvatate jalapraklinnāyāṃ
+                        bhūmau klinnadehānāṃ dehināṃ śītavātavarṣa<lb n="2"/>viṣṭambhitāgnīnāṃ
+                        vidahyante | sa vidāhāt pittasañcayam āpādayanti | sa sañcayaḥ śaradi<cb/>
+                        praviralameghe viyaty upaśuṣyati paṅkerkakiraṇapravilāyitaḥ paittikāṃ vyādhīṃ
+                        janayati | tā evauṣadhyaḥ kālapa<cb/>riṇāmātpariṇatavīryā balavatyo hemante
+                        bhavanti | āpaś ca praśāntāḥ snigdhā atya<unclear reason="torn">rthaṃ
+                            gurvya</unclear><lb n="3"/>stā upayujyamānāḥ mandakiraṇatvād
+                        bhānossatuṣāraupaṣṭambhitadehānāṃ dehinām avidagdhāḥ<cb/> snehād
+                        gauravād upalepitvāc ca śleṣmaṇassañcayam āpādayanti | sa saṃcayo
+                        vasanterkakiraṇapravilāyitaḥ śleṣmikāṃ vyādhīṃ<cb/> janayati | tā
+                        evauṣadhyau grīṣmaniḥsārā rūkṣā atimātralaghvyo bhavaty āpaś ca tā
+                            upayujya<lb n="4"/>mānāḥ<add place="inline">( tatra śaraddhemantayor
+                                ma<unclear>dhyasama</unclear>m ahorātraṃ yugapac cādhimāsakau bhavataḥ
+                            | viṃśatikāṣṭhā<cb/>ś caikanimeṣārdhaś ca
+                            dinapariparivṛddhir uttarāyaṇe</add> | sūryapratāpopaśoṣitadehānān dehināṃ
+                            raukṣyāl la<unclear>gh</unclear>vāc ca vāyoḥ sañca<cb/>yam āpādayanti | sa
+                        sañcayaḥ prāvṛṣi cātyarthaṃñ jalopaklinnāyāṃ bhūmau
+                            <unclear>cā</unclear>tiklinnadehā<lb n="5"/>nāṃ dehināṃ
+                        śītavātavarṣerito vātikāṃ vyādhīṃñjanayati | evam eṣāṃ doṣāṇāṃ
+                        sañcayaprako<cb/>pahetur uktaḥ |</l>
+
+                    <l xml:id="SS.1.6.12"/>
+
+                    <l xml:id="SS.1.6.13">tatra varṣāhemantagrīṣmeṣu sañcitānān doṣāṇāṃ
+                            śaradvasantaprāvṛ<unclear>ṭsu</unclear> ca prakupitānāṃ nirharaṇaṃ |</l>
+
+                    <l xml:id="SS.1.6.14">tatra paitti<cb/>kānāṃ vyādhīnāṃ hemante vyupaśamaḥ |
+                        śleṣmikāṇānnidāghe vātikānāṃ śaradi | svabhāvatas tv e<lb n="6"/>te
+                        sañcayaprakopaśamā vyākhyātāḥ ||</l>
+
+                    <l xml:id="SS.1.6.15">tatra divasapūrvāhṇe vasantaliṅgaṃ | madhyāhne
+                        grīṣma<cb/>sya | aparāhṇe prāvṛḍliṅgaṃ | pradoṣe vārṣikaṃ |
+                        śāradam ardharātre | pra<unclear>tyu</unclear>ṣasi haimanam upalakṣayet |
+                        evam ahorā<cb/>tram api
+                        varṣamivaśītoṣṇavarṣadoṣopacayaprakopopaśamairjānīyāt</l>
+
+                    <l xml:id="SS.1.6.16">tatrāvyāpane<unclear extent="3" unit="syllables"/><lb
+                            n="7"/>tuṣvavyāpannā oṣadhayo bhavanty āpaś ca | tāstūpayayujyamānāḥ
+                            <unclear reason="torn">prāṇāyu</unclear>rbalavīryaujaskaryo<cb/>
+                        bhavanti |</l>
+
+                    <l xml:id="SS.1.6.17">tāsām punar vyapadodṛṣṭakāritāni śītoṣṇa<add place="below"
+                            >vāta</add>varṣāṇi | khalu viparītāny auṣadhīr vyāpādayanty āpaś ca |</l>
+
+                    <l xml:id="SS.1.6.18">tāsā<cb/>m upayogād vividha<pb n="7r"/>rogaprādurbhāvo
+                        marako vā bhavati |</l>
+
+                    <l xml:id="SS.1.6.19"/>
+
+                    <l xml:id="SS.1.6.20"><unclear extent="15" unit="syllables"/>śāparakṣaḥ
+                        krodhā<cb/>d adharmair uṣasyante janapadāḥ | viṣauṣadhipuṣpagandhena vā
+                        vāyunopanītena | kāsaśvāsapratiśyāyaśiroroga<cb/>jvarair upatapyante prajāḥ
+                        grahanakṣatracaritair vā | śayanāsanayānavāhanam a<unclear reason="torn"
+                            >ṇiratnopa</unclear><lb n="2"/> karaṇagarhitalakṣaṇaprādurbhāvair vā</l>
+
+                    <l xml:id="SS.1.6.21">jāto'tra |
+                        parityāgaśāntiprāyaścittabalimaṅgala<cb/>japahomopahārejyāñjalinamaskārataponiyamadayādānadīkṣābhyupagamadevatābrāhmaṇaguruparair bhavitavyam e<cb/>vaṃ
+                        sādhu bhavati ||</l>
+
+                    <l xml:id="SS.1.6.21a">bha<cb/>
+                    </l>
+
+                    <l xml:id="SS.1.6.22"/>
+
+                    <l xml:id="SS.1.6.23cd"/>
+
+                    <l xml:id="SS.1.6.24ab"/>
+
+                    <l xml:id="SS.1.6.24cd"/>
+
+                    <l xml:id="SS.1.6.25ab"/>
+
+                    <l xml:id="SS.1.6.25cd"/>
+
+                    <l xml:id="SS.1.6.26ab"/>
+
+                    <l xml:id="SS.1.6.26cd"/>
+
+                    <l xml:id="SS.1.6.27ab"/>
+
+                    <l xml:id="SS.1.6.27cd"/>
+
+                    <l xml:id="SS.1.6.28ab"/>
+
+                    <l xml:id="SS.1.6.28cd"/>
+
+                    <l xml:id="SS.1.6.29ab"/>
+
+                    <l xml:id="SS.1.6.29cd"/>
+
+                    <l xml:id="SS.1.6.30ab"/>
+
+                    <l xml:id="SS.1.6.30cd"/>
+
+                    <l xml:id="SS.1.6.31ab"/>
+
+                    <l xml:id="SS.1.6.31cd"/>
+
+                    <l xml:id="SS.1.6.32ab"/>
+
+                    <l xml:id="SS.1.6.32cd"/>
+
+                    <l xml:id="SS.1.6.33ab"/>
+
+                    <l xml:id="SS.1.6.33cd"/>
+
+                    <l xml:id="SS.1.6.34ab"/>
+
+                    <l xml:id="SS.1.6.34cd"/>
+
+                    <l xml:id="SS.1.6.35ab"/>
+
+                    <l xml:id="SS.1.6.35cd"/>
+
+                    <l xml:id="SS.1.6.36ab"/>
+
+                    <l xml:id="SS.1.6.36cd"/>
+
+                    <l xml:id="SS.1.6.37ab"/>
+
+                    <l xml:id="SS.1.6.37cd"/>
+
+                    <l xml:id="SS.1.6.38ab">svaguṇair api yukteṣu viparīteṣu vā punaḥ |</l>
+
+                    <l xml:id="SS.1.6.38cd">viṣameṣv api vā doṣā<lb n="3"/> kupyanty ṛtuṣu dehinām
+                        iti ||<unclear extent="1" unit="char"/>|| bhra ||</l>
+
+                    <l xml:id="SS.1.6.39ab"/>
+
+                    <l xml:id="SS.1.6.39cd"/>
+
+
+                </div>
 
 
                 <div n="16" type="adhyāyaḥ">
@@ -845,6 +1044,7 @@
                     <l xml:id="SS.1.16.31"/>
                     <l xml:id="SS.1.16.32"/>
                     <p xml:id="SS.1.16.colophon"/>
+
 
 
 
@@ -1027,6 +1227,7 @@
 
 
 
+
                 </div>
 
 
@@ -1065,9 +1266,9 @@
                             amanojñadarśanagandhotya<cb n="1"/>rthavedanāvān
                             dāhapākarāgakaṇḍūśophapiṭakopadrutotyartha<unclear reason="faded"
                             >du</unclear>ṣṭaśoṇitasrāvī dīrghakālānubandhī ceti <add place="right
-                            margin" rend="kākapada">duṣṭa</add>vraṇaliṅgāni ||<cb n="2"/> tatra
-                        doṣocchrāyam avekṣya yathā<unclear reason="lacuna">svaṃ</unclear> prakurvīta
-                        || </l>
+                            margin" rend="kākapada"
+                        >duṣṭa</add>vraṇaliṅgāni ||<cb n="2"/> tatra doṣocchrāyam avekṣya
+                            yathā<unclear reason="lacuna">svaṃ</unclear> prakurvīta || </l>
 
                     <l xml:id="SS.1.22.8">atha sarvāsrāvām vakṣyāmaḥ | <unclear reason="faded">tatra
                             ghṛṣṭāsu chinnāsu</unclear>
@@ -1238,12 +1439,13 @@
 
 
 
+
                 </div>
                 <!-- end of chapter 23 of Sūtrasthāna-->
 
 
 
-            <div n="24" type="adhyāyaḥ">
+                <div n="24" type="adhyāyaḥ">
 
                     <!-- folio 22 is missing -->
 
@@ -1346,10 +1548,11 @@
 
 
 
-                </div>
-            <!-- end of sthana -->
 
-        </div>
+                </div>
+                <!-- end of sthana -->
+
+            </div>
             <!-- end of sthana -->
 
         </body>
