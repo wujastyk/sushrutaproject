@@ -1,5 +1,6 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+        
         <fileDesc>
             <titleStmt>
                 <title>MS Kathmandu NAK 5-333: Kalpasthāna</title>
@@ -15,8 +16,8 @@
                             <settlement>Kathmandu</settlement>
                             <country>Nepal</country>
                         </placeName>
-                        <institution>Kaiser Library</institution>
-                        <repository>https://www.klib.gov.np/</repository>
+                        <institution>National Archives</institution>
+                        <repository><ref target="http://narchives.gov.np/">http://narchives.gov.np/</ref></repository>
                         <idno>5-333</idno>
                         <idno type="siglum">H</idno>
                     </msIdentifier>
@@ -104,7 +105,7 @@
     <text xml:lang="sa-Latn">
         <body>
 
-            <div n="5" type="sthāna" type="level1">
+            <div n="5" type="sthāna">
 
                 <div n="1" type="adhyāyaḥ">
 
@@ -114,34 +115,34 @@
                     <l xml:id="SS.5.1.2">yathovāca bhagavān dhanvantariḥ || <add place="above">atha
                             khalu vatsasuśrutaḥ | 1</add></l>
 
-                    <l xml:id="SS.5.1.3">divodāsa kṣitipatis tayo dharmmabhṛtām varaḥ |
+                    <l xml:id="SS.5.1.3">divodāsakṣitipatis tayodharmmabhṛtām varaḥ |
                         <caesura/>
                          suśrutapramukhāñ chiṣyān śaśāsā<lb n="2"/>hatasātanaḥ ||<add place="above"
                             >śāsanaḥ | 2</add></l>
                     <!-- Please check it, if the marginal line is a part of above verse or not-->
 
-                    <l xml:id="SS.5.1.4">ripavo vikramākrāttāḥ svevāsyuḥ kṛtyatāṅgatāḥ |<cb/>
+                    <l xml:id="SS.5.1.4">ripavo vikramākrāttāḥ sve vā syuḥ kṛtyatāṅgatāḥ |<cb/>
                         <caesura/>
                          sisṛkṣavaḥ krodhaviṣaṃ vivaram prāpya tādṛśaṃ ||</l>
 
-                    <l xml:id="SS.5.1.5"><unclear>viṣair hi syur akiṇcijñaṃ</unclear> nṛpatin
+                    <l xml:id="SS.5.1.5"><unclear>viṣair hi syur akiñcijñaṃ</unclear> nṛpatin
                         duṣṭavetasaḥ |</l>
 
                     <l xml:id="SS.5.1.6">tasmād vaidye<lb n="3"/>na śatataṃ viṣād rakṣen narādhipaḥ
                         |</l>
 
-                    <l xml:id="SS.5.1.7">yasmāc cānityacinnatvam aśvavatpra<cb/>thitan nṛṣu |
+                    <l xml:id="SS.5.1.7">yasmāc cānityacinnatvam aśvavat pra<cb/>thitan nṛṣu |
                         <caesura/>
                          tasmān na viśvased rājā kadācid api kasya cit |</l>
 
-                    <l xml:id="SS.5.1.8">kulīnandhārmmikaṃ snigvamakṛśaṃ satatotthi<lb n="4"/>taṃ
+                    <l xml:id="SS.5.1.8">kulīnandhārmmikaṃ snigvamakṛśaṃ sa tatotthi<lb n="4"/>taṃ
                         |</l>
 
                     <l xml:id="SS.5.1.9"/>
 
                     <l xml:id="SS.5.1.10"/>
 
-                    <l xml:id="SS.5.1.11">mahānase niyuṇjīta vaidyantadvidyapūjitaṃ |</l>
+                    <l xml:id="SS.5.1.11">mahānase niyuñjīta vaidyantadvidyapūjitaṃ |</l>
 
                     <l xml:id="SS.5.1.12">praśastadigdeśa<cb/>kṛtaṃ sūcibhāṇḍam mahacchuciḥ |</l>
 
@@ -172,7 +173,7 @@
                     <l xml:id="SS.5.1.21">vepathuś cāsya bhavati trasta<pb n="324v"/>ś cānyonyam
                         īkṣyate |
                         <caesura/>
-                         vivarṇṇa<unclear>vaktro vyā</unclear>maś ca nakhaiḥ kiṇcic chinaty api
+                         vivarṇṇa<unclear>vaktro vyā</unclear>maś ca nakhaiḥ kiñcic chinaty api
                         |</l>
 
                     <l xml:id="SS.5.1.22"/>
@@ -181,7 +182,7 @@
 
                     <l xml:id="SS.5.1.24"/>
 
-                    <l xml:id="SS.5.1.25">dantakāṣṭhennapāne ca tathābhyaṅgeva lekhane |
+                    <l xml:id="SS.5.1.25">dantakāṣṭhenna pāne ca tathābhyaṅgeva lekhane |
                         <caesura/>
                          utsādane parīṣeke<lb n="2"/> kaṣāyaiḥ sānulepane |</l>
 
@@ -193,7 +194,7 @@
                         <caesura/>
                          lakṣaṇāni pravakṣyāmi cikitsāñ cāpy anantaraṃ |</l>
 
-                    <l xml:id="SS.5.1.28">nṛpabhaktā<cb/>dvaliṃ ndattaṃ saviṣaṃ bhakṣayanti ye ||
+                    <l xml:id="SS.5.1.28">nṛpabhaktā<cb/>d valiṃn dattaṃ saviṣaṃ bhakṣayanti ye ||
                         <caesura/>
                          tatraiva te vinaśyanti makṣikāvāyasādayaḥ |</l>
 

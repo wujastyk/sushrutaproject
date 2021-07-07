@@ -1,6 +1,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 
    <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+   
       <fileDesc>
          <titleStmt>
             <title>MS Kathmandu KL 699: Kalpasthāna</title>
@@ -10,17 +11,19 @@
          </publicationStmt>
          <sourceDesc>
             <msDesc>
+               
                <msIdentifier>
                   <placeName>
                      <settlement>Kathmandu</settlement>
                      <country>Nepal</country>
                   </placeName>
                   <institution>Kaiser Library</institution>
-                  <repository>https://www.klib.gov.np/</repository>
+                  <repository><ref target="https://www.klib.gov.np/">https://www.klib.gov.np/</ref></repository>
                   <collection>[collection]</collection>
                   <idno>699</idno>
                   <idno type="siglum">K</idno>
                </msIdentifier>
+               
                <msContents>
                   <summary>[description of manuscript]</summary>
                   <msItem defective="true" n="1">
@@ -47,6 +50,7 @@
                   </msItem>
 
                </msContents>
+               
                <physDesc>
                   <objectDesc form="pothi">
                      <!-- @form can be "pothi", "book", scroll", etc. -->
@@ -59,6 +63,7 @@
                      <!--                     this śa/sa equivalence may be wrong. Still checking, 2021-06-12  - DW -->
                   </scriptDesc>
                </physDesc>
+               
                <history>
                   <origin>
                      <origDate calendar="Nepal" when="0301">M Saṃvat 301 (878 CE).</origDate>
@@ -67,7 +72,9 @@
                </history>
             </msDesc>
          </sourceDesc>
+      
       </fileDesc>
+      
       <revisionDesc>
          <change when="2020-04-21" who="Harshal Bhatt">Transcription of 5.1.</change>
       </revisionDesc>
@@ -94,7 +101,7 @@
                   <caesura/>
                   sisṛkṣavaḥ krodhaviṣaṃ vivaraṃ prāpya tādṛśaṃ |</l>
 
-               <l xml:id="SS.5.1.5">viṣair hinyurakiñcijñaṃ nṛpatiṃ duṣṭacetasaḥ |</l>
+               <l xml:id="SS.5.1.5">viṣair hinyur akiñcijñaṃ nṛpatiṃ duṣṭacetasaḥ |</l>
 
                <l xml:id="SS.5.1.6">tasmād vaidyena sa<cb/>tataṃ viṣād rakṣyo narādhipaḥ |</l>
 
