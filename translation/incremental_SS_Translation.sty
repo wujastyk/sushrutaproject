@@ -1,0 +1,81 @@
+\usepackage{xelatex-generic-biblatex-indexing,
+    booktabs, % better-looking tables
+    wasysym, %for the blob symbols in the table
+    CC-license-footer,
+    %   coffeestains,
+}
+\hangfootnotes
+
+\addbibresource{incremental_SS_Translation.bib}
+
+\usepackage{hyperref}
+\usepackage[
+text={Draft of \today\ for private study only},
+color={[gray]{0.95}},
+scale=.27]{draftwatermark}
+
+% just print hyperlinked “URL” in the bibliography, not the long, ugly URL.
+\DeclareFieldFormat{url}{%
+    \ifhyperref
+    % {\textsc{url: }\href{#1}{URL}}
+    {\href{#1}{\textsc{url}}}
+    {\textsc{url: }\nolinkurl{#1}}} %DW bug here
+\DeclareFieldFormat{eprint:ark}{%
+    %    \textsc{ark:}\space
+    \ifhyperref  
+    {\href{https://n2t.net/#1}{\nolinkurl{#1}}}
+    {\nolinkurl{#1}}}
+
+
+\setlist[enumerate]{noitemsep} % enumitem global setting for \items
+\setlist[itemize]{noitemsep} 
+
+%% Make a new environment for the translation with tweaked spacing.
+%% The old-fashioned LaTeX way:
+%\newenvironment{translation}
+%    {\begin{itemize}[noitemsep,
+%            left=0pt .. \parindent]}
+%    {\end{itemize}}
+
+%% Make a new environment for the translation with tweaked spacing.
+%% Do it the enumitem way:
+\newlist{translation}{enumerate}{2}
+\setlist[translation]{%
+    label=\textbullet,
+    noitemsep,
+    left=0pt .. \parindent}
+
+
+\newcommand{\Su}[2]{SS~#1
+    \citep[#2]{vulgate}}
+% references to the Suśrutasaṃhitā
+% #1 = canonicau
+% #2 = page of Ācārya's third edition
+% later, when we've got our own numbers for our edition, we'll add them 
+% as the second argument.
+
+\newcommand{\AS}[2]{AS #1 
+    \citep[#2]{atha-1980}} % references to the Saṅgraha, 
+% #1 = canonical
+% #2 = page of Aṭhāvale's edition
+
+\newcommand{\Ah}[2]{Ah #1 
+    \citep[#2]{kunt-1902}} % references to the Saṅgraha, 
+% #1 = canonical
+% #2 = page of Kunte and Navare's edition
+
+
+%
+%\newcommand{\item}[1]{$^{#1}$}
+
+%\newenvironment{translation}{\list }{\endlist }
+
+\renewcommand{\SS}{\emph{Suśrutasaṃhitā}}
+
+\title{A Translation of the New Edition of the \SS}
+\author{Jason Birch and Dominik Wujastyk}
+\date{\texttt{Draft of \today}\\ \copyright\ Jason Birch and Dominik Wujastyk}
+
+\let\se\saneng  % just make typing a bit quicker
+
+\def\root{\ifmmode\surd\else$\surd$\fi } % make it easier to say \root bhū
