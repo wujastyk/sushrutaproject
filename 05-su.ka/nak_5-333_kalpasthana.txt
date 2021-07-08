@@ -1,6 +1,6 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
-        
+
         <fileDesc>
             <titleStmt>
                 <title>MS Kathmandu NAK 5-333: Kalpasthāna</title>
@@ -17,7 +17,8 @@
                             <country>Nepal</country>
                         </placeName>
                         <institution>National Archives</institution>
-                        <repository><ref target="http://narchives.gov.np/">http://narchives.gov.np/</ref></repository>
+                        <repository><ref target="http://narchives.gov.np/"
+                                >http://narchives.gov.np/</ref></repository>
                         <idno>5-333</idno>
                         <idno type="siglum">H</idno>
                     </msIdentifier>
@@ -81,6 +82,13 @@
                         <objectDesc form="pothi">
                             <supportDesc material="palm-leaf"> </supportDesc>
                         </objectDesc>
+                        <handDesc hands="1">
+                            <handNote xml:id="main_hand">Main scribe: hand of the majority of the
+                                manuscript.</handNote>
+                        </handDesc>
+
+
+
                     </physDesc>
 
                     <history>
@@ -109,19 +117,24 @@
 
                 <div n="1" type="adhyāyaḥ">
 
+                    <milestone unit="folio" n="dscn3301 fol 323.jpg lower"/>
+
                     <l xml:id="SS.5.1.1"><unclear>1</unclear>athāto'nnapānarakṣākalpam vyākhyāsyāmaḥ
                         ||</l>
 
-                    <l xml:id="SS.5.1.2">yathovāca bhagavān dhanvantariḥ || <add place="above">atha
-                            khalu vatsasuśrutaḥ | 1</add></l>
+                    <l xml:id="SS.5.1.2">yathovāca bhagavān dhanvantariḥ || <add place="above"
+                            hand="#main_hand">atha khalu vatsasuśrutaḥ | 1</add></l>
 
-                    <l xml:id="SS.5.1.3">divodāsakṣitipatis tayodharmmabhṛtām varaḥ |
+                    <l xml:id="SS.5.1.3">divodāsakṣitipatis tapodharmmabhṛtām varaḥ |
                         <caesura/>
-                         suśrutapramukhāñ chiṣyān śaśāsā<lb n="2"/>hatasātanaḥ ||<add place="above"
-                            >śāsanaḥ | 2</add></l>
-                    <!-- Please check it, if the marginal line is a part of above verse or not-->
+                        suśrutapramukhāñ chiṣyān 
+                        śaśāsā<lb n="2"/>hata<pc> </pc><subst>
+                            <del rend="three superscript dots">sātanaḥ</del>
+                            <add place="margin">śāsanaḥ | 2</add>
+                        </subst> ||</l>
 
-                    <l xml:id="SS.5.1.4">ripavo vikramākrāttāḥ sve vā syuḥ kṛtyatāṅgatāḥ |<cb/>
+
+                    <l xml:id="SS.5.1.4">ripavo vikramākrāttāḥ sve vā syuḥ kṛtyatāṅ gatāḥ |<cb/>
                         <caesura/>
                          sisṛkṣavaḥ krodhaviṣaṃ vivaram prāpya tādṛśaṃ ||</l>
 
