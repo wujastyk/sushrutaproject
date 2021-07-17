@@ -68,6 +68,10 @@
             <change when="2021-06-01" who="Deepro Chakraborty"> Added 1.21</change>
             <change when="2021-06-11" who="Deepro Chakraborty">corrected the lb tag and made the
                 candrabindus m̐</change>
+            
+            <change when="2021-06-13" who="Deepro Chakraborty">added 1.21 of KL699 and NAK5-33, some
+                corrections in the vulgate</change>
+            
             <change when="2021-06-17" who="Vandana Lele"> Added 1.8</change>
             <change when="2021-06-19" who="Vandana Lele"> Added 1.9</change>
             <change when="2021-06-22" who="Vandana Lele"> Added 1.10</change>
@@ -78,8 +82,16 @@
                 corrections in the vulgate</change>
             <change when="2021-06-28" who="Deepro Chakraborty">added 1.24 of KL699 and NAK5-33, some
                 corrections in the vulgate</change>
+            <change when="2021-06-29" who="Deepro Chakraborty">added 1.25 of KL699 and NAK5-33, some
+                corrections in the vulgate</change>
             <change when="2021-07-01" who="Vandana Lele"> Added 1.11</change>
             <change when="2021-07-11" who="Vandana Lele"> Added 1.12</change>
+            
+            <change when="2021-07-13" who="Deepro Chakraborty">added 1.26 of KL699 and NAK5-33, some
+                corrections in the vulgate</change>
+            <change when="2021-07-15" who="Deepro Chakraborty">Added 1.27 of K and H and some
+                corrections in the vulgate (#43)</change>
+
 
         </revisionDesc>
     </teiHeader>
@@ -318,6 +330,7 @@
                          sa puṇyakarmmā<lb n="2"/> bhuvi pūjito nṛpair
                         <caesura/>
                          asukṣaye śakrasalokatām iyād iti ||1|| </l>
+
 
 
 
@@ -1584,6 +1597,7 @@
 
 
 
+
                 </div>
 
                 <div n="10" type="adhyāyaḥ">
@@ -1651,6 +1665,7 @@
                     <l xml:id="SS.1.10.9.gh"> yantraṃ śa<unclear>s</unclear>trāvacārañ ca yogyā
                             <unclear>sū</unclear>trīyameva ca | viśi<cb/>khānupraveśañ ca
                             prokta<unclear>ṃ vai</unclear> prathamo daśa || ḍo || </l>
+
 
 
 
@@ -2297,6 +2312,7 @@
 
 
 
+
                 </div>
 
 
@@ -2557,6 +2573,7 @@
 
 
 
+
                 </div>
 
 
@@ -2783,6 +2800,7 @@
 
 
 
+
                 </div>
                 <!-- end of chapter 23 of Sūtrasthāna-->
 
@@ -2890,6 +2908,7 @@
 
                     <l xml:id="SS.1.24.12cd"> vistareṇottare tantre sarvvabādhām pracakṣmaha iti ||
                         24 || </l>
+
 
 
 
@@ -3233,6 +3252,7 @@
 
 
 
+
                 </div>
                 <!-- end of chapter 25 of Sūtrasthāna-->
 
@@ -3240,257 +3260,268 @@
 
 
                 <div n="26" type="adhyāyaḥ">
-                    <milestone unit="folio" n="54r2"/>
-                    
+                    <milestone n="54r2" unit="folio"/>
+
                     <l xml:id="SS.1.26.1">
                         <lb n="2"/>athātaḥ praṇaṣṭaśalyavijñānīyaṃ vyākhyāsyāmaḥ || </l>
-                    
+
                     <l xml:id="SS.1.26.2"/>
-                    
-                    <l xml:id="SS.1.26.3"> atha śalya <cb/>hiṃsāyān dhātus tasya yatpratyayasya śalyam iti
-                        rūpam bhavati | </l>
-                    
+
+                    <l xml:id="SS.1.26.3"> atha śalya <cb/>hiṃsāyān dhātus tasya yatpratyayasya
+                        śalyam iti rūpam bhavati | </l>
+
                     <l xml:id="SS.1.26.4"> tad dvividhaṃ śārīram āgantukaś ca </l>
-                    
+
                     <l xml:id="SS.1.26.5"> sarvvaśa<lb n="3"/>rīrābādhā ihopadṛśyaṃta ity ataḥ
                         śalyaśāstraṃ || </l>
-                    
+
                     <l xml:id="SS.1.26.6"> tatra śārīrā<metamark function="line-filling"
-                        >¦</metamark><cb/>ṇi dantanakharomādīni dhātavo nnamalā doṣāś ca duṣṭāḥ | āgantūni
-                        śarīraśalyavyatirekeṇa<metamark function="line-filling">¦</metamark>
+                            >¦</metamark><cb/>ṇi dantanakharomādīni dhātavo nnamalā doṣāś ca duṣṭāḥ
+                        | āgantūni śarīraśalyavyatirekeṇa<metamark function="line-filling"
+                            >¦</metamark>
                         <lb n="4"/>yāvanto bhāvā duḥkham utpādayanti || </l>
-                    
+
                     <l xml:id="SS.1.26.6i">
                         <choice>
                             <abbr type="suspension"> bha ||</abbr>
                             <expan>bhavati cātra ||</expan>
-                        </choice></l>
-                    
+                        </choice>
+                    </l>
+
                     <l xml:id="SS.1.26.6ia"> śarīre sarvvaśa<metamark function="line-filling"
-                        >¦</metamark><cb/>lyānāṃ gatayaḥ pañcadhā smṛtāḥ | </l>
-                    
+                            >¦</metamark><cb/>lyānāṃ gatayaḥ pañcadhā smṛtāḥ | </l>
+
                     <l xml:id="SS.1.26.6ib"> ṛjvāgatam avāñcīnan tiryag ūrddhvam adhogataṃ || </l>
-                    
+
                     <l xml:id="SS.1.26.7"/>
-                    
+
                     <l xml:id="SS.1.26.8"/>
-                    
-                    <l xml:id="SS.1.26.9-10"> tāni tu yadā vegakṣa<lb n="5"/>yāt pratīghātād vā tvagādiṣu
-                        vraṇavastuṣv avatiṣṭhante | dhamanī<metamark function="line-filling"
-                            >¦</metamark><cb/>sroto'sthipesīvivaraprabhṛtiṣu vā śarīrapradeśeṣu tatra lakṣaṇam
-                        ucyamānam upadhārayasva || <lb n="6"/> śyāvam piṭakācitaṃ śophavedanāvantam
-                        muhurmmuhuḥ śoṇitāsrāviṇam budbudavad udgatam mṛdumānsañ ca vraṇañ jānīyāt saśalyo
-                        yam iti || sāmānyato lakṣaṇam uktaṃ | <pb n="54v"/><lb n="1"/>viśeṣatas tvaggate
-                        vivarṇṇaḥ śopho bhavanty āyataḥ kaṭhinaś ca | māṃsagate śophābhivṛddhir asaṃrohaḥ
-                        pīḍanāsahiṣṇutā coṣaprapākau ca māṃsānām peśyantaragate 'py eva coṣa<lb n="2"
-                        />śoṣavarjjaṃ | sirāgate cādhmānaṃ śūlañ ca | snāyugate snāyujā<metamark
-                            function="line-filling">¦</metamark><cb/>lā'sukṣepaṇaṃ | srotogate srotasāñ ca
-                        karmmaguṇahāniḥ | dhamanīgate saphenaṃ raktam īrayan samīraṇaḥ | <lb n="3"
-                        />saśabdo nirggacchaty aṅgamarddapipāsā hṛllāsaś ca | asthigate
+
+                    <l xml:id="SS.1.26.9-10"> tāni tu yadā vegakṣa<lb n="5"/>yāt pratīghātād vā
+                        tvagādiṣu vraṇavastuṣv avatiṣṭhante | dhamanī<metamark
+                            function="line-filling">¦</metamark><cb/>sroto'sthipesīvivaraprabhṛtiṣu
+                        vā śarīrapradeśeṣu tatra lakṣaṇam ucyamānam upadhārayasva || <lb n="6"/>
+                        śyāvam piṭakācitaṃ śophavedanāvantam muhurmmuhuḥ śoṇitāsrāviṇam budbudavad
+                        udgatam mṛdumānsañ ca vraṇañ jānīyāt saśalyo yam iti || sāmānyato lakṣaṇam
+                        uktaṃ | <pb n="54v"/><lb n="1"/>viśeṣatas tvaggate vivarṇṇaḥ śopho bhavanty
+                        āyataḥ kaṭhinaś ca | māṃsagate śophābhivṛddhir asaṃrohaḥ pīḍanāsahiṣṇutā
+                        coṣaprapākau ca māṃsānām peśyantaragate 'py eva coṣa<lb n="2"/>śoṣavarjjaṃ |
+                        sirāgate cādhmānaṃ śūlañ ca | snāyugate snāyujā<metamark
+                            function="line-filling">¦</metamark><cb/>lā'sukṣepaṇaṃ | srotogate
+                        srotasāñ ca karmmaguṇahāniḥ | dhamanīgate saphenaṃ raktam īrayan samīraṇaḥ |
+                            <lb n="3"/>saśabdo nirggacchaty aṅgamarddapipāsā hṛllāsaś ca | asthigate
                         vi<cb/>vidhavedanāprādurbhāvaḥ saśophaś ca | asthivivaragate tv
                         asthicūrṇṇapūrṇṇatāṃ saṃharṣo vegavām̐ś ca | sandhi<metamark
-                            function="line-filling">¦</metamark><lb n="4"/>gate 'py evaṃ ceṣṭoparamaś ca |
-                        koṣṭhagate tv āṭopānāhau purīṣā<cb/>hāradarśanāni ca vraṇamukhād bhavanti |
-                        marmmagate tu marmmaviddhavad ācakṣate | sūkṣmagatiṣu śalyeṣv etā<metamark
-                            function="line-filling">¦</metamark><lb n="5"/>ny eva lakṣaṇāni vispaṣṭāni
-                        bhavanti | </l>
-                    
+                            function="line-filling">¦</metamark><lb n="4"/>gate 'py evaṃ
+                        ceṣṭoparamaś ca | koṣṭhagate tv āṭopānāhau purīṣā<cb/>hāradarśanāni ca
+                        vraṇamukhād bhavanti | marmmagate tu marmmaviddhavad ācakṣate | sūkṣmagatiṣu
+                        śalyeṣv etā<metamark function="line-filling">¦</metamark><lb n="5"/>ny eva
+                        lakṣaṇāni vispaṣṭāni bhavanti | </l>
+
                     <l xml:id="SS.1.26.11"> mahānty alpāni vā śuddha<cb/>dehānām anulomasanniviṣṭāny
                         uparohanti | viśeṣataḥ kaṇṭhagatasrotaḥsirātvakpeśyasthivi<lb n="6"/>vareṣu
-                        doṣaprakopavyāyāmād abhighātāt | kṣatād api sthānāt tu calitaṃ | śalyam punar
-                        ābādhakam bhavet | <metamark rendition="jāyekā">𑑛</metamark></l>
-                    
+                        doṣaprakopavyāyāmād abhighātāt | kṣatād api sthānāt tu calitaṃ | śalyam
+                        punar ābādhakam bhavet | <metamark rendition="jāyekā">𑑛</metamark></l>
+
                     <l xml:id="SS.1.26.12">
-                        <pb n="55r"/><lb n="1"/>tatra tvakpraṇaṣṭe mṛdgomayacūrṇṇapramṛditāyāṃ tvaci yatra
-                        saṃrambho vedanā vā bhavati | tatra śalyam iti jānīyāt | tatra
+                        <pb n="55r"/><lb n="1"/>tatra tvakpraṇaṣṭe mṛdgomayacūrṇṇapramṛditāyāṃ tvaci
+                        yatra saṃrambho vedanā vā bhavati | tatra śalyam iti jānīyāt | tatra
                         styānaghṛtamṛccandanakalkair vvā pradigdhe śalyoṣmaṇāśu visa<cb/>rati ghṛtam
-                        upaśuṣyati cālepo yatra tatra śalyañ jānīyāt | māṃsapraṇaṣṭe snehādibhir āturam
-                        u<lb n="3"/>papādayet | karṣitasya tu śithilīkṛtam anavabaddhaṃ
-                        kṣubhya<metamark function="line-filling">¦</metamark><cb/>mānaṃ yatra saṃrambhī
-                        vedanām vā janayati | tatra śalyañ jānīyāt koṣṭhāsthisandhipeśīvivareṣv ava<lb
-                            n="4"/>sthitam evam parīkṣet | sirādhamanīsrotaḥsu ca || snāyupra<cb/>ṇaṣṭe
-                        khaṇḍacakrasaṃyukte yāne tv āturam āropyāśu viṣame dhvani yāyāt | yatra saṃrambho
-                        vedanā<metamark function="line-filling">¦</metamark>
+                        upaśuṣyati cālepo yatra tatra śalyañ jānīyāt | māṃsapraṇaṣṭe snehādibhir
+                        āturam u<lb n="3"/>papādayet | karṣitasya tu śithilīkṛtam anavabaddhaṃ
+                            kṣubhya<metamark function="line-filling">¦</metamark><cb/>mānaṃ yatra
+                        saṃrambhī vedanām vā janayati | tatra śalyañ jānīyāt
+                        koṣṭhāsthisandhipeśīvivareṣv ava<lb n="4"/>sthitam evam parīkṣet |
+                        sirādhamanīsrotaḥsu ca || snāyupra<cb/>ṇaṣṭe khaṇḍacakrasaṃyukte yāne tv
+                        āturam āropyāśu viṣame dhvani yāyāt | yatra saṃrambho vedanā<metamark
+                            function="line-filling">¦</metamark>
                         <lb n="5"/>vā bhavati tatra śalyañ jānīyāt || asthipraṇaṣṭe
                         snehasvedo<cb/>papannāny asthīni bandhanapīḍanābhyāṃ bhṛśam upācaret | yatra
-                        saṃrambho vedanā vā bhavati tatra śalyaṃ <lb n="6"/>jānīyāt || sandhipraṇaṣṭe
-                        snehasvedopapannān sandhīn prasāraṇākuñcanabandhapīḍanair bbhṛśam upācaret | yatra
-                        saṃrambho vedanā vā bhavati tatra śalyañ jānīyāt || marmmapraṇa<pb n="55v"/><lb
-                            n="1"/>ṣṭe tv ananyabhāvān marmmaṇām uktam parīkṣaṇam bhavati | </l>
-                    
+                        saṃrambho vedanā vā bhavati tatra śalyaṃ <lb n="6"/>jānīyāt ||
+                        sandhipraṇaṣṭe snehasvedopapannān sandhīn prasāraṇākuñcanabandhapīḍanair
+                        bbhṛśam upācaret | yatra saṃrambho vedanā vā bhavati tatra śalyañ jānīyāt ||
+                            marmmapraṇa<pb n="55v"/><lb n="1"/>ṣṭe tv ananyabhāvān marmmaṇām uktam
+                        parīkṣaṇam bhavati | </l>
+
                     <l xml:id="SS.1.26.13"> sāmānyalakṣaṇam api
-                        hastiskandhāśvapṛṣṭhaparvvatadrumārohaṇadrutayānalaṃghanaplavanavyāyāmajṛmbhoṅgārakṣavathuṣṭhīvanaha<lb
+                            hastiskandhāśvapṛṣṭhaparvvatadrumārohaṇadrutayānalaṃghanaplavanavyāyāmajṛmbhoṅgārakṣavathuṣṭhīvanaha<lb
                             n="2"/>sanaprāṇāyāmair vvātamūtrapurīṣaśukrotsarggair vvā yatra vedanā
                         bha<cb/>vati tatra śalyañ jānīyāt || </l>
-                    
+
                     <l xml:id="SS.1.26.14"> bhavanti cātra ślokāḥ || </l>
-                    
+
                     <l xml:id="SS.1.26.14ab"/>
-                    
+
                     <l xml:id="SS.1.26.14cd"/>
-                    
+
                     <l xml:id="SS.1.26.15ab"> āturaś cāpi yan deśam abhīkṣṇam parirakṣati | </l>
-                    
+
                     <l xml:id="SS.1.26.15cd">
                         <lb n="3"/>saṃvāhyamāno bahuśas tatra śalyam vinirddiśet || </l>
-                    
+
                     <l xml:id="SS.1.26.16ab"> alpatām apa<cb/>śūnañ ca nirujan nirupadravaṃ | </l>
-                    
+
                     <l xml:id="SS.1.26.16cd"> prasannamṛduparyantan nirāgha<unclear
-                        reason="eccentric_ductus">ṭū</unclear>m avedanaṃ || </l>
-                    
-                    <l xml:id="SS.1.26.17ab"> eṣaṇyā sarvvato dṛṣṭvā yathālā<lb n="4"/>bhañ cikitsakaḥ | </l>
-                    
+                            reason="eccentric_ductus">ṭū</unclear>m avedanaṃ || </l>
+
+                    <l xml:id="SS.1.26.17ab"> eṣaṇyā sarvvato dṛṣṭvā yathālā<lb n="4"/>bhañ
+                        cikitsakaḥ | </l>
+
                     <l xml:id="SS.1.26.17cd"> prasārākuñcane nyūnan niḥśalyam iti nirddiśe<cb/>t || </l>
-                    
+
                     <l xml:id="SS.1.26.18ab"> asthyātmakam bhidyate tu śalyamantaś ca śīryate | </l>
-                    
+
                     <l xml:id="SS.1.26.18cd"> prāyo nirbbhujyate śārṅgam āyasañ ceti niścayaḥ || </l>
-                    
+
                     <l xml:id="SS.1.26.19ab">
                         <lb n="5"/>vārkṣañ ca vaiṇavañ caiva tālajañ cāpy anirhṛtaṃ | </l>
-                    
+
                     <l xml:id="SS.1.26.19cd"> pacanti raktam māṃsa<metamark function="line-filling"
-                        >¦</metamark><cb/>ñ ca kṣipram etāni dehinām || </l>
-                    
+                            >¦</metamark><cb/>ñ ca kṣipram etāni dehinām || </l>
+
                     <l xml:id="SS.1.26.20ab"> kanakaṃ rajatan tāmraṃ kṛṣṇāyastrapusīsakaṃ | </l>
-                    
+
                     <l xml:id="SS.1.26.20cd"> cira<unclear reason="overwriting">sthā</unclear>nād
                         vilīyante pittate<lb n="6"/><metamark rendition="jāyekā"
-                            >𑑛</metamark>jaḥpratāpanāt || </l>
-                    
+                        >𑑛</metamark>jaḥpratāpanāt || </l>
+
                     <l xml:id="SS.1.26.21ab"> svabhāvaśītā mṛdavo ye cānye 'py evamādayaḥ || </l>
-                    
+
                     <l xml:id="SS.1.26.21cd"> dravībhūtā śarīre 'sminn ekatvaṃ yānti dhātubhiḥ || </l>
-                    
-                    <l xml:id="SS.1.26.22ab"> viṣāṇadantakeśāsthiveṇudārūpalā<pb n="56r"/><lb n="1"/>ni
-                        tu | </l>
-                    
+
+                    <l xml:id="SS.1.26.22ab"> viṣāṇadantakeśāsthiveṇudārūpalā<pb n="56r"/><lb n="1"
+                        />ni tu | </l>
+
                     <l xml:id="SS.1.26.22cd"> śalyāni na viśīryante śarīre mṛnmayāni ceti || 26 || </l>
-                    
+
                     <l xml:id="SS.1.26.23ab"/>
-                    
+
                     <l xml:id="SS.1.26.23cd"/>
-                    
-                    <milestone unit="folio" n="56r1"/>
-                    
-                    
-                    
+
+                    <milestone n="56r1" unit="folio"/>
+
+
+
                 </div>
                 <!-- end of chapter 26 of Sūtrasthāna-->
 
 
                 <div n="27" type="adhyāyaḥ">
-                    <milestone unit="folio" n="56r1"/>
-                    
-                    
+                    <milestone n="56r1" unit="folio"/>
+
+
                     <l xml:id="SS.1.27.1">
                         <cb/>|| athātaḥ śalyāpanayanīyaṃ vyākhyāsyāmaḥ || </l>
-                    
+
                     <l xml:id="SS.1.27.2"/>
-                    
+
                     <l xml:id="SS.1.27.3"/>
-                    
+
                     <l xml:id="SS.1.27.4"> tatra samāsena tv avabaddhaśalyoddharaṇār<unclear
-                        reason="overwriting">th</unclear>an nava hetū<lb n="2"/>n vakṣyāmaḥ || tadyathā
-                        svabhāvaḥ pācanaṃ | pramārjjanan nirddhamanam prati<cb/>marṣaḥ pravāhaṇam ācūṣaṇam
-                        ayaskāntā<metamark function="filling" style="conspicuous filling sign"
-                            >ஐஐஐ</metamark> harṣaṇam iti || </l>
-                    
+                            reason="overwriting">th</unclear>an nava hetū<lb n="2"/>n vakṣyāmaḥ ||
+                        tadyathā svabhāvaḥ pācanaṃ | pramārjjanan nirddhamanam prati<cb/>marṣaḥ
+                        pravāhaṇam ācūṣaṇam ayaskāntā<metamark function="filling" style="conspicuous
+                            filling sign">ஐஐஐ</metamark> harṣaṇam iti || </l>
+
                     <l xml:id="SS.1.27.5"> tatrāśrukṣavathukāsodgāramūtrapu<lb n="3"/>rīṣānilaiḥ
                         svabhāvapravṛttair nnayanādibhyaḥ prapatanti eṣa svabhā<metamark
-                            function="line-filling">¦</metamark><cb/>vo nāma || māṃsāvagāḍham avidahyamānam
-                        pācayitvā prakothayet | pūyaśoṇitavegād gauravād vā patati<lb n="4"/> etat pācanan
-                        nāma || aṇūny akṣiśalyāni pariṣecaṇopa<metamark function="line-filling"
-                            >¦</metamark><cb/>dhamanabālavastrapāṇibhiḥ pramārjjayed etat pramārjjanan nāma
-                        || āhāraśeṣaṃ kaṇṭhagataṃ śleṣmagataṃ siṃ<lb n="5"/>ghāṇakan niśvāsotkāsanābhyān
-                        nirddhamed etan nirddhamanan nāma || <cb/>annaśalyāni tu
-                        vamanāṅgulisparśanaprabhṛtibhiḥ pramṛsyoddhared eṣa pratimarśo nāma || vātamū<lb
-                            n="6"/>trapurīṣagarbbhasaṅgeṣu virecanair vvā pravāhaṇenoddhared etat
-                        pravāhaṇan nāma || | mārutodakastanyarudhiraviṣaśalyāny ācūṣaṇenoddhared āsyena
-                        viṣāṇena vā etad ā<pb n="56v"/><lb n="1"/>cūṣaṇan nāma || anulomam anavabaddham
-                        akarṇam analpavraṇamukham ayaskāntenoddharet | hṛdy avasthitam anekakāraṇotpannaṃ
+                            function="line-filling">¦</metamark><cb/>vo nāma || māṃsāvagāḍham
+                        avidahyamānam pācayitvā prakothayet | pūyaśoṇitavegād gauravād vā patati<lb
+                            n="4"/> etat pācanan nāma || aṇūny akṣiśalyāni pariṣecaṇopa<metamark
+                            function="line-filling">¦</metamark><cb/>dhamanabālavastrapāṇibhiḥ
+                        pramārjjayed etat pramārjjanan nāma || āhāraśeṣaṃ kaṇṭhagataṃ śleṣmagataṃ
+                            siṃ<lb n="5"/>ghāṇakan niśvāsotkāsanābhyān nirddhamed etan nirddhamanan
+                        nāma || <cb/>annaśalyāni tu vamanāṅgulisparśanaprabhṛtibhiḥ pramṛsyoddhared
+                        eṣa pratimarśo nāma || vātamū<lb n="6"/>trapurīṣagarbbhasaṅgeṣu virecanair
+                        vvā pravāhaṇenoddhared etat pravāhaṇan nāma || |
+                        mārutodakastanyarudhiraviṣaśalyāny ācūṣaṇenoddhared āsyena viṣāṇena vā etad
+                            ā<pb n="56v"/><lb n="1"/>cūṣaṇan nāma || anulomam anavabaddham akarṇam
+                        analpavraṇamukham ayaskāntenoddharet | hṛdy avasthitam anekakāraṇotpannaṃ
                         śokaśalyaṃ harṣaṇeneti || </l>
-                    
-                    <l xml:id="SS.1.27.6"> sarvvaśalyānāṃ śarīragatā<lb n="2"/>nām mahatām aṇūnāñ ca dvāv
-                        evāharaṇahetū bhavataḥ pratilomānuloma<cb/>ś ca || </l>
-                    
-                    <l xml:id="SS.1.27.7-8"> tatra pratilom amavāñcīnam apanayet | anulomam parācīnam
-                        uttuṇḍitaṃ chitvā nirghātayet | </l>
-                    
+
+                    <l xml:id="SS.1.27.6"> sarvvaśalyānāṃ śarīragatā<lb n="2"/>nām mahatām aṇūnāñ ca
+                        dvāv evāharaṇahetū bhavataḥ pratilomānuloma<cb/>ś ca || </l>
+
+                    <l xml:id="SS.1.27.7-8"> tatra pratilom amavāñcīnam apanayet | anulomam
+                        parācīnam uttuṇḍitaṃ chitvā nirghātayet | </l>
+
                     <l xml:id="SS.1.27.9"> chedanī<lb n="3"/>yamukhāny achedanīyamukhāni
                         kakṣavakṣaḥparaśukāntarapatitā<cb/>ni ca yathāmārgeṇāharttum prayateta || </l>
-                    
-                    <l xml:id="SS.1.27.10"> hastena vā harttum aśakyam visasya yantreṇa śastreṇāharet || </l>
-                    
+
+                    <l xml:id="SS.1.27.10"> hastena vā harttum aśakyam visasya yantreṇa
+                        śastreṇāharet || </l>
+
                     <l xml:id="SS.1.27.11">
                         <expan>bha<ex>bhavati cātra</ex></expan> || </l>
-                    
+
                     <l xml:id="SS.1.27.11ab">
                         <lb n="4"/>śītalena jalenainam mūrcchantam avasecayet | </l>
-                    
+
                     <l xml:id="SS.1.27.11cd"> saṃrakṣec cāsya marmā<cb/>ṇi muhur āśvāsayec ca taṃ || </l>
-                    
+
                     <l xml:id="SS.1.27.12"> tataḥ śalyam uddhṛtya nirllohitam vraṇaṅ kṛtvā svedārham
-                        agnighṛtaprabhṛtibhiḥ <lb n="5"/>svedayitvā madhusarppirbbhyām baddhvācārikam
-                        upadiśet | </l>
-                    
+                        agnighṛtaprabhṛtibhiḥ <lb n="5"/>svedayitvā madhusarppirbbhyām
+                        baddhvācārikam upadiśet | </l>
+
                     <l xml:id="SS.1.27.13"> hṛdayam a<cb/>bhivarttamānaṃ śalyaṃ śītajalādibhir
-                        udvejitasyodvignahṛdayasyāpaharet yathāmārggadurāharaṇa<lb n="6"/>m anyato na
-                        parādhyamānam pāṭayitvopaharet || </l>
-                    
+                        udvejitasyodvignahṛdayasyāpaharet yathāmārggadurāharaṇa<lb n="6"/>m anyato
+                        na parādhyamānam pāṭayitvopaharet || </l>
+
                     <l xml:id="SS.1.27.14"> asthivivarapraviṣṭam asthividaṣṭaṃ cāvagṛhya padbhyāṃ
-                        yantreṇāpaharet | evam aśakyaṃ guṇena pariveṣṭya badhvāśvavaktrakaṭake <unclear
-                            reason="faded">|</unclear> pañcā<pb n="57r"/><lb n="1"/>ṅgyāṃ vṛkṣaśākhām vā
-                        acchedyadeśottuṇḍitamaṣṭhīlāsmamudgarāṇām anyata<add place="above">ma</add>sya
-                        prahāreṇa vicālya yathāmārggata eva yantreṇa mṛditakarṇṇam akarṇṇañ ceti | </l>
-                    
+                        yantreṇāpaharet | evam aśakyaṃ guṇena pariveṣṭya badhvāśvavaktrakaṭake
+                            <unclear reason="faded">|</unclear> pañcā<pb n="57r"/><lb n="1"/>ṅgyāṃ
+                        vṛkṣaśākhām vā acchedyadeśottuṇḍitamaṣṭhīlāsmamudgarāṇām anyata<add
+                            place="above">ma</add>sya prahāreṇa vicālya yathāmārggata eva yantreṇa
+                        mṛditakarṇṇam akarṇṇañ ceti | </l>
+
                     <l xml:id="SS.1.27.15"> anābādhakarade<lb n="2"/>śottuṇḍitāni purasthād eva | </l>
-                    
+
                     <l xml:id="SS.1.27.16"/>
-                    
+
                     <l xml:id="SS.1.27.17"> jātuṣe tu kaṇṭhaśakte kaṇṭhanāḍīpra<cb/>veśyāgnitaptayā
-                        śalākān tayā vigṛhya śītābhir adbhiḥ pariṣiñcya sthirībhūtaṃ śalyam uddharet || </l>
-                    
-                    <l xml:id="SS.1.27.18-21"> ajā<lb n="3"/>nuṣaṃ jatunā liptayā pūrvvakalpenāsthiśalyam
-                        anyad vā tiryak ka<cb/>ṇṭhaśaktam avekṣyañ ca keśoṇḍukadṛḍhaikadīrghasūtrabandhanaṅ
-                        kṛtvā dravabhaktopahitaṃ | pāyayed ākaṇṭhāc ca <lb n="4"/>pūrṇṇakoṣṭham vāmayet
-                        vamataś ca śalyaikadeśaśaktaṃ sūtraṃ sahasā tv ā<cb/>kṣipet | mṛdunā
-                        dantadhāvanakūrccakenāharet praṇuded vāntaḥkṣatakaṇṭhāya ca madhusarppirleham
-                        praya<lb n="5"/>cchet triphalācūrṇṇam vā madhuśarkkarāmiśram udakapūrṇṇam
-                        avāñcchira<cb/>sam avapīḍayet | dhunuyād vāmayec ca grāsaśalye tu kaṇṭhaśakte
-                        niḥśaṅkām anavabaddhaṃ skandhe muṣṭhinā <lb n="6"/>nihanyāt | snehasukhodakam vā
+                        śalākān tayā vigṛhya śītābhir adbhiḥ pariṣiñcya sthirībhūtaṃ śalyam uddharet
+                        || </l>
+
+                    <l xml:id="SS.1.27.18-21"> ajā<lb n="3"/>nuṣaṃ jatunā liptayā
+                        pūrvvakalpenāsthiśalyam anyad vā tiryak ka<cb/>ṇṭhaśaktam avekṣyañ ca
+                        keśoṇḍukadṛḍhaikadīrghasūtrabandhanaṅ kṛtvā dravabhaktopahitaṃ | pāyayed
+                        ākaṇṭhāc ca <lb n="4"/>pūrṇṇakoṣṭham vāmayet vamataś ca śalyaikadeśaśaktaṃ
+                        sūtraṃ sahasā tv ā<cb/>kṣipet | mṛdunā dantadhāvanakūrccakenāharet praṇuded
+                        vāntaḥkṣatakaṇṭhāya ca madhusarppirleham praya<lb n="5"/>cchet
+                        triphalācūrṇṇam vā madhuśarkkarāmiśram udakapūrṇṇam avāñcchira<cb/>sam
+                        avapīḍayet | dhunuyād vāmayec ca grāsaśalye tu kaṇṭhaśakte niḥśaṅkām
+                        anavabaddhaṃ skandhe muṣṭhinā <lb n="6"/>nihanyāt | snehasukhodakam vā
                         pāyayet || </l>
-                    
+
                     <l xml:id="SS.1.27.22"/>
-                    
+
                     <l xml:id="SS.1.27.23">
                         <expan>bhavanti<ex>bhavanti cātra</ex></expan> || </l>
-                    
+
                     <l xml:id="SS.1.27.23ab"> śalyākṛtiviśeṣām̐ś ca sthānañ cāvekṣya naikadhā | </l>
-                    
+
                     <l xml:id="SS.1.27.23cd"> tathā yantrapṛthaktvañ ca samyak chalyam athāharet || </l>
-                    
+
                     <l xml:id="SS.1.27.24ab"> karṇṇavanti ca<metamark function="line-filling"
-                        >¦</metamark>
+                            >¦</metamark>
                         <pb n="57r"/><lb n="1"/>śalyāni duḥkhāny āharaṇe viduḥ | </l>
-                    
+
                     <l xml:id="SS.1.27.24cd"> ādadīta bhiṣak tasmāt tāni yuktyā samāhitaḥ || </l>
-                    
+
                     <l xml:id="SS.1.27.25ab"> etair upāyaiḥ śalyan tu naiva nirhāryate yadi | </l>
-                    
+
                     <l xml:id="SS.1.27.25cd"> matyā nipunayā vaidyo yantrayogaiś ca nirharet || </l>
-                    
-                    <l xml:id="SS.1.27.26ab"> śo<lb n="2"/>phapākau rujaś cogrāḥ kuryāc chalyam anirhṛtam
-                        | </l>
-                    
-                    <l xml:id="SS.1.27.26cd"> vaikalyam maraṇaṃ <cb/>cāpi tasmād yatnād vinirhared iti ||
-                        27 || </l>
-                    
-                    <milestone unit="folio" n="57r2"/>
-                    
-                    
-                    
+
+                    <l xml:id="SS.1.27.26ab"> śo<lb n="2"/>phapākau rujaś cogrāḥ kuryāc chalyam
+                        anirhṛtam | </l>
+
+                    <l xml:id="SS.1.27.26cd"> vaikalyam maraṇaṃ <cb/>cāpi tasmād yatnād vinirhared
+                        iti || 27 || </l>
+
+                    <milestone n="57r2" unit="folio"/>
+
+
+
                 </div>
                 <!-- end of chapter 27 of Sūtrasthāna-->
 
