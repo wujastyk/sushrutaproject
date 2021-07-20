@@ -5,6 +5,7 @@
             <titleStmt>
                 <title>MS Kathmandu NAK 5-333: Kalpasthāna</title>
             </titleStmt>
+
             <publicationStmt>
                 <p>Suśruta project, University of Alberta</p>
             </publicationStmt>
@@ -88,8 +89,9 @@
                         </handDesc>
 
                         <scriptDesc>
-                            <scriptNote xml:id="script-śa-sa"><foreign xml:lang="sa">śa</foreign> and
-                                <foreign xml:lang="sa">sa</foreign> not distinguished.</scriptNote>
+                            <scriptNote xml:id="script-śa-sa"><foreign xml:lang="sa">śa</foreign>
+                                and <foreign xml:lang="sa">sa</foreign> not
+                                distinguished.</scriptNote>
                             <!--                     this śa/sa equivalence may be wrong. Still checking, 2021-07-12  - DW -->
                         </scriptDesc>
 
@@ -105,6 +107,25 @@
                 </msDesc>
             </sourceDesc>
         </fileDesc>
+
+        <encodingDesc>
+            <charDecl>
+                <glyph xml:id="thaayjaayekaa">
+                    <localProp name="thaayjaayekaa" value="NEWA GAP FILLER"/>
+                    <mapping type="standard">&#x1144E;</mapping>
+                    <mapping type="PUA">U+1144E </mapping>
+                    <note><ref target="https://unicode.org/charts/PDF/U11400.pdf"></ref></note>
+                </glyph>
+            </charDecl>
+            <charDecl>
+                <glyph xml:id="siddhi">
+                    <localProp name="siddhi" value="SIDDHI"/>
+                    <mapping type="standard">&#x1144A;</mapping>
+                    <mapping type="PUA">U+1144E </mapping>
+                    <note><ref target="https://unicode.org/charts/PDF/U11400.pdf"></ref></note>
+                </glyph>
+            </charDecl>
+        </encodingDesc>
 
         <revisionDesc>
             <change when="2021-05-21" who="Dominik Wujastyk"> Started the file. </change>
@@ -123,16 +144,15 @@
 
                     <milestone unit="folio" n="dscn3301 fol 323.jpg lower"/>
 
-                    <l xml:id="SS.5.1.1"><unclear>1</unclear>athāto 'nnapānarakṣākalpam vyākhyāsyāmaḥ
-                        ||</l>
+                    <l xml:id="SS.5.1.1"><choice><abbr type="contraction">1</abbr><expan><ex>siddhir astu</ex></expan></choice>  athāto 'nnapānarakṣākalpam
+                        vyākhyāsyāmaḥ ||</l>
 
                     <l xml:id="SS.5.1.2">yathovāca bhagavān dhanvantariḥ || <add place="above"
                             hand="#main_hand">atha khalu vatsasuśrutaḥ | 1</add></l>
 
                     <l xml:id="SS.5.1.3">divodāsakṣitipatis tapodharmmabhṛtām varaḥ |
                         <caesura/>
-                        suśrutapramukhāñ chiṣyān 
-                        śaśāsā<lb n="2"/>hata<pc> </pc><subst>
+                         suśrutapramukhāñ chiṣyān śaśāsā<lb n="2"/>hata<pc> </pc><subst>
                             <del rend="three superscript dots">sātanaḥ</del>
                             <add place="margin">śāsanaḥ | 2</add>
                         </subst> ||</l>
@@ -142,41 +162,43 @@
                         <caesura/>
                          sisṛkṣavaḥ krodhaviṣaṃ vivaram prāpya tādṛśaṃ ||</l>
 
-                    <l xml:id="SS.5.1.5ab">viṣair hiṃsyur akiñcijñaṃ nṛpatin
-                        duṣṭavetasaḥ |</l>
-                    
-                    <l xml:id="SS.5.1.5cd"/>
-                    
-                    <l xml:id="SS.5.1.6ab"/>
-                    
-                    <l xml:id="SS.5.1.6cd">tasmād vaidye<lb n="3"/>na śatataṃ viṣād rakṣen narādhipaḥ
-                        |</l>
-                    
-                    
+                    <l xml:id="SS.5.1.5ab">viṣair hiṃsyur akiñcijñaṃ nṛpatin duṣṭavetasaḥ |</l>
 
-                    <l xml:id="SS.5.1.7">yasmāc cānityaci<subst><del rend="three superscript dots">nna</del><add place="margin">tta</add></subst>tvam aśvavat pra<cb/>thitan nṛṣu |
+                    <l xml:id="SS.5.1.5cd"/>
+
+                    <l xml:id="SS.5.1.6ab"/>
+
+                    <l xml:id="SS.5.1.6cd">tasmād vaidye<lb n="3"/>na śatataṃ viṣād rakṣen
+                        narādhipaḥ |</l>
+
+
+
+                    <l xml:id="SS.5.1.7">yasmāc cānityaci<subst>
+                            <del rend="three superscript dots">nna</del>
+                            <add place="margin">tta</add>
+                        </subst>tvam aśvavat pra<cb/>thitan nṛṣu |
                         <caesura/>
                          tasmān na viśvased rājā kadācid api kasya cit |</l>
 
-                    <l xml:id="SS.5.1.8ab">kulīnan dhārmmikaṃ snigdham akṛśaṃ satatotthi<lb n="4"/>taṃ
-                        |</l>
+                    <l xml:id="SS.5.1.8ab">kulīnan dhārmmikaṃ snigdham akṛśaṃ satatotthi<lb n="4"
+                        />taṃ |</l>
 
                     <l xml:id="SS.5.1.8cd"/>
-                    
+
                     <l xml:id="SS.5.1.9"/>
 
                     <l xml:id="SS.5.1.10"/>
                     <l xml:id="SS.5.1.11ab"/>
-                    
+
                     <l xml:id="SS.5.1.11cd">mahānase niyuñjīta vaidyan tadvidyapūjitaṃ |</l>
 
                     <l xml:id="SS.5.1.12ab">praśastadigdeśa<cb/>kṛtaṃ sūcibhāṇḍam mahacchuciḥ |</l>
-                    
+
                     <l xml:id="SS.5.1.12cd"/>
-                    
-                    
+
+
                     <l xml:id="SS.5.1.13ab"/>
-                    
+
                     <l xml:id="SS.5.1.13cd">parīkṣitastrīpuruṣaṃ bhavec cāpi mahānasaṃ </l>
 
                     <l xml:id="SS.5.1.14"/>
@@ -186,11 +208,14 @@
                     <l xml:id="SS.5.1.16"/>
 
                     <l xml:id="SS.5.1.17ab"/>
-                    <l xml:id="SS.5.1.17cd">mahānasikavoḍhāraḥ sūpo<lb n="5"/>danikapūpikāḥ |</l>
+                    
+                    <l xml:id="SS.5.1.17cd">mahānasikavoḍhāraḥ sūpo<lb n="5"/>danika<pc
+                        > </pc>pūpikāḥ |</l>
 
-                    <l xml:id="SS.5.1.18">bhaveyur vaidyavaśagā ye cāpy anyetra kecana |<cb/>
+                    <l xml:id="SS.5.1.18">bhaveyur vaidyavaśagā <del extent="1" unit="char"/>ye cāpy
+                        anye tra kecana |<cb/>
                         <caesura/>
-                         iṅgitajño ma<unclear extent="2" unit="syllables"/>nuṣyāṇāṃ
+                        iṅgitajño ma<g ref="#thaayjaayekaa">&#x1144E;</g><g ref="#thaayjaayekaa">&#x1144E;</g>nuṣyāṇāṃ
                         vākceṣṭāmukhavaikṛtaiḥ |</l>
 
                     <l xml:id="SS.5.1.19">jānīyād viṣadātāram ebhir liṅgaiś ca vuddhi<lb n="6"/>mān
