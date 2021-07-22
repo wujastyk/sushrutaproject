@@ -92,7 +92,7 @@ References are canonical (i.e., the Ācārya vulgate).
 | 6.12     |           |           |              |      |
 | 6.13     |           |           |              |      |
 | 6.14     |           |           |              |      |
-| 6.15     |           |           |              |      |
+| 6.15     |           | ✓         |              |      |
 | 6.16     |           |           |              |      |
 | 6.17     |           | ✓         | ✓(suspended) |      |
 |          |           |           |              |      |
