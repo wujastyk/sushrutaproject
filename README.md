@@ -19,3 +19,8 @@ The manuscript and edition transcriptions at Saktumiva are at:
 * [Cikitsāsthāna](https://saktumiva.org/wiki/wujastyk/susrutasamhita/04-su.ci/04-ci-vulgate-edition)
 * [Kalpasthāna](https://saktumiva.org/wiki/wujastyk/susrutasamhita/05-su.ka/05-ka-vulgate-edition)
 * [Uttaratantra](https://saktumiva.org/wiki/wujastyk/susrutasamhita/06-su.ut/06-ut-vulgate-edition)
+
+
+## Project roadmap
+
+![gannt](https://user-images.githubusercontent.com/762246/127780310-8578546a-a707-4499-9f14-c2d1fefb2605.png)
