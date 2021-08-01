@@ -19,3 +19,10 @@ The manuscript and edition transcriptions at Saktumiva are at:
 * [Cikitsāsthāna](https://saktumiva.org/wiki/wujastyk/susrutasamhita/04-su.ci/04-ci-vulgate-edition)
 * [Kalpasthāna](https://saktumiva.org/wiki/wujastyk/susrutasamhita/05-su.ka/05-ka-vulgate-edition)
 * [Uttaratantra](https://saktumiva.org/wiki/wujastyk/susrutasamhita/06-su.ut/06-ut-vulgate-edition)
+
+
+## Project roadmap
+
+This chart is a statement of intentions written in 2019, before the pandemic and before the SSHRC cut one third of the requested grant funding.  There is therefore project slippage, especially regarding other manuscripts, travel and conferences.  But it may be useful to see the original intent. 
+
+![gannt](https://user-images.githubusercontent.com/762246/127780310-8578546a-a707-4499-9f14-c2d1fefb2605.png)
