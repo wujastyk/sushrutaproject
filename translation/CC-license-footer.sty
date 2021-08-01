@@ -1,0 +1,30 @@
+\usepackage{url,graphicx}
+\newcommand{\CClogo}
+{\includegraphics[height=4ex]{/home/dom/Dropbox/localtexmf/tex/graphics/CCASA-license-88x31}}
+
+\let\DWolddate\date
+%%\renewcommand{\date}[1]
+%%  {\DWolddate{#1\\[1ex] \PreliminaryNote{%
+%%  \CClogo\ 
+%%  The author(s) publish this work under a Creative Commons 
+%%  Attribution-ShareAlike 3.0 Unported License. To view a copy of this
+%%  license, visit
+%%  \url{http://creativecommons.org/licenses/by-sa/3.0/deed.en_GB}.}}}
+%\usepackage{watermark}
+%\thispageheading{\fbox{\parbox{\textwidth}{{{\centering\CClogo\ \par}
+%I am distributing this pre-publication draft under a Creative Commons 
+%Attribution-ShareAlike 4.0 International License. To see what this means, go to
+%\url{http://creativecommons.org/licenses/by-sa/4.0/}.}}}}
+\usepackage{fancyhdr}
+%\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[C]{\vspace{.25ex}\fbox{\tiny\parbox[c]{.5\textwidth}{\centering{\CClogo\\
+\copyright\ Dominik Wujastyk.  I am distributing this pre-publication draft under a\\ 
+Creative Commons 
+Attribution-ShareAlike 4.0 International License.\\ For details, see 
+\url{http://creativecommons.org/licenses/by-sa/4.0/}}}}}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+% see fancyhdr manual for the need to put \thispagestyle after \maketitle
+\let\oldmaketitle\maketitle
+\renewcommand{\maketitle}{\oldmaketitle\thispagestyle{fancy}}

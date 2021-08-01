@@ -1,0 +1,32 @@
+%!TeX root = medical-texts.tex
+%!TeX program = XeLaTeX 
+%!TeX encoding = UTF8
+% 
+% basic setup for XeLaTeX
+%
+%\usepackage{fontspec}
+
+% Normalize any residual Unicode combining accents, 
+% and write out error messages, if any:
+\XeTeXinputnormalization=1
+\tracinglostchars=1 
+\tracingonline=1 
+
+% basic XeTeX stuff:
+\usepackage{polyglossia}
+\usepackage{xltxtra}
+\defaultfontfeatures{Mapping=tex-text,Numbers=OldStyle}
+%
+\setotherlanguage{sanskrit}  % for transliterated Sanskrit
+\setotherlanguage{german}
+\newfontfamily\sanskritfont{Sanskrit 2003}
+%
+\setmainfont{TeX Gyre Pagella} % maybe for the final book?  Or Charis SIL?
+\setdefaultlanguage[variant=british]{english}
+
+% Define \sansk{} which is the same as \emph{}, except that it causes appropriate hyphenation
+% for Sanskrit words.  Use \sansk{} for Sanskrit and \emph{} for English.
+\newcommand{\sansk}[1]{\emph{\textsanskrit{#1}}}
+%\newcommand{\sansk}[1]{\emph{#1}}
+
+\AtBeginDocument{\input sanskrit-hyphenations}

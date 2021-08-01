@@ -1,0 +1,141 @@
+% XeLaTeX stuff:
+% Normalize any residual Unicode combining accents, 
+% and write out error messages, if any:
+\XeTeXinputnormalization=1
+\tracinglostchars=1 
+\tracingonline=1 
+
+\usepackage{polyglossia}
+\defaultfontfeatures{Mapping=tex-text}
+
+% xltxtra automatically loads: fixltx2e, etex, xunicode, fontspec.
+%\usepackage{xunicode} % get unicode encoding in PDF even when using \= etc.
+%\usepackage{fontspec}
+
+%\setmainfont{IndUni-P}
+
+%\setmainfont[Mapping=tex-text,Numbers=OldStyle]{Lucida Sans Unicode}
+
+
+
+% normal LaTeX stuff from here on:
+
+\setcounter{secnumdepth}{0}
+\usepackage{enumitem} % supersedes mdwlist: does it globally
+ \setlist{noitemsep,labelindent=\parindent,leftmargin=*}
+
+\usepackage{makeidx}
+\usepackage{multicol}
+% \multicolsep = 12pt plus 4pt minus 3pt % default
+\multicolsep = 1pt plus .25ex % like the starred environments
+
+\usepackage{longtable}
+\usepackage{index}              % multiple indexes
+\widowpenalty 4000
+\clubpenalty 300
+\brokenpenalty 5000
+\interfootnotelinepenalty 10 % lets notes break more easily
+\vfuzz2pt % Don't report over-full v-boxes if over-edge is small
+\hfuzz2pt % Don't report over-full h-boxes if over-edge is small
+%
+\hyphenation{dharam-pal wuj-as-tyk never-the-less nutri-tive
+  asoka kerala Aristotle Alex-ander Majno manu-script manu-scripts}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% private abbreviations
+\newcommand{\AD}{{\small AD}{}}
+\newcommand{\BC}{{\small BC}{}}
+%\newcommand{\AD}{{\small CE}{}}
+%\newcommand{\BC}{{\small BCE}{}}
+\providecommand{\Cs}{\emph{Caraka\-saṃ\-hitā}}  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% unicode chars
+\providecommand{\Ss}{\emph{Suśruta\-saṃ\-hitā}}
+\providecommand{\Ah}{\emph{Aṣṭāṅga\-hṛdaya\-saṃ\-hitā}}
+%
+\usepackage{marginfix}
+\newcommand{\q}[1]{%
+    \marginpar{%
+%        \rlap{%
+            \fbox{\vtop{\hsize 0.2\textwidth\raggedright\tiny#1}}}}
+            %}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% \diatop, used for r underdot overbar (F6, 246)
+% See Conference Proceedings, TeXniques no. 5, p.11.
+\def\diatop[#1|#2]{\leavevmode{\setbox1=\hbox{{#1{}}}\setbox2=\hbox{{#2{}}}%
+    \dimen0=\ifdim\wd1>\wd2\wd1\else\wd2\fi%
+    \dimen1=\ht2\advance\dimen1by-1ex%
+    \setbox1=\hbox to1\dimen0{\hss#1\hss}%
+    \rlap{\raise1\dimen1\box1}%
+    \hbox to1\dimen0{\hss#2\hss}}}%
+%e.g. of use: \diatop[\'|{\=o}] gives u macron acute
+
+% nice hanging-indent footnotes.  LaTeX Companion, p.73:
+\def\hangfootnotes{%
+\renewcommand{\@makefntext}[1]{\setlength{\parindent}{0pt}%
+  \begin{list}{}{\setlength{\labelwidth}{1.5em}%
+    \setlength{\leftmargin}{\labelwidth}%
+    \setlength{\labelsep}{3pt}\setlength{\itemsep}{0pt}%
+    \setlength{\parsep}{0pt}\setlength{\topsep}{0pt}%
+    \footnotesize}\item[\hfill\@makefnmark]##1%
+  \end{list}}%
+}
+
+% Command to draw a box where the pictures will go:
+\newcommand{\pretendpicture}{{\centering \fbox{\vrule width0pt height 2.5in depth0pt
+  \vrule width 4in height0pt depth0pt }\par }}
+
+% use as follows:
+%\begin{figure}[htp]
+%\begin{center}
+%  \pretendpicture
+%\end{center}
+%\caption{}
+%\label{fig: }
+%\end{figure}
+
+%% from article.cls
+%\typeout{Wujastyk: NB: Modified maketitle command, flush 
+%left and no array for authors.}
+%
+%\providecommand\@maketitle{%
+%  \newpage
+%  \null
+%  \vskip 2em%
+%%  \begin{center}%
+%  \let \footnote \thanks
+%    \noindent{\LARGE \@title \par}%
+%    \vskip 1.5em%
+%   \noindent {\large
+%      \lineskip .5em%
+%%      \noindent
+%%      \begin{tabular}[t]{l} %DW
+%      \@author
+%%      \end{tabular}\par  %DW
+%     }%
+%    \vskip 1em%
+%   \noindent {\large \@date}%
+%%  \end{center}%
+%  \par
+%  \vskip 3em} %DW  was 1.5em
+
+% See http://cs.wlu.edu/~necaise/refs/latex2e/env-list.4.html
+\newenvironment{sloka} % based on {verse}, from book.cls
+               {\let\\\@centercr
+                \list{}{\itemsep      \z@
+                        \topsep .1\baselineskip
+                        \parsep .25\baselineskip
+                        \itemindent   -1.5em%
+                        \listparindent\itemindent
+                        \rightmargin  \z@
+                        \leftmargin 3pc % = CUP's \SFB@indent
+                        \advance\leftmargin 1.5em}%
+               \item\itshape\relax}
+               {\endlist}
+%
+
+% Preliminary numberless "footnote" for abbreviations,
+% grant references, and other general initial statements.
+\newcommand{\PreliminaryNote}[1]{%
+{\def\thefootnote{\relax }
+ \footnotetext{\hspace*{-2.3em} %only if not using \hangfootnotes
+  #1}}
+}
+%
+%\usepackage{hyperref}
