@@ -23,6 +23,6 @@ The manuscript and edition transcriptions at Saktumiva are at:
 
 ## Project roadmap
 
-This chart is a statement of intentions written in 2019, before the pandemic and before the SSHRC cut one third of the requested grant funding.  There is therefore project slippage, but it may be useful to see the original intent. 
+This chart is a statement of intentions written in 2019, before the pandemic and before the SSHRC cut one third of the requested grant funding.  There is therefore project slippage, especially regarding travel and conferences.  But it may be useful to see the original intent. 
 
 ![gannt](https://user-images.githubusercontent.com/762246/127780310-8578546a-a707-4499-9f14-c2d1fefb2605.png)
