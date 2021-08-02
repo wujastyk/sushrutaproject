@@ -35,15 +35,8 @@
 
                     <physDesc>
                         <p resp="Harshal Bhatt">Folios 4r and 4v are missing|</p>
-                        <p resp = "Harshal Bhatt">Folio no 12r and 12v missing.
-                            
-                            Additions
-                            SS.1.13.21ab
-                            SS.1.13.21cd
-                            SS.1.13.23ef
-                            SS.1.13.23gh
-                            
-                        </p>
+                        <p resp="Harshal Bhatt">Folio no 12r and 12v missing| Additions SS|1|13|21ab
+                            SS|1|13|21cd SS|1|13|23ef SS|1|13|23gh </p>
                         <objectDesc form="pothi">
                             <!-- @form can be "pothi", "book", scroll", etc. -->
                             <supportDesc material="palm-leaf"
@@ -61,7 +54,7 @@
                     </physDesc>
                     <history>
                         <origin>
-                            <origDate calendar="Nepal" when="0301">M Saṃvat 301 (878 CE).</origDate>
+                            <origDate calendar="Nepal" when="0301">M Saṃvat 301 (878 CE)|</origDate>
                             <!-- calendar can be "Vikrama", "Śaka", etc. Dates can be approximate or exact. -->
                         </origin>
                     </history>
@@ -93,10 +86,10 @@
             <change when="2021-07-08" who="Harshal Bhatt">Added transcription of 1.8</change>
             <change when="2021-07-10" who="Harshal Bhatt">Added transcription of 1.9</change>
             <change when="2021-07-11" who="Harshal Bhatt">Added transcription of 1.10</change>
-            
+
             <change when="2021-07-13" who="Deepro Chakraborty">added 1.26 of KL699 and NAK5-33, some
                 corrections in the vulgate</change>
-            
+
             <change when="2021-07-16" who="Harshal Bhatt">Added transcription of 1.11</change>
 
             <change when="2021-07-15" who="Deepro Chakraborty">Added 1.27 of K and H and some
@@ -108,6 +101,9 @@
                 corrections in the vulgate (#44)</change>
             <change when="2021-07-30" who="Deepro Chakraborty">Added 1.29 of K and H and some
                 corrections in the vulgate (#44)</change>
+            <change when="2021-07-31" who="Harshal Bhatt">Added transcription of 1.14</change>
+            
+            
         </revisionDesc>
 
     </teiHeader>
@@ -234,11 +230,11 @@
 
                     <l xml:id="SS.1.1.14-16"> iha khalv āyurvedaprayojanaṃ vyādhyupasṛṣṭasya
                         vyādhiparimokṣaḥ svasthara<lb n="2"/>kṣaṇañ cāyur asmin vi<add place="above
-                            line" resp="later scribe">ṃ</add>da<unclear reason="smudged"
-                            >ntya</unclear>nena vāyur<!-- could be cāyur --> vindyata ity āyurvedas
-                        tasyāṅgavaram āgamapratyakṣā<cb/>nu<add place="inline"
-                        >nā</add><!-- unwanted correction? -->mānopamānair aviruddham ucyamānam
-                        upadhārayadhvam | </l>
+                            line" resp="later scribe">ṃ</add>da<unclear
+                            reason="smudged">ntya</unclear>nena vāyur<!-- could be cāyur -->
+                        vindyata ity āyurvedas tasyāṅgavaram āgamapratyakṣā<cb/>nu<add
+                            place="inline">nā</add><!-- unwanted correction? -->mānopamānair
+                        aviruddham ucyamānam upadhārayadhvam | </l>
 
 
                     <l xml:id="SS.1.1.17"> etad dhy aṅgaṃ prathamaṃ pradhānaṃ prāgabhihitatvād
@@ -430,6 +426,7 @@
 
 
 
+
                 </div>
 
 
@@ -587,6 +584,7 @@
 
                     <l xml:id="SS.1.4.9cd">śeṣāṇāṃ śalyata<cb/>ntrāṇāṃ mūlānyetāni nirddiśediti
                             ||<unclear extent="2" unit="syllables"/>||</l>
+
 
 
 
@@ -1010,6 +1008,7 @@
 
 
 
+
                 </div>
 
 
@@ -1124,6 +1123,7 @@
 
                     <l xml:id="SS.1.7.22cd">tasmāt smṛtaṅ kāṅkamukhaṃ pradhānaṃ sthāneṣu sarveṣv
                         avikāri yac ceti ||<unclear extent="1" unit="char"/><cb/> || ṅ ||</l>
+
 
 
 
@@ -1273,6 +1273,7 @@
 
 
 
+
                 </div>
 
                 <div n="10" type="adhyāyaḥ">
@@ -1337,6 +1338,7 @@
 
                     <l xml:id="SS.1.10.9.gh1">viśikhānupraveśañ ca proktaṃ vai pratha<cb/>mo daśa
                             ||<unclear extent="1" unit="char"/></l>
+
 
 
 
@@ -1493,11 +1495,11 @@
                     <l xml:id="SS.1.11.31cd">satvapramattena sadā prayukto rogānniha<cb/>nyādacireṇa
                         ghorāniti ||<unclear extent="2" unit="syllables"/></l>
                 </div>
-                
-                
-            
-                <div n="12" type="adhyāyaḥ">    
-                    
+
+
+
+                <div n="12" type="adhyāyaḥ">
+
                     <!--                Folio no 12r and 12v missing.
 
 Additions
@@ -1507,247 +1509,529 @@ SS.1.13.23ef
 SS.1.13.23gh
 
 -->
-                    
+
                     <l xml:id="SS.1.12.1">athāgnikarmavidhiṃ ||</l>
-                    
+
                     <l xml:id="SS.1.12.2"/>
-                    
-                    <l xml:id="SS.1.12.3">kṣārādagnirgarīyāṃ kriyāsu vyākhyāta<del>ā</del>staddagdhā<cb/>nāṃ rogāṇāmapunarbhavāt | svedaśastrakṣārairasakyānāṃ tatsādhanāc ca |</l>
-                    
-                    <l xml:id="SS.1.12.4">athaimāni daha<lb n="4"/>nopakaraṇāni bhavanti | pippalyajāśakṛdgodantaśaraśalākājamvvoṣṭhetaralohakṣaudraguḍa<cb/>snehādīni .
-                        tatra pippalyajāśakṛdgodantaśaraśalākāḥ stvaggatānāṃ | jamvvoṣṭhetaralohāḥ māṃsagatānāṃ | kṣaudraguḍa<cb/>snehāḥ sirāsnāyusandhyasthigatānā |</l>
-                    
-                    <l xml:id="SS.1.12.5">tatrāgnikarma sarvartuṣu kuryād anyatra śaradgrīṣmābhyāṃ |<lb n="5"/> tatrāpyātyayikegnisādhye vyādhau tatpratyanīkaṃ vidhiṃ kṛtvā</l>
-                    
+
+                    <l xml:id="SS.1.12.3">kṣārādagnirgarīyāṃ kriyāsu
+                        vyākhyāta<del>ā</del>staddagdhā<cb/>nāṃ rogāṇāmapunarbhavāt |
+                        svedaśastrakṣārairasakyānāṃ tatsādhanāc ca |</l>
+
+                    <l xml:id="SS.1.12.4">athaimāni daha<lb n="4"/>nopakaraṇāni bhavanti |
+                        pippalyajāśakṛdgodantaśaraśalākājamvvoṣṭhetaralohakṣaudraguḍa<cb/>snehādīni
+                        | tatra pippalyajāśakṛdgodantaśaraśalākāḥ stvaggatānāṃ | jamvvoṣṭhetaralohāḥ
+                        māṃsagatānāṃ | kṣaudraguḍa<cb/>snehāḥ sirāsnāyusandhyasthigatānā |</l>
+
+                    <l xml:id="SS.1.12.5">tatrāgnikarma sarvartuṣu kuryād anyatra śaradgrīṣmābhyāṃ
+                            |<lb n="5"/> tatrāpyātyayikegnisādhye vyādhau tatpratyanīkaṃ vidhiṃ
+                        kṛtvā</l>
+
                     <l xml:id="SS.1.12.6">sarvavyādhiṣvṛtuṣu ca picchilamannambhu<cb/>ktavataḥ |</l>
-                    
-                    <l xml:id="SS.1.12.7">tatra dvividhamagnidagdhamāhureke | tvagdagdhaṃ māṃsadagdhañ ca | iha tu sirāsnāyuṣu sandhyasthiṣv api na pratiṣiddhogniḥ<cb/> |</l>
-                    
-                    <l xml:id="SS.1.12.8">tatra śabdaprādurbhāvo durgandhatā tvaksaṃkocaś ca tvagdagdhe | kapotavarṇṇatālpaśvayathuvedanatā<lb n="6"/> śuṣkasaṃkucitavraṇatā ca māṃsadagdhe | kṛṣṇonnatavraṇatā srāvasannirodhaśca
-                        sirāsnāyudagdhe<cb/> rūkṣatāruṇatākarkaśasthiravraṇatā ca sandhyasthidagdhe ||</l>
-                    
-                    <l xml:id="SS.1.12.9">tatra śirorogādhimanthayorbhrūlalāṭaśaṅkhadeśeṣu dahedva<unclear>rtma</unclear>ro<cb/>geṣvārdranaktakapraticchannāndṛṣṭiṃ kṛtvā va<unclear>rtma</unclear>romakūpāṃ |</l>
-                    
-                    <l xml:id="SS.1.12.10">tvaṅmāṃsasirāsnāyusandhyasthigatamugrarujau<lb n="7"/> vāyau | duṣṭavraṇamucchitakaṭhinamāṃsagagranthyarbudāpacīgalaga<unclear>ṇḍa</unclear>gṛddhrasīmasakagulmodara
-                        bhaga<cb/>ndarārśasandhiślīpadacarmakīlatilakālakasirācchedanāḍīśoṇitātipravṛttiṣu cāgnikarma kuryāt |</l>
-                    
-                    <l xml:id="SS.1.12.11">tatra valayabindure<cb/>rekhāpratisāraṇāñceti dahaṇaviśeṣāḥ ||</l>
-                    
+
+                    <l xml:id="SS.1.12.7">tatra dvividhamagnidagdhamāhureke | tvagdagdhaṃ
+                        māṃsadagdhañ ca | iha tu sirāsnāyuṣu sandhyasthiṣv api na
+                        pratiṣiddhogniḥ<cb/> |</l>
+
+                    <l xml:id="SS.1.12.8">tatra śabdaprādurbhāvo durgandhatā tvaksaṃkocaś ca
+                        tvagdagdhe | kapotavarṇṇatālpaśvayathuvedanatā<lb n="6"/>
+                        śuṣkasaṃkucitavraṇatā ca māṃsadagdhe | kṛṣṇonnatavraṇatā srāvasannirodhaśca
+                        sirāsnāyudagdhe<cb/> rūkṣatāruṇatākarkaśasthiravraṇatā ca sandhyasthidagdhe
+                        ||</l>
+
+                    <l xml:id="SS.1.12.9">tatra śirorogādhimanthayorbhrūlalāṭaśaṅkhadeśeṣu
+                            dahedva<unclear>rtma</unclear>ro<cb/>geṣvārdranaktakapraticchannāndṛṣṭiṃ
+                        kṛtvā va<unclear>rtma</unclear>romakūpāṃ |</l>
+
+                    <l xml:id="SS.1.12.10">tvaṅmāṃsasirāsnāyusandhyasthigatamugrarujau<lb n="7"/>
+                        vāyau |
+                            duṣṭavraṇamucchitakaṭhinamāṃsagagranthyarbudāpacīgalaga<unclear>ṇḍa</unclear>gṛddhrasīmasakagulmodara
+                        bhaga<cb/>ndarārśasandhiślīpadacarmakīlatilakālakasirācchedanāḍīśoṇitātipravṛttiṣu
+                        cāgnikarma kuryāt |</l>
+
+                    <l xml:id="SS.1.12.11">tatra valayabindure<cb/>rekhāpratisāraṇāñceti
+                        dahaṇaviśeṣāḥ ||</l>
+
                     <l xml:id="SS.1.12.12">bha ||</l>
-                    
-                    <l xml:id="SS.1.12.12ab">rogasya saṃsthānamavekṣya dhīmāṃnarasya ma<pb n="11v"/>rmāṇi balābalañ ca |</l>
-                    
-                    <l xml:id="SS.1.12.12cd">vyādhintathartuñ ca samīkṣya samyak tato vyavasyedbhiṣa<add place="below">ga</add>gnikarma ||</l>
-                    
+
+                    <l xml:id="SS.1.12.12ab">rogasya saṃsthānamavekṣya dhīmāṃnarasya ma<pb n="11v"
+                        />rmāṇi balābalañ ca |</l>
+
+                    <l xml:id="SS.1.12.12cd">vyādhintathartuñ ca samīkṣya samyak tato
+                            vyavasyedbhiṣa<add place="below">ga</add>gnikarma ||</l>
+
                     <l xml:id="SS.1.12.13">tatra samyagda<cb/>gdheṣu madhusarpirabhyaṅgaḥ ||</l>
-                    
-                    <l xml:id="SS.1.12.14">athemāni pariharetpittaprakṛtimantaḥ śoṇitaṃ | bhinnakoṣṭhamanuddhṛtaśalyaṃ bālavṛddhabhīrudurba<cb/>lamanekavyādhipīḍitamasvedyāṃś ca ||</l>
-                    
-                    <l xml:id="SS.1.12.15">ata ūrddhamitarathādagdhaṃ vakṣyāmaḥ  tatra snigdhaṃ rūkṣañcāśri<lb n="2"/>tyadravyamagnirdahati | atisantapto hi snehaḥ sūkṣmamārgānusāritvāt tvagādīnanupraviśyāśu<cb/>
-                        dahati | tasmātsnehadagdhedhikā rujā bhavati |</l>
-                    
-                    <l xml:id="SS.1.12.16">tatra pluṣṭaṃ durdagdhaṃ samyagdagdhamatidagdhamiti caturvidhamagnidagdhambhavati | tatra yadviva<cb/>ṇṇamuṣyatetimātraṃ tatpluṣṭaṃ | yatrotptisphoṭa<add place="below">nā</add>
-                        tīvradāhadoṣavedanā cirāccopaśāmyati taddu<lb n="3"/>rdagdhaṃ | samyagdagdhamanavagāḍhaṃ pakvatālavarṇṇaṃ susaṃsthitaṃ pūrvalakṣaṇasaṃyuktaṃ ca | atidagdhe tu māṃsā<cb/>valaṃbanaṃ gātraviśleṣaḥ sandhivaiguṇyaṃ 
-                        sirāsnāyusandhyasthivyāpādanaṃ jvaradāhapipāsāmūrcchāścopadravā bhavanti | <add place="below">sa krimiścet</add> vraṇaścāsya<cb/> cireṇoparohatyuparūḍhaś ca vivarṇṇo bhavati .
-                        tadetaccaturvidhamagnidagdhalakṣaṇamānupūrvyoktaṃ<lb n="4"/> pūrvakarmaprasādhakaṃ bhavati ||</l>
-                    
+
+                    <l xml:id="SS.1.12.14">athemāni pariharetpittaprakṛtimantaḥ śoṇitaṃ |
+                        bhinnakoṣṭhamanuddhṛtaśalyaṃ
+                        bālavṛddhabhīrudurba<cb/>lamanekavyādhipīḍitamasvedyāṃś ca ||</l>
+
+                    <l xml:id="SS.1.12.15">ata ūrddhamitarathādagdhaṃ vakṣyāmaḥ tatra snigdhaṃ
+                            rūkṣañcāśri<lb n="2"/>tyadravyamagnirdahati | atisantapto hi snehaḥ
+                        sūkṣmamārgānusāritvāt tvagādīnanupraviśyāśu<cb/> dahati |
+                        tasmātsnehadagdhedhikā rujā bhavati |</l>
+
+                    <l xml:id="SS.1.12.16">tatra pluṣṭaṃ durdagdhaṃ samyagdagdhamatidagdhamiti
+                        caturvidhamagnidagdhambhavati | tatra yadviva<cb/>ṇṇamuṣyatetimātraṃ
+                        tatpluṣṭaṃ | yatrotptisphoṭa<add place="below">nā</add> tīvradāhadoṣavedanā
+                        cirāccopaśāmyati taddu<lb n="3"/>rdagdhaṃ | samyagdagdhamanavagāḍhaṃ
+                        pakvatālavarṇṇaṃ susaṃsthitaṃ pūrvalakṣaṇasaṃyuktaṃ ca | atidagdhe tu
+                        māṃsā<cb/>valaṃbanaṃ gātraviśleṣaḥ sandhivaiguṇyaṃ
+                        sirāsnāyusandhyasthivyāpādanaṃ jvaradāhapipāsāmūrcchāścopadravā bhavanti |
+                            <add place="below">sa krimiścet</add> vraṇaścāsya<cb/>
+                        cireṇoparohatyuparūḍhaś ca vivarṇṇo bhavati |
+                            tadetaccaturvidhamagnidagdhalakṣaṇamānupūrvyoktaṃ<lb n="4"/>
+                        pūrvakarmaprasādhakaṃ bhavati ||</l>
+
                     <l xml:id="SS.1.12.17">bha ||</l>
-                    
+
                     <l xml:id="SS.1.12.17ab">agninā kopitaṃ pittaṃ bhṛśañjantoḥ pradhāvati |</l>
-                    
+
                     <l xml:id="SS.1.12.17cd">tatastenai<cb/>va vegena raktañcāpyupadīryate |</l>
-                    
-                    <l xml:id="SS.1.12.18ab">tulyaviryepyu<add place="below"><unclear>bhe</unclear></add> hyete rasato dravyatastathā |</l>
-                    
+
+                    <l xml:id="SS.1.12.18ab">tulyaviryepyu<add place="below"
+                            ><unclear>bhe</unclear></add> hyete rasato dravyatastathā |</l>
+
                     <l xml:id="SS.1.12.18cd">tenāsya vedanāstīvrā prakṛtyā ca vidahyate |</l>
-                    
-                    <l xml:id="SS.1.12.19ab">sphoṭā<cb/>ḥ śīghraṃ prajāyante jvarastṛṣṇā ca bādhate ||</l>
-                    
+
+                    <l xml:id="SS.1.12.19ab">sphoṭā<cb/>ḥ śīghraṃ prajāyante jvarastṛṣṇā ca bādhate
+                        ||</l>
+
                     <l xml:id="SS.1.12.19cd">dagdhasyopaśamārthāya cikitsā sampravakṣyate |</l>
-                    
-                    <l xml:id="SS.1.12.20ab">pluṣṭasyā<lb n="5"/>gnipratapanaṃ kāryamuṣṇantathauṣadhaṃ |</l>
-                    
+
+                    <l xml:id="SS.1.12.20ab">pluṣṭasyā<lb n="5"/>gnipratapanaṃ
+                        kāryamuṣṇantathauṣadhaṃ |</l>
+
                     <l xml:id="SS.1.12.20cd">śarīre svinnabhūyiṣṭhe svinaṃ bhavati śoṇitaṃ |</l>
-                    
-                    <l xml:id="SS.1.12.21ab">prakṛtyā hyudakaṃ śītaṃ<cb/> skandayatyathaśoṇitaṃ |</l>
-                    
-                    <l xml:id="SS.1.12.21cd">tasmāt sukhayati hyuṣṇa na <add place="below">tu</add> śītaṃ kathañcanaḥ |</l>
-                    
-                    <l xml:id="SS.1.12.22ab">śītāmuṣṇāñ ca ca durdagdhe kriyāṃ kuryāttataḥ punaḥ |</l>
-                    
+
+                    <l xml:id="SS.1.12.21ab">prakṛtyā hyudakaṃ śītaṃ<cb/> skandayatyathaśoṇitaṃ
+                        |</l>
+
+                    <l xml:id="SS.1.12.21cd">tasmāt sukhayati hyuṣṇa na <add place="below">tu</add>
+                        śītaṃ kathañcanaḥ |</l>
+
+                    <l xml:id="SS.1.12.22ab">śītāmuṣṇāñ ca ca durdagdhe kriyāṃ kuryāttataḥ punaḥ
+                        |</l>
+
                     <l xml:id="SS.1.12.22cd">ghṛtālepana<cb/>sekāṃstu śītānevāsya kārayet ||</l>
-                    
+
                     <l xml:id="SS.1.12.23ab">samyagdagdhe tu kākṣīrīplakṣacandanagairikaiḥ |</l>
-                    
-                    <l xml:id="SS.1.12.23cd">sāmṛtaiḥ sa<lb n="6"/>rpiṣāyuktairālepaṃ kārayedbhiṣak ||</l>
-                    
+
+                    <l xml:id="SS.1.12.23cd">sāmṛtaiḥ sa<lb n="6"/>rpiṣāyuktairālepaṃ kārayedbhiṣak
+                        ||</l>
+
                     <l xml:id="SS.1.12.24ab">grāmyānūpaiḥ sajalajaiḥ piṣṭairmāṃsaiś ca lepayet |</l>
-                    
+
                     <l xml:id="SS.1.12.24cd">pitta<cb/>vidradhivaccainaṃ praśāntyoṣmāṇamācaret |</l>
-                    
+
                     <l xml:id="SS.1.12.25ab">atidagdhe tu śīrṇṇāni māṃsānyuddhṛtya śītalāṃ</l>
-                    
+
                     <l xml:id="SS.1.12.25cd">kriyāṅkuryāccūrṇṇakāle śālitaṇḍula<cb/>kaṇḍanaiḥ |</l>
-                    
+
                     <l xml:id="SS.1.12.26ab">tindukyāstvakkaṣāyair vā mṛdubhṛṣṭair upācaret |</l>
-                    
-                    <l xml:id="SS.1.12.26cd">vraṇaṅguḍūcīpatrair vā cchādayedathaco<lb n="7"/>dakaiḥ |</l>
-                    
+
+                    <l xml:id="SS.1.12.26cd">vraṇaṅguḍūcīpatrair vā cchādayedathaco<lb n="7"/>dakaiḥ
+                        |</l>
+
                     <l xml:id="SS.1.12.27ab">kriyāṅkuryāc ca nikhilāṃ bhiṣakpittavisarpavat ||</l>
-                    
+
                     <l xml:id="SS.1.12.27cd"/>
-                    
+
                     <l xml:id="SS.1.12.28ab"/>
-                    
+
                     <l xml:id="SS.1.12.28cd"/>
-                    
+
                     <l xml:id="SS.1.12.29ab"/>
-                    
+
                     <l xml:id="SS.1.12.29cd">athedānīṃ dhūmopahatavidhānaṃ va<cb/>kṣyāmaḥ |</l>
-                    
+
                     <l xml:id="SS.1.12.30ab">śvasityādhmāti cātyarthaṃ kāsatekṣavate bhṛśaṃ |</l>
-                    
+
                     <l xml:id="SS.1.12.30cd">cakṣuṣaḥ paridāhaś ca rāgaścaivopajāyate |</l>
-                    
+
                     <l xml:id="SS.1.12.31ab">sadhūmakaṃ niśvasiti ghre<cb/>yamanyanna veti ca |</l>
-                    
+
                     <l xml:id="SS.1.12.31cd">tathaiva ca rasāṃ sarvāṃ smṛtiścāsopahanyate |</l>
-                    
+
                     <l xml:id="SS.1.12.32ab">tṛṣṇādāhajvaraścetaḥ sīda<pb n="12r"/></l>
-                    
+
                     <!-- Folio no 12r and 12v are missing.-->
-                    
-                    <l xml:id="SS.1.12.32cd"/>
-                    
-                    <l xml:id="SS.1.12.33ab"/>
-                    
-                    <l xml:id="SS.1.12.33cd"/>
-                    
-                    <l xml:id="SS.1.12.34ab"/>
-                    
-                    <l xml:id="SS.1.12.34cd"/>
-                    
-                    <l xml:id="SS.1.12.34ef"/>
-                    
-                    <l xml:id="SS.1.12.35ab"/>
-                    
-                    <l xml:id="SS.1.12.35cd"/>
-                    
-                    <l xml:id="SS.1.12.35ef"/>
-                    
-                    <l xml:id="SS.1.12.36ab"/>
-                    
-                    <l xml:id="SS.1.12.36cd"/>
-                    
-                    <l xml:id="SS.1.12.37ab"/>
-                    
-                    <l xml:id="SS.1.12.37cd"/>
-                    
-                    <l xml:id="SS.1.12.38ab"/>
-                    
-                    <l xml:id="SS.1.12.38cd"/>
-                    
-                    <l xml:id="SS.1.12.39ab"/>
-                    
-                    <l xml:id="SS.1.12.39cd"/>
-                    
-                </div>    
-                
+
+                    <l xml:id="SS.1.12.32cd"><gap reason="missing folio"/></l>
+
+                    <l xml:id="SS.1.12.33ab"><gap reason="missing folio"/></l>
+
+                    <l xml:id="SS.1.12.33cd"><gap reason="missing folio"/></l>
+
+                    <l xml:id="SS.1.12.34ab"><gap reason="missing folio"/></l>
+
+                    <l xml:id="SS.1.12.34cd"><gap reason="missing folio"/></l>
+
+                    <l xml:id="SS.1.12.34ef"><gap reason="missing folio"/></l>
+
+                    <l xml:id="SS.1.12.35ab"><gap reason="missing folio"/></l>
+
+                    <l xml:id="SS.1.12.35cd"><gap reason="missing folio"/></l>
+
+                    <l xml:id="SS.1.12.35ef"><gap reason="missing folio"/></l>
+
+                    <l xml:id="SS.1.12.36ab"><gap reason="missing folio"/></l>
+
+                    <l xml:id="SS.1.12.36cd"><gap reason="missing folio"/></l>
+
+                    <l xml:id="SS.1.12.37ab"><gap reason="missing folio"/></l>
+
+                    <l xml:id="SS.1.12.37cd"><gap reason="missing folio"/></l>
+
+                    <l xml:id="SS.1.12.38ab"><gap reason="missing folio"/></l>
+
+                    <l xml:id="SS.1.12.38cd"><gap reason="missing folio"/></l>
+
+                    <l xml:id="SS.1.12.39ab"><gap reason="missing folio"/></l>
+
+                    <l xml:id="SS.1.12.39cd"><gap reason="missing folio"/></l>
+
+
+                </div>
+
                 <div n="13" type="adhyāyaḥ">
-                    
+
                     <!-- Folio no. 13r:1 -->
-                    
-                    <l xml:id="SS.1.13.1"/>
-                    
-                    <l xml:id="SS.1.13.2"/>
-                    
-                    <l xml:id="SS.1.13.3"/>
-                    
-                    <l xml:id="SS.1.13.4"/>
-                    
-                    <l xml:id="SS.1.13.5"/>
-                    
-                    <l xml:id="SS.1.13.5ab"/>
-                    
-                    <l xml:id="SS.1.13.5cd"/>
-                    
-                    <l xml:id="SS.1.13.6ab"/>
-                    
-                    <l xml:id="SS.1.13.6cd"/>
-                    
-                    <l xml:id="SS.1.13.7ab"/>
-                    
-                    <l xml:id="SS.1.13.7cd"/>
-                    
-                    <l xml:id="SS.1.13.8"/>
-                    
-                    <l xml:id="SS.1.13.9"/>
-                    
-                    <l xml:id="SS.1.13.10"/>
-                    
-                    <l xml:id="SS.1.13.11"/>
-                    
-                    <l xml:id="SS.1.13.12"/>
-                    
-                    <l xml:id="SS.1.13.13"/>
-                    
-                    <l xml:id="SS.1.13.14"/>
-                    
-                    <l xml:id="SS.1.13.14ab"/>
-                    
-                    <l xml:id="SS.1.13.14cd"/>
-                    
-                    <l xml:id="SS.1.13.15"/>
-                    
-                    <l xml:id="SS.1.13.16"/>
-                    
-                    <l xml:id="SS.1.13.17"/>
-                    
-                    <l xml:id="SS.1.13.17ab"/>
-                    
-                    <l xml:id="SS.1.13.17cd"/>
-                    
-                    <l xml:id="SS.1.13.18"/>
-                    
-                    <l xml:id="SS.1.13.19"/>
-                    
-                    <l xml:id="SS.1.13.20"/>
-                    
-                    <l xml:id="SS.1.13.21">vatsamyagvānteti |<unclear reason="torn">samyagvāntasali</unclear>lasarakenyastā bho<cb/>ktukāmā satī caredyā sīdati na ceṣṭate sā durvāntāṃ punaḥ samyak
-                        vāmayet | durvāntāyās tu indra<unclear>ma</unclear>donāmavyādhirasā<cb/>dhyo bhavati ||</l>
-                    
-                    <l xml:id="SS.1.13.21ab"><add place="inline">aprahṛṣṭaśiraḥ pā<unclear>nya</unclear>kāyenodveṣṭatesakṛt |</add> </l>
-                    
-                    <l xml:id="SS.1.13.21cd"><add place="inline">yā coṣṇaṃ kurute tāpaṃ tasyā<lb n="2"/>
-                        midamadaḥ smṛtaḥ |</add> athaināṃ pūrvavat sannidadhyāt |</l>
-                    
-                    <l xml:id="SS.1.13.22">śoṇitasya ca yogāyogamavekṣya jalau<cb/>kāmukhaṃ madhunāvaghaṭṭayet | badhnīta vā kaśāyamadhusnigdhaśītaiś ca pradehaiḥ pradihyāditi ||</l>
-                    
+
+                    <l xml:id="SS.1.13.1"><gap reason="missing folio"/></l>
+
+                    <l xml:id="SS.1.13.2"><gap reason="missing folio"/></l>
+
+                    <l xml:id="SS.1.13.3"><gap reason="missing folio"/></l>
+
+                    <l xml:id="SS.1.13.4"><gap reason="missing folio"/></l>
+
+                    <l xml:id="SS.1.13.5"><gap reason="missing folio"/></l>
+
+                    <l xml:id="SS.1.13.5ab"><gap reason="missing folio"/></l>
+
+                    <l xml:id="SS.1.13.5cd"><gap reason="missing folio"/></l>
+
+                    <l xml:id="SS.1.13.6ab"><gap reason="missing folio"/></l>
+
+                    <l xml:id="SS.1.13.6cd"><gap reason="missing folio"/></l>
+
+                    <l xml:id="SS.1.13.7ab"><gap reason="missing folio"/></l>
+
+                    <l xml:id="SS.1.13.7cd"><gap reason="missing folio"/></l>
+
+                    <l xml:id="SS.1.13.8"><gap reason="missing folio"/></l>
+
+                    <l xml:id="SS.1.13.9"><gap reason="missing folio"/></l>
+
+                    <l xml:id="SS.1.13.10"><gap reason="missing folio"/></l>
+
+                    <l xml:id="SS.1.13.11"><gap reason="missing folio"/></l>
+
+                    <l xml:id="SS.1.13.12"><gap reason="missing folio"/></l>
+
+                    <l xml:id="SS.1.13.13"><gap reason="missing folio"/></l>
+
+                    <l xml:id="SS.1.13.14"><gap reason="missing folio"/></l>
+
+                    <l xml:id="SS.1.13.14ab"><gap reason="missing folio"/></l>
+
+                    <l xml:id="SS.1.13.14cd"><gap reason="missing folio"/></l>
+
+                    <l xml:id="SS.1.13.15"><gap reason="missing folio"/></l>
+
+                    <l xml:id="SS.1.13.16"><gap reason="missing folio"/></l>
+
+                    <l xml:id="SS.1.13.17"><gap reason="missing folio"/></l>
+
+                    <l xml:id="SS.1.13.17ab"><gap reason="missing folio"/></l>
+
+                    <l xml:id="SS.1.13.17cd"><gap reason="missing folio"/></l>
+
+                    <l xml:id="SS.1.13.18"><gap reason="missing folio"/></l>
+
+                    <l xml:id="SS.1.13.19"><gap reason="missing folio"/></l>
+
+                    <l xml:id="SS.1.13.20"><gap reason="missing folio"/></l>
+
+                    <l xml:id="SS.1.13.21">vatsamyagvānteti |<unclear reason="torn"
+                            >samyagvāntasali</unclear>lasarakenyastā bho<cb/>ktukāmā satī cared yā
+                        sīdati na ceṣṭate sā durvāntāṃ punaḥ samyak vāmayet | durvāntāyās tu
+                            indra<unclear>ma</unclear>donāmavyādhir asā<cb/>dhyo bhavati ||</l>
+
+                    <l xml:id="SS.1.13.21ab"><add place="inline">aprahṛṣṭaśiraḥ
+                                pā<unclear>nya</unclear>kāyenodveṣṭatesakṛt |</add>
+                    </l>
+
+                    <l xml:id="SS.1.13.21cd"><add place="inline">yā coṣṇaṃ kurute tāpaṃ tasyā<lb
+                                n="2"/> midamadaḥ smṛtaḥ |</add> athaināṃ pūrvavat sannidadhyāt
+                        |</l>
+
+                    <l xml:id="SS.1.13.22">śoṇitasya ca yogāyogam avekṣya jalau<cb/>kāmukhaṃ
+                        madhunāvaghaṭṭayet | badhnīta vā kaśāyamadhusnigdhaśītaiś ca pradehaiḥ
+                        pradihyād iti ||</l>
+
                     <l xml:id="SS.1.13.23">bha ||</l>
-                    
-                    <l xml:id="SS.1.13.23ef"><add place="inline">pītamātrarajalaukābhi<cb/>rghṛtena pariṣecayet |</add></l>
-                    
-                    <l xml:id="SS.1.13.23gh"><add place="inline">śoṇitasthāpaniyaiś ca śoṇitam pariṣecayet ||</add></l>
-                    
-                    <l xml:id="SS.1.13.23ab">kṣetrāṇi graha<lb n="3"/>ṇañ cāpi poṣaṇaṃ sāvacāraṇaṃ</l>
-                    
-                    <l xml:id="SS.1.13.23cd">jānīyādyo jalaukānāṃ sa rājñaḥ karttumarhati ||<unclear extent="2" unit="char"/></l>
+
+                    <l xml:id="SS.1.13.23ef"><add place="inline">pītamātrarajalaukābhi<cb/>rghṛtena
+                            pariṣecayet |</add></l>
+
+                    <l xml:id="SS.1.13.23gh"><add place="inline">śoṇitasthāpaniyaiś ca śoṇitam
+                            pariṣecayet ||</add></l>
+
+                    <l xml:id="SS.1.13.23ab">kṣetrāṇi graha<lb n="3"/>ṇañ cāpi poṣaṇaṃ
+                        sāvacāraṇaṃ</l>
+
+                    <l xml:id="SS.1.13.23cd">jānīyād yo jalaukānāṃ sa rājñaḥ karttum arhati ||<unclear
+                            extent="2" unit="char"/></l>
+                </div>
+                
+                
+
+                <div n="14" type="adhyāyaḥ">
+
+                    <l xml:id="SS.1.14.1">athātaḥ śoṇitavarṇṇanīyaṃ vyā ||</l>
+
+                    <l xml:id="SS.1.14.2"/>
+
+                    <l xml:id="SS.1.14.3">pāñcabhautikasya caturvidhasyāhārasya ṣaḍrasopetasya
+                        dvividhavīrya<cb/>syāṣṭavidhavīryasya vā anekaguṇopayuktasyāhārasya
+                            samya<unclear>kpa</unclear>riṇatasya yastejo<add place="margin"
+                        >ṇa</add>bhūtaḥ sāraḥ<lb n="4"/> paramasūkṣmaḥ sa rasa ityucyate | tasya
+                        hṛdayaṃ sthānaṃ | sahṛdayāccaturviṃśatirdhamanīranupraviśyo<cb/>rdhvagā daśa
+                        daśa cādhogāminyaścatasrastiryaggāḥ kṛtsnaṃ śarīramaharahastarpayati
+                                <unclear>jī<add place="below">pa</add>vati</unclear> yāpayati
+                        vardhayati cādṛṣṭahetuke<cb/>na karmaṇā | tasya śarīramanusaratonumānād
+                        gatirupalakṣayitvā kṣayavṛddhīhetukī ||<add place="margin">guṇa</add><lb
+                            n="5"/>
+                        <!--I couldn't find where to put last addition. --> tasmiṃ
+                        sarvaśarīrāvayavadoṣadhātumalāśayānusāriṇi rase jijñāsā | kimayaṃ
+                        saumyaste<cb/>jasa iti | sa khalu dravatvādanusaraṇo
+                        snehanajīvanatarpaṇadhāraṇādibhirviśeṣaiḥ saumya ityavagamyate |</l>
+
+                    <l xml:id="SS.1.14.4">sa khalvāpyo raso yakṛtplīhānau prāpya rāgam upaiti || </l>
+
+                    <l xml:id="SS.1.14.5">bha ||</l>
+
+                    <l xml:id="SS.1.14.5ab">rañjitāstejasā tvāpaḥ śarīrasthena de<lb n="6"/>hināṃ
+                        |</l>
+
+                    <l xml:id="SS.1.14.5cd">avyāpannāḥ prasannena raktamityeva tadviduḥ ||</l>
+
+                    <l xml:id="SS.1.14.6ab">rasādeva striyā raktamṛtusaṃjñaṃ pravartate<cb/></l>
+
+                    <l xml:id="SS.1.14.6cd">dvādaśādvardhate varṣādyāti pañcāśataḥ kṣayaṃ |</l>
+
+                    <l xml:id="SS.1.14.7">ārttavaṃ śoṇitaṃ tvāgneyamāhuḥ || agnīṣomīyatvād
+                        garbhasya</l>
+
+                    <l xml:id="SS.1.14.8">pāñcabhautikatva<cb/>m apare jīvaṃ raktam āhur ācāryāḥ || bha
+                        ||</l>
+
+                    <l xml:id="SS.1.14.9ab">visratā dravatā rāgaḥ spandanantanutā tathā |<lb n="7"
+                        /></l>
+
+                    <l xml:id="SS.1.14.9cd">pṛthivyādi guṇāś cete dṛśyante śoṇite yataḥ |</l>
+
+                    <l xml:id="SS.1.14.10ab">rasādraktaṃ tato māṃsaṃ māṃsān medaḥ
+                        pravarttate<cb/></l>
+
+                    <l xml:id="SS.1.14.10cd">medasosthi tato majjā majjāśukraṃ tataḥ prajāḥ ||</l>
+
+                    <l xml:id="SS.1.14.11">tatraiṣān dhātūnāṃm annapānarasaḥ prīṇāyitā bhavati || bha
+                        ||</l>
+
+                    <l xml:id="SS.1.14.12ab">rasa<cb/>jaṃ puruṣaṃ vidyād rasaṃ rakṣeta yatnataḥ |</l>
+
+                    <l xml:id="SS.1.14.12cd">annapānaprayogena āhāreṇa suyantritaḥ ||</l>
+
+                    <l xml:id="SS.1.14.13">ta<lb n="8"/>tra rasagato dhātur aharahar gacchatīti rasaḥ
+                        |</l>
+
+                    <l xml:id="SS.1.14.14">pañcaviṃśati kalāmatāni | caturaśītimca nava<cb/>ca
+                        kāṣṭhā ekaikasmin dhātāv avatiṣṭhante | evam māsena rasaḥ śukrībhavati
+                        strīṇāñ  cārttavam iti ||</l>
+
+                    <l xml:id="SS.1.14.15">bha ||</l>
+
+                    <l xml:id="SS.1.14.15ab">aṣṭādaśasa<cb/>hasrāṇi saṅkhyā hy asmiṃ samuccaye |</l>
+
+                    <l xml:id="SS.1.14.15cd">kalānān navatiś cāpi svatantraparatantrataḥ ||</l>
+
+                    <l xml:id="SS.1.14.15ef">rase gati<unclear reason="torn">viśe<pb n="13v"
+                            /></unclear>ṣoyaṃ mandāgner evam ānikaḥ |</l>
+
+                    <l xml:id="SS.1.14.15gh">anayaivoditāgneś ca vijñeyaḥ kālasaṃkhyayā ||</l>
+
+                    <l xml:id="SS.1.14.16">sa śabdārci<cb/>jālasantānavada<unclear>ṇu</unclear>nā
+                        viśeṣeṇānusaraty evaṃ śarīraṃ <add place="above">kevalaṃ</add></l>
+
+                    <l xml:id="SS.1.14.17">vyājīkaraṇyastvauṣadhyaḥ svaguṇabalātkarṣādvirecana<add
+                            place="above">va</add>dupayuktāḥ<cb/> śukraṃ virecayanti ||</l>
+
+                    <l xml:id="SS.1.14.18">yathā hi puṣpamukulastho gandho na śakyamihāstīti vaktuṃ |
+                        naiva nā<unclear reason="torn">stīti</unclear><lb n="2"/> atha cāsti satāṃ
+                        bhāvānāmutpattiriti kṛtvā kevalaṃ tu saukṣmyānnābhivyajyate | sa eva vivṛte
+                        keśa<cb/>re puṣpakālāntareṇābhivyakto bhavati | evambālānām api vayaḥ
+                        pariṇāmācśukraprādurbhāvo bhavati | romarājyārttavādiś ca vi<cb/>śeṣo
+                        nārīṇāṃ |</l>
+
+                    <l xml:id="SS.1.14.19">sa evānnaraso bhivṛddhānāṃ paripakvaśarīratvād aprīṇāno
+                        bhavati |</l>
+
+                    <l xml:id="SS.1.14.20">ta ete śa<lb n="3"/>rīdhāṇāraṇād dhātava ity ucyante |</l>
+
+                    <l xml:id="SS.1.14.21">teṣāṃ kṣayavṛddhīśoṇitanimitte | tasmāt tad adhikṛtya
+                        vakṣyāmaḥ<cb/>|| tatra saphenilam aruṇaṃ kṛṣṇaṃ paruṣaṃ tanu śīghragamaskandi
+                        ca vātaduṣṭaṃ | nīlampītaṃ haritaṃ śyāvaṃ viśramaniṣṭaṃ
+                        pipīlikāmakṣi<cb/>kāṇāñ ca pittena | gairikodakaprakāśaṃ snigdhaṃ śītaṃ
+                        vahalaṃ picchilaṃ viśrāvimāṃsapeśīsamaprabhaṃ ca<lb n="4"/> śleṣmaṇā |
+                        sarvalakṣaṇayuktaṃ sannipātena | pittavad raktenātikṛṣṇañ ca | dvidoṣaliṅga
+                        saṃsṛṣṭaṃ dvi<cb/>doṣaṃ |</l>
+
+                    <l xml:id="SS.1.14.22">indragopakaprakāśam asaṃhatam avivarṇṇañ ca prakṛtistham iti
+                        jānīyāt ||</l>
+
+                    <l xml:id="SS.1.14.23">visrāvyān anyatra vakṣyāmaḥ ||</l>
+
+                    <l xml:id="SS.1.14.24">athāvisrāvyā<cb/>ḥ sarvāṅgaśophaḥ kṣīṇasya vā
+                            cā<unclear>mla</unclear>bhojananimittaḥ
+                            pāṇḍurogyarśasyudariśoṣigarbhiṇī<lb n="5"/>nāñ ca svayathavaḥ |</l>
+
+                    <l xml:id="SS.1.14.25"/>
+
+                    <l xml:id="SS.1.14.26">tatra ṛjvasaṃkīrṇṇaṃ sūkṣmaṃ samam anavagāḍham anuttānam
+                        āśu śastrañ ca pātayet |<cb/></l>
+
+                    <l xml:id="SS.1.14.26a"
+                        >hṛdayabastigudanābhikakṣyava<unclear>ṅkṣa</unclear>ṇākṣikūṭapāṇipādatalāṃś
+                        ca varjayet |</l>
+
+                    <l xml:id="SS.1.14.26b">pūyagarbhāṃ punaryathoktairevopacaret |<cb/></l>
+
+                    <l xml:id="SS.1.14.27">tatra durvaddhe śītavātayor asvinne bhukte ca
+                        skannatvāc choṇitaṃ na sravati | alpaṃ vā sravati ||</l>
+
+                    <l xml:id="SS.1.14.27a">bha ||<add place="margin">cātra</add><lb n="6"/></l>
+
+                    <l xml:id="SS.1.14.28ab">vātaviṅmūtrasaṃgeṣu madamūrcchāśrameṣu ca |</l>
+
+                    <l xml:id="SS.1.14.28cd">nidrābhibhūte śīte vā nṛṇān nāsṛk sraved iti ||</l>
+
+                    <l xml:id="SS.1.14.29">tad duṣṭa<cb/>śoṇitam anirhriyamāṇaṃ vyādhivṛddhiṃ karoti
+                        |</l>
+
+                    <l xml:id="SS.1.14.30">atyuṣṇātisvinnātividdheṣv ajñasrāvitam atipravarttate |
+                        tad atipravṛttaṃ
+                        śirobhitā<cb/>pamāndhyatimiraprādurbhāvam dhātukṣayākṣepakasya
+                        pakṣāghātam ekāṅgavikāraṃ hikkāṃ kāsaṃ śvāsaṃ<lb n="7"/> pāṇḍurogaṃ
+                        vāśu karoti |</l>
+
+                    <l xml:id="SS.1.14.31"/>
+
+                    <l xml:id="SS.1.14.31ab">tan nātiśīte nātyuṣṇe nāsvinne nātitāpite</l>
+
+                    <l xml:id="SS.1.14.31cd">yavāgūṃ pratipī<cb/>tasya śoṇitaṃ mokṣayed bhiṣak ||</l>
+
+                    <l xml:id="SS.1.14.32ab">samyag gatvā yadā raktaṃ svayam evāvatiṣṭhate</l>
+
+                    <l xml:id="SS.1.14.32cd">śuddham evam vijānīyāt samyag visrāvitañ ca tat |<cb/></l>
+
+                    <l xml:id="SS.1.14.33ab">lāghavaṃ vedanāśāntir vyādhivegaparikṣayaḥ |</l>
+
+                    <l xml:id="SS.1.14.33cd">samyagvisrāvite liṅgaṃ prasādo manasas tathā |<lb n="8"
+                        /></l>
+
+                    <l xml:id="SS.1.14.34ab">tvagdoṣā granthayaḥ<unclear reason="torn">śophā
+                            rogāḥ</unclear> śoṇitajāś ca ye |<cb/></l>
+
+                    <l xml:id="SS.1.14.34cd">raktamokṣaṇaśīlānāṃ na bhavanti kadācana ||</l>
+
+                    <l xml:id="SS.1.14.35">atha khalv apravarttamāne | elāśītaśivaḥ       kuṣṭhatagarapāṭhābhadradāruvi<cb/>ḍaṃgacitrakatrikaṭukāgāradhūmaharidrārkā<unclear>ṅku</unclear>naktamālaphalai yathālābhaṃ
+                        tribhiś caturbhiḥ |<pb n="14r"/>samastair vā
+                            lavaṇapragāḍhair vraṇamukha gharṣaye<unclear reason="torn">d evaṃ sādhu
+                            bhavati ||</unclear></l>
+
+                    <l xml:id="SS.1.14.36">athāti pravṛtte<cb/>
+                        lodhramadhukapriyaṅgupattāṅgagairikarasāñjanaśaṃkhaśuktiyavamāṣagodhūmasarjarasacūrṇṇair anārdrair vraṇamukham avacūrṇṇā<cb/>ṅgulyagreṇāvapīḍayet
+                        | sālasarjārjunārimedagranthi<unclear reason="torn"
+                        >dhavadhanva</unclear>natvagbhi vā cūrṇṇīkṛtābhiḥ<lb n="2"/>
+                        kṣaumeṇa vadhyāsitena samudraphenena lākṣācūrṇṇair vā
+                        yathoktair bandhanadravyairgāḍhaṃ bandhīyāt |<cb/> vyadhānantaraṃ
+                        punar vyadhayet | śītācchādanabhojanāgārapariṣekaiḥ | śītair ālepaiḥ pradahair
+                        vāpacared agninā vā dahed ya<cb/>thoktaṃ kākolyādikvāthaṃ vā
+                        śarkarāmadhumadhuraṃ pācayet | eṇahariṇorabhraṃ mahiṣaśaśavarāhāṃ<lb n="3"
+                        />ṇāṃ vā rudhiraṃ kṣīrayūṣaṃ rasaiś cāśnīyāt | upadravāṃś ca
+                        yathoktān upacaret ||</l>
+
+                    <l xml:id="SS.1.14.36a">bha ||</l>
+
+                    <l xml:id="SS.1.14.37ab">dhātu<cb/>kṣayāt srute rakte mandaḥ sañjāyate nalaḥ |</l>
+
+                    <l xml:id="SS.1.14.37cd">pavanaś ca paraṅkopaṃ yāti tasmāt prayatnataḥ |</l>
+
+                    <l xml:id="SS.1.14.38ab">tan nātiśītair laghubhiḥ snigdhaiḥ śoṇi<cb/>tavardhanaiḥ
+                        |</l>
+
+                    <l xml:id="SS.1.14.38cd">īṣadamlair anamlair vā bhojanaiḥ samupācaret ||</l>
+
+                    <l xml:id="SS.1.14.39ab">caturvidhaṃ yad etad dhi rudhirasya ni<lb n="4"/>vāraṇaṃ
+                        |</l>
+
+                    <l xml:id="SS.1.14.39cd">sandhānaṃ skandanaṃ caiva pācanaṃ dahanaṃ tathā ||</l>
+
+                    <l xml:id="SS.1.14.40ab">vraṇaṃ kaṣāyaḥ sandhatte raktaṃ skandayate<cb/> himaṃ
+                        |</l>
+
+                    <l xml:id="SS.1.14.40cd">tathā sampācayed bhasma dāhaḥ saṅkocayetsirāṃ ||</l>
+
+                    <l xml:id="SS.1.14.41ab">askandamāne rudhire sandhānāni prayojayet |</l>
+
+                    <l xml:id="SS.1.14.41cd">sandhānai<del>ḥ</del>rbhra<cb/>śyamāne tu pācanaiḥ
+                        samupācaret |</l>
+
+                    <l xml:id="SS.1.14.42ab">kalpair ebhis tribhir vaidyaḥ prayateta yathāvidhiḥ |<lb
+                            n="5"/></l>
+
+                    <l xml:id="SS.1.14.42cd">asiddhimatsu caiteṣu dāha parama iṣyate |</l>
+
+                    <l xml:id="SS.1.14.43ab">saśeṣadoṣe rudhire na vyādhir ativarttate |</l>
+
+                    <l xml:id="SS.1.14.43cd"><unclear>na</unclear><cb/>śeṣaṃ sthāpayet tasmān na ca
+                        kuryād atikriyāṃ |</l>
+
+                    <l xml:id="SS.1.14.44ab">dehasya rudhiraṃ mūlaṃ rudhireṇaiva dhāryate |</l>
+
+                    <l xml:id="SS.1.14.44cd"/>
+
+                    <l xml:id="SS.1.14.44ef">tasmād rakṣed dhi ru<add place="inline">dhi</add>raṃ
+                        rudhirañ jīva u<cb/>cyate |</l>
+
+                    <l xml:id="SS.1.14.45ab">śrutaraktasya sekādyaiḥ śītaiḥ prakupite nile</l>
+
+                    <l xml:id="SS.1.14.45cd">śophaṃ satodaṃ koṣṇena sarpiṣā pari<lb n="6"/>ṣecayed
+                        iti ||<unclear extent="2" unit="char"/></l>
+
+
                 </div>
 
                 <div n="16" type="adhyāyaḥ">
 
                     <pb n="15v"/>
+
                     <milestone n="15v" unit="folio"/>
-                    <l xml:id="SS.1.16.1"><lb n="6"/>a<cb/>thātaḥ karṇṇavyadhavidhiṃ <choice><abbr type="suspension">vyā</abbr><expan><ex>khyāsyāmaḥ</ex></expan></choice>
-                        || </l>
+                    <l xml:id="SS.1.16.1"><lb n="6"/>a<cb/>thātaḥ karṇṇavyadhavidhiṃ <choice>
+                            <abbr type="suspension">vyā</abbr>
+                            <expan><ex>khyāsyāmaḥ</ex></expan>
+                        </choice> || </l>
                     <l xml:id="SS.1.16.2"/>
-                    <l xml:id="SS.1.16.3"> rakṣābhūṣaṇanimittaṃ bālasya karṇau vyadhayet | tau ṣaṣṭhe
-                        māse saptame vā śuklapakṣe praśasteṣu ti<cb/>thikaraṇamuhūrttanakṣatreṣu
-                        kṛtamaṅgalaṃ svastivācanan dhātryaṅkā<!--could be •ṅko--> kumāram
-                        upaveśyābhisāntvayamānaḥ <lb n="7"/> bhiṣag vāma<cb/>hastenākṛṣya karṇṇan
-                        daivakṛte chidre dakṣiṇahastena rma<!--check--> rju vidhyet | pūrvan dakṣiṇaṃ
-                        kumārasya vāmaṅ kanyāyāḥ | <add place="bottom">pratanuṃ sūcyā</add> bahalam
-                        ārayā </l>
+                    <l xml:id="SS.1.16.3"> rakṣābhūṣaṇanimittaṃ bālasya karṇau vyadhayet | tau
+                        ṣaṣṭhe māse saptame vā śuklapakṣe praśasteṣu
+                        ti<cb/>thikaraṇamuhūrttanakṣatreṣu kṛtamaṅgalaṃ svastivācanan
+                        dhātryaṅkā<!--could be •ṅko--> kumāram upaveśyābhisāntvayamānaḥ <lb n="7"/>
+                        bhiṣag vāma<cb/>hastenākṛṣya karṇṇan daivakṛte chidre dakṣiṇahastena
+                        rma<!--check--> rju vidhyet | pūrvan dakṣiṇaṃ kumārasya vāmaṅ kanyāyāḥ |
+                            <add place="bottom">pratanuṃ sūcyā</add> bahalam ārayā </l>
                     <l xml:id="SS.1.16.4"> śo<cb/>ṇitabahutvanivedanā yāṃ cānyadeśaviddham iti
                         jānīyāt | nirupadravatā taddeśaviddhaliṅgam<pb n="17r"/><milestone n="17r"
                             unit="folio"/></l>
@@ -1809,6 +2093,7 @@ SS.1.13.23gh
                     <l xml:id="SS.1.16.31"/>
                     <l xml:id="SS.1.16.32"/>
                     <p xml:id="SS.1.16.colophon"/>
+
 
                 </div>
 
@@ -1991,6 +2276,7 @@ SS.1.13.23gh
 
 
 
+
                 </div>
 
 
@@ -2029,9 +2315,9 @@ SS.1.13.23gh
                             amanojñadarśanagandhotya<cb n="1"/>rthavedanāvān
                             dāhapākarāgakaṇḍūśophapiṭakopadrutotyartha<unclear reason="faded"
                             >du</unclear>ṣṭaśoṇitasrāvī dīrghakālānubandhī ceti <add place="right
-                            margin" rend="kākapada">duṣṭa</add>vraṇaliṅgāni ||<cb n="2"/> tatra
-                        doṣocchrāyam avekṣya yathā<unclear reason="lacuna">svaṃ</unclear> prakurvīta
-                        || </l>
+                            margin" rend="kākapada"
+                        >duṣṭa</add>vraṇaliṅgāni ||<cb n="2"/> tatra doṣocchrāyam avekṣya
+                            yathā<unclear reason="lacuna">svaṃ</unclear> prakurvīta || </l>
 
                     <l xml:id="SS.1.22.8">atha sarvāsrāvām vakṣyāmaḥ | <unclear reason="faded">tatra
                             ghṛṣṭāsu chinnāsu</unclear>
@@ -2210,6 +2496,7 @@ SS.1.13.23gh
 
 
 
+
                 </div>
                 <!-- end of chapter 23 of Sūtrasthāna-->
 
@@ -2326,6 +2613,7 @@ SS.1.13.23gh
 
 
 
+
                 </div>
                 <!-- end of chapter 24 of sūtrasthāna -->
 
@@ -2350,7 +2638,8 @@ SS.1.13.23gh
                         rbbudaduṣṭavraṇanāḍīcarmmakīlatilakālakamedogranthiśleṣmanimittāś cāmas
                         tathā māṃsasirāsnāyukothamāṃsakandīmāṃsāsthigatam api ca śalyam utsaṅgaḥ <lb
                             n="2"/>śataponako jatumaṇir vvalmīkamadhuṣodhimānsa<add place="top
-                            margin">ḥ |</add> māṃsasaṃ<cb/>ghātagalaśuṇḍikā ity evamādayo vikārāḥ || </l>
+                            margin">ḥ |</add>
+                        māṃsasaṃ<cb/>ghātagalaśuṇḍikā ity evamādayo vikārāḥ || </l>
 
 
                     <l xml:id="SS.1.25.5ab"/>
@@ -2657,6 +2946,7 @@ SS.1.13.23gh
 
 
 
+
                 </div>
                 <!-- end of chapter 25 of Sūtrasthāna-->
 
@@ -2775,6 +3065,7 @@ SS.1.13.23gh
 
 
 
+
                 </div>
                 <!-- end of chapter 26 of Sūtrasthāna-->
 
@@ -2865,614 +3156,661 @@ SS.1.13.23gh
                     <l xml:id="SS.1.27.26cd"> vaikalyaṃ maraṇaṃ cāpi tasmā<cb n="1"/>d yatnād
                         vinirhared iti || 27 || ❈ || </l>
 
-                    <milestone unit="folio" n="26r4"/><!--026r IMG_0121.JPG-->
+                    <milestone unit="folio" n="26r4"/>
+                    <!--026r IMG_0121.JPG-->
 
 
                 </div>
                 <!-- end of chapter 27 of Sūtrasthāna-->
-                
-                
+
+
                 <div n="28" type="adhyāyaḥ">
                     <milestone unit="folio" n="26r4"/>
                     <!--026r IMG_0121.JPG-->
-                    
+
                     <l xml:id="SS.1.28.1"> athāto viparītavraṇavijñānīyaṃ
-                        <expan>vyā<ex>vyākhyāsyāmaḥ</ex></expan> || </l>
-                    
+                                <expan>vyā<ex>vyākhyāsyāmaḥ</ex></expan> || </l>
+
                     <l xml:id="SS.1.28.2"/>
-                    
+
                     <l xml:id="SS.1.28.3ab"> phalāgnijalavṛṣṭīnāṃ puṣpadhūmāmbudā <cb n="2"/>yathā | </l>
-                    
+
                     <l xml:id="SS.1.28.3cd"> khyāpayanti bhaviṣyatvaṃ <subst>
-                        <del rend="erasing"><unclear reason="faded" unit="syllable" n="3"/></del>
-                        <add>riṣṭāni</add>
-                    </subst> maraṇan tathā || </l>
-                    
-                    <l xml:id="SS.1.28.4ab"> tāni saukṣmyāt pramādād vā tathaivāśu vyatikra<lb n="5"/>māt
-                        | </l>
-                    
+                            <del rend="erasing"><unclear reason="faded" unit="syllable" n="3"
+                                /></del>
+                            <add>riṣṭāni</add>
+                        </subst> maraṇan tathā || </l>
+
+                    <l xml:id="SS.1.28.4ab"> tāni saukṣmyāt pramādād vā tathaivāśu vyatikra<lb n="5"
+                        />māt | </l>
+
                     <l xml:id="SS.1.28.4cd"> gṛhyante nodgatāny ajñair mumūrṣor na tv asambhavāt || </l>
-                    
+
                     <l xml:id="SS.1.28.5ab"> dhruvaṃ hi riṣṭe maraṇaṃ brāhmaṇais tat ki<cb n="1"
-                    />lāmalaiḥ | </l>
-                    
+                        />lāmalaiḥ | </l>
+
                     <l xml:id="SS.1.28.5cd"> rasāyanatapojapyatatparair vā nivāryate || </l>
-                    
+
                     <l xml:id="SS.1.28.6ab"> nakṣatrapīḍā bahudhā yathā kālā<subst>
-                        <del rend="erasing" unit="syllable" n="1"/>
-                        <add rend="overwriting">d vi</add>
-                    </subst>pacyate | </l>
-                    
+                            <del rend="erasing" unit="syllable" n="1"/>
+                            <add rend="overwriting">d vi</add>
+                        </subst>pacyate | </l>
+
                     <l xml:id="SS.1.28.6cd"> riṣṭapākan tathā <add place="column_gap">kecit</add>
                         <cb n="2"/>bruvate bahavo janāḥ || </l>
-                    
+
                     <l xml:id="SS.1.28.7ab"> asiddhim prāpnuyāl loke pratikurvaṅ gatāyuṣaḥ | </l>
-                    
-                    <l xml:id="SS.1.28.7cd"> tasmād yatnena riṣṭā<lb n="6"/>ni lakṣayet kuśalo bhiṣak || </l>
-                    
+
+                    <l xml:id="SS.1.28.7cd"> tasmād yatnena riṣṭā<lb n="6"/>ni lakṣayet kuśalo
+                        bhiṣak || </l>
+
                     <l xml:id="SS.1.28.8ab"> gandhavarṇṇarasādīnāṃ viśeṣāṇāṃ svabhāvataḥ || </l>
-                    
-                    <l xml:id="SS.1.28.8cd"> vaikṛtaṃ yat tad āca<cb n="1"/>ṣṭe vraṇinaḥ pakvalakṣaṇaṃ || </l>
-                    
+
+                    <l xml:id="SS.1.28.8cd"> vaikṛtaṃ yat tad āca<cb n="1"/>ṣṭe vraṇinaḥ
+                        pakvalakṣaṇaṃ || </l>
+
                     <l xml:id="SS.1.28.9ab"> kaṭus tīvraś ca visraś ca gandhas tu pavanādibhiḥ | </l>
-                    
+
                     <l xml:id="SS.1.28.9cd"> lohagandhis tu raktena vyāmiśraḥ sānnipā<subst>
-                        <del rend="erasing" unit="syllable" n="1"/>
-                        <add rend="overwriting">ti</add>
-                    </subst>ka<cb n="2"/>ḥ || </l>
-                    
+                            <del rend="erasing" unit="syllable" n="1"/>
+                            <add rend="overwriting">ti</add>
+                        </subst>ka<cb n="2"/>ḥ || </l>
+
                     <l xml:id="SS.1.28.10ab"> lājātasītailasamāḥ kiñcid visrāś ca gandhataḥ | </l>
-                    
+
                     <l xml:id="SS.1.28.10cd"> jñeyāḥ prakṛtigandhā<subst>
-                        <del rend="erasing" unit="syllable" n="2"/>
-                        <add>ḥ syur a</add>
-                    </subst>to nyad gandha<lb n="7"/>vaikṛtam || </l>
-                    
+                            <del rend="erasing" unit="syllable" n="2"/>
+                            <add>ḥ syur a</add>
+                        </subst>to nyad gandha<lb n="7"/>vaikṛtam || </l>
+
                     <l xml:id="SS.1.28.11ab"> madhyājyayoḥ sumanasāṃ padmacandanayor api | </l>
-                    
+
                     <l xml:id="SS.1.28.11cd"> sugandhā divyagandhāś ca mumūrṣūṇām vraṇā<cb n="1"/>ḥ
                         smṛtāḥ || </l>
-                    
+
                     <l xml:id="SS.1.28.12ab"> śvavājimūṣikādhvāṃkṣapūtivallūramatkuṇaiḥ | </l>
-                    
+
                     <l xml:id="SS.1.28.12cd"> sagandhāḥ paṅkagandhāś ca bhūmigandhāś ca garhitāḥ || </l>
-                    
+
                     <l xml:id="SS.1.28.13ab"> kuṃkumadhyāma<cb n="2"/>k<subst>
-                        <del rend="erasing">ā</del>
-                        <add>a</add>
-                    </subst>ṃguṣṭhasavarṇṇāḥ pittajāś ca ye </l>
-                    
-                    <l xml:id="SS.1.28.13cd"> na dahyante na śuṣyanti varjayet tān <cb/>vicakṣaṇaḥ || </l>
-                    
-                    <l xml:id="SS.1.28.14ab"> kaṇḍūmantaḥ sthi<pb n="26v"/><!-- 026v IMG_0122.JPG --><lb
-                        n="1"/><unclear reason="faded">rāḥ snigdhāḥ śvetāḥ kaphanimittajāḥ | </unclear>
+                            <del rend="erasing">ā</del>
+                            <add>a</add>
+                        </subst>ṃguṣṭhasavarṇṇāḥ pittajāś ca ye </l>
+
+                    <l xml:id="SS.1.28.13cd"> na dahyante na śuṣyanti varjayet tān <cb/>vicakṣaṇaḥ
+                        || </l>
+
+                    <l xml:id="SS.1.28.14ab"> kaṇḍūmantaḥ sthi<pb n="26v"
+                            /><!-- 026v IMG_0122.JPG --><lb n="1"/><unclear reason="faded">rāḥ
+                            snigdhāḥ śvetāḥ kaphanimittajāḥ | </unclear>
                     </l>
-                    
+
                     <l xml:id="SS.1.28.14cd"> dahyante vedanāvanto bhiṣak tān api varjayet || </l>
-                    
-                    <l xml:id="SS.1.28.15ab"> kṛṣṇā ye tv a<cb n="1"/>ruṇāsrāvā vātajā marmatāpinaḥ | </l>
-                    
+
+                    <l xml:id="SS.1.28.15ab"> kṛṣṇā ye tv a<cb n="1"/>ruṇāsrāvā vātajā marmatāpinaḥ
+                        | </l>
+
                     <l xml:id="SS.1.28.15cd"> svalpām api na kurvanti rujan tān api varjayet || </l>
-                    
+
                     <l xml:id="SS.1.28.16ab"> kṣveḍanti ghurghurāyanti jvalantīva ca ye vraṇāḥ </l>
-                    
+
                     <l xml:id="SS.1.28.16cd">
-                        <cb n="2"/>tvaṅmāṃsasthāś ca pavanaṃ saśabda<unclear reason="damage">ṃ</unclear>
-                        visṛjanti ye || </l>
-                    
+                        <cb n="2"/>tvaṅmāṃsasthāś ca pavanaṃ saśabda<unclear reason="damage"
+                            >ṃ</unclear> visṛjanti ye || </l>
+
                     <l xml:id="SS.1.28.17ab"> ye ca marmasvasaṃbhūtā bhavanty atyarthavedanāḥ | </l>
-                    
-                    <l xml:id="SS.1.28.17cd"> dahyante cā<lb n="2"/>nta<unclear reason="eccentric_ductus"
-                        unit="syllable" n="1"/>tyarthaṃ bahiś śītāś ca ye vraṇāḥ || </l>
-                    
+
+                    <l xml:id="SS.1.28.17cd"> dahyante cā<lb n="2"/>nta<unclear
+                            reason="eccentric_ductus" unit="syllable" n="1"/>tyarthaṃ bahiś śītāś ca
+                        ye vraṇāḥ || </l>
+
                     <l xml:id="SS.1.28.18ab"> dahyante bahir atyarthaṃ bhavanty antaś ca śītalāḥ | </l>
-                    
+
                     <l xml:id="SS.1.28.18cd"> śaktikuntadhvajarathā vā<cb n="1"/>jivāraṇapakṣiṇaḥ || </l>
-                    
+
                     <l xml:id="SS.1.28.19ab"> yeṣu cāpy avabhāseyuḥ prāsādākṛtayas tathā | </l>
-                    
+
                     <l xml:id="SS.1.28.19cd"> cūrṇṇāvakīrṇṇā iva ye bhānti cānavacūrṇṇitāḥ || </l>
-                    
+
                     <l xml:id="SS.1.28.20ab"> prāṇamāṃsa<cb n="2"/>kṣayaśvāsakāsārocakapīḍitāḥ | </l>
-                    
+
                     <l xml:id="SS.1.28.20cd"> pravṛddhapūyarudhirā vraṇā yeṣāñ ca marmasu || </l>
-                    
-                    <l xml:id="SS.1.28.21ab"> kriyābhiḥ <lb n="3"/>samyag ārabdhā na siddhyanti ca ye vraṇāḥ | </l>
-                    
-                    <l xml:id="SS.1.28.21cd"> varjayed api tāṃ prājñaḥ saṃrakṣann ātmano yaśaḥ ||
-                        28 <cb n="1"/>|| ❈ || </l>
-                    
+
+                    <l xml:id="SS.1.28.21ab"> kriyābhiḥ <lb n="3"/>samyag ārabdhā na siddhyanti ca
+                        ye vraṇāḥ | </l>
+
+                    <l xml:id="SS.1.28.21cd"> varjayed api tāṃ prājñaḥ saṃrakṣann ātmano yaśaḥ || 28
+                            <cb n="1"/>|| ❈ || </l>
+
                     <milestone unit="folio" n="26v3"/>
-                    
-                    
+
+
                 </div>
                 <!-- end of chapter 28 of Sūtrasthāna-->
-                
-                
+
+
                 <div n="29" type="adhyāyaḥ">
-               <milestone unit="folio" n="26v3"/>
-               <!-- 026v IMG_0122.JPG -->
+                    <milestone unit="folio" n="26v3"/>
+                    <!-- 026v IMG_0122.JPG -->
 
-               <l xml:id="SS.1.29.1"> athāto viparītadūtasvapnadarśanīyam
-                        <expan>vyā<ex>vyākhyāsyāmaḥ</ex></expan> || </l>
+                    <l xml:id="SS.1.29.1"> athāto viparītadūtasvapnadarśanīyam
+                                <expan>vyā<ex>vyākhyāsyāmaḥ</ex></expan> || </l>
 
-               <l xml:id="SS.1.29.2"/>
+                    <l xml:id="SS.1.29.2"/>
 
-               <l xml:id="SS.1.29.3ab"> dūtadarśanasambhāṣā veśaceṣṭitam eva ca | </l>
+                    <l xml:id="SS.1.29.3ab"> dūtadarśanasambhāṣā veśaceṣṭitam eva ca | </l>
 
-               <l xml:id="SS.1.29.3cd"> ṛkṣavelā tithiś caiva nimi<cb n="2"/>tta śakuno nilaḥ || </l>
+                    <l xml:id="SS.1.29.3cd"> ṛkṣavelā tithiś caiva nimi<cb n="2"/>tta śakuno nilaḥ
+                        || </l>
 
-               <l xml:id="SS.1.29.4ab"> gehe vaidyasya vāgdehamanasāṃ ca viceṣṭitaṃ | </l>
+                    <l xml:id="SS.1.29.4ab"> gehe vaidyasya vāgdehamanasāṃ ca viceṣṭitaṃ | </l>
 
-               <l xml:id="SS.1.29.4cd"> kathayanty āturagataṃ śubham vā <lb n="4"/>yadi vāśubham || </l>
+                    <l xml:id="SS.1.29.4cd"> kathayanty āturagataṃ śubham vā <lb n="4"/>yadi
+                        vāśubham || </l>
 
-               <l xml:id="SS.1.29.5ab"> pāṣaṇḍāśramavarṇṇānāṃ savarṇṇāḥ karmmasiddhaye | </l>
+                    <l xml:id="SS.1.29.5ab"> pāṣaṇḍāśramavarṇṇānāṃ savarṇṇāḥ karmmasiddhaye | </l>
 
-               <l xml:id="SS.1.29.5cd"> ta eva viparītāḥ syu dūtāḥ ka<cb n="1"/>rmavipattaye || </l>
+                    <l xml:id="SS.1.29.5cd"> ta eva viparītāḥ syu dūtāḥ ka<cb n="1"/>rmavipattaye || </l>
 
-               <l xml:id="SS.1.29.6ab"> napuṃsakaḥ strī bahavo nyathā kāryānusūyakāḥ | </l>
+                    <l xml:id="SS.1.29.6ab"> napuṃsakaḥ strī bahavo nyathā kāryānusūyakāḥ | </l>
 
-               <l xml:id="SS.1.29.6cd"> gardabhoṣṭrarathārūḍhā rudantyaḥ sa<unclear
-                     reason="eccentric_ductus" confidence="0.4">ndhya</unclear>ayos tathā || </l>
+                    <l xml:id="SS.1.29.6cd"> gardabhoṣṭrarathārūḍhā rudantyaḥ sa<unclear
+                            reason="eccentric_ductus" confidence="0.4">ndhya</unclear>ayos tathā || </l>
 
-               <l xml:id="SS.1.29.7ab"> vaidyaṃ ya upa<cb n="2"/>sarpanti dūtās te cāpi garhitāḥ | </l>
+                    <l xml:id="SS.1.29.7ab"> vaidyaṃ ya upa<cb n="2"/>sarpanti dūtās te cāpi
+                        garhitāḥ | </l>
 
-               <l xml:id="SS.1.29.7cd"> pāṣadaṇḍāyudhadharā śuklaitaranivāsanaḥ || </l>
+                    <l xml:id="SS.1.29.7cd"> pāṣadaṇḍāyudhadharā śuklaitaranivāsanaḥ || </l>
 
-               <l xml:id="SS.1.29.8ab"> ārdrajīrṇṇāva<lb n="5"/>savyekamalinodhva<subst>
-                     <del rend="erasing" unit="syllable" n="1"/>
-                     <add>ta</add>
-                  </subst>vāsasaḥ | </l>
+                    <l xml:id="SS.1.29.8ab"> ārdrajīrṇṇāva<lb n="5"/>savyekamalinodhva<subst>
+                            <del rend="erasing" unit="syllable" n="1"/>
+                            <add>ta</add>
+                        </subst>vāsasaḥ | </l>
 
-               <l xml:id="SS.1.29.8cd"> nyūnādhikāṅgātikṛṣṇā vikṛtā raudrarūpiṇaḥ || </l>
+                    <l xml:id="SS.1.29.8cd"> nyūnādhikāṅgātikṛṣṇā vikṛtā raudrarūpiṇaḥ || </l>
 
-               <l xml:id="SS.1.29.9ab"> rūkṣaniṣṭhura<cb n="1"/>vaktāras tv amaṅgalyābhidhāyinaḥ | </l>
+                    <l xml:id="SS.1.29.9ab"> rūkṣaniṣṭhura<cb n="1"/>vaktāras tv
+                        amaṅgalyābhidhāyinaḥ | </l>
 
-               <l xml:id="SS.1.29.9cd"> chindantas tṛṇakāṣṭhāni spṛśanto nāsikāstanam || </l>
+                    <l xml:id="SS.1.29.9cd"> chindantas tṛṇakāṣṭhāni spṛśanto nāsikāstanam || </l>
 
-               <l xml:id="SS.1.29.10ab"> vastrāntānāmikākeśanakharoma<subst>
-                     <del rend="erasing">ṃ</del>
-                     <del unit="syllable" rend="erasing" n="2"/>
-                     <add>daśāṃ</add>
-                  </subst> spṛśan | </l>
+                    <l xml:id="SS.1.29.10ab"> vastrāntānāmikākeśanakharoma<subst>
+                            <del rend="erasing">ṃ</del>
+                            <del unit="syllable" rend="erasing" n="2"/>
+                            <add>daśāṃ</add>
+                        </subst> spṛśan | </l>
 
-               <l xml:id="SS.1.29.11ab">
-                  <cb n="2"/>kapālopalabhasmāsthituṣāṅgārakarāś ca ye || </l>
+                    <l xml:id="SS.1.29.11ab">
+                        <cb n="2"/>kapālopalabhasmāsthituṣāṅgārakarāś ca ye || </l>
 
-               <l xml:id="SS.1.29.11cd"> likhanto vā mahīṃ kiṃcin muñcanto loṣṭabhedinaḥ | </l>
+                    <l xml:id="SS.1.29.11cd"> likhanto vā mahīṃ kiṃcin muñcanto loṣṭabhedinaḥ | </l>
 
-               <l xml:id="SS.1.29.12ab">
-                  <lb n="6"/>tailakarddamadigdhāṅgā raktasraganulepanāḥ || </l>
+                    <l xml:id="SS.1.29.12ab">
+                        <lb n="6"/>tailakarddamadigdhāṅgā raktasraganulepanāḥ || </l>
 
-               <l xml:id="SS.1.29.12cd"> phalaṃ pakvam asāram vā gṛhītvā<subst>
-                     <del rend="overwriting" unit="syllable" n="2"/>
-                     <add>nyac ca</add>
-                  </subst> tadvidhaṃ | </l>
+                    <l xml:id="SS.1.29.12cd"> phalaṃ pakvam asāram vā gṛhītvā<subst>
+                            <del rend="overwriting" unit="syllable" n="2"/>
+                            <add>nyac ca</add>
+                        </subst> tadvidhaṃ | </l>
 
-               <l xml:id="SS.1.29.13ab"> nakhair na<cb n="1"/>khāṅkarañ cāpi kareṇa caraṇan tathā | </l>
+                    <l xml:id="SS.1.29.13ab"> nakhair na<cb n="1"/>khāṅkarañ cāpi kareṇa caraṇan
+                        tathā | </l>
 
-               <l xml:id="SS.1.29.13cd"> upānaccarmahastā vā vikṛtāḥ vyādhipīḍitāḥ | </l>
+                    <l xml:id="SS.1.29.13cd"> upānaccarmahastā vā vikṛtāḥ vyādhipīḍitāḥ | </l>
 
-               <l xml:id="SS.1.29.14ab"> vāmācārā rudanto <add place="below">vā</add> śvāsino
-                     vikṛ<cb n="2"/>tekṣaṇāḥ || </l>
+                    <l xml:id="SS.1.29.14ab"> vāmācārā rudanto <add place="below">vā</add> śvāsino
+                            vikṛ<cb n="2"/>tekṣaṇāḥ || </l>
 
-               <l xml:id="SS.1.29.14cd"> yāmyān diśaṃ prāñjalayo viṣamaikapadaiḥ sthitā | </l>
+                    <l xml:id="SS.1.29.14cd"> yāmyān diśaṃ prāñjalayo viṣamaikapadaiḥ sthitā | </l>
 
-               <l xml:id="SS.1.29.15ab"> vaidyaṃ ya upasarpanti dūtās te cāpi ga<lb n="7"/><metamark
-                     rendition="jāyekā">𑑛</metamark>rhitāḥ || </l>
+                    <l xml:id="SS.1.29.15ab"> vaidyaṃ ya upasarpanti dūtās te cāpi ga<lb n="7"
+                            /><metamark rendition="jāyekā">𑑛</metamark>rhitāḥ || </l>
 
-               <l xml:id="SS.1.29.15cd"> dakṣiṇābhimu<cb n="1"/>khaṃ deśe maline krūrakarmmiṇaṃ | </l>
+                    <l xml:id="SS.1.29.15cd"> dakṣiṇābhimu<cb n="1"/>khaṃ deśe maline krūrakarmmiṇaṃ
+                        | </l>
 
-               <l xml:id="SS.1.29.15ef"/>
+                    <l xml:id="SS.1.29.15ef"/>
 
-               <l xml:id="SS.1.29.16ab"> bhūmau śayānaṃ nagnaṃ vā vegotsargeṣu vāśuciṃ || </l>
+                    <l xml:id="SS.1.29.16ab"> bhūmau śayānaṃ nagnaṃ vā vegotsargeṣu vāśuciṃ || </l>
 
-               <l xml:id="SS.1.29.16cd"> prakīrṇṇakeśam abhyaktaṃ svinnam viklavam eva vā | </l>
+                    <l xml:id="SS.1.29.16cd"> prakīrṇṇakeśam abhyaktaṃ svinnam viklavam eva vā | </l>
 
-               <l xml:id="SS.1.29.17ab">
-                  <cb n="2"/>vaidyaṃ ya upasarpanti dūtās te cāpi garhitāḥ </l>
+                    <l xml:id="SS.1.29.17ab">
+                        <cb n="2"/>vaidyaṃ ya upasarpanti dūtās te cāpi garhitāḥ </l>
 
-               <l xml:id="SS.1.29.17cd"> pitrye vā bahukārye vā tathā cotpātadarśane | </l>
+                    <l xml:id="SS.1.29.17cd"> pitrye vā bahukārye vā tathā cotpātadarśane | </l>
 
-               <l xml:id="SS.1.29.18ab"> madhyā<pb n="27r"/><!-- 027rIMG_0117.JPG --><lb n="1"/><gap
-                     unit="syllable" n="2"/>rdharātre vā sandhyayoḥ kṛttikāsu vā | </l>
+                    <l xml:id="SS.1.29.18ab"> madhyā<pb n="27r"/><!-- 027rIMG_0117.JPG --><lb n="1"
+                            /><gap unit="syllable" n="2"/>rdharātre vā sandhyayoḥ kṛttikāsu vā | </l>
 
-               <l xml:id="SS.1.29.18cd"> ārdrāśleṣāmaghāmūlāpūrvāsu bhara<lb n="1"/>ṇīṣu vā | </l>
+                    <l xml:id="SS.1.29.18cd"> ārdrāśleṣāmaghāmūlāpūrvāsu bhara<lb n="1"/>ṇīṣu vā | </l>
 
-               <l xml:id="SS.1.29.19ab">
-                  <cb n="1"/>navamyām atha ṣaṣṭhyām vā pakṣasandhidineṣu vā | </l>
+                    <l xml:id="SS.1.29.19ab">
+                        <cb n="1"/>navamyām atha ṣaṣṭhyām vā pakṣasandhidineṣu vā | </l>
 
-               <l xml:id="SS.1.29.19cd"> vaidyaṃ ya upasarpanti dūtās te cāpi garhitāḥ | </l>
+                    <l xml:id="SS.1.29.19cd"> vaidyaṃ ya upasarpanti dūtās te cāpi garhitāḥ | </l>
 
-               <l xml:id="SS.1.29.20ab"> svinnābhitaptā madhyāhne jva<cb n="2"/>lanasya samīpataḥ | </l>
+                    <l xml:id="SS.1.29.20ab"> svinnābhitaptā madhyāhne jva<cb n="2"/>lanasya
+                        samīpataḥ | </l>
 
-               <l xml:id="SS.1.29.20cd"> garhitāḥ pittarogeṣu dūtā vaidyaṃ samāgatāḥ | </l>
+                    <l xml:id="SS.1.29.20cd"> garhitāḥ pittarogeṣu dūtā vaidyaṃ samāgatāḥ | </l>
 
-               <l xml:id="SS.1.29.21ab"> ta eva kapharoge<lb n="2"/>ṣu karmmasiddhikarāḥ smṛtāḥ | </l>
+                    <l xml:id="SS.1.29.21ab"> ta eva kapharoge<lb n="2"/>ṣu karmmasiddhikarāḥ smṛtāḥ
+                        | </l>
 
-               <l xml:id="SS.1.29.21cd"> etena śeṣa vyākhyātaṃ svabudhyā vibhajed bhiṣak | </l>
+                    <l xml:id="SS.1.29.21cd"> etena śeṣa vyākhyātaṃ svabudhyā vibhajed bhiṣak | </l>
 
-               <l xml:id="SS.1.29.22ab"> raktapittāti<cb n="1"/>sāreṣu prameheṣu tathaiva ca | </l>
+                    <l xml:id="SS.1.29.22ab"> raktapittāti<cb n="1"/>sāreṣu prameheṣu tathaiva ca | </l>
 
-               <l xml:id="SS.1.29.22cd"> praśasto jalasaṃrodho vaidyāturasamāgamaḥ | </l>
+                    <l xml:id="SS.1.29.22cd"> praśasto jalasaṃrodho vaidyāturasamāgamaḥ | </l>
 
-               <l xml:id="SS.1.29.23ab"> evam vibhāgam vijñāya śeṣam budhyeta paṇḍi<cb n="2"/>taḥ | </l>
+                    <l xml:id="SS.1.29.23ab"> evam vibhāgam vijñāya śeṣam budhyeta paṇḍi<cb n="2"
+                        />taḥ | </l>
 
-               <l xml:id="SS.1.29.23cd"> śuklavāsā<add>ḥ</add> śucigauraḥ śyāmo vā priyadarśanaḥ | </l>
+                    <l xml:id="SS.1.29.23cd"> śuklavāsā<add>ḥ</add> śucigauraḥ śyāmo vā
+                        priyadarśanaḥ | </l>
 
-               <l xml:id="SS.1.29.24ab"> svasyāñ jātau <unclear reason="overwriting">svagotro vā
-                     dūtaḥ</unclear> kārya<lb n="3"/>karaḥ smṛtaḥ | </l>
+                    <l xml:id="SS.1.29.24ab"> svasyāñ jātau <unclear reason="overwriting">svagotro
+                            vā dūtaḥ</unclear> kārya<lb n="3"/>karaḥ smṛtaḥ | </l>
 
-               <l xml:id="SS.1.29.24cd"> goyānenāgatas tuṣṭaḥ padbhyām vā kliṣṭaceṣṭitaḥ | </l>
+                    <l xml:id="SS.1.29.24cd"> goyānenāgatas tuṣṭaḥ padbhyām vā kliṣṭaceṣṭitaḥ | </l>
 
-               <l xml:id="SS.1.29.25ab"> dhṛtimāṃś ca vidhijñaś ca kā<cb n="1"/>lajñaḥ pratipattimāṃ
-                  | </l>
+                    <l xml:id="SS.1.29.25ab"> dhṛtimāṃś ca vidhijñaś ca kā<cb n="1"/>lajñaḥ
+                        pratipattimāṃ | </l>
 
-               <l xml:id="SS.1.29.25cd"> alaṅkṛto maṅgalavāg dūtaḥ kāryakaraḥ smṛtaḥ | </l>
+                    <l xml:id="SS.1.29.25cd"> alaṅkṛto maṅgalavāg dūtaḥ kāryakaraḥ smṛtaḥ | </l>
 
-               <l xml:id="SS.1.29.26ab"> svastham prāṅmukha māsīnaṃ same deśe śucau śu<cb n="2"/>ciṃ
-                  | </l>
+                    <l xml:id="SS.1.29.26ab"> svastham prāṅmukha māsīnaṃ same deśe śucau śu<cb n="2"
+                        />ciṃ | </l>
 
-               <l xml:id="SS.1.29.26cd"> upagacchani ye vaidyaṃ te ca kāryakarāḥ smṛtāḥ || </l>
+                    <l xml:id="SS.1.29.26cd"> upagacchani ye vaidyaṃ te ca kāryakarāḥ smṛtāḥ || </l>
 
-               <l xml:id="SS.1.29.27ab"> māṃsakumbhodakacchattravipravāraṇa<lb n="4"/>govṛṣāḥ | </l>
+                    <l xml:id="SS.1.29.27ab"> māṃsakumbhodakacchattravipravāraṇa<lb n="4"/>govṛṣāḥ | </l>
 
-               <l xml:id="SS.1.29.27cd"> śuklavarṇṇāś ca pūjyante prasthāne darśanāgatāḥ | </l>
+                    <l xml:id="SS.1.29.27cd"> śuklavarṇṇāś ca pūjyante prasthāne darśanāgatāḥ | </l>
 
-               <l xml:id="SS.1.29.28ab"> strī putriṇīṃ sa<add place="bottom margin">va</add>tsā gaur
-                     vardhamā<cb n="1"/>nam alaṅkṛtāḥ | </l>
+                    <l xml:id="SS.1.29.28ab"> strī putriṇīṃ sa<add place="bottom margin">va</add>tsā
+                        gaur vardhamā<cb n="1"/>nam alaṅkṛtāḥ | </l>
 
-               <l xml:id="SS.1.29.28cd"> kanyā matsyāḥ phalañ <subst>
-                     <del rend="overwriting" unit="syllable" n="1"/>
-                     <add rend="overwriting">cā</add>
-                  </subst>maṃ svastīkā modakā dadhi | </l>
+                    <l xml:id="SS.1.29.28cd"> kanyā matsyāḥ phalañ <subst>
+                            <del rend="overwriting" unit="syllable" n="1"/>
+                            <add rend="overwriting">cā</add>
+                        </subst>maṃ svastīkā modakā dadhi | </l>
 
-               <l xml:id="SS.1.29.29ab"> hiraṇyākṣatapātram vā ratnāni sumano nṛpa | </l>
+                    <l xml:id="SS.1.29.29ab"> hiraṇyākṣatapātram vā ratnāni sumano nṛpa | </l>
 
-               <l xml:id="SS.1.29.29cd"> apraśā<cb n="2"/>ntabalo vājī haṃsaś cāśaḥ śikhī tathā | </l>
+                    <l xml:id="SS.1.29.29cd"> apraśā<cb n="2"/>ntabalo vājī haṃsaś cāśaḥ śikhī tathā
+                        | </l>
 
-               <l xml:id="SS.1.29.30ab"> brahmadundubhipuṇyāhaḥ śaṅkhaveṇurathasvanāḥ | </l>
+                    <l xml:id="SS.1.29.30ab"> brahmadundubhipuṇyāhaḥ śaṅkhaveṇurathasvanāḥ | </l>
 
-               <l xml:id="SS.1.29.30cd"> siṃ<lb n="5"/>hameghaninādai<add>ā</add>ś ca heṣitaṅ
-                  gajabṛṃhitaṃ </l>
+                    <l xml:id="SS.1.29.30cd"> siṃ<lb n="5"/>hameghaninādai<add>ā</add>ś ca heṣitaṅ
+                        gajabṛṃhitaṃ </l>
 
-               <l xml:id="SS.1.29.31ab">
-                  <del rend="crossed out">pra</del>śastaṃ haṃsa<subst>
-                     <del rend="overwriting" unit="syllable" n="1"/>
-                     <add>ru</add>
-                  </subst>taṃ nṝṇām vācaś ca hṛdayaṃ priyāḥ | </l>
+                    <l xml:id="SS.1.29.31ab">
+                        <del rend="crossed out">pra</del>śastaṃ haṃsa<subst>
+                            <del rend="overwriting" unit="syllable" n="1"/>
+                            <add>ru</add>
+                        </subst>taṃ nṝṇām vācaś ca hṛdayaṃ priyāḥ | </l>
 
-               <l xml:id="SS.1.29.31cd"/>
+                    <l xml:id="SS.1.29.31cd"/>
 
-               <l xml:id="SS.1.29.32ab"> patrapu<cb n="1"/>ṣpaphalopetāṃ sakṣīrān n<subst>
-                     <del rend="erasing">i</del>
-                     <add>ī</add>
-                  </subst>rujān drumāṃ | </l>
+                    <l xml:id="SS.1.29.32ab"> patrapu<cb n="1"/>ṣpaphalopetāṃ sakṣīrān n<subst>
+                            <del rend="erasing">i</del>
+                            <add>ī</add>
+                        </subst>rujān drumāṃ | </l>
 
-               <l xml:id="SS.1.29.32cd"> āsthitā vā na<subst>
-                     <del rend="overwriting" unit="syllable" n="1"/>
-                     <add rend="overwriting">bho</add>
-                  </subst>veśmadhvajatoraṇavedikāḥ || </l>
+                    <l xml:id="SS.1.29.32cd"> āsthitā vā na<subst>
+                            <del rend="overwriting" unit="syllable" n="1"/>
+                            <add rend="overwriting">bho</add>
+                        </subst>veśmadhvajatoraṇavedikāḥ || </l>
 
-               <l xml:id="SS.1.29.33ab"> dikṣu <subst>
-                     <del rend="overwriting" unit="syllable" n="2"/>
-                     <add rend="overwriting">śastā</add>
-                  </subst>su vaktāro madhuraṃ pṛṣṭha<cb n="2"/>to nugāḥ | </l>
+                    <l xml:id="SS.1.29.33ab"> dikṣu <subst>
+                            <del rend="overwriting" unit="syllable" n="2"/>
+                            <add rend="overwriting">śastā</add>
+                        </subst>su vaktāro madhuraṃ pṛṣṭha<cb n="2"/>to nugāḥ | </l>
 
-               <l xml:id="SS.1.29.33cd"> vāmā vā dakṣiṇā vāpi śakunāḥ karmmasiddhaye | </l>
+                    <l xml:id="SS.1.29.33cd"> vāmā vā dakṣiṇā vāpi śakunāḥ karmmasiddhaye | </l>
 
-               <l xml:id="SS.1.29.34ab"> śuṣke sanihate patre vallīna<lb n="6"/>ddhe sakaṇṭake | </l>
+                    <l xml:id="SS.1.29.34ab"> śuṣke sanihate patre vallīna<lb n="6"/>ddhe sakaṇṭake
+                        | </l>
 
-               <l xml:id="SS.1.29.34cd"> vṛkṣe tha vāśmabhasmāsthibhūtuṣāṃgārapāṃśuṣu | </l>
+                    <l xml:id="SS.1.29.34cd"> vṛkṣe tha vāśmabhasmāsthibhūtuṣāṃgārapāṃśuṣu | </l>
 
-               <l xml:id="SS.1.29.35ab"> caityavalmīkaviṣamasthitā dīpta<cb n="1"/>kharasvanāḥ | </l>
+                    <l xml:id="SS.1.29.35ab"> caityavalmīkaviṣamasthitā dīpta<cb n="1"/>kharasvanāḥ
+                        | </l>
 
-               <l xml:id="SS.1.29.35cd"> purato dikṣu dīptāsu vaktāro nārthasādhakāḥ | </l>
+                    <l xml:id="SS.1.29.35cd"> purato dikṣu dīptāsu vaktāro nārthasādhakāḥ | </l>
 
-               <l xml:id="SS.1.29.36ab"> puṃsaṃjñāḥ pakṣiṇo vāmāḥ strīsaṃjñā dakṣiṇā<add>ḥ</add>
-                  śubhāḥ | </l>
+                    <l xml:id="SS.1.29.36ab"> puṃsaṃjñāḥ pakṣiṇo vāmāḥ strīsaṃjñā
+                            dakṣiṇā<add>ḥ</add> śubhāḥ | </l>
 
-               <l xml:id="SS.1.29.36abI"> prasthāne<cb n="2"/>ṣv avase yā syur viparītāḥ praveśane | </l>
+                    <l xml:id="SS.1.29.36abI"> prasthāne<cb n="2"/>ṣv avase yā syur viparītāḥ
+                        praveśane | </l>
 
-               <l xml:id="SS.1.29.36cd"> dakṣiṇād vāmagamanaṃ praśastaṃ<del rend="erasing">ḥ</del>
-                  śvasṛgālayoḥ | </l>
+                    <l xml:id="SS.1.29.36cd"> dakṣiṇād vāmagamanaṃ praśastaṃ<del rend="erasing"
+                            >ḥ</del> śvasṛgālayoḥ | </l>
 
-               <l xml:id="SS.1.29.36ef"> cā<lb n="7"/>śakauśikayor evan nobhayaṃ śaśasarpayoḥ || </l>
+                    <l xml:id="SS.1.29.36ef"> cā<lb n="7"/>śakauśikayor evan nobhayaṃ śaśasarpayoḥ
+                        || </l>
 
-               <l xml:id="SS.1.29.37ab"/>
+                    <l xml:id="SS.1.29.37ab"/>
 
-               <l xml:id="SS.1.29.37cd"> darśanam vā rutam vāpi na godhākṛkalāsayoḥ </l>
+                    <l xml:id="SS.1.29.37cd"> darśanam vā rutam vāpi na godhākṛkalāsayoḥ </l>
 
-               <l xml:id="SS.1.29.38ab">
-                  <cb n="1"/>dūtair ariṣṭais tulyānām aśastaṃ darśanaṃ nṛṇāṃ | </l>
+                    <l xml:id="SS.1.29.38ab">
+                        <cb n="1"/>dūtair ariṣṭais tulyānām aśastaṃ darśanaṃ nṛṇāṃ | </l>
 
-               <l xml:id="SS.1.29.38cd"> kulatthatilakarpāsatuṣapāṣāṇabhasmanān | </l>
+                    <l xml:id="SS.1.29.38cd"> kulatthatilakarpāsatuṣapāṣāṇabhasmanān | </l>
 
-               <l xml:id="SS.1.29.39ab"> pātraṃ neṣṭaṃ tathāṅgāratailaka<cb n="2"/>rdamapūritaṃ | </l>
+                    <l xml:id="SS.1.29.39ab"> pātraṃ neṣṭaṃ tathāṅgāratailaka<cb n="2"/>rdamapūritaṃ
+                        | </l>
 
-               <l xml:id="SS.1.29.39cd"> vinā su<subst>
-                     <del><unclear reason="overwriting">rayā</unclear></del>
-                     <add rend="overwriting">rām vā</add>
-                  </subst> madyānāṃ pūrṇṇaṃ vā raktasarṣapaiḥ | <metamark rendition="jāyekā"
-                     >𑑛</metamark></l>
+                    <l xml:id="SS.1.29.39cd"> vinā su<subst>
+                            <del><unclear reason="overwriting">rayā</unclear></del>
+                            <add rend="overwriting">rām vā</add>
+                        </subst> madyānāṃ pūrṇṇaṃ vā raktasarṣapaiḥ | <metamark rendition="jāyekā"
+                            >𑑛</metamark></l>
 
-               <l xml:id="SS.1.29.40ab">
-                  <pb n="27v"/><!-- 027v IMG_0118.JPG --><lb n="1"/>śavakāṣṭhapalāṣānāṃ rūḍhānām
-                  pathi saṅgamāḥ | </l>
+                    <l xml:id="SS.1.29.40ab">
+                        <pb n="27v"/><!-- 027v IMG_0118.JPG --><lb n="1"/>śavakāṣṭhapalāṣānāṃ
+                        rūḍhānām pathi saṅgamāḥ | </l>
 
-               <l xml:id="SS.1.29.40cd"> neṣyante patitāntasthadīnāndharipavas tathā | </l>
+                    <l xml:id="SS.1.29.40cd"> neṣyante patitāntasthadīnāndharipavas tathā | </l>
 
-               <l xml:id="SS.1.29.41ab"> mṛ<cb n="1"/>du<add>ḥ</add> śīto nukūlaś ca sugandhiś
-                  cānilaḥ śubhaḥ | </l>
+                    <l xml:id="SS.1.29.41ab"> mṛ<cb n="1"/>du<add>ḥ</add> śīto nukūlaś ca sugandhiś
+                        cānilaḥ śubhaḥ | </l>
 
-               <l xml:id="SS.1.29.41cd"> kharoṣṇo niṣṭhagandhaś ca pratilomo na śasyate | </l>
+                    <l xml:id="SS.1.29.41cd"> kharoṣṇo niṣṭhagandhaś ca pratilomo na śasyate | </l>
 
-               <l xml:id="SS.1.29.42ab">
-                  <add rend="kākapada" place="bottom margin">graṃthyarbudādiṣu sadā cchedaśabdas tu
-                     pūjitaḥ |</add>
-               </l>
+                    <l xml:id="SS.1.29.42ab">
+                        <add rend="kākapada" place="bottom margin">graṃthyarbudādiṣu sadā
+                            cchedaśabdas tu pūjitaḥ |</add>
+                    </l>
 
-               <l xml:id="SS.1.29.42cd"> vidradhyudaragulmeṣu bhedaśabdas tathaiva <cb n="2"/>ca | </l>
+                    <l xml:id="SS.1.29.42cd"> vidradhyudaragulmeṣu bhedaśabdas tathaiva <cb n="2"
+                        />ca | </l>
 
-               <l xml:id="SS.1.29.43ab"> raktapittātisāreṣu ruddhaśabdaḥ praśasyate |<metamark
-                     rendition="jāyekā">𑑛</metamark>
-               </l>
+                    <l xml:id="SS.1.29.43ab"> raktapittātisāreṣu ruddhaśabdaḥ praśasyate |<metamark
+                            rendition="jāyekā">𑑛</metamark>
+                    </l>
 
-               <l xml:id="SS.1.29.43abI">
-                  <lb n="2"/>etena śeṣaṃ vyākhyātaṃ svabudhyā vibhajet tu taṃ | </l>
+                    <l xml:id="SS.1.29.43abI">
+                        <lb n="2"/>etena śeṣaṃ vyākhyātaṃ svabudhyā vibhajet tu taṃ | </l>
 
-               <l xml:id="SS.1.29.43cd"/>
+                    <l xml:id="SS.1.29.43cd"/>
 
-               <l xml:id="SS.1.29.44ab"/>
+                    <l xml:id="SS.1.29.44ab"/>
 
-               <l xml:id="SS.1.29.44cd"/>
+                    <l xml:id="SS.1.29.44cd"/>
 
-               <l xml:id="SS.1.29.45ab"> pratiṣiddhaṃ tathā <unclear reason="overwriting"
-                     >la</unclear>gnaṃ kṣutaṃ skhalitam āhataṃ | </l>
+                    <l xml:id="SS.1.29.45ab"> pratiṣiddhaṃ tathā <unclear reason="overwriting"
+                            >la</unclear>gnaṃ kṣutaṃ skhalitam āhataṃ | </l>
 
-               <l xml:id="SS.1.29.45cd"> daurmana<cb n="1"/>syañ ca vaidyasya yātrāyāṃ naiva pūjitaṃ
-                  | </l>
+                    <l xml:id="SS.1.29.45cd"> daurmana<cb n="1"/>syañ ca vaidyasya yātrāyāṃ naiva
+                        pūjitaṃ | </l>
 
-               <l xml:id="SS.1.29.46ab"> praveś<del rend="erasing">y__</del>e py evam etat syād
-                  avekṣya ca yathāturaṃ | </l>
+                    <l xml:id="SS.1.29.46ab"> praveś<del rend="erasing">y__</del>e py evam etat syād
+                        avekṣya ca yathāturaṃ | </l>
 
-               <l xml:id="SS.1.29.46cd"> pratidvāre gṛhe cāsya idam bhūyo na pūjya<cb n="2"/>te || </l>
+                    <l xml:id="SS.1.29.46cd"> pratidvāre gṛhe cāsya idam bhūyo na pūjya<cb n="2"/>te
+                        || </l>
 
-               <l xml:id="SS.1.29.47ab"/>
+                    <l xml:id="SS.1.29.47ab"/>
 
-               <l xml:id="SS.1.29.47cd"/>
+                    <l xml:id="SS.1.29.47cd"/>
 
-               <l xml:id="SS.1.29.48ab"/>
+                    <l xml:id="SS.1.29.48ab"/>
 
-               <l xml:id="SS.1.29.48cd"/>
+                    <l xml:id="SS.1.29.48cd"/>
 
-               <l xml:id="SS.1.29.49ab"> bhāṇḍānāṃ saṃkarasthānāṃ sthānasañcaraṇan tathā | </l>
+                    <l xml:id="SS.1.29.49ab"> bhāṇḍānāṃ saṃkarasthānāṃ sthānasañcaraṇan tathā | </l>
 
-               <l xml:id="SS.1.29.49cd"> nikhātotpāṭanam bhaṅgaḥ śastrāṇān nirga<lb n="3"/>mas tathā
-                  | </l>
+                    <l xml:id="SS.1.29.49cd"> nikhātotpāṭanam bhaṅgaḥ śastrāṇān nirga<lb n="3"/>mas
+                        tathā | </l>
 
-               <l xml:id="SS.1.29.50ab"> vaidyāsanāvasādo vā āturo vāpy adhomukhaḥ | </l>
+                    <l xml:id="SS.1.29.50ab"> vaidyāsanāvasādo vā āturo vāpy adhomukhaḥ | </l>
 
-               <l xml:id="SS.1.29.50cd"> vaidyaṃ saṃbhāṣate ṅgāni kuḍyam āsta<cb n="1"/>raṇāni vā | </l>
+                    <l xml:id="SS.1.29.50cd"> vaidyaṃ saṃbhāṣate ṅgāni kuḍyam āsta<cb n="1"/>raṇāni
+                        vā | </l>
 
-               <l xml:id="SS.1.29.51ab"> anusṛjya dhunuyād vā pragṛhītaśiras tathā | </l>
+                    <l xml:id="SS.1.29.51ab"> anusṛjya dhunuyād vā pragṛhītaśiras tathā | </l>
 
-               <l xml:id="SS.1.29.51cd"> hastaṃ vākṛṣya vaidyasya nyasec chirasi corasi | </l>
+                    <l xml:id="SS.1.29.51cd"> hastaṃ vākṛṣya vaidyasya nyasec chirasi corasi | </l>
 
-               <l xml:id="SS.1.29.52ab"/>
+                    <l xml:id="SS.1.29.52ab"/>
 
-               <l xml:id="SS.1.29.52cd"> na sa sidhyati vaidyo pi <cb n="2"/>gṛhe yasya na pūjyate
-                  || </l>
+                    <l xml:id="SS.1.29.52cd"> na sa sidhyati vaidyo pi <cb n="2"/>gṛhe yasya na
+                        pūjyate || </l>
 
-               <l xml:id="SS.1.29.52cdI"> vaidyam muhurmuhuḥ pṛcchan mārṣṭi <unclear
-                     reason="overwriting">vā</unclear> svāṅgam āturaḥ | </l>
+                    <l xml:id="SS.1.29.52cdI"> vaidyam muhurmuhuḥ pṛcchan mārṣṭi <unclear
+                            reason="overwriting">vā</unclear> svāṅgam āturaḥ | </l>
 
-               <l xml:id="SS.1.29.53ab"> bhūyaḥ sampūjyate ya<lb n="4"/>sya gṛhe vaidyaḥ sa sidhyati
-                  | </l>
+                    <l xml:id="SS.1.29.53ab"> bhūyaḥ sampūjyate ya<lb n="4"/>sya gṛhe vaidyaḥ sa
+                        sidhyati | </l>
 
-               <l xml:id="SS.1.29.53cd"> śubhaṃ śubheṣu dūtādiṣv aśubhaṃ hy aśubheṣu ca | </l>
+                    <l xml:id="SS.1.29.53cd"> śubhaṃ śubheṣu dūtādiṣv aśubhaṃ hy aśubheṣu ca | </l>
 
-               <l xml:id="SS.1.29.54ab"> āturasya dhruvan tasmād dūtā<cb n="1"/>dīṃ samparīkṣayet || </l>
+                    <l xml:id="SS.1.29.54ab"> āturasya dhruvan tasmād dūtā<cb n="1"/>dīṃ
+                        samparīkṣayet || </l>
 
-               <l xml:id="SS.1.29.54cd"> svapnān ataḥ pravakṣyāmi maraṇāya śubhāya ca | </l>
+                    <l xml:id="SS.1.29.54cd"> svapnān ataḥ pravakṣyāmi maraṇāya śubhāya ca | </l>
 
-               <l xml:id="SS.1.29.55ab"> paśyanti suhṛdo yāṃs tu svapnāṃ svayam athāpi vā | </l>
+                    <l xml:id="SS.1.29.55ab"> paśyanti suhṛdo yāṃs tu svapnāṃ svayam athāpi vā | </l>
 
-               <l xml:id="SS.1.29.55cd"> snehābhyakta<cb n="2"/>śarīrasya karabhavyāḍagardabhaiḥ | </l>
+                    <l xml:id="SS.1.29.55cd"> snehābhyakta<cb n="2"/>śarīrasya
+                        karabhavyāḍagardabhaiḥ | </l>
 
-               <l xml:id="SS.1.29.56ab"> varāhair mahiṣair vāpi yo yāyād dakṣiṇāmukhaṃ | </l>
+                    <l xml:id="SS.1.29.56ab"> varāhair mahiṣair vāpi yo yāyād dakṣiṇāmukhaṃ | </l>
 
-               <l xml:id="SS.1.29.56cd"> kṛṣṇā ra<lb n="5"/>ktāmbaradharā hasantī muktamūrdhajā<del
-                     rend="erasing">ḥ</del> | </l>
+                    <l xml:id="SS.1.29.56cd"> kṛṣṇā ra<lb n="5"/>ktāmbaradharā hasantī
+                            muktamūrdhajā<del rend="erasing">ḥ</del> | </l>
 
-               <l xml:id="SS.1.29.57ab"> yam vā karṣati badhvā strī hasantan dakṣiṇāmukham | </l>
+                    <l xml:id="SS.1.29.57ab"> yam vā karṣati badhvā strī hasantan dakṣiṇāmukham | </l>
 
-               <l xml:id="SS.1.29.57cd"> ante nivāsi<cb n="1"/>bhir yo vā py ākṛṣyed dakṣiṇāmukhaṃ | </l>
+                    <l xml:id="SS.1.29.57cd"> ante nivāsi<cb n="1"/>bhir yo vā py ākṛṣyed
+                        dakṣiṇāmukhaṃ | </l>
 
-               <l xml:id="SS.1.29.58ab"> pariṣvajeyur <subst>
-                     <del rend="erasing" unit="syllable" n="2"/>
-                     <add rend="overwriting">yaṃ cā</add>
-                  </subst>pi pretā<add>ḥ</add> pravrajitā<subst>
-                     <del>n ta</del>
-                     <add rend="overwriting">s ta</add>
-                  </subst>thā | </l>
+                    <l xml:id="SS.1.29.58ab"> pariṣvajeyur <subst>
+                            <del rend="erasing" unit="syllable" n="2"/>
+                            <add rend="overwriting">yaṃ cā</add>
+                        </subst>pi pretā<add>ḥ</add> pravrajitā<subst>
+                            <del>n ta</del>
+                            <add rend="overwriting">s ta</add>
+                        </subst>thā | </l>
 
-               <l xml:id="SS.1.29.58cd"> āghrāyyate yaś ca muhuḥ śvāpadair vikṛtānanai<cb n="2"/>ḥ | </l>
+                    <l xml:id="SS.1.29.58cd"> āghrāyyate yaś ca muhuḥ śvāpadair vikṛtānanai<cb n="2"
+                        />ḥ | </l>
 
-               <l xml:id="SS.1.29.59ab"> piben madhu ca tailañ ca yo vā paṅke vasīdati | </l>
+                    <l xml:id="SS.1.29.59ab"> piben madhu ca tailañ ca yo vā paṅke vasīdati | </l>
 
-               <l xml:id="SS.1.29.59cd"> paṅkapradigdhagātro vā nṛtyed vātha haseta vā | </l>
+                    <l xml:id="SS.1.29.59cd"> paṅkapradigdhagātro vā nṛtyed vātha haseta vā | </l>
 
-               <l xml:id="SS.1.29.60ab">
-                  <lb n="6"/>nirambaraś ca yo raktāṃ dhārayec chirasā srajaṃ | </l>
+                    <l xml:id="SS.1.29.60ab">
+                        <lb n="6"/>nirambaraś ca yo raktāṃ dhārayec chirasā srajaṃ | </l>
 
-               <l xml:id="SS.1.29.60cd"> yasya vaṃśo nalo vāpi vṛkṣo vorasi jāyate | </l>
+                    <l xml:id="SS.1.29.60cd"> yasya vaṃśo nalo vāpi vṛkṣo vorasi jāyate | </l>
 
-               <l xml:id="SS.1.29.60cdI"> ma<cb n="1"/>stakādyaś ca tālo vā ucchritā veṇuvīrudhaḥ | </l>
+                    <l xml:id="SS.1.29.60cdI"> ma<cb n="1"/>stakādyaś ca tālo vā ucchritā
+                        veṇuvīrudhaḥ | </l>
 
-               <l xml:id="SS.1.29.61ab"> yam vā matsyo <unclear reason="overwriting"
-                  >gra</unclear>sed yo vā jvalanaṃ praviśe naraḥ | </l>
+                    <l xml:id="SS.1.29.61ab"> yam vā matsyo <unclear reason="overwriting"
+                            >gra</unclear>sed yo vā jvalanaṃ praviśe naraḥ | </l>
 
-               <l xml:id="SS.1.29.61cd"> parvatāṇgrāt pated yo vā svabhre vā <cb n="2"/>tamasāvṛte | </l>
+                    <l xml:id="SS.1.29.61cd"> parvatāṇgrāt pated yo vā svabhre vā <cb n="2"
+                        />tamasāvṛte | </l>
 
-               <l xml:id="SS.1.29.62ab"> hriyate srotasā yo vā <subst>
-                     <del rend="erasing" unit="syllable" n="2"/>
-                     <add rend="overwriting">yo vā</add>
-                  </subst> mauṇḍyam avāpnuyāt || </l>
+                    <l xml:id="SS.1.29.62ab"> hriyate srotasā yo vā <subst>
+                            <del rend="erasing" unit="syllable" n="2"/>
+                            <add rend="overwriting">yo vā</add>
+                        </subst> mauṇḍyam avāpnuyāt || </l>
 
-               <l xml:id="SS.1.29.62cd"> parājīyeta yuddhair vā <lb n="7"/><gap reason="damage"
-                     unit="syllable" n="1"/>kādyair vābhibhūyate | </l>
+                    <l xml:id="SS.1.29.62cd"> parājīyeta yuddhair vā <lb n="7"/><gap reason="damage"
+                            unit="syllable" n="1"/>kādyair vābhibhūyate | </l>
 
-               <l xml:id="SS.1.29.63ab"> patanan tārakādīnāṃ praṇāśo dīpacakṣuṣoḥ | </l>
+                    <l xml:id="SS.1.29.63ab"> patanan tārakādīnāṃ praṇāśo dīpacakṣuṣoḥ | </l>
 
-               <l xml:id="SS.1.29.63cd"> yaḥ paśyed devatā<cb n="1"/>nām vā prakampam patanan tathā
-                  | </l>
+                    <l xml:id="SS.1.29.63cd"> yaḥ paśyed devatā<cb n="1"/>nām vā prakampam patanan
+                        tathā | </l>
 
-               <l xml:id="SS.1.29.64ab"> yasya ccharddir vireko vā daśanā prapatanti vā | </l>
+                    <l xml:id="SS.1.29.64ab"> yasya ccharddir vireko vā daśanā prapatanti vā | </l>
 
-               <l xml:id="SS.1.29.64cd"> śālmaliṃ kiṃśukaṃ yūpaṃ valmīkaṃ pāribhadrakam | </l>
+                    <l xml:id="SS.1.29.64cd"> śālmaliṃ kiṃśukaṃ yūpaṃ valmīkaṃ pāribhadrakam | </l>
 
-               <l xml:id="SS.1.29.65ab">
-                  <cb n="2"/>puṣpāḍhyaṃ kovidāram vā citām vā yo dhirohati | </l>
+                    <l xml:id="SS.1.29.65ab">
+                        <cb n="2"/>puṣpāḍhyaṃ kovidāram vā citām vā yo dhirohati | </l>
 
-               <l xml:id="SS.1.29.65cd"> karpāsatailapiṇyākalohāni lavaṇaṃ ti<pb n="28r"
-                     /><!-- 028r IMG_0119.JPG --><lb n="1"/>lān || </l>
+                    <l xml:id="SS.1.29.65cd"> karpāsatailapiṇyākalohāni lavaṇaṃ ti<pb n="28r"
+                            /><!-- 028r IMG_0119.JPG --><lb n="1"/>lān || </l>
 
-               <l xml:id="SS.1.29.66ab"/>
+                    <l xml:id="SS.1.29.66ab"/>
 
-               <l xml:id="SS.1.29.66cd"> svasthaḥ sa labhate vyādhiṃ vyādhito mṛtyum arcchati || </l>
+                    <l xml:id="SS.1.29.66cd"> svasthaḥ sa labhate vyādhiṃ vyādhito mṛtyum arcchati
+                        || </l>
 
-               <l xml:id="SS.1.29.67ab"> yathāsvam prakṛtisvapno vismṛto viha<cb n="1"/>tas tathā | </l>
+                    <l xml:id="SS.1.29.67ab"> yathāsvam prakṛtisvapno vismṛto viha<cb n="1"/>tas
+                        tathā | </l>
 
-               <l xml:id="SS.1.29.67cd"> cintākṛto divā yaś ca bhavanty aphaladās tu te || </l>
+                    <l xml:id="SS.1.29.67cd"> cintākṛto divā yaś ca bhavanty aphaladās tu te || </l>
 
-               <l xml:id="SS.1.29.68ab"> jvaritānāṃ śunā sakhyaṃ kapisakhyan tu śoṣiṇām | </l>
+                    <l xml:id="SS.1.29.68ab"> jvaritānāṃ śunā sakhyaṃ kapisakhyan tu śoṣiṇām | </l>
 
-               <l xml:id="SS.1.29.68cd"> unmāde rākṣa<cb n="2"/>saiḥ pretair apasmāre tu nartanaṃ | </l>
+                    <l xml:id="SS.1.29.68cd"> unmāde rākṣa<cb n="2"/>saiḥ pretair apasmāre tu
+                        nartanaṃ | </l>
 
-               <l xml:id="SS.1.29.69ab"> mehātisāriṇān toyasnehapānan tu kuṣṭhinaḥ | </l>
+                    <l xml:id="SS.1.29.69ab"> mehātisāriṇān toyasnehapānan tu kuṣṭhinaḥ | </l>
 
-               <l xml:id="SS.1.29.69cd"> gulme tu <lb n="2"/>sthāvarotpattiḥ koṣṭhe mūrdhni śiroruji
-                  | </l>
+                    <l xml:id="SS.1.29.69cd"> gulme tu <lb n="2"/>sthāvarotpattiḥ koṣṭhe mūrdhni
+                        śiroruji | </l>
 
-               <l xml:id="SS.1.29.70ab"> pipāsāśvāsayor adhvā cchardyāṃ śaṣkulibhakṣaṇaṃ | </l>
+                    <l xml:id="SS.1.29.70ab"> pipāsāśvāsayor adhvā cchardyāṃ śaṣkulibhakṣaṇaṃ | </l>
 
-               <l xml:id="SS.1.29.70cd"> haridraṃ <cb n="1"/>bhojanam vāpi yad bhavet pāṇḍurogiṇaḥ | </l>
+                    <l xml:id="SS.1.29.70cd"> haridraṃ <cb n="1"/>bhojanam vāpi yad bhavet
+                        pāṇḍurogiṇaḥ | </l>
 
-               <l xml:id="SS.1.29.71ab"> raktapittī pibed yaś ca śoṇitaṃ sa vinaśyati | </l>
+                    <l xml:id="SS.1.29.71ab"> raktapittī pibed yaś ca śoṇitaṃ sa vinaśyati | </l>
 
-               <l xml:id="SS.1.29.71abI">yo naro bahubhir muṇḍaiḥ kruddhai<cb n="2"/>ś ca
-                  pratibodhyate |</l>
+                    <l xml:id="SS.1.29.71abI">yo naro bahubhir muṇḍaiḥ kruddhai<cb n="2"/>ś ca
+                        pratibodhyate |</l>
 
-               <l xml:id="SS.1.29.71abII">hanyate bahubhiḥ śastrair brāhmaṇaṃ yo na paśyati |</l>
+                    <l xml:id="SS.1.29.71abII">hanyate bahubhiḥ śastrair brāhmaṇaṃ yo na paśyati
+                        |</l>
 
-               <l xml:id="SS.1.29.71abIII">dantaprakṣālanasnānaṃ svapne <lb n="3"/>keśavilekhanaṃ
-                  |</l>
+                    <l xml:id="SS.1.29.71abIII">dantaprakṣālanasnānaṃ svapne <lb n="3"
+                        />keśavilekhanaṃ |</l>
 
-               <l xml:id="SS.1.29.71abIV">rogāgamanimittaṃn tad dhanvantarivaco yathā | </l>
+                    <l xml:id="SS.1.29.71abIV">rogāgamanimittaṃn tad dhanvantarivaco yathā | </l>
 
-               <l xml:id="SS.1.29.71abV">aparvāṇīkṣukhaṇḍāni guḍaṃ vā yo <cb n="1"/>tibhakṣayet
-                  |</l>
+                    <l xml:id="SS.1.29.71abV">aparvāṇīkṣukhaṇḍāni guḍaṃ vā yo <cb n="1"/>tibhakṣayet
+                        |</l>
 
-               <l xml:id="SS.1.29.71abVI">pratibuddho vijānīyād aṅga<add rend="kākapada"
-                     place="bottom margin">vyādhi</add>m upa<del rend="crossed out"
-                  >sthita</del>sthitaṃ |</l>
+                    <l xml:id="SS.1.29.71abVI">pratibuddho vijānīyād aṅga<add rend="kākapada"
+                            place="bottom margin">vyādhi</add>m upa<del rend="crossed out"
+                            >sthita</del>sthitaṃ |</l>
 
-               <l xml:id="SS.1.29.71abVII">ayuktaṃ yānam āruhya śuṣkavṛkṣañ ca sarvataḥ |</l>
+                    <l xml:id="SS.1.29.71abVII">ayuktaṃ yānam āruhya śuṣkavṛkṣañ ca sarvataḥ |</l>
 
-               <l xml:id="SS.1.29.71abVIII">plavate toyama<cb n="2"/>dhye vā sarogaṃ prāpnuyān mahat
-                  |</l>
+                    <l xml:id="SS.1.29.71abVIII">plavate toyama<cb n="2"/>dhye vā sarogaṃ prāpnuyān
+                        mahat |</l>
 
-               <l xml:id="SS.1.29.71abIX">tilakalkena māṃsena vasayā karddamena vā |</l>
+                    <l xml:id="SS.1.29.71abIX">tilakalkena māṃsena vasayā karddamena vā |</l>
 
-               <l xml:id="SS.1.29.71abX">gātraṃ yasyo<lb n="4"/>palipyeta sa rogam prāpnuyān mahat
-                  |</l>
+                    <l xml:id="SS.1.29.71abX">gātraṃ yasyo<lb n="4"/>palipyeta sa rogam prāpnuyān
+                        mahat |</l>
 
-               <l xml:id="SS.1.29.71abXI">cāṇḍālair vā śvapākair vā coraiḥ pravrajitais tathā |</l>
+                    <l xml:id="SS.1.29.71abXI">cāṇḍālair vā śvapākair vā coraiḥ pravrajitais tathā
+                        |</l>
 
-               <l xml:id="SS.1.29.71abXII">anyai<cb n="1"/>ś ca nīcabhībhatsaiḥ prahāro na praśa<del
-                     rend="crossed out">ā</del>syate |</l>
+                    <l xml:id="SS.1.29.71abXII">anyai<cb n="1"/>ś ca nīcabhībhatsaiḥ prahāro na
+                            praśa<del rend="crossed out">ā</del>syate |</l>
 
-               <l xml:id="SS.1.29.71abXIII">madyasyānnasya māṃsasya tilatailasya sarpiṣaḥ | </l>
+                    <l xml:id="SS.1.29.71abXIII">madyasyānnasya māṃsasya tilatailasya sarpiṣaḥ | </l>
 
-               <l xml:id="SS.1.29.71abXIV">svapne kiṃcid yadi prāṣya paśye<cb n="2"/>d vyādhim
-                  upasthitaṃ |</l>
+                    <l xml:id="SS.1.29.71abXIV">svapne kiṃcid yadi prāṣya paśye<cb n="2"/>d vyādhim
+                        upasthitaṃ |</l>
 
-               <l xml:id="SS.1.29.71abXV">raktavarṇṇan tu yat kiṃcit sarvan tan na praśasyate |</l>
+                    <l xml:id="SS.1.29.71abXV">raktavarṇṇan tu yat kiṃcit sarvan tan na praśasyate
+                        |</l>
 
-               <l xml:id="SS.1.29.71abXVI">raktaṃ yad āmakaṃ māṃsaṃ candanañ ca <lb n="5"
-                  />praśasyate | </l>
+                    <l xml:id="SS.1.29.71abXVI">raktaṃ yad āmakaṃ māṃsaṃ candanañ ca <lb n="5"
+                        />praśasyate | </l>
 
-               <l xml:id="SS.1.29.71abXVII">yad vā śuklena varṇṇena sarvam etat praśasyate |</l>
+                    <l xml:id="SS.1.29.71abXVII">yad vā śuklena varṇṇena sarvam etat praśasyate
+                        |</l>
 
-               <l xml:id="SS.1.29.71abXVIII">karpāsama<unclear reason="overwriting"
-                  >thya</unclear>tho bhasma dadhi caivātra va<cb n="2"/>rjitaṃ |</l>
+                    <l xml:id="SS.1.29.71abXVIII">karpāsama<unclear reason="overwriting"
+                            >thya</unclear>tho bhasma dadhi caivātra va<cb n="2"/>rjitaṃ |</l>
 
-               <l xml:id="SS.1.29.71abXIX">yat tu kṛṣṇena varṇṇena sarvan tan na praśasyate |</l>
+                    <l xml:id="SS.1.29.71abXIX">yat tu kṛṣṇena varṇṇena sarvan tan na praśasyate
+                        |</l>
 
-               <l xml:id="SS.1.29.71abXX">bhūmilābho hiraṇyañ ca hastī caiva praśasyate ||</l>
+                    <l xml:id="SS.1.29.71abXX">bhūmilābho hiraṇyañ ca hastī caiva praśasyate ||</l>
 
-               <l xml:id="SS.1.29.71cd"/>
+                    <l xml:id="SS.1.29.71cd"/>
 
-               <l xml:id="SS.1.29.72ab"/>
+                    <l xml:id="SS.1.29.72ab"/>
 
-               <l xml:id="SS.1.29.72cd"/>
+                    <l xml:id="SS.1.29.72cd"/>
 
-               <l xml:id="SS.1.29.73ab"/>
+                    <l xml:id="SS.1.29.73ab"/>
 
-               <l xml:id="SS.1.29.73cd"/>
+                    <l xml:id="SS.1.29.73cd"/>
 
-               <l xml:id="SS.1.29.74ab"/>
+                    <l xml:id="SS.1.29.74ab"/>
 
-               <l xml:id="SS.1.29.74cd"/>
+                    <l xml:id="SS.1.29.74cd"/>
 
-               <l xml:id="SS.1.29.75ab"> ata ūrdhvam pravakṣyāmi pra<cb n="2"/>śastaṃ svapnadarśanaṃ
-                  | </l>
+                    <l xml:id="SS.1.29.75ab"> ata ūrdhvam pravakṣyāmi pra<cb n="2"/>śastaṃ
+                        svapnadarśanaṃ | </l>
 
-               <l xml:id="SS.1.29.75cd"> devāṃ dvijāṃ govṛṣabhāṃ jīvataḥ suhṛdo nṛpāṃ | </l>
+                    <l xml:id="SS.1.29.75cd"> devāṃ dvijāṃ govṛṣabhāṃ jīvataḥ suhṛdo nṛpāṃ | </l>
 
-               <l xml:id="SS.1.29.76ab"> samṛddham agniṃ sādhūṃś ca nirmalā<lb n="6"/>ni jalāni ca | </l>
+                    <l xml:id="SS.1.29.76ab"> samṛddham agniṃ sādhūṃś ca nirmalā<lb n="6"/>ni jalāni
+                        ca | </l>
 
-               <l xml:id="SS.1.29.76cd"> paśyet kalyāṇabhāvāya vyādher apagamāya ca | </l>
+                    <l xml:id="SS.1.29.76cd"> paśyet kalyāṇabhāvāya vyādher apagamāya ca | </l>
 
-               <l xml:id="SS.1.29.77ab"> māṃsam matsyaṃ srajaḥ śvetā vā<cb n="1"/>sāṃsi ca phalāni
-                  ca | </l>
+                    <l xml:id="SS.1.29.77ab"> māṃsam matsyaṃ srajaḥ śvetā vā<cb n="1"/>sāṃsi ca
+                        phalāni ca | </l>
 
-               <l xml:id="SS.1.29.77cd"> labhate dhanalābhāya vyādher apagamāya ca | </l>
+                    <l xml:id="SS.1.29.77cd"> labhate dhanalābhāya vyādher apagamāya ca | </l>
 
-               <l xml:id="SS.1.29.78ab"/>
+                    <l xml:id="SS.1.29.78ab"/>
 
-               <l xml:id="SS.1.29.78cd"/>
+                    <l xml:id="SS.1.29.78cd"/>
 
-               <l xml:id="SS.1.29.79ab"> nadīnadasamudrāṃś ca kṣubhitāṃ nirmalodakāṃ | </l>
+                    <l xml:id="SS.1.29.79ab"> nadīnadasamudrāṃś ca kṣubhitāṃ nirmalodakāṃ | </l>
 
-               <l xml:id="SS.1.29.79cd"> taret kalyā<cb n="2"/>ṇalābhāya vyādher apagamāya ca |</l>
+                    <l xml:id="SS.1.29.79cd"> taret kalyā<cb n="2"/>ṇalābhāya vyādher apagamāya ca
+                        |</l>
 
-               <l xml:id="SS.1.29.79cdI">prāsādāṃ saphalāṃ vṛkṣāṃ vāraṇāṃ parvatāṃs tathā | </l>
+                    <l xml:id="SS.1.29.79cdI">prāsādāṃ saphalāṃ vṛkṣāṃ vāraṇāṃ parvatāṃs tathā | </l>
 
-               <l xml:id="SS.1.29.79cdII">āruhed dravyalā<lb n="7"/>bhāya vyādher apagamāya ca
-                  ||</l>
+                    <l xml:id="SS.1.29.79cdII">āruhed dravyalā<lb n="7"/>bhāya vyādher apagamāya ca
+                        ||</l>
 
-               <l xml:id="SS.1.29.80ab"/>
+                    <l xml:id="SS.1.29.80ab"/>
 
-               <l xml:id="SS.1.29.80cd"/>
+                    <l xml:id="SS.1.29.80cd"/>
 
-               <l xml:id="SS.1.29.81ab"> īdṛgvidhāñ chubhān yo <unclear reason="overwriting"
-                     >vai</unclear> svapnāṃ paśyet sadāturaḥ | </l>
+                    <l xml:id="SS.1.29.81ab"> īdṛgvidhāñ chubhān yo <unclear reason="overwriting"
+                            >vai</unclear> svapnāṃ paśyet sadāturaḥ | </l>
 
-               <l xml:id="SS.1.29.81cd"> sa dīrghāyur iti <cb n="1"/>khyātas tasmai karma samācared iti || 29 || ❈ ||</l>
-              
-               
-               <!-- The bottom margin indicates to an addition of "vi" which I could not locate in the body. -->
+                    <l xml:id="SS.1.29.81cd"> sa dīrghāyur iti <cb n="1"/>khyātas tasmai karma
+                        samācared iti || 29 || ❈ ||</l>
 
 
+                    <!-- The bottom margin indicates to an addition of "vi" which I could not locate in the body. -->
 
 
-               <milestone unit="folio" n="28r7"/><!-- 028 IMG_0119.JPG -->
 
 
-            </div>
-            <!-- end of chapter 29 of Sūtrasthāna-->
+                    <milestone unit="folio" n="28r7"/>
+                    <!-- 028 IMG_0119.JPG -->
+
+
+                </div>
+                <!-- end of chapter 29 of Sūtrasthāna-->
 
 
             </div>
