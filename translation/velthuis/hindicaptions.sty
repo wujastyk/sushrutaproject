@@ -1,0 +1,59 @@
+%% $Id: hindicaptions.sty,v 1.4 2007-12-31 09:42:14 icebearsoft Exp $
+%% This package provides the Hindi caption names for use with XeLaTeX.
+
+\expandafter\ifx\csname ProvidesPackage\endcsname\relax
+% Do nothing if used by babelized plain XeTeX
+\else % Identification for XeLaTeX
+\ProvidesPackage{hindicaptions}[2007/05/11 v2.14.1 Hindi captions for XeLaTeX]
+\RequirePackage{ifxetex}
+\RequireXeTeX
+\fi
+
+% European style date
+\def\datehindi{\def\today{\number\day\space\ifcase\month\or
+जनवरी\or
+फ़रवरी\or
+मार्च\or
+अपरैल\or
+मई\or
+जून\or
+जलाई\or
+अगस्त\or
+सितम्बर\or
+अक्तूबर\or
+नवम्बर\or
+दिसम्बर\fi
+\space\number\year}}
+
+% Captions (with variants)
+\def\captionshindi{%
+\def\abstractname{सारांश}%
+\def\appendixname{परिशिष्ट}%
+\def\bibname{संदर ग्रन्थ}% (?)
+\def\ccname{}%
+\def\chaptername{अध्याय}%
+\def\contentsname{विषय सूची}%
+\def\enclname{}%
+\def\figurename{चित्र}% रेखाचित्र
+\def\headpagename{पृषठ}%
+\def\headtoname{}%
+\def\indexname{सूची}%
+%              सूचक
+%              अनुक्रमणिका 
+%              अनुक्रमणि
+\def\listfigurename{चित्रों की सूची}%
+\def\listtablename{तालिकाओं की सूची}%
+\def\pagename{पृषठ}%
+\def\partname{खणड}%
+\def\prefacename{प्रस्तावना}% प्राक्कथन
+\def\refname{हवाले}%
+\def\tablename{तालिका}%
+\def\seename{देखिए}%
+\def\alsoname{और देखिए}%
+\def\alsoseename{और देखिए}}
+
+% It is supposed that the modern and traditional variant
+% will be switched either by selection of the proper fonts
+% or by using font options
+\let\datemodernhindi\datehindi
+\let\captionsmodernhindi\captionshindi

@@ -1,0 +1,57 @@
+\usepackage{hyperref}
+\usepackage{polyglossia}
+\hypersetup{pdfpagemode=UseNone} %FullScreen
+\usetheme{Madrid}
+\usefonttheme{serif} 
+\usecolortheme{crane}
+\defaultfontfeatures{Mapping=tex-text,Numbers=OldStyle}
+\setdefaultlanguage[variant=british]{english}
+\setotherlanguage{sanskrit}
+
+\setmainfont{DejaVu Sans}
+
+\newfontfamily\sanskritfont[%Mapping=velthuis-sanskrit,
+Mapping=RomDev,
+Script=Devanagari]
+%{Shobhika} 
+{Sanskrit 2003}
+
+
+% beamer choices:
+\hypersetup{pdfpagemode=UseNone} %FullScreen
+\usetheme {Pittsburgh}
+%{Madrid}
+\usecolortheme{wolverine}  
+%{crane}
+
+%https://tex.stackexchange.com/questions/686/how-to-get-rid-of-navigation-symbols-in-beamer
+\beamertemplatenavigationsymbolsempty
+% or this: \setbeamertemplate{navigation symbols}{}
+
+\usepackage{multicol}
+
+\providecommand{\dev}[1]{{\sanskritfont #1}}
+
+% DW internal shortcuts etc. 
+%\newcommand{\saneng}[2]{#2}
+\providecommand{\PYS}{\emph{Pātañjalayogaśāstra}}
+\newcommand{\saneng}[2]{#2 (\emph{#1})}
+\newcommand{\CClogo}{%
+    \includegraphics[height=2ex]
+    {/home/dom/Dropbox/localtexmf/tex/graphics/CCASA-license-88x31}%
+    %\href{http://creativecommons.org/licenses/by-sa/3.0/deed.en_GB}{licence}
+}
+
+\providecommand\CE{{\small CE}}
+\providecommand\BCE{{\small BCE}}
+
+% If you have a file called "university-logo-filename.xxx", where xxx
+% is a graphic format that can be processed by latex or pdflatex,
+% resp., then you can add a logo as follows:
+
+\pgfdeclareimage[height=0.5cm]{ualberta-logo}{ualberta-colour-logo}
+\logo{\pgfuseimage{ualberta-logo}}
+
+\author{Dominik Wujastyk}
+\institute[University of Alberta]{Department of History and Classics\\
+    University of Alberta\\[1ex] \CClogo }

@@ -1,0 +1,48 @@
+\usepackage{xetex-generic}
+ 
+ \setmainfont[Numbers=OldStyle]{Libertinus Serif}
+ 
+\usepackage{hyperref
+}
+\usepackage[%
+backend=biber,
+style=authoryear-icomp,
+% Make idem and ibidem behave appropriately:
+%https://tex.stackexchange.com/questions/61717/biblatex-strictly-identical-footnote-citations-following-each-other
+% (and see \newbibmacro*{cite:ibid} below).
+%ibidpage,
+%idemtracker=false,
+bibstyle=numeric,
+%bibstyle=publist,
+%marginyear=true,
+%style=verbose-trad1,
+%
+% I finally worked out how to sort cites by year and bibliography by name
+% https://cikitsa.blogspot.ca/2017/07/biblatex-citations-and-bibliography.html
+% sorting=ynt,  %sorted by date of publication
+sorting=nyt,  %sorted by author
+sortcites=true, 
+backref=false,
+date=comp,
+datecirca=true,
+dateuncertain=true,
+bibencoding=auto,
+hyperref=auto,
+isbn=true,
+doi=true,
+language=auto,
+texencoding=auto,
+url=true,
+usetranslator=true,
+useprefix=true,% van Nooten
+natbib=true,
+%refsection=section,
+%bibstyle=manuscripts, % invokes biblatex-manuscripts-philology
+]{biblatex}
+
+%\addbibresource{biblio4-utf8.bib}
+
+\usepackage{xurl}
+
+% suppress shorthands: http://tex.stackexchange.com/questions/57041/
+%\AtEveryCitekey{\clearfield{shorthand}}
