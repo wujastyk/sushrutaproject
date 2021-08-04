@@ -111,7 +111,7 @@
         <encodingDesc>
             <charDecl>
                 <glyph xml:id="thaayjaayekaa">
-                    <localProp name="thaayjaayekaa" value="NEWA GAP FILLER"/>
+                    <localProp name="newa-gap-filler" value="NEWA GAP FILLER"/>
                     <mapping type="standard">&#x1144E;</mapping>
                     <mapping type="PUA">U+1144E </mapping>
                     <note><ref target="https://unicode.org/charts/PDF/U11400.pdf"></ref></note>
@@ -276,15 +276,17 @@
                     <l xml:id="SS.5.1.33cd"/>
                     
 
-                    <l xml:id="SS.5.1.34">upakṣipta<unclear extent="1" unit="char"/>sya cānnasya
+                    <l xml:id="SS.5.1.34ab"/>
+
+                    <l xml:id="SS.5.1.34cd">upakṣipta<g ref="#newa-old-gap-filler"/>sya cānnasya
                         vāṣpeṇorddhvam udīryatāṃ |</l>
 
                     <l xml:id="SS.5.1.35">hṛtpīḍā bhrāntanetratvaṃ śiroduḥkhañ ca jāyate ||<pb
                             n="324r"/>
                         <caesura/>
-                         tatra tasyāñjane kuṣṭhaṃ lāmajjannaladaṃ madhū<unclear>ḥ</unclear>|</l>
+                         tatra tasyāñjane kuṣṭhaṃ lāmajjan naladaṃ madhū<del resp="scribe">ḥ</del>|</l>
 
-                    <l xml:id="SS.5.1.36">hṛdicandanalepaś ca tathā sukhamavāpnuyāt |</l>
+                    <l xml:id="SS.5.1.36">hṛdicandanalepaś ca tathā sukham avāpnuyāt |</l>
 
                     <l xml:id="SS.5.1.37">pāṇiprāptaṃ pāṇidāhaṃ nakhasātaṅ karoti ca ||
                         <caesura/>
@@ -297,7 +299,7 @@
 
                     <l xml:id="SS.5.1.39">tudyate dahyate cāpi śleṣmā cāsya prasicyate |
                         <caesura/>
-                         tatra vāṣperitaṃ karma yaccā<lb n="3"/>syāddantakāṣṭhikaṃ |</l>
+                         tatra vāṣperitaṃ karma yac cā<lb n="3"/>syād dantakāṣṭhikaṃ |</l>
 
                     <l xml:id="SS.5.1.40">mūrcchāṃ ccharddiṃ romaharṣamādhmānaṃ dāhameva ca<cb/> |
                         <caesura/>
