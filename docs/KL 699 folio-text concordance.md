@@ -21,7 +21,7 @@
 | 14 | 1.14.35–1.15.7–1.15.17 |
 | 15 | 1.15.17–1.15.36–1.16.4 (<strong>significant divergence</strong>) |
 | 16 | folio missing |
-| 17 | 1.17.4–1.7.10–1.18.18 |
+| 17 | 1.17.4–1.17.10–1.18.18 |
 | 18 | folio missing |
 | 19 | folio missing |
 | 20 | folio missing |
