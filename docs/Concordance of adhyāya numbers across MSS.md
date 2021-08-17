@@ -1,4 +1,5 @@
 # Concordance of adhyāya numbers across MSS
+Started by Dominik; currently maintained by Deepro
 
 | canonical (vulgate) | MS KL 699 | iti folio | MS NAK  5-333 | iti fol. | MS NAK 1-1079 | iti fol. |
 | ------------------- | --------- | --------- | ------------- | -------- | ------------- | -------- |
