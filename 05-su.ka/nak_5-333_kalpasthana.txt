@@ -114,7 +114,7 @@
                     <localProp name="newa-gap-filler" value="NEWA GAP FILLER"/>
                     <mapping type="standard">&#x1144E;</mapping>
                     <mapping type="PUA">U+1144E </mapping>
-                    <note><ref target="https://unicode.org/charts/PDF/U11400.pdf"></ref></note>
+                    <note><ref target="https://unicode.org/charts/PDF/U11400.pdf"/></note>
                 </glyph>
             </charDecl>
             <charDecl>
@@ -122,7 +122,7 @@
                     <localProp name="siddhi" value="SIDDHI"/>
                     <mapping type="standard">&#x1144A;</mapping>
                     <mapping type="PUA">U+1144E </mapping>
-                    <note><ref target="https://unicode.org/charts/PDF/U11400.pdf"></ref></note>
+                    <note><ref target="https://unicode.org/charts/PDF/U11400.pdf"/></note>
                 </glyph>
             </charDecl>
         </encodingDesc>
@@ -144,8 +144,10 @@
 
                     <milestone unit="folio" n="dscn3301 fol 323.jpg lower"/>
 
-                    <l xml:id="SS.5.1.1"><choice><abbr type="contraction">1</abbr><expan><ex>siddhir astu</ex></expan></choice>  athāto 'nnapānarakṣākalpam
-                        vyākhyāsyāmaḥ ||</l>
+                    <l xml:id="SS.5.1.1"><choice>
+                            <abbr type="contraction">1</abbr>
+                            <expan><ex>siddhir astu</ex></expan>
+                        </choice> athāto 'nnapānarakṣākalpam vyākhyāsyāmaḥ ||</l>
 
                     <l xml:id="SS.5.1.2">yathovāca bhagavān dhanvantariḥ || <add place="above"
                             hand="#main_hand">atha khalu vatsasuśrutaḥ | 1</add></l>
@@ -208,15 +210,15 @@
                     <l xml:id="SS.5.1.16"/>
 
                     <l xml:id="SS.5.1.17ab"/>
-                    
+
                     <l xml:id="SS.5.1.17cd">mahānasikavoḍhāraḥ sūpo<lb n="5"/>danika<pc
                         > </pc>pūpikāḥ |</l>
 
                     <l xml:id="SS.5.1.18">bhaveyur vaidyavaśagā <del extent="1" unit="char"/>ye cāpy
                         anye tra kecana |<cb/>
                         <caesura/>
-                        iṅgitajño ma<g ref="#newa-old-gap-filler"/><g ref="#newa-old-gap-filler"/>nuṣyāṇāṃ
-                        vākceṣṭāmukhavaikṛtaiḥ |</l>
+                         iṅgitajño ma<g ref="#newa-old-gap-filler"/><g ref="#newa-old-gap-filler"
+                        />nuṣyāṇāṃ vākceṣṭāmukhavaikṛtaiḥ |</l>
 
                     <l xml:id="SS.5.1.19">jānīyād viṣadātāram ebhir liṅgaiś ca vuddhi<lb n="6"/>mān
                         |
@@ -230,8 +232,7 @@
                     <l xml:id="SS.5.1.21">vepathuś cāsya bhavati trasta<pb n="324v"/>ś cānyo nyam
                         īkṣyate |
                         <caesura/>
-                         vivarṇṇavaktro dhyāmaś ca nakhaiḥ kiñcic chinaty api
-                        |</l>
+                         vivarṇṇavaktro dhyāmaś ca nakhaiḥ kiñcic chinaty api |</l>
 
                     <l xml:id="SS.5.1.22"/>
 
@@ -270,11 +271,11 @@
                         <caesura/>
                          haṃsaḥ khelati cātyarthaṃ kūjate bhṛṅgarājakaḥ |</l>
 
-                    <l xml:id="SS.5.1.33ab">vṛṣabho vi<lb n="6"/>sṛjaty asram muñcate
-                            viṭ ca markaṭaḥ |</l>
-                    
+                    <l xml:id="SS.5.1.33ab">vṛṣabho vi<lb n="6"/>sṛjaty asram muñcate viṭ ca
+                        markaṭaḥ |</l>
+
                     <l xml:id="SS.5.1.33cd"/>
-                    
+
 
                     <l xml:id="SS.5.1.34ab"/>
 
@@ -284,24 +285,28 @@
                     <l xml:id="SS.5.1.35">hṛtpīḍā bhrāntanetratvaṃ śiroduḥkhañ ca jāyate ||<pb
                             n="324r"/>
                         <caesura/>
-                         tatra tasyāñjane kuṣṭhaṃ lāmajjan naladaṃ madhū<del resp="scribe">ḥ</del>|</l>
+                         tatra tasyāñjane kuṣṭhaṃ lāmajjan naladaṃ madhū<del resp="scribe"
+                        >ḥ</del>|</l>
 
                     <l xml:id="SS.5.1.36ab"/>
-                    
+
                     <l xml:id="SS.5.1.36cd">hṛdi candanalepaś ca tathā sukham avāpnuyāt |</l>
 
                     <l xml:id="SS.5.1.37">pāṇiprāptaṃ pāṇidāhaṃ nakhasātaṅ karoti ca ||
                         <caesura/>
-                        tatra pralepaḥ śyāmendra<pc> </pc>gopa<pc> </pc>somotpalāni ca |</l>
+                         tatra pralepaḥ śyāmendra<pc> </pc>gopa<pc> </pc>somotpalāni ca |</l>
 
-                    <l xml:id="SS.5.1.38">sa cetpramādānmohādvā ta<unclear>dbhuṃ</unclear>kte
+                    <l xml:id="SS.5.1.38">sa cet pramādān mohād vā ta<unclear>d bhuṃ</unclear>kte
                         bhojanaṃ yadi |
                         <caesura/>
-                         tatosyāṣṭhīla<cb/>vajjihvā jāyate rasavedanī |</l>
+                         tato syāṣṭhīla<cb/>vaj jihvā jāyate rasavedanī |</l>
 
                     <l xml:id="SS.5.1.39">tudyate dahyate cāpi śleṣmā cāsya prasicyate |
                         <caesura/>
-                         tatra vāṣperitaṃ karma yac cā<lb n="3"/>syād dantakāṣṭhikaṃ |</l>
+                         tatra vāṣperitaṃ karma yac <subst>
+                            <add>ca</add>
+                            <del>cā</del>
+                        </subst><lb n="3"/> syād dantakāṣṭhikaṃ |</l>
 
                     <l xml:id="SS.5.1.40">mūrcchāṃ ccharddiṃ romaharṣamādhmānaṃ dāhameva ca<cb/> |
                         <caesura/>
@@ -448,7 +453,7 @@
                     <l xml:id="SS.5.1.74">bhūṣaṇāni hatārccīṃṣi na vibhā<cb/>nti yathā purā |
                         <caesura/>
                          svāni sthānāni hanyuś ca dāhapākavadāruṇaiḥ |</l>
-                    
+
 
                     <l xml:id="SS.5.1.75">pādukabhūṣaṇai<add place="below">ṣū</add>ktamabhyaṅga<lb
                             n="6"/>vidhimācaret ||
@@ -460,7 +465,7 @@
                          mahāsugandham agadaṃ yam pravakṣyāmi tam bhiṣak ||<pb n="327v"/></l>
 
                     <l xml:id="SS.5.1.77">pānālepananasyeṣu vidadhītāñjaneṣu ca |
-                        <caesura/>  
+                        <caesura/>
                          virecanāni tīkṣṇāni kuryātpraccharddanāni ca |</l>
 
                     <l xml:id="SS.5.1.78">śirāś ca vedhayet prāptāḥ prāptam visrāvaṇaṃ yadi |
