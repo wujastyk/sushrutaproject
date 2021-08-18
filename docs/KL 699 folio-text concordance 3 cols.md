@@ -5,52 +5,52 @@
 
 
 |  |  | **Suśruta text contained** | | approx. adhyāya |
-| ---------- | ---------- | ----------- | ------------ | ---------- |
+| ------------- | ---------- | ----------- | ------------ | ---------- |
 | folio | start | middle |end||
 |  | **1. Sūtrasthāna** | | | |
 | 1 | 1.01.1 | | 1.01.9? | 1.01 |
 | 2 | 1.01.10 | |1.02.1 |1.02 |
 | 3 | 1.02.3 | 1.03.4 |1.03.23 |1.03 |
-| 4 | folio missing | |||
+| 4 |  | folio missing |||
 | 5 | 1.04.6 | 1.05.17 | 1.05.42 | 1.05 |
 | 6 | 1.05.42 | 1.06.10 | 1.06.18 | 1.06 |
 | 7 | 1.06.18 | 1.07.12 | 1.08.1 | 1.07-08 |
 | 8 | 1.08.1 | 1.08.14 | 1.10.5 | 1.08-1.10 |
 | 9 | 1.10.5 | 1.11.11 | 1.11.26 | 1.11 |
-| 10 | folio missing | |||
+| 10 |  | folio missing |||
 | 11 | 1.11.26 | 1.12.12 | 1.12.32 | 1.12 |
-| 12 | folio missing | |||
+| 12 |  | folio missing |||
 | 13 | 1.13.21 | 1.14.15 | 1.14.35 | 1.13-1.14 |
 | 14b | 6.04.177 | 6.04.17 | | 6.04 |
 | 14 | 1.14.35 | 1.15.7 | 1.15.17 | 1.15 |
 | 15 | 1.15.17 | 1.15.36 | 1.16.4 (<strong>significant divergence</strong>) | 1.16 |
-| 16 | folio missing | |||
+| 16 |  | folio missing |||
 | 17 | 1.17.4 | 1.07.10 | 1.18.18 | 1.17-1.18 |
-| 18 | folio missing | |||
-| 19 | folio missing | |||
-| 20 | folio missing | |||
+| 18 |  | folio missing |||
+| 19 |  | folio missing |||
+| 20 |  | folio missing |||
 | 21 | 1.21.31 | 1.22.7 | 1.23.3 | 1.21 |
-| 22 | folio missing | |||
+| 22 |  | folio missing |||
 | 23 | 1.24.7 | 1.24.11 | 1.25 (<strong>completely different text</strong>) | 1.24-1.26 |
 | 24 | 1.25.xxx | 1.25.36/1.25.40 | 1.26.11 | 1.26 |
-| 25 | folio missing | |||
+| 25 |  | folio missing |||
 | 26 | 1.27.19 | 1.28.14 | 1.29.20* | 1.27-1.29 |
 | 27 | 1.29.19* | 1.29.39 | 1.29.65 | 1.29 |
 | 28 | 1.29.65 | 1.30.4 | 1.31.4 | 1.30-1.31 |
 | 29 | 1.31.4 | 1.31.29 | 1.32.4 | 1.32 |
-| 30 | 67 | folio missing | | |
+| 30-67 |  | folio missing | | |
 |  |  |  | Total: | *29 adhyāyas* |
 | | | | | |
 |  | **2. Nidāna** | |||
 | 68 | 2.16.32 | 2.16.50 | 3.01.1 | 2.16 |
-| 69 | 89 | folio missing | | |
-| 90 | 4.02.24 | 4.02.50 | 4.02.77 | 4.02 |
-| 91 | 109 | folio missing | | |
+| 69-89 |  | folios missing | | |
+| 91-109 |  | folios missing | | |
 |  |  |  | Total: | *2 adhyāyas* |
 | | | | | |
 |  | **4. Cikitsā** | |||
+| 90 | 4.02.24 | 4.02.50 | 4.02.77 | 4.02 |
 | 110 | 4.39.23 | 4.40.3* | 4.40.14 | 4.39-4.40 |
-| 111 | folio missing | |||
+| 111 |  | folio missing |||
 | 112_ |  | |||
 | 112 | 4.19.23 | 4.19.44 | 4.20.xxx | 4.19-4.20 |
 | 113_ | 4.23.xxx | 5.07.19* | 5.07.37 (part of the Nighaṇṭu?) | 4.23; 5.07-5.17 |
@@ -63,7 +63,7 @@
 | 119 | 4.24.89 | 4.24.98 | 4.24.119 | 4.24 |
 | 120 | 4.24.119 | 4.25.9 | 4.25.28* | 4.25 |
 | 121 | 4.25.28* | 4.26.3 | 4.26.26 | 4.26 |
-| 122 | 124 | folio missing | | |
+| 122-124 |  | folios missing | | |
 | 125 | 4.29.12 | 4.29.28 | 4.30.7 | 4.29 |
 | 126 | 4.30.7 | 4.30.28* | 4.31.5 | 4.30 |
 | 127 | 4.31.5 | 4.31.11 | 4.31.35 | 4.31 |
@@ -79,7 +79,7 @@
 | 137 | 4.37.97 | 4.37.121 | ??? | 4.37 |
 | 138 | ??? | 4.38.3 | 4.38.19 | 4.38 |
 | 139 | 4.38.84 | 4.48.115 | 4.39.23 | 4.39 |
-| 140 | folio missing | |||
+| 140 |  | folio missing |||
 | 141 | 4.40.14 | 4.40.22 | 4.40.37 | 4.40 |
 | 142 | 4.40.37 | 4.40.57 | conclusion of the Cikitsāsthāna? | 4.40 |
 |  |  |  | Total: | *26 adhyāyas* |
@@ -99,10 +99,10 @@
 | 154 | 5.08.10 | 5.08.30 | 5.08.69 | 5.08 |
 | 155 | 5.08.69 | 5.08.79 | 5.08.97 | 5.08 |
 | 156 | 5.08.97 | 5.08.121 | 5.08.140  <strong>text not in the edition</strong> | 5.08 |
-| 157 | <strong>text not in the edition</strong>  "sausrute śalyatantre kalpasthānaṃ samāptaḥ" | 6.01.8 | 6.01.25 | 6.01 |
-|  |  |  | Total: | *8 adhyāyas* |
+|  |  |  | Total: | *7 adhyāyas* |
 | | | | | |
 |  | **6. Uttara** | |||
+| 157 | <strong>text not in the edition</strong>  "sausrute śalyatantre kalpasthānaṃ samāptaḥ" | 6.01.8 | 6.01.25 | 6.01 |
 | 158 | 6.01.25 | 6.01.42 | 6.03.10 | 6.01-6.02 |
 | 159 | 6.03.10 | 6.03.28? | end of 6.3 | 6.03 |
 | 160 | beginning of 6.4 | 6.06.28 | 6.07.19 | 6.04-6.19 |
@@ -137,7 +137,7 @@
 | 187 | 6.42.19 | 6.42.24  <strong>completely different text</strong> from the edition | 6.42.46 | 6.42 |
 | 188_ | 6.40.126? | 6.40.145 | 6.40.149  <strong>completely different text</strong> | 6.40 |
 | 188 | 6.42.46 | 6.42.66 | <strong>completely different text  </strong>6.44.4 | 6.42 |
-| 189_ | <strong>different text  </strong> 6.40.176 | ||6.40|
+| 189_ |  | <strong>different text  </strong> 6.40.176 ||6.40|
 | 189 | 6.44.4 | 6.44.26  beginning of 6.45, followed by <strong>completely different text</strong> | 6.45.15 | 6.44 |
 | 190 | 6.45.15 | 6.45.39 | 6.46.20 | 6.45-6.46 |
 | 191_ | 6.41.18 | 6.41.29 | 6.41.38 | 6.41 |
@@ -173,7 +173,7 @@
 | 217 | continues 216 | |||
 | 218 | folio missing | |||
 | 219 | colophon of the Nighaṇṭu | |||
-|  |  | |Total:|61 adhyāyas|
+|  |  | |Total:|62 adhyāyas|
 |  |  | |Grand total:|*126*|
 
 1.  Those section titles correspond to 6.58 and 6.38, but the text that
