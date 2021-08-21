@@ -25,7 +25,7 @@
 | 6.21 Śālākyatantra       | 6.20 Śālākyatantra 20 | 172r7     | 6.20 Śālākyatantra 20| 384r1    |               |          |
 | 6.22 Śālākyatantra       | 6.21 Śālākyatantra 21 | 173r1     | 6.21 Śālākyatantra 21| 385r5    |               |          |
 | 6.23 Śālākyatantra       | 6.22 Śālākyatantra 22 | 173r5     | 6.22 Śālākyatantra 22| 386r2    |               |          |
-| 6.24 Śālākyatantra       | unavailable           |           | unavailable          |          |               |          |
+| 6.24 Śālākyatantra       | 6.51 Kāyacikitsā 16   | 197v1     | 6.51 Kāyacikitsā 16  | 93v4 (dscn3443  fol 468.jpg)|  |    |
 | 6.25 Śālākyatantra       | 6.23 Śālākyatantra 23 | 173v4     | 6.23 Śālākyatantra 23| 387r1    |               |          |
 | 6.26 Śālākyatantra       | 6.24 Śālākyatantra 24 | 174v2     | 6.24 Śālākyatantra 24| 388v6    |               |          |
 | 6.27 Kaumārabhṛtyatantra | 6.25 Kumārabhṛtya 1   | 175r2     | 6.25 Kumāratantra 1  | 390r1    |               |          |
@@ -39,7 +39,7 @@
 | 6.35 Kaumārabhṛtyatantra | 6.33 Kumārabhṛtya 9   | 176r6     | 6.33 Kumāratantra 9  | 393r3    |               |          |
 | 6.36 Kaumārabhṛtyatantra | 6.34 Kumārabhṛtya 10  | 176v1     | 6.34 Kumāratantra 10 | 394r7    |               |          |
 | 6.37 Kaumārabhṛtyatantra | 6.35 Kumārabhṛtya 11  | 176v7     | 6.35 Kumāratantra 11 | 394v1    |               |          |
-| 6.38 Kaumārabhṛtyatantra | unavailable           |           | unavailable          |          |               |          |
+| 6.38 Kaumārabhṛtyatantra | 6.58 Kāyacikitsā 23   | 202v1     | 6.58 Kāyacikitsā 23  | 106v3 (dscn3456  fol 481.jpg) | |   |
 | 6.39 Kāyacikitsātantra   | 6.36 Kāyacikitsā 1    | 185_r6    | 6.36 Kāyacikitsā 1 (text missing after 6.39.164) | 400r1 (final part is missing | | |
 | 6.40 Kāyacikitsātantra | 6.37 Kāyacikitsā 2| 192_r2? (192_r IMG_0125.JPG, upper image) | 6.37 Kāyacikitsā 2 | dscn3461  fol 486.jpg (1, folio non paginated) | | |
 | 6.41 Kāyacikitsātantra   | 6.38 Kāyacikitsā 3    | 182_v4    | 6.38 Kāyacikitsā 3   | 66v6 (dscn3416  fol 441.jpg) |  |   |
@@ -52,3 +52,19 @@
 | 6.48 Kāyacikitsātantra   | 6.45 Kāyacikitsā 10   | 193v6     | 6.45 Kāyacikitsā 10  | 84v4 (dscn3434  fol 459.jpg) |  |   |
 | 6.49 Kāyacikitsātantra   | 6.46 Kāyacikitsā 11   | 194r7     | 6.46 Kāyacikitsā 11  | 86r4 (dscn3435  fol 460.jpg) |  |   |
 | 6.50 Kāyacikitsātantra   | 6.47 Kāyacikitsā 12   | 195r2     | 6.47 Kāyacikitsā 12  | 87v3 (dscn3437  fol 462.jpg) |  |   |
+| 6.51 Kāyacikitsātantra   | 6.48 Kāyacikitsā 13   | 195v5     | 6.48 Kāyacikitsā 13  | 89v1 (dscn3439  fol 464.jpg) |  |   |
+| 6.52 Kāyacikitsātantra   | 6.49 Kāyacikitsā 14   | 196v4     | 6.49 Kāyacikitsā 14  | 91v2 (dscn3441  fol 466.jpg) |  |   |
+| 6.53 Kāyacikitsātantra   | 6.50 Kāyacikitsā 15   | 197r1     | 6.50 Kāyacikitsā 15  | 92r6 (dscn3441  fol 466.jpg) |  |   |
+| 6.54 Kāyacikitsātantra   | 6.52 Kāyacikitsā 17   | 198r3     | 6.52 Kāyacikitsā 17  | 95r4 (dscn3444  fol 469.jpg) |  |   |
+| 6.55 Kāyacikitsātantra   | 6.53 Kāyacikitsā 18   | 199r3     | 6.53 Kāyacikitsā 18  | 97v6 (dscn3447  fol 472.jpg) |  |   |
+| 6.56 Kāyacikitsātantra   | 6.54 Kāyacikitsā 19   | 199v4     | 6.54 Kāyacikitsā 19  | 99r6 (dscn3448  fol 473.jpg) |  |   |
+| 6.57 Kāyacikitsātantra   | 6.55 Kāyacikitsā 20   | 200r4     | 6.55 Kāyacikitsā 20  | 100v4 (dscn3450  fol 475.jpg)|  |   |
+| 6.58 Kāyacikitsātantra   | 6.56 Kāyacikitsā 21   | 201r1     | 6.56 Kāyacikitsā 21  | 103r1 (dscn3452  fol 477.jpg)|  |   |
+| 6.59 Kāyacikitsātantra   | 6.57 Kāyacikitsā 22   | 201v6     | 6.57 Kāyacikitsā 22  | 105r3 (dscn3452  fol 477.jpg)|  |   |
+| 6.60                     | 6.59 Kāyacikitsā 24   | 203v3     | 6.59 Bhūtavidyā 1    | 109v3 (dscn3459  fol 484.jpg)|  |   |
+| 6.61                     | 6.60 Kāyacikitsā 25   | 204r3     | 6.60 Bhūtavidyā 2    | 110v6 (dscn3460  fol 485.jpg)|  |   |
+| 6.62                     | 6.61 Kāyacikitsā 26   | 204v4     | 6.61 Bhūtavidyā 3    | 112r3 (dscn3379  fol 404.jpg)|  |   |
+| 6.63                     | 6.62 Kāyacikitsā 27   | 205v2     | 6.62 Bhūtavidyā 4    | 113v4 (dscn3381  fol 406.jpg)|  |   |
+| 6.64                     | 6.63 Kāyacikitsā 28   | 208r3     | 6.63 Kāyacikitsā 28  | 119r3 (dscn3386  fol 411.jpg)|  |   |
+| 6.65                     | 6.64 Kāyacikitsā 29   | 209r6     | 6.64                 | 122r6 (dscn3389  fol 414.jpg)|  |   |
+| 6.66                     | 6.65 Kāyacikitsā 30   | 209v5     | 6.65                 | not found |  |   |
