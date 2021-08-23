@@ -1,7 +1,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 
    <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
-   
+
       <fileDesc>
          <titleStmt>
             <title>MS Kathmandu KL 699: Kalpasthāna</title>
@@ -11,19 +11,21 @@
          </publicationStmt>
          <sourceDesc>
             <msDesc>
-               
+
                <msIdentifier>
                   <placeName>
                      <settlement>Kathmandu</settlement>
                      <country>Nepal</country>
                   </placeName>
                   <institution>Kaiser Library</institution>
-                  <repository><ref target="https://www.klib.gov.np/">https://www.klib.gov.np/</ref></repository>
+                  <repository>
+                     <ref target="https://www.klib.gov.np/">https://www.klib.gov.np/</ref>
+                  </repository>
                   <collection>[collection]</collection>
                   <idno>699</idno>
                   <idno type="siglum">K</idno>
                </msIdentifier>
-               
+
                <msContents>
                   <summary>[description of manuscript]</summary>
                   <msItem defective="true" n="1">
@@ -50,7 +52,7 @@
                   </msItem>
 
                </msContents>
-               
+
                <physDesc>
                   <objectDesc form="pothi">
                      <!-- @form can be "pothi", "book", scroll", etc. -->
@@ -63,7 +65,7 @@
                      <!--                     this śa/sa equivalence may be wrong. Still checking, 2021-06-12  - DW -->
                   </scriptDesc>
                </physDesc>
-               
+
                <history>
                   <origin>
                      <origDate calendar="Nepal" when="0301">M Saṃvat 301 (878 CE).</origDate>
@@ -72,9 +74,9 @@
                </history>
             </msDesc>
          </sourceDesc>
-      
+
       </fileDesc>
-      
+
       <revisionDesc>
          <change when="2020-04-21" who="Harshal Bhatt">Transcription of 5.1.</change>
       </revisionDesc>
@@ -87,54 +89,54 @@
             <div n="1" type="adhyāyaḥ">
 
                <!-- 143r:1 -->
-               <milestone unit="folio" n="143r.jpg"/>
+               <milestone n="143r.jpg" unit="folio"/>
 
-               <l xml:id="SS.5.1.1">athāto nnapānarakṣākalpaṃ <choice><abbr type="suspension">vyā</abbr><expan><ex>khyāsyāmaḥ</ex></expan></choice> ||</l>
+               <l xml:id="SS.5.1.1">athāto nnapānarakṣākalpaṃ <choice><abbr type="suspension"
+                        >vyā</abbr><expan><ex>khyāsyāmaḥ</ex></expan></choice> ||</l>
 
                <l xml:id="SS.5.1.2">yathovāca bha<cb/>gavān dhanvantariḥ |</l>
 
                <l xml:id="SS.5.1.3">divodāsakṣitipatis tapodharmabhṛtāṃ varaḥ |
                   <caesura/>
-                  <unclear extent="7" reason="torn" unit="syllables">suśru</unclear>tapramu<unclear>khāñ</unclear>
-                     chi<lb n="2"/>ṣyāṃ śaśāsāhata<pc> </pc>śāsanaḥ |</l>
+                  <unclear extent="7" reason="torn" unit="syllables"
+                     >suśru</unclear>tapramu<unclear>khāñ</unclear> chi<lb n="2"/>ṣyāṃ
+                     śaśāsāhata<pc> </pc>śāsanaḥ |</l>
 
                <l xml:id="SS.5.1.4">ripavo vikramākrāntāḥ sve vā syuḥ kṛtyatāṅ gatāḥ |<cb/>
                   <caesura/>
-                  sisṛkṣavaḥ krodhaviṣaṃ vivaraṃ prāpya tādṛśaṃ |</l>
+                   sisṛkṣavaḥ krodhaviṣaṃ vivaraṃ prāpya tādṛśaṃ |</l>
 
-               <l xml:id="SS.5.1.5ab">
-viṣair hiṃsyur akiñcijñaṃ nṛpatiṃ duṣṭacetasaḥ |
-</l>
+               <l xml:id="SS.5.1.5ab"> viṣair hiṃsyur akiñcijñaṃ nṛpatiṃ duṣṭacetasaḥ | </l>
 
                <l xml:id="SS.5.1.5cd"/>
-               
+
                <l xml:id="SS.5.1.6ab"/>
 
                <l xml:id="SS.5.1.6cd">tasmād vaidyena sa<cb/>tataṃ viṣād rakṣyo narādhipaḥ |</l>
 
                <l xml:id="SS.5.1.7">yasmāc cānityacittatvam aśvavat prathitaṃ nṛṣu |
                   <caesura/>
-                  tasmān na vi<lb n="3"/>śvased rājā kadācid api kasya cit |</l>
+                   tasmān na vi<lb n="3"/>śvased rājā kadācid api kasya cit |</l>
 
                <l xml:id="SS.5.1.8ab">kulīnam dhārmikaṃ snigdham akṛśaṃ satatotthitaṃ |<cb/></l>
 
                <l xml:id="SS.5.1.8cd"/>
-               
+
                <l xml:id="SS.5.1.9"/>
 
                <l xml:id="SS.5.1.10"/>
 
                <l xml:id="SS.5.1.11ab"/>
-               
+
                <l xml:id="SS.5.1.11cd">mahānase niyuñjīta vaidyan tadvidyapūjitaṃ |</l>
 
                <l xml:id="SS.5.1.12ab">praśastadigdeśakṛtaṃ śucibhāṇḍāṃ mahacchuciḥ |</l>
 
                <l xml:id="SS.5.1.12cd"/>
-               
+
 
                <l xml:id="SS.5.1.13ab"/>
-               
+
                <l xml:id="SS.5.1.13cd">parīkṣitastrīpuru<cb/>ṣaṃ bhavec cāpi mahānasaṃ |</l>
 
                <l xml:id="SS.5.1.14"/>
@@ -145,25 +147,24 @@ viṣair hiṃsyur akiñcijñaṃ nṛpatiṃ duṣṭacetasaḥ |
 
                <l xml:id="SS.5.1.17ab"/>
 
-               <l xml:id="SS.5.1.17cd">mahānasikavoḍhḍhāraḥ saupodanika<pc> </pc>pūpikāḥ
-                  |</l>
+               <l xml:id="SS.5.1.17cd">mahānasikavoḍhḍhāraḥ saupodanika<pc> </pc>pūpikāḥ |</l>
 
                <l xml:id="SS.5.1.18">bhaveyu<lb n="4"/>r vaidyavaśagā ye cāpy anye tra kecanaḥ |
                   <caesura/>
-                  iṅgitajño manuṣyāṇāṃ vākceṣṭāmukha<cb/>vaikṛtaiḥ |</l>
+                   iṅgitajño manuṣyāṇāṃ vākceṣṭāmukha<cb/>vaikṛtaiḥ |</l>
 
                <l xml:id="SS.5.1.19">jānīyād viṣadātāram ebhir liṅgaiś ca buddhimān |
                   <caesura/>
-                  vivakṣur muhyate pṛṣṭo nottaraṃ pratipadyate |</l>
+                   vivakṣur muhyate pṛṣṭo nottaraṃ pratipadyate |</l>
 
                <l xml:id="SS.5.1.20">apā<cb/>rthaṃ bahusaṅkīrṇṇaṃ bhāṣate cāpi mūḍhavat |
                   <caesura/>
-                  hasaty akasmād aṅgulīḥ sphoṭāyed vi<unclear extent="1" reason="smudged" unit="char"
-                     >li</unclear>khe<lb n="5"/>d mahīṃ |</l>
+                   hasaty akasmād aṅgulīḥ sphoṭāyed vi<unclear extent="1" reason="smudged"
+                     unit="char">li</unclear>khe<lb n="5"/>d mahīṃ |</l>
 
                <l xml:id="SS.5.1.21">vepathuś cāsya bhavati trastaś cānyo nyam īkṣate |
                   <caesura/>
-                  vivarṇṇavaktro dhyāma<cb/>ś ca nakhaiḥ kiñcic chinaty api |</l>
+                   vivarṇṇavaktro dhyāma<cb/>ś ca nakhaiḥ kiñcic chinaty api |</l>
 
                <l xml:id="SS.5.1.22"/>
 
@@ -173,37 +174,39 @@ viṣair hiṃsyur akiñcijñaṃ nṛpatiṃ duṣṭacetasaḥ |
 
                <l xml:id="SS.5.1.25">dantakāṣṭhe nnapāne ca tathābhyaṅge vale<cb/>khane |
                   <caesura/>
-                  utsādane parīṣeke kaṣāye sānulepane |</l>
+                   utsādane parīṣeke kaṣāye sānulepane |</l>
 
                <l xml:id="SS.5.1.26">srakṣu vastreṣu śayyāsu kavacā<lb n="6"/>bharaṇeṣu ca |
                   <caesura/>
-                  pādukāpādapīṭheṣu pṛṣṭheṣu gajavājināṃ |</l>
+                   pādukāpādapīṭheṣu pṛṣṭheṣu gajavājināṃ |</l>
 
                <l xml:id="SS.5.1.27">viṣajuṣṭe<cb/>ṣu cānyeṣu dhūmanasyāñjanādiṣu |
                   <caesura/>
-                  lakṣaṇāni pravakṣyāmi cikitsāñ cāpy anantaraṃ ||</l>
+                   lakṣaṇāni pravakṣyāmi cikitsāñ cāpy anantaraṃ ||</l>
 
                <l xml:id="SS.5.1.28">nṛpabhaktād balin dattaṃ<cb/> saviṣaṃ bhakṣayanti ye |
                   <caesura/>
-                  tatraiva te vinaśyanti makṣikāvāyasādayaḥ |</l>
+                   tatraiva te vinaśyanti makṣikāvāyasādayaḥ |</l>
 
-               <l xml:id="SS.5.1.29">hutabhuk tena<pb n="143v"/> cānne<add place="below">na</add> bhṛśañ caṭacaṭāyate |
+               <l xml:id="SS.5.1.29">hutabhuk tena<pb n="143v"/> cānne<add place="below">na</add>
+                  bhṛśañ caṭacaṭāyate |
                   <caesura/>
-                  mayūrakaṇṭhapratimo jāyate cāpi duḥsahaḥ |</l>
+                   mayūrakaṇṭhapratimo jāyate cāpi duḥsahaḥ |</l>
 
                <l xml:id="SS.5.1.30cd">cako<cb/>rasyākṣivairāgyaṃ jāyate kṣipram eva tu |</l>
 
                <l xml:id="SS.5.1.31">dṛṣṭvānnaṃ viṣasaṃsṛṣṭaṃ mriyate jīvajīvakaḥ |
                   <caesura/>
-                  kokilaḥ svaravaikṛtyaṃ kro<cb/>ñcas tu madam arcchati |</l>
+                   kokilaḥ svaravaikṛtyaṃ kro<cb/>ñcas tu madam arcchati |</l>
 
                <l xml:id="SS.5.1.32">hṛṣyen mayūras tūdvigne <unclear>krośete</unclear> śukasārike |
                   <caesura/>
-                  haṃsa kṣvelati cātya<lb n="2"/>rthaṃ kū<gap reason="insertion in the line above" extent="1" unit="char"/>jate
-                  bhṛṅgarājakaḥ |</l>
+                   haṃsa kṣvelati cātya<lb n="2"/>rthaṃ kū<gap extent="1" reason="insertion in the
+                     line above" unit="char"/>jate bhṛṅgarājakaḥ |</l>
 
-               <l xml:id="SS.5.1.33ab"><unclear>pṛ</unclear>ṣabho visṛjaty aśraṃ muñcate viṭ ca markaṭaḥ |</l>
-               
+               <l xml:id="SS.5.1.33ab"><unclear>pṛ</unclear>ṣabho visṛjaty aśraṃ muñcate viṭ ca
+                  markaṭaḥ |</l>
+
                <l xml:id="SS.5.1.33cd"/>
 
                <l xml:id="SS.5.1.34ab"/>
@@ -212,31 +215,31 @@ viṣair hiṃsyur akiñcijñaṃ nṛpatiṃ duṣṭacetasaḥ |
 
                <l xml:id="SS.5.1.35">hṛtpīḍā bhrāntanetratvaṃ śiroduḥkhañ ca jāyate |
                   <caesura/>
-                  tatra nasyāñjane kuṣṭhaṃ lā<cb/>majjaṃ naladaṃ madhuḥ |</l>
-               
+                   tatra nasyāñjane kuṣṭhaṃ lā<cb/>majjaṃ naladaṃ madhuḥ |</l>
+
                <l xml:id="SS.5.1.36ab"/>
 
                <l xml:id="SS.5.1.36cd">hṛdi candanalepaś ca tathā sukham avāpnuyāt |</l>
 
                <l xml:id="SS.5.1.37">pāṇiprāptaṃ pā<lb n="3"/>ṇidāhaṃ nakhaśātaṅ karoti ca |
                   <caesura/>
-                  tatra pralepaḥ śyāmendra<pc> </pc>gopa<pc> </pc>somotpalāni ca |</l>
+                   tatra pralepaḥ śyāmendra<pc> </pc>gopa<pc> </pc>somotpalāni ca |</l>
 
                <l xml:id="SS.5.1.38">sa cet pramādān mohād vā tad bhuṃkte bhojanaṃ yadi |
                   <caesura/>
-                  tato syāṣṭhīlavaj jihvā jāyate rasavedanī |</l>
+                   tato syāṣṭhīlavaj jihvā jāyate rasavedanī |</l>
 
                <l xml:id="SS.5.1.39">tudyate dahyate cā<cb/>pi śleṣmā cāsya prasicyate |
                   <caesura/>
-                  tatra vāṣperitaṃ karma yac ca syād dantakāṣṭhikaṃ |</l>
+                   tatra vāṣperitaṃ karma yac ca syād dantakāṣṭhikaṃ |</l>
 
                <l xml:id="SS.5.1.40">mūrcchāṃ cha<lb n="4"/>rdiṃ roṣaharṣamādhmānaṃ dāham eva ca |
                   <caesura/>
-                  indriyāṇāñ ca vaikṛtyaṃ kuryād āmāśayaṃ<cb/> gataṃ |</l>
+                   indriyāṇāñ ca vaikṛtyaṃ kuryād āmāśayaṃ<cb/> gataṃ |</l>
 
                <l xml:id="SS.5.1.41">tatrāśu madanālāvuvimvīkośātakīphalaiḥ |
                   <caesura/>
-                  chardanaṃ dadhyudaśvibhyām athavā tāṇḍulāmvunā |</l>
+                   chardanaṃ dadhyudaśvibhyām athavā tāṇḍulāmvunā |</l>
 
                <l xml:id="SS.5.1.42">dāhaṃ mūrcchā<cb/>matīsāraṃ tṛṣṇām indriyavaikṛtaṃ |
                   <caesura/>
@@ -246,119 +249,119 @@ viṣair hiṃsyur akiñcijñaṃ nṛpatiṃ duṣṭacetasaḥ |
                <l xml:id="SS.5.1.43">tatra nīlīphalaṃ <unclear>śuṣkaṃ</unclear> sasarpiṣkaṃ
                   virecanaṃ |
                   <caesura/>
-                  dadhnā dūṣīviṣāriś ca peyo madhu<cb/>sapāyataḥ |</l>
+                   dadhnā dūṣīviṣāriś ca peyo madhu<cb/>sapāyataḥ |</l>
 
                <l xml:id="SS.5.1.44">dravadravyeṣu sarveṣu kṣīramadyodakādiṣu |
                   <caesura/>
-                  bhavanti vividhā rājyaḥ phenavadvudajanma ca |</l>
+                   bhavanti vividhā rājyaḥ phenavadvudajanma ca |</l>
 
                <l xml:id="SS.5.1.45">chā<cb/>yā cātra na dṛśyante dṛśyante yadi vā punaḥ |
                   <caesura/>
-                  bhavanti vikṛtā chidrās tanvyo vā vikṛtā<lb n="6"/>s tathā |</l>
+                   bhavanti vikṛtā chidrās tanvyo vā vikṛtā<lb n="6"/>s tathā |</l>
 
                <l xml:id="SS.5.1.46">śākasūpāṃ<unclear extent="1" unit="char"/>māṃsāni klinnāni
                   virasāni ca |
                   <caesura/>
-                  sadyaḥ paryuśitānīva<cb/> vigandhīni bhavanti ca |</l>
+                   sadyaḥ paryuśitānīva<cb/> vigandhīni bhavanti ca |</l>
 
                <l xml:id="SS.5.1.47">gandhavarṇṇarasair hīnāḥ sarve bhakṣyāḥ phalāni ca |
                   <caesura/>
-                  pakvānyāśuḥ praku<unclear>rva</unclear>nte pākamā<cb/>māni yānti ca |</l>
+                   pakvānyāśuḥ praku<unclear>rva</unclear>nte pākamā<cb/>māni yānti ca |</l>
 
                <l xml:id="SS.5.1.48">viśīryante kūrcakastu dantakāṣṭhagate viṣe |
                   <caesura/>
-                  jihvādantauṣṭhamāṃ<unclear extent="2" reason="torn" unit="syllables"
+                   jihvādantauṣṭhamāṃ<unclear extent="2" reason="torn" unit="syllables"
                      >seṣu</unclear><pb n="144r"/> śvayathuś copajāyate |</l>
 
                <l xml:id="SS.5.1.49">athāsya dhātakīpuṣpajam vvāmrāsthiharīkakaiḥ |
                   <caesura/>
-                  sakṣaudraiḥ<cb/> pracchite śophe kartavyaṃ pratisāraṇaṃ |</l>
+                   sakṣaudraiḥ<cb/> pracchite śophe kartavyaṃ pratisāraṇaṃ |</l>
 
                <l xml:id="SS.5.1.50">athavāṅkauṇṭhamūlāni tvacaḥ saptachadasya vā |
                   <caesura/>
-                  śi<unclear>rī</unclear>ṣamāṣakāś cāpi karta<cb/>vyaṃ pratisāraṇaṃ |</l>
+                   śi<unclear>rī</unclear>ṣamāṣakāś cāpi karta<cb/>vyaṃ pratisāraṇaṃ |</l>
 
                <l xml:id="SS.5.1.51">jihvānirlekhakavalau dantakāṣṭhavadādiśet |
                   <caesura/>
-                  picchalo vahulo<lb n="2"/>bhyaṅgo vivarṇaś ca viṣānvitaḥ |</l>
+                   picchalo vahulo<lb n="2"/>bhyaṅgo vivarṇaś ca viṣānvitaḥ |</l>
 
                <l xml:id="SS.5.1.52">sphoṭajanmarujāsrāvastvakpākaḥ sveda<unclear>me</unclear>va ca |<cb/>
                   <caesura/>
-                  dāraṇañcāpi māṃsānāmabhyaṅge viṣadūṣite |</l>
+                   dāraṇañcāpi māṃsānāmabhyaṅge viṣadūṣite |</l>
 
                <l xml:id="SS.5.1.53">tatra sītāmvusiktasya kartavyam anulepanaṃ |
                   <caesura/>
-                  candanantagaraṃ kuṣṭhamu<cb/>śīraṃ veṇupatrikā |</l>
+                   candanantagaraṃ kuṣṭhamu<cb/>śīraṃ veṇupatrikā |</l>
 
                <l xml:id="SS.5.1.54">somavalyamṛtā śvetā padmaṃ kālīyakan tathā |
                   <caesura/>
-                  kapittharasa<unclear>mū</unclear><lb n="3"/>trābhyāṃ pālaṃ tac ca pūjyate |</l>
+                   kapittharasa<unclear>mū</unclear><lb n="3"/>trābhyāṃ pālaṃ tac ca pūjyate |</l>
 
                <l xml:id="SS.5.1.55">utsādane parīṣeke kaṣāye sānulepane |
                   <caesura/>
-                  śayyā<cb/>vastratanutreṣu vidhyādabhyaṅgavadbhiṣak |</l>
+                   śayyā<cb/>vastratanutreṣu vidhyādabhyaṅgavadbhiṣak |</l>
 
                <l xml:id="SS.5.1.56">keśaśātaḥ śiroduḥkhaṃ khebhyaś ca rudhirāgamaḥ |
                   <caesura/>
-                  granthijanmottamāṅge ca<cb/>viṣajuṣṭevalekhane |</l>
+                   granthijanmottamāṅge ca<cb/>viṣajuṣṭevalekhane |</l>
 
                <l xml:id="SS.5.1.57">tatra pralepo vahuśo bhāvitā kṛṣṇamṛttikā |
                   <caesura/>
-                  ṛṣyapi<unclear extent="1" reason="torn" unit="char">tta</unclear>ghṛ<lb n="4"
+                   ṛṣyapi<unclear extent="1" reason="torn" unit="char">tta</unclear>ghṛ<lb n="4"
                   />taśyāmāpālindītaṇḍulīyakaiḥ |</l>
 
                <l xml:id="SS.5.1.58">gomayasvaraso vāpi hito vā mālatī ra<cb/>saḥ |
                   <caesura/>
-                  raso mūṣikakarṇyā vā dhūmo vāgārasaṃjñitaḥ ||</l>
+                   raso mūṣikakarṇyā vā dhūmo vāgārasaṃjñitaḥ ||</l>
 
                <l xml:id="SS.5.1.59">śirobhyaṅgaḥ śirastrāṇaṃ snānamuṣṇīṣam eva ca |
                   <caesura/>
-                  srajaś ca <cb/> viṣasaṃsṛṣṭāḥ sādhayed avalekhanā<del>va</del>t |</l>
+                   srajaś ca <cb/> viṣasaṃsṛṣṭāḥ sādhayed avalekhanā<del>va</del>t |</l>
 
                <l xml:id="SS.5.1.60">mukhālepe mukhaśyāvaṃ yuktam abhyaṅgala<lb n="5"/>kṣaṇaiḥ |
                   <caesura/>
-                  padminīkaṇṭakaprakhyaiḥ kaṇṭakaiś copacīyate |</l>
+                   padminīkaṇṭakaprakhyaiḥ kaṇṭakaiś copacīyate |</l>
 
                <l xml:id="SS.5.1.61">tatra kṣaudraghṛtaṃ<cb/> pānamālepaś candanaṃ ghṛtaṃ |
                   <caesura/>
-                  payasyā madhukā phañjī vandhujīva punarṇṇavā ||</l>
+                   payasyā madhukā phañjī vandhujīva punarṇṇavā ||</l>
 
                <l xml:id="SS.5.1.62">asvāsthyam kuñjarādīnāṃ lālāśra<cb/>vaṇam eva ca |
                   <caesura/>
-                  yātuś ca sphoṭa<unclear extent="6" unit="syllables"/>meḍhragudeṣv atha |</l>
+                   yātuś ca sphoṭa<unclear extent="6" unit="syllables"/>meḍhragudeṣv atha |</l>
 
                <l xml:id="SS.5.1.63">tatrābhyaṃgavadāya<lb n="6"/>ṣṭe yātrivāhanayoḥ kriyāṃ |
                   <caesura/>
-                  śoṇitāgamanaṃ khebhyaḥ śirorukkaphasaṃ<cb/>śravaḥ | </l>
+                   śoṇitāgamanaṃ khebhyaḥ śirorukkaphasaṃ<cb/>śravaḥ | </l>
 
                <l xml:id="SS.5.1.64">nasyadhūmagate liṅgam indriyāṇāñ ca vaikṛtaṃ |
                   <caesura/>
-                  tatra sarpirgavādīnāṃ dugdhaiḥ sātiviṣaiḥ śritaṃ |<cb/></l>
+                   tatra sarpirgavādīnāṃ dugdhaiḥ sātiviṣaiḥ śritaṃ |<cb/></l>
 
                <l xml:id="SS.5.1.65">nasyaṃ pānañca vihitaṃ śītaṃ samadayantikaṃ ||
                   <caesura/>
-                  gandhahānirvivarṇṇatvaṃ puṣpāṇāṃ mlā<lb n="7"/>natā tathā |</l>
+                   gandhahānirvivarṇṇatvaṃ puṣpāṇāṃ mlā<lb n="7"/>natā tathā |</l>
 
                <l xml:id="SS.5.1.66">jighrataś ca śiroduḥkhaṃ vāripūrṇṇe ca locane |
                   <caesura/>
-                  ta<cb/>treṣṭaṃ vāṣpikaṃ karma mukhālepe ca ya smṛtaṃ ||</l>
+                   ta<cb/>treṣṭaṃ vāṣpikaṃ karma mukhālepe ca ya smṛtaṃ ||</l>
 
                <l xml:id="SS.5.1.67">karṇṇatailagate śrotre vaikṛtyaṃ śophavedanā |
                   <caesura/>
-                  karṇṇaśrāvaś ca ta<cb/>trāśuḥ kartavyaṃ pratipūraṇaṃ |</l>
+                   karṇṇaśrāvaś ca ta<cb/>trāśuḥ kartavyaṃ pratipūraṇaṃ |</l>
 
                <l xml:id="SS.5.1.68">svaraso vahuputrāyāḥ<unclear extent="1" reason="torn"
                      unit="pada"/><pb n="144v"/>
                   <caesura/>
-                  somavalkarasaś cāpi suśīto hitamiṣyate |</l>
+                   somavalkarasaś cāpi suśīto hitamiṣyate |</l>
 
                <l xml:id="SS.5.1.69">aśrūpadeho dāhaś ca veda<cb/>nādṛṣṭivibhramaḥ |
                   <caesura/>
-                  añjane viṣasaṃsṛṣṭe bhavedāndhyamathāpi vā |</l>
+                   añjane viṣasaṃsṛṣṭe bhavedāndhyamathāpi vā |</l>
 
                <l xml:id="SS.5.1.70">tatra sadyo ghṛtaṃ peyaṃ tarpaṇe ca samāgadhaṃ |
                   <caesura/>
-                  a<cb/>ñjanaṃ meṣaśṛṅgasya niryāso varuṇasya ca |</l>
+                   a<cb/>ñjanaṃ meṣaśṛṅgasya niryāso varuṇasya ca |</l>
 
                <l xml:id="SS.5.1.71">kapitthameṣaśṛṅga<unclear extent="9" reason="torn"
                      unit="syllables"/></l>
@@ -367,58 +370,58 @@ viṣair hiṃsyur akiñcijñaṃ nṛpatiṃ duṣṭacetasaḥ |
 
                <l xml:id="SS.5.1.73">bhavanti viṣaduṣṭābhyāṃ<cb/> pādukābhyāmasaṃśayaṃ |
                   <caesura/>
-                  upānatpādapīṭhāni pādukābhyāṃ prasādhayet |</l>
+                   upānatpādapīṭhāni pādukābhyāṃ prasādhayet |</l>
 
                <l xml:id="SS.5.1.74">bhūṣaṇāni hatārcīṃṣi na vibhānti yathā<cb/> purā |
                   <caesura/>
-                  svāni sthānāni hanyuś ca dāhapākāvadāruṇaiḥ |</l>
+                   svāni sthānāni hanyuś ca dāhapākāvadāruṇaiḥ |</l>
 
                <l xml:id="SS.5.1.75">pādukābhūṣaṇeṣūktamabhyaṃga<lb n="3"/>vidhimācaret |
                   <caesura/>
-                  viṣopasargau vāṣpādirbhūṣaṇānto ya īritaḥ |</l>
+                   viṣopasargau vāṣpādirbhūṣaṇānto ya īritaḥ |</l>
 
                <l xml:id="SS.5.1.76">upadravāṃ<cb/>statra vīkṣya vidadhīta cikitsitaṃ |
                   <caesura/>
-                  mahāsugandhamagadaṃ yaṃ pravakṣyāmi tambhiṣak |</l>
+                   mahāsugandhamagadaṃ yaṃ pravakṣyāmi tambhiṣak |</l>
 
                <l xml:id="SS.5.1.77">pānālepananasyeṣu vidadhī<cb/>tāñjaneṣu ca ||
                   <caesura/>
-                  virecanāni tīkṣṇāni kuryātpracchardanāni ca |</l>
+                   virecanāni tīkṣṇāni kuryātpracchardanāni ca |</l>
 
                <l xml:id="SS.5.1.78">śirāś ca vyadhayet<unclear>prāptā</unclear><lb n="4"/> prāptaṃ
                   visrāvaṇaṃ yadi |
                   <caesura/>
-                  mūṣikājaruhā vāpi haste vaddhā tu bhūpateḥ |</l>
+                   mūṣikājaruhā vāpi haste vaddhā tu bhūpateḥ |</l>
 
                <l xml:id="SS.5.1.79">karo<cb/>ti nirviṣaṃ sarvamannaṃ viṣasamāyutaṃ |
                   <caesura/>
-                  hṛdayāvaraṇaṃ nityaṃ kuryāc ca mitramadhyagaḥ |</l>
+                   hṛdayāvaraṇaṃ nityaṃ kuryāc ca mitramadhyagaḥ |</l>
 
                <l xml:id="SS.5.1.80">pivedghṛtamajeyākhyama<cb/>mṛtaṃ cāpy
                      a<unclear>nūktavān</unclear> |
                   <caesura/>
-                  sarpiḥ kṣaudraṃ dadhipayaḥ pivedvā śītalañjalaṃ |</l>
+                   sarpiḥ kṣaudraṃ dadhipayaḥ pivedvā śītalañjalaṃ |</l>
 
                <l xml:id="SS.5.1.81">godhāmayū<lb n="5"/>ranakulāṃ pṛṣatā hariṇānapi |
                   <caesura/>
-                  viṣaghnānāñca satataṃ rasāsteṣāṃ pive<cb/>dapi |</l>
+                   viṣaghnānāñca satataṃ rasāsteṣāṃ pive<cb/>dapi |</l>
 
                <l xml:id="SS.5.1.82">godhānakulamāṃseṣu hariṇasya ca vuddhimāṃ |
                   <caesura/>
-                  dadyātsupiṣṭāṃ pālindīṃ madhukaṃ śarkarantathā |</l>
+                   dadyātsupiṣṭāṃ pālindīṃ madhukaṃ śarkarantathā |</l>
 
                <l xml:id="SS.5.1.83">śarka<cb/>rātiviṣe deye māyūre samahauṣadhe |
                   <caesura/>
-                  pārṣate cāpi deyā syuḥ pippalyaḥ sama<lb n="6"/>hauṣadhāḥ |</l>
+                   pārṣate cāpi deyā syuḥ pippalyaḥ sama<lb n="6"/>hauṣadhāḥ |</l>
 
                <l xml:id="SS.5.1.84">sakṣaudraḥ saghṛtaḥ <unclear>śī</unclear>taḥ nimvayūṣa hitas
                   tathā |
                   <caesura/>
-                  viṣāghnā<cb/>ni ca seveta bhakṣyabhojyāni vuddhimān |</l>
+                   viṣāghnā<cb/>ni ca seveta bhakṣyabhojyāni vuddhimān |</l>
 
                <l xml:id="SS.5.1.85">pippalīmadhukakṣaudraśarkarekṣurasāmvubhiḥ |
                   <caesura/>
-                  chardayed guptahṛdayo yadi<cb/> pītaṃ bhaved viṣam iti || kalpe 1 ||<unclear
+                   chardayed guptahṛdayo yadi<cb/> pītaṃ bhaved viṣam iti || kalpe 1 ||<unclear
                      extent="1" unit="char"/>||</l>
             </div>
          </div>
