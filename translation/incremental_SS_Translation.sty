@@ -53,15 +53,15 @@ scale=.27]{draftwatermark}
     left=0pt .. \parindent}
 
 
-\newcommand{\Su}[2]{SS~#1
-    \citep[#2]{vulgate}}
+\newcommand{\Su}[2]{#1
+    \parencite[#2]{vulgate}}
 % references to the Suśrutasaṃhitā
 % #1 = canonicau
 % #2 = page of Ācārya's third edition
 % later, when we've got our own numbers for our edition, we'll add them 
 % as the second argument.
 
-\newcommand{\AS}[2]{AS #1 
+\newcommand{\As}[2]{As #1 
     \citep[#2]{atha-1980}} % references to the Saṅgraha, 
 % #1 = canonical
 % #2 = page of Aṭhāvale's edition
@@ -70,6 +70,25 @@ scale=.27]{draftwatermark}
     \citep[#2]{kunt-1902}} % references to the Saṅgraha, 
 % #1 = canonical
 % #2 = page of Kunte and Navare's edition
+
+\newcommand{\Cakra}[2]{Cakrapāṇidatta on #1 
+    \citep[#2]{acar-1939}} % references to the 1939 ed, 
+% #1 = canonical
+% #2 = page of edition
+
+\newcommand{\Dalhana}[2]{Ḍalhaṇa on #1 
+    \citep[#2]{vulgate}} % references to the 1938^2 ed, 
+% #1 = canonical
+% #2 = page of edition
+
+
+\newenvironment{prose}{\relax }{\relax }
+
+\renewenvironment{verse}{\relax }{\relax }
+
+\newenvironment{bhavanti}{\relax }{\relax }
+
+
 
 
 %
