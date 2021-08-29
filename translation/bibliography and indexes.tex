@@ -6,7 +6,12 @@
 \nocite{*} % include everything from the bib file in the bibliography
 
 
+
 \printbiblist[heading=biblistintoc]{shorthand} % the Abbreviations (shorthands)
+
+\indexprologue{\emph{The numbers after the comma refer to pages
+        in this document.}} 
+\printindex[manuscripts]
 
 \printbibliography
 [notkeyword=edition,
@@ -14,14 +19,11 @@ notkeyword=shorthand,
 heading=bibintoc]
 
 \newpage
+
 {\footnotesize
     \printindex[lexical]
     \par}
 
-\indexprologue{\emph{\footnotesize The numbers after the colon refer to pages
-        in this document.}} 
-
-\printindex[manuscripts]
 
 
 
