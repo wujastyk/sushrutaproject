@@ -8,15 +8,15 @@ Started by Dominik; currently maintained by Deepro
 | 6.3  Śālākyatantra       | 6.3 Śālākyatantra 3   | 159v1     | 6.3 Śālākyatantra 3 | 357r6    |               |          |
 | 6.4  Śālākyatantra       | 6.4 Śālākyatantra 4   | 159v5     | 6.4 Śālākyatantra 4 | 358r1    |               |          |
 | 6.5  Śālākyatantra       | 6.5 Śālākyatantra 5   | 159v7     | 6.5 Śālākyatantra 5 | 358r6    |               |          |
-| 6.6  Śālākyatantra       | 6.6 Śālākyatantra 6   | 160v2     | 6.6 Śālākyatantra 6 | 359v1    |               |          | 
+| 6.6  Śālākyatantra       | 6.6 Śālākyatantra 6   | 160v2     | 6.6 Śālākyatantra 6 | 359v1    |               |          |
 | 6.7  Śālākyatantra       | 6.7 Śālākyatantra 7   | 161v4     | 6.7 Śālākyatantra 7 | 361v6    |               |          |
 | 6.8  Śālākyatantra       | 6.8 Śālākyatantra 8   | 162r3     | 6.8 Śālākyatantra 8 | 362v3    |               |          |
 | 6.9  Śālākyatantra       | 6.9 Śālākyatantra 9   | 162v3     | 6.9 Śālākyatantra 9 | 363v4    |               |          |
 | 6.10 Śālākyatantra       | 6.10 Śālākyatantra 10 | 163r2     | 6.10 Śālākyatantra 10| 354v3    |               |          |
 | 6.11 Śālākyatantra       | 6.11 Śālākyatantra 11 | 163v2     | 6.11 Śālākyatantra 11| 365v3    |               |          |
 | 6.12 Śālākyatantra       | 6.12 Śālākyatantra 12 | 164v4     | 6.12 Śālākyatantra 12| 367v7    |               |          |
-| 6.13 Śālākyatantra       | 6.13 Śālākyatantra 13 (13 & 14 of the vulgate is 13) | 165r4 | 6.13 Śālākyatantra 13 | 369r2 |          | 
-| 6.14 Śālākyatantra       | 6.13 Śālākyatantra 13 (13 & 14 of the vulgate is 13) | 165r4 | 6.13 Śālākyatantra 13 | 369r2 |          |
+| 6.13 Śālākyatantra       | 6.13 Śālākyatantra 13 (13 & 14 of the vulgate is 13) | 165r4 | 6.13 Śālākyatantra 13 | 369r2 |          ||
+| 6.14 Śālākyatantra       | 6.13 Śālākyatantra 13 (13 & 14 of the vulgate is 13) | 165r4 | 6.13 Śālākyatantra 13 | 369r2 |          ||
 | 6.15 Śālākyatantra       | 6.14 Śālākyatantra 14 | 165v7     | 6.14 Śālākyatantra 14| 370v3    |               |          |
 | 6.16 Śālākyatantra       | 6.15 Śālākyatantra 15 | 166r3     | 6.15 Śālākyatantra 15| 371r3    |               |          |
 | 6.17 Śālākyatantra       | 6.16 Śālākyatantra 16 | 168r6     | 6.16 Śālākyatantra 16| 375v3    |               |          |
@@ -41,7 +41,7 @@ Started by Dominik; currently maintained by Deepro
 | 6.36 Kaumārabhṛtyatantra | 6.34 Kumārabhṛtya 10  | 176v1     | 6.34 Kumāratantra 10 | 394r7    |               |          |
 | 6.37 Kaumārabhṛtyatantra | 6.35 Kumārabhṛtya 11  | 176v7     | 6.35 Kumāratantra 11 | 394v1    |               |          |
 | 6.38 Kaumārabhṛtyatantra | 6.58 Kāyacikitsā 23   | 202v1     | 6.58 Kāyacikitsā 23  | 106v3 (dscn3456  fol 481.jpg) | |   |
-| 6.39 Kāyacikitsātantra   | 6.36 Kāyacikitsā 1    | 185_r6    | 6.36 Kāyacikitsā 1 (text missing after 6.39.164) | 400r1 (final part is missing | | |
+| 6.39 Kāyacikitsātantra   | 6.36 Kāyacikitsā 1    | 185_r6    | 6.36 Kāyacikitsā 1 (text missing after 6.39.164) | 400r1 (dscn3374 fol 399.jpg bottom) (final part is missing | | |
 | 6.40 Kāyacikitsātantra | 6.37 Kāyacikitsā 2| 192_r2? (192_r IMG_0125.JPG, upper image) | 6.37 Kāyacikitsā 2 | dscn3461  fol 486.jpg (1, folio non paginated) | | |
 | 6.41 Kāyacikitsātantra   | 6.38 Kāyacikitsā 3    | 182_v4    | 6.38 Kāyacikitsā 3   | 66v6 (dscn3416  fol 441.jpg) |  |   |
 | 6.42 Kāyacikitsātantra   | 6.39 Kāyacikitsā 4    | 188v1     | 6.39 Kāyacikitsā 4   | 71v2 (dscn3421  fol 446.jpg) |  |   |
