@@ -41,6 +41,7 @@ Started by Dominik; currently maintained by Deepro
 | 6.36 Kaumārabhṛtyatantra | 6.34 Kumārabhṛtya 10  | 176v1     | 6.34 Kumāratantra 10 | 394r7    |               |          |
 | 6.37 Kaumārabhṛtyatantra | 6.35 Kumārabhṛtya 11  | 176v7     | 6.35 Kumāratantra 11 | 394v1    |               |          |
 | 6.38 Kaumārabhṛtyatantra | 6.58 Kāyacikitsā 23   | 202v1     | 6.58 Kāyacikitsā 23  | 106v3 (dscn3456  fol 481.jpg) | |   |
+| 6.39 |  |  | (SS.6.39.121-) | 398v (dscn3373 fol 401.jpg) | | |
 | 6.39 Kāyacikitsātantra   | 6.36 Kāyacikitsā 1    | 185_r6    | 6.36 Kāyacikitsā 1 (text missing after 6.39.164) | 400r1 (dscn3374 fol 399.jpg bottom) (final part is missing | | |
 | 6.40 Kāyacikitsātantra | 6.37 Kāyacikitsā 2| 192_r2? (192_r IMG_0125.JPG, upper image) | 6.37 Kāyacikitsā 2 | dscn3461  fol 486.jpg (1, folio non paginated) | | |
 | 6.41 Kāyacikitsātantra   | 6.38 Kāyacikitsā 3    | 182_v4    | 6.38 Kāyacikitsā 3   | 66v6 (dscn3416  fol 441.jpg) |  |   |
