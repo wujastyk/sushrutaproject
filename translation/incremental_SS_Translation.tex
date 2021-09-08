@@ -21,12 +21,15 @@
 %    bibliography and indexes,
 %%    appendix,
 %}
-
+\usepackage{xcolor}
 \begin{document}
         \input{sanskrit-hyphenations}
     %\nocite{forb-1856}
-        \maketitle
-        \include{00 abstract}
+    \pagecolor{cyan}
+
+          \maketitle
+
+        \include{00 abstract} % also turns off pagecolor
         \tableofcontents
         \include{01 manuscripts and editions}
         \include{02 features of the transmission}
@@ -41,5 +44,9 @@
         \include{bibliography and indexes}
         \include{appendix}
         
+        \newpage % cyan closing page
+        \thispagestyle {empty}
+           \pagecolor{cyan}
+           \mbox{}
       
 \end{document}
