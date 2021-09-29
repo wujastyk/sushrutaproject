@@ -1,5 +1,5 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Working edition of the Suśrutasaṃhitā, sūtrasthāna, based on the Nepalese
@@ -91,6 +91,7 @@
                         </tree> </trees>
                 </nex:nexml>
             </stemma>
+        
         </xenoData>
 
 
@@ -206,14 +207,14 @@
                         aśvināv aśvibhyām indra indrād ahaṃ mayā tv iha pradeyam arthibhyaḥ
                         prajāhitahetoḥ |</l>
 
-                    <l xml:id="SS.1.1.20x">bha |</l>
-
-                    <div2 xml:id="SS.1.1.20x-app" target="#SS.1.1.20x" type="apparatus">
-                        <list type="Notes">
-                            <item>The Nepalese witnesses use the abbreviation "bha" for "bhavati
+                    <l xml:id="SS.1.1.20x">bha |<anchor n= "SS.1.1.20x-n1"/></l>
+                    
+                    <ab xml:id="SS.1.1.20x-app" corresp="#SS.1.1.20x" type="apparatus">
+                        <list type="notes">
+                            <item corresp="#SS.1.1.20x-n1">The Nepalese witnesses use the abbreviation "bha" for "bhavati
                                 cātra", introducing the next verse.</item>
                         </list>
-                    </div2>
+                    </ab>
 
                     <l xml:id="SS.1.1.21">[27] ahaṃ hi dhanvantarir ādidevo jarārujāmṛtyuharo
                         marāṇāṃ |
@@ -226,16 +227,17 @@
                         tadbhūyastvāt pañcātmako vā | tatra caturvidho bhūtagrāmaḥ
                         saṃsvedajādrijajarāyujāṇḍajasaṃjñaḥ | tasmin puruṣaḥ pradhānas
                         tasyopakaraṇam anyat <hi> |</hi> tasmāt puruṣo 'dhiṣṭhānaṃ <hi>|</hi>
-                    </l>
+                    <anchor n= "SS.1.1.22-n1"/></l>
 
-                    <div2 xml:id="SS.1.1.22-app" target="#SS.1.1.22" type="apparatus">
-                        <list type="Notes">
+                    
+                    <ab xml:id="SS.1.1.22-app" corresp="#SS.1.1.22" type="apparatus">
+                        <list type="notes" corresp="#SS.1.1.22-n1">
                             <item>The reading of dvidhan might be a corruption of dvidhas, which is
                                 a permitted sandhi.</item>
 
                         </list>
 
-                    </div2>
+                    </ab>
 
 
                     <l xml:id="SS.1.1.23">[29] tadduḥkhasaṃyogā vyādhaya ity ucyante |
@@ -266,16 +268,16 @@
                         khagasarīsṛpasarpās tv aṇḍajāḥ | kṛmikuntapipīlikāprabhṛtayaḥ saṃsvedajāḥ |
                         indragopakamaṇḍūkaprabhṛtayaś codbhidāḥ | </l>
 
-                    <div2 type="apparatus" xml:id="SS.1.1.30-app" target="#SS.1.1.30">
-                        <list type="Notes">
-                            <item target="#SS.1.1.30-n1">kuṭṭha is Prākṛta for "skin disease,
+                    <ab type="apparatus" xml:id="SS.1.1.30-app" corresp="#SS.1.1.30">
+                        <list type="notes">
+                            <item corresp="#SS.1.1.30-n1">kuṭṭha is Prākṛta for "skin disease,
                                 leprosy," but this sense does not fit this passage; the word here
                                 must refer to an insect or similar creature. In our MSS, kuṭṭha
                                 appears to be the transmitted form, possibly Sanskritized to kuṣṭha
                                 by the scribe of MS H. It is not obvious how it could be a scribal
                                 error for the Vulgate's "kīṭa."</item>
                         </list>
-                    </div2>
+                    </ab>
 
                     <l xml:id="SS.1.1.31">[33] tatra sthāvarebhyas
                         tvakpatrapuṣpaphalamūlakandakṣīraniryāsasārasnehasvarasāḥ prayojanavantaḥ |
@@ -426,28 +428,30 @@
                         kṛtamaṅgalaṃ †svastivācanan† dhātryaṅke kumāram upaveśyābhisāntvayamānaḥ
                         bhiṣag vāmahastenākṛṣya karṇan daivakṛte chidre dakṣiṇahastena ṛju vidhyet |
                         pūrvan dakṣiṇaṃ kumārasya vāmaṅ kanyāyāḥ | pratanuṃ sūcyā bahalam ārayā
-                        ||2|| </l>
+                        ||2|| <anchor n= "SS.1.16.3-n1"/></l>
 
-                    <div2 xml:id="SS.1.16.3-app" target="#SS.1.16.3" type="apparatus">
-                        <list type="Notes">
+      
+                    <ab xml:id="SS.1.16.3-app" corresp="#SS.1.16.3" type="apparatus">
+                        <list type="notes" corresp="#SS.1.16.3-n1">
                             <item>Ḍalhaṇa records the alternative reading bhakṣyaviśeṣair vā before
                                 bālakrīḍanakaiḥ pralobhya in the vulgate.</item>
 
                         </list>
 
-                    </div2>
+                    </ab>
 
                     <l xml:id="SS.1.16.4">śoṇitabahutvanivedanāyāṃ cānyadeśaviddham iti jānīyāt |
-                        nirupadravatā taddeśaviddhaliṅgam ||3||</l>
+                        nirupadravatā taddeśaviddhaliṅgam ||3||<anchor n= "SS.1.16.4-n1"/></l>
 
-                    <div2 xml:id="SS.1.16.4-app" target="#SS.1.16.4" type="apparatus">
-                        <list type="Notes">
+      
+                    <ab xml:id="SS.1.16.4.1-app" corresp="#SS.1.16.4" type="apparatus">
+                        <list type="notes" corresp="#SS.1.16.4-n1">
                             <item>At this point, witness K is missing a folio, so the rest of this
                                 chapter is constructed on the basis of witnesses N and H.</item>
 
                         </list>
 
-                    </div2>
+                    </ab>
 
                     <l xml:id="SS.1.16.5">tatra yadṛcchāviddhāyāṃ sirāyām ajñena jvara<pc
                             > </pc>dāhaśvayathu<pc> </pc>vedanā<pc> </pc>granthi<pc
@@ -455,16 +459,17 @@
 
                     <l xml:id="SS.1.16.6">doṣasamudayād apraśastavyadhād vā tatra vartim apahṛtya
                         yavamadhukamañjiṣṭhāgandharvahastamūlair madhughṛtapragāḍhair ālepayet |
-                        surūḍhañ cainam punar vidhyet ||5|| </l>
+                        surūḍhañ cainam punar vidhyet ||5|| <anchor n= "SS.1.16.6-n1"/></l>
 
-                    <div2 xml:id="SS.1.16.6-app" target="#SS.1.16.6" type="apparatus">
-                        <list type="Notes">
+      
+                    <ab xml:id="SS.1.16.6-app" corresp="#SS.1.16.6" type="apparatus">
+                        <list type="notes" corresp="#SS.1.16.6-n1">
                             <item>Ḍalhaṇa (1.16.6) states that some do not read surūḍhañ cainam
                                 punar vidhyet.</item>
 
                         </list>
 
-                    </div2>
+                    </ab>
 
                     <l xml:id="SS.1.16.7"> samyagviddham āmatailapariṣekeṇopacaret | tryahāt tryahād
                         vartiṃ sthūlatarāṅ kurvīta pariṣekañ ca tam eva ||6|| </l>
@@ -493,10 +498,11 @@
                         vallīkarṇaḥ | granthitamāṃsaḥ stabdhasirātatasūkṣmapālir yaṣṭīkarṇaḥ |
                         nirmāṃsasaṃkṣiptāgrālpaśoṇitapāliḥ kākauṣṭha iti | baddheṣv api
                             dāha<pc> </pc>pāka<pc> </pc>srāva<pc> </pc>śopha<pc> </pc>yuktā na
-                        siddhim upayānti ||9|| </l>
+                        siddhim upayānti ||9|| <anchor n= "SS.1.16.10-n1"/></l>
 
-                    <div2 xml:id="SS.1.16.10-app" target="#SS.1.16.10" type="apparatus">
-                        <list type="Notes">
+      
+                    <ab xml:id="SS.1.16.10-app" corresp="#SS.1.16.10" type="apparatus">
+                        <list type="notes" corresp="#SS.1.16.10-n1">
                             <item>Cakrapāṇi (1.16.9–13) and Ḍalhaṇa (1.16.10) point out that others
                                 read pañcadaśakarṇakṛtayaḥ (instead of pañcadaśasandhānākṛtayaḥ).
                                 Ḍalhaṇa (1.16.10) also mentions that some read
@@ -505,7 +511,7 @@
 
                         </list>
 
-                    </div2>
+                    </ab>
 
                     <l xml:id="SS.1.16.11"/>
                     <l xml:id="SS.1.16.11ab"/>
@@ -517,8 +523,9 @@
                     <l xml:id="SS.1.16.14ab"/>
                     <l xml:id="SS.1.16.14cd"/>
 
-                    <div2 xml:id="SS.1.16.14cd-app" target="#SS.1.16.14cd" type="apparatus">
-                        <list type="Notes">
+                    <anchor n= "SS.1.16.14cd-n1"/>
+                    <ab xml:id="SS.1.16.14cd-app" corresp="#SS.1.16.14cd" type="apparatus">
+                        <list type="notes" corresp="#SS.1.16.14cd-n1">
                             <item>The additional verses in A (from bhavanti cātra to śāstravit) were
                                 probably also absent in the version of the Suśrutasaṃhitā commented
                                 on by Cakrapāṇi, who cites them in his commentary as being "read by
@@ -526,7 +533,7 @@
 
                         </list>
 
-                    </div2>
+                    </ab>
 
                     <l xml:id="SS.1.16.15"> ato 'nyatamasya bandhañ cikīrṣuḥ
                         agropaharaṇīyoktopasambhṛtasambhāro viśeṣataś cāgropaharaṇīyāt |
@@ -559,10 +566,11 @@
                     <l xml:id="SS.1.16.19"> athāpraduṣṭasyābhivardhanārtham abhyaṅgaḥ |
                         godhāpratudaviṣkirānūpaudakavasāmajjāpayastailaṃ gaurasarṣapajañ ca
                         yathālābhaṃ saṃbhṛtyārkālarkabalātibalānantāvidārīmadhukajalaśūkaprativāpan
-                        tailam pācayitvā svanuguptan nidadhyāt ||14|| </l>
+                        tailam pācayitvā svanuguptan nidadhyāt ||14|| <anchor n= "SS.1.16.19-n1"/></l>
 
-                    <div2 xml:id="SS.1.16.19-app" target="#SS.1.16.19" type="apparatus">
-                        <list type="Notes">
+      
+                    <ab xml:id="SS.1.16.19-app" corresp="#SS.1.16.19" type="apparatus">
+                        <list type="notes" corresp="#SS.1.16.19-n1">
                             <item>Ḍalhaṇa (1.16.18) notes that some read rājasarṣapajaṃ in the place
                                 of gaurasarṣapajaṃ. This reading appears to have been accepted by
                                 Cakrapāṇi (1.16.18–20), who glosses rājasarṣapaja as śvetasarṣapa.
@@ -572,36 +580,38 @@
 
                         </list>
 
-                    </div2>
+                    </ab>
 
                     <l xml:id="SS.1.16.20"> svedito marditaṅ karṇam anena mrakṣayed budhaḥ |
                         <caesura/>
-                         tato'nupadravaḥ samyag balavāṃś ca vivardhate ||15||</l>
+                         tato'nupadravaḥ samyag balavāṃś ca vivardhate ||15||<anchor n= "SS.1.16.20-n1"/></l>
 
-                    <div2 xml:id="SS.1.16.20-app" target="#SS.1.16.20" type="apparatus">
-                        <list type="Notes">
+      
+                    <ab xml:id="SS.1.16.20-app" corresp="#SS.1.16.20" type="apparatus">
+                        <list type="notes" corresp="#SS.1.16.20-n1">
                             <item>N has a kākapāda after ane, but the missing letter (one would
                                 expect 'na') has not been supplied in a margin or elsewhere.</item>
 
                         </list>
 
-                    </div2>
+                    </ab>
 
                     <l xml:id="SS.1.16.21"/>
 
                     <l xml:id="SS.1.16.22"> ye tu karṇā na vardhante snehasvedopapāditāḥ |</l>
 
                     <l xml:id="SS.1.16.23"> teṣām apāṅge tv abahiḥ kuryāt prachānam eva ca
-                        ||16||</l>
+                        ||16||<anchor n= "SS.1.16.23-n1"/></l>
 
-                    <div2 xml:id="SS.1.16.23-app" target="#SS.1.16.23" type="apparatus">
-                        <list type="Notes">
+      
+                    <ab xml:id="SS.1.16.23-app" corresp="#SS.1.16.23" type="apparatus">
+                        <list type="notes" corresp="#SS.1.16.23-n1">
                             <item>Ḍalhaṇa (1.16.23) notes that some read teṣām apāṅgacchedyaṃ hi
                                 kāryam ābhyantaraṃ bhavet.</item>
 
                         </list>
 
-                    </div2>
+                    </ab>
 
                     <l xml:id="SS.1.16.23CD"/>
 
@@ -611,15 +621,16 @@
 
                     <l xml:id="SS.1.16.26.0"> amitāḥ karṇabandhās tu vijñeyāḥ kuśalair iha |
                         <caesura/>
-                         yo yathā suniviṣṭaḥ syāt tat tathā yojayed bhiṣak ||17|| </l>
-                    <div2 xml:id="SS.1.16.26.0-app" target="#SS.1.16.26.0" type="apparatus">
-                        <list type="Notes">
+                         yo yathā suniviṣṭaḥ syāt tat tathā yojayed bhiṣak ||17||<anchor n= "SS.1.16.26.0-n1"/></l>
+                    
+                    <ab xml:id="SS.1.16.26.0-app" corresp="#SS.1.16.26.0" type="apparatus">
+                        <list type="notes" corresp="#SS.1.16.26.0-n1">
                             <item>Ḍalhaṇa (1.16.26) states that some read suniviṣṭaḥ (the reading of
                                 the Nepalese version) instead of suviśiṣṭaḥ.</item>
 
                         </list>
 
-                    </div2>
+                    </ab>
 
                     <!--    verses present in the vulgate but not in this MS:                -->
                     <l xml:id="SS.1.16.26.1"/>
@@ -654,9 +665,10 @@
                         <caesura/>
                          nāsāpramāṇaṃ pṛthivīruhāṇāṃ
                         <caesura/>
-                         patraṃ gṛhītvā tv avalambi tasya ||</l>
-                    <div2 xml:id="SS.1.16.27-app" target="#SS.1.16.27" type="apparatus">
-                        <list type="Notes">
+                         patraṃ gṛhītvā tv avalambi tasya ||<anchor n= "SS.1.16.27-n1"/></l>
+                    
+                    <ab xml:id="SS.1.16.27-app" corresp="#SS.1.16.27" type="apparatus">
+                        <list type="notes" corresp="#SS.1.16.27-n1">
                             <item>Cakrapāṇidatta says that others read nāsāsandhānavidhim here.
                                 Ḍalhaṇa (1.16.27–31) states that some read, chinnāṃ tu nāsikāṃ
                                 dṛṣṭvā vayaḥsthasya śarīriṇaḥ | nāsānurūpaṃ saṃcchidya patraṃ gaṇḍe
@@ -664,7 +676,7 @@
 
                         </list>
 
-                    </div2>
+                    </ab>
 
                     <l xml:id="SS.1.16.28">[20] tena pramāṇena hi gaṇḍapārśvād
                         <caesura/>
