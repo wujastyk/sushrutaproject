@@ -30,7 +30,7 @@ In the table, we use the following terminology:
   <dd>"loc" = "location" refers to the position of the respective folio in each photograph (top or bottom).</dd>
   <dt>X.Y.Z</dt>
   <dd>sthāna.adhyāya.number</dd> 
-  <dd>A number in brackets is given IFF the chapter numbering in the Vulgate differs from that in the Nepalese version.
+  <dd>A number in brackets is given IFF the chapter numbering in the Vulgate differs from that in the Nepalese version.</dd>
 </dl>
 
 
