@@ -21,7 +21,7 @@ Note that this MS (a single physical object kept at the **NAK** under the access
 
   - "folio" refers to the folio number (1, 2, 3 etc.) and side (recto, verso) of the actual MS 
   - "line" refers to the line number
-  - "segment" is *for internal use only* and refers to three vertical segments (a, b, c) constituted by two string holes. 
+  - "segment" is *for internal use only* and refers to three horizontal segments (a, b, c) constituted by two string holes. 
 
 **exp-nr:loc**
 
