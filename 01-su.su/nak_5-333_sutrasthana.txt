@@ -18,9 +18,7 @@
                             <settlement>Kathmandu</settlement>
                             <country>Nepal</country>
                         </placeName>
-                        <institution>Kaiser Library</institution>
-                        <repository>https://www.klib.gov.np/</repository>
-                        <collection>[collection]</collection>
+                        <institution>Kaiser Library<ptr target="https://www.klib.gov.np/"/></institution>
                         <idno>5-333</idno>
                         <idno type="siglum">H</idno>
                     </msIdentifier>
@@ -150,12 +148,11 @@
 
                 <div n="1" type="adhyāya">
 
-
                     <p xml:id="SS.1.1.0"><pb n="1v"/><milestone n="1v" unit="folio"/>oṃ namo
                         dhanvantaraye ||</p>
 
                     <l xml:id="SS.1.1.1">athāto vedotpattiṃ nāmādhyāyaṃ vyākhyāsyāmaḥ||</l>
-
+                    
                     <l xml:id="SS.1.1.2">
                         <gap extent="1" unit="unit"/>
                     </l>
