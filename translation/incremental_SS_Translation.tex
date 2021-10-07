@@ -49,11 +49,12 @@
         \include{bibliography and indexes}
         \include{appendix}
         
-        \newpage % cyan closing page
-        \listoftodos
+
+        \listoftodos  % only prints when in draft mode
+
+% back page:
         \newpage
         \thispagestyle {empty}
-           \pagecolor{cyan}
-           \mbox{}
-      
+        \pagecolor{cyan} % cyan closing page
+        \ % invisible space to make the new page have something on it.
 \end{document}
