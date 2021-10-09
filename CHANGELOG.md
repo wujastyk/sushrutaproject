@@ -10,7 +10,7 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 * check the identity of añjana
 * Smooth out the TeX file of the translation for formatting and some content arrangement.  Review the footnotes.
-* Add Klebanov 2020 article on ophthalmic surgery to Zotero bibliography. 
+* ~~Add Klebanov 2020 article on ophthalmic surgery to Zotero bibliography.~~ 
 * Next chapter to be processed will be Suśruta's Uttaratantra ch. 17 on cataract removal. The folia involved are:
   * NAK 5-333 folia 375v:3 - 379v:6	
   * KL 699 folia 
@@ -31,7 +31,7 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ## 2021-03-28
 
- * Harshal has finished the concordance of MS NAK 5-333. - HB
+ * ~~Harshal has finished the concordance of MS NAK 5-333. - HB~~
 
 ### Todo 
 
