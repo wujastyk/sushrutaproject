@@ -20,6 +20,8 @@ The manuscript and edition transcriptions at Saktumiva are at:
 * [Kalpasthāna](https://saktumiva.org/wiki/wujastyk/susrutasamhita/05-su.ka/05-ka-vulgate-edition)
 * [Uttaratantra](https://saktumiva.org/wiki/wujastyk/susrutasamhita/06-su.ut/06-ut-vulgate-edition)
 
+These links lead to the transcription of the vulgate; use the panel on the left of the Saktumiva screen to select the provisional edition and manuscripts for real-time collation.
+
 
 ## Project roadmap
 
