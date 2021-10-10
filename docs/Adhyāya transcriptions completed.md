@@ -91,7 +91,7 @@ References are canonical (i.e., the Ācārya vulgate).
 | (chapters | KL 699    | NAK 5-333 | NAK 1-1079)  |      |
 | 5.01     | ✓ | ✓         |              |      |
 | 5.02     | ✓ | ✓ |              |      |
-| 5.03     | ✓ |  |              |      |
+| 5.03     | ✓ | ✓ |              |      |
 | 5.04     |           |           |              |      |
 | 5.05     |           |           |              |      |
 | 5.06     |           |           |              |      |
