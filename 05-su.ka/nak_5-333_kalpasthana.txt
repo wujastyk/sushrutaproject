@@ -18,8 +18,9 @@
                             <country>Nepal</country>
                         </placeName>
                         <institution>National Archives</institution>
-                        <repository><ref target="http://narchives.gov.np/"
-                                >http://narchives.gov.np/</ref></repository>
+                        <repository>
+                            <ref target="http://narchives.gov.np/">http://narchives.gov.np/</ref>
+                        </repository>
                         <idno>5-333</idno>
                         <idno type="siglum">H</idno>
                     </msIdentifier>
@@ -76,6 +77,8 @@
                                 <p>Folio no 326v and 326r have some syllables in the margin which I
                                     don’t understand where to add except one. </p>
                             </note>
+                            <note resp="Harshal Bhatt">In 5.03, verses 35.1cd, 35.2ab, 35.2cd,
+                                35.3ab are repeated and given after 3.40</note>
                         </msItem>
                     </msContents>
 
@@ -117,7 +120,9 @@
                     <localProp name="newa-gap-filler" value="NEWA GAP FILLER"/>
                     <mapping type="standard">&#x1144E;</mapping>
                     <mapping type="PUA">U+1144E </mapping>
-                    <note><ref target="https://unicode.org/charts/PDF/U11400.pdf"/></note>
+                    <note>
+                        <ref target="https://unicode.org/charts/PDF/U11400.pdf"/>
+                    </note>
                 </glyph>
             </charDecl>
             <charDecl>
@@ -125,7 +130,9 @@
                     <localProp name="siddhi" value="SIDDHI"/>
                     <mapping type="standard">&#x1144A;</mapping>
                     <mapping type="PUA">U+1144E </mapping>
-                    <note><ref target="https://unicode.org/charts/PDF/U11400.pdf"/></note>
+                    <note>
+                        <ref target="https://unicode.org/charts/PDF/U11400.pdf"/>
+                    </note>
                 </glyph>
             </charDecl>
         </encodingDesc>
@@ -136,6 +143,7 @@
             <change when="2021-05-21" who="Dominik Wujastyk"> Added Harshal Bhatt's remarks about
                 5.1 to the note area above.</change>
             <change when="2021-08-30" who="Deepro Chakraborty"> Added transcription of 5.2</change>
+            <change when="2021-10-03" who="Harshal Bhatt">Added transcription of 5.3</change>
         </revisionDesc>
     </teiHeader>
 
@@ -146,15 +154,15 @@
 
                 <div n="1" type="adhyāyaḥ">
 
-                    <milestone unit="folio" n="dscn3301 fol 323.jpg lower"/>
+                    <milestone n="dscn3301 fol 323.jpg lower" unit="folio"/>
 
                     <l xml:id="SS.5.1.1"><choice>
                             <abbr type="contraction">1</abbr>
                             <expan><ex>siddhir astu</ex></expan>
                         </choice> athāto 'nnapānarakṣākalpam vyākhyāsyāmaḥ ||</l>
 
-                    <l xml:id="SS.5.1.2">yathovāca bhagavān dhanvantariḥ || <add place="above"
-                            hand="#main_hand">atha khalu vatsasuśrutaḥ | 1</add></l>
+                    <l xml:id="SS.5.1.2">yathovāca bhagavān dhanvantariḥ || <add hand="#main_hand"
+                            place="above">atha khalu vatsasuśrutaḥ | 1</add></l>
 
                     <l xml:id="SS.5.1.3">divodāsakṣitipatis tapodharmmabhṛtām varaḥ |
                         <caesura/>
@@ -334,7 +342,7 @@
 
                     <l xml:id="SS.5.1.45">cchāyā cātra na dṛśyante dṛśyante yadi vā punaḥ |
                         <caesura/>
-                         bhavanti vikṛtā <add place="below" hand="original scribe" cert="medium"
+                         bhavanti vikṛtā <add cert="medium" hand="original scribe" place="below"
                             >yamalā</add> cchidrās tanvyo vā vikṛtās tathā |</l>
 
                     <l xml:id="SS.5.1.46">śākasūpānna<pc> </pc>māṃsāni klinnāni virasāni ca |
@@ -379,7 +387,7 @@
 
                     <l xml:id="SS.5.1.55">utsādane parīṣeke kaṣāye sānulepane |
                         <caesura/>
-                         śayyāvastra<pb n="dscn3304 fol 326.jpg" ana="upper image"
+                         śayyāvastra<pb ana="upper image" n="dscn3304 fol 326.jpg"
                         /><!-- The scribal foliation of the images on dscn 3303 fol 325.jpg and dscn3304 fol 326.jpg are not in sequence. 
                             So I have transcribed here from dscn 3304 fol 326.jpg upper (scribal folio 326v), which continues from 
                             dscn 3303 fol 325jpg upper (scribal 325v). -->tanutveṣu
@@ -414,7 +422,8 @@
 
                     <l xml:id="SS.5.1.62">āsvāsthyaṃ kuṃjarādīnāṃ lālāsravaṇam eva ca |
                         <caesura/>
-                        yātuś ca sphoṭanaṃ srāvau mu<lb n="5"/>ṣka<pc> </pc>meḍhra<pc> </pc>gudeṣv atha |</l>
+                         yātuś ca sphoṭanaṃ srāvau mu<lb n="5"/>ṣka<pc> </pc>meḍhra<pc> </pc>gudeṣv
+                        atha |</l>
 
                     <l xml:id="SS.5.1.63">tatrābhyaṅgavad ācaṣṭe yātrivāhanayoḥ<cb/> kriyāṃ |
                         <caesura/>
@@ -448,9 +457,11 @@
                         <caesura/>
                          añjanaṃ meṣaśṛṅgasya niryāso varaṇasya ca |</l>
 
-                    <l xml:id="SS.5.1.71">kapittha<lb n="4"/>meṣaśrṛṅgābhyām puṣpam bhallātakasya ca |</l>
+                    <l xml:id="SS.5.1.71">kapittha<lb n="4"/>meṣaśrṛṅgābhyām puṣpam bhallātakasya ca
+                        |</l>
 
-                    <l xml:id="SS.5.1.72">sophaḥ<cb/> svāpas tathā srā<cb/>vaḥ pādayoḥ sphoṭajanma ca |</l>
+                    <l xml:id="SS.5.1.72">sophaḥ<cb/> svāpas tathā srā<cb/>vaḥ pādayoḥ sphoṭajanma
+                        ca |</l>
 
                     <l xml:id="SS.5.1.73">bhavanti viṣaduṣṭābhyām pādukābhyām asaṃśayaṃ |
                         <caesura/>
@@ -514,7 +525,7 @@
 
 
                 <div n="2" subtype="adhyāyaḥ">
-                    <milestone unit="folio" n="327v6"/>
+                    <milestone n="327v6" unit="folio"/>
 
 
                     <l xml:id="SS.5.2.1">athātaḥ sthāvaravi<pb n="328r"/><lb n="1"/>ṣavijñānīyam
@@ -757,19 +768,20 @@
 
                     <p ana="trailer"> kalpasthāne dvitīyo 'dhyāyaḥ || </p>
                 </div>
-                <milestone unit="folio" n="331r1"/>
+                <milestone n="331r1" unit="folio"/>
                 <!-- end of chapter 2 of Kalpasthāna-->
 
                 <div n="3" type="adhyāya">
-                    <milestone unit="folio" n="330r:1"/>
+                    <milestone n="330r:1" unit="folio"/>
 
                     <l xml:id="SS.5.3.1">athāto jaṅgamaviṣavijñānīyaṅkalpaṃ vyākhyāsyā<lb n="2"/>maḥ
                         ||</l>
 
                     <l xml:id="SS.5.3.2"/>
 
-                    <l xml:id="SS.5.3.3ab">jaṅgamasya viṣasyoktānyadhiṣṭhānāni ṣoḍaśa |</l>
-                    <l xml:id="SS.5.3.3cd">samāse<cb/>na mayā yāni vistarasteṣu vakṣyate ||</l>
+                    <l xml:id="SS.5.3.3">jaṅgamasya viṣasyoktānyadhiṣṭhānāni ṣoḍaśa |
+                        <caesura/>
+                         samāse<cb/>na mayā yāni vistarasteṣu vakṣyate ||</l>
 
                     <p xml:id="SS.5.3.4">tatra
                             dṛṣṭiniśvāsadaṃṣṭrānakhamukhamūtrapurīṣārtavaśukralā<lb n="3"
@@ -795,26 +807,38 @@
                         śūkaviṣāḥ | kīṭasarppadehāvyasavaḥ śavaviṣāḥ | śeṣāstva<lb n="3"/>nuktā
                         mukhasaṃdaṃśaviṣeśveva gaṇayitavyā iti || ||<cb/> bhavanti cātra ślokāḥ
                         ||</p>
+                    <l xml:id="SS.5.3.5x"/>
+                    <l xml:id="SS.5.3.6">rājñorideśe ripavo jalāni
+                        <caesura/>
+                         mārggāṃś ca bhaktāni ca dūṣayanti |
+                        <caesura/>
+                         tāni praduṣṭāni bhiṣagvipaścid
+                        <caesura/>
+                         viśodhayed āgamitārthaśuddhaḥ ||<cb/></l>
 
-                    <l xml:id="SS.5.3.6ab">rājñorideśe ripavo jalāni mārggāṃś ca bhaktāni ca
-                        dūṣayanti | </l>
-                    <l xml:id="SS.5.3.6cd">tāni praduṣṭāni
-                        bhiṣagvipaścidviśodhayedāgamitārthaśuddhaḥ ||<cb/></l>
+                    <l xml:id="SS.5.3.7">duṣṭañ jalam picchilam a<unclear>mra</unclear>gandhi
+                        <caesura/>
+                         phenāvṛtaṃ rājibhir āvṛtañ ca |
+                        <caesura/>
+                         maṇḍūkamatsyam mriyate vi<lb n="5"/>haṅgā
+                        <caesura/>
+                         mattāś ca sānūpacarā bhramanti |</l>
 
-                    <l xml:id="SS.5.3.7ab">duṣṭañjalampicchilama<unclear>mra</unclear>gandhi
-                        phenāvṛtaṃ rājibhirāvṛtañ ca |</l>
-                    <l xml:id="SS.5.3.7cd">maṇḍūkamatsyammriyate vi<lb n="5"/>haṅgā mattāś ca
-                        sānūpacarā bhramanti |</l>
+                    <l xml:id="SS.5.3.8">majjanti ye cātra narā<cb/>śvanāgās
+                        <caesura/>
+                         te charddimohajvaraśophaśūlān |
+                        <caesura/>
+                         arcchanti teṣām apahatya rogān
+                        <caesura/>
+                         duṣṭañjalaṃ<lb n="6"/>śodhayituṃ yateta ||</l>
 
-                    <l xml:id="SS.5.3.8ab">majjanti ye cātra narā<cb/>śvanāgāste
-                        charddimohajvaraśophaśūlān |</l>
-                    <l xml:id="SS.5.3.8cd">arcchanti teṣāmapahatya rogān duṣṭañjalaṃ<lb n="6"
-                        />śodhayituṃ yateta ||</l>
-
-                    <l xml:id="SS.5.3.9ab">dhavāśvakarṇṇāvathapāribhadraṃ sapāṭalaṃ sidhrakamuṣkakau
-                        ca |</l>
-                    <l xml:id="SS.5.3.9cd">dagdhā sarājadrumasomavalkān tadbhasmaśītamvikiretsarassu
-                        ||</l>
+                    <l xml:id="SS.5.3.9">dhavāśvakarṇṇāv athapāribhadraṃ
+                        <caesura/>
+                        sapāṭalaṃ sidhrakamuṣkakau ca |
+                        <caesura/>
+                         dagdhā sarājadrumasomavalkān
+                        <caesura/>
+                        tad bhasmaśītam vikiret sarassu ||</l>
 
                     <l xml:id="SS.5.3.10ab">bhasmāñjaliñcā<pb n="331r"/>pi ghaṭo nidhāya
                         viśodhayedīpsitamevamambhaḥ |</l>
@@ -924,11 +948,14 @@
 
                     <l xml:id="SS.5.3.35ab">muhūrttāt tad upādeyam prahāran daṃśavarjjitaṃ ||</l>
 
-                    <l xml:id="SS.5.3.35.1ab"><add place="inline"><unclear>śī</unclear>lakṣate
-                            garbbhiṇikuṣṭhimehi rūkṣeṣu<lb n="6"/> deheṣv avaleṣu caiva |</add></l>
-                    <l xml:id="SS.5.3.35.1cd"><add place="inline"
-                                ><unclear>raukṣyātairślakṣṇyā</unclear>dvikāsitvāt tathaiva ca
-                            ||</add></l>
+                    <l xml:id="SS.5.3.35.1ab">
+                        <add place="inline"><unclear>śī</unclear>lakṣate garbbhiṇikuṣṭhimehi
+                                rūkṣeṣu<lb n="6"/> deheṣv avaleṣu caiva |</add>
+                    </l>
+                    <l xml:id="SS.5.3.35.1cd">
+                        <add place="inline"><unclear>raukṣyātairślakṣṇyā</unclear>dvikāsitvāt
+                            tathaiva ca ||</add>
+                    </l>
 
                     <l xml:id="SS.5.3.35.2ab">viṣamatairgguṇairyuktaṃ kṣate samanudhāvati |</l>
                     <l xml:id="SS.5.3.35.2cd">vātātapābhyānnihataṃ nirvvīyam upajāyate ||</l>
@@ -958,8 +985,8 @@
                     <l xml:id="SS.5.3.39cd">ajīrṇṇapittānilapīḍiteṣu vṛddheṣu vāleṣu vubhukṣite<lb
                             n="4"/>ṣu ||</l>
 
-                    <l xml:id="SS.5.3.40ZZ">unmattamatteṣu bhayārditeṣu tīkṣṇī
-                        bhaved bhinnavalāsaheṣu<cb/> ||</l>
+                    <l xml:id="SS.5.3.40ZZ">unmattamatteṣu bhayārditeṣu tīkṣṇī bhaved
+                        bhinnavalāsaheṣu<cb/> ||</l>
 
                     <!-- Verse no. SS.5.3.35.1cd, 35.2ab, 35.2cd, 35.3ab is repeated after 3.40 which are transcribed below. -->
 
@@ -975,8 +1002,8 @@
                     <l xml:id="SS.5.3.40cd">śastraṃ kṣate yasya na raktamasti rājyo latābhiś ca na
                         sambhavanti |<lb n="6"/></l>
 
-                    <l xml:id="SS.5.3.41ab">śītābhiradbhiś ca na romaharṣā
-                        viṣābhibhūtam parivarjjayet taṃ ||</l>
+                    <l xml:id="SS.5.3.41ab">śītābhiradbhiś ca na romaharṣā viṣābhibhūtam
+                        parivarjjayet taṃ ||</l>
                     <l xml:id="SS.5.3.41cd">jihmaṃ mukhaṃ yasya ca keśaśāto nosāvasādaś ca
                         sakaṇṭhabhaṅgaḥ |<pb n="333v"/></l>
 
@@ -985,8 +1012,8 @@
                     <l xml:id="SS.5.3.42cd">varttir ghanā yasya nireti vakrād raktaṃ
                         sravedūrddhvamadhaś ca yasya |</l>
 
-                    <l xml:id="SS.5.3.43">daṃṣṭrānipātaś caturaś ca yasya tañ cāpi<lb n="2"/> vaidyaḥ
-                        parivarjjayīteti || kalpasthāne tṛtī<cb/>yo 'dhyāyaḥ ||</l>
+                    <l xml:id="SS.5.3.43">daṃṣṭrānipātaś caturaś ca yasya tañ cāpi<lb n="2"/>
+                        vaidyaḥ parivarjjayīteti || kalpasthāne tṛtī<cb/>yo 'dhyāyaḥ ||</l>
                 </div>
 
 
