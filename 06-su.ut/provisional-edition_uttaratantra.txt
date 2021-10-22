@@ -42,7 +42,8 @@
                     <name>University of Alberta</name>
                 </address>
                 <authority>
-                    <name>The Suśruta Project</name></authority>
+                    <name>The Suśruta Project</name>
+                </authority>
                 <date>2020</date>
                 <pubPlace>The University of Alberta</pubPlace>
                 <publisher>The Suśruta Project (<ref corresp="http://sushrutaproject.org"
@@ -405,7 +406,7 @@
                         <caesura/>
                          samūtravarge triphalodake śritaṃ | </l>
 
-                    <ab xml:id="SS.6.17.44-app" corresp="#SS.6.17.44" type="apparatus">
+                    <ab corresp="#SS.6.17.44" type="apparatus" xml:id="SS.6.17.44-app">
                         <list type="sources">
                             <item> The unanimous Nepalese reading hite is hard to construe but may
                                 be original. </item>
@@ -434,7 +435,7 @@
                         <caesura/>
                          sarveṣv athaiteṣu yathāsvam eva ||</l>
 
-                    <ab xml:id="SS.6.17.46-app" corresp="#SS.6.17.46" type="apparatus">
+                    <ab corresp="#SS.6.17.46" type="apparatus" xml:id="SS.6.17.46-app">
                         <list type="sources">
                             <item>This hemistich appears to be partly omitted and partly rearranged
                                 in the vulgate. </item>
@@ -526,7 +527,7 @@
                     <l xml:id="SS.6.17.64b"> athābhramukte ca harir yathā dṛṣṭiḥ prakāśate |</l>
                     <l xml:id="SS.6.17.66b"> tato dṛṣṭeṣu rūpeṣu śalākām āharec chanaiḥ ||59|| </l>
 
-                    <ab xml:id="SS.6.17.64b-app" corresp="#SS.6.17.64b" type="apparatus">
+                    <ab corresp="#SS.6.17.64b" type="apparatus" xml:id="SS.6.17.64b-app">
                         <list type="sources">
                             <item> athābhramukte is a conjecture by Andrey Klebanov based on the
                                 vulgate's reading of nirabhra iva. </item>
@@ -637,6 +638,7 @@
                         <caesura/>
                          kalpe nānāprakārāṇi tāny apīha prayojayet ||82|| iti || <sic/></l>
 
+
                     <trailer/>
 
                 </div>
@@ -653,6 +655,7 @@
                     <l xml:id="SS.6.38.1"><label>1</label> athāto yonivyāpatpratiṣedhaṃ vyākhyāsyāmaḥ ||</l>
                     <l xml:id="SS.6.38.2"/>
                     <l xml:id="SS.6.38.3"/>
+
                     <l xml:id="SS.6.38.4ab"/>
                     <l xml:id="SS.6.38.3.1"><label>2</label> paraḥ sukhārthaḥ pramadā supuṃsāṃ yasmād ato yonigatān vikārān |<!--</l>-->
                         <caesura/>
@@ -723,6 +726,7 @@
                             </item>
                         </list>
                     </ab>
+=======
 
                     <l xml:id="SS.6.38.9cd">saphenilam udāvarttā rajaḥ kṛcchreṇa muñcati |</l>
                     <l xml:id="SS.6.38.10">vandhyām anārttavāṃ vidyād utplutāṃ nityavedanām |
@@ -823,13 +827,7 @@
 
                     <p xml:id="trailer">iti  ||</p>
 
-
-
                 </div>
-
-
-
-
 
 
             </div>
