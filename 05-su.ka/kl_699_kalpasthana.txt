@@ -79,7 +79,16 @@
                                 <item>In the KL 699, Metre Break at SS.5.4.20cd</item>
                             </list></p>
 
-
+                        <p>
+                            <note resp="Harshal Bhatt"> In 5.5, <list>
+                                    <item>Missing verses 23cd, 24ab, 25cd, 28cd, 33, 47cd, 51cd, 52,
+                                        54cd, 55, 58cd, 78cd, 79-83, 84cd, 85ab</item>
+                                    <item>Additions 58.1, 52.1,</item>
+                                    <item> Observations - KL 699 Metre break 7ab, 20cd</item>
+                                    <item> Missing 25</item>
+                                </list>
+                            </note>
+                        </p>
 
                         <objectDesc form="pothi">
                             <!-- @form can be "pothi", "book", scroll", etc. -->
@@ -117,6 +126,7 @@
             <change when="2020-08-21" who="Madhusudan Rimal">Transcription of 5.2.</change>
             <change when="2020-08-05" who="Madhusudan Rimal">Transcription of 5.3.</change>
             <change when="2020-10-15" who="Harshal Bhatt">Transcription of 5.4.</change>
+            <change when="2020-10-27" who="Harshal Bhatt">Transcription of 5.5.</change>
         </revisionDesc>
     </teiHeader>
 
@@ -245,8 +255,8 @@
                         śukasārike |
                         <caesura/>
                          haṃsa kṣvelati cātya<lb n="2"/>rthaṃ kū<gap extent="1" reason="insertion in
-                            the                      line above" unit="char"
-                        />jate bhṛṅgarājakaḥ |</l>
+                            the                      line above" unit="char"/>jate bhṛṅgarājakaḥ
+                        |</l>
 
                     <l xml:id="SS.5.1.33ab"><unclear>pṛ</unclear>ṣabho visṛjaty aśraṃ muñcate viṭ ca
                         markaṭaḥ |</l>
@@ -443,8 +453,8 @@
                         <caesura/>
                          virecanāni tīkṣṇāni kuryātpracchardanāni ca |</l>
 
-                    <l xml:id="SS.5.1.78">śirāś ca vyadhayet prāptāḥ<lb n="4"
-                        /> prāptaṃ visrāvaṇaṃ yadi |
+                    <l xml:id="SS.5.1.78">śirāś ca vyadhayet prāptāḥ<lb n="4"/> prāptaṃ visrāvaṇaṃ
+                        yadi |
                         <caesura/>
                          mūṣikājaruhā vāpi haste vaddhā tu bhūpateḥ |</l>
 
@@ -477,7 +487,7 @@
                     <l xml:id="SS.5.1.85">pippalīmadhukakṣaudraśarkarekṣurasāmvubhiḥ |
                         <caesura/>
                          chardayed guptahṛdayo yadi<cb/> pītaṃ bhaved viṣam iti || </l>
-                    
+
                     <l xml:id="SS.5.1.colophon">kalpe 1 || ❈ ||</l>
                 </div>
 
@@ -1093,7 +1103,7 @@
 
 
                 <div n="4" type="adhyāya">
-                    <milestone unit="folio" n="147v"/>
+                    <milestone n="147v" unit="folio"/>
 
                     <l xml:id="SS.5.4.1">athātaḥ sarpadaṣṭaviṣavijñānīyaṃ kalpaṃ <choice>
                             <abbr>vyā</abbr>
