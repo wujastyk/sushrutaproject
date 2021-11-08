@@ -53,7 +53,7 @@ Note that this MS (a single physical object kept at the **NAK** under the access
 | 9r:7:c | 044 | 011:bottom | 1.12.1 | athātaḥ [!] agnikarmavidhim adhyāyaṃ vyākhyāsyāmaḥ // |
 | 10r:6:c | 046:bottom | 012:bottom | 1.13.1 | athāto jalāyukādhyāyam [!] vyākhyāsyāmaḥ  // |
 |            11r:5:c             | 047:bottom | 013:bottom | 1.14.1 | athāta [!] śoṇitavarṇṇanīyam adhya~~mā~~yaṃ vyākhyāsyāmaḥ |
-| 12v:1:c | 048:top | 015:top | 1.15.1 | athātp doṣadhātumālakṣayavṛddhim adhyāyaṃ vyākhyāsyāmaḥ / |
+| 12v:1:c | 048:top | 015:top | 1.15.1 | athāto doṣadhātumālakṣayavṛddhim adhyāyaṃ vyākhyāsyāmaḥ / |
 | 13v:6:b | 049 | 016:top | 1.16.1 | athātaḥ karṇṇavyadhaba[ndhavi]dhim adhyāyaṃ vyā // |
 | 14v:5:c | 050 | 017:top | 1.17.1 | athātaḥ [!] āmapakvamaṣanīyam [!] adhyāyaṃ vyā / |
 | 15v:3:b | 051 |        018:top         | 1.18.1 | athāta ālepavraṇabandhavidhim adhyāyaṃ vyākhyāsyāmaḥ |
