@@ -11,7 +11,7 @@ This document aims at (1) collecting and cataloging all kinds of special signs f
 | Sign                                                         | Description/ Meaning                                         | Transcription | Notes |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------- | ----- |
 | ![CIRCLE_bhavanti-cātra](https://user-images.githubusercontent.com/91765788/140967053-b7f60a6b-bdbe-46ac-9c6d-a274d45ec792.jpg) | puṣpikā ? // used at least once in place of "bhavanti cātra" |               |       |
-| ![gap-filler_line-end](https://user-images.githubusercontent.com/91765788/140967211-0a08d852-2995-4a6e-9093-eebd54849eb3.jpg) ![gap-filler_line-end_(2)](https://user-images.githubusercontent.com/91765788/140967243-e23d2160-521d-4954-9de8-26b5a2a426e8.jpg)| gap-filler at the end of a line                              |               |       |
+| ![gap-filler_line-end](https://user-images.githubusercontent.com/91765788/140967211-0a08d852-2995-4a6e-9093-eebd54849eb3.jpg) ![gap-filler_line-end_(2)](https://user-images.githubusercontent.com/91765788/140967243-e23d2160-521d-4954-9de8-26b5a2a426e8.jpg)| gap-filler at the end of a line | `¦` or `<g rend="daṇda with slash">¦</g>`  | `¦` imitates a similar sign found, e.g., in **H**. The longer syntax gives more exhaustive description. |
 |          ![3_old_gap-filler](https://user-images.githubusercontent.com/91765788/140973297-5113c010-74ba-4e8d-ad8d-32fb5329a8c0.jpg)| "old" gap-filler (the picture shows 3 items in a row) |`<g ref="#newa-old-gap-filler"/>`|       |
 |                                                              |                                                              |               |       |
 |                                                              |                                                              |               |       |
@@ -22,7 +22,7 @@ This document aims at (1) collecting and cataloging all kinds of special signs f
 
 
 
-## Special text-characters
+### Special text-characters
 
 | Sign                                                         | Description/ Meaning         | Transcription | Notes |
 | ------------------------------------------------------------ | ---------------------------- | ------------- | ----- |
