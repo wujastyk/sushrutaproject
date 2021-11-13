@@ -351,6 +351,9 @@
 | 486r:2 | Start of |  6.38(3) | 6.41 | śoṣapratiṣedham | 58 |
 | 487upper:1 |  |  | 6.41 | 6.41.13–23 |  |
 |  | | |  |  | |
+| dscn 3414 fol 439.jpg lower:1 | |  | 6.41 | 6.41.23cd-6.41.32ab | |
+| dscn 3415 fol 440.jpg | |  | 6.41 | 6.41.33 - 6.41.48 | |
+| | | | | | |
 | 441r:6 | End of |  6.38(3) |  6.41 |   |   |
 | 441r:6 | Start of |  6.39(4) |  6.42 |   |   |
 | 446r:2 | End of |  6.39(4) |  6.42 |   |   |
@@ -475,6 +478,20 @@
         344v:2		End of 5.06   5.7
         344v:2		Start of 5.07 5.6
         345r:2		End of 5.07   5.6
+
+# Observation from Vandana, 2021-11-12
+
+* I have transcribed the folio nos 486r:2 start of MS NAK -533  6.38(3) , 487 upper:1 and 441r:6 which is end of MS NAK -533 6.38(3) as  mentioned by you and concordance showing the same details. During the  transcription, the part text of xml id:6.41.23cd onwards till xml id:  6.41.48 was located on the folio nos. 439 and 440. 
+
+   The details are given under. I also checked the concordance, but these particular folios are not mentioned there. 
+
+  Vulgate Adhyaya  xml id nos.                MS Folio nos. 
+
+  6,41            6.41.23cd  till 6.41.32ab     dscn 3414 fol 439 lower :1 
+
+  ​                6.41.33 till 6.41.48         dscn.3415 fol 440.jpg
+
+  The rest of the text is at the folios mentioned by you.
 
 
 
