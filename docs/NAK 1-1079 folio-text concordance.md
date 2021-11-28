@@ -57,6 +57,9 @@ Note that this MS (a single physical object kept at the **NAK** under the access
 | 13v:6:b | 049 | 016:top | 1.16.1 | athātaḥ karṇṇavyadhaba[ndhavi]dhim adhyāyaṃ vyā // |
 | 14v:5:c | 050 | 017:top | 1.17.1 | athātaḥ [!] āmapakvamaṣanīyam [!] adhyāyaṃ vyā / |
 | 15v:3:b | 051 |        018:top         | 1.18.1 | athāta ālepavraṇabandhavidhim adhyāyaṃ vyākhyāsyāmaḥ |
+| | | | | |
+| 17r:4:b | | 019:bottom | 1.20.1 | athāto hitīhitīyam [!] adhyāyaṃ vyākhyāsyāmaḥ / |
+| 17v:6:a | 053:top | 020:top | 1.21.1 (1.21.6 -- 1.21.28 are missing) | athāto vraṇapraśnam adhyāyam vyākhyāsyāmaḥ / |
 |  |  |                        |  |  |
 | x |            |                            |       ||
 | x | +067.jpg |   31r:2c                   | 1.38 dravyasaṅgrahaṇī      |      |

@@ -85,7 +85,7 @@ References are canonical (i.e., the Ācārya vulgate).
 | 4.37     |           |           |              |      |
 | 4.38     |           |           |              |      |
 | 4.39     | ✓ | ✓ |  |      |
-| 4.40     |           | ✓ |              |      |
+| 4.40     | ✓ | ✓ |              |      |
 |  | | | | |
 | **5. Kalpa** |  |           |              |      |
 | (chapters | KL 699    | NAK 5-333 | NAK 1-1079)  |      |
