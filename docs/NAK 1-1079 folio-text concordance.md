@@ -49,17 +49,17 @@ Note that this MS (a single physical object kept at the **NAK** under the access
 | 7r:5:b | 042 | 009:bottom | 1.8.1 | athātaḥ śastravicāraṇīyam adhyāyaṃ vyākhyāsyām [!] / |
 | 7v:6:b | 043 | 010:top               | 1.9.1 | athāto yogyāsūtrīyam adhyāyaṃ vyā // |
 | 8r:2:a | 043 | 010:bottom | 1.10.1 | athāto viśikhyānupraveśīṇīyaṃ [!} vyākhyā // |
-| 8r:6:c | 043 | 010:bottom | 1.11.1 | athātaḥ kṣārapākavidhim adhyā¥aṃ vyākhyā // |
+| 8r:6:c | 043 | 010:bottom | 1.11.1 | athātaḥ kṣārapākavidhim adhyāyaṃ vyākhyā // |
 | 9r:7:c | 044 | 011:bottom | 1.12.1 | athātaḥ [!] agnikarmavidhim adhyāyaṃ vyākhyāsyāmaḥ // |
-| 10r:6:c | 046:bottom | 012:bottom | 1.13.1 | athāto jalāyukādhyāyam [!] vyākhyāsyāmaḥ  // |
-|            11r:5:c             | 047:bottom | 013:bottom | 1.14.1 | athāta [!] śoṇitavarṇṇanīyam adhya~~mā~~yaṃ vyākhyāsyāmaḥ |
+| 10r:6:c | 045:bottom | 012:bottom | 1.13.1 | athāto jalāyukādhyāyam [!] vyākhyāsyāmaḥ  // |
+|            11r:5:c             | 046:bottom | 013:bottom | 1.14.1 | athāta [!] śoṇitavarṇṇanīyam adhya~~mā~~yaṃ vyākhyāsyāmaḥ |
 | 12v:1:c | 048:top | 015:top | 1.15.1 | athāto doṣadhātumālakṣayavṛddhim adhyāyaṃ vyākhyāsyāmaḥ / |
 | 13v:6:b | 049 | 016:top | 1.16.1 | athātaḥ karṇṇavyadhaba[ndhavi]dhim adhyāyaṃ vyā // |
 | 14v:5:c | 050 | 017:top | 1.17.1 | athātaḥ [!] āmapakvamaṣanīyam [!] adhyāyaṃ vyā / |
 | 15v:3:b | 051 |        018:top         | 1.18.1 | athāta ālepavraṇabandhavidhim adhyāyaṃ vyākhyāsyāmaḥ |
 | | | | | |
 | 17r:4:b | | 019:bottom | 1.20.1 | athāto hitīhitīyam [!] adhyāyaṃ vyākhyāsyāmaḥ / |
-| 17v:6:a | 053:top | 020:top | 1.21.1 (1.21.6 -- 1.21.28 are missing) | athāto vraṇapraśnam adhyāyam vyākhyāsyāmaḥ / |
+| 17v:6:a | 053:top | 020:top (fol. *17 [1.21.6 -- 1.21.28] is missplaced to 031-032) | 1.21.1 | athāto vraṇapraśnam adhyāyam vyākhyāsyāmaḥ / |
 |  |  |                        |  |  |
 | x |            |                            |       ||
 | x | +067.jpg |   31r:2c                   | 1.38 dravyasaṅgrahaṇī      |      |
