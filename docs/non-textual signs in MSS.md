@@ -40,3 +40,8 @@ This document aims at (1) collecting and cataloging all kinds of special signs f
 
 ## H
 
+| Sign                                                         | Description/ Meaning         | Transcription | Notes |
+| ------------------------------------------------------------ | ---------------------------- | ------------- | ----- |
+|    ![Screenshot from 2021-12-01 18-02-22](https://user-images.githubusercontent.com/34675461/144338988-fdd272b7-24ca-4189-b7dc-08da97164d4d.png) | Newa Comma _(jhaasu)_ = U+1144D, used to denote _yati_ or caesura after a _pāda_ in a hemistisch | `<metamark function="yati">,</metamark>`  |       |
+|                                                              |                              |               |       |
+|                                                              |                              |               |       |
