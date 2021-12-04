@@ -13,8 +13,6 @@ Note that this MS (a single physical object kept at the **NAK** under the access
 >
 > > Check this! 
 
-
-
 ### In the table, we record the following information:
 
 **folio:line:segment**
@@ -34,8 +32,6 @@ Note that this MS (a single physical object kept at the **NAK** under the access
 
   - sthāna.adhyāya.number in the Nepalese version of the SS
   - A number in brackets is given *iff* the chapter numbering in the Vulgate differs from that in the Nepalese version.
-
-
 
 | folio:<br />line:<br />segment | A1267-11<br />exp-nr:loc | A 45-5<br />exp-nr:loc | Nepalese SS<br/> X.Y.Z<br/>(vulgate X.Y.Z) | text |
 | :---:| :---------------------: | :--------: | :------------------------- | ---- |
