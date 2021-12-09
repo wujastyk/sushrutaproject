@@ -138,7 +138,7 @@ Adhyāya references are canonical (i.e., the Ācārya 1938 vulgate edition).
 | 5.05     | 👍 | 👍 | ✗ |      |
 | 5.06     | 👍 | 👍 | ✗ |      |
 | 5.07     | 👍 | 👍 | ✗ |      |
-| 5.08     | ✓ | 👍 | ✗ |      |
+| 5.08     | 👍 | 👍 | ✗ |      |
 |  | | | | |
 | **6. Uttara** |  |           |              |      |
 | (chapters | KL 699    | NAK 5-333 | NAK 1-1079)  |      |
