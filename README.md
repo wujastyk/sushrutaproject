@@ -22,6 +22,8 @@ The manuscript and edition transcriptions at Saktumiva are at:
 
 These links lead to the transcription of the vulgate; use the panel on the left of the Saktumiva screen to select the provisional edition and manuscripts for real-time collation.
 
+## Copyright and Licensing
+All files in this Github repository are copyrighted (C) Dominik Wujastyk 2021.  They are distributed under a  [Creative Commons BY-SA](https://creativecommons.org/licenses/by-sa/4.0/) licence.
 
 ## Project roadmap
 
