@@ -20,7 +20,9 @@ The manuscript and edition transcriptions at Saktumiva are at:
 * [Kalpasthāna](https://saktumiva.org/wiki/wujastyk/susrutasamhita/05-su.ka/05-ka-vulgate-edition)
 * [Uttaratantra](https://saktumiva.org/wiki/wujastyk/susrutasamhita/06-su.ut/06-ut-vulgate-edition)
 
-These links lead to the transcription of the vulgate; use the panel on the left of the Saktumiva screen to select the provisional edition and manuscripts for real-time collation.
+These links lead to the transcription of the vulgate; use the panel on the left of the Saktumiva screen to select the provisional edition and manuscripts for real-time collation.  
+
+Here are [further instructions for readers](https://saktumiva.org/wiki/users).
 
 ## Copyright and Licensing
 All files in this Github repository are copyrighted (C) Dominik Wujastyk 2021.  They are distributed under a  [Creative Commons BY-SA](https://creativecommons.org/licenses/by-sa/4.0/) licence.
@@ -29,4 +31,4 @@ All files in this Github repository are copyrighted (C) Dominik Wujastyk 2021.  
 
 This chart is a statement of intentions written in 2019, before the pandemic and before the SSHRC cut one third of the requested grant funding.  There is therefore project slippage, especially regarding other manuscripts, travel and conferences.  But it may be useful to see the original intent. 
 
-![gannt](https://user-images.githubusercontent.com/762246/127780310-8578546a-a707-4499-9f14-c2d1fefb2605.png)
+![gannt](https://user-images.githubusercontent.com/762246/127780310-8578546a-a707-4499-9f14-c2d1fefb2605.png)	
