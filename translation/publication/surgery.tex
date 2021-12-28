@@ -1,69 +1,44 @@
 % !TeX root = surgery.tex
-%\RequirePackage{snapshot}
 % !TeX encoding = UTF-8
 % !TeX spellcheck = en_GB
 \documentclass[12pt,draft]{article} %taking out draft switches off marginal notes
-
 \usepackage{../incremental_SS_Translation} % all customizations in this file
-
-
 \addbibresource{../incremental_SS_Translation.bib}
-
-\usepackage{xcolor}
 
 \title{The \SS\ on the Plastic Surgery of the Ears and Nose:\\ The Nepalese 
 Recension}
-\author{Dominik Wujastyk, 
-Jason Birch,
-Andrey Klebanov, \\
-Madhu Parameswaran,
-Madhusudan Rimal, 
-Deepro Chakraborty,\\
-Harshal Bhatt, 
-Devyani Shenoy,
-Vandana Lele.}
-\date{\texttt{Draft of \today}\\ \copyright\     \small{Dominik Wujastyk, 
-Jason Birch,
-Andrey Klebanov, 
-Madhu Parameswaran,
-Madhusudan Rimal, 
-Deepro Chakraborty,
-Harshal Bhatt, 
-Devyani Shenoy,
-Vandana Lele.}}
+
+\author{Dominik Wujastyk \and
+Jason Birch \and
+Andrey Klebanov \and  
+Madhu Parameswaran \and 
+Madhusudan Rimal \and  
+Deepro Chakraborty \and 
+Harshal Bhatt \and  
+Devyani Shenoy \and 
+Vandana Lele}
+\date{\texttt{Draft of \today}\\ \copyright\     The authors.}
 
 \begin{document}
  
-    \input{sanskrit-hyphenations}
+    \include{sanskrit-hyphenations}
     
     %\nocite{forb-1856}
-    \pagecolor{cyan}
-  
     \maketitle
-    \pagecolor{white}
-%    \input{../00 abstract} 
-    \tableofcontents
+ 
+%    \include{../00 abstract} 
+\tableofcontents
+
 \newpage
-    \section{Introduction}
-     \input{Introduction} %
- %    
-    \section{The Sanskrit Text}
-    \input{The Sanskrit Text} %
-%
-    \section{The Edition}
-    \input{The Edition} %
-\newpage
-    \section{The Translation}
-    \input{The Translation} %
-\newpage
-    \input{bibliography and indexes} %
-%    \input{../appendix}
-    
-%    \newpage % cyan closing page
-%    \listoftodos
-%    \newpage
-%    \thispagestyle {empty}
-%    \pagecolor{cyan}
-%    \mbox{}
+    \include{Introduction} 
+    \include{The Sanskrit Text} 
+    \include{The Edition} 
+    \include{The Translation} 
+    \include{bibliography and indexes} 
+
+%    \include{../appendix}
+
+\newpage    
+\listoftodos
     
 \end{document}
