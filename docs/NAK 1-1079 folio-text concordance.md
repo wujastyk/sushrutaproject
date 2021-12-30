@@ -11,58 +11,68 @@ I (AK) have a vague memory that there were some instances, where A 45-5 document
 
 In the table below we record the following information:
 
-* *folio:line:segment*
-  - "folio" refers to the folio number (1, 2, 3 etc.) and side (recto, verso) of the actual MS 
-  - "line" refers to the line number
-  - "segment" refers to three horizontal segments (a, b, c) constituted by two string holes. 
+* *folio:line:column*
   
-* *filename:loc*
-  - The *filename*, or exposure number, is the number of the exposure in the digital copy of the microfilm. It is recorded in the top left corner of each photograph and is part of the file’s name.
+  - "folio" refers to the scribal folio number and side (recto, verso) of the MS 
+  
+  - "line" refers to the scribeal line number
+  
+  - "column" refers to three horizontal columns (a, b, c) separated by the two string holes.  E.g., in MS A 45-5:
+  
+    ​                       a                                                   b                                                                c
+  
+    ![image-20211230115155061](/home/dom/.config/Typora/typora-user-images/image-20211230115155061.png)
+  
+  
+  
+* *exposure*
+  
+  - The exposure number is the number of the exposure in the digital copy of the microfilm. It is recorded in the upper left corner of each photograph and is part of the file’s name.
     Examples:
-    A1267-11+103612+*filename*.jpg
-    A45-05+73274+*filename*.jpg
+    A1267-11+103612+*<exposure>*.jpg
+    A45-05+73274+*<exposure>*.jpg
 
 
-| folio | A1267-11 | A 45-5 | chapter | atha phrase |
-| :---:| :---------------------: | :--------: | :------------------------- | ---- |
-| *:line:segment* | *filename* | *filename* | *(vulgate nos.)* |  |
-| 1v:1:a | 037 |    003:top    | 1.1.1 | athāto vedotpattim ādhyāyaṃ vyākhyāsyāmaḥ // |
-| 2v:5:c |                038 |   005:top   | 1.2.1      | athātaḥ śiśyopanayanīyam adhyāyaṃ vyā // |
-| 3r:4:c |                038 |   005:bottom   | 1.3.1                       | athato 'dhyāyanasampradānīyaṃ vyā // |
-| 4v:1:a |               040 | 007:top | 1.4.1     | athātaḥ pravacīnīyam [!] adhyāyaṃ vyākhyā // |
-|  4v:4:b  |                  040 |   007:top     | 1.5.1    | athāto gropaharaṇīyam adhyāyaṃ vyā // |
-| 5v:2:a |               041 |                    008:top                     | 1.6.1          | athāto[!] ṛtucaryāṃ vyā // |
-| 6r:1:b | 042 | 009:top | 1.7.1 | athāto yantravidhim adhyāyaṃ vyākhyāsyāmaḥ // |
-| 7r:5:b | 042 | 009:bottom | 1.8.1 | athātaḥ śastravicāraṇīyam adhyāyaṃ vyākhyāsyām [!] / |
-| 7v:6:b | 043 | 010:top               | 1.9.1 | athāto yogyāsūtrīyam adhyāyaṃ vyā // |
-| 8r:2:a | 043 | 010:bottom | 1.10.1 | athāto viśikhyānupraveśīṇīyaṃ [!} vyākhyā // |
-| 8r:6:c | 043 | 010:bottom | 1.11.1 | athātaḥ kṣārapākavidhim adhyāyaṃ vyākhyā // |
-| 9r:7:c | 044 | 011:bottom | 1.12.1 | athātaḥ [!] agnikarmavidhim adhyāyaṃ vyākhyāsyāmaḥ // |
-| 10r:6:c | 045:bottom | 012:bottom | 1.13.1 | athāto jalāyukādhyāyam [!] vyākhyāsyāmaḥ  // |
-|            11r:5:c             | 046:bottom | 013:bottom | 1.14.1 | athāta [!] śoṇitavarṇṇanīyam adhya~~mā~~yaṃ vyākhyāsyāmaḥ |
-| 12v:1:c | 048:top | 015:top | 1.15.1 | athāto doṣadhātumālakṣayavṛddhim adhyāyaṃ vyākhyāsyāmaḥ / |
-| 13v:6:b | 049 | 016:top | 1.16.1 | athātaḥ karṇṇavyadhaba[ndhavi]dhim adhyāyaṃ vyā // |
-| 14v:5:c | 050 | 017:top | 1.17.1 | athātaḥ [!] āmapakvamaṣanīyam [!] adhyāyaṃ vyā / |
-| 15v:3:b | 051 |        018:top         | 1.18.1 | athāta ālepavraṇabandhavidhim adhyāyaṃ vyākhyāsyāmaḥ |
-| | | tindukapittha | | |
-| 17r:4:b | | 019:bottom | 1.20.1 | athāto hitīhitīyam [!] adhyāyaṃ vyākhyāsyāmaḥ / |
-| 17v:6:a | 053:top | 020:top (fol. *17 [1.21.6 -- 1.21.28] is misplaced to 031-032) | 1.21.1 | athāto vraṇapraśnam adhyāyam vyākhyāsyāmaḥ / |
-|  |  |                        |  |  |
-| x |            |                            |       ||
-| x | +067.jpg |   31r:2c                   | 1.38      | dravyasaṅgrahaṇī |
-| x |                         |            |                            |      |
-| x |                +071.jpg |   35r:4b   | 1.42            | rasaviśeṣa |
-| x |                         |            |                            |      |
-| x |                +075.jpg |   39r:2a   |                            |      |
-| x |                         |            |                            |      |
-| x |                +073.jpg |   36v:3b   | 1.44 | virecanadravyavikalpa |
-| x |                         |            |                            |      |
-| x |                +088.jpg |  51v:3a-b  | 2.01             | vātavyādhi |
-| x |                +089.jpg |  52v:4c-d  | 2.03           | [arśāṃsi] |
-| x |                         |            |                            |      |
-| x |                +102.jpg |   top:1b   | 3.02            | śukraśonita |
-| x |                +102.jpg |  lower:2a  | 4.11.09       | tindukapittha |
-|                               |                          |                        |                                            |  |
+| A 45-5 | A 45-5 | A1267-11 | Contents | atha phrase |
+| --- | -------- | --------------------- | ------------------------- | ---- |
+| *folio:line:column* | *exposure* | *exposure* | *(vulgate nos.)* |  |
+| 1v:1:a |    003:upper    | 037 | 1.1.1 | athāto vedotpattim ādhyāyaṃ vyākhyāsyāmaḥ // |
+| 2v:5:c |   005:upper   |                038 | 1.2.1      | athātaḥ śiśyopanayanīyam adhyāyaṃ vyā // |
+| 3r:4:c |   005:lower   |                038 | 1.3.1                       | athato 'dhyāyanasampradānīyaṃ vyā // |
+| 4v:1:a | 007:upper |               040 | 1.4.1     | athātaḥ pravacīnīyam [!] adhyāyaṃ vyākhyā // |
+|  4v:4:b  |   007:upper   |                  040 | 1.5.1    | athāto gropaharaṇīyam adhyāyaṃ vyā // |
+| 5v:2:a |                    008:upper                   |               041 | 1.6.1          | athāto[!] ṛtucaryāṃ vyā // |
+| 6r:1:b | 009:upper | 042 | 1.7.1 | athāto yantravidhim adhyāyaṃ vyākhyāsyāmaḥ // |
+| 7r:5:b | 009:lower | 042 | 1.8.1 | athātaḥ śastravicāraṇīyam adhyāyaṃ vyākhyāsyām [!] / |
+| 7v:6:b | 010:upper             | 043 | 1.9.1 | athāto yogyāsūtrīyam adhyāyaṃ vyā // |
+| 8r:2:a | 010:lower | 043 | 1.10.1 | athāto viśikhyānupraveśīṇīyaṃ [!} vyākhyā // |
+| 8r:6:c | 010:lower | 043 | 1.11.1 | athātaḥ kṣārapākavidhim adhyāyaṃ vyākhyā // |
+| 9r:7:c | 011:lower | 044 | 1.12.1 | athātaḥ [!] agnikarmavidhim adhyāyaṃ vyākhyāsyāmaḥ // |
+| 10r:6:c | 012:lower | 045:lower | 1.13.1 | athāto jalāyukādhyāyam [!] vyākhyāsyāmaḥ  // |
+|            11r:5:c             | 013:lower | 046:lower | 1.14.1 | athāta [!] śoṇitavarṇṇanīyam adhya~~mā~~yaṃ vyākhyāsyāmaḥ |
+| 12v:1:c | 015:upper | 048:upper | 1.15.1 | athāto doṣadhātumālakṣayavṛddhim adhyāyaṃ vyākhyāsyāmaḥ / |
+| 13v:6:b | 016:upper | 049 | 1.16.1 | athātaḥ karṇṇavyadhaba[ndhavi]dhim adhyāyaṃ vyā // |
+| 14v:5:c | 017:upper | 050 | 1.17.1 | athātaḥ [!] āmapakvamaṣanīyam [!] adhyāyaṃ vyā / |
+| 15v:3:b |        018:upper       | 051 | 1.18.1 | athāta ālepavraṇabandhavidhim adhyāyaṃ vyākhyāsyāmaḥ |
+| | tindukapittha | | | |
+| 17r:4:b | 019:lower | | 1.20.1 | athāto hitīhitīyam [!] adhyāyaṃ vyākhyāsyāmaḥ / |
+| 17v:6:a | 020:upper <br />(fol. *17 [1.21.6 -- 1.21.28] <br />is misplaced to 031-032) | 053:upper | 1.21.1 | athāto vraṇapraśnam adhyāyam vyākhyāsyāmaḥ / |
+|  |                        |  |  |  |
+| x |                            |            |       ||
+| x |   31r:2c                   | +067.jpg | 1.38      | dravyasaṅgrahaṇī |
+| x |            |                         |                            |      |
+| x |   35r:4b   |                +071.jpg | 1.42            | rasaviśeṣa |
+| x |            |                         |                            |      |
+| x |   39r:2a   |                +075.jpg |                            |      |
+| x |            |                         |                            |      |
+| x |   36v:3b   |                +073.jpg | 1.44 | virecanadravyavikalpa |
+| x |            |                         |                            |      |
+| x |  51v:3a-b  |                +088.jpg | 2.01             | vātavyādhi |
+| x |  52v:4c-d  |                +089.jpg | 2.03           | [arśāṃsi] |
+| x |            |                         |                            |      |
+| x |   upper:1b   |                +102.jpg | 3.02            | śukraśonita |
+| x |  lower:2a  |                +102.jpg | 4.11.09       | tindukapittha |
+|                               |                        |                          |                                            |  |
 
 
 
