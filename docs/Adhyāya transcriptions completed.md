@@ -204,6 +204,8 @@ Adhyāya references are canonical (i.e., the Ācārya 1938 vulgate edition).
 | 6.57     | ✓ | ✓ | ✗ |      |
 | 6.58     | ✓(¬vulgate) | ✓ | ✗ |      |
 | 6.59 | ✗ | ✓ | ✗ |      |
+|  |  |  |  | |
+| (chapters | KL 699 | NAK 5-333 | NAK 1-1079) | |
 | 6.60     | ✓ | ✓ | ✗ |      |
 | 6.61     | ✓ | ✓ | ✗ |      |
 | 6.62     | ✓ | ✓ | ✗ |      |
