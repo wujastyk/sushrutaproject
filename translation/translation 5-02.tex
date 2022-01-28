@@ -1,47 +1,36 @@
 % !TeX root = incremental_SS_Translation.tex
-
 \newcommand{\plant}[4]{#1 (\emph{#2})\footnote{#3; see #4}}
 \let\chemical = \plant
 \newcommand{\skt}[2]{#1 (\emph{#2})}
 \newcommand{\sskt}[2]{\empty}
+%
+\newcommand{\diff}[1]{\textcolor{red}{#1}}
 
 \section{Kalpasthāna, adhyāya 2}
 
-\subsection{Manuscript notes}
-
-
-
-\begin{itemize}
-    \item \MScite{Kathmandu NAK 5-333} has foliation letter numerals, for example
-on f.\,323a, that are similar to \MScite{Cambridge Add.\ 1693},\footnote{Scan
-at 
-\href{https://cudl.lib.cam.ac.uk/view/MS-ADD-01693/1}{cudl.lib.cam.ac.uk/view/MS-ADD-01693/1}.}
- dated to 1165\,\CE\, noted in Bendall's chart of Nepalese letter-numerals 
- \cite[Lithograph V, 
-after p.\,225]{bend-budd}
-\end{itemize}
-
-\newpage
+%\subsection{Manuscript notes}
 
 \subsection{Translation}
 
 \begin{translation}
     
-    \item[1--2]
-    And now I shall explain the chapter on the knowledge of stationary poisons,
-    as was declared by the Venerable Dhanvantari.
+    \item[1]
+    And now I shall explain the one giving the knowledge of stationary 
+    poisons.\footnote{No reference is made to Dhanvantari 
+    \citep[see][]{birc-2021}.}
   
     \item[3]
     \noindent It is said that there are two kinds of poisons,
-    \skt{stationary}{sthāvara} and \skt{mobile}{jaṅgama}. The former
+    \se{sthāvara}{stationary} and \se{jaṅgama}{mobile}. The former
     dwells in ten places, the latter has sixteen locations.
-    \item[3]
-    Traditionally, the ten are: root, leaf, fruit, flower, bark,
-    \skt{milky sap}{kṣīra}, \skt{pith}{sāra}, \skt{resin}{niryāsa}, the
-    \skt{element}{dhātu}s, and the tuber.
-
-
+   
     \item[4]
+    Traditionally, the ten are: root, leaf, fruit, flower, bark,
+    \se{kṣīra}{milky sap}, \se{sāra}{pith}, \se{niryāsa}{resin}, the
+    \se{dhātu}{element}s, and the tuber.
+
+
+    \item[5]
     
     In that context,\label{poisonousplants}
     \begin{itemize}
@@ -50,31 +39,41 @@ after p.\,225]{bend-budd}
         \begin{itemize}
         \item \plant{liquorice}{klītaka}{Glycyrrhiza glabra, L.}{AVS 3.84, NK 
         \#1136},
-        \item \plant{sweet-scented oleander}{aśvamāra}{Nerium oleander, 
-        L.}{ADPS 
-        223, NK
-            \#1709},
+        \item \plant{sweet-scented oleander}{aśvamāraka}{Nerium oleander, 
+        L.}{ADPS 223, NK \#1709},
         \item \plant{jequirity}{guñjā}{Abrus precatorius, L.}{AVS 1.10, NK \#6, 
-        Potter
-            168},
+        Potter 168},
         % \item \plant{java galangal}{sugandha}{Alpinia galanga, (L.) Willd.?}{AVS 
         %1.106,
         %   NK \#116},\footnote{No apparent toxicity.}
         % \item \plant{Indian sarsaparilla}{sugandha}{Hemidesmus indicus, (L.) R.
         % Br.?}{AVS 3.141, NK \#1210},\footnote{Non-toxic.}
-        \item \plant{rauwolfia}{sugandhā $\rightarrow$ sarpagandhā}{Rauvolfia
-            serpentina, (L.) Benth.
-            ex Kurz.?}{NK \#2099, ADPS 439; cf.\ Su.5.5.76--78},
-        a
-        \item \plant{luffa}{gargaraka $\rightarrow$ garāgarī?}{Luffa echinata, 
-        Roxb.}{NK
-            \#1517},
-        \item \plant{emetic nut}{karaghāṭa $\rightarrow$ karahāṭa? $\rightarrow$
-            madana}{Randia dumetorum, Lamk.}{NK \#2091},
-        \item \plant{leadwort}{vidyutśikhā $\rightarrow$ agni- or
+        
+        \item \diff{\plant{aconite}{subhaṅgurā $\rightarrow$ bhaṅgura = 
+        ativiṣā?}{Aconitum ferox, Wall.\ ex Ser.}{NK \#39, “parts used: dried 
+        tuberous roots.”}},
+        
+%        \item \plant{rauwolfia}{sugandhā $\rightarrow$ sarpagandhā}{Rauvolfia
+%            serpentina, (L.) Benth.
+%            ex Kurz.?}{NK \#2099, ADPS 439; cf.\ Su.5.5.76--78},
+
+        \item \diff{\plant{?}{karaṭā → karaghāṭa → karahāṭa?}{?}{?}},
+        
+        
+
+%        \item \plant{luffa}{gargaraka $\rightarrow$ garāgarī?}{Luffa echinata, 
+%        Roxb.}{NK
+%            \#1517},
+%        
+
+%        \item \plant{emetic nut}{karaghāṭa $\rightarrow$ karahāṭa? $\rightarrow$
+%            madana}{Randia dumetorum, Lamk.}{NK \#2091},
+  
+  and ending with
+        \item \plant{leadwort}{vidyutśikhānta $\rightarrow$ agni- or
             rakta-śikhā?}{Plumbago zeylanica (or rosea?), L.}{NK \#1966,
             1967},
-        and
+        and 
         \item \plant{cannabis}{vijayā}{Cannabis sativa, L.}{AVS 1.356, NK
             \#442};\footnote{The roots of sweet-scented oleander are highly toxic, as
         are most parts of the plant.  Jequirity does indeed contain a dangerous
@@ -116,10 +115,13 @@ after p.\,225]{bend-budd}
             \plant{`big
             thorn apple'}{mahākarambha}{Datura metel, L.?}{AVS 2.305 (cf.\
             Abhidhāna\-mañjarī), NK \#796\,ff., Potter 292\,f., ADPS 132.},
+        
         \item \plant{ribbed gourd}{karkoṭaka}{Luffa acutangula, (L.) Roxb.? 
         (Mormodica
             cochinchinensis, Spreng.? Cf.\ Luffa tuberosa)}{AVS 3.347 (NK \#1640,
-            1643; NK \#1520)}, \item \plant{black cardamom}{hareṇu}{Amomum 
+            1643; NK \#1520)}, 
+        
+        \item \plant{black cardamom}{hareṇu}{Amomum 
             subulatum,
             Roxb.?}{PVS Caraka 2.734, AVS 1.128, NK \#154}, \item \plant{purple
             calotropis}{khadyotaka $\rightarrow$ arka?}{Calotropis gigantea, (L.) R.
@@ -154,7 +156,7 @@ after p.\,225]{bend-budd}
             \end{itemize}
         
         \item
-        the seven bark, \skt{pith}{sāra} and \skt{resin}{niryāsa} poisons are:
+        the seven bark, \se{sāra}{pith} and \se{niryāsa}{resin} poisons are:
               \begin{itemize}
             
         \item \plant{`gutboiler'}{antrapācaka}{unknown}{?},
@@ -177,7 +179,7 @@ after p.\,225]{bend-budd}
         is toxic.}
             \end{itemize}
         \item
-        the three \skt{milky sap}{kṣīra}-poisons are:
+        the three \se{kṣīra}{milky sap}-poisons are:
               \begin{itemize}
             
         \item \plant{purple calotropis}{kumudaghnī $\rightarrow$ arka?}{Calotropis
@@ -203,7 +205,7 @@ after p.\,225]{bend-budd}
             \end{itemize}
         
         \item
-        the two \skt{element}{dhātu}-poisons are:
+        the two \se{dhātu}{element}-poisons are:
               \begin{itemize}
             
         \item \plant{`foam-stone'}{phenāśma}{unknown}{?}, and
@@ -282,17 +284,17 @@ after p.\,225]{bend-budd}
     
     \subsection{The effects of poisons}
     \item[7--10]
-    Root-poisons cause \skt{writhing}{udveṣṭana}, \skt{moaning}{pralāpa}, and
-    \skt{delirium}{moha}.  Leaf-poison is known for causing yawning, writhing
-    limbs, and \skt{wheezing}{śvāsa}.  Fruit-poisons cause swelling of the
+    Root-poisons cause \se{udveṣṭana}{writhing}, \se{pralāpa}{moaning}, and
+    \se{moha}{delirium}.  Leaf-poison is known for causing yawning, writhing
+    limbs, and \se{śvāsa}{wheezing}.  Fruit-poisons cause swelling of the
     scrotum, a burning feeling, and a repugnance for food.  Flower-poisons will
-    cause vomiting, \skt{distension}{ādhmāna}, and \skt{delirium}{moha}.  The
-    use of bark, \skt{pith}{sāra} and \skt{resin}{niryāsa} poisons will cause
-    foul-smelling breath, \skt{coarseness}{pāruṣya}, a headache, and a flow of
-    \skt{phlegm}{kapha}.  The \skt{milky sap}{kṣīra}-poisons make one
+    cause vomiting, \se{ādhmāna}{distension}, and \se{moha}{delirium}.  The
+    use of bark, \se{sāra}{pith} and \se{niryāsa}{resin} poisons will cause
+    foul-smelling breath, \se{pāruṣya}{coarseness}, a headache, and a flow of
+    \se{kapha}{phlegm}.  The \se{kṣīra}{milky sap}-poisons make one
     froth,\footnote{This is indeed the observed effect of the milky sap of
     \emph{Calotropis procera}, R. Br.\ \citep[no.\,428]{NK}.} and make the tongue
-    feel heavy.  The \skt{element}{dhātu}-poisons give one a pain in the chest,
+    feel heavy.  The \se{dhātu}{element}-poisons give one a pain in the chest,
     make one faint, and cause a burning feeling on the palate.  These poisons
     are classified as ones which are normally lethal after a period of time.
     
@@ -314,8 +316,8 @@ after p.\,225]{bend-budd}
     With
     \plant{Indian mustard}{sarṣapa}{Brassica juncea, Czern \&
         Coss.}{AVS 1.301, NK \#378}, the \skt{wind becomes
-        defective}{vātavaiguṇya}, there is \skt{constipation}{ānāha}, and
-    \skt{lumps}{granthi} start to appear.
+        defective}{vātavaiguṇya}, there is \se{ānāha}{constipation}, and
+    \se{granthi}{lumps} start to appear.
     %
     With
     \plant{leadwort}{pālaka $\rightarrow$  citraka}{Plumbago zeylanica
@@ -325,7 +327,7 @@ after p.\,225]{bend-budd}
     %
     With the one called
     \plant{`muddy'}{kardama}{unknown}{?},
-    there is a \skt{discharge}{praseka}, the faeces pour out, and  the eyes
+    there is a \se{praseka}{discharge}, the faeces pour out, and  the eyes
     turn yellow.
     %
     With the
@@ -359,7 +361,7 @@ after p.\,225]{bend-budd}
     \item[ 17b]
     With
     \plant{`big poison'}{mahāviṣa}{unknown}{?},
-    one gets violent \skt{knots}{granthi} and stabbing pains in the heart.
+    one gets violent \se{granthi}{knots} and stabbing pains in the heart.
     \item[ 18a]
     With
     \plant{galls}{karkaṭa}{Rhus succedanea, L.}{NK \#2136},
@@ -368,8 +370,8 @@ after p.\,225]{bend-budd}
     \item[ 19a]
     These thirteen cited poisons which originate from tubers are fearfully
     potent. Experts know them all by these ten features: they are traditionally
-    said to be \skt{dry}{rūkṣa}, hot, sharp, \skt{rarified}{sūkṣma},
-    fast-acting, pervasive, \skt{expansive}{vikāśin}, \skt{limpid}{viśada},
+    said to be \se{rūkṣa}{dry}, hot, sharp, \se{sūkṣma}{rarified},
+    fast-acting, pervasive, \se{vikāśin}{expansive}, \se{viśada}{limpid},
     light, and indigestible.
     
     \item[ 19b-]
@@ -380,7 +382,7 @@ after p.\,225]{bend-budd}
     the parts of the body. Because they are fast-acting they kill quickly, and
     because of their pervasiveness they blend with one's \skt{physical
         constitution}{prakṛti}.  Because they expand they destroy the
-    \skt{humour}{doṣa}s, \skt{element}{dhātu}s, and the
+    \se{doṣa}{humour}s, \se{dhātu}{element}s, and the
     impurities\sskt{impurity}{mala}.  Because they are limpid they overflow,
     because they are light they are difficult to cure, and because they are
     indigestible they are hard to eliminate.  And so they cause long suffering.
@@ -397,7 +399,7 @@ after p.\,225]{bend-budd}
         anti-toxic medicine, or else dried up by blazing fire, wind, or sunshine, or
         which has just lost its virulence by itself, becomes a `\skt{slow-acting
             poison}{dūṣīviṣa}'\label{dusivisa}.  Because it has lost its potency it is
-        no longer lethal.  It is surrounded by \skt{phlegm}{kapha} and has an
+        no longer lethal.  It is surrounded by \se{kapha}{phlegm} and has an
         aftermath that lasts for years.
         
         \item[27]
@@ -411,44 +413,44 @@ after p.\,225]{bend-budd}
         hair, urine, faeces, or menstrual blood with a man's food, in order to
         gain power over him (2.7.11--13).}
         \item[28]
-        If it lodges in his \skt{stomach}{āmāśaya}, his wind and phlegm become
-        diseased; if it lodges in his \skt{intestines}{pakvāśaya}, his wind and choler
+        If it lodges in his \se{āmāśaya}{stomach}, his wind and phlegm become
+        diseased; if it lodges in his \se{pakvāśaya}{intestines}, his wind and choler
         become diseased.  The man's hair and body are ruined, and he looks like a
         bird whose wings have been chopped off.
         \item[29a-c]
-        If it lodges in one of the \skt{body tissue}{dhātu}s such as the
-        \skt{chyle}{rasa}, it causes the diseases that were described as arising
+        If it lodges in one of the \se{dhātu}{body tissue}s such as the
+        \se{rasa}{chyle}, it causes the diseases that were described as arising
         from the elements, and it rapidly becomes inflamed on nasty days which are
         cold and windy.
         
         \item[29d-31]
         Now listen to the preliminary signs of such a case: sleepiness, heaviness,
-        yawning, \skt{slackness}{viśleṣa} and \skt{exhilaration}{harṣa}, and a
-        \skt{chafing of the limbs}{aṅgamarda}. Next, it causes
-        \skt{food-mania}{annamada} and indigestion, \skt{appetite-loss}{arocaka},
-        \skt{round blotches}{maṇḍala}, \skt{skin disease}{koṭha}, and
-        \skt{delirium}{moha}. The body tissues \skt{dwindle away}{kṣaya},
+        yawning, \se{viśleṣa}{slackness} and \se{harṣa}{exhilaration}, and a
+        \se{aṅgamarda}{chafing of the limbs}. Next, it causes
+        \se{annamada}{food-mania} and indigestion, \se{arocaka}{appetite-loss},
+        \se{maṇḍala}{round blotches}, \se{koṭha}{skin disease}, and
+        \se{moha}{delirium}. The body tissues \se{kṣaya}{dwindle away},
         the feet, hands, and face get swollen, dropsy develops, and there is
         vomiting and diarrhoea. Perhaps his colour may drain away and he may faint
-        or have \skt{irregular fever}{viṣamajvara}.  It may cause heightened,
+        or have \se{viṣamajvara}{irregular fever}.  It may cause heightened,
         powerful thirst.
         
         \item[32]
         \begin{sloppypar}
             These various disorders are of many different types: one poison may 
             produce
-            madness, while another one may cause \skt{constipation}{ānāha}, and 
+            madness, while another one may cause \se{ānāha}{constipation}, and 
             yet
             another may deplete the semen. One may cause slurred speech, while 
             another
-            \skt{pallid skin disease}{kuṣṭha}.
+            \se{kuṣṭha}{pallid skin disease}.
         \end{sloppypar}
     \end{verse}
 
     
     \item[33]
     Traditionally, `slow-acting poison' (\emph{dūṣī-viṣa}) is so called because
-    it corrupts (\emph{dūṣayate)} the \skt{body tissue}{dhātu}s.  This
+    it corrupts (\emph{dūṣayate)} the \se{dhātu}{body tissue}s.  This
     corruption is caused by repetitively keeping to certain locations, times,
     foods, and sleeping in the daytime.
     
@@ -459,21 +461,21 @@ after p.\,225]{bend-budd}
     brown colour, his tongue becomes stiff, he grows faint, and starts to gasp.
     \item[35]
     In the second, he trembles, collapses, has a burning feeling, as well as a
-    sore throat.  When the poison reaches the \skt{stomach}{āmāśaya}, it causes
-    pain in the \skt{chest}{hṛd}.
+    sore throat.  When the poison reaches the \se{āmāśaya}{stomach}, it causes
+    pain in the \se{hṛd}{chest}.
     \item[36]
     In the third, the roof of his mouth goes dry, he gets violent \skt{shooting
-        pains}{śūla} in the \skt{stomach}{āmāśaya}, and his eyes swell up and go 
+        pains}{śūla} in the \se{āmāśaya}{stomach}, and his eyes swell up and go 
         a
     nasty, yellow colour.
     \item[37]
     In the fourth shock, it causes the stomach and intestines to
-    \skt{sting}{toda}, he gets hiccups, a cough,  a rumbling in the
-    \skt{gut}{antra}, and his head becomes very heavy.
+    \se{toda}{sting}, he gets hiccups, a cough,  a rumbling in the
+    \se{antra}{gut}, and his head becomes very heavy.
     \item[38]
-    In the fifth he dribbles \skt{phlegm}{kapha}, is drained of colour,
-    his \skt{joints crack}{parvabheda},  all his humours are inflamed, and he
-    also has a pain in his \skt{belly}{pakvādhāna}.
+    In the fifth he dribbles \se{kapha}{phlegm}, is drained of colour,
+    his \se{parvabheda}{joints crack},  all his humours are inflamed, and he
+    also has a pain in his \se{pakvādhāna}{belly}.
     \item[39a]
     In the sixth, his consciousness is annihilated and he completely loses
     control of his bowels.
@@ -485,29 +487,29 @@ after p.\,225]{bend-budd}
     \looseness=1
     \item[40]
     In the first shock of the poison, he should vomit and be sprinkled with cold
-    water. Then he should be made to drink an \skt{antidote}{agada} together
+    water. Then he should be made to drink an \se{agada}{antidote} together
     with honey and ghee.
     \item[41a]
     In the second, he should vomit as before, and then be given a purgative to
     drink.
     \item[41b]
     In the third, it is good for him to drink an antidote and take a
-    \skt{nasal medicine}{nasya} as well as an \skt{eye salve}{añjana}.
+    \se{nasya}{nasal medicine} as well as an \se{añjana}{eye salve}.
     \item[42a]
     In the fourth, he should drink a medical antidote mixed with oil.
     \item[42b]
     In the fifth, he should be prescribed the antidote together with a
-    \skt{decoction}{kvātha} of honey and
+    \se{kvātha}{decoction} of honey and
     \plant{liquorice}{madhuka}{Glycyrrhiza glabra, L.}{AVS 3.84, NK \#1136}.
     \item[43]
     In the sixth, the cure is the same as for diarrhoea.
     %
     And in the seventh, he should have medicated powder blown up his nose, and
-    after having a `\skt{crow's foot}{kākapada}' cut made on his head, he
+    after having a `\se{kākapada}{crow's foot}' cut made on his head, he
     should have a piece of bloody meat put on
     it.\footnote{\label{su:kakapada}Suśruta explains the term \emph{avapīḍa}
     `medicated nasal powder' as the procedure either of administering
-    \skt{nasal drops}{avapīḍa}, or blowing medicated powder into the nose
+    \se{avapīḍa}{nasal drops}, or blowing medicated powder into the nose
     (4.40.44--46): it is particularly recommended for unconscious or incapable
     patients.  The `crow's-foot' procedure is also recommended later in the
     `Section on Procedures' (5.5.24a) in cases of snake-bite. It is also
@@ -521,7 +523,7 @@ after p.\,225]{bend-budd}
     \item[45--46]
     \begin{sloppypar}
         Both kinds of poison are destroyed by a porridge prepared with the
-        \skt{stewed juice}{niṣkvātha} of the following:
+        \se{niṣkvātha}{stewed juice} of the following:
         \plant{luffa}{koṣātakya}{Luffa cylindrica, (L.) M. J. Roem. \textnormal{or}
             L. acutangula, (L.) Roxb.}{ADPS 252, NK \#1514 etc.},
         \plant{migraine tree}{agnimantha}{Premna corymbosa, Rottl.}{IMP 1927, 
@@ -554,7 +556,7 @@ after p.\,225]{bend-budd}
             AVS 1.281, NK \#363}s (red and white),
         \plant{black cardamom}{hareṇu}{Amomum subulatum, Roxb.?}{PVS
             Caraka 2.734, AVS 1.128, NK \#154},
-        the \skt{three pungent spices}{trikaṭu} % \marginpar{kaṭu=piquant?}
+        the \se{trikaṭu}{three pungent spices} % \marginpar{kaṭu=piquant?}
         (\plant{dried ginger}{śuṇṭhī}{Zingiber officinale, Roscoe.}{ADPS 50, NK
             \#2658, AVS 5.435, IGP 1232},
         \plant{long pepper}{pippalī}{Piper longum, L.}{ADPS 374, NK
@@ -564,7 +566,7 @@ after p.\,225]{bend-budd}
         %(L.) R.
         %  Br. \textnormal{and} Cryptolepis buchanani, Roemer \&
         %  Schultes}{ADPS 434, AVS 3.141, NK \#1210}s,
-        the two \skt{Indian sarsaparillas}{sārive}
+        the two \se{sārive}{Indian sarsaparillas}
         (\plant{country sarsaparilla}{anantā}{Hemidesmus indicus, (L.) R. 
         Br.}{ADPS 434,
             AVS 3.141--5, NK \#1210}
@@ -581,9 +583,9 @@ after p.\,225]{bend-budd}
     \item[ 47--49]
     \subsection{The `invincible' ghee}
     \label{ajeya}
-    There is a famous ghee called \skt{`Invincible'}{ajeya}. It rapidly
+    There is a famous ghee called \se{ajeya}{`Invincible'}. It rapidly
     destroys all poisons and `always conquers'. It is made with a
-    \skt{mash}{kalka} of the following plants:
+    \se{kalka}{mash} of the following plants:
     \plant{liquorice}{madhuka}{Glycyrrhiza glabra, L.}{AVS 3.84, NK \#1136},
     \plant{Indian rosebay}{tagara}{Tabernaemontana divaricata (L.) R.Br.\ ex
         Roem.\ \& Schultes.}{GJM 557, AVS 5.232},
@@ -619,20 +621,20 @@ after p.\,225]{bend-budd}
     and
     \plant{Indian barberry}{dāruharidrā}{Berberis aristata, DC.}{Dymock 1.65, NK
         \#685, GJM 562, IGP 141}),
-    the two \skt{Indian nightshade}{bṛhatī}s
+    the two \se{bṛhatī}{Indian nightshade}s
     (\plant{poison berry}{bṛhatī}{Solanum violaceum, Ortega}{ADPS 100,
         NK \#2329, AVS 5.151}
     and
     \plant{yellow-berried nightshade}{kṣudrā}{Solanum virginianum, L.}{ADPS
         100, NK \#2329, AVS 5.164}),
-    %the two \skt{Indian sarsaparilla}{sārive}s
+    %the two \se{sārive}{Indian sarsaparilla}s
     %  (\plant{country sarsaparilla}{anantā}{Hemidesmus indicus, (L.) R. 
     %Br.}{ADPS 434,
     %    AVS 3.141--5, NK \#1210}
     %  and
     %  \plant{black creeper}{pālindī}{Ichnocarpus frutescens, (L.)
     %    R.Br.}{AVS 3.203, 3.145, NK \#1283, ADPS 434}),
-    the two \skt{Indian sarsaparillas}{sārive}
+    the two \se{sārive}{Indian sarsaparillas}
     (\plant{country sarsaparilla}{anantā}{Hemidesmus indicus, (L.) R. Br.}{ADPS 
     434,
         AVS 3.141--5, NK \#1210}
@@ -654,7 +656,7 @@ after p.\,225]{bend-budd}
     \subsection{Curing the `slow-acting' poison}
     
     \begin{sloppypar}
-        Someone suffering from `\skt{slow-acting poison}{dūṣīviṣa}' should be well
+        Someone suffering from `\se{dūṣīviṣa}{slow-acting poison}' should be well
         sweated, and purged both top and bottom.  Then he should in all cases be
         made to drink the following antidote which removes `slow-acting
         poison':
@@ -679,24 +681,24 @@ after p.\,225]{bend-budd}
     \plant{`scented pavonia'}{toya $\rightarrow$ bālaka}{Pavonia odorata,
         Willd.}{ADPS 498, NK \#1822},
     and
-    \skt{`gold-chalk' ochre}{kanakagairika}.
+    \se{kanakagairika}{`gold-chalk' ochre}.
     %
     This antitoxin, taken with honey, eliminates `slow-acting poison'. It is
-    called `\skt{slow-acting poison antidote}{dūṣīviṣāri}', and there is no
+    called `\se{dūṣīviṣāri}{slow-acting poison antidote}', and there is no
     situation where it is not recommended.
     
     \item[ 53--54]
-    If there are any \skt{side-effect}{upadrava}s, such as fever, a burning
-    feeling, hiccups, \skt{constipation}{ānāha}, depletion of the semen,
+    If there are any \se{upadrava}{side-effect}s, such as fever, a burning
+    feeling, hiccups, \se{ānāha}{constipation}, depletion of the semen,
     distension, diarrhoea, fainting, illness in the heart,
-    \skt{bellyache}{jaṭhara}, madness, trembling, or others, then one
+    \se{jaṭhara}{bellyache}, madness, trembling, or others, then one
     should treat each one in its own terms, as well as using the anti-toxic
     medicines.
     
     \item[ 55]
-    `Slow-acting poison' is \skt{curable}{sādhya} if caught immediately; it is
-    \skt{treatable}{yāpya} if it is of a year's standing; but it cannot be cured
-    in someone who has unhealthy habits or who is \skt{weak}{kṣīṇa}.
+    `Slow-acting poison' is \se{sādhya}{curable} if caught immediately; it is
+    \se{yāpya}{treatable} if it is of a year's standing; but it cannot be cured
+    in someone who has unhealthy habits or who is \se{kṣīṇa}{weak}.
     
 
     \begin{center}
