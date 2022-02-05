@@ -2,9 +2,13 @@
 ## Concordance of folios and Suśrutasaṃhitā passages in the vulgate
 ## By Harshal Bhatt, with editing by Dominik Wujastyk
 
+The folio numbers in the first column are the numbers written by the scribe on the verso of each leaf.  Each photo is the verso of a leaf followed by the recto of the next.  So the file name of the jpeg file contains the number of the verso of the leaf (top image in the photo).  
+
+For example, file `dscn3345 fol 370.jpg`  contains the image of MS folio 370v and 371r. 
+
 |  |  |  |  |  |  |
 | --- | --- | --- | --- | --- | --- |
-| **MS folio** | **Contents** | MS adhyāyas | Vulgate adhyāyas | Notes | no. of verses |
+| **MS folio** | **Contents** | **MS adhyāyas** | **Vulgate adhyāyas** | **Notes** | **no. of verses** |
 | **1. Sūtrasthāna** |  |  |  |  |  |
 | 01v:1 | Start of | 1.01  |1.01 	 | 	 | 	 |
 | 04v:2 | End of | 1.01 	 |1.01 	 | 	 | 	 |
