@@ -1,7 +1,7 @@
 
 # Concordance of MS Kathmandu NAK 1-1079
 
-### By Dominik Wujastyk (DW) and Andrey Klebanov (AK)
+## By Dominik Wujastyk (DW) and Andrey Klebanov (AK)
 
 This MS is a single physical object kept at the NAK under the accession number 1-1079.  It has been microfilmed twice,  first as A 45-5 and then again, seventeen years later, as A 1267-11 (on 16.10.1970 and 16.11.1987 respectively). Digital copies of both microfilms are available to us.
 
