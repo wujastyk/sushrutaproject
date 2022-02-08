@@ -1,12 +1,12 @@
 # Concordance of MS Kathmandu NAK 1-1079
 
-## By Dominik Wujastyk (DW) and Andrey Klebanov (AK)
+## By Dominik Wujastyk and Andrey Klebanov and Madhusudan Rimal
 
-This MS is a single physical object kept at the NAK under the accession number 1-1079.  It has been microfilmed twice,  first as A 45-5 and then again, seventeen years later, as A 1267-11 (on 16.10.1970 and 16.11.1987 respectively). Digital copies of both microfilms are available to us.
+This MS is a single physical object kept at the NAK under accession number 1-1079.  It has been microfilmed twice,  first as A 45-5 and then again, seventeen years later, as A 1267-11 (on 16.10.1970 and 16.11.1987 respectively). Digital copies of both microfilms are available to the Sushruta Project.
 
 The quality of both microfilms is rather inconsistent (some pictures are blurry) and it is often useful to be able to cross-check between both of them.
 
-I (AK) have a vague memory that there were some instances, where A 45-5 documented a better state of the MS (fewer holes and broken edges) than A 1267-11.  (Check this.)
+I (Andrey) have a vague memory that there were some instances, where A 45-5 documented a better state of the MS (fewer holes and broken edges) than A 1267-11.  (Check this.)
 
 In the table below we record the following information:
 
@@ -81,13 +81,4 @@ In the table below we record the following information:
 | x                   | upper:1b                                                     | +102.jpg   | 3.02             | śukraśonita                                               |
 | x                   | lower:2a                                                     | +102.jpg   | 4.11.09          | tindukapittha                                             |
 |                     |                                                              |            |                  |                                                           |
-
-
-
-
-
-
-$$
-<Empty \space Math \space Block>
-$$
 
