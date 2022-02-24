@@ -10,7 +10,7 @@ The manuscript and edition transcriptions here at Saktumiva are at:
 
 * [Sūtrasthāna](https://saktumiva.org/wiki/wujastyk/susrutasamhita/01-su.su/provisional-edition_sutrasthana) (provisional edition)
 * [Nidānasthāna](https://saktumiva.org/wiki/wujastyk/susrutasamhita/02-su.ni/02-ni-vulgate-edition) (vulgate edition)
-* [Śārīrasthāna](https://saktumiva.org/wiki/wujastyk/susrutasamhita/03-su.sa/03-za-vulgate-edition) (vulgate edition)
+* [Śārīrasthāna](https://saktumiva.org/wiki/wujastyk/susrutasamhita/03-su.sa/provisional-edition_sarirasthana) (provisional edition)
 * [Cikitsāsthāna](https://saktumiva.org/wiki/wujastyk/susrutasamhita/04-su.ci/04-ci-vulgate-edition) (vulgate edition)
 * [Kalpasthāna](https://saktumiva.org/wiki/wujastyk/susrutasamhita/05-su.ka/provisional-edition_kalpasthana) (provisional edition)
 * [Uttaratantra](https://saktumiva.org/wiki/wujastyk/susrutasamhita/06-su.ut/provisional-edition_uttaratantra) (provisional edition)

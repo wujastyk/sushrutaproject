@@ -2,9 +2,13 @@
 ## Concordance of folios and Suśrutasaṃhitā passages in the vulgate
 ## By Harshal Bhatt, with editing by Dominik Wujastyk
 
+The folio numbers in the first column are the numbers written by the scribe on the verso of each leaf.  Each photo is the verso of a leaf followed by the recto of the next.  So the file name of the jpeg file contains the number of the verso of the leaf (top image in the photo).  
+
+For example, file `dscn3345 fol 370.jpg`  contains the image of MS folio 370v and 371r. 
+
 |  |  |  |  |  |  |
 | --- | --- | --- | --- | --- | --- |
-| **MS folio** | **Contents** | MS adhyāyas | Vulgate adhyāyas | Notes | no. of verses |
+| **MS folio** | **Contents** | **MS adhyāyas** | **vulgate adhyāyas** | **Notes** | **no. of verses** |
 | **1. Sūtrasthāna** |  |  |  |  |  |
 | 01v:1 | Start of | 1.01  |1.01 	 | 	 | 	 |
 | 04v:2 | End of | 1.01 	 |1.01 	 | 	 | 	 |
@@ -283,12 +287,13 @@
 | 367v:7 | End of | 6.12 | 6.12 |  |  |
 | 367v:7 | Start of | 6.13 | 6.13 |  |  |
 | 368r:2 | End of | 6.13 | 6.13 |  |  |
-| 368r:2 | Start of | 6.14 | 6.15 |  |  |
+|  |  |  |  | | |
+| 368r:2 | Start of | 6.14 | 6.15 | chedyarogapratiṣedho |  |
 | 370v:3 | End of | 6.14 | 6.15 |  |  |
 |  |  |  |  | | |
-| 370v:3 | Start of | 6.15 | 6.16 |  |  |
+| 370v:3 | Start of | 6.15 | 6.16 | pakṣmagatarogapratiṣedha |  |
 | 371r:3 | End of | 6.15 | 6.16 |  |  |
-| 371r:3 | Start of | 6.16 | 6.17 |  |  |
+| 371r:3 | Start of | 6.16 | 6.17 | dṛṣṭigatarogaviśeṣavijñānīyam |  |
 | 375v:3 | End of | 6.16 | 6.17 |  |  |
 | 375v:3 | Start of | 6.17 | 6.18 |  |  |
 | 379v:6 | End of | 6.17 | 6.18 |  |  |
