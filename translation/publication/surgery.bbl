@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 3.1 $
+% $ biblatex bbl format version 3.2 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -414,14 +414,80 @@
       \verb https://archive.org/details/sushrutasamhita
       \endverb
     \endentry
+    \entry{adri-1984}{incollection}{}
+      \name{author}{3}{}{%
+        {{un=1,uniquepart=given,hash=f8e22e4eaeda17223e7c40aa52cf6ac0}{%
+           family={Adriaensen},
+           familyi={A\bibinitperiod},
+           given={Rob},
+           giveni={R\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=594c2acc760c1da91a3ee988f1802ca7}{%
+           family={Barkhuis},
+           familyi={B\bibinitperiod},
+           given={Roelf},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9c9df7924110aae5d78480b211090900}{%
+           family={Ruijters},
+           familyi={R\bibinitperiod},
+           given={Jean-Louis},
+           giveni={J\bibinithyphendelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=03a3da640c695a268052e888571bc767}{%
+           family={Meulenbeld},
+           familyi={M\bibinitperiod},
+           given={Gerrit\bibnamedelima Jan},
+           giveni={G\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \name{owner}{1}{}{%
+        {{hash=dd988cfd769c9f7fbd795a0f5da8e751}{%
+           family={dom},
+           familyi={d\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Groningen}%
+      }
+      \list{publisher}{1}{%
+        {Forsten}%
+      }
+      \strng{namehash}{c01d4fc7ad7634daef5d009ef9974579}
+      \strng{fullhash}{d987684ee72603dbf06388e6e517898c}
+      \strng{bibnamehash}{d987684ee72603dbf06388e6e517898c}
+      \strng{authorbibnamehash}{d987684ee72603dbf06388e6e517898c}
+      \strng{authornamehash}{c01d4fc7ad7634daef5d009ef9974579}
+      \strng{authorfullhash}{d987684ee72603dbf06388e6e517898c}
+      \strng{editorbibnamehash}{03a3da640c695a268052e888571bc767}
+      \strng{editornamehash}{03a3da640c695a268052e888571bc767}
+      \strng{editorfullhash}{03a3da640c695a268052e888571bc767}
+      \strng{ownerbibnamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \strng{ownernamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \strng{ownerfullhash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{P. O. Box 6148, 9702 HC Groningen, The Netherlands}
+      \field{booktitle}{Proceedings of the International Workshop on Priorities in the Study of {Indian} Medicine}
+      \field{rawauthor}{Rob Adriaensen and Roelf Barkhuis and Jean-Louis Ruijters}
+      \field{title}{An {English} Translation of {Suśrutasaṃhitā}, Nidānasthāna 1, 1--39, Together with {Gayadāsa}'s {Nyāyacandrikā}}
+      \field{year}{1984}
+      \field{dateera}{ce}
+      \field{pages}{277\bibrangedash 310}
+      \range{pages}{34}
+    \endentry
     \entry{adri-engl}{incollection}{}
       \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=65f44ffc7a20d5c1fed00e0d99ef3c14}{%
+        {{un=1,uniquepart=given,hash=65f44ffc7a20d5c1fed00e0d99ef3c14}{%
            family={Adriaensen},
            familyi={A\bibinitperiod},
            given={Rob\bibnamedelimb C.\bibnamedelimi R.},
            giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim R\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
         {{un=0,uniquepart=base,hash=594c2acc760c1da91a3ee988f1802ca7}{%
            family={Barkhuis},
            familyi={B\bibinitperiod},
@@ -480,6 +546,49 @@
       \true{nocite}
       \field{pages}{277\bibrangedash 310}
       \range{pages}{34}
+    \endentry
+    \entry{agra-indi}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5690897f96325d276c801827d886af4d}{%
+           family={Agrawala},
+           familyi={A\bibinitperiod},
+           given={V.\bibnamedelimi S.},
+           giveni={V\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{owner}{1}{}{%
+        {{hash=dd988cfd769c9f7fbd795a0f5da8e751}{%
+           family={dom},
+           familyi={d\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Varanasi}%
+      }
+      \list{publisher}{1}{%
+        {Prthvi Prakashan}%
+      }
+      \strng{namehash}{5690897f96325d276c801827d886af4d}
+      \strng{fullhash}{5690897f96325d276c801827d886af4d}
+      \strng{bibnamehash}{5690897f96325d276c801827d886af4d}
+      \strng{authorbibnamehash}{5690897f96325d276c801827d886af4d}
+      \strng{authornamehash}{5690897f96325d276c801827d886af4d}
+      \strng{authorfullhash}{5690897f96325d276c801827d886af4d}
+      \strng{ownerbibnamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \strng{ownernamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \strng{ownerfullhash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{First published in 1953}
+      \field{edition}{2}
+      \field{rawauthor}{V. S. Agrawala}
+      \field{title}{India As Known to {Pāṇini}: A Study of the Cultural Material in the {Aṣṭādhyāyī}}
+      \field{year}{1963}
+      \field{dateera}{ce}
+      \true{nocite}
     \endentry
     \entry{ange-2020}{book}{}
       \name{author}{1}{}{%
@@ -1885,6 +1994,61 @@
       \verb http://www.uni-hamburg.de/ngmcp/newsletter.html
       \endverb
     \endentry
+    \entry{dutt-1922}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=01e66a4301de9cf822181a765894bb1b}{%
+           family={Dutt},
+           familyi={D\bibinitperiod},
+           given={Uday\bibnamedelima Chand},
+           giveni={U\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{owner}{1}{}{%
+        {{hash=dd988cfd769c9f7fbd795a0f5da8e751}{%
+           family={dom},
+           familyi={d\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Calcutta}%
+      }
+      \list{publisher}{1}{%
+        {Madan Gopal Dass for the Adi-Ayurveda Machine Press}%
+      }
+      \strng{namehash}{01e66a4301de9cf822181a765894bb1b}
+      \strng{fullhash}{01e66a4301de9cf822181a765894bb1b}
+      \strng{bibnamehash}{01e66a4301de9cf822181a765894bb1b}
+      \strng{authorbibnamehash}{01e66a4301de9cf822181a765894bb1b}
+      \strng{authornamehash}{01e66a4301de9cf822181a765894bb1b}
+      \strng{authorfullhash}{01e66a4301de9cf822181a765894bb1b}
+      \strng{ownerbibnamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \strng{ownernamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \strng{ownerfullhash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{Reprinted Varanasi: Chowkhamba Saraswatibhavan, 1980}
+      \field{edition}{3}
+      \field{rawauthor}{Uday Chand Dutt}
+      \field{series}{Krishnadas Sanskrit Studies}
+      \field{title}{The Materia Medica of the {Hindus}\ldots with a Glossary of {Indian} Plants by {George King}. Revised Edition\ldots by {Binod Lall Sen and Ashutosh Sen and Pulin Krishna Sen}}
+      \field{urlday}{4}
+      \field{urlmonth}{10}
+      \field{urlyear}{2017}
+      \field{volume}{2}
+      \field{year}{1922}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://archive.org/details/mobot31753000838638
+      \endverb
+      \verb{url}
+      \verb https://archive.org/details/mobot31753000838638
+      \endverb
+    \endentry
     \entry{edge-1939}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=367953bfc45ef3667ab8fe8812a8accd}{%
@@ -2691,6 +2855,259 @@
       \verb ark:/13960/t05z1bg4q
       \endverb
     \endentry
+    \entry{hoer-1897}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4889b77999f629d94c8647cd13a5aa77}{%
+           family={Hoernle},
+           familyi={H\bibinitperiod},
+           given={A.\bibnamedelimi F.\bibnamedelimi Rudolf},
+           giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Calcutta}%
+      }
+      \list{publisher}{1}{%
+        {Asiatic Society}%
+      }
+      \strng{namehash}{4889b77999f629d94c8647cd13a5aa77}
+      \strng{fullhash}{4889b77999f629d94c8647cd13a5aa77}
+      \strng{bibnamehash}{4889b77999f629d94c8647cd13a5aa77}
+      \strng{authorbibnamehash}{4889b77999f629d94c8647cd13a5aa77}
+      \strng{authornamehash}{4889b77999f629d94c8647cd13a5aa77}
+      \strng{authorfullhash}{4889b77999f629d94c8647cd13a5aa77}
+      \field{extraname}{2}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{No more published; Hoernle does not state which edition he is translating, but it includes the "Dhanvantari phrase"}
+      \field{annotation}{and ark:/13960/t8pd1kw9r}
+      \field{eprinttype}{ark}
+      \field{number}{911}
+      \field{part}{1}
+      \field{rawauthor}{A. F. Rudolf Hoernle}
+      \field{series}{Bibliotheca Indica}
+      \field{title}{Suśrutasaṃhitā = The Suçruta-Saṁhitā or the Hindū System of Medicine According to Suçruta Translated from the Original Sanskrit}
+      \field{urlday}{3}
+      \field{urlmonth}{1}
+      \field{urlyear}{2018}
+      \field{year}{1897}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{eprint}
+      \verb ark:/13960/t8pd1kw9r
+      \endverb
+      \verb{file}
+      \verb :/home/dom/Dropbox/Digital Library extracts/Ayurveda/Susrutasamhita/1897 Hoernle tr./Sushruta Samhita Hoernle A.F.R. Asiatic Society 1897 (blank after page 98).pdf:PDF
+      \endverb
+    \endentry
+    \entry{hoer-1906a}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4889b77999f629d94c8647cd13a5aa77}{%
+           family={Hoernle},
+           familyi={H\bibinitperiod},
+           given={A.\bibnamedelimi F.\bibnamedelimi Rudolf},
+           giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{owner}{1}{}{%
+        {{hash=dd988cfd769c9f7fbd795a0f5da8e751}{%
+           family={dom},
+           familyi={d\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Oxford}%
+      }
+      \strng{namehash}{4889b77999f629d94c8647cd13a5aa77}
+      \strng{fullhash}{4889b77999f629d94c8647cd13a5aa77}
+      \strng{bibnamehash}{4889b77999f629d94c8647cd13a5aa77}
+      \strng{authorbibnamehash}{4889b77999f629d94c8647cd13a5aa77}
+      \strng{authornamehash}{4889b77999f629d94c8647cd13a5aa77}
+      \strng{authorfullhash}{4889b77999f629d94c8647cd13a5aa77}
+      \strng{ownerbibnamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \strng{ownernamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \strng{ownerfullhash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \field{extraname}{3}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the Royal Asiatic Society of Great Britain and Ireland}
+      \field{rawauthor}{A. F. Rudolf Hoernle}
+      \field{title}{Studies in Ancient Indian Medicine I: The Commentaries on Suśruta}
+      \field{urlday}{26}
+      \field{urlmonth}{6}
+      \field{urlyear}{2019}
+      \field{year}{1906}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{283\bibrangedash 302}
+      \range{pages}{20}
+      \verb{file}
+      \verb :Hoernle, Rudolf/Hoernle_1906 JRAS Studies in Ancient Indian Medicine.pdf:PDF
+      \endverb
+      \verb{urlraw}
+      \verb https://www.jstor.org/stable/25210249
+      \endverb
+      \verb{url}
+      \verb https://www.jstor.org/stable/25210249
+      \endverb
+    \endentry
+    \entry{hoer-1906b}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4889b77999f629d94c8647cd13a5aa77}{%
+           family={Hoernle},
+           familyi={H\bibinitperiod},
+           given={A.\bibnamedelimi F.\bibnamedelimi Rudolf},
+           giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{owner}{1}{}{%
+        {{hash=dd988cfd769c9f7fbd795a0f5da8e751}{%
+           family={dom},
+           familyi={d\bibinitperiod}}}%
+      }
+      \strng{namehash}{4889b77999f629d94c8647cd13a5aa77}
+      \strng{fullhash}{4889b77999f629d94c8647cd13a5aa77}
+      \strng{bibnamehash}{4889b77999f629d94c8647cd13a5aa77}
+      \strng{authorbibnamehash}{4889b77999f629d94c8647cd13a5aa77}
+      \strng{authornamehash}{4889b77999f629d94c8647cd13a5aa77}
+      \strng{authorfullhash}{4889b77999f629d94c8647cd13a5aa77}
+      \strng{ownerbibnamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \strng{ownernamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \strng{ownerfullhash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \field{extraname}{4}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the Royal Asiatic Society of Great Britain and Ireland}
+      \field{number}{4}
+      \field{rawauthor}{A. F. Rudolf Hoernle}
+      \field{title}{Studies in Ancient Indian Medicine II: On Some Obscure Anatomical Terms}
+      \field{urlday}{25}
+      \field{urlmonth}{6}
+      \field{urlyear}{2019}
+      \field{year}{1906}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{915\bibrangedash 941}
+      \range{pages}{27}
+      \verb{file}
+      \verb :1906-Studies in Ancient Indian Medicine II_ on Some Obscure Anatomical Terms.pdf:PDF
+      \endverb
+      \verb{urlraw}
+      \verb http://www.jstor.org/stable/25210334
+      \endverb
+      \verb{url}
+      \verb http://www.jstor.org/stable/25210334
+      \endverb
+    \endentry
+    \entry{hoer-1907a}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4889b77999f629d94c8647cd13a5aa77}{%
+           family={Hoernle},
+           familyi={H\bibinitperiod},
+           given={A.\bibnamedelimi F.\bibnamedelimi Rudolf},
+           giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{owner}{1}{}{%
+        {{hash=dd988cfd769c9f7fbd795a0f5da8e751}{%
+           family={dom},
+           familyi={d\bibinitperiod}}}%
+      }
+      \strng{namehash}{4889b77999f629d94c8647cd13a5aa77}
+      \strng{fullhash}{4889b77999f629d94c8647cd13a5aa77}
+      \strng{bibnamehash}{4889b77999f629d94c8647cd13a5aa77}
+      \strng{authorbibnamehash}{4889b77999f629d94c8647cd13a5aa77}
+      \strng{authornamehash}{4889b77999f629d94c8647cd13a5aa77}
+      \strng{authorfullhash}{4889b77999f629d94c8647cd13a5aa77}
+      \strng{ownerbibnamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \strng{ownernamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \strng{ownerfullhash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \field{extraname}{5}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the Royal Asiatic Society of Great Britain and Ireland}
+      \field{rawauthor}{A. F. Rudolf Hoernle}
+      \field{title}{Studies in Ancient Indian Medicine II: On Some Obscure Anatomical Terms (Continued from the the Journal, 1906, p.\,941)}
+      \field{urlday}{25}
+      \field{urlmonth}{6}
+      \field{urlyear}{2019}
+      \field{year}{1907}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 18}
+      \range{pages}{18}
+      \verb{urlraw}
+      \verb http://www.jstor.org/stable/25210361
+      \endverb
+      \verb{url}
+      \verb http://www.jstor.org/stable/25210361
+      \endverb
+    \endentry
+    \entry{0b413001d2223e0a7bda435c5eaf81a5}{article}{skipbib=true,skipbiblist=true,skiplab=true}
+      \name{author}{1}{}{%
+        {{hash=4889b77999f629d94c8647cd13a5aa77}{%
+           family={Hoernle},
+           familyi={H\bibinitperiod},
+           given={A.\bibnamedelimi F.\bibnamedelimi Rudolf},
+           giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \name{owner}{1}{}{%
+        {{hash=dd988cfd769c9f7fbd795a0f5da8e751}{%
+           family={dom},
+           familyi={d\bibinitperiod}}}%
+      }
+      \strng{namehash}{4889b77999f629d94c8647cd13a5aa77}
+      \strng{fullhash}{4889b77999f629d94c8647cd13a5aa77}
+      \strng{bibnamehash}{4889b77999f629d94c8647cd13a5aa77}
+      \strng{authorbibnamehash}{4889b77999f629d94c8647cd13a5aa77}
+      \strng{authornamehash}{4889b77999f629d94c8647cd13a5aa77}
+      \strng{authorfullhash}{4889b77999f629d94c8647cd13a5aa77}
+      \strng{ownerbibnamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \strng{ownernamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \strng{ownerfullhash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{clonesourcekey}{hoer-1907a}
+      \field{journaltitle}{Journal of the Royal Asiatic Society of Great Britain and Ireland}
+      \field{rawauthor}{A. F. Rudolf Hoernle}
+      \field{title}{Studies in Ancient Indian Medicine II: On Some Obscure Anatomical Terms (Continued from the the Journal, 1906, p.\,941)}
+      \field{urlday}{25}
+      \field{urlmonth}{6}
+      \field{urlyear}{2019}
+      \field{year}{1907}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{1\bibrangedash 18}
+      \range{pages}{18}
+      \verb{urlraw}
+      \verb http://www.jstor.org/stable/25210361
+      \endverb
+      \verb{url}
+      \verb http://www.jstor.org/stable/25210361
+      \endverb
+    \endentry
     \entry{hoer-1907}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=4889b77999f629d94c8647cd13a5aa77}{%
@@ -2720,9 +3137,10 @@
       \strng{ownerbibnamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
       \strng{ownernamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
       \strng{ownerfullhash}{dd988cfd769c9f7fbd795a0f5da8e751}
-      \field{extraname}{2}
+      \field{extraname}{6}
       \field{sortinit}{H}
       \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradate}{2}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
@@ -2732,51 +3150,6 @@
       \field{title}{Studies in the Medicine of Ancient {India}: Osteology or the Bones of the Human Body}
       \field{year}{1907}
       \field{dateera}{ce}
-      \true{nocite}
-      \verb{file}
-      \verb :Hoernle, Rudolf/Hoernle_Osteology_1907.pdf:PDF
-      \endverb
-    \endentry
-    \entry{8eb62faf6122e6b415d06b9ed5c31d3b}{book}{skipbib=true,skipbiblist=true,skiplab=true}
-      \name{author}{1}{}{%
-        {{hash=4889b77999f629d94c8647cd13a5aa77}{%
-           family={Hoernle},
-           familyi={H\bibinitperiod},
-           given={A.\bibnamedelimi F.\bibnamedelimi Rudolf},
-           giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
-      }
-      \name{owner}{1}{}{%
-        {{hash=dd988cfd769c9f7fbd795a0f5da8e751}{%
-           family={dom},
-           familyi={d\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Oxford}%
-      }
-      \list{publisher}{1}{%
-        {Clarendon Press}%
-      }
-      \strng{namehash}{4889b77999f629d94c8647cd13a5aa77}
-      \strng{fullhash}{4889b77999f629d94c8647cd13a5aa77}
-      \strng{bibnamehash}{4889b77999f629d94c8647cd13a5aa77}
-      \strng{authorbibnamehash}{4889b77999f629d94c8647cd13a5aa77}
-      \strng{authornamehash}{4889b77999f629d94c8647cd13a5aa77}
-      \strng{authorfullhash}{4889b77999f629d94c8647cd13a5aa77}
-      \strng{ownerbibnamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
-      \strng{ownernamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
-      \strng{ownerfullhash}{dd988cfd769c9f7fbd795a0f5da8e751}
-      \field{sortinit}{H}
-      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{clonesourcekey}{hoer-1907}
-      \field{annotation}{Hist. of literature: pp.\,1--18 Reprinted Concept Publishing Co., New Delhi, 1984.}
-      \field{rawauthor}{A. F. Rudolf Hoernle}
-      \field{title}{Studies in the Medicine of Ancient {India}: Osteology or the Bones of the Human Body}
-      \field{year}{1907}
-      \field{dateera}{ce}
-      \true{nocite}
       \verb{file}
       \verb :Hoernle, Rudolf/Hoernle_Osteology_1907.pdf:PDF
       \endverb
@@ -3061,7 +3434,7 @@
       \field{year}{1908}
       \field{dateera}{ce}
       \field{urldateera}{ce}
-      \field{related}{8eb62faf6122e6b415d06b9ed5c31d3b}
+      \field{related}{0b413001d2223e0a7bda435c5eaf81a5}
       \field{pages}{134\bibrangedash 139}
       \range{pages}{6}
       \verb{file}
@@ -3726,6 +4099,93 @@
       \verb 10.3406/scrip.1950.2294
       \endverb
     \endentry
+    \entry{mayr-kurz}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ff1b7f14a26547553bb3405bcae11161}{%
+           family={Mayrhofer},
+           familyi={M\bibinitperiod},
+           given={Manfred},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{owner}{1}{}{%
+        {{hash=dd988cfd769c9f7fbd795a0f5da8e751}{%
+           family={dom},
+           familyi={d\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Heidelberg}%
+      }
+      \list{publisher}{1}{%
+        {Carl Winter, Universitätsverlag}%
+      }
+      \strng{namehash}{ff1b7f14a26547553bb3405bcae11161}
+      \strng{fullhash}{ff1b7f14a26547553bb3405bcae11161}
+      \strng{bibnamehash}{ff1b7f14a26547553bb3405bcae11161}
+      \strng{authorbibnamehash}{ff1b7f14a26547553bb3405bcae11161}
+      \strng{authornamehash}{ff1b7f14a26547553bb3405bcae11161}
+      \strng{authorfullhash}{ff1b7f14a26547553bb3405bcae11161}
+      \strng{ownerbibnamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \strng{ownernamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \strng{ownerfullhash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{endyear}{1972}
+      \field{rawauthor}{Manfred Mayrhofer}
+      \field{title}{{Kurzgefa{ß}tes etymologisches Wörterbuch des Altindoarischen}; a Concise Etymological {Sanskrit} Dictionary}
+      \field{year}{1953}
+      \field{enddateera}{ce}
+      \field{dateera}{ce}
+      \true{nocite}
+    \endentry
+    \entry{mchu-2021a}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0be57f06d9ac113b90477190f33ce0ed}{%
+           family={McHugh},
+           familyi={M\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{0be57f06d9ac113b90477190f33ce0ed}
+      \strng{fullhash}{0be57f06d9ac113b90477190f33ce0ed}
+      \strng{bibnamehash}{0be57f06d9ac113b90477190f33ce0ed}
+      \strng{authorbibnamehash}{0be57f06d9ac113b90477190f33ce0ed}
+      \strng{authornamehash}{0be57f06d9ac113b90477190f33ce0ed}
+      \strng{authorfullhash}{0be57f06d9ac113b90477190f33ce0ed}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9780199375936}
+      \field{pagetotal}{416}
+      \field{rawauthor}{McHugh, James}
+      \field{title}{An Unholy Brew: Alcohol in Indian History and Religions}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \true{nocite}
+      \verb{file}
+      \verb :/home/dom/Dropbox/Xdrive/courses/2022 Jan Winter/HIST 488-698 W 10-1/sources/McHugh_Unholy brew.pdf:PDF
+      \endverb
+      \verb{urlraw}
+      \verb https://www.ebook.de/de/product/41295809/james_mchugh_an_unholy_brew_alcohol_in_indian_history_and_religions.html
+      \endverb
+      \verb{url}
+      \verb https://www.ebook.de/de/product/41295809/james_mchugh_an_unholy_brew_alcohol_in_indian_history_and_religions.html
+      \endverb
+    \endentry
     \entry{meul-1974}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=03a3da640c695a268052e888571bc767}{%
@@ -3826,6 +4286,50 @@
       \field{pages}{37\bibrangedash 56}
       \range{pages}{20}
     \endentry
+    \entry{meul-sear}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=03a3da640c695a268052e888571bc767}{%
+           family={Meulenbeld},
+           familyi={M\bibinitperiod},
+           given={Gerrit\bibnamedelima Jan},
+           giveni={G\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{owner}{1}{}{%
+        {{hash=dd988cfd769c9f7fbd795a0f5da8e751}{%
+           family={dom},
+           familyi={d\bibinitperiod}}}%
+      }
+      \strng{namehash}{03a3da640c695a268052e888571bc767}
+      \strng{fullhash}{03a3da640c695a268052e888571bc767}
+      \strng{bibnamehash}{03a3da640c695a268052e888571bc767}
+      \strng{authorbibnamehash}{03a3da640c695a268052e888571bc767}
+      \strng{authornamehash}{03a3da640c695a268052e888571bc767}
+      \strng{authorfullhash}{03a3da640c695a268052e888571bc767}
+      \strng{ownerbibnamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \strng{ownernamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \strng{ownerfullhash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \field{extraname}{3}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{bib info from bibl. to HIM.}
+      \field{journaltitle}{Studien zur Indologie und Iranistik}
+      \field{rawauthor}{Gerrit Jan Meulenbeld}
+      \field{title}{The Search for Clues to the Chronology of {Sanskrit} Medical Texts As Illustrated by the History of Bhaṅgā (cannabis Sativa Linn.)}
+      \field{volume}{15}
+      \field{year}{1989}
+      \field{dateera}{ce}
+      \true{nocite}
+      \field{pages}{59\bibrangedash 70}
+      \range{pages}{12}
+      \verb{file}
+      \verb :Meulenbeld/1989 SII Search for clues - cannabis.pdf:PDF
+      \endverb
+    \endentry
     \entry{meul-1992}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=03a3da640c695a268052e888571bc767}{%
@@ -3841,7 +4345,7 @@
       \strng{authorbibnamehash}{03a3da640c695a268052e888571bc767}
       \strng{authornamehash}{03a3da640c695a268052e888571bc767}
       \strng{authorfullhash}{03a3da640c695a268052e888571bc767}
-      \field{extraname}{3}
+      \field{extraname}{4}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradatescope}{labelyear}
@@ -3897,7 +4401,7 @@
       \strng{ownerbibnamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
       \strng{ownernamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
       \strng{ownerfullhash}{dd988cfd769c9f7fbd795a0f5da8e751}
-      \field{extraname}{4}
+      \field{extraname}{5}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradatescope}{labelyear}
@@ -3945,7 +4449,7 @@
       \strng{ownerbibnamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
       \strng{ownernamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
       \strng{ownerfullhash}{dd988cfd769c9f7fbd795a0f5da8e751}
-      \field{extraname}{5}
+      \field{extraname}{6}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradatescope}{labelyear}
@@ -3982,7 +4486,7 @@
       \strng{ownerbibnamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
       \strng{ownernamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
       \strng{ownerfullhash}{dd988cfd769c9f7fbd795a0f5da8e751}
-      \field{extraname}{6}
+      \field{extraname}{7}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradatescope}{labelyear}
@@ -4409,6 +4913,7 @@
       \field{extraname}{2}
       \field{sortinit}{N}
       \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradate}{1}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
@@ -4417,6 +4922,70 @@
       \field{edition}{3 ed., revised and enlarged by A. K. Nadkarni}
       \field{isbn}{8171541429}
       \field{rawauthor}{K. M. Nadkarni}
+      \field{title}{{Dr. K. M. Nadkarni's} {Indian} Materia Medica, with Ayurvedic, Unani-tibbi, Siddha, Allopathic, Homeopathic, Naturopathic \& Home Remedies, Appendices \& Indexes \ldots{} in Two Volumes}
+      \field{volumes}{2}
+      \field{year}{1982}
+      \field{dateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://books.google.ca/books?id=RA4Npohz4CEC
+      \endverb
+      \verb{url}
+      \verb https://books.google.ca/books?id=RA4Npohz4CEC
+      \endverb
+    \endentry
+    \entry{NK}{mvbook}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5ed72dc6e94918036b5839187cf3b4f2}{%
+           family={Nadkarni},
+           familyi={N\bibinitperiod},
+           given={K.\bibnamedelimi M.},
+           giveni={K\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=761c68953cbcfa00e37d7ee2b0601649}{%
+           family={Nadkarni},
+           familyi={N\bibinitperiod},
+           given={A.\bibnamedelimi K.},
+           giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \name{owner}{1}{}{%
+        {{hash=dd988cfd769c9f7fbd795a0f5da8e751}{%
+           family={dom},
+           familyi={d\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Bombay}%
+      }
+      \list{publisher}{1}{%
+        {Popular Prakashan}%
+      }
+      \strng{namehash}{5ed72dc6e94918036b5839187cf3b4f2}
+      \strng{fullhash}{5ed72dc6e94918036b5839187cf3b4f2}
+      \strng{bibnamehash}{5ed72dc6e94918036b5839187cf3b4f2}
+      \strng{authorbibnamehash}{5ed72dc6e94918036b5839187cf3b4f2}
+      \strng{authornamehash}{5ed72dc6e94918036b5839187cf3b4f2}
+      \strng{authorfullhash}{5ed72dc6e94918036b5839187cf3b4f2}
+      \strng{editorbibnamehash}{761c68953cbcfa00e37d7ee2b0601649}
+      \strng{editornamehash}{761c68953cbcfa00e37d7ee2b0601649}
+      \strng{editorfullhash}{761c68953cbcfa00e37d7ee2b0601649}
+      \strng{ownerbibnamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \strng{ownernamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \strng{ownerfullhash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \field{extraname}{3}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{vol 2: \url{http://n2t.net/ark:/13960/t09w9233k}}
+      \field{edition}{3 ed., revised and enlarged by A. K. Nadkarni}
+      \field{isbn}{8171541429}
+      \field{rawauthor}{K. M. Nadkarni}
+      \field{shorthand}{NK}
       \field{title}{{Dr. K. M. Nadkarni's} {Indian} Materia Medica, with Ayurvedic, Unani-tibbi, Siddha, Allopathic, Homeopathic, Naturopathic \& Home Remedies, Appendices \& Indexes \ldots{} in Two Volumes}
       \field{volumes}{2}
       \field{year}{1982}
@@ -4753,6 +5322,66 @@
       \endverb
       \verb{url}
       \verb http://www.ala.org/acrl/sites/ala.org.acrl/files/content/publications/booksanddigitalresources/digital/AMREMM_full.pdf
+      \endverb
+    \endentry
+    \entry{pill-2010}{incollection}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=be3a13de70c6926378a3841d7235d2b2}{%
+           family={Pillay},
+           familyi={P\bibinitperiod},
+           given={V.\bibnamedelimi V.},
+           giveni={V\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=49e913789faddb815d4e2853273f1d30}{%
+           family={Warrell},
+           familyi={W\bibinitperiod},
+           given={D.\bibnamedelimi A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=e3f7d79bd57bec593097d86de8c6cbed}{%
+           family={Cox},
+           familyi={C\bibinitperiod},
+           given={T.\bibnamedelimi M.},
+           giveni={T\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=54475885f2cabd4ab283bf1d4824a4b5}{%
+           family={Firth},
+           familyi={F\bibinitperiod},
+           given={J.\bibnamedelimi D.},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{be3a13de70c6926378a3841d7235d2b2}
+      \strng{fullhash}{be3a13de70c6926378a3841d7235d2b2}
+      \strng{bibnamehash}{be3a13de70c6926378a3841d7235d2b2}
+      \strng{authorbibnamehash}{be3a13de70c6926378a3841d7235d2b2}
+      \strng{authornamehash}{be3a13de70c6926378a3841d7235d2b2}
+      \strng{authorfullhash}{be3a13de70c6926378a3841d7235d2b2}
+      \strng{editorbibnamehash}{9483f337667825371f473f665ba222c8}
+      \strng{editornamehash}{ab4adfcc8fc1c7ded52b4407c57564b5}
+      \strng{editorfullhash}{9483f337667825371f473f665ba222c8}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Oxford Textbook of Medicine}
+      \field{edition}{5}
+      \field{rawauthor}{V. V. Pillay}
+      \field{title}{Common Indian Poisonous Plants}
+      \field{year}{2010}
+      \field{dateera}{ce}
+      \true{nocite}
+      \field{pages}{1371\bibrangedash 1375}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1093/med/9780199204854.003.090302
+      \endverb
+      \verb{file}
+      \verb :Pillay, V. V./2010 Common Indian poisonous plants.pdf:PDF
       \endverb
     \endentry
     \entry{prei-2007}{incollection}{}
@@ -5106,6 +5735,66 @@
       \verb ark:/13960/t88h7763b
       \endverb
       \keyw{catalogue}
+    \endentry
+    \entry{ray-1980}{book}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=a2582c10c45cc268609b5debb6ca738d}{%
+           family={{Rây}},
+           familyi={R\bibinitperiod},
+           given={Priyadaranjan},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aa2f8b47d686040de83dbf222a39cc55}{%
+           family={Gupta},
+           familyi={G\bibinitperiod},
+           given={Hirendra\bibnamedelima Nath},
+           giveni={H\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=69b50d1370c0310a7aa582f76536badd}{%
+           family={Roy},
+           familyi={R\bibinitperiod},
+           given={Mira},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{owner}{1}{}{%
+        {{hash=dd988cfd769c9f7fbd795a0f5da8e751}{%
+           family={dom},
+           familyi={d\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New Delhi}%
+      }
+      \list{publisher}{1}{%
+        {Indian National Science Academy}%
+      }
+      \strng{namehash}{9d4eb54bf9fe7f66ef0d2517a0a9384a}
+      \strng{fullhash}{6f57eea2f0f0d9ea36d62f4aca58cdf4}
+      \strng{bibnamehash}{6f57eea2f0f0d9ea36d62f4aca58cdf4}
+      \strng{authorbibnamehash}{6f57eea2f0f0d9ea36d62f4aca58cdf4}
+      \strng{authornamehash}{9d4eb54bf9fe7f66ef0d2517a0a9384a}
+      \strng{authorfullhash}{6f57eea2f0f0d9ea36d62f4aca58cdf4}
+      \strng{ownerbibnamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \strng{ownernamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \strng{ownerfullhash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{ark}
+      \field{rawauthor}{Priyadaranjan {Rây} and Hirendra Nath Gupta and Mira Roy}
+      \field{title}{Suśruta Saṃhita (a Scientific Synopsis)}
+      \field{urlday}{13}
+      \field{urlmonth}{9}
+      \field{urlyear}{2019}
+      \field{year}{1980}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{eprint}
+      \verb ark:/13960/t64511t6v
+      \endverb
     \endentry
     \entry{pts-dict}{book}{}
       \name{author}{2}{}{%
@@ -5559,6 +6248,50 @@
       \field{dateera}{ce}
       \true{nocite}
     \endentry
+    \entry{shar-1975}{book}{}
+      \name{author}{1}{}{%
+        {{un=1,uniquepart=given,hash=f63ba8765069bea3fe14d0533a053baf}{%
+           family={Sharma},
+           familyi={S\bibinitperiod},
+           given={Priya\bibnamedelima Vrat},
+           giveni={P\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=1}}%
+      }
+      \name{owner}{1}{}{%
+        {{hash=dd988cfd769c9f7fbd795a0f5da8e751}{%
+           family={dom},
+           familyi={d\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Vārāṇasī}%
+      }
+      \list{publisher}{1}{%
+        {Caukhambā Orientalia}%
+      }
+      \strng{namehash}{f63ba8765069bea3fe14d0533a053baf}
+      \strng{fullhash}{f63ba8765069bea3fe14d0533a053baf}
+      \strng{bibnamehash}{f63ba8765069bea3fe14d0533a053baf}
+      \strng{authorbibnamehash}{f63ba8765069bea3fe14d0533a053baf}
+      \strng{authornamehash}{f63ba8765069bea3fe14d0533a053baf}
+      \strng{authorfullhash}{f63ba8765069bea3fe14d0533a053baf}
+      \strng{ownerbibnamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \strng{ownernamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \strng{ownerfullhash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \field{extraname}{2}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{chapter 1: Anādi āyurved; chapter 2: Saṃhitā-grantha; chapter 3: Vyākhyā-vāṅmaya; chapter 4: Kāyacikitsā; chapter 5: Dravyaguṇ evaṃ rasaśāstra; chapter 6: Anya aṅg; chapter 7: Śikṣaṇ, anusandhān, patra-patrikāyeṃ; chapter 8: Vyavasāya, mānyatā evaṃ saṃgaṭhan; chapter 9: Sārvabhauma āyurved; pariśiṣṭ; sandarbha-sūcī, lekhak ke sambandha meṃ, śuddhipatra, anukramaṇikā, review by K. Raghunathan, BIIHM 6, 1, 1976, 75--78 HIML IA.144 points out that this work, pp. 96-99, clearly separates the Patanjalis of gram{3}, yoga and medicine. Also Sharma 1970a "Caraka cintan": 23-43, and 1992d: 181--2.}
+      \field{rawauthor}{Priya Vrat Sharma}
+      \field{series}{Jayakṛṣṇadāsa Āyurveda Granthamālā}
+      \field{title}{{Ā}yurved Kā Vaijñānik Itihās}
+      \field{volume}{1}
+      \field{year}{1975}
+      \field{dateera}{ce}
+    \endentry
     \entry{shar-1982}{book}{}
       \name{author}{1}{}{%
         {{un=1,uniquepart=given,hash=f63ba8765069bea3fe14d0533a053baf}{%
@@ -5580,7 +6313,7 @@
       \strng{authorbibnamehash}{f63ba8765069bea3fe14d0533a053baf}
       \strng{authornamehash}{f63ba8765069bea3fe14d0533a053baf}
       \strng{authorfullhash}{f63ba8765069bea3fe14d0533a053baf}
-      \field{extraname}{2}
+      \field{extraname}{3}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{extradatescope}{labelyear}
@@ -5595,6 +6328,54 @@
       \verb{file}
       \verb :/home/dom/Dropbox/Digital Library extracts/Ayurveda/Sharma_{\d D}alha{\d n}a and his commentary on Drugs_1982.pdf:PDF
       \endverb
+    \endentry
+    \entry{shar-1999}{mvbook}{}
+      \name{author}{1}{}{%
+        {{un=1,uniquepart=given,hash=f63ba8765069bea3fe14d0533a053baf}{%
+           family={Sharma},
+           familyi={S\bibinitperiod},
+           given={Priya\bibnamedelima Vrat},
+           giveni={P\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=1}}%
+      }
+      \name{owner}{1}{}{%
+        {{hash=dd988cfd769c9f7fbd795a0f5da8e751}{%
+           family={dom},
+           familyi={d\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Varanasi}%
+      }
+      \list{publisher}{1}{%
+        {Chaukhambha Visvabharati}%
+      }
+      \strng{namehash}{f63ba8765069bea3fe14d0533a053baf}
+      \strng{fullhash}{f63ba8765069bea3fe14d0533a053baf}
+      \strng{bibnamehash}{f63ba8765069bea3fe14d0533a053baf}
+      \strng{authorbibnamehash}{f63ba8765069bea3fe14d0533a053baf}
+      \strng{authornamehash}{f63ba8765069bea3fe14d0533a053baf}
+      \strng{authorfullhash}{f63ba8765069bea3fe14d0533a053baf}
+      \strng{ownerbibnamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \strng{ownernamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \strng{ownerfullhash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \field{extraname}{4}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{endyear}{2001}
+      \field{number}{9}
+      \field{rawauthor}{Priya Vrat Sharma}
+      \field{series}{Haridas Ayurveda Series}
+      \field{shorttitle}{{Suśruta-Saṃhitā}}
+      \field{title}{{Suśruta-Saṃhitā}, with {English} Translation of Text and {Ḍalhaṇa's} Commentary Alongwith (\emph{sic}) Critical Notes}
+      \field{volumes}{3}
+      \field{year}{1999}
+      \field{enddateera}{ce}
+      \field{dateera}{ce}
     \endentry
     \entry{shar-susr}{mvbook}{}
       \name{author}{1}{}{%
@@ -5625,9 +6406,10 @@
       \strng{ownerbibnamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
       \strng{ownernamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
       \strng{ownerfullhash}{dd988cfd769c9f7fbd795a0f5da8e751}
-      \field{extraname}{3}
+      \field{extraname}{5}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{2}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
@@ -5725,6 +6507,51 @@
       \field{year}{1972}
       \field{dateera}{ce}
       \true{nocite}
+    \endentry
+    \entry{sing-1972a}{book}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9e0ca8296b027a9e4b3d423af2239c83}{%
+           family={Singhal},
+           familyi={S\bibinitperiod},
+           given={G.\bibnamedelimi D.},
+           giveni={G\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{owner}{1}{}{%
+        {{hash=dd988cfd769c9f7fbd795a0f5da8e751}{%
+           family={dom},
+           familyi={d\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Varanasi}%
+      }
+      \list{publisher}{1}{%
+        {Singhal Publications}%
+      }
+      \strng{namehash}{e3984697aef9ccf9ce78e022982ca8e9}
+      \strng{fullhash}{e3984697aef9ccf9ce78e022982ca8e9}
+      \strng{bibnamehash}{e3984697aef9ccf9ce78e022982ca8e9}
+      \strng{authorbibnamehash}{e3984697aef9ccf9ce78e022982ca8e9}
+      \strng{authornamehash}{e3984697aef9ccf9ce78e022982ca8e9}
+      \strng{authorfullhash}{e3984697aef9ccf9ce78e022982ca8e9}
+      \strng{ownerbibnamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \strng{ownernamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \strng{ownerfullhash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{A translation of the \emph{Suśruta\-saṃhitā} in 10v.}
+      \field{endyear}{1982}
+      \field{rawauthor}{G. D. Singhal and others}
+      \field{title}{Diagnostic [and Other] Considerations in Ancient {Indian} Surgery}
+      \field{year}{1972}
+      \field{enddateera}{ce}
+      \field{dateera}{ce}
     \endentry
     \entry{sirc-raks}{article}{}
       \name{author}{1}{}{%
@@ -5999,6 +6826,88 @@
       \field{dateera}{ce}
       \true{nocite}
     \endentry
+    \entry{stei-pers}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e28e949d22542891ccf898d8143d164c}{%
+           family={Steingass},
+           familyi={S\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{owner}{1}{}{%
+        {{hash=dd988cfd769c9f7fbd795a0f5da8e751}{%
+           family={dom},
+           familyi={d\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {London}%
+      }
+      \list{publisher}{1}{%
+        {Kegan Paul, Trench, Trubner}%
+      }
+      \strng{namehash}{e28e949d22542891ccf898d8143d164c}
+      \strng{fullhash}{e28e949d22542891ccf898d8143d164c}
+      \strng{bibnamehash}{e28e949d22542891ccf898d8143d164c}
+      \strng{authorbibnamehash}{e28e949d22542891ccf898d8143d164c}
+      \strng{authornamehash}{e28e949d22542891ccf898d8143d164c}
+      \strng{authorfullhash}{e28e949d22542891ccf898d8143d164c}
+      \strng{ownerbibnamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \strng{ownernamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \strng{ownerfullhash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{p.1506a: halāhil (Sanskrit halāhala) mortal, deadly (poison); (cloth) of a thin texture; fine, delicate (verses).}
+      \field{rawauthor}{F. Steingass}
+      \field{title}{A Comprehensive {Persian-English} Dictionary Including the {Arabic} Words and Phrases to Be Met with in {Persian} Literature}
+      \field{year}{1930}
+      \field{dateera}{ce}
+      \true{nocite}
+    \endentry
+    \entry{stra-1934}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ef9c81eb791bfd1fee02aa4dfb45baff}{%
+           family={Strauss},
+           familyi={S\bibinitperiod},
+           given={Bettina},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{owner}{1}{}{%
+        {{hash=dd988cfd769c9f7fbd795a0f5da8e751}{%
+           family={dom},
+           familyi={d\bibinitperiod}}}%
+      }
+      \strng{namehash}{ef9c81eb791bfd1fee02aa4dfb45baff}
+      \strng{fullhash}{ef9c81eb791bfd1fee02aa4dfb45baff}
+      \strng{bibnamehash}{ef9c81eb791bfd1fee02aa4dfb45baff}
+      \strng{authorbibnamehash}{ef9c81eb791bfd1fee02aa4dfb45baff}
+      \strng{authornamehash}{ef9c81eb791bfd1fee02aa4dfb45baff}
+      \strng{authorfullhash}{ef9c81eb791bfd1fee02aa4dfb45baff}
+      \strng{ownerbibnamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \strng{ownernamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \strng{ownerfullhash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{A text on poisons which borrows material from the {Indian} tradition Arthaśāstra, Caraka, Suśruta, Kāmandakī, Greek tradition, etc. Bettina Strauss was the sister of Leo Strauss, and the first wife of Paul Kraus. She died in childbirth in 1942.}
+      \field{journaltitle}{Quellen und Studien zur Geschichte der Naturwissenschaften und der Medizin}
+      \field{number}{2}
+      \field{rawauthor}{Bettina Strauss}
+      \field{title}{{Das Giftbuch des Śānāq: eine Literaturgeschichtliche Untersuchung}}
+      \field{volume}{4}
+      \field{year}{1934}
+      \field{dateera}{ce}
+      \field{pages}{{[89]\bibrangedash [152]} followed by Arabic text}
+      \range{pages}{-1}
+    \endentry
     \entry{suve-2000}{book}{}
       \name{editor}{2}{}{%
         {{un=0,uniquepart=base,hash=dbd223758cdcf23284e29e30bc808b22}{%
@@ -6220,6 +7129,46 @@
       \field{year}{1984}
       \field{dateera}{ce}
       \true{nocite}
+    \endentry
+    \entry{vali-2007}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6e0f0fdea6ca2ceb4b01ffac01744982}{%
+           family={Valiathan},
+           familyi={V\bibinitperiod},
+           given={M.\bibnamedelimi S.},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{owner}{1}{}{%
+        {{hash=dd988cfd769c9f7fbd795a0f5da8e751}{%
+           family={dom},
+           familyi={d\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Hyderabad, Chennai, etc.}%
+      }
+      \list{publisher}{1}{%
+        {Orient Longman}%
+      }
+      \strng{namehash}{6e0f0fdea6ca2ceb4b01ffac01744982}
+      \strng{fullhash}{6e0f0fdea6ca2ceb4b01ffac01744982}
+      \strng{bibnamehash}{6e0f0fdea6ca2ceb4b01ffac01744982}
+      \strng{authorbibnamehash}{6e0f0fdea6ca2ceb4b01ffac01744982}
+      \strng{authornamehash}{6e0f0fdea6ca2ceb4b01ffac01744982}
+      \strng{authorfullhash}{6e0f0fdea6ca2ceb4b01ffac01744982}
+      \strng{ownerbibnamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \strng{ownernamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \strng{ownerfullhash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{rawauthor}{M. S. Valiathan}
+      \field{title}{The Legacy of {Suśruta}}
+      \field{year}{2007}
+      \field{dateera}{ce}
     \endentry
     \entry{vela-1930}{book}{}
       \name{author}{1}{}{%
@@ -6721,6 +7670,73 @@
       \verb https://academia.edu/492290
       \endverb
     \endentry
+    \entry{wuja-cann}{incollection}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b7387dd21fed9b1898de0f0f4faf7f0e}{%
+           family={Wujastyk},
+           familyi={W\bibinitperiod},
+           given={Dominik},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=708292ab23d4c1b05efa6c6a3933fd29}{%
+           family={Salema},
+           familyi={S\bibinitperiod},
+           given={Ana},
+           giveni={A\bibinitperiod}}}%
+      }
+      \name{owner}{1}{}{%
+        {{hash=dd988cfd769c9f7fbd795a0f5da8e751}{%
+           family={dom},
+           familyi={d\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Lisbon}%
+      }
+      \list{publisher}{1}{%
+        {Centro de História de Além-Mar, Universidade Nova de Lisboa}%
+      }
+      \strng{namehash}{b7387dd21fed9b1898de0f0f4faf7f0e}
+      \strng{fullhash}{b7387dd21fed9b1898de0f0f4faf7f0e}
+      \strng{bibnamehash}{b7387dd21fed9b1898de0f0f4faf7f0e}
+      \strng{authorbibnamehash}{b7387dd21fed9b1898de0f0f4faf7f0e}
+      \strng{authornamehash}{b7387dd21fed9b1898de0f0f4faf7f0e}
+      \strng{authorfullhash}{b7387dd21fed9b1898de0f0f4faf7f0e}
+      \strng{editorbibnamehash}{708292ab23d4c1b05efa6c6a3933fd29}
+      \strng{editornamehash}{708292ab23d4c1b05efa6c6a3933fd29}
+      \strng{editorfullhash}{708292ab23d4c1b05efa6c6a3933fd29}
+      \strng{ownerbibnamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \strng{ownernamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \strng{ownerfullhash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \field{extraname}{4}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Āyurveda at the Crossroads of Care and Cure. Proceedings of the Indo-European Seminar on Ayurveda held at Arrábida, Portugal, in November 2001}
+      \field{isbn}{972-98672-5-9}
+      \field{rawauthor}{Dominik Wujastyk}
+      \field{title}{Cannabis in Traditional {Indian} Herbal Medicine}
+      \field{urlday}{27}
+      \field{urlmonth}{5}
+      \field{urlyear}{2019}
+      \field{year}{2002}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{45\bibrangedash 73}
+      \range{pages}{29}
+      \verb{urlraw}
+      \verb https://www.academia.edu/188844/
+      \endverb
+      \verb{url}
+      \verb https://www.academia.edu/188844/
+      \endverb
+      \keyw{cannabis gañjā vijayā}
+    \endentry
     \entry{wuja-2003}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=b7387dd21fed9b1898de0f0f4faf7f0e}{%
@@ -6750,7 +7766,7 @@
       \strng{ownerbibnamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
       \strng{ownernamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
       \strng{ownerfullhash}{dd988cfd769c9f7fbd795a0f5da8e751}
-      \field{extraname}{4}
+      \field{extraname}{5}
       \field{sortinit}{W}
       \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
       \field{extradatescope}{labelyear}
@@ -6799,7 +7815,7 @@
       \strng{ownerbibnamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
       \strng{ownernamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
       \strng{ownerfullhash}{dd988cfd769c9f7fbd795a0f5da8e751}
-      \field{extraname}{5}
+      \field{extraname}{6}
       \field{sortinit}{W}
       \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
       \field{extradatescope}{labelyear}
@@ -6876,7 +7892,7 @@
       \strng{ownerbibnamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
       \strng{ownernamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
       \strng{ownerfullhash}{dd988cfd769c9f7fbd795a0f5da8e751}
-      \field{extraname}{6}
+      \field{extraname}{7}
       \field{sortinit}{W}
       \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
       \field{extradatescope}{labelyear}
@@ -6912,7 +7928,7 @@
       \strng{authorbibnamehash}{b7387dd21fed9b1898de0f0f4faf7f0e}
       \strng{authornamehash}{b7387dd21fed9b1898de0f0f4faf7f0e}
       \strng{authorfullhash}{b7387dd21fed9b1898de0f0f4faf7f0e}
-      \field{extraname}{7}
+      \field{extraname}{8}
       \field{sortinit}{W}
       \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
       \field{extradatescope}{labelyear}
@@ -6931,6 +7947,62 @@
       \endverb
       \verb{url}
       \verb panditproject.org/entity/109978/manuscript
+      \endverb
+    \endentry
+    \entry{yano-1986}{incollection}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9ce3fb3447a1fad34f04a1717b0e789d}{%
+           family={Yano},
+           familyi={Y\bibinitperiod},
+           given={Michio},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=1cfb13e0dd79a020835a1ef84289e7eb}{%
+           family={Ogawa},
+           familyi={O\bibinitperiod},
+           given={Teizo},
+           giveni={T\bibinitperiod}}}%
+      }
+      \name{owner}{1}{}{%
+        {{hash=dd988cfd769c9f7fbd795a0f5da8e751}{%
+           family={dom},
+           familyi={d\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Osaka}%
+      }
+      \list{publisher}{1}{%
+        {Division of Medical History, the Taniguchi Foundation}%
+      }
+      \strng{namehash}{9ce3fb3447a1fad34f04a1717b0e789d}
+      \strng{fullhash}{9ce3fb3447a1fad34f04a1717b0e789d}
+      \strng{bibnamehash}{9ce3fb3447a1fad34f04a1717b0e789d}
+      \strng{authorbibnamehash}{9ce3fb3447a1fad34f04a1717b0e789d}
+      \strng{authornamehash}{9ce3fb3447a1fad34f04a1717b0e789d}
+      \strng{authorfullhash}{9ce3fb3447a1fad34f04a1717b0e789d}
+      \strng{editorbibnamehash}{1cfb13e0dd79a020835a1ef84289e7eb}
+      \strng{editornamehash}{1cfb13e0dd79a020835a1ef84289e7eb}
+      \strng{editorfullhash}{1cfb13e0dd79a020835a1ef84289e7eb}
+      \strng{ownerbibnamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \strng{ownernamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \strng{ownerfullhash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{History of Traditional Medicine: Proceedings of the 1st and 2nd International Symposia on the Comparative History of Medicine---East and West}
+      \field{rawauthor}{Michio Yano}
+      \field{title}{A Comparative Study of \emph{Sūtrasthānas}: {Caraka, Suśruta, and Vāgbhaṭa}}
+      \field{year}{1986}
+      \field{dateera}{ce}
+      \field{pages}{325\bibrangedash 344}
+      \range{pages}{20}
+      \verb{file}
+      \verb :Yano, Michio/1986 a comparative study of the sutrasthanas.pdf:PDF
       \endverb
     \endentry
     \entry{zimm-1983}{article}{}
@@ -7783,6 +8855,70 @@
       \verb http://catalogue.ngmcp.uni-hamburg.de/
       \endverb
       \keyw{catalogue}
+    \endentry
+    \entry{NK}{mvbook}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5ed72dc6e94918036b5839187cf3b4f2}{%
+           family={Nadkarni},
+           familyi={N\bibinitperiod},
+           given={K.\bibnamedelimi M.},
+           giveni={K\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=761c68953cbcfa00e37d7ee2b0601649}{%
+           family={Nadkarni},
+           familyi={N\bibinitperiod},
+           given={A.\bibnamedelimi K.},
+           giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \name{owner}{1}{}{%
+        {{hash=dd988cfd769c9f7fbd795a0f5da8e751}{%
+           family={dom},
+           familyi={d\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Bombay}%
+      }
+      \list{publisher}{1}{%
+        {Popular Prakashan}%
+      }
+      \strng{namehash}{5ed72dc6e94918036b5839187cf3b4f2}
+      \strng{fullhash}{5ed72dc6e94918036b5839187cf3b4f2}
+      \strng{bibnamehash}{5ed72dc6e94918036b5839187cf3b4f2}
+      \strng{authorbibnamehash}{5ed72dc6e94918036b5839187cf3b4f2}
+      \strng{authornamehash}{5ed72dc6e94918036b5839187cf3b4f2}
+      \strng{authorfullhash}{5ed72dc6e94918036b5839187cf3b4f2}
+      \strng{editorbibnamehash}{761c68953cbcfa00e37d7ee2b0601649}
+      \strng{editornamehash}{761c68953cbcfa00e37d7ee2b0601649}
+      \strng{editorfullhash}{761c68953cbcfa00e37d7ee2b0601649}
+      \strng{ownerbibnamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \strng{ownernamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \strng{ownerfullhash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \field{extraname}{1}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{vol 2: \url{http://n2t.net/ark:/13960/t09w9233k}}
+      \field{edition}{3 ed., revised and enlarged by A. K. Nadkarni}
+      \field{isbn}{8171541429}
+      \field{rawauthor}{K. M. Nadkarni}
+      \field{shorthand}{NK}
+      \field{title}{{Dr. K. M. Nadkarni's} {Indian} Materia Medica, with Ayurvedic, Unani-tibbi, Siddha, Allopathic, Homeopathic, Naturopathic \& Home Remedies, Appendices \& Indexes \ldots{} in Two Volumes}
+      \field{volumes}{2}
+      \field{year}{1982}
+      \field{dateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://books.google.ca/books?id=RA4Npohz4CEC
+      \endverb
+      \verb{url}
+      \verb https://books.google.ca/books?id=RA4Npohz4CEC
+      \endverb
     \endentry
     \entry{RORI}{misc}{}
       \field{sortinit}{R}
@@ -9260,6 +10396,55 @@
       \field{enddateera}{ce}
       \field{dateera}{ce}
     \endentry
+    \entry{hoer-1897}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4889b77999f629d94c8647cd13a5aa77}{%
+           family={Hoernle},
+           familyi={H\bibinitperiod},
+           given={A.\bibnamedelimi F.\bibnamedelimi Rudolf},
+           giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Calcutta}%
+      }
+      \list{publisher}{1}{%
+        {Asiatic Society}%
+      }
+      \strng{namehash}{4889b77999f629d94c8647cd13a5aa77}
+      \strng{fullhash}{4889b77999f629d94c8647cd13a5aa77}
+      \strng{bibnamehash}{4889b77999f629d94c8647cd13a5aa77}
+      \strng{authorbibnamehash}{4889b77999f629d94c8647cd13a5aa77}
+      \strng{authornamehash}{4889b77999f629d94c8647cd13a5aa77}
+      \strng{authorfullhash}{4889b77999f629d94c8647cd13a5aa77}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{No more published; Hoernle does not state which edition he is translating, but it includes the "Dhanvantari phrase"}
+      \field{annotation}{and ark:/13960/t8pd1kw9r}
+      \field{eprinttype}{ark}
+      \field{number}{911}
+      \field{part}{1}
+      \field{rawauthor}{A. F. Rudolf Hoernle}
+      \field{series}{Bibliotheca Indica}
+      \field{title}{Suśrutasaṃhitā = The Suçruta-Saṁhitā or the Hindū System of Medicine According to Suçruta Translated from the Original Sanskrit}
+      \field{urlday}{3}
+      \field{urlmonth}{1}
+      \field{urlyear}{2018}
+      \field{year}{1897}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{eprint}
+      \verb ark:/13960/t8pd1kw9r
+      \endverb
+      \verb{file}
+      \verb :/home/dom/Dropbox/Digital Library extracts/Ayurveda/Susrutasamhita/1897 Hoernle tr./Sushruta Samhita Hoernle A.F.R. Asiatic Society 1897 (blank after page 98).pdf:PDF
+      \endverb
+    \endentry
     \entry{moni-sans}{book}{}
       \true{moreauthor}
       \true{morelabelname}
@@ -9367,6 +10552,210 @@
       \verb ark:/13960/t26b2j457
       \endverb
     \endentry
+    \entry{hoer-1906a}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4889b77999f629d94c8647cd13a5aa77}{%
+           family={Hoernle},
+           familyi={H\bibinitperiod},
+           given={A.\bibnamedelimi F.\bibnamedelimi Rudolf},
+           giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{owner}{1}{}{%
+        {{hash=dd988cfd769c9f7fbd795a0f5da8e751}{%
+           family={dom},
+           familyi={d\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Oxford}%
+      }
+      \strng{namehash}{4889b77999f629d94c8647cd13a5aa77}
+      \strng{fullhash}{4889b77999f629d94c8647cd13a5aa77}
+      \strng{bibnamehash}{4889b77999f629d94c8647cd13a5aa77}
+      \strng{authorbibnamehash}{4889b77999f629d94c8647cd13a5aa77}
+      \strng{authornamehash}{4889b77999f629d94c8647cd13a5aa77}
+      \strng{authorfullhash}{4889b77999f629d94c8647cd13a5aa77}
+      \strng{ownerbibnamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \strng{ownernamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \strng{ownerfullhash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \field{extraname}{3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the Royal Asiatic Society of Great Britain and Ireland}
+      \field{rawauthor}{A. F. Rudolf Hoernle}
+      \field{title}{Studies in Ancient Indian Medicine I: The Commentaries on Suśruta}
+      \field{urlday}{26}
+      \field{urlmonth}{6}
+      \field{urlyear}{2019}
+      \field{year}{1906}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{283\bibrangedash 302}
+      \range{pages}{20}
+      \verb{file}
+      \verb :Hoernle, Rudolf/Hoernle_1906 JRAS Studies in Ancient Indian Medicine.pdf:PDF
+      \endverb
+      \verb{urlraw}
+      \verb https://www.jstor.org/stable/25210249
+      \endverb
+      \verb{url}
+      \verb https://www.jstor.org/stable/25210249
+      \endverb
+    \endentry
+    \entry{hoer-1906b}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4889b77999f629d94c8647cd13a5aa77}{%
+           family={Hoernle},
+           familyi={H\bibinitperiod},
+           given={A.\bibnamedelimi F.\bibnamedelimi Rudolf},
+           giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{owner}{1}{}{%
+        {{hash=dd988cfd769c9f7fbd795a0f5da8e751}{%
+           family={dom},
+           familyi={d\bibinitperiod}}}%
+      }
+      \strng{namehash}{4889b77999f629d94c8647cd13a5aa77}
+      \strng{fullhash}{4889b77999f629d94c8647cd13a5aa77}
+      \strng{bibnamehash}{4889b77999f629d94c8647cd13a5aa77}
+      \strng{authorbibnamehash}{4889b77999f629d94c8647cd13a5aa77}
+      \strng{authornamehash}{4889b77999f629d94c8647cd13a5aa77}
+      \strng{authorfullhash}{4889b77999f629d94c8647cd13a5aa77}
+      \strng{ownerbibnamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \strng{ownernamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \strng{ownerfullhash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \field{extraname}{4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the Royal Asiatic Society of Great Britain and Ireland}
+      \field{number}{4}
+      \field{rawauthor}{A. F. Rudolf Hoernle}
+      \field{title}{Studies in Ancient Indian Medicine II: On Some Obscure Anatomical Terms}
+      \field{urlday}{25}
+      \field{urlmonth}{6}
+      \field{urlyear}{2019}
+      \field{year}{1906}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{915\bibrangedash 941}
+      \range{pages}{27}
+      \verb{file}
+      \verb :1906-Studies in Ancient Indian Medicine II_ on Some Obscure Anatomical Terms.pdf:PDF
+      \endverb
+      \verb{urlraw}
+      \verb http://www.jstor.org/stable/25210334
+      \endverb
+      \verb{url}
+      \verb http://www.jstor.org/stable/25210334
+      \endverb
+    \endentry
+    \entry{hoer-1907a}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4889b77999f629d94c8647cd13a5aa77}{%
+           family={Hoernle},
+           familyi={H\bibinitperiod},
+           given={A.\bibnamedelimi F.\bibnamedelimi Rudolf},
+           giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{owner}{1}{}{%
+        {{hash=dd988cfd769c9f7fbd795a0f5da8e751}{%
+           family={dom},
+           familyi={d\bibinitperiod}}}%
+      }
+      \strng{namehash}{4889b77999f629d94c8647cd13a5aa77}
+      \strng{fullhash}{4889b77999f629d94c8647cd13a5aa77}
+      \strng{bibnamehash}{4889b77999f629d94c8647cd13a5aa77}
+      \strng{authorbibnamehash}{4889b77999f629d94c8647cd13a5aa77}
+      \strng{authornamehash}{4889b77999f629d94c8647cd13a5aa77}
+      \strng{authorfullhash}{4889b77999f629d94c8647cd13a5aa77}
+      \strng{ownerbibnamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \strng{ownernamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \strng{ownerfullhash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \field{extraname}{5}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the Royal Asiatic Society of Great Britain and Ireland}
+      \field{rawauthor}{A. F. Rudolf Hoernle}
+      \field{title}{Studies in Ancient Indian Medicine II: On Some Obscure Anatomical Terms (Continued from the the Journal, 1906, p.\,941)}
+      \field{urlday}{25}
+      \field{urlmonth}{6}
+      \field{urlyear}{2019}
+      \field{year}{1907}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 18}
+      \range{pages}{18}
+      \verb{urlraw}
+      \verb http://www.jstor.org/stable/25210361
+      \endverb
+      \verb{url}
+      \verb http://www.jstor.org/stable/25210361
+      \endverb
+    \endentry
+    \entry{0b413001d2223e0a7bda435c5eaf81a5}{article}{skipbib=true,skipbiblist=true,skiplab=true}
+      \name{author}{1}{}{%
+        {{hash=4889b77999f629d94c8647cd13a5aa77}{%
+           family={Hoernle},
+           familyi={H\bibinitperiod},
+           given={A.\bibnamedelimi F.\bibnamedelimi Rudolf},
+           giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \name{owner}{1}{}{%
+        {{hash=dd988cfd769c9f7fbd795a0f5da8e751}{%
+           family={dom},
+           familyi={d\bibinitperiod}}}%
+      }
+      \strng{namehash}{4889b77999f629d94c8647cd13a5aa77}
+      \strng{fullhash}{4889b77999f629d94c8647cd13a5aa77}
+      \strng{bibnamehash}{4889b77999f629d94c8647cd13a5aa77}
+      \strng{authorbibnamehash}{4889b77999f629d94c8647cd13a5aa77}
+      \strng{authornamehash}{4889b77999f629d94c8647cd13a5aa77}
+      \strng{authorfullhash}{4889b77999f629d94c8647cd13a5aa77}
+      \strng{ownerbibnamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \strng{ownernamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \strng{ownerfullhash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{clonesourcekey}{hoer-1907a}
+      \field{journaltitle}{Journal of the Royal Asiatic Society of Great Britain and Ireland}
+      \field{rawauthor}{A. F. Rudolf Hoernle}
+      \field{title}{Studies in Ancient Indian Medicine II: On Some Obscure Anatomical Terms (Continued from the the Journal, 1906, p.\,941)}
+      \field{urlday}{25}
+      \field{urlmonth}{6}
+      \field{urlyear}{2019}
+      \field{year}{1907}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{1\bibrangedash 18}
+      \range{pages}{18}
+      \verb{urlraw}
+      \verb http://www.jstor.org/stable/25210361
+      \endverb
+      \verb{url}
+      \verb http://www.jstor.org/stable/25210361
+      \endverb
+    \endentry
     \entry{hoer-1907}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=4889b77999f629d94c8647cd13a5aa77}{%
@@ -9396,9 +10785,10 @@
       \strng{ownerbibnamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
       \strng{ownernamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
       \strng{ownerfullhash}{dd988cfd769c9f7fbd795a0f5da8e751}
-      \field{extraname}{2}
+      \field{extraname}{6}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradate}{2}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
@@ -9408,51 +10798,6 @@
       \field{title}{Studies in the Medicine of Ancient {India}: Osteology or the Bones of the Human Body}
       \field{year}{1907}
       \field{dateera}{ce}
-      \true{nocite}
-      \verb{file}
-      \verb :Hoernle, Rudolf/Hoernle_Osteology_1907.pdf:PDF
-      \endverb
-    \endentry
-    \entry{8eb62faf6122e6b415d06b9ed5c31d3b}{book}{skipbib=true,skipbiblist=true,skiplab=true}
-      \name{author}{1}{}{%
-        {{hash=4889b77999f629d94c8647cd13a5aa77}{%
-           family={Hoernle},
-           familyi={H\bibinitperiod},
-           given={A.\bibnamedelimi F.\bibnamedelimi Rudolf},
-           giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
-      }
-      \name{owner}{1}{}{%
-        {{hash=dd988cfd769c9f7fbd795a0f5da8e751}{%
-           family={dom},
-           familyi={d\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Oxford}%
-      }
-      \list{publisher}{1}{%
-        {Clarendon Press}%
-      }
-      \strng{namehash}{4889b77999f629d94c8647cd13a5aa77}
-      \strng{fullhash}{4889b77999f629d94c8647cd13a5aa77}
-      \strng{bibnamehash}{4889b77999f629d94c8647cd13a5aa77}
-      \strng{authorbibnamehash}{4889b77999f629d94c8647cd13a5aa77}
-      \strng{authornamehash}{4889b77999f629d94c8647cd13a5aa77}
-      \strng{authorfullhash}{4889b77999f629d94c8647cd13a5aa77}
-      \strng{ownerbibnamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
-      \strng{ownernamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
-      \strng{ownerfullhash}{dd988cfd769c9f7fbd795a0f5da8e751}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{clonesourcekey}{hoer-1907}
-      \field{annotation}{Hist. of literature: pp.\,1--18 Reprinted Concept Publishing Co., New Delhi, 1984.}
-      \field{rawauthor}{A. F. Rudolf Hoernle}
-      \field{title}{Studies in the Medicine of Ancient {India}: Osteology or the Bones of the Human Body}
-      \field{year}{1907}
-      \field{dateera}{ce}
-      \true{nocite}
       \verb{file}
       \verb :Hoernle, Rudolf/Hoernle_Osteology_1907.pdf:PDF
       \endverb
@@ -9544,7 +10889,7 @@
       \field{year}{1908}
       \field{dateera}{ce}
       \field{urldateera}{ce}
-      \field{related}{8eb62faf6122e6b415d06b9ed5c31d3b}
+      \field{related}{0b413001d2223e0a7bda435c5eaf81a5}
       \field{pages}{134\bibrangedash 139}
       \range{pages}{6}
       \verb{file}
@@ -10014,6 +11359,61 @@
       \verb https://archive.org/details/palitextsocietys00pali
       \endverb
     \endentry
+    \entry{dutt-1922}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=01e66a4301de9cf822181a765894bb1b}{%
+           family={Dutt},
+           familyi={D\bibinitperiod},
+           given={Uday\bibnamedelima Chand},
+           giveni={U\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{owner}{1}{}{%
+        {{hash=dd988cfd769c9f7fbd795a0f5da8e751}{%
+           family={dom},
+           familyi={d\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Calcutta}%
+      }
+      \list{publisher}{1}{%
+        {Madan Gopal Dass for the Adi-Ayurveda Machine Press}%
+      }
+      \strng{namehash}{01e66a4301de9cf822181a765894bb1b}
+      \strng{fullhash}{01e66a4301de9cf822181a765894bb1b}
+      \strng{bibnamehash}{01e66a4301de9cf822181a765894bb1b}
+      \strng{authorbibnamehash}{01e66a4301de9cf822181a765894bb1b}
+      \strng{authornamehash}{01e66a4301de9cf822181a765894bb1b}
+      \strng{authorfullhash}{01e66a4301de9cf822181a765894bb1b}
+      \strng{ownerbibnamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \strng{ownernamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \strng{ownerfullhash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{Reprinted Varanasi: Chowkhamba Saraswatibhavan, 1980}
+      \field{edition}{3}
+      \field{rawauthor}{Uday Chand Dutt}
+      \field{series}{Krishnadas Sanskrit Studies}
+      \field{title}{The Materia Medica of the {Hindus}\ldots with a Glossary of {Indian} Plants by {George King}. Revised Edition\ldots by {Binod Lall Sen and Ashutosh Sen and Pulin Krishna Sen}}
+      \field{urlday}{4}
+      \field{urlmonth}{10}
+      \field{urlyear}{2017}
+      \field{volume}{2}
+      \field{year}{1922}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://archive.org/details/mobot31753000838638
+      \endverb
+      \verb{url}
+      \verb https://archive.org/details/mobot31753000838638
+      \endverb
+    \endentry
     \entry{vela-1930}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=89dea8c0b6384159bf4fe60f0c739ac4}{%
@@ -10092,6 +11492,48 @@
       \field{labeltitlesource}{title}
       \field{rawauthor}{D. G. Crawford}
       \field{title}{Roll of the {Indian Medical Service}, 1615--1930}
+      \field{year}{1930}
+      \field{dateera}{ce}
+      \true{nocite}
+    \endentry
+    \entry{stei-pers}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e28e949d22542891ccf898d8143d164c}{%
+           family={Steingass},
+           familyi={S\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{owner}{1}{}{%
+        {{hash=dd988cfd769c9f7fbd795a0f5da8e751}{%
+           family={dom},
+           familyi={d\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {London}%
+      }
+      \list{publisher}{1}{%
+        {Kegan Paul, Trench, Trubner}%
+      }
+      \strng{namehash}{e28e949d22542891ccf898d8143d164c}
+      \strng{fullhash}{e28e949d22542891ccf898d8143d164c}
+      \strng{bibnamehash}{e28e949d22542891ccf898d8143d164c}
+      \strng{authorbibnamehash}{e28e949d22542891ccf898d8143d164c}
+      \strng{authornamehash}{e28e949d22542891ccf898d8143d164c}
+      \strng{authorfullhash}{e28e949d22542891ccf898d8143d164c}
+      \strng{ownerbibnamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \strng{ownernamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \strng{ownerfullhash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{p.1506a: halāhil (Sanskrit halāhala) mortal, deadly (poison); (cloth) of a thin texture; fine, delicate (verses).}
+      \field{rawauthor}{F. Steingass}
+      \field{title}{A Comprehensive {Persian-English} Dictionary Including the {Arabic} Words and Phrases to Be Met with in {Persian} Literature}
       \field{year}{1930}
       \field{dateera}{ce}
       \true{nocite}
@@ -10193,6 +11635,46 @@
       \verb ark:/13960/t3nw8bc12
       \endverb
       \keyw{catalogue}
+    \endentry
+    \entry{stra-1934}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ef9c81eb791bfd1fee02aa4dfb45baff}{%
+           family={Strauss},
+           familyi={S\bibinitperiod},
+           given={Bettina},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{owner}{1}{}{%
+        {{hash=dd988cfd769c9f7fbd795a0f5da8e751}{%
+           family={dom},
+           familyi={d\bibinitperiod}}}%
+      }
+      \strng{namehash}{ef9c81eb791bfd1fee02aa4dfb45baff}
+      \strng{fullhash}{ef9c81eb791bfd1fee02aa4dfb45baff}
+      \strng{bibnamehash}{ef9c81eb791bfd1fee02aa4dfb45baff}
+      \strng{authorbibnamehash}{ef9c81eb791bfd1fee02aa4dfb45baff}
+      \strng{authornamehash}{ef9c81eb791bfd1fee02aa4dfb45baff}
+      \strng{authorfullhash}{ef9c81eb791bfd1fee02aa4dfb45baff}
+      \strng{ownerbibnamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \strng{ownernamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \strng{ownerfullhash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{A text on poisons which borrows material from the {Indian} tradition Arthaśāstra, Caraka, Suśruta, Kāmandakī, Greek tradition, etc. Bettina Strauss was the sister of Leo Strauss, and the first wife of Paul Kraus. She died in childbirth in 1942.}
+      \field{journaltitle}{Quellen und Studien zur Geschichte der Naturwissenschaften und der Medizin}
+      \field{number}{2}
+      \field{rawauthor}{Bettina Strauss}
+      \field{title}{{Das Giftbuch des Śānāq: eine Literaturgeschichtliche Untersuchung}}
+      \field{volume}{4}
+      \field{year}{1934}
+      \field{dateera}{ce}
+      \field{pages}{{[89]\bibrangedash [152]} followed by Arabic text}
+      \range{pages}{-1}
     \endentry
     \entry{vulgate}{book}{}
       \name{editor}{2}{}{%
@@ -10785,6 +12267,49 @@
       \verb 10.3406/scrip.1950.2294
       \endverb
     \endentry
+    \entry{mayr-kurz}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ff1b7f14a26547553bb3405bcae11161}{%
+           family={Mayrhofer},
+           familyi={M\bibinitperiod},
+           given={Manfred},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{owner}{1}{}{%
+        {{hash=dd988cfd769c9f7fbd795a0f5da8e751}{%
+           family={dom},
+           familyi={d\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Heidelberg}%
+      }
+      \list{publisher}{1}{%
+        {Carl Winter, Universitätsverlag}%
+      }
+      \strng{namehash}{ff1b7f14a26547553bb3405bcae11161}
+      \strng{fullhash}{ff1b7f14a26547553bb3405bcae11161}
+      \strng{bibnamehash}{ff1b7f14a26547553bb3405bcae11161}
+      \strng{authorbibnamehash}{ff1b7f14a26547553bb3405bcae11161}
+      \strng{authornamehash}{ff1b7f14a26547553bb3405bcae11161}
+      \strng{authorfullhash}{ff1b7f14a26547553bb3405bcae11161}
+      \strng{ownerbibnamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \strng{ownernamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \strng{ownerfullhash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{endyear}{1972}
+      \field{rawauthor}{Manfred Mayrhofer}
+      \field{title}{{Kurzgefa{ß}tes etymologisches Wörterbuch des Altindoarischen}; a Concise Etymological {Sanskrit} Dictionary}
+      \field{year}{1953}
+      \field{enddateera}{ce}
+      \field{dateera}{ce}
+      \true{nocite}
+    \endentry
     \entry{nadk-1954}{mvbook}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=5ed72dc6e94918036b5839187cf3b4f2}{%
@@ -10953,6 +12478,49 @@
       \verb{eprint}
       \verb ark:/13960/t3gx47212
       \endverb
+    \endentry
+    \entry{agra-indi}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5690897f96325d276c801827d886af4d}{%
+           family={Agrawala},
+           familyi={A\bibinitperiod},
+           given={V.\bibnamedelimi S.},
+           giveni={V\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{owner}{1}{}{%
+        {{hash=dd988cfd769c9f7fbd795a0f5da8e751}{%
+           family={dom},
+           familyi={d\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Varanasi}%
+      }
+      \list{publisher}{1}{%
+        {Prthvi Prakashan}%
+      }
+      \strng{namehash}{5690897f96325d276c801827d886af4d}
+      \strng{fullhash}{5690897f96325d276c801827d886af4d}
+      \strng{bibnamehash}{5690897f96325d276c801827d886af4d}
+      \strng{authorbibnamehash}{5690897f96325d276c801827d886af4d}
+      \strng{authornamehash}{5690897f96325d276c801827d886af4d}
+      \strng{authorfullhash}{5690897f96325d276c801827d886af4d}
+      \strng{ownerbibnamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \strng{ownernamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \strng{ownerfullhash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{First published in 1953}
+      \field{edition}{2}
+      \field{rawauthor}{V. S. Agrawala}
+      \field{title}{India As Known to {Pāṇini}: A Study of the Cultural Material in the {Aṣṭādhyāyī}}
+      \field{year}{1963}
+      \field{dateera}{ce}
+      \true{nocite}
     \endentry
     \entry{josi-maha}{book}{}
       \name{author}{2}{}{%
@@ -11183,6 +12751,51 @@
       \field{dateera}{ce}
       \true{nocite}
     \endentry
+    \entry{sing-1972a}{book}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9e0ca8296b027a9e4b3d423af2239c83}{%
+           family={Singhal},
+           familyi={S\bibinitperiod},
+           given={G.\bibnamedelimi D.},
+           giveni={G\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{owner}{1}{}{%
+        {{hash=dd988cfd769c9f7fbd795a0f5da8e751}{%
+           family={dom},
+           familyi={d\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Varanasi}%
+      }
+      \list{publisher}{1}{%
+        {Singhal Publications}%
+      }
+      \strng{namehash}{e3984697aef9ccf9ce78e022982ca8e9}
+      \strng{fullhash}{e3984697aef9ccf9ce78e022982ca8e9}
+      \strng{bibnamehash}{e3984697aef9ccf9ce78e022982ca8e9}
+      \strng{authorbibnamehash}{e3984697aef9ccf9ce78e022982ca8e9}
+      \strng{authornamehash}{e3984697aef9ccf9ce78e022982ca8e9}
+      \strng{authorfullhash}{e3984697aef9ccf9ce78e022982ca8e9}
+      \strng{ownerbibnamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \strng{ownernamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \strng{ownerfullhash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{A translation of the \emph{Suśruta\-saṃhitā} in 10v.}
+      \field{endyear}{1982}
+      \field{rawauthor}{G. D. Singhal and others}
+      \field{title}{Diagnostic [and Other] Considerations in Ancient {Indian} Surgery}
+      \field{year}{1972}
+      \field{enddateera}{ce}
+      \field{dateera}{ce}
+    \endentry
     \entry{spin-albu}{book}{}
       \name{editor}{2}{}{%
         {{un=0,uniquepart=base,hash=0f2e76fe738071972acbfa3a25ba2e2b}{%
@@ -11314,6 +12927,50 @@
       \verb{url}
       \verb https://archive.org/details/healinghandmanwo00majn
       \endverb
+    \endentry
+    \entry{shar-1975}{book}{}
+      \name{author}{1}{}{%
+        {{un=1,uniquepart=given,hash=f63ba8765069bea3fe14d0533a053baf}{%
+           family={Sharma},
+           familyi={S\bibinitperiod},
+           given={Priya\bibnamedelima Vrat},
+           giveni={P\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=1}}%
+      }
+      \name{owner}{1}{}{%
+        {{hash=dd988cfd769c9f7fbd795a0f5da8e751}{%
+           family={dom},
+           familyi={d\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Vārāṇasī}%
+      }
+      \list{publisher}{1}{%
+        {Caukhambā Orientalia}%
+      }
+      \strng{namehash}{f63ba8765069bea3fe14d0533a053baf}
+      \strng{fullhash}{f63ba8765069bea3fe14d0533a053baf}
+      \strng{bibnamehash}{f63ba8765069bea3fe14d0533a053baf}
+      \strng{authorbibnamehash}{f63ba8765069bea3fe14d0533a053baf}
+      \strng{authornamehash}{f63ba8765069bea3fe14d0533a053baf}
+      \strng{authorfullhash}{f63ba8765069bea3fe14d0533a053baf}
+      \strng{ownerbibnamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \strng{ownernamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \strng{ownerfullhash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{chapter 1: Anādi āyurved; chapter 2: Saṃhitā-grantha; chapter 3: Vyākhyā-vāṅmaya; chapter 4: Kāyacikitsā; chapter 5: Dravyaguṇ evaṃ rasaśāstra; chapter 6: Anya aṅg; chapter 7: Śikṣaṇ, anusandhān, patra-patrikāyeṃ; chapter 8: Vyavasāya, mānyatā evaṃ saṃgaṭhan; chapter 9: Sārvabhauma āyurved; pariśiṣṭ; sandarbha-sūcī, lekhak ke sambandha meṃ, śuddhipatra, anukramaṇikā, review by K. Raghunathan, BIIHM 6, 1, 1976, 75--78 HIML IA.144 points out that this work, pp. 96-99, clearly separates the Patanjalis of gram{3}, yoga and medicine. Also Sharma 1970a "Caraka cintan": 23-43, and 1992d: 181--2.}
+      \field{rawauthor}{Priya Vrat Sharma}
+      \field{series}{Jayakṛṣṇadāsa Āyurveda Granthamālā}
+      \field{title}{{Ā}yurved Kā Vaijñānik Itihās}
+      \field{volume}{1}
+      \field{year}{1975}
+      \field{dateera}{ce}
     \endentry
     \entry{lien-1978}{article}{}
       \name{author}{1}{}{%
@@ -11448,6 +13105,66 @@
       \endverb
       \keyw{shorthand}
     \endentry
+    \entry{ray-1980}{book}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=a2582c10c45cc268609b5debb6ca738d}{%
+           family={{Rây}},
+           familyi={R\bibinitperiod},
+           given={Priyadaranjan},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aa2f8b47d686040de83dbf222a39cc55}{%
+           family={Gupta},
+           familyi={G\bibinitperiod},
+           given={Hirendra\bibnamedelima Nath},
+           giveni={H\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=69b50d1370c0310a7aa582f76536badd}{%
+           family={Roy},
+           familyi={R\bibinitperiod},
+           given={Mira},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{owner}{1}{}{%
+        {{hash=dd988cfd769c9f7fbd795a0f5da8e751}{%
+           family={dom},
+           familyi={d\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New Delhi}%
+      }
+      \list{publisher}{1}{%
+        {Indian National Science Academy}%
+      }
+      \strng{namehash}{9d4eb54bf9fe7f66ef0d2517a0a9384a}
+      \strng{fullhash}{6f57eea2f0f0d9ea36d62f4aca58cdf4}
+      \strng{bibnamehash}{6f57eea2f0f0d9ea36d62f4aca58cdf4}
+      \strng{authorbibnamehash}{6f57eea2f0f0d9ea36d62f4aca58cdf4}
+      \strng{authornamehash}{9d4eb54bf9fe7f66ef0d2517a0a9384a}
+      \strng{authorfullhash}{6f57eea2f0f0d9ea36d62f4aca58cdf4}
+      \strng{ownerbibnamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \strng{ownernamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \strng{ownerfullhash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{ark}
+      \field{rawauthor}{Priyadaranjan {Rây} and Hirendra Nath Gupta and Mira Roy}
+      \field{title}{Suśruta Saṃhita (a Scientific Synopsis)}
+      \field{urlday}{13}
+      \field{urlmonth}{9}
+      \field{urlyear}{2019}
+      \field{year}{1980}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{eprint}
+      \verb ark:/13960/t64511t6v
+      \endverb
+    \endentry
     \entry{kuis-nich}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=987e6ca466c262d20868504ffb866547}{%
@@ -11536,6 +13253,7 @@
       \field{extraname}{2}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradate}{1}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
@@ -11544,6 +13262,70 @@
       \field{edition}{3 ed., revised and enlarged by A. K. Nadkarni}
       \field{isbn}{8171541429}
       \field{rawauthor}{K. M. Nadkarni}
+      \field{title}{{Dr. K. M. Nadkarni's} {Indian} Materia Medica, with Ayurvedic, Unani-tibbi, Siddha, Allopathic, Homeopathic, Naturopathic \& Home Remedies, Appendices \& Indexes \ldots{} in Two Volumes}
+      \field{volumes}{2}
+      \field{year}{1982}
+      \field{dateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://books.google.ca/books?id=RA4Npohz4CEC
+      \endverb
+      \verb{url}
+      \verb https://books.google.ca/books?id=RA4Npohz4CEC
+      \endverb
+    \endentry
+    \entry{NK}{mvbook}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5ed72dc6e94918036b5839187cf3b4f2}{%
+           family={Nadkarni},
+           familyi={N\bibinitperiod},
+           given={K.\bibnamedelimi M.},
+           giveni={K\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=761c68953cbcfa00e37d7ee2b0601649}{%
+           family={Nadkarni},
+           familyi={N\bibinitperiod},
+           given={A.\bibnamedelimi K.},
+           giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \name{owner}{1}{}{%
+        {{hash=dd988cfd769c9f7fbd795a0f5da8e751}{%
+           family={dom},
+           familyi={d\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Bombay}%
+      }
+      \list{publisher}{1}{%
+        {Popular Prakashan}%
+      }
+      \strng{namehash}{5ed72dc6e94918036b5839187cf3b4f2}
+      \strng{fullhash}{5ed72dc6e94918036b5839187cf3b4f2}
+      \strng{bibnamehash}{5ed72dc6e94918036b5839187cf3b4f2}
+      \strng{authorbibnamehash}{5ed72dc6e94918036b5839187cf3b4f2}
+      \strng{authornamehash}{5ed72dc6e94918036b5839187cf3b4f2}
+      \strng{authorfullhash}{5ed72dc6e94918036b5839187cf3b4f2}
+      \strng{editorbibnamehash}{761c68953cbcfa00e37d7ee2b0601649}
+      \strng{editornamehash}{761c68953cbcfa00e37d7ee2b0601649}
+      \strng{editorfullhash}{761c68953cbcfa00e37d7ee2b0601649}
+      \strng{ownerbibnamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \strng{ownernamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \strng{ownerfullhash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \field{extraname}{3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{vol 2: \url{http://n2t.net/ark:/13960/t09w9233k}}
+      \field{edition}{3 ed., revised and enlarged by A. K. Nadkarni}
+      \field{isbn}{8171541429}
+      \field{rawauthor}{K. M. Nadkarni}
+      \field{shorthand}{NK}
       \field{title}{{Dr. K. M. Nadkarni's} {Indian} Materia Medica, with Ayurvedic, Unani-tibbi, Siddha, Allopathic, Homeopathic, Naturopathic \& Home Remedies, Appendices \& Indexes \ldots{} in Two Volumes}
       \field{volumes}{2}
       \field{year}{1982}
@@ -11577,7 +13359,7 @@
       \strng{authorbibnamehash}{f63ba8765069bea3fe14d0533a053baf}
       \strng{authornamehash}{f63ba8765069bea3fe14d0533a053baf}
       \strng{authorfullhash}{f63ba8765069bea3fe14d0533a053baf}
-      \field{extraname}{2}
+      \field{extraname}{3}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{extradatescope}{labelyear}
@@ -11636,14 +13418,80 @@
       \verb https://www.jstor.org/stable/44441590
       \endverb
     \endentry
+    \entry{adri-1984}{incollection}{}
+      \name{author}{3}{}{%
+        {{un=1,uniquepart=given,hash=f8e22e4eaeda17223e7c40aa52cf6ac0}{%
+           family={Adriaensen},
+           familyi={A\bibinitperiod},
+           given={Rob},
+           giveni={R\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=594c2acc760c1da91a3ee988f1802ca7}{%
+           family={Barkhuis},
+           familyi={B\bibinitperiod},
+           given={Roelf},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9c9df7924110aae5d78480b211090900}{%
+           family={Ruijters},
+           familyi={R\bibinitperiod},
+           given={Jean-Louis},
+           giveni={J\bibinithyphendelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=03a3da640c695a268052e888571bc767}{%
+           family={Meulenbeld},
+           familyi={M\bibinitperiod},
+           given={Gerrit\bibnamedelima Jan},
+           giveni={G\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \name{owner}{1}{}{%
+        {{hash=dd988cfd769c9f7fbd795a0f5da8e751}{%
+           family={dom},
+           familyi={d\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Groningen}%
+      }
+      \list{publisher}{1}{%
+        {Forsten}%
+      }
+      \strng{namehash}{c01d4fc7ad7634daef5d009ef9974579}
+      \strng{fullhash}{d987684ee72603dbf06388e6e517898c}
+      \strng{bibnamehash}{d987684ee72603dbf06388e6e517898c}
+      \strng{authorbibnamehash}{d987684ee72603dbf06388e6e517898c}
+      \strng{authornamehash}{c01d4fc7ad7634daef5d009ef9974579}
+      \strng{authorfullhash}{d987684ee72603dbf06388e6e517898c}
+      \strng{editorbibnamehash}{03a3da640c695a268052e888571bc767}
+      \strng{editornamehash}{03a3da640c695a268052e888571bc767}
+      \strng{editorfullhash}{03a3da640c695a268052e888571bc767}
+      \strng{ownerbibnamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \strng{ownernamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \strng{ownerfullhash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{P. O. Box 6148, 9702 HC Groningen, The Netherlands}
+      \field{booktitle}{Proceedings of the International Workshop on Priorities in the Study of {Indian} Medicine}
+      \field{rawauthor}{Rob Adriaensen and Roelf Barkhuis and Jean-Louis Ruijters}
+      \field{title}{An {English} Translation of {Suśrutasaṃhitā}, Nidānasthāna 1, 1--39, Together with {Gayadāsa}'s {Nyāyacandrikā}}
+      \field{year}{1984}
+      \field{dateera}{ce}
+      \field{pages}{277\bibrangedash 310}
+      \range{pages}{34}
+    \endentry
     \entry{adri-engl}{incollection}{}
       \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=65f44ffc7a20d5c1fed00e0d99ef3c14}{%
+        {{un=1,uniquepart=given,hash=65f44ffc7a20d5c1fed00e0d99ef3c14}{%
            family={Adriaensen},
            familyi={A\bibinitperiod},
            given={Rob\bibnamedelimb C.\bibnamedelimi R.},
            giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim R\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
         {{un=0,uniquepart=base,hash=594c2acc760c1da91a3ee988f1802ca7}{%
            family={Barkhuis},
            familyi={B\bibinitperiod},
@@ -11936,6 +13784,62 @@
       \field{year}{1985}
       \field{dateera}{ce}
     \endentry
+    \entry{yano-1986}{incollection}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9ce3fb3447a1fad34f04a1717b0e789d}{%
+           family={Yano},
+           familyi={Y\bibinitperiod},
+           given={Michio},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=1cfb13e0dd79a020835a1ef84289e7eb}{%
+           family={Ogawa},
+           familyi={O\bibinitperiod},
+           given={Teizo},
+           giveni={T\bibinitperiod}}}%
+      }
+      \name{owner}{1}{}{%
+        {{hash=dd988cfd769c9f7fbd795a0f5da8e751}{%
+           family={dom},
+           familyi={d\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Osaka}%
+      }
+      \list{publisher}{1}{%
+        {Division of Medical History, the Taniguchi Foundation}%
+      }
+      \strng{namehash}{9ce3fb3447a1fad34f04a1717b0e789d}
+      \strng{fullhash}{9ce3fb3447a1fad34f04a1717b0e789d}
+      \strng{bibnamehash}{9ce3fb3447a1fad34f04a1717b0e789d}
+      \strng{authorbibnamehash}{9ce3fb3447a1fad34f04a1717b0e789d}
+      \strng{authornamehash}{9ce3fb3447a1fad34f04a1717b0e789d}
+      \strng{authorfullhash}{9ce3fb3447a1fad34f04a1717b0e789d}
+      \strng{editorbibnamehash}{1cfb13e0dd79a020835a1ef84289e7eb}
+      \strng{editornamehash}{1cfb13e0dd79a020835a1ef84289e7eb}
+      \strng{editorfullhash}{1cfb13e0dd79a020835a1ef84289e7eb}
+      \strng{ownerbibnamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \strng{ownernamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \strng{ownerfullhash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{History of Traditional Medicine: Proceedings of the 1st and 2nd International Symposia on the Comparative History of Medicine---East and West}
+      \field{rawauthor}{Michio Yano}
+      \field{title}{A Comparative Study of \emph{Sūtrasthānas}: {Caraka, Suśruta, and Vāgbhaṭa}}
+      \field{year}{1986}
+      \field{dateera}{ce}
+      \field{pages}{325\bibrangedash 344}
+      \range{pages}{20}
+      \verb{file}
+      \verb :Yano, Michio/1986 a comparative study of the sutrasthanas.pdf:PDF
+      \endverb
+    \endentry
     \entry{zysk-1986}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=b5cae3e09569a28342f134081109fe77}{%
@@ -12017,6 +13921,50 @@
       \true{nocite}
       \field{pages}{42\bibrangedash 3}
       \range{pages}{2}
+    \endentry
+    \entry{meul-sear}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=03a3da640c695a268052e888571bc767}{%
+           family={Meulenbeld},
+           familyi={M\bibinitperiod},
+           given={Gerrit\bibnamedelima Jan},
+           giveni={G\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{owner}{1}{}{%
+        {{hash=dd988cfd769c9f7fbd795a0f5da8e751}{%
+           family={dom},
+           familyi={d\bibinitperiod}}}%
+      }
+      \strng{namehash}{03a3da640c695a268052e888571bc767}
+      \strng{fullhash}{03a3da640c695a268052e888571bc767}
+      \strng{bibnamehash}{03a3da640c695a268052e888571bc767}
+      \strng{authorbibnamehash}{03a3da640c695a268052e888571bc767}
+      \strng{authornamehash}{03a3da640c695a268052e888571bc767}
+      \strng{authorfullhash}{03a3da640c695a268052e888571bc767}
+      \strng{ownerbibnamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \strng{ownernamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \strng{ownerfullhash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \field{extraname}{3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{bib info from bibl. to HIM.}
+      \field{journaltitle}{Studien zur Indologie und Iranistik}
+      \field{rawauthor}{Gerrit Jan Meulenbeld}
+      \field{title}{The Search for Clues to the Chronology of {Sanskrit} Medical Texts As Illustrated by the History of Bhaṅgā (cannabis Sativa Linn.)}
+      \field{volume}{15}
+      \field{year}{1989}
+      \field{dateera}{ce}
+      \true{nocite}
+      \field{pages}{59\bibrangedash 70}
+      \range{pages}{12}
+      \verb{file}
+      \verb :Meulenbeld/1989 SII Search for clues - cannabis.pdf:PDF
+      \endverb
     \endentry
     \entry{rosu-1989}{book}{}
       \name{author}{1}{}{%
@@ -12194,7 +14142,7 @@
       \strng{authorbibnamehash}{03a3da640c695a268052e888571bc767}
       \strng{authornamehash}{03a3da640c695a268052e888571bc767}
       \strng{authorfullhash}{03a3da640c695a268052e888571bc767}
-      \field{extraname}{3}
+      \field{extraname}{4}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{extradatescope}{labelyear}
@@ -12589,7 +14537,7 @@
       \strng{ownerbibnamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
       \strng{ownernamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
       \strng{ownerfullhash}{dd988cfd769c9f7fbd795a0f5da8e751}
-      \field{extraname}{4}
+      \field{extraname}{5}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{extradatescope}{labelyear}
@@ -12645,6 +14593,54 @@
       \field{dateera}{ce}
       \true{nocite}
     \endentry
+    \entry{shar-1999}{mvbook}{}
+      \name{author}{1}{}{%
+        {{un=1,uniquepart=given,hash=f63ba8765069bea3fe14d0533a053baf}{%
+           family={Sharma},
+           familyi={S\bibinitperiod},
+           given={Priya\bibnamedelima Vrat},
+           giveni={P\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=1}}%
+      }
+      \name{owner}{1}{}{%
+        {{hash=dd988cfd769c9f7fbd795a0f5da8e751}{%
+           family={dom},
+           familyi={d\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Varanasi}%
+      }
+      \list{publisher}{1}{%
+        {Chaukhambha Visvabharati}%
+      }
+      \strng{namehash}{f63ba8765069bea3fe14d0533a053baf}
+      \strng{fullhash}{f63ba8765069bea3fe14d0533a053baf}
+      \strng{bibnamehash}{f63ba8765069bea3fe14d0533a053baf}
+      \strng{authorbibnamehash}{f63ba8765069bea3fe14d0533a053baf}
+      \strng{authornamehash}{f63ba8765069bea3fe14d0533a053baf}
+      \strng{authorfullhash}{f63ba8765069bea3fe14d0533a053baf}
+      \strng{ownerbibnamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \strng{ownernamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \strng{ownerfullhash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \field{extraname}{4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{endyear}{2001}
+      \field{number}{9}
+      \field{rawauthor}{Priya Vrat Sharma}
+      \field{series}{Haridas Ayurveda Series}
+      \field{shorttitle}{{Suśruta-Saṃhitā}}
+      \field{title}{{Suśruta-Saṃhitā}, with {English} Translation of Text and {Ḍalhaṇa's} Commentary Alongwith (\emph{sic}) Critical Notes}
+      \field{volumes}{3}
+      \field{year}{1999}
+      \field{enddateera}{ce}
+      \field{dateera}{ce}
+    \endentry
     \entry{shar-susr}{mvbook}{}
       \name{author}{1}{}{%
         {{un=1,uniquepart=given,hash=f63ba8765069bea3fe14d0533a053baf}{%
@@ -12674,9 +14670,10 @@
       \strng{ownerbibnamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
       \strng{ownernamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
       \strng{ownerfullhash}{dd988cfd769c9f7fbd795a0f5da8e751}
-      \field{extraname}{3}
+      \field{extraname}{5}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradate}{2}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
@@ -13053,6 +15050,73 @@
       \field{dateera}{ce}
       \true{nocite}
     \endentry
+    \entry{wuja-cann}{incollection}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b7387dd21fed9b1898de0f0f4faf7f0e}{%
+           family={Wujastyk},
+           familyi={W\bibinitperiod},
+           given={Dominik},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=708292ab23d4c1b05efa6c6a3933fd29}{%
+           family={Salema},
+           familyi={S\bibinitperiod},
+           given={Ana},
+           giveni={A\bibinitperiod}}}%
+      }
+      \name{owner}{1}{}{%
+        {{hash=dd988cfd769c9f7fbd795a0f5da8e751}{%
+           family={dom},
+           familyi={d\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Lisbon}%
+      }
+      \list{publisher}{1}{%
+        {Centro de História de Além-Mar, Universidade Nova de Lisboa}%
+      }
+      \strng{namehash}{b7387dd21fed9b1898de0f0f4faf7f0e}
+      \strng{fullhash}{b7387dd21fed9b1898de0f0f4faf7f0e}
+      \strng{bibnamehash}{b7387dd21fed9b1898de0f0f4faf7f0e}
+      \strng{authorbibnamehash}{b7387dd21fed9b1898de0f0f4faf7f0e}
+      \strng{authornamehash}{b7387dd21fed9b1898de0f0f4faf7f0e}
+      \strng{authorfullhash}{b7387dd21fed9b1898de0f0f4faf7f0e}
+      \strng{editorbibnamehash}{708292ab23d4c1b05efa6c6a3933fd29}
+      \strng{editornamehash}{708292ab23d4c1b05efa6c6a3933fd29}
+      \strng{editorfullhash}{708292ab23d4c1b05efa6c6a3933fd29}
+      \strng{ownerbibnamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \strng{ownernamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \strng{ownerfullhash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Āyurveda at the Crossroads of Care and Cure. Proceedings of the Indo-European Seminar on Ayurveda held at Arrábida, Portugal, in November 2001}
+      \field{isbn}{972-98672-5-9}
+      \field{rawauthor}{Dominik Wujastyk}
+      \field{title}{Cannabis in Traditional {Indian} Herbal Medicine}
+      \field{urlday}{27}
+      \field{urlmonth}{5}
+      \field{urlyear}{2019}
+      \field{year}{2002}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{45\bibrangedash 73}
+      \range{pages}{29}
+      \verb{urlraw}
+      \verb https://www.academia.edu/188844/
+      \endverb
+      \verb{url}
+      \verb https://www.academia.edu/188844/
+      \endverb
+      \keyw{cannabis gañjā vijayā}
+    \endentry
     \entry{das-orig}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=828922376a2bc052055c575d82f4afdc}{%
@@ -13218,7 +15282,7 @@
       \strng{ownerbibnamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
       \strng{ownernamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
       \strng{ownerfullhash}{dd988cfd769c9f7fbd795a0f5da8e751}
-      \field{extraname}{2}
+      \field{extraname}{3}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{extradatescope}{labelyear}
@@ -13321,7 +15385,7 @@
       \strng{ownerbibnamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
       \strng{ownernamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
       \strng{ownerfullhash}{dd988cfd769c9f7fbd795a0f5da8e751}
-      \field{extraname}{3}
+      \field{extraname}{4}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{extradatescope}{labelyear}
@@ -13633,6 +15697,46 @@
       \verb https://www.istb.univie.ac.at/caraka/file_download/36
       \endverb
     \endentry
+    \entry{vali-2007}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6e0f0fdea6ca2ceb4b01ffac01744982}{%
+           family={Valiathan},
+           familyi={V\bibinitperiod},
+           given={M.\bibnamedelimi S.},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{owner}{1}{}{%
+        {{hash=dd988cfd769c9f7fbd795a0f5da8e751}{%
+           family={dom},
+           familyi={d\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Hyderabad, Chennai, etc.}%
+      }
+      \list{publisher}{1}{%
+        {Orient Longman}%
+      }
+      \strng{namehash}{6e0f0fdea6ca2ceb4b01ffac01744982}
+      \strng{fullhash}{6e0f0fdea6ca2ceb4b01ffac01744982}
+      \strng{bibnamehash}{6e0f0fdea6ca2ceb4b01ffac01744982}
+      \strng{authorbibnamehash}{6e0f0fdea6ca2ceb4b01ffac01744982}
+      \strng{authornamehash}{6e0f0fdea6ca2ceb4b01ffac01744982}
+      \strng{authorfullhash}{6e0f0fdea6ca2ceb4b01ffac01744982}
+      \strng{ownerbibnamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \strng{ownernamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \strng{ownerfullhash}{dd988cfd769c9f7fbd795a0f5da8e751}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{rawauthor}{M. S. Valiathan}
+      \field{title}{The Legacy of {Suśruta}}
+      \field{year}{2007}
+      \field{dateera}{ce}
+    \endentry
     \entry{meul-2008}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=03a3da640c695a268052e888571bc767}{%
@@ -13662,7 +15766,7 @@
       \strng{ownerbibnamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
       \strng{ownernamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
       \strng{ownerfullhash}{dd988cfd769c9f7fbd795a0f5da8e751}
-      \field{extraname}{5}
+      \field{extraname}{6}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{extradatescope}{labelyear}
@@ -13844,6 +15948,66 @@
       \endverb
       \keyw{Susruta,ayurveda,Nepal,Kaiser Shum Shere,manuscript}
     \endentry
+    \entry{pill-2010}{incollection}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=be3a13de70c6926378a3841d7235d2b2}{%
+           family={Pillay},
+           familyi={P\bibinitperiod},
+           given={V.\bibnamedelimi V.},
+           giveni={V\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=49e913789faddb815d4e2853273f1d30}{%
+           family={Warrell},
+           familyi={W\bibinitperiod},
+           given={D.\bibnamedelimi A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=e3f7d79bd57bec593097d86de8c6cbed}{%
+           family={Cox},
+           familyi={C\bibinitperiod},
+           given={T.\bibnamedelimi M.},
+           giveni={T\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=54475885f2cabd4ab283bf1d4824a4b5}{%
+           family={Firth},
+           familyi={F\bibinitperiod},
+           given={J.\bibnamedelimi D.},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{be3a13de70c6926378a3841d7235d2b2}
+      \strng{fullhash}{be3a13de70c6926378a3841d7235d2b2}
+      \strng{bibnamehash}{be3a13de70c6926378a3841d7235d2b2}
+      \strng{authorbibnamehash}{be3a13de70c6926378a3841d7235d2b2}
+      \strng{authornamehash}{be3a13de70c6926378a3841d7235d2b2}
+      \strng{authorfullhash}{be3a13de70c6926378a3841d7235d2b2}
+      \strng{editorbibnamehash}{9483f337667825371f473f665ba222c8}
+      \strng{editornamehash}{ab4adfcc8fc1c7ded52b4407c57564b5}
+      \strng{editorfullhash}{9483f337667825371f473f665ba222c8}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Oxford Textbook of Medicine}
+      \field{edition}{5}
+      \field{rawauthor}{V. V. Pillay}
+      \field{title}{Common Indian Poisonous Plants}
+      \field{year}{2010}
+      \field{dateera}{ce}
+      \true{nocite}
+      \field{pages}{1371\bibrangedash 1375}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1093/med/9780199204854.003.090302
+      \endverb
+      \verb{file}
+      \verb :Pillay, V. V./2010 Common Indian poisonous plants.pdf:PDF
+      \endverb
+    \endentry
     \entry{hari-2011}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=2f8d8c01ce09913117ffbfdfacbd8c00}{%
@@ -13922,7 +16086,7 @@
       \strng{ownerbibnamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
       \strng{ownernamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
       \strng{ownerfullhash}{dd988cfd769c9f7fbd795a0f5da8e751}
-      \field{extraname}{6}
+      \field{extraname}{7}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{extradatescope}{labelyear}
@@ -14066,7 +16230,7 @@
       \strng{ownerbibnamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
       \strng{ownernamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
       \strng{ownerfullhash}{dd988cfd769c9f7fbd795a0f5da8e751}
-      \field{extraname}{4}
+      \field{extraname}{5}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{extradatescope}{labelyear}
@@ -14236,7 +16400,7 @@
       \strng{ownerbibnamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
       \strng{ownernamehash}{dd988cfd769c9f7fbd795a0f5da8e751}
       \strng{ownerfullhash}{dd988cfd769c9f7fbd795a0f5da8e751}
-      \field{extraname}{5}
+      \field{extraname}{6}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{extradatescope}{labelyear}
@@ -14773,7 +16937,7 @@
       \strng{authorbibnamehash}{9f783937694f0baadee1301213c05938}
       \strng{authornamehash}{9f783937694f0baadee1301213c05938}
       \strng{authorfullhash}{9f783937694f0baadee1301213c05938}
-      \field{extraname}{6}
+      \field{extraname}{7}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{extradatescope}{labelyear}
@@ -15276,6 +17440,50 @@
       \verb :Klebanov, Andrey/2021 Susrutavyakhya 9789004436695-008-CH7-Klebanov-proof-01-AK.pdf:PDF
       \endverb
     \endentry
+    \entry{mchu-2021a}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0be57f06d9ac113b90477190f33ce0ed}{%
+           family={McHugh},
+           familyi={M\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{0be57f06d9ac113b90477190f33ce0ed}
+      \strng{fullhash}{0be57f06d9ac113b90477190f33ce0ed}
+      \strng{bibnamehash}{0be57f06d9ac113b90477190f33ce0ed}
+      \strng{authorbibnamehash}{0be57f06d9ac113b90477190f33ce0ed}
+      \strng{authornamehash}{0be57f06d9ac113b90477190f33ce0ed}
+      \strng{authorfullhash}{0be57f06d9ac113b90477190f33ce0ed}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9780199375936}
+      \field{pagetotal}{416}
+      \field{rawauthor}{McHugh, James}
+      \field{title}{An Unholy Brew: Alcohol in Indian History and Religions}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \true{nocite}
+      \verb{file}
+      \verb :/home/dom/Dropbox/Xdrive/courses/2022 Jan Winter/HIST 488-698 W 10-1/sources/McHugh_Unholy brew.pdf:PDF
+      \endverb
+      \verb{urlraw}
+      \verb https://www.ebook.de/de/product/41295809/james_mchugh_an_unholy_brew_alcohol_in_indian_history_and_religions.html
+      \endverb
+      \verb{url}
+      \verb https://www.ebook.de/de/product/41295809/james_mchugh_an_unholy_brew_alcohol_in_indian_history_and_religions.html
+      \endverb
+    \endentry
     \entry{Anup}{misc}{}
       \field{sortinit}{9}
       \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
@@ -15392,7 +17600,7 @@
       \strng{authorbibnamehash}{b7387dd21fed9b1898de0f0f4faf7f0e}
       \strng{authornamehash}{b7387dd21fed9b1898de0f0f4faf7f0e}
       \strng{authorfullhash}{b7387dd21fed9b1898de0f0f4faf7f0e}
-      \field{extraname}{7}
+      \field{extraname}{8}
       \field{sortinit}{9}
       \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{extradatescope}{labelyear}
