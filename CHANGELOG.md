@@ -8,6 +8,9 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ## Todo
 
+## 2022-02-26
+This changelog is not being actively used.
+## earlier...
 * check the identity of añjana
 * Smooth out the TeX file of the translation for formatting and some content arrangement.  Review the footnotes.
 * ~~Add Klebanov 2020 article on ophthalmic surgery to Zotero bibliography.~~ 
