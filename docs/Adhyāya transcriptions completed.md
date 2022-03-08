@@ -157,7 +157,7 @@ Adhyāya references are canonical (i.e., the Ācārya 1938 vulgate edition).
 | 6.13     | 👍 | 👍 | ✗ |      |
 | 6.14     | 👍 | 👍 | ✗ |      |
 | 6.15     | 👍        | 👍        | ✗ |      |
-| 6.16     | ✓ | ✓ | ✗ |      |
+| 6.16     | 👍 | 👍 | ✗ |      |
 | 6.17     | 👍 | 👍        | 👍(suspended) |      |
 | 6.18 | 👍 | 👍 | ✗ |      |
 | 6.19 | ✓ | ✓ | ✗ | |
@@ -217,3 +217,4 @@ Adhyāya references are canonical (i.e., the Ācārya 1938 vulgate edition).
 |          |           |           |              |      |
 |          |           |           |              |      |
 
+1
