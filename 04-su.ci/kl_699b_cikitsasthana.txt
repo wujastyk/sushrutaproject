@@ -12,10 +12,7 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <placeName>
-                     <settlement>Kathmandu</settlement>
-                     <country>Nepal</country>
-                  </placeName>
+                  <placeName> <settlement>Kathmandu</settlement> <country>Nepal</country> </placeName>
                   <institution>Kaiser Library</institution>
                   <repository><ref target="https://www.klib.gov.np/"
                      >https://www.klib.gov.np/</ref></repository>
@@ -45,14 +42,15 @@
                   </objectDesc>
                   <scriptDesc>
                      <scriptNote xml:id="script-śa-sa"><foreign xml:lang="sa">śa</foreign> and
-                           <foreign xml:lang="sa">sa</foreign> not distinguished.</scriptNote>
+                        <foreign xml:lang="sa">sa</foreign> not distinguished.</scriptNote>
                      <!--                     this śa/sa equivalence may be wrong. Still checking, 2021-06-12  - DW -->
+                     <scriptNote xml:id="script-ba-va"><foreign xml:lang="sa">ba</foreign> and
+                        <foreign xml:lang="sa">va</foreign> not distinguished.</scriptNote>
                   </scriptDesc>
                </physDesc>
 
                <history>
-                  <origin>
-                     <origDate calendar="Nepal" when="0301">M Saṃvat 301 (878 CE).</origDate>
+                  <origin> <origDate calendar="Nepal" when="0301">M Saṃvat 301 (878 CE).</origDate>
                   </origin>
                </history>
             </msDesc>
@@ -63,7 +61,8 @@
       <revisionDesc>
          <change when="2021-12-22" who="Deepro Chakraborty">Started transcription of 4.19</change>
          <change when="2022-01-08" who="Deepro Chakraborty">Added transcription of 4.20</change>
-      </revisionDesc>
+         <change when="2022-03-17" who="Dominik Wujastyk">Added the scriptNote for script-ba-va (ba/va
+            equivalence)</change>      </revisionDesc>
    </teiHeader>
 
    <text>
@@ -166,11 +165,11 @@
 
                <l xml:id="SS.4.19.43"/>
 
-               <milestone unit="folio" n="112_r1"/>
+               <milestone n="112_r1" unit="folio"/>
                <!--112_rIMG_0140.JPG-->
 
-               <l xml:id="SS.4.19.44">
-                  <pb n="112_r"/><lb n="1"/>asminn eva kaṣāyeṇa tailaṃ dhīro vipācayet ||
+               <l xml:id="SS.4.19.44"> <pb n="112_r"/><lb n="1"/>asminn eva kaṣāyeṇa tailaṃ dhīro
+                  vipācayet ||
                   <caesura/>
                    gojīviḍaṅgamadhukasarva<cb n="1"/>gandhais samanvitasamanvitaṃ || </l>
 
@@ -195,7 +194,7 @@
                <l xml:id="SS.4.19.51"/>
 
                <l xml:id="SS.4.19.52"> svehasvedopanāhā<unclear reason="damage">ṃ</unclear>ś ca <lb
-                     n="2"/>ślīpade nilaje bhiṣak ||
+                  n="2"/>ślīpade nilaje bhiṣak ||
                   <caesura/>
                   <unclear reason="faded">kṛtvā gulphopari sirāṃ vyādhayec caturaṅgule ||
                   </unclear></l>
@@ -256,8 +255,8 @@
                   <caesura/>
                    abhaktarocakañ caiva hanyāt sarvaṃ viṣāṇi ca || </l>
 
-               <l xml:id="SS.4.19.67">
-                  <cb n="2"/>eṣv eva siddhaṃ tailañ ca nasyābhyaṅgeṣu sevitaṃ ||
+               <l xml:id="SS.4.19.67"> <cb n="2"/>eṣv eva siddhaṃ tailañ ca nasyābhyaṅgeṣu sevitaṃ
+                  ||
                   <caesura/>
                    etān evāmayāṃ hanti ye ca du<lb n="7"/>ṣṭavraṇā nṛṇāṃ | </l>
 
@@ -279,7 +278,7 @@
 
                <p ana="trailer"> ci 19 <cb n="1"/>||0|| </p>
 
-               <milestone unit="folio" n="112_v2"/>
+               <milestone n="112_v2" unit="folio"/>
                <!--112_vIMG_0141.JPG-->
 
 
@@ -288,7 +287,7 @@
 
             <div n="20" type="adhyāya">
 
-               <milestone unit="folio" n="112_v2"/>
+               <milestone n="112_v2" unit="folio"/>
                <!--112_vIMG_0141.JPG-->
 
                <l xml:id="SS.4.20.1"> athātaḥ kṣudrarogāṇāñ cikitsitam vyākhyāsyāmaḥ || </l>
@@ -299,18 +298,18 @@
                   <caesura/>
                    yavakṣārasurāṣṭrikākākolīkalkaiś cālepayet | </l>
 
-               <l xml:id="SS.4.20.4">
-                  <lb n="3"/>syāmāpāṭhālāṅgalīkalkair vā pakvām vā pākavidhānenopacaret ||</l>
+               <l xml:id="SS.4.20.4"> <lb n="3"/>syāmāpāṭhālāṅgalīkalkair vā pakvām vā
+                  pākavidhānenopacaret ||</l>
 
                <l xml:id="SS.4.20.5-6"> yava<cb n="1"/>prakhyām a<unclear>m</unclear>bālajī<unclear
-                     reason="overwriting">ṃ</unclear> panasikām pāṣāṇagardabhaṃ kacchapikāṃ ca
+                  reason="overwriting">ṃ</unclear> panasikām pāṣāṇagardabhaṃ kacchapikāṃ ca
                   svedayitvā suradārukuṣṭhaharitā<cb n="2"/>lamanaḥśilākalkair ālepayet | pakvām vā
                   pākavidhānenopacaret || </l>
 
-               <l xml:id="SS.4.20.7-8">
-                  <lb n="4"/>vivṛtām indraviddhāṃ gardabhikāṃ jālagardabham irivellikāṃ gandhanāmā
-                  kakṣyām vi<cb n="1"/>sphoṭāṃś ca pittavisarpavidhānenopacaret || pakvāṃś ca
-                  madhurauṣadhasiddhena sarpiṣā ropayet | </l>
+               <l xml:id="SS.4.20.7-8"> <lb n="4"/>vivṛtām indraviddhāṃ gardabhikāṃ jālagardabham
+                  irivellikāṃ gandhanāmā kakṣyām vi<cb n="1"/>sphoṭāṃś ca
+                  pittavisarpavidhānenopacaret || pakvāṃś ca madhurauṣadhasiddhena sarpiṣā ropayet
+                  | </l>
 
                <l xml:id="SS.4.20.9-10"> cipyān <cb n="2"/>tūṣṇāmbunā pariṣecyotkṛtyāpanayec
                   cakratailenābhyajya sarjasacūrṇṇenācūrṇṇya bandhenopacared evam asakyam agninā
@@ -320,8 +319,8 @@
 
                <l xml:id="SS.4.20.12-13"> vidārikām abhyajya parisvedya vimlāpaye<cb n="2"/>t |
                   bilvamūlanāgadantikāvarṣābhūkalkaiś cālepayet | vraṇabhāvaṇam āpanna <lb n="6"
-                     /><unclear reason="faded">vā</unclear> madhurakaṣāyauṣadhasiddhena tailena
-                  ropayet | </l>
+                  /><unclear reason="faded">vā</unclear> madhurakaṣāyauṣadhasiddhena tailena ropayet
+                  | </l>
 
                <l xml:id="SS.4.20.14"/>
 
@@ -334,14 +333,14 @@
                    kacch<unclear reason="background_noise">a</unclear>vicarcikārakaśāsu kuṣṭhavat
                   pratīkāro viśeṣatas tu śatāhvāsarṣapakalkai<cb n="2"/>r ālepayet |
                   siddhārthakadāruharidrākalkair vā | saralātailena vā | kaṭu<pb n="113_r"
-                     /><!-- 113_r IMG_0138.JPG --><lb n="1"/>kauṣadhasiddhenābhyañjyāt |
-                     naktamālatai<cb n="1"/>lena vā |</l>
+                  /><!-- 113_r IMG_0138.JPG --><lb n="1"/>kauṣadhasiddhenābhyañjyāt |
+                  naktamālatai<cb n="1"/>lena vā |</l>
 
                <l xml:id="SS.4.20.19"> pakvāṃś ca pakvavidhānenopacaret pādadāryāṃ tu sirām vidhyet
                   | </l>
 
                <l xml:id="SS.4.20.20"> pādau snehasvedopapannā <cb n="2"/>madhūcchiṣṭā
-                     ghṛtavasāma<unclear reason="overwriting">jjā</unclear>bhi yavakṣāramiśrair
+                  ghṛtavasāma<unclear reason="overwriting">jjā</unclear>bhi yavakṣāramiśrair
                   ālepayet | </l>
 
                <l xml:id="SS.4.20.21-22"> alase tv āmla<lb n="2"/>kāñjikasiktau caraṇau
@@ -362,14 +361,14 @@
                <l xml:id="SS.4.20.27-29"> a<unclear reason="faded">rūṃ</unclear>ṣikā tu <lb n="4"
                   />jalūkābhiḥ śoṇitam avasicya nimbodakena parisicyāsvaviḍrasena la<cb n="1"
                   />vaṇapragāḍheṇanālepayet paṭolapicumardaharidrākalkair vā |
-                     madhukotpalatilairaṇḍamā<unclear reason="faded">rka</unclear><cb n="2"
-                  />vapatrair vā | indraluptoktena tailenābhyañjyāt || dāruṇake tu snigdha<lb n="5"
-                  />svinnasya lalāṭe sirāṃ vyadhet | </l>
+                  madhukotpalatilairaṇḍamā<unclear reason="faded">rka</unclear><cb n="2"/>vapatrair
+                  vā | indraluptoktena tailenābhyañjyāt || dāruṇake tu snigdha<lb n="5"/>svinnasya
+                  lalāṭe sirāṃ vyadhet | </l>
 
                <l xml:id="SS.4.20.30"> avapīḍaśiro bastyabhyaṃgāś cāse<cb n="1"/>vet |
                   kodravatṛṇakṣārauprakaprakṣālanañ ca || ❈ ||</l>
 
-               <milestone unit="folio" n="113_r5"/>
+               <milestone n="113_r5" unit="folio"/>
                <!-- 113_r IMG_0138.JPG -->
 
                <!-- now begins kalpasthāna Chapter 7 -->

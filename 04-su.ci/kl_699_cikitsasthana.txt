@@ -47,7 +47,9 @@
                      <scriptNote xml:id="script-śa-sa"><foreign xml:lang="sa">śa</foreign> and
                            <foreign xml:lang="sa">sa</foreign> not distinguished|</scriptNote>
                      <!--                     this śa/sa equivalence may be wrong. Still checking, 2021-06-12  - DW -->
-                  </scriptDesc>
+                     <scriptNote xml:id="script-ba-va"><foreign xml:lang="sa">ba</foreign>
+                        and <foreign xml:lang="sa">va</foreign> not
+                        distinguished.</scriptNote></scriptDesc>
                </physDesc>
 
                <history>
@@ -76,7 +78,8 @@
          <change when="2022-02-11" who="Harshal Bhatt">Added transcription of 4.25</change>
          <change when="2022-03-05" who="Harshal Bhatt">Added transcription of 4.31</change>
          <change when="2022-03-14" who="Harshal Bhatt">Added transcription of 4.32</change>
-         
+         <change when="2022-03-17" who="Dominik Wujastyk">Added the scriptNote for script-ba-va (ba/va
+            equivalence)</change>  
 
       </revisionDesc>
    </teiHeader>
@@ -2133,7 +2136,7 @@ Missing verses
                    kūcandanaṃ candanaṃ pāratañ ca kākolyādiḥ<lb n="6"/>kṣīrapiṣṭaś ca sarvaḥ</l>
 
                <l xml:id="SS.4.25.40"><del>sa</del>vasāmajjā madhūṃcchiṣṭaṃ ghṛtañ ca dugdhaṃ
-                  kvāthaḥ kṣīriṇāñca<cb n="1"/> drumāṇāṃ |
+                  kvāthaḥ kṣīriṇāñ ca<cb n="1"/> drumāṇāṃ |
                   <caesura/>
                    etat sarvam pakvam ekadhyatas tu mukhābhyaṅge sarpir uktaṃ pradhānaṃ |</l>
 
@@ -2142,7 +2145,7 @@ Missing verses
                   <caesura/>
                    padmākāraṃ nirvalīkañ ca vaktraṃ kuryād etat pīnagaṇḍaṃ<lb n="7"/> manojñaṃ |</l>
 
-               <l xml:id="SS.4.25.42">rājñā<cb n="1"/>metad yoṣitān cāpi teṣāṃ kuryād vaidyastat
+               <l xml:id="SS.4.25.42">rājñā<cb n="1"/>metad yoṣitān cāpi teṣāṃ kuryād vaidyas tat
                   samānāñ ca nityam </l>
 
                <l xml:id="SS.4.25.43"/>
