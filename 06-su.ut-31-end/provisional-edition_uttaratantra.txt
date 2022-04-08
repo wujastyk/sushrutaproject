@@ -77,7 +77,7 @@
       <div n="6" type="sthāna">
         <head>[Uttaratantra]</head>
 
-
+<!--
         <div n="2" type="adhyāya">
 
           <milestone n="158v_ IMG_ 0026.JPG : 1" unit="folio"/>
@@ -85,7 +85,7 @@
           <head>[Adhyāya 2: rough provisional ed. based on K]</head>
 
 
-          <!-- 158v :1 -->
+          <!-\- 158v :1 -\->
 
           <l xml:id="SS.6.2.1"> athātaḥ sandhigatarogavijñānīyam vyākhyāsyāmaḥ ||</l>
 
@@ -165,7 +165,7 @@
           <head>[Adhyāya 3: rough provisional ed. based on K]</head>
 
 
-          <!-- 158v :6 -->
+          <!-\- 158v :6 -\->
 
           <l xml:id="SS.6.3.1"> athāto vartmagatarogaviñjānīyam vyākhyāsyāmaḥ ||</l>
 
@@ -435,16 +435,16 @@
              niṣevitaṃ yad yakṛd añjanena vā
             <caesura/>
              nihanti naktāndhyam asaṃśayaṃ khalu || </l>
-          <!-- metre= Vaṃśastha -->
+          <!-\- metre= Vaṃśastha -\->
           <l xml:id="SS.6.17.25"/>
           <l xml:id="SS.6.17.26ab"><label>25</label> plīhā yakṛc cāpy upabhakṣayed ubhe
             <caesura/>
              prakalpya śūlye ghṛtatailasaṃyute |
             <caesura/>
-            <!-- vulgate 27 corresponds to <label>15</label> in the Nepalese recension--> bhavanti yāpyāḥ khalu
+            <!-\- vulgate 27 corresponds to <label>15</label> in the Nepalese recension-\-> bhavanti yāpyāḥ khalu
             ye ṣaḍāmayā
             <caesura/>
-             hared dhi tatra kṣatajaṃ sirāvyadhaiḥ || <!-- metre of 25 = kumārī -->
+             hared dhi tatra kṣatajaṃ sirāvyadhaiḥ || <!-\- metre of 25 = kumārī -\->
           </l>
           <l xml:id="SS.6.17.28cd"><label>26</label> virecayec cāpi purāṇasarpiṣā
             <caesura/>
@@ -548,7 +548,7 @@
              <label>40</label> manaḥśilātryūṣaṇaśaṅkhamākṣikaiḥ
             <caesura/>
              sasindhukāsīsarasāñjanaiḥ kriyā | </l>
-          <l xml:id="SS.6.17.44">hitaṃ <!-- hite in the MSS --> ca kāsīsarasāñjanāñjanaṃ
+          <l xml:id="SS.6.17.44">hitaṃ <!-\- hite in the MSS -\-> ca kāsīsarasāñjanāñjanaṃ
             <caesura/>
              vadanti pathyāguḍanāgarair yutaṃ ||
             <caesura/>
@@ -737,6 +737,8 @@
              kalpe nānāprakārāṇi tāny apīha prayojayet ||82|| iti || <sic/></l>
           <trailer/>
         </div>
+--> 
+        
         <div n="38" type="adhyāya">
           <!--                    From here down to the end of 6.4 is the text of KL 699, awaiting critical editing -->
           <head>[Adhyāya 38]</head>
