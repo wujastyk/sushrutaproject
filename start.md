@@ -13,7 +13,8 @@ The manuscript and edition transcriptions here at Saktumiva are at:
 * [Śārīrasthāna](https://saktumiva.org/wiki/wujastyk/susrutasamhita/03-su.sa/provisional-edition_sarirasthana) (provisional edition)
 * [Cikitsāsthāna](https://saktumiva.org/wiki/wujastyk/susrutasamhita/04-su.ci/04-ci-vulgate-edition) (vulgate edition)
 * [Kalpasthāna](https://saktumiva.org/wiki/wujastyk/susrutasamhita/05-su.ka/provisional-edition_kalpasthana) (provisional edition)
-* [Uttaratantra](https://saktumiva.org/wiki/wujastyk/susrutasamhita/06-su.ut/provisional-edition_uttaratantra) (provisional edition)
+* [Uttaratantra, adhyāyas 1-30](https://saktumiva.org/wiki/wujastyk/susrutasamhita/06-su.ut-1-30/provisional-edition_uttaratantra?upama_ver=h153dlm4gl) (provisional edition)
+* [Uttaratantra, adhyāyas 31-66](https://saktumiva.org/wiki/wujastyk/susrutasamhita/06-su.ut-31-end/provisional-edition_uttaratantra?upama_ver=h153eehd57) (provisional edition)
 
 “Vulgate edition” means that editorial work on the provisional edition has not yet begun. “Provisional edition” means that the project has released a provisional edition of parts of the work with full apparatus.
 
