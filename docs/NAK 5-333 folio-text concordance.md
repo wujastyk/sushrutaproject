@@ -351,13 +351,13 @@ For example, file `dscn3345 fol 370.jpg`  contains the image of MS folio 370v an
 |  |  |  |  |  |  |
 | not found | End of |  6.36(1) |  6.39 |   |   |
 | |  |  |  |  |  |
-| not found | Start of |  6.37(2) | 6.40  | atīsārapratiṣedham | 182 |
+| not found | Start of |  6.37(2) | 6.40.182 | atīsārapratiṣedham |  |
+| 486r:2 | Start of |  6.38(3) | 6.41.58 | śoṣapratiṣedham |  |
 | 486v:2 | End of |  6.37(2) | 6.40 | atīsārapratiṣedham |  |
-| 486r:2 | Start of |  6.38(3) | 6.41 | śoṣapratiṣedham | 58 |
 | 487upper:1 |  |  | 6.41 | 6.41.13–23 |  |
 |  | | |  |  | |
-| dscn 3414 fol 439.jpg lower:1 | |  | 6.41 | 6.41.23cd-6.41.32ab | |
-| dscn 3415 fol 440.jpg | |  | 6.41 | 6.41.33 - 6.41.48 | |
+| 439.jpg lower:1 | |  | 6.41 | 6.41.23cd-6.41.32ab | |
+| 440.jpg | |  | 6.41 | 6.41.33 - 6.41.48 | |
 | | | | | | |
 | 441r:6 | End of |  6.38(3) |  6.41 |   |   |
 | 441r:6 | Start of |  6.39(4) |  6.42 |   |   |
@@ -407,6 +407,8 @@ For example, file `dscn3345 fol 370.jpg`  contains the image of MS folio 370v an
 | 485r:6 | End of |  6.60(2) |  6.61 | apasmārapratiṣedham |   |
 | 485r:6 | Start of |  | 6.62 | unmādapratiṣedam |  |
 | 485v:6 | Start of |  6.61(3) |  6.62 | a short gandhakakalpa  declared by Nāgārjuna. Not in the vulgate, afaik. |   |
+| 400, 401, 402, 403top |  |  |  | a table of contents | |
+|  |  |  |  |  | |
 | 403r:1 |  |  | 6.62.3 |  |  |
 | 404v:3 | End of |  6.61(3) |  6.62 |   |   |
 | 404v:3 | Start of |  6.62 |  6.63 |   |   |
@@ -416,8 +418,10 @@ For example, file `dscn3345 fol 370.jpg`  contains the image of MS folio 370v an
 | 411v:3 | Start of |  6.64 | 6.65  |   |   |
 | 414v:6 | End of |  6.64 |  6.65 |   |   |
 |  |  |  |  | | |
-| Unidentified ff. |  |  |  | | |
-| dscn3464 fol 489.jpg |  |  |  | unidentified fragment of text | |
+| 415-438 |  |  |  | *Sauśrutanighaṇṭu* in 35 chapters | |
+|  | | |  | | |
+|  |  |  |  | | |
+| 489.jpg |  |  |  | unidentified fragment of text | |
 ## Notes from Harshal Bhatt 
 
 > In some printed editions, SS has following *Adhyāyas,* which are not found in this MS.
