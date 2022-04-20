@@ -1,5 +1,7 @@
 # Suśruta Project manuscript transcriptions
 
+[![DOI](https://zenodo.org/badge/305195084.svg)](https://zenodo.org/badge/latestdoi/305195084)
+
 This is the repository for the manuscript and edition transcriptions created as part of the [sushrutaproject.org](http://sushrutaproject.org), q.v. for the full details.
 
 
