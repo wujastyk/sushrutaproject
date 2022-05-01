@@ -8,6 +8,16 @@ The quality of both microfilms is rather inconsistent (some pictures are blurry)
 
 I (AK) have a vague memory that there were some instances, where A 45-5 documented a better state of the MS (fewer holes and broken edges) than A 1267-11.  (Check this.)
 
+> NAK 1-1079, is a composite  manuscript. It actually combines three different MSS of (I  guess) the same size: 
+>
+> * [(1)](http://ngmcp.fdm.uni-hamburg.de/mediawiki/index.php/A_1267-11(1)_(Suśrutasaṃhitā)) our N, 
+> * [(2)](http://ngmcp.fdm.uni-hamburg.de/mediawiki/index.php/A_1267-11(2)_Siddhāsārasaṃhitā) excerpts from the Siddhasāra (if I’m not mistaken, Emmerick used it in his work) and
+> * [(3)](http://ngmcp.fdm.uni-hamburg.de/mediawiki/index.php/A_1267-11(3)_(Vaidyaka)) something general medical. 
+>
+> Our file directory A 0045-05 contains N + Siddhasāra (starting from exposure 71), while directory A 1267-11 has only N.
+>
+> – From an email of Andrey, 2022-04-29
+
 In the table below we record the following information:
 
 * *folio:line:column*
