@@ -1,8 +1,11 @@
 # Concordance of adhyāya numbers across MSS
 Started by Dominik; currently maintained by Deepro
 
-| canonical (vulgate)      | name  | MS KL 699             | iti folio | MS NAK  5-333       | iti fol. | MS NAK 1-1079 | iti fol. |
+## Śālākyatantra
+
+| vulgate number | adhyāya name | MS KL 699             | iti folio | MS NAK  5-333       | iti fol. | MS NAK 1-1079 | iti fol. |
 | ------------------------ | ----------------------| --------- | --------------------| -------- | ------------- | -------- | -------- |
+|  |  |  |  |  |  |  |  |
 | 6.1  Śālākyatantra       |        | 6.1 Śālākyatantra 1   | 158v1     | 6.1 Śālākyatantra 1 | 355r5    |               |          |
 | 6.2  Śālākyatantra       |        | 6.2 Śālākyatantra 2   | 158v6     | 6.2 Śālākyatantra 2 | 356r1    |               |          |
 | 6.3  Śālākyatantra       |        | 6.3 Śālākyatantra 3   | 159v1     | 6.3 Śālākyatantra 3 | 357r6    |               |          |
@@ -15,8 +18,8 @@ Started by Dominik; currently maintained by Deepro
 | 6.10 Śālākyatantra       |        | 6.10 Śālākyatantra 10 | 163r2     | 6.10 Śālākyatantra 10| 354v3    |               |          |
 | 6.11 Śālākyatantra       |        | 6.11 Śālākyatantra 11 | 163v2     | 6.11 Śālākyatantra 11| 365v3    |               |          |
 | 6.12 Śālākyatantra       |        | 6.12 Śālākyatantra 12 | 164v4     | 6.12 Śālākyatantra 12| 367v7    |               |          |
-| 6.13 Śālākyatantra       |        | 6.13 Śālākyatantra 13 (13 & 14 of the vulgate is 13) | 165r4 | 6.13 Śālākyatantra 13 | 369r2 |          ||
-| 6.14 Śālākyatantra       |        | 6.13 Śālākyatantra 13 (13 & 14 of the vulgate is 13) | 165r4 | 6.13 Śālākyatantra 13 | 369r2 |          ||
+| 6.**13** Śālākyatantra   |        | 6.**13** Śālākyatantra 13 | 165r4 | 6.13 Śālākyatantra 13 | 369r2 |          ||
+| 6.**14** Śālākyatantra   |        | 6.**13** Śālākyatantra 13 | 165r4 | 6.13 Śālākyatantra 13 | 369r2 |          ||
 | 6.15 Śālākyatantra       |        | 6.14 Śālākyatantra 14 | 165v7     | 6.14 Śālākyatantra 14| 370v3    |               |          |
 | 6.16 Śālākyatantra       |        | 6.15 Śālākyatantra 15 | 166r3     | 6.15 Śālākyatantra 15| 371r3    |               |          |
 | 6.17 Śālākyatantra       |        | 6.16 Śālākyatantra 16 | 168r6     | 6.16 Śālākyatantra 16| 375v3    |               |          |
@@ -26,10 +29,16 @@ Started by Dominik; currently maintained by Deepro
 | 6.21 Śālākyatantra       |        | 6.20 Śālākyatantra 20 | 172r7     | 6.20 Śālākyatantra 20| 384r1    |               |          |
 | 6.22 Śālākyatantra       |        | 6.21 Śālākyatantra 21 | 173r1     | 6.21 Śālākyatantra 21| 385r5    |               |          |
 | 6.23 Śālākyatantra       |        | 6.22 Śālākyatantra 22 | 173r5     | 6.22 Śālākyatantra 22| 386r2    |               |          |
-| 6.24 Śālākyatantra       |        | 6.51 Kāyacikitsā 16   | 197v1     | 6.51 Kāyacikitsā 16  | 93v4 (dscn3443  fol 468.jpg)|  |    |
+| 6.24 Śālākyatantra       |        | **6.51** **Kāyacikitsā** 16 | 197v1     | 6.51 Kāyacikitsā 16  | 93v4 (dscn3443  fol 468.jpg)|  |    |
 | 6.25 Śālākyatantra       |        | 6.23 Śālākyatantra 23 | 173v4     | 6.23 Śālākyatantra 23| 387r1    |               |          |
 | 6.26 Śālākyatantra       |        | 6.24 Śālākyatantra 24 | 174v2     | 6.24 Śālākyatantra 24| 388v6    |               |          |
-| 6.27 Kaumārabhṛtyatantra |  | 6.25 Kumārabhṛtya 1   | 175r2     | 6.25 Kumāratantra 1  | 390r1    |               |          |
+|  | |  |  | |  | | |
+
+## Kumārabhṛtya
+
+| vulgate number | adhyāya name | MS KL 699             | iti folio | MS NAK  5-333       | iti fol. | MS NAK 1-1079 | iti fol. |
+| ------------------------ | ----------------------| --------- | --------------------| -------- | ------------- | -------- | -------- |
+|  |  |  |  |  |  |  |  || 6.27 Kaumārabhṛtyatantra |  | 6.25 Kumārabhṛtya 1   | 175r2     | 6.25 Kumāratantra 1  | 390r1    |               |          |
 | 6.28 Kaumārabhṛtyatantra |  | 6.26 Kumārabhṛtya 2   | 175r6     | 6.26 Kumāratantra 2  | 390v3    |               |          |
 | 6.29 Kaumārabhṛtyatantra |  | 6.27 Kumārabhṛtya 3   | 175v1     | 6.27 Kumāratantra 3  | 391r1    |               |          |
 | 6.30 Kaumārabhṛtyatantra |  | 6.28 Kumārabhṛtya 4   | 175v3     | 6.28 Kumāratantra 4  | 391r5    |               |          |
@@ -40,10 +49,17 @@ Started by Dominik; currently maintained by Deepro
 | 6.35 Kaumārabhṛtyatantra |  | 6.33 Kumārabhṛtya 9   | 176r6     | 6.33 Kumāratantra 9  | 393r3    |               |          |
 | 6.36 Kaumārabhṛtyatantra |  | 6.34 Kumārabhṛtya 10  | 176v1     | 6.34 Kumāratantra 10 | 394r7    |               |          |
 | 6.37 Kaumārabhṛtyatantra |  | 6.35 Kumārabhṛtya 11  | 176v7     | 6.35 Kumāratantra 11 | 394v1    |               |          |
+|  | |  |  |  |  | | |
+
+## Kāyacikitsā
+
+| vulgate number | adhyāya name | MS KL 699             | iti folio | MS NAK  5-333       | iti fol. | MS NAK 1-1079 | iti fol. |
+| ------------------------ | ----------------------| --------- | --------------------| -------- | ------------- | -------- | -------- |
+|  |  |  |  |  |  |  |  |
 | 6.38 Kaumārabhṛtyatantra |  | 6.58 Kāyacikitsā 23   | 202v1     | 6.58 Kāyacikitsā 23  | 106v3 (dscn3456  fol 481.jpg) | |   |
 | 6.39 |  |  |  | (SS.6.39.121-) | 398v (dscn3373 fol 401.jpg) | | |
 | 6.39 Kāyacikitsātantra   |    | 6.36 Kāyacikitsā 1    | 185_r6    | 6.36 Kāyacikitsā 1 (text missing after 6.39.164) | 400r1 (dscn3374 fol 399.jpg bottom) (final part is missing) | | |
-| 6.40 Kāyacikitsātantra | śoṣapratiṣedham | 6.37 Kāyacikitsā 2| 192_r2? (192_r IMG_0125.JPG, upper image) | 6.37 Kāyacikitsā 2, atīsāra - śoṣa-cikitsita | dscn3461  fol 486.jpg (1, folio non paginated), 6.40.182-6.41.10 | | |
+| 6.40 Kāyacikitsātantra | śoṣapratiṣedham | 6.37 Kāyacikitsā 2| 192_r2? (192_r IMG_0125.JPG top) | 6.37 Kāyacikitsā 2, atīsāra - śoṣa-cikitsita | dscn3461  fol 486.jpg (1, folio non paginated), 6.40.182-6.41.10 | | |
 | 6.41 Kāyacikitsātantra   |    | 6.38 Kāyacikitsā 3    | 182_v4    | 6.38 Kāyacikitsā 3   | 66v6 (dscn3416  fol 441.jpg) |  |   |
 | 6.42 Kāyacikitsātantra   |    | 6.39 Kāyacikitsā 4    | 188v1     | 6.39 Kāyacikitsā 4   | 71v2 (dscn3421  fol 446.jpg) |  |   |
 | 6.43 Kāyacikitsātantra   |    | 6.40 Kāyacikitsā 5    | 188v6     | 6.40 Kāyacikitsā 5   | 72r6 (dscn3421  fol 446.jpg) |  |   |
@@ -63,6 +79,12 @@ Started by Dominik; currently maintained by Deepro
 | 6.57 Kāyacikitsātantra   |    | 6.55 Kāyacikitsā 20   | 200r4     | 6.55 Kāyacikitsā 20  | 100v4 (dscn3450  fol 475.jpg)|  |   |
 | 6.58 Kāyacikitsātantra   | mūtrāghāta- | 6.56 Kāyacikitsā 21   | 201r1     | 6.56 Kāyacikitsā 21  | 103r1 (dscn3452  fol 477.jpg)|  |   |
 | 6.59 Kāyacikitsātantra   | mūtrakṛcchra- | 6.57 Kāyacikitsā 22   | 201v6     | 6.57 Kāyacikitsā 22  | 105r3 (dscn3452  fol 477.jpg)|  |   |
+
+## Kāyacikitsā/Bhūtavidyā
+
+| vulgate number | adhyāya name | MS KL 699             | iti folio | MS NAK  5-333       | iti fol. | MS NAK 1-1079 | iti fol. |
+| ------------------------ | ----------------------| --------- | --------------------| -------- | ------------- | -------- | -------- |
+|  |  |  |  |  |  |  |  |
 | 6.60                     |                      | 6.59 Kāyacikitsā 24   | 203v3     | 6.59 Bhūtavidyā 1    | 109v3 (dscn3459  fol 484.jpg)|  |   |
 | 6.61                     |                      | 6.60 Kāyacikitsā 25   | 204r3     | 6.60 Bhūtavidyā 2    | 110v6 (dscn3460  fol 485.jpg)|  |   |
 | 6.62                     |                      | 6.61 Kāyacikitsā 26   | 204v4     | 6.61 Bhūtavidyā 3    | (dscn3378 fol 403 bottom) & 112r3 (dscn3379  fol 404.jpg) |  |   |
