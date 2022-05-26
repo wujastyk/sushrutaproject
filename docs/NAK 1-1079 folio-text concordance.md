@@ -34,9 +34,9 @@ In the table below we record the following information:
   
   
   
-* *exposure*
+* *file names*
   
-  - The exposure number is the number of the exposure in the digital copy of the microfilm. It is recorded in the upper left corner of each photograph and is part of the file’s name.
+  - The file names are the number of the exposure in the digital copy of the microfilm. It is recorded in the upper left corner of each photograph and is part of the file’s name.
     Examples:
     A1267-11+103612+*<exposure>*.jpg
     A45-05+73274+*<exposure>*.jpg
@@ -44,7 +44,7 @@ In the table below we record the following information:
 
 | A 45-5 | A 45-5 | A1267-11 | Contents | atha phrase |
 | --- | -------- | --------------------- | ------------------------- | ---- |
-| *folio:line:column* | *exposure* | *exposure* | *(vulgate nos.)* |  |
+| *folio:line:column* | *file names* | *file names* | *vulgate nos.* |  |
 | 1v:1:a |    003:upper    | 037 | 1.1.1 | athāto vedotpattim ādhyāyaṃ vyākhyāsyāmaḥ // |
 | 2v:5:c |   005:upper   |                038 | 1.2.1      | athātaḥ śiśyopanayanīyam adhyāyaṃ vyā // |
 | 3r:4:c |   005:lower   |                038 | 1.3.1                       | athato 'dhyāyanasampradānīyaṃ vyā // |
