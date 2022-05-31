@@ -438,7 +438,7 @@ jpegs have the prefix DSCN that I’m not repeating each time.
 >
 > 6.38(12), *Yonivyāptapratiṣedhaḥ,* 32 verses 
 >
-> In *Uttarasthāna,* after 24th *Adhyāya,* *Kumārataṇtra* starts and colophon shows *kumāratantre prathamo dhyāyaḥ* instead of *pañcaviṁśo dhyāyaḥ* and it continues up to 35th *adhyāya.* I have given number as below:
+> In *Uttarasthāna,* after 24th *Adhyāya,* *Kumārataṇtra* starts and colophon shows *kumāratantre prathamo dhyāyaḥ* instead of *pañcaviṃśo dhyāyaḥ* and it continues up to 35th *adhyāya.* I have given number as below:
 >
 > *Kumāratantra*
 >
