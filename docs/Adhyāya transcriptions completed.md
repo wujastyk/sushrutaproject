@@ -1,6 +1,6 @@
 # Adhyāya transcriptions completed
 
-File maintained by Dominik Wujastyk (2021-)
+File maintained by Dominik Wujastyk (2021-).  The master copy of this file is kept in the `docs` directory at https://github.com/wujastyk/sushrutaproject.
 
 Adhyāya references are canonical (i.e., the Ācārya 1938 vulgate edition).
 
@@ -32,7 +32,7 @@ Adhyāya references are canonical (i.e., the Ācārya 1938 vulgate edition).
 | 1.16     | 👍        | 👍        | 👍           |
 | 1.17     | 👍 |     👍     | 👍 |
 | 1.18 | 👍 | 👍 | 👍 |
-| 1.19 | ✗ | ✓ | ✓ |
+| 1.19 | ✗ | ✓ | 👍 |
 | 1.20 | ✗ | ✓ | ✓ |
 | 1.21     | 👍        | 👍        | + |
 | 1.22     | 👍        | 👍        | ✓ |
