@@ -1,8 +1,9 @@
-\documentclass[14pt]{extarticle}
-\usepackage{polyglossia,fontspec,xunicode}
+\documentclass [12pt]{article}%[14pt]{extarticle}
+\usepackage{polyglossia}
 \usepackage[normalem]{ulem}
 \usepackage[noend,noeledsec,noledgroup]{reledmac}
-\usepackage[margin=1in]{geometry}
+%\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
 
 \arrangementX[A]{paragraph}
 \arrangementX[B]{paragraph}
@@ -21,7 +22,7 @@
 
 \setdefaultlanguage{sanskrit}
 \setotherlanguage{english}
-\newfontfamily\devanagarifont{Brill}
+\newfontfamily\devanagarifont{TeX Gyre Pagella}
 %\newfontfamily{\devafont}{Pedantic Devanagari}
 
 \usepackage[Devanagari,DevanagariExtended]{ucharclasses}
@@ -43,20 +44,36 @@
 \newcommand{\add}{\emph{add.}}
 \newcommand{\kakapada}{$\mathcal{X}$}
 
+\title{Suśrutasaṃhitā, sūtrasthāna, adhyāya 16}
+\date{Draft of \today\\ \copyright\ \href{http://sushrutaproject.org}{Suśruta Project}}
+
+\setcounter{page}{36}
 \begin{document}
     \raggedright
+    
 \input{sanskrit-hyphenations}
 
 \lineation{page}
 \begingroup
 \beginnumbering
 
+\section*{Critical Edition of Sūtrasthāna 16}
+
+\emph{\footnotesize The first layer of variants gives those of the Nepalese MSS (K, N and H); 
+the second layer 
+is those of the 
+    vulgate edition, Trivikramaja Ācārya 1938 (A). A wavy underline (\uwave{xyz}) marks an 
+    unclear reading.}
+
+\bigskip
+
 \pstart
 athātaḥ \edtext{karṇṇavyadhavidhim}{\Dfootnote{karṇavyadhabandhavidhim adhyāyaṃ  A.}
 } \edtext{vyākhyāsyāmaḥ}{\lemma{vyākhyāsyāmaḥ}\Afootnote{vyā K.}\Dfootnote{\add\ yathovāca bhagavān 
   dhanavatariḥ || A.}
 }||1||
-\pend
+\pend\bigskip
+
 
 
 \pstart
@@ -93,21 +110,22 @@ kṛtamaṅgalaṃ\edtext{svastivācanan}{
 } \edtext{pratanuṃ}{
   \Afootnote{pratanū N H.}
 } sūcyā\edlabel{SS.1.16.3--35} bahalam \edtext{ārayā}{\lemma{ārayā}\Dfootnote{\add\ tataḥ praveśayet praveśayet || A.}
-}\edlabel{SS.1.16.3--37} ||2||
-\footnoteD{Ḍalhaṇa records the alternative reading \emph{bhakṣyaviśeṣair vā} before \emph{bālakrīḍanakaiḥ pralobhya} in the vulgate.}
- \pend
+}\edlabel{SS.1.16.3--37} ||2||\footnoteD{Ḍalhaṇa records the alternative reading 
+\emph{bhakṣyaviśeṣair vā} before \emph{bālakrīḍanakaiḥ pralobhya} in the vulgate.}
+ \pend\bigskip
 
 
 \pstart
-\edtext{śoṇitabahutvanivedanāyāñ}{\lemma{°bahutvanivedanāyāñ}\Afootnote{°bahutveti vedanāś N; °bahutvanivedanāyā\uwave{c} H.} \Dfootnote{°bahutvena vedanayā A.}
+\edtext{śoṇitabahutvanivedanāyāñ}{\lemma{°bahutvanivedanāyāñ}\Afootnote{°bahutveti 
+vedanāś N; °bahutva nivedanāyā\uwave{c} H.} \Dfootnote{°bahutvena vedanayā A.}
 } cānyadeśaviddham iti jānīyāt | \edtext{nirupadravatā}{\lemma{°dravatā}
   \Dfootnote{°dravatayā  A.}
-} taddeśaviddhaliṅgam\edlabel{SS.1.16.4--6} \edtext{||3||
-\footnoteD{At this point, witness K is missing a folio, so the rest of this chapter is constructed on the basis of witnesses N and H.}
+} taddeśaviddhaliṅgam\edlabel{SS.1.16.4--6} \edtext{||3||\footnoteD{At this point, witness K 
+is missing a folio, so the rest of this chapter is constructed on the basis of witnesses N and H.}
 }{
   \linenum{|\xlineref{SS.1.16.4--6}}\lemma{°viddhaliṅgam}\Dfootnote{°viddham iti  A.}
 }
-\pend
+\pend\bigskip
 
 
 \pstart
@@ -128,10 +146,8 @@ kṛtamaṅgalaṃ\edtext{svastivācanan}{
 }manyāstambhāpatānakaśirograhakarṇṇaśūlāni \edtext{bhavanti}{
 \lemma{bhavanti}  \Dfootnote{\add\  teṣu yathāsvaṃ pratikurvīt || kliṣṭajihmāpraśastasūcīvyadhād gāḍhataravartitvād  A.}
 }
- \edtext{||4||}{
-\linenum{|\xlineref{SS.1.16.5--0}}\lemma{tatra\ldots ||4||}\Afootnote{\omit\ K.}
-}
-\pend
+ ||4||
+\pend\bigskip
 
 
 \pstart
@@ -143,12 +159,11 @@ doṣasamudayād \edlabel{SS.1.16.6--0} apraśastavyadhād \edtext{vā}{
   \Afootnote{°gandarvahastamūlai N.}\lemma{yavamadhuka°} \Dfootnote{madhukairaṇḍamūla° A.}\lemma{°mañjiṣṭhāgandharvvahastamūlair} \Dfootnote{°mañjiṣṭhāyavatilakalkair A.}
 } mmadhughṛtapragāḍhair ālepayet \edtext{|}{\lemma{ālepayet}
   \Dfootnote{\add\  tāvad yāvat surūḍha iti ||  A.}
-} surūḍhañ cainam punar \edtext{vvidhyet}{\Dfootnote{\add\  vidhānaṃ tu pūrvoktam eva ||  A.}} \edtext{||5||}{
-  \linenum{|\xlineref{SS.1.16.6--0}}\lemma{doṣasamudayād\ldots 
-  ||5||}\Afootnote{\omit\ K.}
-} 
-\footnoteD{Ḍalhaṇa (1.16.6) states that some do not read \emph{surūḍhañ cainam punar vidhyet}.}
-\pend
+} surūḍhañ cainam punar \edtext{vvidhyet}{\Dfootnote{\add\  vidhānaṃ tu pūrvoktam eva 
+||  A.}} ||5||\footnoteD{Ḍalhaṇa (1.16.6) stated that some do not read \emph{surūḍhañ 
+cainam punar 
+vidhyet}.}
+\pend\bigskip
 
 
 \pstart
@@ -161,11 +176,8 @@ doṣasamudayād \edlabel{SS.1.16.6--0} apraśastavyadhād \edtext{vā}{
   \Afootnote{°tarīṃ N; °tarīṅ H.}
 } \edtext{kurvvīta}{
   \Dfootnote{dadyāt  A.}
-} pariṣekañ ca tam eva \edtext{||6||}{
-  \linenum{|\xlineref{SS.1.16.7--1}}\lemma{samyagviddham\ldots 
-  ||6||}\Afootnote{\omit\ K.}
-}
-\pend
+} pariṣekañ ca tam eva ||6||
+\pend\bigskip
 
 
 \pstart
@@ -174,12 +186,9 @@ doṣasamudayād \edlabel{SS.1.16.6--0} apraśastavyadhād \edtext{vā}{
 } pravarddhanārthaṃ \edtext{laghupravarddhanakena}{\lemma{laghu°}
   \Afootnote{\uwave{la}° N.} \lemma{°varddhanakena \emph{em.}}  \Afootnote{°vardhanakāmo N; °varddhanakāmā H.} \lemma{°pravarddhanakena \emph{em.}}\Dfootnote{°vardhanakaṃ A.} 
 } muñcet\edlabel{SS.1.16.8--6} \edtext{||7||}{
-  \linenum{|\xlineref{SS.1.16.8--1}}\lemma{atha\ldots ||7||}\Afootnote{\omit\ K.}
   \linenum{|\xlineref{SS.1.16.8--6}}\lemma{muñcet}\Dfootnote{kuryāt  A.}
 }
-\pend
-
-\newpage
+\pend\bigskip
 
 \pstart
 \begin{verse}
@@ -192,11 +201,9 @@ doṣasamudayād \edlabel{SS.1.16.6--0} apraśastavyadhād \edtext{vā}{
   \Afootnote{doṣaṭo N H.}
 }doṣato vābhighātād vā \edtext{sandhānān}{
 \lemma{sandhānān}\Dfootnote{sandhānaṃ  A.}
-} tasya me \edtext{śṛṇu}{
-  \linenum{|\xlineref{SS.1.16.9--1}}\lemma{evaṃ\ldots ||8|| }\Afootnote{\omit\ K.}
-} ||8|| 
+} tasya me śṛṇu ||8|| 
 \end{verse}
-\pend
+\pend\bigskip
 
 
 \pstart
@@ -256,11 +263,13 @@ paryantayoś \edtext{ca}{
   \Afootnote{°śrāva° H.}
 }\edtext{śopha}{\lemma{°śopha°}
   \Afootnote{°sopha° N.}\Dfootnote{\omit\ A.} 
-}yuktā na siddhim upayānti \edtext{||9||}{
-  \linenum{|\xlineref{SS.1.16.10--1}}\lemma{tatra\ldots ||9||}\Afootnote{\omit\ K.}
-} 
-\footnoteD{Cakrapāṇi (1.16.9–13) and Ḍalhaṇa (1.16.10) point out that others read \emph{pañcadaśakarṇakṛtayaḥ} (instead of \emph{pañcadaśasandhānākṛtayaḥ}). Ḍalhaṇa (1.16.10) also mentions that some read \emph{samunnatasamobhayapāliḥ} (instead of \emph{vṛttāyatasamobhayapālir}) and others do not read \emph{saṃkṣiptādayaḥ pañcāsādhyāḥ}.}
- \pend
+}yuktā na siddhim upayānti ||9||\footnoteD{Cakrapāṇi (1.16.9–13) and Ḍalhaṇa (1.16.10) 
+pointed out that others read 
+\emph{pañcadaśakarṇakṛtayaḥ} (instead of \emph{pañcadaśasandhānākṛtayaḥ}). Ḍalhaṇa 
+(1.16.10) also mentioned that some read \emph{samunnatasamobhayapāliḥ} (instead of 
+\emph{vṛttāyatasamobhayapālir}) and others do not read \emph{saṃkṣiptādayaḥ 
+pañcāsādhyāḥ}.}
+ \pend\bigskip
 
 
 \pstart
@@ -276,7 +285,7 @@ paryantayoś \edtext{ca}{
   nirlikhya śāstravit || A.}
 }
 
-\pend
+\pend\bigskip
 
 
 \pstart
@@ -339,11 +348,11 @@ paryantayoś \edtext{ca}{
 } kapālacūrṇṇenāvakīryācārikam upadiśet | 
 dvivraṇīyoktena\edlabel{SS.1.16.15--61} 
 cānnenopacaret\edlabel{SS.1.16.15--62} \edtext{||10||}{
-  \linenum{|\xlineref{SS.1.16.15--1}}\lemma{ato\ldots ||10||}\Afootnote{\omit\ K.}
-  \linenum{|\xlineref{SS.1.16.15--61}}\lemma{cānnenopacaret}\Afootnote{\uwave{upapocaret} N.}
+  \linenum{|\xlineref{SS.1.16.15--61}}\lemma{cānnenopacaret}\Afootnote{\uwave{upapocaret}
+   N.}
   \linenum{|\xlineref{SS.1.16.15--62}}\lemma{cānnenopacaret}\Dfootnote{ca vidhānenopacaret  A.}
 }
-\pend
+\pend\bigskip
 
 
 \pstart
@@ -352,7 +361,7 @@ cānnenopacaret\edlabel{SS.1.16.15--62} \edtext{||10||}{
   \lemma{\emph{inserted passage}}\Afootnote{\add\
   || bha || N.}\Dfootnote{bhavati cātra | A.}
 }%
-%\pend
+%\pend\bigskip
 %
 %
 %\pstart
@@ -361,12 +370,10 @@ cānnenopacaret\edlabel{SS.1.16.15--62} \edtext{||10||}{
 } divāsvapnaṃ vyāyāmam atibhojanam |\\  
 vyavāyam \edtext{agnisantāpam}{ \Afootnote{āgnisantāpa N.}
 } vākśramañ ca\edlabel{SS.1.16.16x-10} \edtext{vivarjjayet}{
-  \linenum{|\xlineref{SS.1.16.16x-1}}\lemma{vighaṭṭanan\ldots 
-  ||11|| }\Afootnote{\omit\ K.}
   \linenum{|\xlineref{SS.1.16.16x-10}}\lemma{vivarjjayet}\Afootnote{varjayet N.}
 } ||11|| 
 \end{verse}
-\pend
+\pend\bigskip
 
 
 \pstart
@@ -395,11 +402,8 @@ vyavāyam \edtext{agnisantāpam}{ \Afootnote{āgnisantāpa N.}
   śophavān}\Dfootnote{°vṛttarakte śyāvaśophavān  A.}
 } \edtext{kṣīṇālpamāṃso}{\lemma{kṣīṇālpa°}
   \Afootnote{kṣīṇo lpa° N.}\Dfootnote{kṣīṇo'lpa° A.}
-} na vṛddhim upaiti \edtext{||12||}{
-  \linenum{|\xlineref{SS.1.16.17--1}}\lemma{nātiśuddharaktam\ldots 
-  ||12||}\Afootnote{\omit\ K.}
-}
-\pend
+} na vṛddhim upaiti ||12||
+\pend\bigskip
 
 
 \pstart
@@ -419,11 +423,10 @@ vyavāyam \edtext{agnisantāpam}{ \Afootnote{āgnisantāpa N.}
 } punar \edtext{api}{
   \Dfootnote{\omit\  A.}
 } chidyeta\edlabel{SS.1.16.18--18} \edtext{||13||}{
-  \linenum{|\xlineref{SS.1.16.18--1}}\lemma{sa\ldots ||13||}\Afootnote{\omit\ K.}
-  \linenum{|\xlineref{SS.1.16.18--18}}\lemma{chidyeta}\Dfootnote{chidyate 
+    \linenum{|\xlineref{SS.1.16.18--18}}\lemma{chidyeta}\Dfootnote{chidyate 
   vā A.}
 }
-\pend
+\pend\bigskip
 
 
 \pstart
@@ -438,12 +441,13 @@ vyavāyam \edtext{agnisantāpam}{ \Afootnote{āgnisantāpa N.}
 } pācayitvā \edtext{svanuguptan}{\lemma{°guptan}
   \Afootnote{°guptaṃ N.}\Dfootnote{°guptaṃ A.}
 } nidadhyāt\edlabel{SS.1.16.19--12} \edtext{||14||}{
-  \linenum{|\xlineref{SS.1.16.19--1}}\lemma{athāpraduṣṭa°\ldots
-   ||14||}\Afootnote{\omit\ K.}
   \linenum{|\xlineref{SS.1.16.19--12}}\lemma{nidadhyāt}\Afootnote{nidadyāt N.}
-} 
-\footnoteD{Ḍalhaṇa (1.16.18) notes that some read \emph{rājasarṣapajaṃ} in the place of \emph{gaurasarṣapajaṃ}. This reading appears to have been accepted by Cakrapāṇi (1.16.18–20), who glosses \emph{rājasarṣapaja} as \emph{śvetasarṣapa}. Cakrapāṇi also says that some read sarpis in the place of \emph{payas}. In the compound beginning with \emph{arka}, Ḍalhaṇi notes that some read \emph{arkapuṣpī}.}
- \pend
+}\footnoteD{Ḍalhaṇa (1.16.18) noted that some read \emph{rājasarṣapajaṃ} in the place of 
+\emph{gaurasarṣapajaṃ}. This reading appears to have been accepted by Cakrapāṇi 
+(1.16.18–20), who glosses \emph{rājasarṣapaja} as \emph{śvetasarṣapa}. Cakrapāṇi also 
+said that some read sarpis in the place of \emph{payas}. In the compound beginning with 
+\emph{arka}, Ḍalhaṇa noted that some read \emph{arkapuṣpī}.}
+ \pend\bigskip
 
 
 \pstart
@@ -460,13 +464,11 @@ vyavāyam \edtext{agnisantāpam}{ \Afootnote{āgnisantāpa N.}
   mrakṣayed budhaḥ}\Dfootnote{snehenaitena yojayet  A.}
 } | \\ 
 \edtext{tato'nupadravaḥ}{\Afootnote{tato nupadravaḥ H; tato nupadravam N.}
-} samyag balavāṃś ca \edtext{vivarddhate}{
-  \linenum{|\xlineref{SS.1.16.20--1}}\lemma{svedito\ldots 
-  ||15||}\Afootnote{\omit\ K.}
-} ||15||
-\footnoteD{N has a \emph{kākapāda} after \emph{ane}, but the missing letter (one would expect '\emph{na}') has not been supplied in a margin or elsewhere.}
+} samyag balavāṃś ca vivarddhate ||15||\footnoteD{N has a \emph{kākapāda} after 
+\emph{ane}, but the missing letter (one would expect '\emph{na}') has not been supplied in 
+a margin or elsewhere.}
  \end{verse}
-\pend
+\pend\bigskip
 %
 
 \pstart
@@ -476,13 +478,12 @@ vyavāyam \edtext{agnisantāpam}{ \Afootnote{āgnisantāpa N.}
   codvartanaṃ hitam |  śatāvaryaśvagandhābhyāṃ payasyair aṇḍajīvanaiḥ || tailaṃ vipakvaṃ sakṣīram 
   abhyaṅgāt pālivardhanam | A.}
 }%
-%\pend
+%\pend\bigskip
 %
 %
 %\pstart
 ye\edlabel{SS.1.16.22--1} tu karṇṇā na varddhante 
 snehasvedopapāditāḥ\edlabel{SS.1.16.22--6} \edtext{|}{
-  \linenum{|\xlineref{SS.1.16.22--1}}\lemma{ye\ldots °pāditāḥ}\Afootnote{\omit\ K.}
   \linenum{|\xlineref{SS.1.16.22--6}}\lemma{snehasvedopa°}\Dfootnote{svedasnehopa°  A.}
 }
 \\
@@ -494,15 +495,16 @@ snehasvedopapāditāḥ\edlabel{SS.1.16.22--6} \edtext{|}{
   \Afootnote{kuyāt N.}
 } \edtext{prachānam}{
   \Afootnote{prachannam H.}
-} eva ca\edlabel{SS.1.16.23--8} \edtext{||16||
-\footnoteD{Ḍalhaṇa (1.16.23) notes that some read \emph{teṣām apāṅgacchedyaṃ hi kāryam ābhyantaraṃ bhavet}.}
+} eva ca\edlabel{SS.1.16.23--8} \edtext{||16||\footnoteD{Ḍalhaṇa (1.16.23) noted that some 
+read \emph{teṣām apāṅgacchedyaṃ hi 
+kāryam ābhyantaraṃ bhavet}.}
 }{
   \linenum{|\xlineref{SS.1.16.23--1}}\lemma{teṣām\ldots ||16||}\Afootnote{\omit\ 
   K.}
   \linenum{|\xlineref{SS.1.16.23--8}}\lemma{ca}\Dfootnote{tu  A.}
 }
 \end{verse}
-\pend
+\pend\bigskip
 
 
 \pstart\begin{verse}
@@ -511,7 +513,7 @@ snehasvedopapāditāḥ\edlabel{SS.1.16.22--6} \edtext{|}{
   vyāpadaḥ syus tato dhruvāḥ || baddhamātraṃ tu yaḥ karṇaṃ 
   sahasaivābhivardhayet |  āmakośī samādhmātaḥ kṣipram eva vimucyate || A.}
 }%
-%\pend
+%\pend\bigskip
 %
 %
 %\pstart
@@ -527,11 +529,10 @@ yo yathā \edtext{suniviṣṭaḥ}{
 } tat tathā \edtext{yojayed}{
   \Afootnote{yojaye N.}\lemma{yojayed
   bhiṣak}\Dfootnote{viniyojayet A.}
-} \edtext{bhiṣak}{
-  \linenum{|\xlineref{SS.1.16.26.0--1}}\lemma{amitāḥ\ldots 
-  ||17||}\Afootnote{\omit\ K.}}
- ||17||
-\footnoteD{Ḍalhaṇa (1.16.26) states that some read \emph{suniviṣṭaḥ} (the reading of the Nepalese version) instead of \emph{suviśiṣṭaḥ}.}
+} bhiṣak
+ ||17||\footnoteD{Ḍalhaṇa (1.16.26) stated that some read \emph{suniviṣṭaḥ} (the reading of 
+ the 
+Nepalese version) instead of \emph{suviśiṣṭaḥ}.}
 \edtext{}{
   \lemma{\emph{inserted passage}}\Dfootnote{(karṇapālyāmayānnṇnāṃ punar 
   vakṣyāmi suśruta |  karṇapalyāṃ prakupaitā vātapittakaphās trayaḥ || dvidhā vāpyatha saṃsṛṣṭāḥ 
@@ -562,8 +563,8 @@ yo yathā \edtext{suniviṣṭaḥ}{
   piṣṭais taiś ca ghṛtānvitaiḥ |  jīvakādyaiḥ sasarpiṣkair dahyamānaṃ pralepayet ||) A.}
 }
  \end{verse} 
-\pend
-%\pend
+\pend\bigskip
+%\pend\bigskip
 %
 %
 %\pstart
@@ -578,12 +579,9 @@ surūḍho 'vedano \edtext{yas}{
   \Dfootnote{ca  A.}
 } \edtext{tu}{
   \Afootnote{tat N H.}
-} taṃ karṇṇaṃ varddhayec \edtext{chanaiḥ}{
-  \linenum{|\xlineref{SS.1.16.25--0}}\lemma{jātaromā\ldots 
-  ||18||}\Afootnote{\omit\ K.}
-} ||18|| 
+} taṃ karṇṇaṃ varddhayec chanaiḥ ||18|| 
 \end{verse}
-\pend
+\pend\bigskip
 
 
 \pstart
@@ -597,13 +595,12 @@ vakṣyāmi sandhānavidhiṃ yathāvat |\\
 \edtext{nāsāpramāṇaṃ}{ \lemma{°pramāṇaṃ} \Afootnote{°pramāṇa° N.}
 }  \edtext{pṛthivīruhāṇāṃ}{ \lemma{°vīruhāṇāṃ} \Afootnote{°vīruhāṇam N.}
 } \\  
-\edtext{patraṃ}{\Afootnote{patra N.}} gṛhītvā \edtext{tv}{
-  \linenum{|\xlineref{SS.1.16.27--0}}\lemma{viśleṣitāyām\ldots 
-  ||19||}\Afootnote{\omit\ K.}
-} avalambi tasya ||19||
-\footnoteD{Cakrapāṇidatta says that others read \emph{nāsāsandhānavidhim} here. Ḍalhaṇa (1.16.27–31) states that some read, \emph{chinnāṃ tu nāsikāṃ dṛṣṭvā vayaḥsthasya śarīriṇaḥ | nāsānurūpaṃ saṃcchidya patraṃ gaṇḍe niveśayet ||}}
+\edtext{patraṃ}{\Afootnote{patra N.}} gṛhītvā tv avalambi tasya 
+||19||\footnoteD{Cakrapāṇidatta said that others read \emph{nāsāsandhānavidhim} here. 
+Ḍalhaṇa (1.16.27–31) stated that some read, \emph{chinnāṃ tu nāsikāṃ dṛṣṭvā 
+vayaḥsthasya śarīriṇaḥ | nāsānurūpaṃ saṃcchidya patraṃ gaṇḍe niveśayet ||}}
  \end{verse}
-\pend
+\pend\bigskip
 
 
 \pstart
@@ -614,11 +611,9 @@ vakṣyāmi sandhānavidhiṃ yathāvat |\\
 vilikhya cāśu pratisandadhīta\\ 
 \edtext{taṃ}{\Dfootnote{tat  A.}
 } \edtext{sādhubaddham}{\lemma{°baddham}\Afootnote{°vaddha° N.}  \Dfootnote{°bandhair A.}
-  \linenum{|\xlineref{SS.1.16.28--1}}\lemma{tena\ldots 
-  ||20|| }\Afootnote{\omit\ K.}
 } bhiṣag apramattaḥ ||20|| 
 \end{verse}
-\pend
+\pend\bigskip
 
 
 \pstart
@@ -641,7 +636,7 @@ nāḍīdvayenābhisamīkṣya\edlabel{SS.1.16.29--5}
 \Afootnote{pattrāṅga° H; pattaṅga° N.}\Dfootnote{pataṅga° A.}
 } ca ||21|| 
 \end{verse}
-\pend
+\pend\bigskip
 
 
 \pstart
@@ -655,12 +650,9 @@ ghṛtañ ca pāyyaḥ sa naraḥ sujīrṇṇe\\
 snigdho \edtext{virecyaḥ}{\Afootnote{virecya N H.}
 } \edtext{svayathopadeśam}{ \lemma{°deśam}
 \Afootnote{°deśaḥ N.}\lemma{svayatho°}\Dfootnote{sa yatho° A.}
-} ||22||\edlabel{SS.1.16.30--18}\edtext{}{
-  \linenum{|\xlineref{SS.1.16.30--0}}\lemma{saṃchādya\ldots 
-  ||22||}\Afootnote{\omit\ K.}
- } 
+} ||22||\edlabel{SS.1.16.30--18} 
 \end{verse}
-\pend
+\pend\bigskip
 
 
 \pstart
@@ -691,7 +683,7 @@ iti ||23|| \edtext{om}{
   K.}
   } || 
 \end{verse}
-\pend
+\pend\bigskip
 
 
 \pstart
@@ -700,7 +692,7 @@ iti ||23|| \edtext{om}{
   vinauṣṭhasya 
   nāsāsandhānavad vidhim |  ya evam eva jānīyāt sa rājñaḥ kartum arhati || A.}
 }
-\pend
+\pend\bigskip
 
 
 
