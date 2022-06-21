@@ -165,7 +165,7 @@ Adhyāya references are canonical (i.e., the Ācārya 1938 vulgate edition).
 | 6.21 | 👍 | 👍 | ✗ |
 | 6.22 | 👍 | 👍 | ✗ |
 | 6.23 | 👍 | 👍 | ✗ |
-| 6.24 | ✓ | ✓ | ✗ |
+| 6.24 | ✗ | 👍 | ✗ |
 | 6.25 | 👍 | 👍                                                            | ✗ |
 | 6.26 | 👍 | 👍 | ✗ |
 | 6.27     | 👍 | 👍 | ✗ |
@@ -177,7 +177,7 @@ Adhyāya references are canonical (i.e., the Ācārya 1938 vulgate edition).
 | 6.33     | 👍 | 👍 | ✗ |
 | 6.34     | 👍 | 👍 | ✗ |
 | 6.35     | 👍 | 👍 | ✗ |
-| 6.36     | 👍 | 👍 | ✗ |
+| 6.36 | 👍 | 👍 | ✗ |
 | 6.37     | 👍 | 👍 | ✗ |
 |          |           |           |              |
 | (chapters | KL 699    | NAK 5-333 | NAK 1-1079)  |
@@ -217,4 +217,3 @@ Adhyāya references are canonical (i.e., the Ācārya 1938 vulgate edition).
 |          |           |           |              |
 |          |           |           |              |
 
-1
