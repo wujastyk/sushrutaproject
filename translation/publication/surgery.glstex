@@ -1,0 +1,56 @@
+\glsnoexpandfields
+\providecommand{\bibglshashchar}{\expandafter\@gobble\string\#}
+\providecommand{\bibglscircumchar}{\expandafter\@gobble\string\^}
+\providecommand{\bibglsdollarchar}{\expandafter\@gobble\string\$}
+\providecommand{\bibglsampersandchar}{\expandafter\@gobble\string\&}
+\providecommand{\bibglsunderscorechar}{\expandafter\@gobble\string\_}
+\providecommand{\bibglshrefchar}[2]{\glspercentchar #1}
+\providecommand{\bibglshrefunicode}[2]{#2}
+\providecommand{\bibglshexunicodechar}[1]{\csname ifHy@unicode\endcsname\texorpdfstring{\symbol{\string"#1}}{\unichar{\string"#1}}\else\symbol{\string"#1}\fi}
+\providecommand{\bibglsusesee}[1]{\glsxtrusesee{#1}}
+\providecommand{\bibglsusealias}[1]{%
+ \glsxtrifhasfield{alias}{#1}%
+ {\expandafter\glsseeformat\expandafter{\glscurrentfieldvalue}{}}%
+ {}%
+}
+\providecommand{\bibglsuseseealso}[1]{\glsxtruseseealso{#1}}
+\providecommand{\bibglsdelimN}{\delimN}
+\providecommand{\bibglslastDelimN}{,~}
+\providecommand{\bibglsrange}[1]{#1}
+\providecommand{\bibglsinterloper}[1]{#1\bibglsdelimN }
+\providecommand{\bibglspassimname}{passim}
+\providecommand{\bibglspassim}{ \bibglspassimname}
+\providecommand*{\bibglshyperlink}[2]{\glshyperlink[#1]{#2}}
+
+\providecommand{\bibglsuppercase}{\MakeTextUppercase}
+\providecommand{\bibglslowercase}{\MakeTextLowercase}
+\providecommand{\bibglsfirstuc}{\makefirstuc}
+\providecommand{\bibglstitlecase}{\capitalisewords}
+
+\providecommand{\bibglsprimaryprefixlabel}[1]{}
+\providecommand{\bibglsdualprefixlabel}[1]{}
+\providecommand{\bibglstertiaryprefixlabel}[1]{}
+\providecommand{\bibglsexternalprefixlabel}[2]{}
+
+\bibglstertiaryprefixlabel{tertiary.}
+\bibglsdualprefixlabel{dual.}
+\bibglsprimaryprefixlabel{}
+\providecommand{\bibglsseesep}{, }
+
+\providecommand{\bibglsseealsosep}{, }
+
+\providecommand{\bibglsaliassep}{, }
+
+\providecommand*{\bibglsflattenedhomograph}[2]{#1}
+\providecommand{\bibglsnewentry}[4]{%
+ \longnewglossaryentry*{#1}{name={#3},#2}{#4}%
+}
+
+\bibglsnewentry{abhayā}%
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{3}},
+sort={myrobalan|}}%
+{myrobalan}%
+{abhayā. Terminalia chebula, Retz. See ADPS 172, NK \#2451, Potter 214.}
+\glsxtrfieldlistadd{abhayā}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{3}}
+
+
