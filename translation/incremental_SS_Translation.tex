@@ -1,4 +1,4 @@
-7\RequirePackage{snapshot}
+\RequirePackage{snapshot}
 % !TeX encoding = UTF-8
 % !TeX spellcheck = en_GB
 \documentclass[12pt,draft]{article} %taking out draft switches off marginal notes
@@ -6,17 +6,6 @@
 \usepackage{incremental_SS_Translation} % all customizations in this file
 
 \addbibresource{incremental_SS_Translation.bib}
-
-\usepackage[record]{glossaries-extra}
-\renewcommand{\glossaryname}{Glossary of Medical Substances}
-\GlsXtrLoadResources % input file created by bib2gls
-[% instructions to bib2gls:
-src={plants}, % terms defined in plants.bib
-sort={en-GB}% sort according to this locale
-]
-
-%\newglossaryentry{sample}{name={sample},
-%    description={an example xxx \cite{adps}}}
 
 \title{A Translation of the New Edition of the \SS}
 \author{Jason Birch 
@@ -26,22 +15,23 @@ sort={en-GB}% sort according to this locale
 
 
 \includeonly{%
-   00 abstract,
-    01 manuscripts and editions,
-    02 features of the transmission,
-    translation 1-01,
-    translation 1-02,
-    translation 1-16,
-    translation 1-28,
-    translation 1-01,
-    translation 5-01,
+%   00 abstract,
+%    01 manuscripts and editions,
+%    02 features of the transmission,
+%    translation 1-01,
+%    translation 1-02,
+%    translation 1-16,
+%    translation 1-28,
+%    translation 1-01,
+%    translation 5-01,
     translation 5-02,
-    translation 5-03,
-   translation 6-17,
-  translation 6-38,
-    bibliography and indexes,
-    appendix,
+%    translation 5-03,
+%   translation 6-17,
+%   translation 6-38,
+   bibliography and indexes,
+   appendix,
 }
+
 \usepackage{xcolor}
 
 \setmainfont{Libertinus Serif}
