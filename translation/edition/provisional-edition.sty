@@ -1,0 +1,75 @@
+% Slowly build up preferences for the edition.  I hope we can put as much as possible here, 
+%and 
+% minimize the need to add edits to the Saktumiva output file itself.
+%
+% 2021-10-22 Dominik Wujastyk
+
+%\secnumdepth{0}
+
+\usepackage{polyglossia}
+\usepackage[normalem]{ulem}
+\usepackage[noend,noeledsec,noledgroup]{reledmac}
+%\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
+
+\arrangementX[A]{paragraph}
+\arrangementX[B]{paragraph}
+\renewcommand*{\thefootnoteB}{\Roman{footnoteB}}
+\arrangementX[C]{paragraph}
+\renewcommand*{\thefootnoteC}{\roman{footnoteC}}
+
+%\Xragged[D]{R} % ragged right apparatus
+%\Xragged[A]{R} % ragged right apparatus
+
+\Xarrangement[A]{paragraph}
+\Xarrangement[D]{paragraph}
+\Xnotenumfont[A]{\bfseries}
+\Xlemmafont[A]{\bfseries}
+\Xnotenumfont[D]{\bfseries}
+\Xlemmafont[D]{\bfseries}
+
+
+\setdefaultlanguage{sanskrit}
+\setotherlanguage{english}
+\newfontfamily\devanagarifont{TeX Gyre Pagella}
+%\newfontfamily{\devafont}{Pedantic Devanagari}
+
+\usepackage[Devanagari,DevanagariExtended]{ucharclasses}
+
+\makeatletter
+\setTransitionsFor{Devanagari}%
+{\let\curfamily\f@family\let\curshape\f@shape\let\curseries\f@series\devafont}
+{\fontfamily{\curfamily}\fontshape{\curshape}\fontseries{\curseries}\selectfont}
+\makeatother
+
+\makeatletter
+\setTransitionsFor{DevanagariExtended}%
+{\let\curfamily\f@family\let\curshape\f@shape\let\curseries\f@series\devafont}
+{\fontfamily{\curfamily}\fontshape{\curshape}\fontseries{\curseries}\selectfont}
+\makeatother
+
+% DW macros:
+\renewcommand{\omit}{\emph{om.}}
+\newcommand{\add}{\emph{add.}}
+\newcommand{\kakapada}{$\mathcal{X}$}
+
+\endinput  % Dear TeX, please don't read past this point.
+
+
+% % % % % % % % % % % % % % % % % % %
+% % % % % % % % % % % % % % % % % % %
+
+After this style file is \usepackage'd, the edition file will begin something like this:
+
+\title{Suśrutasaṃhitā, sūtrasthāna, adhyāya 16}
+\date{Draft of \today\\ \copyright\ \href{http://sushrutaproject.org}{Suśruta Project}}
+
+\setcounter{page}{36}
+\begin{document}
+    \raggedright
+    
+    \input{sanskrit-hyphenations}
+    
+    \lineation{page}
+    \begingroup
+    \beginnumbering
