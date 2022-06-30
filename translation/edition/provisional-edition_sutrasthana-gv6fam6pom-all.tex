@@ -1,50 +1,6 @@
 \documentclass [12pt]{article}%[14pt]{extarticle}
-\usepackage{polyglossia}
-\usepackage[normalem]{ulem}
-\usepackage[noend,noeledsec,noledgroup]{reledmac}
-%\usepackage[margin=1in]{geometry}
-\usepackage{hyperref}
 
-\arrangementX[A]{paragraph}
-\arrangementX[B]{paragraph}
-\renewcommand*{\thefootnoteB}{\Roman{footnoteB}}
-\arrangementX[C]{paragraph}
-\renewcommand*{\thefootnoteC}{\roman{footnoteC}}
-
-%\Xragged[D]{R} % ragged right apparatus
-%\Xragged[A]{R} % ragged right apparatus
-
-\Xarrangement[A]{paragraph}
-\Xarrangement[D]{paragraph}
-\Xnotenumfont[A]{\bfseries}
-\Xlemmafont[A]{\bfseries}
-\Xnotenumfont[D]{\bfseries}
-\Xlemmafont[D]{\bfseries}
-
-
-\setdefaultlanguage{sanskrit}
-\setotherlanguage{english}
-\newfontfamily\devanagarifont{TeX Gyre Pagella}
-%\newfontfamily{\devafont}{Pedantic Devanagari}
-
-\usepackage[Devanagari,DevanagariExtended]{ucharclasses}
-
-\makeatletter
-\setTransitionsFor{Devanagari}%
- {\let\curfamily\f@family\let\curshape\f@shape\let\curseries\f@series\devafont}
- {\fontfamily{\curfamily}\fontshape{\curshape}\fontseries{\curseries}\selectfont}
-\makeatother
-
-\makeatletter
-\setTransitionsFor{DevanagariExtended}%
- {\let\curfamily\f@family\let\curshape\f@shape\let\curseries\f@series\devafont}
- {\fontfamily{\curfamily}\fontshape{\curshape}\fontseries{\curseries}\selectfont}
-\makeatother
-
-% DW macros:
-\renewcommand{\omit}{\emph{om.}}
-\newcommand{\add}{\emph{add.}}
-\newcommand{\kakapada}{$\mathcal{X}$}
+\usepackage{provisional-edition} % all the TeX setup is in provisional-edition.sty
 
 \title{Suśrutasaṃhitā, sūtrasthāna, adhyāya 16}
 \date{Draft of \today\\ \copyright\ \href{http://sushrutaproject.org}{Suśruta Project}}
