@@ -8,8 +8,14 @@ The TEI XML transcriptions of manuscripts and editions are stored at a [Github p
 
 The manuscript and edition transcriptions here at Saktumiva are at:
 
-* [Sūtrasthāna](https://saktumiva.org/wiki/wujastyk/susrutasamhita/01-su.su/provisional-edition_sutrasthana) (provisional edition)
-* [Nidānasthāna](https://saktumiva.org/wiki/wujastyk/susrutasamhita/02-su.ni/02-ni-vulgate-edition) (vulgate edition)
+* Sūtrasthāna (provisional edition) 
+  * [in Roman script](https://saktumiva.org/wiki/wujastyk/susrutasamhita/01-su.su/provisional-edition_sutrasthana).  
+  * [in Devanagari script](https://saktumiva.org/wiki/wujastyk/susrutasamhita/01-su.su/provisional-edition_sutrasthana?upama_ver=gv6fam6pom&upama_script=devanagari).
+
+* Nidānasthāna (vulgate edition) 
+  * [in Roman script](https://saktumiva.org/wiki/wujastyk/susrutasamhita/02-su.ni/02-ni-vulgate-edition?upama_ver=gzijrlthyz).  
+  * [in Devanagari script](https://saktumiva.org/wiki/wujastyk/susrutasamhita/02-su.ni/02-ni-vulgate-edition?upama_ver=gzijrlthyz&upama_script=devanagari).
+
 * [Śārīrasthāna](https://saktumiva.org/wiki/wujastyk/susrutasamhita/03-su.sa/provisional-edition_sarirasthana) (provisional edition)
 * [Cikitsāsthāna](https://saktumiva.org/wiki/wujastyk/susrutasamhita/04-su.ci/04-ci-vulgate-edition) (vulgate edition)
 * [Kalpasthāna](https://saktumiva.org/wiki/wujastyk/susrutasamhita/05-su.ka/provisional-edition_kalpasthana) (provisional edition)
