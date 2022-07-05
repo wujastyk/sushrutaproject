@@ -8,19 +8,27 @@ The TEI XML transcriptions of manuscripts and editions are stored at a [Github p
 
 The manuscript and edition transcriptions here at Saktumiva are at:
 
-* Sūtrasthāna (provisional edition) 
-  * [in Roman script](https://saktumiva.org/wiki/wujastyk/susrutasamhita/01-su.su/provisional-edition_sutrasthana).  
+## Sūtrasthāna (provisional edition) 
+  * [in Roman script](https://saktumiva.org/wiki/wujastyk/susrutasamhita/01-su.su/provisional-edition_sutrasthana?upama_ver=gv6fam6pom) (IAST).  
   * [in Devanagari script](https://saktumiva.org/wiki/wujastyk/susrutasamhita/01-su.su/provisional-edition_sutrasthana?upama_ver=gv6fam6pom&upama_script=devanagari).
-
-* Nidānasthāna (vulgate edition) 
+## Nidānasthāna (vulgate edition) 
   * [in Roman script](https://saktumiva.org/wiki/wujastyk/susrutasamhita/02-su.ni/02-ni-vulgate-edition?upama_ver=gzijrlthyz).  
   * [in Devanagari script](https://saktumiva.org/wiki/wujastyk/susrutasamhita/02-su.ni/02-ni-vulgate-edition?upama_ver=gzijrlthyz&upama_script=devanagari).
-
-* [Śārīrasthāna](https://saktumiva.org/wiki/wujastyk/susrutasamhita/03-su.sa/provisional-edition_sarirasthana) (provisional edition)
-* [Cikitsāsthāna](https://saktumiva.org/wiki/wujastyk/susrutasamhita/04-su.ci/04-ci-vulgate-edition) (vulgate edition)
-* [Kalpasthāna](https://saktumiva.org/wiki/wujastyk/susrutasamhita/05-su.ka/provisional-edition_kalpasthana) (provisional edition)
-* [Uttaratantra, adhyāyas 1-30](https://saktumiva.org/wiki/wujastyk/susrutasamhita/06-su.ut-1-30/provisional-edition_uttaratantra?upama_ver=h153dlm4gl) (provisional edition)
-* [Uttaratantra, adhyāyas 31-66](https://saktumiva.org/wiki/wujastyk/susrutasamhita/06-su.ut-31-end/provisional-edition_uttaratantra?upama_ver=h153eehd57) (provisional edition)
+## Śārīrasthāna (provisional edition)
+  * [In Roman script](https://saktumiva.org/wiki/wujastyk/susrutasamhita/03-su.sa/provisional-edition_sarirasthana).
+  * [In Devanagari script](https://saktumiva.org/wiki/wujastyk/susrutasamhita/03-su.sa/provisional-edition_sarirasthana&upama_script=devanagari?upama_script=devanagari&upama_ver=gyhkg3mfls).
+## Cikitsāsthāna (vulgate edition)
+  * [In Roman script](https://saktumiva.org/wiki/wujastyk/susrutasamhita/04-su.ci/04-ci-vulgate-edition).
+  * [In Devanagari script](https://saktumiva.org/wiki/wujastyk/susrutasamhita/04-su.ci/04-ci-vulgate-edition&upama_script=devanagari)
+## Kalpasthāna (provisional edition)
+  * [In Roman script](https://saktumiva.org/wiki/wujastyk/susrutasamhita/05-su.ka/provisional-edition_kalpasthana).
+  * [In Devanagari script](https://saktumiva.org/wiki/wujastyk/susrutasamhita/05-su.ka/provisional-edition_kalpasthana&upama_script=devanagari)
+## Uttaratantra, adhyāyas 1-30 (provisional edition)
+  * [In Roman script.](https://saktumiva.org/wiki/wujastyk/susrutasamhita/06-su.ut-1-30/provisional-edition_uttaratantra?upama_ver=h153dlm4gl)
+  * [In Devanagari script](https://saktumiva.org/wiki/wujastyk/susrutasamhita/06-su.ut-1-30/provisional-edition_uttaratantra?upama_ver=h153dlm4gl&upama_script=devanagari)
+## Uttaratantra, adhyāyas 31-66 (provisional edition)
+  * [In Roman script.](https://saktumiva.org/wiki/wujastyk/susrutasamhita/06-su.ut-31-end/provisional-edition_uttaratantra?upama_ver=h153eehd57)
+  * [In Devanagari script](https://saktumiva.org/wiki/wujastyk/susrutasamhita/06-su.ut-31-end/provisional-edition_uttaratantra?upama_ver=h153eehd57&upama_script=devanagari)
 
 “Vulgate edition” means that editorial work on the provisional edition has not yet begun. “Provisional edition” means that the project has released a provisional edition of parts of the work with full apparatus.
 
