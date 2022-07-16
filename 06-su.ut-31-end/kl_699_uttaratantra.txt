@@ -16,7 +16,7 @@
               <country>Nepal</country>
             </placeName>
             <institution>Kaiser Library</institution>
-            <repository>https://www.klib.gov.np/</repository>
+            <repository>https://www|klib|gov|np/</repository>
             <collection>[collection]</collection>
             <idno>699</idno>
             <idno type="NCC">[NCC identifier]</idno>
@@ -24,7 +24,7 @@
           </msIdentifier>
           <msContents>
 
-            <summary>Vulgate ch. 42 = Nepalese MS 39.</summary>
+            <summary>Vulgate ch| 42 = Nepalese MS 39|</summary>
 
             <msItem defective="true" n="1">
               <!-- @defective: 'false' for complete, 'true' for incomplete -->
@@ -32,19 +32,19 @@
               <title xml:lang="sa">Suśrutasaṃhitā</title>
               <title type="commentary" xml:lang="sa">[title of commentary]</title>
               <!-- rubric, incipit, explicit, and finalRubric are given as examples -->
-              <textLang mainLang="sa-Newa">[Sanskrit in Nepalese script.]</textLang>
+              <textLang mainLang="sa-Newa">[Sanskrit in Nepalese script|]</textLang>
               <!-- @mainLang can be "sa-Deva", "sa-Mlym", "sa-Telu", "sa-Newa", etc. See ISO 15924 for more details. -->
 
               <noteGrp>
                 <note resp="Harshal Bhatt">
-                  <p>6.38.3 to 6.38.8 are in different metre (perhaps Indravajrā) with the same
-                    content.</p>
-                  <p>6.38.8 has only first hemistich.</p>
-                  <p>Missing verses 6.38.30ab.</p>
-                  <p>Metre break 6.38.13ab 6.38.17ab 6.38.21cd 6.38.28ab.</p>
+                  <p>6|38|3 to 6|38|8 are in different metre (perhaps Indravajrā) with the same
+                    content|</p>
+                  <p>6|38|8 has only first hemistich|</p>
+                  <p>Missing verses 6|38|30ab|</p>
+                  <p>Metre break 6|38|13ab 6|38|17ab 6|38|21cd 6|38|28ab|</p>
                 </note>
 
-                <note resp="Harshal Bhatt">Regarding 6.39: <p>Missing verses 109ab, 110cd, 114cd,
+                <note resp="Harshal Bhatt">Regarding 6|39: <p>Missing verses 109ab, 110cd, 114cd,
                     115ab, 116cd, 117, 118, 119ab , 121cd, 122, 123ab, 125cd, 130, 131, 132, 133,
                     134ab, 135cd, 136, 137ab, 144ab, 147cd, 148ab, 137cd, 167, 171cd, 172, 173, 174,
                     190, 191, 193cd, 195, 196, 197, 198ab, 200cd, 201ab, 202ab, 204cd, 205, 206,
@@ -54,15 +54,15 @@
                     281ab, 284cd, 286ab, 295-318, 319cd, 323</p>
                   <p>Additions 124a, 135a, 158a, 160, 201a-201c, 210a-210e, 232a-232b, 254a-254c,
                     273a-273g, 294a-294j, 320a-320b</p>
-                  <p>- Chapter begins from verse no 104, folio no. 180r</p>
+                  <p>- Chapter begins from verse no 104, folio no| 180r</p>
                   <p>- Verse 134ab is given after 128</p>
-                  <p>- There are two folios named 183v. In the first 183v folio, there are 7 verses.
-                    Content of these 7 verses (273a to 273g) seems different.</p>
+                  <p>- There are two folios named 183v| In the first 183v folio, there are 7 verses|
+                    Content of these 7 verses (273a to 273g) seems different|</p>
                   <p>- Content of 294a to 294j, match with Cakradatta of Cakrapaṇḍita</p>
                 </note>
-                <note resp="Harshal Bhatt">Regarding 6.47L <p>Missing verses: 21ab, 22cd, 23ab,
+                <note resp="Harshal Bhatt">Regarding 6|47L <p>Missing verses: 21ab, 22cd, 23ab,
                     29cd, 30ab, 54ab, 75cd, 76, 79ab</p>
-                  <p>Additions: 4ef, 11, 12, 54.1ab, 73.1, 73.2, 73.3</p>
+                  <p>Additions: 4ef, 11, 12, 54|1ab, 73|1, 73|2, 73|3</p>
                   <p>Metre Break: 31ab, 80ab</p>
                 </note>
 
@@ -78,17 +78,17 @@
             </objectDesc>
             <scriptDesc>
               <scriptNote xml:id="script-śa-sa"><foreign xml:lang="sa">śa</foreign> and <foreign
-                  xml:lang="sa">sa</foreign> not distinguished.</scriptNote>
+                  xml:lang="sa">sa</foreign> not distinguished|</scriptNote>
 
               <scriptNote xml:id="script-ba-va"><foreign xml:lang="sa">ba</foreign> and <foreign
-                  xml:lang="sa">va</foreign> not distinguished.</scriptNote>
+                  xml:lang="sa">va</foreign> not distinguished|</scriptNote>
             </scriptDesc>
 
           </physDesc>
 
           <history>
             <origin>
-              <origDate calendar="Nepal" when="0301">M Saṃvat 301 (878 CE).</origDate>
+              <origDate calendar="Nepal" when="0301">M Saṃvat 301 (878 CE)|</origDate>
               <!-- calendar can be "Vikrama", "Śaka", etc. Dates can be approximate or exact. -->
               <origPlace xml:lang="en">[place of production]</origPlace>
             </origin>
@@ -101,52 +101,52 @@
     </fileDesc>
 
     <revisionDesc>
-      <change when="2021-05-01" who="Jason Birch">Added transcription of 6.17</change>
-      <change when="2021-05-26" who="Madhusudan Rimal">Added transcription of 6.43</change>
-      <change when="2021-05-26" who="Madhusudan Rimal">Added transcription of 6.44</change>
-      <change when="2021-05-30" who="Madhusudan Rimal">Added transcription of 6.45</change>
-      <change when="2021-06-17" who="Madhusudan Rimal">Added the transcription of 6.41</change>
-      <change when="2021-06-17" who="Harshal Bhatt">Added the transcritption of 6.01</change>
-      <change when="2021-07-19" who="Madhusudan Rimal">Added the transcription of 6.42</change>
-      <change when="2021-06-17" who="Madhusudan Rimal">Transcription of SS 6.04</change>
-      <change when="2021-06-21" who="Madhusudan Rimal">Transcription of SS 6.15</change>
-      <change when="2021-08-23" who="Harshal Bhatt">Transcription of SS 6.38</change>
-      <change when="2021-09-15" who="Harshal Bhatt">Transcription of SS 6.39</change>
-      <change when="2021-09-22" who="Harshal Bhatt">Transcription of SS 6.47</change>
-      <change when="2022-01-20" who="Madhusudan Rimal">Transcription of SS 6.03</change>
-      <change when="2022-01-20" who="Madhusudan Rimal">Transcription of SS 6.05</change>
-      <change when="2022-01-27" who="Madhusudan Rimal">Transcription of SS 6.07</change>
-      <change when="2022-01-31" who="Madhusudan Rimal">Transcription of SS 6.08</change>
-      <change when="2022-02-16" who="Vandana Lele">Transcription of SS 6.60</change>
-      <change when="2022-02-22" who="Madhusudan Rimal">Transcription of SS 6.09</change>
-      <change when="2022-02-23" who="Madhusudan Rimal">Transcription of SS 6.10</change>
-      <change when="2022-02-27" who="Madhusudan Rimal">Transcription of SS 6.11</change>
-      <change when="2022-03-03" who="Deepro Chakraborty">Transcription of SS 6.18</change>
-      <change when="2022-03-05" who="Vandana Lele">Transcription of SS 6.61</change>
-      <change when="2022-03-05" who="Madhusudan Rimal">Transcription of SS 6.16</change>
-      <change when="2022-03-09" who="Madhusudan Rimal">Transcription of SS 6.30</change>
-      <change when="2022-03-12" who="Deepro Chakraborty">Transcription of SS 6.19</change>
-      <change when="2022-03-24" who="Vandana Lele">Transcription of SS 6.62</change>
-      <change when="2022-03-22" who="Madhusudan Rimal">Transcription of SS 6.25</change>
-      <change when="2022-03-22" who="Madhusudan Rimal">Transcription of SS 6.26</change>
-      <change when="2022-03-24" who="Madhusudan Rimal">Transcription of SS 6.27</change>
-      <change when="2022-03-28" who="Madhusudan Rimal">Transcription of SS 6.28</change>
-      <change when="2022-04-01" who="Deepro Chakraborty">Transcription of SS 6.20</change>
-      <change when="2022-04-04" who="Madhusudan Rimal">Transcription of SS 6.29</change>
-      <change when="2022-04-04" who="Vandana Lele">Transcription of SS 6.63</change>
-      <change when="2022-04-04" who="Madhusudan Rimal">Transcription of SS 6.31</change>
-      <change when="2022-04-19" who="Madhusudan Rimal">Transcription of SS 6.34</change>
-      <change when="2022-04-21" who="Madhusudan Rimal">Transcription of SS 6.35</change>
-      <change when="2022-04-27" who="Madhusudan Rimal">Transcription of SS 6.36</change>
-      <change when="2022-05-26" who="Madhusudan Rimal">Transcription of SS 6.37</change>
-      <change when="2022-05-29" who="Vandana Lele">Transcription of SS 6.64</change>
-      <change when="2022-06-25" who="Vandana Lele">Transcription of SS 6.65</change>
-      <change when="2022-06-29" who="Vandana Lele">Transcription of SS 6.66</change>
-      <change when="2022-07-02" who="Harshal Bhatt">Transcription of SS 6.46</change>
-      <change when="2022-07-06" who="Harshal Bhatt">Transcription of SS 6.48</change>
-      <change when="2022-07-10" who="Harshal Bhatt">Transcription of SS 6.49</change>
-      <change when="2022-07-13" who="Harshal Bhatt">Transcription of SS 6.50</change>
-      <change when="2022-07-15" who="Harshal Bhatt">Transcription of SS 6.51</change>
+      <change when="2021-05-01" who="Jason Birch">Added transcription of 6|17</change>
+      <change when="2021-05-26" who="Madhusudan Rimal">Added transcription of 6|43</change>
+      <change when="2021-05-26" who="Madhusudan Rimal">Added transcription of 6|44</change>
+      <change when="2021-05-30" who="Madhusudan Rimal">Added transcription of 6|45</change>
+      <change when="2021-06-17" who="Madhusudan Rimal">Added the transcription of 6|41</change>
+      <change when="2021-06-17" who="Harshal Bhatt">Added the transcritption of 6|01</change>
+      <change when="2021-07-19" who="Madhusudan Rimal">Added the transcription of 6|42</change>
+      <change when="2021-06-17" who="Madhusudan Rimal">Transcription of SS 6|04</change>
+      <change when="2021-06-21" who="Madhusudan Rimal">Transcription of SS 6|15</change>
+      <change when="2021-08-23" who="Harshal Bhatt">Transcription of SS 6|38</change>
+      <change when="2021-09-15" who="Harshal Bhatt">Transcription of SS 6|39</change>
+      <change when="2021-09-22" who="Harshal Bhatt">Transcription of SS 6|47</change>
+      <change when="2022-01-20" who="Madhusudan Rimal">Transcription of SS 6|03</change>
+      <change when="2022-01-20" who="Madhusudan Rimal">Transcription of SS 6|05</change>
+      <change when="2022-01-27" who="Madhusudan Rimal">Transcription of SS 6|07</change>
+      <change when="2022-01-31" who="Madhusudan Rimal">Transcription of SS 6|08</change>
+      <change when="2022-02-16" who="Vandana Lele">Transcription of SS 6|60</change>
+      <change when="2022-02-22" who="Madhusudan Rimal">Transcription of SS 6|09</change>
+      <change when="2022-02-23" who="Madhusudan Rimal">Transcription of SS 6|10</change>
+      <change when="2022-02-27" who="Madhusudan Rimal">Transcription of SS 6|11</change>
+      <change when="2022-03-03" who="Deepro Chakraborty">Transcription of SS 6|18</change>
+      <change when="2022-03-05" who="Vandana Lele">Transcription of SS 6|61</change>
+      <change when="2022-03-05" who="Madhusudan Rimal">Transcription of SS 6|16</change>
+      <change when="2022-03-09" who="Madhusudan Rimal">Transcription of SS 6|30</change>
+      <change when="2022-03-12" who="Deepro Chakraborty">Transcription of SS 6|19</change>
+      <change when="2022-03-24" who="Vandana Lele">Transcription of SS 6|62</change>
+      <change when="2022-03-22" who="Madhusudan Rimal">Transcription of SS 6|25</change>
+      <change when="2022-03-22" who="Madhusudan Rimal">Transcription of SS 6|26</change>
+      <change when="2022-03-24" who="Madhusudan Rimal">Transcription of SS 6|27</change>
+      <change when="2022-03-28" who="Madhusudan Rimal">Transcription of SS 6|28</change>
+      <change when="2022-04-01" who="Deepro Chakraborty">Transcription of SS 6|20</change>
+      <change when="2022-04-04" who="Madhusudan Rimal">Transcription of SS 6|29</change>
+      <change when="2022-04-04" who="Vandana Lele">Transcription of SS 6|63</change>
+      <change when="2022-04-04" who="Madhusudan Rimal">Transcription of SS 6|31</change>
+      <change when="2022-04-19" who="Madhusudan Rimal">Transcription of SS 6|34</change>
+      <change when="2022-04-21" who="Madhusudan Rimal">Transcription of SS 6|35</change>
+      <change when="2022-04-27" who="Madhusudan Rimal">Transcription of SS 6|36</change>
+      <change when="2022-05-26" who="Madhusudan Rimal">Transcription of SS 6|37</change>
+      <change when="2022-05-29" who="Vandana Lele">Transcription of SS 6|64</change>
+      <change when="2022-06-25" who="Vandana Lele">Transcription of SS 6|65</change>
+      <change when="2022-06-29" who="Vandana Lele">Transcription of SS 6|66</change>
+      <change when="2022-07-02" who="Harshal Bhatt">Transcription of SS 6|46</change>
+      <change when="2022-07-06" who="Harshal Bhatt">Transcription of SS 6|48</change>
+      <change when="2022-07-10" who="Harshal Bhatt">Transcription of SS 6|49</change>
+      <change when="2022-07-13" who="Harshal Bhatt">Transcription of SS 6|50</change>
+      <change when="2022-07-15" who="Harshal Bhatt">Transcription of SS 6|51</change>
 
     </revisionDesc>
   </teiHeader>
@@ -3480,13 +3480,13 @@
 
           <l xml:id="SS.6.48.33">lepāvagāhau pariṣecanāni kuryāt tathā śītagṛhāṇi cāpi |
             <caesura/>
-             saṃśodhanaṃ kṣīra<lb n="6"/>rasāghṛtāni sarvāsu lehā madhurāṃ himāṃśceti |. ❈ ||</l>
+             saṃśodhanaṃ kṣīra<lb n="6"/>rasāghṛtāni sarvāsu lehā madhurāṃ himāṃś ceti || ❈ ||</l>
 
           <l xml:id="SS.6.48.33a">jvarotisāraḥ śoṣaś ca gulmahṛtpāṇḍulo<cb n="1"/>hitaḥ</l>
 
           <l xml:id="SS.6.48.33b">mūrcchā pānātyayaś caiva tṛṣṇayā pūryate daśaḥ ||</l>
 
-          <p ana="trailer">kāyacikitsāyāṃ prathamo daśa |. ❈ ||</p>
+          <p ana="trailer">kāyacikitsāyāṃ prathamo daśa || ❈ ||</p>
         </div>
 
         <div n="48" type="adhyāya">
@@ -3534,7 +3534,7 @@
              abhaktaruggauravasādayuktaṃ vamedvamī sā kaphakopajā tu ||</l>
 
           <l xml:id="SS.6.49.12">sarvāṇi liṅgā<unclear reason="torn">ni bha</unclear>vanti yasyāḥ<cb
-              n="2"/> sā sarvadoṣaprabhavā matā tu |.
+              n="2"/> sā sarvadoṣaprabhavā matā tu ||
             <caesura/>
              bībhatsajā dauhṛdajanmajātva sātmyaprakopāt krimijā ca yā hi |
             <caesura/>
@@ -3550,7 +3550,7 @@
 
           <l xml:id="SS.6.49.15"/>
 
-          <l xml:id="SS.6.49.16">vamīṣu<cb n="2"/> bahudoṣāsu cchardanaṃ hitamucyate |.
+          <l xml:id="SS.6.49.16">vamīṣu<cb n="2"/> bahudoṣāsu cchardanaṃ hitamucyate ||
             <caesura/>
              virecanam vā yuñjīta yathodoṣocchrayaṃ bhiṣak |</l>
 
@@ -3628,7 +3628,7 @@
 
           <l xml:id="SS.6.49.35a">apriyāṇy api seveta jalenodvejayed apīti ||</l>
 
-          <p ana="trailer">kāyaci |. la<unclear extent="2" unit="syllables" reason="torn"/></p>
+          <p ana="trailer">kāyaci || la<unclear extent="2" unit="syllables" reason="torn"/></p>
 
         </div>
 
@@ -3668,12 +3668,12 @@
             <caesura/>
              cireṇa yamalair vegair yā hikkā sampravarttate |</l>
 
-          <l xml:id="SS.6.50.11">kampayantī śi<cb n="2"/>rogrīvaṃ yamalāṃ tāṃ vinirdiśet |.
+          <l xml:id="SS.6.50.11">kampayantī śi<cb n="2"/>rogrīvaṃ yamalāṃ tāṃ vinirdiśet ||
             <caesura/>
              vikṛṣṭakālairyā vegair mahadbhiḥ sampravarttate |</l>
 
           <l xml:id="SS.6.50.12">kṣudrikā nāma sā hikkā<unclear reason="torn">ja</unclear><lb n="3"
-            />trumūlāt pradhāvitā |.
+            />trumūlāt pradhāvitā ||
             <caesura/>
              nābhipravṛttā yā hikkā ghorāgambhīranādinī |</l>
 
@@ -3742,7 +3742,7 @@
           <l xml:id="SS.6.50.24">pibet palaṃ vā lavaṇaottamasya dvābhyāṃ palābhyāṃ haviṣaḥ samagraṃ
               |<lb n="7"/></l>
 
-          <l xml:id="SS.6.50.29">kapotapārāvataśalyakodbhavāṃ kravyādagodhāvṛṣadaṃśajāmrasāṃ |.
+          <l xml:id="SS.6.50.29">kapotapārāvataśalyakodbhavāṃ kravyādagodhāvṛṣadaṃśajāmrasāṃ ||
             <caesura/>
              pibed phalāmvlā na hi mānsasaindha<cb n="1"/>vāṃ snigdhāṃsthāraṇyamṛgadvijodbhavāṃ
             |</l>
@@ -3773,7 +3773,7 @@
             <caesura/>
              vadanti nasyaṃ susukhāya hikkinām iti ||</l>
 
-          <p ana="trailer">kāya ci ||<lb n="2"/> lṛ |. o ||</p>
+          <p ana="trailer">kāya ci ||<lb n="2"/> lṛ || o ||</p>
 
         </div>
 
@@ -3846,7 +3846,7 @@
           <l xml:id="SS.6.51.17">pippalyādi pratīvāpaṃ siddham vā prathame gaṇe |</l>
 
           <l xml:id="SS.6.51.18">sapañcalavaṇaṃ sarpiḥ <unclear reason="torn">śvā</unclear>sakāsau
-              vya<lb n="6"/>pohati |.
+              vya<lb n="6"/>pohati ||
             <caesura/>
             hiṃsrāviṃḍaṃgapūtīkatriphalāvyoṣacitrakaiḥ |</l>
 
@@ -3854,7 +3854,7 @@
             <caesura/>
             kolamātraiḥ pacedebhiḥ śvāsakāsau vyapohati |</l>
 
-          <l xml:id="SS.6.51.20">arśāṃsyarocakaṃ gulmaṃ śakṛdbhedañkṣayantathā |.
+          <l xml:id="SS.6.51.20">arśāṃsyarocakaṃ gulmaṃ śakṛdbhedañkṣayantathā ||
             <caesura/>
             kṛtsne vṛṣakaṣāye tu pacet sarpiśca<cb n="1"/>turguṇaṃ |</l>
 
@@ -3875,7 +3875,7 @@
 
           <l xml:id="SS.6.51.25">sauvarcalayavakṣārakaṭukāvyoṣasai<cb n="2"/>ndhavaiḥ |</l>
 
-          <l xml:id="SS.6.51.26">vacābhayāviḍaṅgaiś ca paced vā vidhivadghṛtaṃ |.
+          <l xml:id="SS.6.51.26">vacābhayāviḍaṅgaiś ca paced vā vidhivadghṛtaṃ ||
             <caesura/>
             gopavalyudake siddhaṃ syādanya dviguṇe ghṛtaṃ </l>
 
@@ -3893,7 +3893,7 @@
             <caesura/>
             eṇādīnāṃ śirobhir vā sakulatthāḥ sasaindhavāḥ |</l>
 
-          <l xml:id="SS.6.51.32">hanyuḥ śvāsañ ca kāsaś ca saṃskṛ<cb n="2"/>tāni payāṃsi ca |.
+          <l xml:id="SS.6.51.32">hanyuḥ śvāsañ ca kāsaś ca saṃskṛ<cb n="2"/>tāni payāṃsi ca ||
             <caesura/>
             timirasya ca bījāni karkaṭākhyā ca cūrṇṇitāḥ |</l>
 
@@ -3966,7 +3966,7 @@
 
           <l xml:id="SS.6.51.56"/>
 
-          <p ana="trailer">kāyaci |. lṛ<unclear extent="1" unit="char"/> |. o ||</p>
+          <p ana="trailer">kāyaci || lṛ<unclear extent="1" unit="char"/> || o ||</p>
 
         </div>
 
