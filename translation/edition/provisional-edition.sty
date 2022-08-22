@@ -14,20 +14,29 @@
 \usepackage{hyperref}
 
 \arrangementX[A]{paragraph}
-\arrangementX[B]{paragraph}
-\renewcommand*{\thefootnoteB}{\Roman{footnoteB}}
-\arrangementX[C]{paragraph}
-\renewcommand*{\thefootnoteC}{\roman{footnoteC}}
+%\arrangementX[B]{paragraph}
+%\renewcommand*{\thefootnoteB}{\Roman{footnoteB}}
+%\arrangementX[C]{paragraph}
+%\renewcommand*{\thefootnoteC}{\roman{footnoteC}}
 
 %\Xragged[D]{R} % ragged right apparatus
 %\Xragged[A]{R} % ragged right apparatus
 
 \Xarrangement[A]{paragraph}
 \Xarrangement[D]{paragraph}
+%
 \Xnotenumfont[A]{\bfseries}
 \Xlemmafont[A]{\bfseries}
 \Xnotenumfont[D]{\bfseries}
 \Xlemmafont[D]{\bfseries}
+
+% Changing the sequence of note-layers.  See reledmac manual section 6.8:
+\fnpos{%
+    {A}{critical},
+    {D}{critical}, %
+    {D}{familiar},%
+    {A}{familiar}%
+    }
 
 
 \setdefaultlanguage{sanskrit}
