@@ -11,7 +11,7 @@
 | 1 | 1.01.1 | | 1.01.9? | 1.01 |
 | 2 | 1.01.10 | |1.02.1 |1.02 |
 | 3 | 1.02.3 | 1.03.4 |1.03.23 |1.03 |
-| 4 |   folio missing |   |||
+| [4] |   folio missing |   |||
 | 5 | 1.04.6 | 1.05.17 | 1.05.42 | 1.05 |
 | 6 | 1.05.42 | 1.06.10 | 1.06.18 | 1.06 |
 | 7 | 1.06.18 | 1.07.12 | 1.08.1 | 1.07-08 |
@@ -156,7 +156,7 @@
 | 198 | 6.54.34 | 6.55.17 | 6.55.45 | 6.55 |
 | 199 | 6.55.45 | 6.56.17 | 6.56.10? | 6.56 |
 | 200 | 6.56.10? | 6.58.13 | 6.58.44 | 6.57-6.58 |
-| 200x | (only verso) beginning of the Sauśrutanighaṇṭu | |||
+| 200x | (only verso) beginning of the **Sauśrutanighaṇṭu** | |||
 | 201 | 6.58.44  a section end and beginning (mūtrāghātapratiṣedha) | <strong>no parallel</strong>  section end and beginning (yonivyāpatpratiṣedha)  <strong>no parallel</strong>[1] | | 6.58 |
 | 202 | <strong>no parallel</strong>  6.38.9?  6.38.32? | end of section/beginning of a section (mānuṣapratiṣedha)  parallel to 6.60 |  6.60.20 | 6.60 |
 | 203 | 6.60.20 | 6.60.45 | 6.61.23 | 6.61 |
