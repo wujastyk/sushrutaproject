@@ -1,4 +1,12 @@
-\usepackage[final=true]{hyperref} %final so it doesn't get turned off by; put it here before 
+\usepackage[final=true,
+    linkcolor = indigo(dye),
+    anchorcolor = indigo(dye),
+    citecolor = indigo(dye),
+    filecolor = indigo(dye),
+    urlcolor = indigo(dye),
+    menucolor = indigo(dye),
+    pagecolor = indigo(dye),
+    ]{hyperref} %final so it doesn't get turned off by; put it here before 
 %index/glossaries package
 %
 %todonotes' "draft"
@@ -7,6 +15,9 @@
     CC-license-footer,
     %   coffeestains, % kidding about
 }
+%\definecolor{darkbrown}{rgb}{0.4, 0.26, 0.13} % from http://latexcolor.com/
+\definecolor{indigo(dye)}{rgb}{0.0, 0.25, 0.42}
+
 \usepackage[final]{pdfpages}
 \usepackage[nointegrals]{wasysym}%for the blob symbols in the table
 \hangfootnotes
