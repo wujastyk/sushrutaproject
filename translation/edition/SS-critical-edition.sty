@@ -1,0 +1,104 @@
+% Slowly build up preferences for the printed version of the 	edition.  I hope we can put as 
+%much as possible here, 
+%and 
+% minimize the need to add edits to the Saktumiva output file itself.
+%
+% 2021-10-22 Dominik Wujastyk
+
+%\secnumdepth{0}
+
+\usepackage{polyglossia}
+\usepackage[normalem]{ulem}
+\usepackage[noend,noeledsec,noledgroup]{reledmac}
+%\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
+
+%DW
+\setmainlanguage{sanskrit}
+\setotherlanguage{english}
+\newfontfamily\sanskritfont[ %
+Mapping=RomDev,
+Script=Devanagari]
+%{Murty Sanskrit}
+{Sanskrit 2003}
+
+
+\newfontfamily\englishfont{TeX Gyre Pagella}
+
+%Pedantic Devanagari} %not 
+%%Pagella for now.
+%\newfontfamily{\devafont}{Sanskrit 2003} %Pedantic Devanagari}
+%DW
+
+%\arrangementX[A]{paragraph}
+%\arrangementX[B]{paragraph}
+%\renewcommand*{\thefootnoteB}{\Roman{footnoteB}}
+%\arrangementX[C]{paragraph}
+%\renewcommand*{\thefootnoteC}{\roman{footnoteC}}
+
+%\Xragged[D]{R} % ragged right apparatus
+%\Xragged[A]{R} % ragged right apparatus
+
+\Xarrangement[A]{paragraph}
+\Xarrangement[D]{paragraph}
+\Xarrangement[D]{paragraph}
+%
+\Xnotenumfont[A]{\bfseries}
+\Xlemmafont[A]{\bfseries}
+\Xnotenumfont[D]{\bfseries}
+\Xlemmafont[D]{\bfseries}
+
+% Changing the sequence of note-layers.  See reledmac manual section 6.8:
+\fnpos{%
+     {B}{critical},%
+    {A}{critical}, %
+    {D}{critical}, %
+    {D}{familiar},%
+    {B}{familiar},%
+    {A}{familiar},%
+    }
+
+\usepackage[Devanagari,DevanagariExtended]{ucharclasses}
+
+\makeatletter
+\setTransitionsFor{Devanagari}%
+{\let\curfamily\f@family\let\curshape\f@shape\let\curseries\f@series\sanskritfont}
+{\fontfamily{\curfamily}\fontshape{\curshape}\fontseries{\curseries}\selectfont}
+\makeatother
+
+\makeatletter
+\setTransitionsFor{DevanagariExtended}%
+{\let\curfamily\f@family\let\curshape\f@shape\let\curseries\f@series\sanskritfont}
+{\fontfamily{\curfamily}\fontshape{\curshape}\fontseries{\curseries}\selectfont}
+\makeatother
+
+% DW macros:
+\renewcommand{\omit}{\emph{\textenglish{om.}}}
+\newcommand{\add}{\emph{\textenglish{add.}}}
+\newcommand{\kakapada}{\textenglish{$\mathcal{X}$}}
+\newcommand\Note[1]{\footnoteD{\textenglish{#1}}}
+\newcommand\A{\textenglish{A}}
+\newcommand\N{\textenglish{N}}
+\renewcommand\H{\textenglish{H}}
+\newcommand\K{\textenglish{K}}
+
+\endinput  % Dear TeX, please don't read past this point.
+
+
+% % % % % % % % % % % % % % % % % % %
+% % % % % % % % % % % % % % % % % % %
+
+After this style file is \usepackage'd, the edition file will begin something like this:
+
+\title{Suśrutasaṃhitā, sūtrasthāna, adhyāya 16}
+\date{Draft of \today\\ \copyright\ \href{http://sushrutaproject.org}{Suśruta Project}}
+
+\setcounter{page}{36}
+\begin{document}
+    \raggedright
+    
+    \input{sanskrit-hyphenations}
+    
+    \lineation{page}
+    \begingroup
+    \beginnumbering
