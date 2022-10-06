@@ -32,7 +32,7 @@ The editions and manuscript transcriptions can be viewed at:
 
 “Vulgate edition” means that editorial work on the provisional edition has not yet begun.   You will see the text of the edition in the main window with the variants from the manuscripts in the critical apparatus on the right.
 
-“Provisional edition” means that the project has released a provisional edition of parts of the work with full apparatus.  You will see the edition in the main window, and the variants from the manuscripts and the printed edition in the critical apparatus on the right. 
+“New edition” means that the project has released an edition of parts of the work with full apparatus.  At the present time (2022-2024), this edition is provisional: work on proof-reading and edition is still ongoing on a daily basis.  You will see the edition in the main window, and the variants from the manuscripts and the printed edition in the critical apparatus on the right. 
 
 The “[Instructions for Readers](https://saktumiva.org/wiki/users)” documentation explains how to read the above editions, how to select particular manuscripts for examination, and how to generate the critical apparatus.  The most common option is to press “other witnesses” in the left menu bar, then “select all”, then “generate apparatus.”  Click the अ character in the right-hand menu to select your preferred display script.
 
