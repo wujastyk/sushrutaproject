@@ -1,6 +1,6 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 
-    <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
 
         <fileDesc>
             <titleStmt>
@@ -44,8 +44,8 @@
 
                     <physDesc>
 
-                        <p resp="Harshal Bhatt">In the transcription of 5.1, Harshal Bhatt notes the
-                            following: Missing verses: <list>
+                        <p resp="Harshal Bhatt" style="prose">In the transcription of 5.1, Harshal
+                            Bhatt notes the following: Missing verses: <list>
                                 <item>SS.5.1.5cd </item>
                                 <item>SS.5.1.5ab </item>
                                 <item>SS.5.1.8cd </item>
@@ -73,7 +73,7 @@
                             </list> According to KL 699 concordance, the first chapters of SS
                             1,2,3,4 are missing. </p>
 
-                        <p resp="Harshal Bhatt"> In 5.4, <list>
+                        <p resp="Harshal Bhatt" style="prose"> In 5.4, <list>
                                 <item>verse no. 29-30 is given after 31</item>
                                 <item>32-33 are missing.</item>
                                 <item>In the KL 699, Metre Break at SS.5.4.20cd</item>
@@ -519,34 +519,35 @@
                          niryāso dhātavaś caiva kandañ ca daśamaṃ smṛtaṃ ||</l>
 
 
-                    <p xml:id="SS.5.2.5a"><cb n="2"/>tatra klītakāśvamāraka<pc> </pc>guñjā<pc
-                            > </pc>subhaṅgurā<pc> </pc>karaṭā<pc> </pc>vidyucchikhānanta<pc
-                        > </pc>vijayā cety aṣṭau <pb/><milestone n="145r IMG_0081.JPG" unit="folio"
-                        /> mūlaviṣāṇi ||</p>
+                    <l xml:id="SS.5.2.5a" style="prose"><cb n="2"/>tatra klītakāśvamāraka<pc
+                            > </pc>guñjā<pc> </pc>subhaṅgurā<pc> </pc>karaṭā<pc
+                            > </pc>vidyucchikhānanta<pc> </pc>vijayā cety aṣṭau <pb/><milestone
+                            n="145r IMG_0081.JPG" unit="folio"/> mūlaviṣāṇi ||</l>
 
-                    <p xml:id="SS.5.2.5b"> viṣapatrikā<pc> </pc>lamvaradā<pc
-                            > </pc>karambha<pc> </pc>mahākarambhādīni patraviṣā<cb n="1"/>ṇi ||</p>
+                    <l xml:id="SS.5.2.5b" style="prose"> viṣapatrikā<pc> </pc>lamvaradā<pc
+                            > </pc>karambha<pc> </pc>mahākarambhādīni patraviṣā<cb n="1"/>ṇi ||</l>
 
-                    <p xml:id="SS.5.2.5c">kumudavati<pc> </pc>reṇuka<pc> </pc>kuruvaka<pc
-                            > </pc>veṇuka<pc> </pc>karañ ca mahākarambha<pc> </pc>nandanā<pc
-                        > </pc>kākādīni guñjā<pc> </pc>rūṣkara<pc> </pc>viṣa<pc> </pc>vedikādīnāṃ
-                            pha<cb n="2"/>lāni ||</p>
+                    <l xml:id="SS.5.2.5c" style="prose">kumudavati<pc> </pc>reṇuka<pc
+                            > </pc>kuruvaka<pc> </pc>veṇuka<pc> </pc>karañ ca mahākarambha<pc
+                            > </pc>nandanā<pc> </pc>kākādīni guñjā<pc> </pc>rūṣkara<pc
+                            > </pc>viṣa<pc> </pc>vedikādīnāṃ pha<cb n="2"/>lāni ||</l>
 
-                    <p xml:id="SS.5.2.5d"> ullikajāreṇu<pc> </pc>karambha<pc> </pc>mahākarambhādīnāṃ
-                        puṣpāṇi |</p>
+                    <l xml:id="SS.5.2.5d" style="prose"> ullikajāreṇu<pc> </pc>karambha<pc
+                        > </pc>mahākarambhādīnāṃ puṣpāṇi |</l>
 
-                    <p xml:id="SS.5.2.5e"> vallija<pc> </pc>karaghāṭaka<pc> </pc>ka<lb n="2"
-                            />rambha<pc> </pc>nārā<unclear>va</unclear>kādīnāṃ tv asāraniryāsāḥ
-                        |</p>
-                    <p xml:id="SS.5.2.5f"> kumudavati<pc> </pc>dantī<pc> </pc>snuhā<pc
-                            > </pc>jālinī<pc> </pc>prabhṛ<cb n="1"/>tīnāṃ kṣīrāṇi |</p>
-                    <p xml:id="SS.5.2.5g"> haritāla<pc> </pc>phenāśma<pc> </pc>bhasma<pc
-                            > </pc>rakṣe<pc> </pc>prabhṛtīni dhātuviṣāṇi |</p>
-                    <p xml:id="SS.5.2.5h"> kālakuṭā<pc> </pc>vatsanābha<pc> </pc>sarṣapa<pc
-                            > </pc>kapālaka<pc> </pc><cb n="2"/>kardamaka<pc
+                    <l xml:id="SS.5.2.5e" style="prose"> vallija<pc> </pc>karaghāṭaka<pc> </pc>ka<lb
+                            n="2"/>rambha<pc> </pc>nārā<unclear>va</unclear>kādīnāṃ tv asāraniryāsāḥ
+                        |</l>
+                    <l xml:id="SS.5.2.5f" style="prose"> kumudavati<pc> </pc>dantī<pc
+                            > </pc>snuhā<pc> </pc>jālinī<pc> </pc>prabhṛ<cb n="1"/>tīnāṃ kṣīrāṇi
+                        |</l>
+                    <l xml:id="SS.5.2.5g" style="prose"> haritāla<pc> </pc>phenāśma<pc
+                            > </pc>bhasma<pc> </pc>rakṣe<pc> </pc>prabhṛtīni dhātuviṣāṇi |</l>
+                    <l xml:id="SS.5.2.5h" style="prose"> kālakuṭā<pc> </pc>vatsanābha<pc
+                            > </pc>sarṣapa<pc> </pc>kapālaka<pc> </pc><cb n="2"/>kardamaka<pc
                             > </pc>vairāṭaka<pc> </pc>mustakā<pc> </pc>mahāviṣa<pc
                             > </pc>puṣḍarīkamūlaka<pc> </pc>hālāhala<pc> </pc>śṛṃgī<pc
-                            > </pc>markaṭā<lb n="3"/>dīnāṃ kandāḥ |</p>
+                            > </pc>markaṭā<lb n="3"/>dīnāṃ kandāḥ |</l>
 
                     <l xml:id="SS.5.2.6"/>
 
@@ -835,7 +836,8 @@
                         <caesura/>
                          dūṣīviṣaṃ varjanīyam ato nyad ahitāśina || </l>
 
-                    <p xml:id="SS.5.2.end" ana="trailer">iti kalpe 2 <cb n="2"/> || ❈ ||</p>
+                    <trailer xml:id="SS.5.2.end" ana="trailer">iti kalpe 2 <cb n="2"/> || ❈
+                        ||</trailer>
                 </div>
 
 
@@ -855,18 +857,18 @@
                         <caesura/>
                          samāsena mayā yāni vistaras teṣu vakṣyate |</l>
 
-                    <p xml:id="SS.5.3.4">tatra dṛ<cb n="1"/>ṣṭi<pc> </pc>niśvāsa<pc
-                            > </pc>daṃṣṭrānakha<pc> </pc>mukha<pc> </pc>mūtra<pc
-                            > </pc>purīśārtava<pc> </pc>śukra<pc> </pc>lāṃgūla<pc
-                            > </pc>lālābhyarśa<pc> </pc>mukha<pc> </pc>sandaṃśāvaśardhita<pc
-                            > </pc>gudāsthi<pc> </pc>pitta<pc> </pc>śūka<pc> </pc>śavā<cb n="2"/>ni
-                        ||</p>
+                    <l xml:id="SS.5.3.4" style="prose">tatra dṛ<cb n="1"/>ṣṭi<pc
+                            > </pc>niśvāsa<pc> </pc>daṃṣṭrānakha<pc> </pc>mukha<pc
+                            > </pc>mūtra<pc> </pc>purīśārtava<pc> </pc>śukra<pc
+                            > </pc>lāṃgūla<pc> </pc>lālābhyarśa<pc> </pc>mukha<pc
+                            > </pc>sandaṃśāvaśardhita<pc> </pc>gudāsthi<pc> </pc>pitta<pc
+                            > </pc>śūka<pc> </pc>śavā<cb n="2"/>ni ||</l>
 
 
-                    <p xml:id="SS.5.3.5">tatra nisvāsadṛṣṭiviṣāḥ divyāḥ sarpāḥ | bhaumādaṃṣṭrāviṣāḥ
-                        || mārjāra<lb n="2"/>śva | vānara | nara | makara | maṇḍūka | pāka | matsya
-                        | godhā | śamb-uka | praca<cb n="1"/>lākaḥ gṛhagodhikāñ catuṣpadāś ca
-                        kīṭāstathānye nakhamukhadaṃṣtrāviṣāḥ |
+                    <l xml:id="SS.5.3.5" style="prose">tatra nisvāsadṛṣṭiviṣāḥ divyāḥ sarpāḥ |
+                        bhaumādaṃṣṭrāviṣāḥ || mārjāra<lb n="2"/>śva | vānara | nara | makara |
+                        maṇḍūka | pāka | matsya | godhā | śamb-uka | praca<cb n="1"/>lākaḥ
+                        gṛhagodhikāñ catuṣpadāś ca kīṭāstathānye nakhamukhadaṃṣtrāviṣāḥ |
                             kiṭi<unclear>payi</unclear>cciṭākaṣāyavāsikasa<cb n="2"
                         />rṣapakatoṭākavarcaḥ kīṭāḥ | kauṇḍinyāḥ mūtrapūrīṣaḥ || mūṣikāḥ śukravi<lb
                             n="3"/> ṣāḥ | vṛścikambharavarakimatsyoc ciṭiṅgapatravṛścikāḥ
@@ -879,7 +881,7 @@
                         śakalimatsyaraktarājivakimatsyāḥ pittaviṣā || sūkṣmatuṇḍoc
                             ciṭiṅgavāraṭiśatapadivalabhika<cb n="2"/>śṛṅgabhramarāḥ śūkaviṣāḥ |
                             kīṭasarpadehā<unclear>vya</unclear>savaḥ śavaviṣā | śeṣāstva<lb n="5"
-                        />nuktā mukhadaṃśaviṣeṣveva gaṇayitavyā iti || ||</p>
+                        />nuktā mukhadaṃśaviṣeṣveva gaṇayitavyā iti || ||</l>
 
                     <l xml:id="SS.5.3.5x">bhavanti</l>
 
@@ -908,15 +910,15 @@
                         <caesura/>
                          duṣṭaṃ jalaṃ śodhayituṃ yateta | </l>
 
-                    <l xml:id="SS.5.3.9">dhavāśvakarṇāvatha pā<cb n="2"/>ribhadraṃ
+                    <l xml:id="SS.5.3.9">dhavāśvakarṇāv atha pā<cb n="2"/>ribhadraṃ
                         <caesura/>
                          sapāṭalaṃ sidhrakamuṣkakau ca |
                         <caesura/>
-                         dagdhvā sarājadrumasomavalkāṃ |
+                         dagdhvā sarājadrumasomavalkāṃ 
                         <caesura/>
-                         taṃ bhasmā śī<lb n="7"/>taṃ vikicet sarassu |</l>
+                         taṃ bha<subst><del cause="scribal-correction">smā</del><add>sma</add></subst> śī<lb n="7"/>taṃ vikiret saratsu |</l>
 
-                    <l xml:id="SS.5.3.10">bhasmāñjaliñ cāpi ghaṭo <cb n="1"/> nidhāya viśodhayed
+                    <l xml:id="SS.5.3.10">bhasmāñjaliñ cāpi ghaṭe <cb n="1"/> nidhāya viśodhayed
                         <caesura/>
                          īpsitam evam ambhaḥ ||
                         <caesura/>
@@ -929,8 +931,9 @@
                         <caesura/>
                          govājināgāḥ puruṣāḥ striyo vā
                         <caesura/>
-                        <damageSpan extent="1"/>dā śuśu<pb/><milestone n="147r IMG_0022.JPG"
-                            unit="folio"/>yaty atha dahyate ca
+                        <damageSpan 
+                            extent="1"/>d ā<unclear>śu śū</unclear><pb n="147r IMG_0022.JPG"/>ya<unclear>ty a</unclear>tha dahyate
+                        ca
                         <caesura/>
                          śīryanti romāṇi nakhāś ca tasmin |</l>
 
@@ -1139,7 +1142,7 @@
 
                     <l xml:id="SS.5.3.44"/>
 
-                    <p ana="trailer">kalpa 3 || ❈ ||</p>
+                    <l ana="trailer" style="prose">kalpa 3 || ❈ ||</l>
 
                 </div>
 
@@ -1402,7 +1405,7 @@
                         <caesura/>
                          mārjāranakulādīnāṃ viṣaṃ nātipravartata iti ||</l>
 
-                    <p ana="trailer">kalpe<cb/><unclear>4</unclear> ||</p>
+                    <l ana="trailer" style="prose">kalpe<cb/><unclear>4</unclear> ||</l>
                 </div>
 
 
@@ -1755,7 +1758,7 @@
                         <caesura/>
                          ekaikaśo dvandvaśo vā prayoktavyo viṣāpaham iti ||</l>
 
-                    <p ana="trailer">kalpe<unclear extent="2" unit="syllable"/></p>
+                    <l ana="trailer" style="prose">kalpe<unclear extent="2" unit="syllable"/></l>
                 </div>
 
 
@@ -1901,7 +1904,7 @@ Additions
                         <caesura/>
                          prasannasarvendriyacittaceṣṭaṃ vaidyovagacchedaviṣaṃ manuṣyam <cb/></l>
 
-                    <p ana="trailer">iti || kalpe <unclear>6</unclear> ❈ </p>
+                    <l ana="trailer" style="prose">iti || kalpe <unclear>6</unclear> ❈ </l>
                 </div>
 
                 <div n="7" type="adhyāya">
@@ -2178,7 +2181,7 @@ Additions
 
                     <l xml:id="SS.5.7.65"/>
 
-                    <p ana="trailer">kalpe <unclear>6</unclear> || o ||</p>
+                    <l ana="trailer" style="prose">kalpe <unclear>6</unclear> || o ||</l>
                 </div>
 
 
@@ -2895,9 +2898,10 @@ Metre Break
                     <l xml:id="SS.5.8.143.8">mū<lb n="4"/>ṣikādundubhiś caiva kīṭākalpena cāṣṭamaḥ
                         ||</l>
 
-                    <p ana="trailer">sauśrute śalyatantre kalpasthānaṃ<cb/> samāptaḥ || ❈ ||</p>
+                    <l ana="trailer" style="prose">sauśrute śalyatantre kalpasthānaṃ<cb/> samāptaḥ
+                        || ❈ ||</l>
 
-                    <p ana="trailer"/>
+                    <l ana="trailer" style="prose"/>
                 </div>
 
             </div>
