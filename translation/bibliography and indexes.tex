@@ -7,18 +7,23 @@
 
 
 
-\printbiblist[heading=biblistintoc]{shorthand} % the Abbreviations (shorthands)
+\printbiblist[heading=biblistintoc,
+    title=Editions and Abbreviations,
+    notkeyword=botanical]{shorthand} % the Abbreviations (shorthands)
 
 \indexprologue{\emph{\footnotesize The numbers after the colon refer to pages
         in this document.}} 
 
-\newpage
+\printshorthands[heading=biblistintoc,
+    title=Botanical Reference Works,
+    keyword=botanical]
 
 \printindex[manuscripts]
 
 \printbibliography
 [notkeyword=edition,
 notkeyword=shorthand,
+notkeyword=botanical,
 heading=bibintoc]
 
 \newpage
