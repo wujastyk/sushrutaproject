@@ -37,7 +37,6 @@ These links are to unedited collations.
 |                                                              |      |      |      |      |      |      |      |      |      |
 | ------------------------------------------------------------ | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 | [1](https://saktumiva.org/wiki/wujastyk/susrutasamhita/03-su.sa/provisional-edition_sarirasthana?upama_ver=gyhkg3mfls&upama_script=devanagari&upama_scroll=3.1.) | 2    | 3    | 4    | 5    | 6    | 7    | 8    | 9    | 10   |
-|                                                              |      |      |      |      |      |      |      |      |      |
 
 
 
@@ -61,7 +60,7 @@ These links are to unedited collations.
 
 
 
-## [Uttaratantra, adhyāyas 1-30](https://saktumiva.org/wiki/wujastyk/susrutasamhita/06-su.ut-1-30/provisional-edition_uttaratantra&upama_script=devanagari&upama_scroll=SS.6.2.1) (new edition)
+## [Uttaratantra, adhyāyas 1-30](https://saktumiva.org/wiki/wujastyk/susrutasamhita/06-su.ut-1-30/provisional-edition_uttaratantra&upama_script=devanagari&upama_scroll=SS.6.2.1?upama_ver=h153dlm4gl&upama_script=devanagari) (new edition)
 
 |      |                                                              |                                                              |                                                              |      |      |                                                              |      |      |      |
 | :--: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: | :--: | :----------------------------------------------------------: | :--: | :--: | :--: |
