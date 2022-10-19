@@ -82,8 +82,8 @@ For example, file `dscn3345 fol 370.jpg`  contains the image of MS folio 370v an
 | 72v:3 | End of | 1.35		 |1.35 		 | 		 | 		 |
 | 72v:3 | Start of | 1.36	 |1.37 	 | 	 | 	 |
 | 73r:6 | End of | 1.36		 |1.37 		 | 		 | 		 |
-| 73r:6 | Start of | 1.37	 |1.36 	 | 	 | 	 |
-| 74r:6 | End of | 1.37		 |1.36 		 | 		 | 		 |
+| 73r:6 | Start of | 1.37	 |1.37 	 | 	 | 	 |
+| 74r:6 | End of | 1.37		 |1.37 		 | 		 | 		 |
 | 74r:6 | Start of | 1.38	 |1.38 	 | 	 | 	 |
 | 78r:3 | End of | 1.38		 |1.38 		 | 		 | 		 |
 | 78r:3 | Start of | 1.39	 |1.39 	 | 	 | 	 |
