@@ -91,7 +91,7 @@ For example, file `dscn3345 fol 370.jpg`  contains the image of MS folio 370v an
 | 80v:5 | Start of | 1.40	 |1.40 	 | 	 | 	 |
 | 82r:4 | End of | 1.40		 |1.40 		 | 		 | 		 |
 | 82r:4 | Start of | 1.41	 |1.41 	 | 	 | 	 |
-| 84r:3 | End of | 1.41		 |1.41 		 | 		 | 		 |
+| 85r:3 | End of | 1.41		 |1.41 		 | 		 | 		 |
 | 84r:3 | Start of | 1.42	 |1.42 	 | 	 | 	 |
 | 87r:5 | End of | 1.42		 |1.42 		 | 		 | 		 |
 | 87r:5 | Start of | 1.43	 |1.43 	 | 	 | 	 |
