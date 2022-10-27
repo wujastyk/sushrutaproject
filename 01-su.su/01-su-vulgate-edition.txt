@@ -97,6 +97,10 @@
 
             <change when="2021-07-15" who="Deepro Chakraborty">Added 1.28 of K and H and some
                 corrections in the vulgate (#44)</change>
+
+            <change when="2022-10-27" who="Deepro Chakraborty">Corrections in 1.45.81-100 and
+                1.45.108</change>
+
         </revisionDesc>
     </teiHeader>
 
@@ -1573,6 +1577,7 @@
 
                     <p ana="trailer">iti suśrutasaṃhitāyāṃ sūtrasthāne viśikhānupraveśanīyo nāma
                         daśamo 'dhyāyaḥ || </p>
+
 
 
 
@@ -3316,6 +3321,7 @@
 
                     <p ana="trailer">iti suśrutasaṃhitāyāṃ sūtrasthāne
                         vraṇālepanabandhavidhirnāmāṣṭādaśo 'dhyāyaḥ || </p>
+
 
 
 
@@ -5884,6 +5890,7 @@
                         bhavanty eva gatāyuṣām || </l>
                     <p ana="trailer">iti suśrutasaṃhitāyāṃ sūtrasthāne
                         chāyāvipratipattirnāmaikatriṃśattamo 'dhyāyaḥ || </p>
+
 
 
 
@@ -8727,33 +8734,29 @@
                     <l xml:id="SS.1.45.79cd"><label>1.45.79cd</label> dadhi tvasāraṃ rūkṣaṃ ca grāhi
                         viṣṭambhi vātalam || </l>
 
-                    <l xml:id="SS.1.45.80ab"><label>1.45.80ab</label> dīpanīyaṃ laghutaraṃ sakaṣāyaṃ
-                        rucipradam | </l>
+                    <l xml:id="SS.1.45.80"><label>1.45.80</label> dīpanīyaṃ laghutaraṃ sakaṣāyaṃ
+                        rucipradam |
+                        <caesura/>
+                         śaradgrīṣmavasanteṣu prāyaśo dadhi garhitam || </l>
 
-                    <l xml:id="SS.1.45.80cd"><label>1.45.80cd</label> śaradgrīṣmavasanteṣu prāyaśo
-                        dadhi garhitam || </l>
+                    <l xml:id="SS.1.45.81"><label>1.45.81</label> hemante śiśire caiva varṣāsu dadhi
+                        śasyate |
+                        <caesura/>
+                         tṛṣṇāklamaharaṃ mas tu laghu srotoviśodhanam || </l>
 
-                    <l xml:id="SS.1.45.81ab"><label>1.45.81ab</label> hemante śiśire caiva varṣāsu
-                        dadhi śasyate | </l>
+                    <l xml:id="SS.1.45.82"><label>1.45.82</label> amlaṃ kaṣāyaṃ madhuramavṛṣyaṃ
+                        kaphavātanut |
+                        <caesura/>
+                         prahlādanaṃ prīṇanaṃ ca bhinattyāśu malaṃ ca tat ||
+                        <caesura/>
+                         balamāvahate kṣipraṃ bhaktacchandaṃ karoti ca || </l>
 
-                    <l xml:id="SS.1.45.81cd"><label>1.45.81cd</label> tṛṣṇāklamaharaṃ mas tu laghu
-                        srotoviśodhanam || </l>
+                    <l xml:id="SS.1.45.83"><label>1.45.83</label> svādv-amlam-atyamlaka-mandajātaṃ
+                        tathā śṛtakṣīrabhavaṃ saraś ca |
+                        <caesura/>
+                         asāramevaṃ dadhi saptadhā'smin varge smṛtā mastuguṇāstathaiva || </l>
+                    <label type="trailer" xml:id="SS.1.45.83a">iti dadhivargaḥ |</label>
 
-                    <l xml:id="SS.1.45.82ab"><label>1.45.82ab</label> amlaṃ kaṣāyaṃ madhuramavṛṣyaṃ
-                        kaphavātanut | </l>
-
-                    <l xml:id="SS.1.45.82cd"><label>1.45.82cd</label> prahlādanaṃ prīṇanaṃ ca
-                        bhinattyāśu malaṃ ca tat || </l>
-
-                    <l xml:id="SS.1.45.82ef"><label>1.45.82ef</label> balamāvahate kṣipraṃ
-                        bhaktacchandaṃ karoti ca || </l>
-
-                    <l xml:id="SS.1.45.83ab"><label>1.45.83ab</label>
-                        svādv-amlam-atyamlaka-mandajātaṃ tathā śṛtakṣīrabhavaṃ saraś ca | </l>
-
-                    <l xml:id="SS.1.45.83cd"><label>1.45.83cd</label> asāramevaṃ dadhi saptadhā'smin
-                        varge smṛtā mastuguṇāstathaiva || </l>
-                    <label type="trailer" xml:id="SS.1.45.83">iti dadhivargaḥ |</label>
                     <label type="head" xml:id="SS.1.45.84"> atha takravargaḥ |</label>
 
                     <l xml:id="SS.1.45.84a"><label>1.45.84</label> takraṃ madhuramamlaṃ
@@ -8761,47 +8764,40 @@
                         garaśophātisāragrahaṇīpāṇḍurogārśaḥplīhagulmārocakaviṣamajvaratṛṣṇācchardiprasekaśūlamedaḥśleṣmānilaharaṃ
                         madhuravipākaṃ hṛdyaṃ mūtrakṛcchrasnehavyāpatprśamanamavṛṣyaṃ ca || </l>
 
-                    <l xml:id="SS.1.45.85ab"><label>1.45.85ab</label>
-                        manthanādipṛthagbhūtasnehamardhodakaṃ ca yat | </l>
+                    <l xml:id="SS.1.45.85"><label>1.45.85</label>
+                        manthanādipṛthagbhūtasnehamardhodakaṃ ca yat |
+                        <caesura/>
+                         nātisāndradravaṃ takraṃ svādvamlaṃ tuvaraṃ rase |
+                        <caesura/>
+                         yat tu sasnegamajalaṃ mathitam gholamucyate || </l>
 
-                    <l xml:id="SS.1.45.85cd"><label>1.45.85cd</label> nātisāndradravaṃ takraṃ
-                        svādvamlaṃ tuvaraṃ rase | </l>
+                    <l xml:id="SS.1.45.86"><label>1.45.86</label> naiva takraṃ kṣate tadyānnoṣṇakāle
+                        na durbale |
+                        <caesura/>
+                         na mūrcchābhramadāheṣu na roge raktapaittike || </l>
 
-                    <l xml:id="SS.1.45.85ef"><label>1.45.85ef</label> yat tu sasnegamajalaṃ mathitam
-                        gholamucyate || </l>
-
-                    <l xml:id="SS.1.45.86ab"><label>1.45.86ab</label> naiva takraṃ kṣate
-                        tadyānnoṣṇakāle na durbale | </l>
-
-                    <l xml:id="SS.1.45.86cd"><label>1.45.86cd</label> na mūrcchābhramadāheṣu na roge
-                        raktapaittike || </l>
-
-                    <l xml:id="SS.1.45.87ab"><label>1.45.87ab</label> śītakāle 'gnimāndye ca
-                        kaphottheṣvāmayeṣu ca | </l>
-
-                    <l xml:id="SS.1.45.87cd"><label>1.45.87cd</label> mārgāvarodhe duṣṭe ca vāyau
-                        takraṃ praśasyate || </l>
+                    <l xml:id="SS.1.45.87"><label>1.45.87</label> śītakāle 'gnimāndye ca
+                        kaphottheṣvāmayeṣu ca |
+                        <caesura/>
+                         mārgāvarodhe duṣṭe ca vāyau takraṃ praśasyate || </l>
 
                     <l xml:id="SS.1.45.88"><label>1.45.88</label> tat punarmadhuraṃ śleṣmaprakopaṇaṃ
                         pittapraśamanaṃ ca amlaṃ vātaghnaṃ pittakaraṃ ca || </l>
 
-                    <l xml:id="SS.1.45.89ab"><label>1.45.89ab</label> vāte 'mlaṃ saindhavopetaṃ
-                        svādu pitte saśarkaram | </l>
+                    <l xml:id="SS.1.45.89"><label>1.45.89</label> vāte 'mlaṃ saindhavopetaṃ svādu
+                        pitte saśarkaram |
+                        <caesura/>
+                         pibet takraṃ kaphe cāpi vyoṣakṣārasamanvitam || </l>
 
-                    <l xml:id="SS.1.45.89cd"><label>1.45.89cd</label> pibettakraṃ kaphe cāpi
-                        vyoṣakṣārasamanvitam || </l>
+                    <l xml:id="SS.1.45.90"><label>1.45.90</label> grāhiṇī vātalā rūkṣā durjarā
+                        takrakūrcikā |
+                        <caesura/>
+                         takrāllaghutaro maṇḍaḥ kūrcikādadhitakrajaḥ || </l>
 
-                    <l xml:id="SS.1.45.90ab"><label>1.45.90ab</label> grāhiṇī vātalā rūkṣā durjarā
-                        takrakūrcikā | </l>
-
-                    <l xml:id="SS.1.45.90cd"><label>1.45.90cd</label> takrāllaghutaro maṇḍaḥ
-                        kūrcikādadhitakrajaḥ || </l>
-
-                    <l xml:id="SS.1.45.91ab"><label>1.45.91ab</label> guruḥ kilāṭo 'nilahā
-                        puṃstvanidrāpradaḥ smṛtaḥ | </l>
-
-                    <l xml:id="SS.1.45.91cd"><label>1.45.91cd</label> madhurau bṛṃhaṇau vṛṣyau
-                        tadvatpīyūṣamoraṭau || </l>
+                    <l xml:id="SS.1.45.91"><label>1.45.91</label> guruḥ kilāṭo 'nilahā
+                        puṃstvanidrāpradaḥ smṛtaḥ |
+                        <caesura/>
+                         madhurau bṛṃhaṇau vṛṣyau tadvatpīyūṣamoraṭau || </l>
 
                     <l xml:id="SS.1.45.92"><label>1.45.92</label> navanītaṃ punaḥ sadyaskaṃ laghu
                         sukumāraṃ madhuraṃ kaṣāyamīṣadamlaṃ śītalaṃ medhyaṃ dīpanaṃ hṛdyaṃ saṃgrāhi
@@ -8817,44 +8813,39 @@
                         balyā vṛṣyā snegdhā rucyā madhurā madhuravipākā raktapittaprasādanī gurvī ca
                         || </l>
 
-                    <l xml:id="SS.1.45.95ab"><label>1.45.95ab</label> vikalpa eṣa dadhyādiḥ śreṣṭho
-                        gavyo 'bhivarṇitaḥ | </l>
-
-                    <l xml:id="SS.1.45.95cd"><label>1.45.95cd</label> vikalpānavaśiṣṭāṃstu
-                        kṣīravīryātsamādiśet || </l>
+                    <l xml:id="SS.1.45.95"><label>1.45.95</label> vikalpa eṣa dadhyādiḥ śreṣṭho
+                        gavyo 'bhivarṇitaḥ |
+                        <caesura/>
+                         vikalpān avaśiṣṭāṃs tu kṣīravīryāt samādiśet || </l>
 
                     <l xml:id="SS.1.45.96"><label>1.45.96</label> atha ghṛtam | </l>
 
-                    <l xml:id="SS.1.45.96a"><label>1.45.96</label> ghṛtaṃ tu madhuraṃ saumyaṃ
+                    <l xml:id="SS.1.45.96a"><label>1.45.96a</label> ghṛtaṃ tu madhuraṃ saumyaṃ
                         mrḍuśītavīryamalpābhiṣyandi
                         snehanamudāvartonmādāpasmāraśūlajvarānāhavātapittapraśamanamagnidīpanaṃ
                         smṛtimatimedhākāntisvaralāvaṇyasaukumāryaujastesjobalakaramāyuṣyaṃ vṛṣyaṃ
                         medhyaṃ vayaḥsthāpanaṃ guru cakṣuṣyaṃ śleṣmābhivardhanaṃ
                         pāpmālakṣmīpraśamanaṃ viṣaharaṃ rakṣoghnaṃ ca || </l>
 
-                    <l xml:id="SS.1.45.97ab"><label>1.45.97ab</label> vipāke madhuraṃ śītaṃ
-                        vātapittaviṣāpaham | </l>
+                    <l xml:id="SS.1.45.97"><label>1.45.97</label> vipāke madhuraṃ śītaṃ
+                        vātapittaviṣāpaham |
+                        <caesura/>
+                         cakṣuṣyamagryaṃ balyaṃ ca gavyaṃ sarpirguṇottaram || </l>
 
-                    <l xml:id="SS.1.45.97cd"><label>1.45.97cd</label> cakṣuṣyamagryaṃ balyaṃ ca
-                        gavyaṃ sarpirguṇottaram || </l>
+                    <l xml:id="SS.1.45.98"><label>1.45.98</label> ājaṃ ghṛtaṃ dīpanīyaṃ cakṣuṣyaṃ
+                        balavardhanam |
+                        <caesura/>
+                         kāse śvāse kṣaye cāpi pathyaṃ pāke ca tallaghu || </l>
 
-                    <l xml:id="SS.1.45.98ab"><label>1.45.98ab</label> ājaṃ ghṛtaṃ dīpanīyaṃ
-                        cakṣuṣyaṃ balavardhanam | </l>
+                    <l xml:id="SS.1.45.99"><label>1.45.99</label> madhuraṃ raktapittaghnaṃ guru pāke
+                        kaphāvaham |
+                        <caesura/>
+                         vātapittapraśamanaṃ suśītaṃ māhiṣaṃ ghṛtam || </l>
 
-                    <l xml:id="SS.1.45.98cd"><label>1.45.98cd</label> kāse śvāse kṣaye cāpi pathyaṃ
-                        pāke ca tallaghu || </l>
-
-                    <l xml:id="SS.1.45.99ab"><label>1.45.99ab</label> madhuraṃ raktapittaghnaṃ guru
-                        pāke kaphāvaham | </l>
-
-                    <l xml:id="SS.1.45.99cd"><label>1.45.99cd</label> vātapittapraśamanaṃ suśītaṃ
-                        māhiṣaṃ ghṛtam || </l>
-
-                    <l xml:id="SS.1.45.100ab"><label>1.45.100ab</label> auṣṭraṃ kaṭu ghṛtaṃ pāke
-                        śophakrimiviṣāpaham | </l>
-
-                    <l xml:id="SS.1.45.100cd"><label>1.45.100cd</label> dīpanaṃ kaphavātaghnaṃ
-                        kuṣṭhagulmodarāpaham || </l>
+                    <l xml:id="SS.1.45.100"><label>1.45.100</label> auṣṭraṃ kaṭu ghṛtaṃ pāke
+                        śophakrimiviṣāpaham |
+                        <caesura/>
+                         dīpanaṃ kaphavātaghnaṃ kuṣṭhagulmodarāpaham || </l>
 
                     <l xml:id="SS.1.45.101ab"><label>1.45.101ab</label> pāke laghvāvikaṃ sarpirna ca
                         pittaprakopaṇam | </l>
@@ -8891,13 +8882,12 @@
                         mūrcchāmadonmādosarajvaragaraśoṣāpasmārayoniśrotrākṣiśiraḥśūlaghnaṃ dīpanaṃ
                         bastinasyākṣipūraṇeṣūpadiśyate || </l>
 
-                    <l xml:id="SS.1.45.108"><label>1.45.108</label> bhavati cātra | </l>
+                    <l xml:id="SS.1.45.108a"><label>1.45.108a</label> bhavati cātra | </l>
 
-                    <l xml:id="SS.1.45.108ab"><label>1.45.108ab</label> purāṇaṃ
-                        timiraśvāsapīnasajvarakāsanut | </l>
-
-                    <l xml:id="SS.1.45.108cd"><label>1.45.108cd</label>
-                        mūrcchākuṣṭhaviṣonmādagrahāpasmāranāśanam || </l>
+                    <l xml:id="SS.1.45.108"><label>1.45.108</label> purāṇaṃ
+                        timiraśvāsapīnasajvarakāsanut |
+                        <caesura/>
+                         mūrcchākuṣṭhaviṣonmādagrahāpasmāranāśanam || </l>
 
                     <l xml:id="SS.1.45.109ab"><label>1.45.109ab</label> ekādaśaśataṃ caiva
                         vatsarānuṣitaṃ ghṛtam | </l>
@@ -8972,102 +8962,102 @@
                         vātapittapraśamanāni śītavīryāṇyabhiṣyandīni sṛṣṭamūtrāṇyagnisādanāni ceti
                         || </l>
 
-                    
-                <l xml:id="SS.1.45.121"><label>1.45.121</label> madhukakāśmaryapalāśatailāni
-                    madhurakaṣāyāṇi kaphapittapraśamanāni || </l>
-                
-                <l xml:id="SS.1.45.122"><label>1.45.122</label> tvarakabhallātakataile uṣṇe
-                    madurakaṣāye tiktānurase vātakaphakuṣṭhamedomehakṛmipraśamane
-                    ubhayatobhāgadoṣahare ca || </l>
-                
-                <l xml:id="SS.1.45.123"><label>1.45.123</label>
-                    saraladevadārugaṇḍīraśiṃśapāgurusārasnehāstiktakaṭukaṣāyā duṣṭavraṇaśodhanāḥ
-                    kṛmikaphakuṣṭhānilaharāś ca || </l>
-                
-                <l xml:id="SS.1.45.124"><label>1.45.124</label>
-                    tumbīkośāmradantīdravantīśyāmāsaptalānīlikākampillakaśaṅkhinīsnehāstiktakaṭukaṣāyā
-                    adhobhāgadoṣaharāḥ kṛmikaphakuṣṭhānilaharā duṣṭavraṇaśodhanāś ca || </l>
-                
-                <l xml:id="SS.1.45.125"><label>1.45.125</label> yavatiktātailaṃ
-                    sarvadoṣapraśamanamīśattiktamagnidīpanaṃ lekhanaṃ medhyaṃ pathyaṃ rasāyanaṃ
-                    ca || </l>
-                
-                <l xml:id="SS.1.45.126"><label>1.45.126</label> ekaiṣikātailaṃ madhuramatiśītaṃ
-                    pittaharamanilaprakopaṇaṃ śleṣmābhivardhanaṃ ca || </l>
-                
-                <l xml:id="SS.1.45.127"><label>1.45.127</label>
-                    sahakāratailamīṣattiktamatisugandhi vātakaphaharaṃ rūkṣaṃ madhurakaṣāyaṃ
-                    rasavannātipittakaraṃ ca || </l>
-                
-                <l xml:id="SS.1.45.128"><label>1.45.128</label> phalodbhavāni tailāni
-                    yānyuktānīha kānicit | 
-                <caesura/> guṇān karma ca vijñāya
-                    phalānīva vinirdiśet || </l>
-                
-                <l xml:id="SS.1.45.129"><label>1.45.129</label> yāvantaḥ sthāvarāḥ snehāḥ
-                    samāsātparikīrtitāḥ | 
-                    <caesura/> sarve tailaguṇā jñeyāḥ sarve
-                    cānilanāśanāḥ || </l>
-                
-                <l xml:id="SS.1.45.130"><label>1.45.130</label> sarvebhyastviha
-                    tailebhyastilatailaṃ viśiṣyate | 
-                    <caesura/>niṣpattestadguṇatvācca
-                    tailatvamitareṣv api || </l>
-                
-                <l xml:id="SS.1.45.131"><label>1.45.131</label> grāmyānūpaudakānāṃ ca
-                    vasāmedomajjāno gurūṣṇamadhurā vātaghnāḥ jāṅgalaikaśaphakravyādādīnāṃ
-                    laghuśītakaṣāyā raktapittaghnāḥ pratudaviṣkirāṇāṃ śleṣmaghnāḥ | tatra
-                    ghṛtatailavasāmedomajjāno yathottaraṃ guruvipākā vātaharāś ca || </l>
-                
-                <l xml:id="SS.1.45.132"><label>1.45.132</label> atha madhuvargaḥ | </l>
-                
-                <l xml:id="SS.1.45.132v"><label>1.45.132v</label> madhu tu madhuraṃ
-                    kaṣāyānurasaṃ rūkṣaṃ śītamagnidīpanaṃ varṇyaṃ svaryaṃ laghu sukumāraṃ
-                    lekhanaṃ hṛdyaṃ vājīkaraṇaṃ sandhānaṃ śodhanaṃ ropaṇaṃ saṃgrāhi cakṣuṣyaṃ
-                    prasādanaṃ sūkṣmamārgānusāri
-                    pittaśleṣmamedomehahikkāśvāsakāsātisāraccharditṛṣṇākṛmiviṣapraśamanaṃ hlādi
-                    tridoṣapraśamanaṃ ca tat tu laghutvāt kaphaghnaṃ
-                    paicchilyānmādhuryātkaṣāyabhāvāc ca vātapittaghnam || </l>
-                
-                <l xml:id="SS.1.45.133"><label>1.45.133</label> pauttikaṃ bhrāmaraṃ kṣaudraṃ
-                    mākṣikaṃ chātram eva ca | 
-                    <caesura/>ārghyamauddālakaṃ
-                    dālamityaṣṭau madhujātayaḥ || </l>
-                
-                <l xml:id="SS.1.45.134"><label>1.45.134</label> viśeṣātpauttikaṃ teṣu
-                    rūkṣoṣṇaṃ saviṣānvayāt | 
-                    <caesura/>vātāsṛkpittakṛcchedi vidāhi
-                    madakṛnmadhu || </l>
-                
-                <l xml:id="SS.1.45.135"><label>1.45.135</label> paicchilyāt svādubhūtastvād
-                    bhrāmaraṃ gurusaṃjñitam | 
-                    <caesura/>kṣaudraṃ viśeṣato jñeyaṃ
-                    śītalaṃ laghu lekhanam || </l>
-                
-                <l xml:id="SS.1.45.136"><label>1.45.136</label> tasmāllaghutaraṃ rūkṣaṃ
-                    mākṣikaṃ pravaraṃ smṛtam | 
-                    <caesura/>śvāsādiṣu ca rogeṣu
-                    praśastaṃ tadviśeṣataḥ || </l>
-                
-                <l xml:id="SS.1.45.137"><label>1.45.137</label> svādupākaṃ guru himaṃ
-                    picchilaṃ raktapittajit | 
-                    <caesura/>śvitramehakṛmighnaṃ ca
-                    vidyācchātraṃ guṇottaram || </l>
-                
-                <l xml:id="SS.1.45.138"><label>1.45.138</label> ārghyaṃ madhvaticakṣuṣyaṃ
-                    kaphapittaharaṃ param | 
-                    <caesura/>kaṣāyaṃ kaṭu pāke ca balyaṃ
-                    tiktamavātakṛt || </l>
-                
-                <l xml:id="SS.1.45.139"><label>1.45.139</label> auddālakaṃ rucikaraṃ svaryaṃ
-                    kuṣṭhaviṣāpaham | 
-                    <caesura/>kaṣāyamuṣṇamamlaṃ ca
-                    pittakṛt kaṭupāki ca || </l>
-                
-                <l xml:id="SS.1.45.140"><label>1.45.140</label> chardimehapraśamanaṃ madhu
-                    rūkṣaṃ dalodbhavam | 
-                <caesura/> bṛṃhaṇīyaṃ madhu navaṃ
-                    nātiśleṣmaharaṃ saram || </l>
+
+                    <l xml:id="SS.1.45.121"><label>1.45.121</label> madhukakāśmaryapalāśatailāni
+                        madhurakaṣāyāṇi kaphapittapraśamanāni || </l>
+
+                    <l xml:id="SS.1.45.122"><label>1.45.122</label> tvarakabhallātakataile uṣṇe
+                        madurakaṣāye tiktānurase vātakaphakuṣṭhamedomehakṛmipraśamane
+                        ubhayatobhāgadoṣahare ca || </l>
+
+                    <l xml:id="SS.1.45.123"><label>1.45.123</label>
+                        saraladevadārugaṇḍīraśiṃśapāgurusārasnehāstiktakaṭukaṣāyā duṣṭavraṇaśodhanāḥ
+                        kṛmikaphakuṣṭhānilaharāś ca || </l>
+
+                    <l xml:id="SS.1.45.124"><label>1.45.124</label>
+                        tumbīkośāmradantīdravantīśyāmāsaptalānīlikākampillakaśaṅkhinīsnehāstiktakaṭukaṣāyā
+                        adhobhāgadoṣaharāḥ kṛmikaphakuṣṭhānilaharā duṣṭavraṇaśodhanāś ca || </l>
+
+                    <l xml:id="SS.1.45.125"><label>1.45.125</label> yavatiktātailaṃ
+                        sarvadoṣapraśamanamīśattiktamagnidīpanaṃ lekhanaṃ medhyaṃ pathyaṃ rasāyanaṃ
+                        ca || </l>
+
+                    <l xml:id="SS.1.45.126"><label>1.45.126</label> ekaiṣikātailaṃ madhuramatiśītaṃ
+                        pittaharamanilaprakopaṇaṃ śleṣmābhivardhanaṃ ca || </l>
+
+                    <l xml:id="SS.1.45.127"><label>1.45.127</label>
+                        sahakāratailamīṣattiktamatisugandhi vātakaphaharaṃ rūkṣaṃ madhurakaṣāyaṃ
+                        rasavannātipittakaraṃ ca || </l>
+
+                    <l xml:id="SS.1.45.128"><label>1.45.128</label> phalodbhavāni tailāni
+                        yānyuktānīha kānicit |
+                        <caesura/>
+                         guṇān karma ca vijñāya phalānīva vinirdiśet || </l>
+
+                    <l xml:id="SS.1.45.129"><label>1.45.129</label> yāvantaḥ sthāvarāḥ snehāḥ
+                        samāsātparikīrtitāḥ |
+                        <caesura/>
+                         sarve tailaguṇā jñeyāḥ sarve cānilanāśanāḥ || </l>
+
+                    <l xml:id="SS.1.45.130"><label>1.45.130</label> sarvebhyastviha
+                        tailebhyastilatailaṃ viśiṣyate |
+                        <caesura/>
+                        niṣpattestadguṇatvācca tailatvamitareṣv api || </l>
+
+                    <l xml:id="SS.1.45.131"><label>1.45.131</label> grāmyānūpaudakānāṃ ca
+                        vasāmedomajjāno gurūṣṇamadhurā vātaghnāḥ jāṅgalaikaśaphakravyādādīnāṃ
+                        laghuśītakaṣāyā raktapittaghnāḥ pratudaviṣkirāṇāṃ śleṣmaghnāḥ | tatra
+                        ghṛtatailavasāmedomajjāno yathottaraṃ guruvipākā vātaharāś ca || </l>
+
+                    <l xml:id="SS.1.45.132"><label>1.45.132</label> atha madhuvargaḥ | </l>
+
+                    <l xml:id="SS.1.45.132v"><label>1.45.132v</label> madhu tu madhuraṃ
+                        kaṣāyānurasaṃ rūkṣaṃ śītamagnidīpanaṃ varṇyaṃ svaryaṃ laghu sukumāraṃ
+                        lekhanaṃ hṛdyaṃ vājīkaraṇaṃ sandhānaṃ śodhanaṃ ropaṇaṃ saṃgrāhi cakṣuṣyaṃ
+                        prasādanaṃ sūkṣmamārgānusāri
+                        pittaśleṣmamedomehahikkāśvāsakāsātisāraccharditṛṣṇākṛmiviṣapraśamanaṃ hlādi
+                        tridoṣapraśamanaṃ ca tat tu laghutvāt kaphaghnaṃ
+                        paicchilyānmādhuryātkaṣāyabhāvāc ca vātapittaghnam || </l>
+
+                    <l xml:id="SS.1.45.133"><label>1.45.133</label> pauttikaṃ bhrāmaraṃ kṣaudraṃ
+                        mākṣikaṃ chātram eva ca |
+                        <caesura/>
+                        ārghyamauddālakaṃ dālamityaṣṭau madhujātayaḥ || </l>
+
+                    <l xml:id="SS.1.45.134"><label>1.45.134</label> viśeṣātpauttikaṃ teṣu rūkṣoṣṇaṃ
+                        saviṣānvayāt |
+                        <caesura/>
+                        vātāsṛkpittakṛcchedi vidāhi madakṛnmadhu || </l>
+
+                    <l xml:id="SS.1.45.135"><label>1.45.135</label> paicchilyāt svādubhūtastvād
+                        bhrāmaraṃ gurusaṃjñitam |
+                        <caesura/>
+                        kṣaudraṃ viśeṣato jñeyaṃ śītalaṃ laghu lekhanam || </l>
+
+                    <l xml:id="SS.1.45.136"><label>1.45.136</label> tasmāllaghutaraṃ rūkṣaṃ mākṣikaṃ
+                        pravaraṃ smṛtam |
+                        <caesura/>
+                        śvāsādiṣu ca rogeṣu praśastaṃ tadviśeṣataḥ || </l>
+
+                    <l xml:id="SS.1.45.137"><label>1.45.137</label> svādupākaṃ guru himaṃ picchilaṃ
+                        raktapittajit |
+                        <caesura/>
+                        śvitramehakṛmighnaṃ ca vidyācchātraṃ guṇottaram || </l>
+
+                    <l xml:id="SS.1.45.138"><label>1.45.138</label> ārghyaṃ madhvaticakṣuṣyaṃ
+                        kaphapittaharaṃ param |
+                        <caesura/>
+                        kaṣāyaṃ kaṭu pāke ca balyaṃ tiktamavātakṛt || </l>
+
+                    <l xml:id="SS.1.45.139"><label>1.45.139</label> auddālakaṃ rucikaraṃ svaryaṃ
+                        kuṣṭhaviṣāpaham |
+                        <caesura/>
+                        kaṣāyamuṣṇamamlaṃ ca pittakṛt kaṭupāki ca || </l>
+
+                    <l xml:id="SS.1.45.140"><label>1.45.140</label> chardimehapraśamanaṃ madhu
+                        rūkṣaṃ dalodbhavam |
+                        <caesura/>
+                         bṛṃhaṇīyaṃ madhu navaṃ nātiśleṣmaharaṃ saram || </l>
 
                     <l xml:id="SS.1.45.141ab"><label>1.45.141ab</label> medaḥsthaulyāpahaṃ grāhi
                         purāṇamatilekhanam | </l>
