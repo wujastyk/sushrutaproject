@@ -1,19 +1,18 @@
-bib2gls 2.9 (2021-11-22)
+bib2gls 3.0 (2022-10-14)
+Detected package glossaries-extra 2022/10/14
+Detected package glossaries 2022/10/14
+Detected package mfirstuc 2022/10/14
+No sentence case protection required now
+Default setting --no-mfirstuc-protection now applied, use --mfirstuc-protection to revert
+Default setting --no-mfirstuc-math-protection now applied, use --mfirstuc-math-protection to revert
 Reading surgery.aux
 Reading sanskrit-hyphenations.aux
-Encoding: UTF-8
-Reading Introduction.aux
-Encoding: UTF-8
-Reading The Sanskrit Text.aux
-Encoding: UTF-8
-Reading The Printed Editions.aux
-Encoding: UTF-8
-Reading The Critical Edition.aux
-Encoding: UTF-8
-Reading The Translation.aux
-Encoding: UTF-8
-Reading bibliography and indexes.aux
-Encoding: UTF-8
+Reading 01 Introduction.aux
+Reading 02 The Sanskrit Text.aux
+Reading 03 The Printed Editions.aux
+Reading 04 The Critical Edition.aux
+Reading 05 The Translation.aux
+Reading ./06 bibliography and indexes.aux
 TeX character encoding: UTF-8
 Initialising resource surgery.glstex.
 Parsing bib files for resource surgery.glstex.
@@ -21,8 +20,21 @@ Default encoding: not set
 Reading /home/dom/Dropbox/localtexmf/bibtex/bib/plants.bib
 Cross-resource references allowed.
 Processing resource surgery.glstex.
+Added dependent: śaivāla
 Selecting entries for resource surgery.glstex.
+Added dependent: śaivāla
 Writing /home/dom/Dropbox/Xdrive/projects/Susruta project/Saktumiva files/translation/publication/surgery.glstex
 Encoding: UTF-8
-abhayā
-1 entry written to /home/dom/Dropbox/Xdrive/projects/Susruta project/Saktumiva files/translation/publication/surgery.glstex.
+vidārigandhā
+balā
+anantā
+jalaśūka
+vidārī
+madhuka
+śaivāla
+apāmārga
+arka
+atibalā
+alarka
+aśvagandhā
+12 entries written to /home/dom/Dropbox/Xdrive/projects/Susruta project/Saktumiva files/translation/publication/surgery.glstex.
