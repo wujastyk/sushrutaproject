@@ -39,6 +39,30 @@ Script=Devanagari]
 %\Xragged[D]{R} % ragged right apparatus
 %\Xragged[A]{R} % ragged right apparatus
 
+\newcommand{\WitnessLayer}{%
+    \noindent\hrulefill\ 
+    {\footnotesize \textenglish{Witnesses}} 
+    \hrulefill \vskip.5\baselineskip }
+\let\Bfootnoterule=\WitnessLayer
+%
+\newcommand{\VariantLayer}{%
+    \noindent\hrulefill\ 
+    {\footnotesize \textenglish{MS variants}} 
+    \hrulefill \vskip.5\baselineskip }
+\let\Afootnoterule\VariantLayer
+%
+\newcommand{\VulgateLayer}{%
+    \noindent\hrulefill\ 
+    {\footnotesize \textenglish{Variants from Su 1938}} 
+    \hrulefill \vskip.5\baselineskip }
+\let\Dfootnoterule=\VulgateLayer
+%
+\newcommand{\NoteLayer}{%
+    \noindent\hrulefill
+    {\footnotesize \textenglish{Notes}} 
+    \hrulefill \vskip.5\baselineskip }
+\let\footnoteruleD=\NoteLayer
+
 \Xarrangement[A]{paragraph}
 \Xarrangement[D]{paragraph}
 \Xarrangement[D]{paragraph}
@@ -48,15 +72,18 @@ Script=Devanagari]
 \Xnotenumfont[D]{\bfseries}
 \Xlemmafont[D]{\bfseries}
 
+
+
 % Changing the sequence of note-layers.  See reledmac manual section 6.8:
 \fnpos{%
-     {B}{critical},%
+    {B}{critical},%
     {A}{critical}, %
     {D}{critical}, %
     {D}{familiar},%
     {B}{familiar},%
     {A}{familiar},%
     }
+
 
 \usepackage[Devanagari,DevanagariExtended]{ucharclasses}
 
@@ -118,7 +145,7 @@ After this style file is \usepackage'd, the edition file will begin something li
 \title{Suśrutasaṃhitā, sūtrasthāna, adhyāya 16}
 \date{Draft of \today\\ \copyright\ \href{http://sushrutaproject.org}{Suśruta Project}}
 
-\setcounter{page}{36}
+\setcounter{page}{44}
 \begin{document}
     \raggedright
     
