@@ -7,11 +7,12 @@
 
 %\secnumdepth{0}
 
-\usepackage{polyglossia}
+
 \usepackage[normalem]{ulem}
 \usepackage[noend,noeledsec,noledgroup]{reledmac}
 %\usepackage[margin=1in]{geometry}
 \usepackage{hyperref}
+\usepackage{polyglossia}
 
 %DW
 \setmainlanguage{sanskrit}
@@ -39,29 +40,7 @@ Script=Devanagari]
 %\Xragged[D]{R} % ragged right apparatus
 %\Xragged[A]{R} % ragged right apparatus
 
-\newcommand{\WitnessLayer}{%
-    \noindent\hrulefill\ 
-    {\footnotesize \textenglish{Witnesses}} 
-    \hrulefill \vskip.5\baselineskip }
-\let\Bfootnoterule=\WitnessLayer
-%
-\newcommand{\VariantLayer}{%
-    \noindent\hrulefill\ 
-    {\footnotesize \textenglish{MS variants}} 
-    \hrulefill \vskip.5\baselineskip }
-\let\Afootnoterule\VariantLayer
-%
-\newcommand{\VulgateLayer}{%
-    \noindent\hrulefill\ 
-    {\footnotesize \textenglish{Variants from Su 1938}} 
-    \hrulefill \vskip.5\baselineskip }
-\let\Dfootnoterule=\VulgateLayer
-%
-\newcommand{\NoteLayer}{%
-    \noindent\hrulefill
-    {\footnotesize \textenglish{Notes}} 
-    \hrulefill \vskip.5\baselineskip }
-\let\footnoteruleD=\NoteLayer
+
 
 \Xarrangement[A]{paragraph}
 \Xarrangement[D]{paragraph}
@@ -76,28 +55,53 @@ Script=Devanagari]
 
 % Changing the sequence of note-layers.  See reledmac manual section 6.8:
 \fnpos{%
-    {B}{critical},%
-    {A}{critical}, %
-    {D}{critical}, %
+    {B}{critical},% Witnesses
+    {A}{critical}, % MS variants
+    {D}{critical}, % Vulgate readings
     {D}{familiar},%
     {B}{familiar},%
     {A}{familiar},%
     }
 
+% % % % % % % % % % % % % % %
+\newcommand{\WitnessLayer}{%
+    \hbox to \textwidth{\hrulefill\footnotesize \textenglish{ Witnesses }\hrulefill }
+    \vskip.5\baselineskip 
+}
+\renewcommand{\Bfootnoterule}{\WitnessLayer}
+%
+\newcommand{\VariantLayer}{%
+    \hbox to \textwidth{\hrulefill\footnotesize \textenglish{ MS variants 
+    }\hrulefill}
+    \vskip.5\baselineskip 
+}
+\renewcommand{\Afootnoterule}{\VariantLayer}
+%
+\newcommand{\VulgateLayer}{%
+    \hbox to \textwidth{\hrulefill \textenglish{\footnotesize  Variants from Su 1938 
+    }\hrulefill }
+    \vskip.5\baselineskip 
+}
+\renewcommand{\Dfootnoterule} {\VulgateLayer}
+%
+\newcommand{\NoteLayer}{%
+    \hbox to \textwidth{\hrulefill\textenglish{\footnotesize Notes }\hrulefill }
+    \vskip.5\baselineskip 
+}
+\renewcommand{\footnoteruleD}{\NoteLayer }
+% % % % % % % % % % % % % % %
 
 \usepackage[Devanagari,DevanagariExtended]{ucharclasses}
 
-\makeatletter
+
 \setTransitionsFor{Devanagari}%
 {\let\curfamily\f@family\let\curshape\f@shape\let\curseries\f@series\sanskritfont}
 {\fontfamily{\curfamily}\fontshape{\curshape}\fontseries{\curseries}\selectfont}
-\makeatother
 
-\makeatletter
 \setTransitionsFor{DevanagariExtended}%
 {\let\curfamily\f@family\let\curshape\f@shape\let\curseries\f@series\sanskritfont}
 {\fontfamily{\curfamily}\fontshape{\curshape}\fontseries{\curseries}\selectfont}
-\makeatother
+
 
 % DW macros:
 \renewcommand{\omit}{\emph{\textenglish{om.}}}
@@ -106,8 +110,7 @@ Script=Devanagari]
 \newcommand{\emended}{\emph{\textenglish{em.}}}
 \newcommand{\insertedpassage}{\normalfont\emph{\textenglish{inserted passage}}}
 \newcommand{\inserted}{\normalfont\emph{\textenglish{inserted before verse}}}
-
-
+%
 \newcommand\Note[1]{\footnoteD{\textenglish{#1}}}
 \newcommand\A{\textenglish{A}}
 \newcommand\N{\textenglish{N}}
@@ -117,6 +120,8 @@ Script=Devanagari]
 % citation command for right margin:
 \newcommand{\vulgate}[1]{\ledsidenote{\textenglish{\tiny 1.16.#1}}}
 
+
+% Biblatex:
 \usepackage{xelatex-biblatex}
 \addbibresource{../incremental_SS_Translation.bib}
 
@@ -142,15 +147,12 @@ Script=Devanagari]
 
 After this style file is \usepackage'd, the edition file will begin something like this:
 
-\title{Suśrutasaṃhitā, sūtrasthāna, adhyāya 16}
-\date{Draft of \today\\ \copyright\ \href{http://sushrutaproject.org}{Suśruta Project}}
-
 \setcounter{page}{44}
 \begin{document}
     \raggedright
     
     \input{sanskrit-hyphenations}
     
-    \lineation{page}
+    \lineation{section}
     \begingroup
     \beginnumbering
