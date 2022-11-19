@@ -2,10 +2,11 @@
 % !TeX encoding = UTF-8
 % !TeX spellcheck = en_GB
 \documentclass[12pt,draft]{article} %taking out draft switches off marginal notes
-\usepackage{array}
+
 \usepackage{incremental_SS_Translation} % all customizations in this file
 
 \addbibresource{incremental_SS_Translation.bib}
+
 
 \title{A Translation of the New Edition of the \SS}
 \author{Jason Birch 
@@ -15,49 +16,42 @@
 
 
 \includeonly{%
-%   00 abstract,
-    01 manuscripts and editions,
-    02 features of the transmission,
-    translation 1-01,
-    translation 1-02,
-    translation 1-16,
-    translation 1-28,
-    translation 5-01,
-   translation 5-02,
-   translation 5-03,
-  translation 6-17,
-  translation 6-38,
-   bibliography and indexes,
-   appendix,
+    00 abstract,
+%    01 manuscripts and editions,
+%    02 features of the transmission,
+%    translation 1-01,
+%    translation 1-02,
+%    translation 1-16,
+%    translation 1-28,
+%    translation 1-01,
+%    translation 5-01,
+    translation 5-02,
+%   translation 6-17,
+ % translation 6-38,
+    bibliography and indexes,
+%    appendix,
 }
-
 \usepackage{xcolor}
 
-\setmainfont{Libertinus Serif}
-
-
-
 \begin{document}
-   
         \input{sanskrit-hyphenations}
-        \pagecolor{cyan}
-        \maketitle
-        \newpage
-        \nopagecolor
- 
-      %  \include{00 abstract}
+    %\nocite{forb-1856}
+    \pagecolor{cyan}
+
+          \maketitle
+
+        \include{00 abstract} % also turns off pagecolor
         \tableofcontents
         \include{01 manuscripts and editions}
         \include{02 features of the transmission}
         \include{translation 1-01}
         \include{translation 1-02}
-        \include{translation 1-16}
+        \include{translation 1-17}
         \include{translation 1-28}
         %
         \include{translation 5-01}
         \include{translation 5-02}
-        \include{translation 5-03}
-        
+        %
         \include{translation 6-17}
         \include{translation 6-38}
         \include{bibliography and indexes}
