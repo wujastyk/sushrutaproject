@@ -7,7 +7,7 @@ This is the repository for the manuscript and edition transcriptions created as 
 
 This repository is currently maintained by Dominik Wujastyk. 
 
-## Saktumiva
+## Reading and collating manuscript transcriptions
 
 The manuscript collations and provisional edition are handled by [Saktumiva](https://saktumiva.org/wiki/wujastyk/susrutasamhita/start).
 
