@@ -72,12 +72,12 @@ These links are to unedited collations.
 
 ## [Uttaratantra, adhyāyas 31-66](https://saktumiva.org/wiki/wujastyk/susrutasamhita/06-su.ut-31-end/provisional-edition_uttaratantra?upama_ver=h153eehd57&upama_script=devanagari) (new edition)
 
-|      |      |      |      |      |      |      |                                                              |                                                              |      |
-| :--: | :--: | :--: | :--: | :--: | :--: | :--: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: |
-|  31  |  32  |  33  |  34  |  35  |  36  |  37  | [❈38](https://saktumiva.org/wiki/wujastyk/susrutasamhita/06-su.ut-31-end/provisional-edition_uttaratantra?upama_ver=h153eehd57&upama_script=devanagari&upama_scroll=SS.6.38.1) | [39](https://saktumiva.org/wiki/wujastyk/susrutasamhita/06-su.ut-31-end/provisional-edition_uttaratantra?upama_ver=h153eehd57&upama_script=devanagari&upama_scroll=SS.6.39.1) |  40  |
-|  41  |  42  |  43  |  44  |  45  |  46  |  47  |                              48                              |                              49                              |  50  |
-|  51  |  52  |  53  |  54  |  55  |  56  |  57  |                              58                              |                              59                              |  60  |
-|  61  |  62  |  63  |  64  |  65  |  66  |      |                                                              |                                                              |      |
+|      |      |      |      |      |      |                                                              |                                                              |                                                              |      |
+| :--: | :--: | :--: | :--: | :--: | :--: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: |
+|  31  |  32  |  33  |  34  |  35  |  36  |                              37                              | [❈38](https://saktumiva.org/wiki/wujastyk/susrutasamhita/06-su.ut-31-end/provisional-edition_uttaratantra?upama_ver=h153eehd57&upama_script=devanagari&upama_scroll=SS.6.38.1) | [39](https://saktumiva.org/wiki/wujastyk/susrutasamhita/06-su.ut-31-end/provisional-edition_uttaratantra?upama_ver=h153eehd57&upama_script=devanagari&upama_scroll=SS.6.39.1) |  40  |
+|  41  |  42  |  43  |  44  |  45  |  46  |                              47                              |                              48                              |                              49                              |  50  |
+|  51  |  52  |  53  |  54  |  55  |  56  |                              57                              |                              58                              |                              59                              |  60  |
+|  61  |  62  |  63  |  64  |  65  |  66  | [colophon](https://saktumiva.org/wiki/wujastyk/susrutasamhita/06-su.ut-31-end/provisional-edition_uttaratantra?upama_ver=h153eehd57&upama_script=devanagari&upama_scroll=SS.6.66.colophon2) |                                                              |                                                              |      |
 
 ## Instructions
 
