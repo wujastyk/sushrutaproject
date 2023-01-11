@@ -4,6 +4,23 @@
 
 
 
+### Notes on file names
+
+The digital images of manuscript leaves have names with this format: <999><rv> IMG_<999>.JPG  For example,
+
+167v IMG_0033.JPG
+175r IMG_0051.JPG
+191v IMG_0049.JPG
+
+This means "scribal folio 167 verso, camera jpeg image number 33" and so on.  
+
+Some scribal numbers are followed by an underscore, like this:
+
+112_r IMG_0142.JPG
+191_r IMG0125.JPG
+
+The underscore means that the folio is by a different scribe. 
+
 |  |  | **Suśruta text contained** | | approx. adhyāya |
 | ------------- | ---------- | ----------- | ------------ | ---------- |
 | folio | start | middle |end||
