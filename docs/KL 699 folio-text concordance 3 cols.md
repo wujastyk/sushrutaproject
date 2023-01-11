@@ -19,7 +19,7 @@ Some scribal numbers are followed by an underscore, like this:
 112_r IMG_0142.JPG
 191_r IMG0125.JPG
 
-The underscore means that the folio is by a different scribe. 
+The underscore means that the folio is by a different scribe.   From the point of view of the SS edition, these folios are treated as independent witnesses.  They are transcribed in separate XML files. 
 
 |  |  | **Suśruta text contained** | | approx. adhyāya |
 | ------------- | ---------- | ----------- | ------------ | ---------- |
