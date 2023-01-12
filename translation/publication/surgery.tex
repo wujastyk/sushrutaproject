@@ -9,7 +9,7 @@
 \pagestyle{fancy}
 \renewcommand{\sectionmark}[1]{\markboth{#1}{}} % set the \leftmark
 \fancyhf{}
-\fancyhead[R]{\thepage} %predefined ()
+\fancyhead[R]{\textenglish{\thepage}} %predefined ()
 \fancyhead[L]{\empty} % 1. sectionname
 \fancyfoot[C]{\empty}
 
@@ -30,8 +30,11 @@ Paras Mehta}
 % Turn off Devanagari:
 % \let\dev=\emph
 
-%\includeonly{02 The Sanskrit Text,
+%\includeonly{04 The Critical Edition,
 %06 Bibliography and indexes} 
+
+\usepackage{../chapter-headings}
+\setcounter{secnumdepth}{0}
 
 \begin{document}
     \include{sanskrit-hyphenations}
@@ -40,12 +43,14 @@ Paras Mehta}
     \tableofcontents
     \newpage
 
+    \include{Preface}
     \include{01 Introduction} 
-    \include{02 The Sanskrit Text} 
+    \include{02 Transmission} 
     \include{03 The Printed Editions} 
-    \include{04 The Critical Edition}
-    \include{05 The Translation} 
-    \include{06 Bibliography and indexes} 
+    \include{04 The Manuscripts}
+    \include{05 The Critical Edition} % includes The Manuscripts
+    \include{06 The Translation} 
+    \include{07 Bibliography and indexes} 
 
     \newpage    
     \listoftodos

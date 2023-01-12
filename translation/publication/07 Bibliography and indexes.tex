@@ -1,0 +1,38 @@
+%\section{Nidānasthāna}
+
+% now the end matter
+
+%Cf.\ \cite{adri-engl}.
+\nocite{*} % include everything from the bib file in the bibliography
+
+
+\printbiblist[heading=biblistintoc,notkeyword=botanical]{shorthand} % the 
+%Abbreviations (shorthands)
+
+\indexprologue{\emph{\footnotesize (The numbers after the first comma refer to 
+pages.)}} 
+    
+\printindex[manuscripts]
+
+\printbibliography
+[notkeyword=edition,
+notkeyword=shorthand,
+heading=bibintoc]
+
+\printbiblist[title=Botanical sourcebooks,
+    heading=biblistintoc,
+    keyword=botanical]{shorthand} 
+    
+{\footnotesize
+    
+%    \printindex[lexical]
+    
+    % glossary of plants \gls{klītaka}
+    \renewcommand{\glossaryname}{Glossary and Index of Medical Substances}
+    \printunsrtglossaries % plant names.  iterate over all defined entries 
+    
+    \par}
+
+
+
+
