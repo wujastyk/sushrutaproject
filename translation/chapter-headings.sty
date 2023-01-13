@@ -1,0 +1,21 @@
+% Tweak the chapter headings
+\renewcommand{\@makechapterhead}[1]{%
+    \vspace*{40\p@}%
+    {\parindent \z@ \raggedright \normalfont
+        \ifnum \c@secnumdepth >\m@ne
+        \if@mainmatter
+        \LARGE \bfseries \space \textenglish{\thechapter} \space\space
+        \fi
+        \fi
+        \interlinepenalty\@M
+        \LARGE \bfseries \textenglish{#1}\par\nobreak
+        \vskip 30\p@
+}}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\renewcommand{\sectionmark}[1]{\markboth{#1}{}} % set the \leftmark
+\fancyhf{}
+\fancyhead[RO]{\thepage} %predefined ()
+\fancyhead[LE]{\thepage} % 1. sectionname
+\fancyfoot[C]{\empty}
+\renewcommand{\headrulewidth}{0pt}
