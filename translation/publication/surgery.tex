@@ -6,15 +6,26 @@
     gitver}
 \addbibresource{../incremental_SS_Translation.bib} % putting this here lets TeXstudio find it.
 
+% Stylistic choices specifically for this book:
 \pagestyle{fancy}
 \renewcommand{\sectionmark}[1]{\markboth{#1}{}} % set the \leftmark
 \fancyhf{}
 \fancyhead[R]{\textenglish{\thepage}} %predefined ()
 \fancyhead[L]{\empty} % 1. sectionname
 \fancyfoot[C]{\empty}
+%
+\DeclareFieldFormat{url}{%
+    \ifhyperref
+   {\textsc{url: }\url{#1}}
+%    {\href{#1}{\textsc{url}}}
+    {\textsc{url: }\nolinkurl{#1}}} %DW bug here
+%
+\usepackage{../chapter-headings}
+\setcounter{secnumdepth}{0}
 
+% Metadata:
 \title{The \SS\ on the Plastic Surgery of the Ears and Nose:\\ The Nepalese 
-Recension}
+    Recension}
 
 \author{Dominik Wujastyk \and
 Jason Birch \and
@@ -25,34 +36,48 @@ Deepro Chakraborty \and
 Harshal Bhatt \and  
 Vandana Lele \and
 Paras Mehta}
-\date{\texttt{Draft of \today}\\ \copyright\     The authors.}
+\date{\texttt{Draft of \today}}
 
 % Turn off Devanagari:
 % \let\dev=\emph
 
-%\includeonly{04 The Critical Edition,
-%06 Bibliography and indexes} 
+%\includeonly{
+%    % Preface,
+%    %    01 Introduction,
+%    06 The Translation,
+%    07 Bibliography and indexes
+%}
 
-\usepackage{../chapter-headings}
-\setcounter{secnumdepth}{0}
 
 \begin{document}
     \include{sanskrit-hyphenations}
     
     \maketitle
+    
+    \thispagestyle{empty}
+    \pagenumbering{roman}
+    \vspace*{\fill}
+
+    {\centering [Copyright and publishing statement]\\
+\bigskip        
+        \copyright\ The authors\par}
+    \vspace*{\fill}
+
+    
     \tableofcontents
     \newpage
-
+   
     \include{Preface}
+   
+    \pagenumbering{arabic}
+   
     \include{01 Introduction} 
     \include{02 Transmission} 
     \include{03 The Printed Editions} 
     \include{04 The Manuscripts}
-    \include{05 The Critical Edition} % includes The Manuscripts
+    \include{05 The Critical Edition} 
     \include{06 The Translation} 
     \include{07 Bibliography and indexes} 
 
-    \newpage    
-    \listoftodos
     
 \end{document}
