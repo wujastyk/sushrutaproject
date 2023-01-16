@@ -55,7 +55,7 @@ The underscore means that the folio is by a different scribe.   From the point o
 | 27 | 1.29.19* | 1.29.39 | 1.29.65 | 1.29 |
 | 28 | 1.29.65 | 1.30.4 | 1.31.4 | 1.30-1.31 |
 | 29 | 1.31.4 | 1.31.29 | 1.32.4 | 1.32 |
-| 30-67 |   folio missing |   | | |
+| 30-67 |  folios missing |   | | |
 |  |  |  | Total: | *29 adhyāyas* |
 | | | | | |
 |  | **2. Nidāna** | |||
