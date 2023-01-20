@@ -1,4 +1,4 @@
-# Suśruta Project manuscript transcriptions XXX
+# Suśruta Project manuscript transcriptions YYY
 
 [![DOI](https://zenodo.org/badge/305195084.svg)](https://zenodo.org/badge/latestdoi/305195084)
 
