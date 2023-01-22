@@ -6,22 +6,24 @@
 \nocite{*} % include everything from the bib file in the bibliography
 
 \defbibnote{aboutARK}{\emph{\footnotesize ARK references can be found by prefixing 
-the resolver 
-    “\url{http://n2t.net},”\\ e.g., \url{http://n2t.net/ark:/13960/t3tt6967d}.}}
+the resolver “\url{http://n2t.net},”\\ e.g., \url{http://n2t.net/ark:/13960/t3tt6967d}.}}
+
 \printbiblist[
     prenote=aboutARK,
     heading=biblistintoc,
-    notkeyword=botanical]{shorthand} % the 
+    notkeyword=botanical]
+    {shorthand} % the 
 %Abbreviations (shorthands)
 
-\indexprologue{\emph{\footnotesize (The numbers after the first comma refer to 
-pages in the present book.)}} 
+\indexprologue{\emph{\footnotesize 
+        (The numbers after the first comma refer to 
+    pages in the present book.)}} 
     
 \printindex[manuscripts]
 
 \printbibliography
 [notkeyword=edition,
-notkeyword=shorthand,
+notkeyword=botanical,
 heading=bibintoc
 ]
 
@@ -30,7 +32,7 @@ heading=bibintoc
     keyword=botanical]
     {shorthand} 
     
-{\footnotesize
+%\begin{\footnotesize}
     
 %    \printindex[lexical]
     
@@ -38,7 +40,7 @@ heading=bibintoc
     \renewcommand{\glossaryname}{Glossary and Index of Medical Substances}
     \printunsrtglossaries % plant names.  iterate over all defined entries 
     
-    \par}
+%\end{footnotesize}
 
 
 
