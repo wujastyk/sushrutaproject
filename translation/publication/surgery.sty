@@ -1,0 +1,21 @@
+\usepackage{../incremental_SS_Translation,  % all customizations in this file
+    gitver}
+\addbibresource{../incremental_SS_Translation.bib} % putting this here lets TeXstudio find 
+%it.
+
+% Stylistic choices specifically for this book:
+\pagestyle{fancy}
+\renewcommand{\sectionmark}[1]{\markboth{#1}{}} % set the \leftmark
+\fancyhf{}
+\fancyhead[R]{\textenglish{\thepage}} %predefined ()
+\fancyhead[L]{\empty} % 1. sectionname
+\fancyfoot[C]{\empty}
+%
+\DeclareFieldFormat{url}{%
+    \ifhyperref
+    {\textsc{url: }\url{#1}}
+    %    {\href{#1}{\textsc{url}}}
+    {\textsc{url: }\nolinkurl{#1}}} %DW bug here
+%
+\usepackage{../chapter-headings}
+\setcounter{secnumdepth}{0}
