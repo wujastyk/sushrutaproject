@@ -10,6 +10,16 @@ The editions and manuscript transcriptions can be viewed at the links below.  Li
 
 The tables give links to adhyāyas that have received editorial attention (not always final).
 
+## Instructions
+
+“Vulgate edition” means that editorial work on the provisional edition has not yet begun.   You will see the text of the edition in the main window with the variants from the manuscripts in the critical apparatus on the right.
+
+“New edition” means that the project has released an edition of parts of the work with full apparatus.  At the present time (2022-2024), this edition is provisional: work on proof-reading and edition is still ongoing on a daily basis.  You will see the edition in the main window, and the variants from the manuscripts and the printed edition in the critical apparatus on the right. 
+
+Chapters marked with a puṣpikā ❈ have received critical editorial attention and translation.  Unmarked chapters are collations, not critical editions.
+
+The “[Instructions for Readers](https://saktumiva.org/wiki/users)” documentation explains how to read the above editions, how to select particular manuscripts for examination, and how to generate the critical apparatus.  The most common option is to press “other witnesses” in the left menu bar, then “select all”, then “generate apparatus.”  Click the अ character in the right-hand menu to select your preferred display script.
+
 ## [Sūtrasthāna](https://saktumiva.org/wiki/wujastyk/susrutasamhita/01-su.su/provisional-edition_sutrasthana?upama_ver=gv6fam6pom&upama_script=devanagari)
 |                                                              |                                                              |                                                              |      |      |                                                              |      |                                                              |      |      |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: | :--: | :----------------------------------------------------------: | :--: | :----------------------------------------------------------: | :--: | :--: |
@@ -79,13 +89,5 @@ These links are to unedited collations.
 |  51  |  52  |  53  |  54  |  55  |  56  |                              57                              |                              58                              |                              59                              |  60  |
 |  61  |  62  |  63  |  64  |  65  |  66  | [colophon](https://saktumiva.org/wiki/wujastyk/susrutasamhita/06-su.ut-31-end/provisional-edition_uttaratantra?upama_ver=h153eehd57&upama_script=devanagari&upama_scroll=SS.6.66.colophon2) |                                                              |                                                              |      |
 
-## Instructions
 
-“Vulgate edition” means that editorial work on the provisional edition has not yet begun.   You will see the text of the edition in the main window with the variants from the manuscripts in the critical apparatus on the right.
-
-“New edition” means that the project has released an edition of parts of the work with full apparatus.  At the present time (2022-2024), this edition is provisional: work on proof-reading and edition is still ongoing on a daily basis.  You will see the edition in the main window, and the variants from the manuscripts and the printed edition in the critical apparatus on the right. 
-
-Chapters marked with a puṣpikā ❈ have received critical editorial attention and translation.  Unmarked chapters are collations, not critical editions.
-
-The “[Instructions for Readers](https://saktumiva.org/wiki/users)” documentation explains how to read the above editions, how to select particular manuscripts for examination, and how to generate the critical apparatus.  The most common option is to press “other witnesses” in the left menu bar, then “select all”, then “generate apparatus.”  Click the अ character in the right-hand menu to select your preferred display script.
 
