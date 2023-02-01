@@ -44,9 +44,9 @@ These links are to unedited collations.
 
 ## [Śārīrasthāna](https://saktumiva.org/wiki/wujastyk/susrutasamhita/03-su.sa/03-za-vulgate-edition?upama_ver=h791q8kjwq&upama_script=devanagari) (new edition)
 
-|                                                              |      |      |      |      |      |      |      |      |      |
-| ------------------------------------------------------------ | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
-| [1](https://saktumiva.org/wiki/wujastyk/susrutasamhita/03-su.sa/provisional-edition_sarirasthana?upama_ver=gyhkg3mfls&upama_script=devanagari&upama_scroll=3.1.) | 2    | 3    | 4    | 5    | 6    | 7    | 8    | 9    | 10   |
+|                                                              |      |      |      |                                                              |      |      |      |      |      |
+| ------------------------------------------------------------ | ---- | ---- | ---- | ------------------------------------------------------------ | ---- | ---- | ---- | ---- | ---- |
+| [1](https://saktumiva.org/wiki/wujastyk/susrutasamhita/03-su.sa/provisional-edition_sarirasthana?upama_ver=gyhkg3mfls&upama_script=devanagari&upama_scroll=SS.3.1.1) | 2    | 3    | 4    | [5](https://saktumiva.org/wiki/wujastyk/susrutasamhita/03-su.sa/provisional-edition_sarirasthana?upama_ver=gyhkg3mfls&upama_script=devanagari&upama_scroll=SS.3.5.1) | 6    | 7    | 8    | 9    | 10   |
 
 
 
