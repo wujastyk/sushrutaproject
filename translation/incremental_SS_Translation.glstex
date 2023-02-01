@@ -22,8 +22,8 @@
 \providecommand{\bibglspassim}{ \bibglspassimname}
 \providecommand*{\bibglshyperlink}[2]{\glshyperlink[#1]{#2}}
 
-\providecommand{\bibglsuppercase}{\MakeTextUppercase}
-\providecommand{\bibglslowercase}{\MakeTextLowercase}
+\providecommand{\bibglsuppercase}{\glsuppercase}
+\providecommand{\bibglslowercase}{\glslowercase}
 \providecommand{\bibglsfirstuc}{\makefirstuc}
 \providecommand{\bibglstitlecase}{\capitalisewords}
 
@@ -47,202 +47,466 @@
 }
 
 \bibglsnewentry{dhava}%
-{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{4}},
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{56}},
 sort={axlewood|}}%
 {axlewood}%
 {Anogeissus latifolia (Roxb.\ ex DC.) Wall.\ ex Guill \& Perr. See \volcite{1}[163\,f]{avs}, \cite[20]{chopra}}
-\glsxtrfieldlistadd{dhava}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{4}}
+\glsxtrfieldlistadd{dhava}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{56}}
 
 
 \bibglsnewentry{priyaṅgu}%
-{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{5}},
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{53}\bibglslastDelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{57}},
 sort={beautyberry|}}%
 {beautyberry}%
-{$\leftarrow$ \emph{śyāmā}. Callicarpa macrophylla, Vahl. See \volcite{1}[334]{avs}, \cite[\#420]{NK}. Some say also Setaria italica Beauv. \cite[263--264]{gvdb}. See also \cite[413]{gvdb}}
-\glsxtrfieldlistadd{priyaṅgu}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{5}}
+{$\leftarrow$ \emph{śyāmā}. Callicarpa macrophylla, Vahl. See \volcite{1}[334]{avs}, \volcite{1}[\#420]{NK}. Some say also Setaria italica Beauv. \cite[263--264]{gvdb}. See also \cite[413]{gvdb}}
+\glsxtrfieldlistadd{priyaṅgu}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{53}}
+\glsxtrfieldlistadd{priyaṅgu}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{57}}
+
+
+\bibglsnewentry{aṃśumatī}%
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{53}},
+sort={beggarweed|}}%
+{beggarweed}%
+{Desmodium gangeticum (L.) DC (\volcite{1}[428]{dymock}, \cite[602]{meul-plants1}, \volcite{1}[\#1192]{NK}; \cite[382]{adps}, 414 and \volcite{2}[319]{avs}, 4.366 are confusing)}
+\glsxtrfieldlistadd{aṃśumatī}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{53}}
 
 
 \bibglsnewentry{elā}%
-{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{5}},
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{53}\bibglslastDelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{57}},
 sort={cardamom|}}%
 {cardamom}%
-{Elettaria cardamomum, Maton. See \volcite{2}[360]{avs}, \cite[\#924]{NK}, Potter 66}
-\glsxtrfieldlistadd{elā}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{5}}
+{Elettaria cardamomum, Maton. See \volcite{2}[360]{avs}, \volcite{1}[\#924]{NK}, \cite[66]{potter}}
+\glsxtrfieldlistadd{elā}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{53}}
+\glsxtrfieldlistadd{elā}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{57}}
+
+
+\bibglsnewentry{patra}%
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{53}},
+sort={cassia|cinnamon|}}%
+{cassia cinnamon}%
+{Cinnamomum tamala, (Buch.-Ham.) Nees. See \volcite{2}[84]{avs}, \volcite{1}[\#589]{NK}}
+\glsxtrfieldlistadd{patra}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{53}}
 
 
 \bibglsnewentry{tārāvitāra}%
-{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{4}},
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{57}},
 sort={certain|minerals|}}%
 {certain minerals}%
 {Unknown. It is not even certain that these are minerals. The variant reading in the vulgate, \emph{tāraḥ sutāraḥ} was glossed by Ḍalhaṇa on \Su{5.3.14}{568} as follows \emph{tāro rūpyaṃ, sutāraḥ pāradaḥ}, ``tāra means silver; sutāra means mercury."}
-\glsxtrfieldlistadd{tārāvitāra}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{4}}
+\glsxtrfieldlistadd{tārāvitāra}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{57}}
+
+
+\bibglsnewentry{elavālu}%
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{53}},
+sort={cherry|}}%
+{cherry}%
+{Prunus cerasus, L.?. See BVDB 58, \volcite{1}[\#2037]{NK}, \cite[58]{gvdb}}
+\glsxtrfieldlistadd{elavālu}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{53}}
+
+
+\bibglsnewentry{nāgapuṣpa}%
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{53}},
+sort={cobra's|saffron|}}%
+{cobra's saffron}%
+{$\rightarrow$ nāgakeśara. Mesua ferrea, L. See \volcite{1}[\#1595]{NK}, \cite[220]{gvdb}}
+\glsxtrfieldlistadd{nāgapuṣpa}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{53}}
 
 
 \bibglsnewentry{pāribhadra}%
-{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{4}},
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{56}},
 sort={corky|coral|tree|}}%
 {corky coral tree}%
 {Erythrina suberosa Roxb. See \cite{gvdb} 245}
-\glsxtrfieldlistadd{pāribhadra}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{4}}
+\glsxtrfieldlistadd{pāribhadra}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{56}}
 
 
 \bibglsnewentry{kuṣṭha}%
-{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{5}},
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{53}\bibglslastDelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{57}},
 sort={costus|}}%
 {costus}%
-{Saussurea costus, Clarke. See \cite[\#2239]{NK}}
-\glsxtrfieldlistadd{kuṣṭha}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{5}}
+{Saussurea costus, Clarke. See \volcite{1}[\#2239]{NK}}
+\glsxtrfieldlistadd{kuṣṭha}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{53}}
+\glsxtrfieldlistadd{kuṣṭha}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{57}}
 
 
 \bibglsnewentry{anantā}%
-{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{4}},
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{41}\bibglslastDelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{56}},
 sort={country|sarsaparilla|}}%
 {country sarsaparilla}%
-{Hemidesmus indicus, (L.) R. Br. See \cite[434]{adps}, \volcite{3}[141]{avs}--5, \cite[\#1210]{NK}. But see \cite[13]{gvdb} for complications that may suggest that it is to be equated with \emph{sārivā}, which may sometimes be Cryptolepis or Ichnocarpus fruitescens R. Rr. (\cite[429-431]{gvdb})}
-\glsxtrfieldlistadd{anantā}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{4}}
+{Hemidesmus indicus, (L.) R. Br. See \cite[434]{adps}, \volcite{3}[141]{avs}--5, \volcite{1}[\#1210]{NK}. But see \cite[13]{gvdb} for complications that may suggest that it is to be equated with \emph{sārivā}, which may sometimes be Cryptolepis or Ichnocarpus fruitescens R. Rr. (\cite[429-431]{gvdb})}
+\glsxtrfieldlistadd{anantā}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{41}}
+\glsxtrfieldlistadd{anantā}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{56}}
 
 
 \bibglsnewentry{tagara}%
-{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{27}},
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{53}\bibglslastDelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{97}},
 sort={crape|jasmine|}}%
 {crape jasmine}%
-{Tabernaemontana divaricata (L.) R.Br.\ ex Roem.\ \& Schultes. See GJM 557, \volcite{5}[232]{avs}. Synonym of \gls{nata}. But some say Valeriana jatamansi, Jones See \cite[173--174]{gvdb} for discussion (and charming comments on brain liquid testing)}
-\glsxtrfieldlistadd{tagara}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{27}}
+{Tabernaemontana divaricata (L.) R.Br.\ ex Roem.\ \& Schultes. See \cite[557]{meul-plants1}, \volcite{5}[232]{avs}. Synonym of \gls{nata}. But some say Valeriana jatamansi, Jones See \cite[173--174]{gvdb} for discussion (and charming comments on brain liquid testing)}
+\glsxtrfieldlistadd{tagara}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{53}}
+\glsxtrfieldlistadd{tagara}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{97}}
 
 
 \bibglsnewentry{pāṭalā}%
-{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{4}},
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{56}},
 sort={crimson|trumpet-flower|tree|}}%
 {crimson trumpet-flower tree}%
-{Stereospermum chelonides, (L. f.) A. DC. See GJM 573, \volcite{5}[192\,ff]{avs}, \cite[362\,f]{adps}, \volcite{3}[1848\,f]{avs}, \cite{IGP} 1120, \volcite{3}[20\,ff]{dymock}}
-\glsxtrfieldlistadd{pāṭalā}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{4}}
+{Stereospermum chelonides, (L. f.) A. DC. See \cite[573]{meul-plants1}, \volcite{5}[192\,ff]{avs}, \cite[362\,f]{adps}, \volcite{3}[1848\,f]{avs}, \cite{IGP} 1120, \volcite{3}[20\,ff]{dymock}}
+\glsxtrfieldlistadd{pāṭalā}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{56}}
+
+
+\bibglsnewentry{bhadradāru}%
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{53}},
+sort={deodar|}}%
+{deodar}%
+{Cedrus deodara, (Roxb.ex D.Don) G. Don. See \cite{avs} 41, \volcite{1}[\#516]{NK}}
+\glsxtrfieldlistadd{bhadradāru}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{53}}
+
+
+\bibglsnewentry{viḍaṅga}%
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{53}},
+sort={embelia|}}%
+{embelia}%
+{Embelia ribes, Burm. f. See \cite[507]{adps}, \volcite{2}[368]{avs}, \volcite{1}[\#929]{NK}, \cite[113]{potter}}
+\glsxtrfieldlistadd{viḍaṅga}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{53}}
+
+
+\bibglsnewentry{subhaṅgurā}%
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{41}},
+sort={false|daisy|}}%
+{false daisy}%
+{(su)bhaṅgura = bhṛṅga? Eclipta prostrata (L.) L. See \cite[288]{gvdb}}
+\glsxtrfieldlistadd{subhaṅgurā}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{41}}
 
 
 \bibglsnewentry{aśvakarṇa}%
-{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{4}},
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{56}},
 sort={garjan|oil|tree|}}%
 {garjan oil tree}%
 {Dipterocarpus turbinatus Gaertn.\ f. See \cite[28]{gvdb}, \cite[100]{chopra}}
-\glsxtrfieldlistadd{aśvakarṇa}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{4}}
+\glsxtrfieldlistadd{aśvakarṇa}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{56}}
+
+
+\bibglsnewentry{hema}%
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{53}},
+sort={gold|}}%
+{gold}%
+{gold}
+\glsxtrfieldlistadd{hema}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{53}}
 
 
 \bibglsnewentry{surendragopa}%
-{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{4}},
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{57}},
 sort={gold|and|sarsaparilla|}}%
 {gold and sarsaparilla}%
 {Unknown. Ḍalhaṇa on \Su{5.3.15}{568} glossed \emph{surendra} as ``gold" and \emph{gopā} as ``\gls{sārivā}." He also noted other opinions that \emph{surendra} was ``\gls{kuṭaja}''}
-\glsxtrfieldlistadd{surendragopa}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{4}}
+\glsxtrfieldlistadd{surendragopa}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{57}}
 
 
 \bibglsnewentry{rājadruma}%
-{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{4}},
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{56}},
 sort={golden|shower|tree|}}%
 {golden shower tree}%
 {rājadruma = āragvadha. Cassia fistula L. See \cite{gvdb} 37}
-\glsxtrfieldlistadd{rājadruma}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{4}}
+\glsxtrfieldlistadd{rājadruma}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{56}}
+
+
+\bibglsnewentry{balā}%
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{53}},
+sort={heart-leaf|sida|}}%
+{heart-leaf sida}%
+{Sida cordifolia, Linn. See \cite[71]{adps}, \volcite{1}[\#2297]{NK}}
+\glsxtrfieldlistadd{balā}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{53}}
 
 
 \bibglsnewentry{vakra}%
-{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{5}},
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{57}},
 sort={Himalayan|mayapple|}}%
 {Himalayan mayapple}%
 {Podophyllum emodi, Wall.\ \citep[\#1971]{NK}. But perhaps a synonm of \gls{tagara} and \gls{nata} \citep[354]{gvdb}}
-\glsxtrfieldlistadd{vakra}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{5}}
+\glsxtrfieldlistadd{vakra}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{57}}
 
 
 \bibglsnewentry{ativiṣā}%
-{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{5}},
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{57}},
 sort={Himalayan|monkshood|}}%
 {Himalayan monkshood}%
-{Aconitum heterophyllum Wall. \cite[12]{gvdb}, \cite[\#39]{NK}}
-\glsxtrfieldlistadd{ativiṣā}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{5}}
+{Aconitum heterophyllum Wall. \cite[12]{gvdb}, \volcite{1}[\#39]{NK}}
+\glsxtrfieldlistadd{ativiṣā}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{57}}
+
+
+\bibglsnewentry{punarnavā}%
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{52}},
+sort={hogweed|}}%
+{hogweed}%
+{Boerhaavia diffusa, L. See \cite[387]{adps}, \volcite{1}[281]{avs}, \volcite{1}[\#363]{NK}}
+\glsxtrfieldlistadd{punarnavā}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{52}}
+
+
+\bibglsnewentry{dāruharidrā}%
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{53}},
+sort={Indian|barberry|}}%
+{Indian barberry}%
+{Berberis aristata, DC. See \volcite{1}[65]{dymock}, \volcite{1}[\#685]{NK}, \cite[562]{meul-plants1}, \cite{IGP} 141}
+\glsxtrfieldlistadd{dāruharidrā}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{53}}
+
+
+\bibglsnewentry{mañjiṣṭhā}%
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{53}},
+sort={Indian|madder|}}%
+{Indian madder}%
+{Rubia cordifolia, L. See \cite{IGP}, \cite[215]{chopra}, \cite[289]{gvdb}}
+\glsxtrfieldlistadd{mañjiṣṭhā}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{53}}
 
 
 \bibglsnewentry{sārivā}%
-{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{27}},
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{53}\bibglslastDelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{97}},
 sort={Indian|sarsaparilla|}}%
 {Indian sarsaparilla}%
-{$\rightarrow$ \emph{anantā} (Hemidesmus indicus, (L.) R. Br.\cite[434]{adps}, \volcite{3}[141]{avs}--5, \cite[\#1210]{NK}) and black creeper (pālindī. Ichnocarpus frutescens, (L.) R.Br. or Cryptolepis buchanani, Roemer \& Schultes \volcite{3}[141]{avs}, 3.145, 3.203, \cite[\#1283]{NK}, \#1210, \cite[434]{adps})}
-\glsxtrfieldlistadd{sārivā}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{27}}
+{$\rightarrow$ \emph{anantā}. Hemidesmus indicus, (L.) R. Br. \cite[434]{adps}, \volcite{3}[141]{avs}--5, \volcite{1}[\#1210]{NK}; and black creeper, pālindī. Ichnocarpus frutescens, (L.) R.Br. or Cryptolepis buchanani, Roemer \& Schultes \volcite{3}[141]{avs}, 3.145, 3.203, \volcite{1}[\#1283, 1210]{NK}, \cite[434]{adps}}
+\glsxtrfieldlistadd{sārivā}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{53}}
+\glsxtrfieldlistadd{sārivā}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{97}}
+
+
+\bibglsnewentry{guñjā}%
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{41}},
+sort={jequirity|}}%
+{jequirity}%
+{Abrus precatorius, L. See \volcite{1}[10]{avs}, \volcite{1}[\#6]{NK}, \cite[168]{potter}}
+\glsxtrfieldlistadd{guñjā}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{41}}
 
 
 \bibglsnewentry{lākṣā}%
-{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{5}},
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{57}},
 sort={lac|}}%
 {lac}%
-{Kerria lacca (Kerr.). See \cite[445]{meul-1974}, \volcite{2}[\#32]{NK}. \citet[1053--1066]{watt-comm} is characteristically informative, and is definite about the antiquity of lac in India}
-\glsxtrfieldlistadd{lākṣā}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{5}}
+{Kerria lacca (Kerr.). See \cite[445]{meul-plants1}, \volcite{2}[\#32]{NK}. \citet[1053--1066]{watt-comm} is characteristically informative, and is definite about the antiquity of lac in India}
+\glsxtrfieldlistadd{lākṣā}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{57}}
+
+
+\bibglsnewentry{klītaka}%
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{41}},
+sort={liquorice|}}%
+{liquorice (?)}%
+{Glycyrrhiza glabra, L.? \cite[123--124]{gvdb} discuss the many difficulties in identifying this plant}
+\glsxtrfieldlistadd{klītaka}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{41}}
+
+
+\bibglsnewentry{madhuka}%
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{53}},
+sort={liquorice|}}%
+{liquorice}%
+{Glycyrrhiza glabra, L. See \volcite{3}[84]{avs}, \volcite{1}[\#1136]{NK}}
+\glsxtrfieldlistadd{madhuka}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{53}}
+
+
+\bibglsnewentry{lodhra}%
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{53}},
+sort={lodh|tree|}}%
+{lodh tree}%
+{Symplocos racemosa, Roxb. See \cite[597]{meul-plants1}, \cite[279\,f]{adps}, \volcite{1}[\#2420]{NK}. \citet[351--352]{gvdb} notes that there are two varieties, S. racemosa, qualified as śāvara, and S. crataegoides Buch.-Ham.\ for \emph{paṭṭikā lodhra}}
+\glsxtrfieldlistadd{lodhra}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{53}}
+
+
+\bibglsnewentry{pippalī}%
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{53}},
+sort={long|pepper|}}%
+{long pepper}%
+{Piper longum, L. See \cite[374]{adps}, \volcite{1}[\#1928]{NK}}
+\glsxtrfieldlistadd{pippalī}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{53}}
+
+
+\bibglsnewentry{vijayā2}%
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{41}},
+sort={medhshingi|}}%
+{medhshingi}%
+{Dolichandrone falcata (DC.) The \emph{Sauśrutanighaṇṭu} gives a number of synonyms for \emph{vijayā} \citep[5.77, 10.143]{suve-2000}. But one of them, \emph{viṣāṇī} (also \emph{meṣaśṛṅgī}), is sometimes equated with \emph{Dolichandrone falcata (DC.) Seemann} (\cites[518]{adps}[373\,f]{gvdb}, a plant used as an abortifacient and fish poison \citep[\#862]{nadk-1982}}
+\glsxtrfieldlistadd{vijayā2}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{41}}
 
 
 \bibglsnewentry{abhayā}%
-{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{5}},
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{57}},
 sort={myrobalan|}}%
 {myrobalan}%
-{Terminalia chebula, Retz. See \cite[172]{adps}, \cite[\#2451]{NK}, Potter 214}
-\glsxtrfieldlistadd{abhayā}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{5}}
+{Terminalia chebula, Retz. See \cite[172]{adps}, \volcite{1}[\#2451]{NK}, \cite[214]{potter}}
+\glsxtrfieldlistadd{abhayā}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{57}}
+
+
+\bibglsnewentry{suvarcikā}%
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{53}},
+sort={natron|}}%
+{natron}%
+{Sodium carbonate. \volcite{2}[\#45]{NK}. Ḍalhaṇa identifies \emph{suvarcikā} with {svarjikṣāra} \Su{4.8.50}{441}}
+\glsxtrfieldlistadd{suvarcikā}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{53}}
 
 
 \bibglsnewentry{kuruvinda}%
-{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{5}},
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{57}},
 sort={nutgrass|}}%
 {nutgrass}%
 {Unknown. Ḍalhaṇa on \Su{5.3.15}{568} glossed the term as \gls{mustā}, but noted other opinions that it was a whetstone or a very special metallic gem. \citet[108]{gvdb} added that it could be a variety of rice, \emph{ṣaṣṭika dhānya}}
-\glsxtrfieldlistadd{kuruvinda}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{5}}
+\glsxtrfieldlistadd{kuruvinda}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{57}}
 
 
 \bibglsnewentry{mustā}%
-{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{27}},
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{98}},
 sort={nutgrass|}}%
 {nutgrass}%
-{Cyperus rotundus, L. See \cite[316]{adps}, \volcite{2}[296]{avs}, \cite[\#782]{NK}}
-\glsxtrfieldlistadd{mustā}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{27}}
+{Cyperus rotundus, L. See \cite[316]{adps}, \volcite{2}[296]{avs}, \volcite{1}[\#782]{NK}}
+\glsxtrfieldlistadd{mustā}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{98}}
 
 
 \bibglsnewentry{hareṇu}%
-{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{5}},
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{52}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{53}\bibglslastDelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{57}},
 sort={peas|}}%
 {peas}%
 {hareṇu = satīna. Pisum sativum, L. \citet[419--420, 467--468]{gvdb} notes that two plants are usually meant under this name, but there is no agreement on the identity of the second}
-\glsxtrfieldlistadd{hareṇu}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{5}}
+\glsxtrfieldlistadd{hareṇu}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{52}}
+\glsxtrfieldlistadd{hareṇu}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{53}}
+\glsxtrfieldlistadd{hareṇu}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{57}}
+
+
+\bibglsnewentry{bṛhatī}%
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{53}},
+sort={poison|berry|}}%
+{poison berry}%
+{Solanum violaceum, Ortega. See \cite[100]{adps}, \volcite{1}[\#2329]{NK}, \volcite{5}[151]{avs}}
+\glsxtrfieldlistadd{bṛhatī}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{53}}
+
+
+\bibglsnewentry{paripelavā}%
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{53}},
+sort={pondweed|}}%
+{pondweed}%
+{Normally a neuter noun. \citet[238, 264--265, 409]{gvdb} argued that \emph{plava} and \emph{śaivāla} are the same thing, and may be either Zannichellia palustris, L., or Potamogeton pectinatus, L}
+\glsxtrfieldlistadd{paripelavā}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{53}}
+
+
+\bibglsnewentry{gairika}%
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{53}},
+sort={red|chalk|}}%
+{red chalk}%
+{gairika}
+\glsxtrfieldlistadd{gairika}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{53}}
+
+
+\bibglsnewentry{dhyāmaka}%
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{53}},
+sort={rosha|grass|}}%
+{rosha grass}%
+{Cymbopogon martinii (Roxb.) Wats. See \volcite{2}[285]{avs}, \volcite{1}[\#177]{NK}}
+\glsxtrfieldlistadd{dhyāmaka}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{53}}
+
+
+\bibglsnewentry{candana}%
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{53}},
+sort={sandalwood|}}%
+{sandalwood}%
+{Santalum album, L. See \cite[111]{adps}, \volcite{1}[\#2217]{NK}}
+\glsxtrfieldlistadd{candana}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{53}}
+
+
+\bibglsnewentry{bālaka}%
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{53}},
+sort={scented|pavonia|}}%
+{scented pavonia}%
+{Pavonia odorata, Willd. See \cite[498]{adps}, \volcite{1}[\#1822]{NK}}
+\glsxtrfieldlistadd{bālaka}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{53}}
 
 
 \bibglsnewentry{sidhraka}%
-{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{4}},
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{56}},
 sort={small-flowered|crape|myrtle|}}%
 {small-flowered crape myrtle}%
 {Lagerstroemia parviflora Roxb. See \cite[432]{gvdb}}
-\glsxtrfieldlistadd{sidhraka}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{4}}
+\glsxtrfieldlistadd{sidhraka}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{56}}
+
+
+\bibglsnewentry{māṃsī}%
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{53}},
+sort={spikenard|}}%
+{spikenard}%
+{Nardostachys grandiflora, DC. See \volcite{1}[\#1691]{NK}}
+\glsxtrfieldlistadd{māṃsī}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{53}}
+
+
+\bibglsnewentry{sitā}%
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{53}},
+sort={sugar|}}%
+{sugar}%
+{Ḍalhaṇa makes this equation at \Su{1.37.25}{162}}
+\glsxtrfieldlistadd{sitā}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{53}}
+
+
+\bibglsnewentry{aśvamāraka}%
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{41}},
+sort={sweet-scented|oleander|}}%
+{sweet-scented oleander}%
+{Nerium oleander, L. See \cite[223]{adps}, \volcite{1}[\#1709]{NK}}
+\glsxtrfieldlistadd{aśvamāraka}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{41}}
 
 
 \bibglsnewentry{kuṭaja}%
-{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{27}},
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{97}},
 sort={Tellicherry|bark|}}%
 {Tellicherry bark}%
 {Holarrhena pubescens Wall. ex G.Don, with Wrightia tinctoria and W. arborea considered \cite[101--102]{gvdb}, \cite[267--270]{adps}}
-\glsxtrfieldlistadd{kuṭaja}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{27}}
+\glsxtrfieldlistadd{kuṭaja}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{97}}
+
+
+\bibglsnewentry{tryūṣaṇa}%
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{52}},
+sort={three|heating|spices|}}%
+{three heating spices}%
+{{śuṇṭhī} ({Dried ginger}) {Zingiber officinale, Roscoe.} {\cite[50]{adps}, \volcite{1}[\#2658]{NK}, \volcite{5}[435]{avs}, \cite{IGP} 1232}, {pippalī} ({long pepper}) {Piper longum, L.}{\cite[374]{adps}, \volcite{1}[\#1928]{NK}}, and {marica} ({black pepper}) {Piper nigrum, L.}{\cite[294]{adps}, \volcite{1}[\#1929]{NK}}}
+\glsxtrfieldlistadd{tryūṣaṇa}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{52}}
 
 
 \bibglsnewentry{haridrā}%
-{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{5}},
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{57}},
 sort={turmeric|}}%
 {turmeric}%
 {Curcuma longa Linn. \cite[465]{gvdb}}
-\glsxtrfieldlistadd{haridrā}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{5}}
+\glsxtrfieldlistadd{haridrā}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{57}}
+
+
+\bibglsnewentry{rajanī}%
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{53}},
+sort={turmeric|}}%
+{turmeric}%
+{Curcuma longa, L. \cite[169]{adps}, \volcite{2}[259]{avs}, \volcite{1}[\#750]{NK}}
+\glsxtrfieldlistadd{rajanī}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{53}}
+
+
+\bibglsnewentry{utpala}%
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{53}},
+sort={water-lily|}}%
+{water-lily}%
+{Nymphaea stellata, Willd. See \cite[528]{meul-plants1}, \cite{IGP} 790; \cite[110]{dutt}, \volcite{1}[\#1726]{NK}}
+\glsxtrfieldlistadd{utpala}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{53}}
 
 
 \bibglsnewentry{muṣkaka}%
-{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{4}},
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{56}},
 sort={weaver's|beam|tree|}}%
 {weaver's beam tree}%
-{Schrebera swietenioides, Roxb. See \volcite{5}[88]{avs}, Lord, \cite[\#2246]{NK}}
-\glsxtrfieldlistadd{muṣkaka}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{4}}
+{Schrebera swietenioides, Roxb. See \volcite{5}[88]{avs}, Lord, \volcite{1}[\#2246]{NK}}
+\glsxtrfieldlistadd{muṣkaka}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{56}}
 
 
 \bibglsnewentry{somavalka}%
-{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{4}},
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{56}},
 sort={white|cutch|tree|}}%
 {white cutch tree}%
-{Acacia polyacantha, Willd. See \volcite{1}[30]{avs}, \cite{IGP} 7, GJM 602, \volcite{2}[935]{avs}; \emph {pace} \cite[\#1038]{NK}}
-\glsxtrfieldlistadd{somavalka}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{4}}
+{Acacia polyacantha, Willd. See \volcite{1}[30]{avs}, \cite{IGP} 7, \cite[602]{meul-plants1}, \volcite{2}[935]{avs}; \emph {pace} \volcite{1}[\#1038]{NK}}
+\glsxtrfieldlistadd{somavalka}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{56}}
+
+
+\bibglsnewentry{kṣudrā}%
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{53}},
+sort={yellow-berried|nightshade|}}%
+{yellow-berried nightshade}%
+{Solanum virginianum, L. See \cite[100]{adps}, \volcite{1}[\#2329]{NK}, \volcite{5}[164]{avs}}
+\glsxtrfieldlistadd{kṣudrā}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{53}}
 
 
