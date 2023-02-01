@@ -19,3 +19,11 @@
 %
 \usepackage{../chapter-headings}
 \setcounter{secnumdepth}{0}
+
+% Get \chapter headings; this is a “book”
+\indexsetup{level=\chapter*,
+    noclearpage,
+    % firstpagestyle=fancy
+    othercode= %\footnotesize
+    \newcommand{\lettergroup}[1]{\relax}
+}
