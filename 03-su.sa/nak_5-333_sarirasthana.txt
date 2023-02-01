@@ -35,7 +35,7 @@
                     </msContents>
                     <physDesc>
                         <objectDesc form="pothi">
-                                                    <supportDesc material="palm-leaf">
+                            <supportDesc material="palm-leaf">
                                 <!-- @material can be "paper", "industrial paper", "handmade paper", "palm-leaf", "palmyra palm-leaf", "talipot palm-leaf", "birch bark", "vellum", etc. -->
                                 <!-- the following <foliation> tags are examples -->
                             </supportDesc>
@@ -46,149 +46,459 @@
                             <origDate calendar="Nepala" when="0663">Nepala Saṃvat 663 (1465
                                 CE).</origDate>
                             <!-- calendar can be "Vikrama", "Śaka", etc. Dates can be approximate or exact. -->
-                            </origin>
-                        </history>
+                        </origin>
+                    </history>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
             <change when="2020-10-21" who="Dominik Wujastyk"> Started the file. </change>
-            <change when="2021-04-24" who="Harshal Bhatt">Transcribed śārīrasthāna 1</change>
-            <change when="2021-04-25" who="Dominik Wujastyk">Converted Devanagari to IAST.  Adjusted word-breaks.</change>
+            <change when="2021-04-24" who="Harshal Bhatt">Transcribed 3.1</change>
+            <change when="2021-04-25" who="Dominik Wujastyk">Converted Devanagari to IAST. Adjusted
+                word-breaks.</change>
+            <change when="2023-01-31" who="Madhusudan Rimal">Transcribed 3.5</change>
         </revisionDesc>
     </teiHeader>
 
     <text xml:lang="sa-Latn">
 
         <body>
-            
+
             <div n="3" type="sthāna">
 
                 <div n="1" type="adhyāya">
 
-                    <l xml:id="SS.3.1.1">athātaḥ sarvvabhūtacintāṃ śārīraṃ
-                        vyākhyāsyāmaḥ ||</l>
+                    <l xml:id="SS.3.1.1">athātaḥ sarvvabhūtacintāṃ śārīraṃ vyākhyāsyāmaḥ ||</l>
 
                     <l xml:id="SS.3.1.2"/>
 
-                    <l xml:id="SS.3.1.3">sarvvabhūtānāṅ kāraṇam akāraṇaṃ
-                        satvarajastamo<lb/>lakṣaṇam aṣṭarūpam akhilasyāsya jagataḥ sa|| ||<cb/>mbhavahetur avyaktannāma || 
-                        tad ekam anekeṣāṃ kṣetrajñānām adhiṣṭhānāṃ | samudra
-                        ivodakaujasām bhāvānāṃ</l>
+                    <l xml:id="SS.3.1.3">sarvvabhūtānāṅ kāraṇam akāraṇaṃ satvarajastamo<lb/>lakṣaṇam
+                        aṣṭarūpam akhilasyāsya jagataḥ sa|| ||<cb/>mbhavahetur avyaktannāma || tad
+                        ekam anekeṣāṃ kṣetrajñānām adhiṣṭhānāṃ | samudra ivodakaujasām bhāvānāṃ</l>
 
-                    <l xml:id="SS.3.1.4">tasmād avyaktān mahān utpadyate talliṅga
-                        eva | talliṅgāc ca mahata<cb/>s tallakṣaṇa evāhaṅkāra utpadyate | sa trividho
-                        vaikārikas taijaso bhūtādir iti | tatra
-                        vaikārikād ahaṃ<lb/>kārāt tallakṣaṇāny evaikādaśendriyāṇy utpadyante || tadyathā
-                        || śrotraṃ tvak cakṣur jjihvā ghrāṇo vāg ghastopasthapāyupādamanānsīti | tatra
-                        pūrvvāṇi pañca vuddhīndriyāṇi | itarāṇi pañca ka<pb n="158v"/>rmmendriyāṇi |
-                        ubhayātmakam manaḥ | bhūtādes tallakṣaṇāny eva pañcatanmātrāṇy utpadyante ||
-                        tadyathā || śabdatanmātraṃ | sparśatanmātraṃ | rūpatanmātraṃ | rasatanmātraṃ
-                        | gandhatanmātram iti<lb/> | tebhyo bhūtāni
-                        vyomānilānalajalor vvyastebhyas tadviśeṣāḥ śa<cb/>bdasparśarūparasagandhāḥ |
-                        evam etāni caturvviṃśati tatvāni vyākhyātāni bhavanti |</l>
+                    <l xml:id="SS.3.1.4">tasmād avyaktān mahān utpadyate talliṅga eva | talliṅgāc ca
+                        mahata<cb/>s tallakṣaṇa evāhaṅkāra utpadyate | sa trividho vaikārikas
+                        taijaso bhūtādir iti | tatra vaikārikād ahaṃ<lb/>kārāt tallakṣaṇāny
+                        evaikādaśendriyāṇy utpadyante || tadyathā || śrotraṃ tvak cakṣur jjihvā
+                        ghrāṇo vāg ghastopasthapāyupādamanānsīti | tatra pūrvvāṇi pañca
+                        vuddhīndriyāṇi | itarāṇi pañca ka<pb n="158v"/>rmmendriyāṇi | ubhayātmakam
+                        manaḥ | bhūtādes tallakṣaṇāny eva pañcatanmātrāṇy utpadyante || tadyathā ||
+                        śabdatanmātraṃ | sparśatanmātraṃ | rūpatanmātraṃ | rasatanmātraṃ |
+                        gandhatanmātram iti<lb/> | tebhyo bhūtāni vyomānilānalajalor vvyastebhyas
+                        tadviśeṣāḥ śa<cb/>bdasparśarūparasagandhāḥ | evam etāni caturvviṃśati
+                        tatvāni vyākhyātāni bhavanti |</l>
 
-                    <l xml:id="SS.3.1.5">tatra buddhīndriyā<lb/>ṇāṃ śabdādayo
-                        viṣayāḥ | karmmendriyāṇāṃ yathāsaṃkhyāvacanā<cb/>dān ānandavisarggaviharaṇāni |</l>
+                    <l xml:id="SS.3.1.5">tatra buddhīndriyā<lb/>ṇāṃ śabdādayo viṣayāḥ |
+                        karmmendriyāṇāṃ yathāsaṃkhyāvacanā<cb/>dān ānandavisarggaviharaṇāni |</l>
 
-                    <l xml:id="SS.3.1.6">avyaktam mahān ahaṃkāraḥ pañcatanmātrāṇi
-                        cety aṣṭau prakṛtayaḥ śe<lb/>ṣāḥ ṣoḍaśavikārāḥ</l>
+                    <l xml:id="SS.3.1.6">avyaktam mahān ahaṃkāraḥ pañcatanmātrāṇi cety aṣṭau
+                        prakṛtayaḥ śe<lb/>ṣāḥ ṣoḍaśavikārāḥ</l>
 
-                    <l xml:id="SS.3.1.7">svaṃ svaṃ svaiṣāṃ viṣaye
-                            vi<unclear>bhu</unclear>tvaṃ | svayam a<cb/>dhyātmam adhidevan tu | atha
-                        vuddher vvrahyā | ahaṃkārasyeśvaraḥ | manasaś candramāḥ | diśaḥ śrotrasya |
-                        tva<lb/>co vāyuḥ | sūryaś cakṣuṣaḥ | rasanā<gap extent="1" unit="syllable"
-                        />paḥ | pṛthivī ghrāṇasya<cb/> | vāco 'gniḥ | hastayor indra | pādayor vviṣṇuḥ
-                        | pāyor mmitraḥ | prajāpatir upasthasyeti | </l>
+                    <l xml:id="SS.3.1.7">svaṃ svaṃ svaiṣāṃ viṣaye vi<unclear>bhu</unclear>tvaṃ |
+                        svayam a<cb/>dhyātmam adhidevan tu | atha vuddher vvrahyā |
+                        ahaṃkārasyeśvaraḥ | manasaś candramāḥ | diśaḥ śrotrasya | tva<lb/>co vāyuḥ |
+                        sūryaś cakṣuṣaḥ | rasanā<gap extent="1" unit="syllable"/>paḥ | pṛthivī
+                        ghrāṇasya<cb/> | vāco 'gniḥ | hastayor indra | pādayor vviṣṇuḥ | pāyor
+                        mmitraḥ | prajāpatir upasthasyeti | </l>
 
-                    <l xml:id="SS.3.1.8">tatra sarvva<lb/> evācetanaḥ | eṣa
-                        varggaḥ | puruṣaś ca pañcaviṃśatitamaś cetayitā | sa tu
-                        karaṇakāryasaṃprayuktaḥ saty apy acetanye pradhānasya puruṣakaivalyārthān
-                        pravṛttim upadiśanti | <pb n="159r"/>kṣīrādīm̐ś cātra hetūr udāharanti ||</l>
+                    <l xml:id="SS.3.1.8">tatra sarvva<lb/> evācetanaḥ | eṣa varggaḥ | puruṣaś ca
+                        pañcaviṃśatitamaś cetayitā | sa tu karaṇakāryasaṃprayuktaḥ saty apy acetanye
+                        pradhānasya puruṣakaivalyārthān pravṛttim upadiśanti | <pb n="159r"
+                        />kṣīrādīm̐ś cātra hetūr udāharanti ||</l>
 
-                    <l xml:id="SS.3.1.9">ata ūrdhvam prakṛtipuruṣayoḥ
-                        sādharmmyavaidharmmye vyākhyāsyāmaḥ || ubhāv apy anādī ubhāv apy anantau |
-                        ubhāv apy ani<lb/>tyau | ubhāv apy aparau ubhāv apy aliṅgau ubhau ca
-                        sarvvagatāv i<cb/>ti || ekā tu prakṛtir acetanā triguṇā vījadharmmiṇī
-                        prasavadharmminī madhyadharmmiṇī ceti | vahava<lb/>s tu puruṣāś cetanāv antaḥ |
-                        aguṇā avījadharmmiṇo prasa<cb/>vadharmmiṇo madhyasthadharmmiṇaś ceti |</l>
+                    <l xml:id="SS.3.1.9">ata ūrdhvam prakṛtipuruṣayoḥ sādharmmyavaidharmmye
+                        vyākhyāsyāmaḥ || ubhāv apy anādī ubhāv apy anantau | ubhāv apy ani<lb/>tyau
+                        | ubhāv apy aparau ubhāv apy aliṅgau ubhau ca sarvvagatāv i<cb/>ti || ekā tu
+                        prakṛtir acetanā triguṇā vījadharmmiṇī prasavadharmminī madhyadharmmiṇī ceti
+                        | vahava<lb/>s tu puruṣāś cetanāv antaḥ | aguṇā avījadharmmiṇo
+                        prasa<cb/>vadharmmiṇo madhyasthadharmmiṇaś ceti |</l>
 
-                    <l xml:id="SS.3.1.10">tatra kāraṇānurūpaṃ kāryam iti kṛtvā
-                        sarvva evaite ca vi<lb/>śeṣāḥ | satvarajastamomayā bhavanti |
-                        tad añcanatvāt tanma<lb/>yatvāc ca tadgu<unclear>ṇe</unclear> eva puruṣo
-                        bhavatīty eke bhāṣante</l>
+                    <l xml:id="SS.3.1.10">tatra kāraṇānurūpaṃ kāryam iti kṛtvā sarvva evaite ca
+                        vi<lb/>śeṣāḥ | satvarajastamomayā bhavanti | tad añcanatvāt tanma<lb/>yatvāc
+                        ca tadgu<unclear>ṇe</unclear> eva puruṣo bhavatīty eke bhāṣante</l>
 
-                    <l xml:id="SS.3.1.11">vaidyake tu || svabhāvo niyatiḥ
-                        kālaḥ pa<lb/>riṇāmasta<unclear>the</unclear>ś caraḥ |
+                    <l xml:id="SS.3.1.11">vaidyake tu || svabhāvo niyatiḥ kālaḥ
+                            pa<lb/>riṇāmasta<unclear>the</unclear>ś caraḥ |
                         <caesura/>
-                        yadṛcchati ca manyante prakṛtim pṛthu<cb/>darśiṇaḥ ||</l>
+                         yadṛcchati ca manyante prakṛtim pṛthu<cb/>darśiṇaḥ ||</l>
 
-                    <l xml:id="SS.3.1.12">tato jātāni bhūtāni tadguṇāny eva
-                        nirddiśet |
+                    <l xml:id="SS.3.1.12">tato jātāni bhūtāni tadguṇāny eva nirddiśet |
                         <caesura/>
-                        tebhyas tallakṣaṇaḥ kṛtsno bhūtagrāmaḥ prajāyate ||</l>
+                         tebhyas tallakṣaṇaḥ kṛtsno bhūtagrāmaḥ prajāyate ||</l>
 
-                    <l xml:id="SS.3.1.13">tasyopayogo bhihitaś cikitsām prati
-                        sarvvadā |
+                    <l xml:id="SS.3.1.13">tasyopayogo bhihitaś cikitsām prati sarvvadā |
                         <caesura/>
-                        bhūtebhyo pi paran tasmān nāsti cintā cikitsite ||</l>
+                         bhūtebhyo pi paran tasmān nāsti cintā cikitsite ||</l>
 
-                    <l xml:id="SS.3.1.14">yato 'bhihitaṃ
-                        tatsambhavadravyasamūho bhūtādir ukta<pb n="159v"/> iti | bhautikāni
-                        cendriyāṇy āyurvvede varṇṇyante tathaivendriyārthāḥ ||</l>
+                    <l xml:id="SS.3.1.14">yato 'bhihitaṃ tatsambhavadravyasamūho bhūtādir ukta<pb
+                            n="159v"/> iti | bhautikāni cendriyāṇy āyurvvede varṇṇyante
+                        tathaivendriyārthāḥ ||</l>
 
-                    <l xml:id="SS.3.1.15">bhavati cātra ||
-                        indriyair indriyārthaṃ tu svaṃ svaṃ gṛhṇāti mānavaḥ |
+                    <l xml:id="SS.3.1.15">bhavati cātra || indriyair indriyārthaṃ tu svaṃ svaṃ
+                        gṛhṇāti mānavaḥ |
                         <caesura/>
-                        niyataṃ tulyayonitvān nāmyenānya<lb/>m iti sthitiḥ ||</l>
+                         niyataṃ tulyayonitvān nāmyenānya<lb/>m iti sthitiḥ ||</l>
 
                     <l xml:id="SS.3.1.16">na cāyurvvedaśāstreṣūpadiśyante ||
                         sarvvagatā<cb/>kṣetrajñanityāś ca asarvvagateṣu ca kṣetrajñeṣv anityeṣu ca
                         puruṣākhyāpakān hetūn udāharanti<lb/> | āyurvvedasiddhāntād asarvvagatā
                         kṣetrajñā nityāś ca | tiryagyo<cb/>nimānuṣadeveṣu ca sañcaranti |
-                        dharmmādharmmanimittaṃ tu etenumānagrāhyāś carāḥ
-                        paramaśū<lb/>kṣmāś cetanāvantaḥ śāśvatāḥ śukrārttavayoḥ
-                            sannipāteṣv abhi<cb/>vya<unclear>jya</unclear>nte | yato 'bhihitam yañ ca
-                        mahābhūtaḥ śarīrasamavāyaḥ puruṣa iti | sa khalv eṣa
-                        karmma<lb/>puruṣaś cikitsāyām adhikṛtaḥ |</l>
+                        dharmmādharmmanimittaṃ tu etenumānagrāhyāś carāḥ paramaśū<lb/>kṣmāś
+                        cetanāvantaḥ śāśvatāḥ śukrārttavayoḥ sannipāteṣv
+                            abhi<cb/>vya<unclear>jya</unclear>nte | yato 'bhihitam yañ ca mahābhūtaḥ
+                        śarīrasamavāyaḥ puruṣa iti | sa khalv eṣa karmma<lb/>puruṣaś cikitsāyām
+                        adhikṛtaḥ |</l>
 
-                    <l xml:id="SS.3.1.17">tasya khalu
-                        sukhaduḥkhecchā<cb/>dveṣaprayatnaḥ prāṇāpānau vuddhir mmanaḥ saṃkalpo
-                        vicāraṇānusmṛtijñānam a<lb/>dhyavasāyo viṣayopalabdhiś ca guṇāḥ |</l>
+                    <l xml:id="SS.3.1.17">tasya khalu sukhaduḥkhecchā<cb/>dveṣaprayatnaḥ prāṇāpānau
+                        vuddhir mmanaḥ saṃkalpo vicāraṇānusmṛtijñānam a<lb/>dhyavasāyo
+                        viṣayopalabdhiś ca guṇāḥ |</l>
 
-                    <l xml:id="SS.3.1.18">sātvikās tu ānṛśaṃsyaṃ
-                        samvibhāgarucitā titikṣā satyan dharmma āstikyaṃ jñānaṃ
-                        vuddhir mmedhā smṛtir anabhiṣvaṅgatā ca || rājasās tu duḥ<pb n="160r"
-                        />khavahulatāghradānaṃ duḥśīlatvam akāruṇyam ānṛtikatvam ahaṃkāro dambho māno
-                        harṣaḥ kāmakrodhaś ceti || tāmasās tu viṣāditvaṃ nāstikyam adharmmaśīlatā
-                        vuddhinirodho 'jñānaṃ durmme<lb/>dhastvam akarmmaśīlatā nidrālutvañ ceti ||</l>
+                    <l xml:id="SS.3.1.18">sātvikās tu ānṛśaṃsyaṃ samvibhāgarucitā titikṣā satyan
+                        dharmma āstikyaṃ jñānaṃ vuddhir mmedhā smṛtir anabhiṣvaṅgatā ca || rājasās
+                        tu duḥ<pb n="160r"/>khavahulatāghradānaṃ duḥśīlatvam akāruṇyam ānṛtikatvam
+                        ahaṃkāro dambho māno harṣaḥ kāmakrodhaś ceti || tāmasās tu viṣāditvaṃ
+                        nāstikyam adharmmaśīlatā vuddhinirodho 'jñānaṃ durmme<lb/>dhastvam
+                        akarmmaśīlatā nidrālutvañ ceti ||</l>
 
-                    <l xml:id="SS.3.1.19">antarikṣās tu śabdaśa<cb/>bdendriyaṃ
-                        sarvvacchidrasamūho viviktatā ca | vāyavyās tu sparśaḥ sparśendriyaṃ
-                        sarvvaceṣṭāsamūhaḥ sarvvaśarī<lb/>spandaranaṃ laghutā ca | taijasās tu rūpaṃ
-                        rūpendriyaṃ varṇṇasantāpo<cb/> bhrājiṣṇutā paktir amarṣas taikṣṇyañ ca |
-                        āpyās tu raso ca rasendriyaṃ sarvvadravasamūho gurutā śaityaṃ sneho
-                        reta<lb/>ś ca | pārthivās tu gandho gandhendriyaṃ sarvvamūrttisamūho gurutā
-                        ca |</l>
+                    <l xml:id="SS.3.1.19">antarikṣās tu śabdaśa<cb/>bdendriyaṃ sarvvacchidrasamūho
+                        viviktatā ca | vāyavyās tu sparśaḥ sparśendriyaṃ sarvvaceṣṭāsamūhaḥ
+                        sarvvaśarī<lb/>spandaranaṃ laghutā ca | taijasās tu rūpaṃ rūpendriyaṃ
+                        varṇṇasantāpo<cb/> bhrājiṣṇutā paktir amarṣas taikṣṇyañ ca | āpyās tu raso
+                        ca rasendriyaṃ sarvvadravasamūho gurutā śaityaṃ sneho reta<lb/>ś ca |
+                        pārthivās tu gandho gandhendriyaṃ sarvvamūrttisamūho gurutā ca |</l>
 
-                    <l xml:id="SS.3.1.20">ta<cb/>tra satvavahulam ākāśaṃ |
-                        rajovahulo vāyuḥ | satvarajovahulo 'gniḥ | satvatamovahula āpaḥ | tamovahulā
-                        pṛthivī ||</l>
+                    <l xml:id="SS.3.1.20">ta<cb/>tra satvavahulam ākāśaṃ | rajovahulo vāyuḥ |
+                        satvarajovahulo 'gniḥ | satvatamovahula āpaḥ | tamovahulā pṛthivī ||</l>
 
                     <l xml:id="SS.3.1.21">bhavati cātra ||</l>
 
                     <lg>
                         <l xml:id="SS.3.1.21ab">anyonyāni praviṣṭāni<cb/> sarvvāṇy etāni nirddiśet |
                             <caesura/>
-                            sve sve dravyeṣu sarvveṣāṃ vyaktalakṣaṇam iṣyate ||</l>
+                             sve sve dravyeṣu sarvveṣāṃ vyaktalakṣaṇam iṣyate ||</l>
                     </lg>
 
-                    <l xml:id="SS.3.1.22">aṣṭau prakṛtayaḥ proktā vi<lb/>kārāś
-                        caiva ṣoḍaśa |
+                    <l xml:id="SS.3.1.22">aṣṭau prakṛtayaḥ proktā vi<lb/>kārāś caiva ṣoḍaśa |
                         <caesura/>
-                        kṣetrajñāś ca samāsena svatantraparatantrata iti ||</l>
+                         kṣetrajñāś ca samāsena svatantraparatantrata iti ||</l>
 
                     <p ana="trailer">śārīrasya prathamo 'dhyāyaḥ || o ||</p>
+                </div>
+
+
+                <div n="5" type="adhyāya">
+                    <milestone n="dscn3151fol173.jpg_top.jpg : 2" unit="folio"/>
+
+                    <l xml:id="SS.3.5.1"> athātaḥ śarīravyākaraṇaṃ śārītam vyākhyāsyāmaḥ || </l>
+
+
+                    <l xml:id="SS.3.5.2"/>
+
+
+                    <l xml:id="SS.3.5.3"> śukraśoṇitaṅ garbhāsa<subst>
+                            <add place="margin_upper">ya</add>
+                        </subst>stham ā<lb n="3"/>maprakṛtivikārasammūrcchito garbha ity ucyate ||
+                        tad acetanāva<g ref="#newa-gap-filler"/><cb/>sthitam vāyur vvibhajate teja
+                        enam pacati | āpaḥ kledayati | pṛthivī saṃhanti | ākāśam vivarddhayati<lb
+                            n="4"/> | evam vivarddhitaḥ sa yadā
+                        hastapādajihvāghrāṇavadanakarṇṇādi<cb/>bhir upetas tadā śarīram iti saṃjñāṃ
+                        labhate | tac ca ṣaḍ aṅgaṃ śākhāś catvāraḥ | madhyaṃ ṣaṣṭhaṃ śira iti || </l>
+
+
+                    <l xml:id="SS.3.5.4">
+                        <lb n="5"/> ataḥ param praty aṅgāni vakṣyante |
+                            mastakodarapṛṣṭhanābhilalāṭa<g ref="#newa-gap-filler"
+                        /><cb/>nāsācivukagrīvā ity ete ekaikāḥ || karṇṇanetrabhrū vā ca
+                            sagaṇḍakakṣastanavaṃkṣyaṇavṛṣaṇapārśvasphik<g ref="#newa-gap-filler"
+                            /><lb n="6"/>jānukurpparavāhuprabhṛtayo dve dve viṃśatir aṅgulyaḥ
+                        srotānsi vakṣyante || </l>
+
+
+                    <l xml:id="SS.3.5.5"> ity etat praty aṅgavibhāgam uktaṃ tvayābhihitāḥ kalā
+                        dhātavo maladharoś ca || </l>
+
+
+                    <l xml:id="SS.3.5.6"/>
+
+
+                    <l xml:id="SS.3.5.7"/>
+
+
+                    <l xml:id="SS.3.5.8"> āsayās tu vātapittaśle<g ref="#newa-gap-filler"/><pb
+                            n="dscn3151fol173_bottom.jpg"/>ṣmāmapakvāgnisūtrāṇāṃ sapta | strīṇāṃ
+                        garbhāsayoṣṭama iti | </l>
+
+
+                    <l xml:id="SS.3.5.9"> sārddhatrivyāyāmānyantrāṇi puṃṣāṃ strīṇām
+                        arddhavyāyāmahīnāni | </l>
+
+
+                    <l xml:id="SS.3.5.10"> śravaṇanayanavadanaghrāṇagudameḍhrāṇi nava srotānsi<lb
+                            n="2"/> narāṇām vahir mmukhāni | tāny eva strīṇām aparāṇi ca trīṇi |
+                        <cb/> dve stanayor aparam adhastād raktavāhi ca | </l>
+
+
+                    <l xml:id="SS.3.5.11"> ṣoḍaśa kaṇḍarās tāsāñ catasraḥ pādayos tāvanta eva
+                            hasta<g ref="#newa-gap-filler"/><lb n="3"/>grīvāpṛṣṭheṣu | tatra
+                        hastapādagatānāṅ kaṇḍarāṇāṃ nava nava pra<cb/>rohā grīvāhṛdayanivandhanīnām
+                        meḍhraśoṇipṛṣṭhanivandhanīnāmadhogatānām nita<lb n="4"/> mvam
+                        ūruvandhotkapiṇ<unclear/>dīnāñ ca </l>
+
+
+                    <l xml:id="SS.3.5.12"> māṃsasirāsnā yvasthidhaman<cb/>nījālāni praty ekaṃ
+                        catvāri tāni maṇivandhanagulphasaṃśritāni | yair vagākṣitam idaṃ <lb n="5"/>
+                        śarītaṃ | </l>
+
+
+                    <l xml:id="SS.3.5.13"> ṣaṭ kūrccās te hastapādagrīvāmeḍhreṣu | </l>
+
+
+                    <l xml:id="SS.3.5.14"> mahatyo mānsa<cb/>rajjavals catasraḥ peśīnivandhanārtham
+                        pṛṣṭhavaṃśam ubhayato dve vāhye abhyantare ca dve | </l>
+
+
+                    <l xml:id="SS.3.5.15"> sapta sīmanyasta<lb n="6"/>tra vibhaktāḥ śirasi pañca
+                        jihvāśepasorekaikās tāḥ parihartavyāḥ śastreṇa | </l>
+
+
+                    <l xml:id="SS.3.5.16"> caturddaśās<unclear/> saṃhatās teṣāṃ trayo
+                        gulphajānuvaṃkṣaṇeṣu | etenetarasakthi vāhu ca vyākhyā<g
+                            ref="#newa-gap-filler"/><pb n="dscn3152fol174_top.jpg"/>tau |
+                        trikaśirasorekaikaḥ | </l>
+
+
+                    <l xml:id="SS.3.5.17"> caturddaśaiva sīmantāḥ | yair mmuktaḥ saṃhātāste
+                        khalvakadaśaikeṣāṃ | </l>
+
+
+                    <l xml:id="SS.3.5.18"> triṇi ṣaṣṭyāśatānyasthām iti || vedavādinopabhāṣante |
+                        śalyatantreṣu trīṇya<lb n="2"/>va śatāni | teṣāṃ saviṃśaty sthiśataṃ śākhāsu
+                        | saptadaśotta<cb/>raṃ śataṃ śroṇīpārśvapṛṣṭhoras su | </l>
+
+
+                    <l xml:id="SS.3.5.19"> grīvāyāṃ praty ūrddvan triṣaṣṭhir ekaikasyāṃ pādāṅgulyāṃ
+                            trīṇi<g ref="#newa-gap-filler"/><lb n="3"/> triṇi tāni pañcadaśa
+                        talakūrccagulphasaṃśritāni | daśa pā<g ref="#newa-gap-filler"/><cb/>rṣṇyām
+                        ekaṃ jaṃghāyāṃ dve jānunyekam ekam ūrūbhyāṃ | triṃśad evam ekasmin sakthini
+                        bhavanti | etena ita<lb n="4"/>rasakthi vāhu vyākhyātau || śroṇyām pañca |
+                        teṣāṃ gudabhaganita<cb/>mveṣu catvāri trikasaṃśritam ekaṃ pārśve ṣaṭtriṃśad
+                        ekasmin tāvantyeva dvitīye | pṛṣṭhe dvā<g ref="#newa-gap-filler"/><lb n="5"
+                        />triṃśad evāṣṭhāvurasi | dve akṣakasaṃjñe grīvāyāṃ nava kaṇṭanā<cb/>ḍyāṃ
+                        catvāti | dve hanusaṃjñe dantā triṃśan nāsāyān trīṇyekatāluni
+                        gaṇḍakarṇṇaśaṃkheṣv ekaikaṃ ṣaṭ chira<lb n="6"/>sīti | </l>
+
+
+                    <l xml:id="SS.3.5.20"> tān etān asthīni paṃcavidhāni bhavanti || tad yathā ||
+                        kapālarūcakataruṇavalayanalakasaṃjñāni bhavanti | teṣāṃ
+                        jānu<unclear/>rpparanitamvāḥ sagaṇḍutālumadhyaśi<pb
+                            n="dscn3152fol174_bottom.jpg"/>raḥ su kapālāni | daśanās tu rucakāḥ |
+                        ghrāṇakaṇṭhakarṇṇākṣikūṭeṣu taruṇāni | pādahastagrīvāpṛṣṭheṣu valayāni |
+                        bhavati cātra || </l>
+
+
+                    <l xml:id="SS.3.5.21"> yathā hi sāro vṛkṣa<g ref="#newa-gap-filler"/><lb n="2"
+                        />sya tiṣṭhaty abhyantarāśritaḥ |
+                        <caesura/>
+                         evam asthīni jantūnāṃ śarīran dhriya<cb/>te tu taiḥ || </l>
+
+
+                    <l xml:id="SS.3.5.22"> tasmāc ciravinaṣṭe pi tvagmāṃse tu śarīriṇāṃ |
+                        <caesura/>
+                         asthīni na viśyanti sāro<unclear/>ṣa vidhīyate <lb n="3"/> || </l>
+
+
+                    <l xml:id="SS.3.5.23"> māṃsāny atra nivaddhāni sirābhiḥ snāyubhis tathā |
+                        <caesura/>
+                         asthīny ā<cb/>lambanaṃ kṛtvā na śīryanti patanti vā || </l>
+
+
+                    <l xml:id="SS.3.5.24"> sandhayo dvividhāś ceṣṭāvantaḥ sthirāś ca | </l>
+
+
+                    <l xml:id="SS.3.5.25"/>
+
+
+                    <l xml:id="SS.3.5.26"> saṃkhyātās tu dve śate <g ref="#newa-gap-filler"/><lb
+                            n="4"/>daśottare teṣāṃ śākhā aṣṭaṣaṣṭir ekonaṣaṣṭiḥ koṣṭhe grīvā yāṃ<g
+                            ref="#newa-gap-filler"/><cb/>ty urddhan tryāśītiḥ | ekaikasyān tu
+                        pādāṅgulyāṃ trayas trayaḥ | dvāvaṅguṣṭhe te
+                            caturddaśagulphajānuvaṃkṣyaṇeṣṭhekai<lb n="5"/>kaḥ saptadaśaikasmin
+                        sakthini bhavanti | etena itarasakthi vāhu<cb/> ca vyākhyātau || trayaḥ
+                        kaṭīkapāleṣu caturvviṃśatiḥ pṛṣṭhavaṃśe | tāvantya eva pārśvayoḥ |
+                        aṣṭāvūrasi | <lb n="6"/> tāvantya eva grīvāyān tu yaḥ kaṇṭhanāṇḍyāṃ
+                        hṛdayaklomā<unclear/>sa nāḍīṣv aṣṭādaśatāsvevanivaddhā | dantaparimāṇā
+                        dantamūleṣv ekaikaḥ | kākalake nāsāyāñ caikkekaḥ | dvau dvauva<g
+                            ref="#newa-gap-filler"/><pb n="dscn3153fol175_top.jpg"/>rtmmamaṇḍala yor
+                        nnetrāśritau | gaṇḍakarṇṇaśaṃkheṣv ekaikaḥ | dvau hanusaṃdhī dvāvupariṣṭād
+                        bhuvau śaṃkhayoś ca pañca śiraḥ kapāleṣv eko mūrddhri | </l>
+
+
+                    <l xml:id="SS.3.5.27"> ta ete saṃdhayoṣṭavidhā bhavanti | tad yathā | <lb n="2"
+                        /> korodūkhalasāmudgaprataratūnasīvanī vāyasatuṇḍama<cb/>ṇḍalaśaṃkhāvartāḥ |
+                        teṣām aṅgulimaṇivandhagulphajānukūrppareṣu korāḥ saṃdhayaḥ |
+                            kakṣavaṃkṣaṇada<lb n="3"/>śaneṣū dūkhalasaṃjñā | aṃsam
+                        pīṭhagudabhaganitamveṣu sā<g ref="#newa-gap-filler"/><cb/>mudrāḥ |
+                        grīvāpṛṣṭhavaṃśeṣu pratarāḥ | śiraḥ kaṭīkapāleṣu tūna sīvanī saṃjñāḥ | hanvorūbhaya<subst>
+                            <add place="margin_upper">ta</add>
+                        </subst>stu<lb n="4"/> vāyasa tuṇḍāḥ | kaṇṭhahṛdayanetravartmmaklomanāḍīṣu
+                        maṇḍala<cb/>saṃjñāḥ | srotaśṛṃgāṭakeṣu śaṃkhāvartāḥ || teṣāṃ nāmabhir
+                        evākṛtayaḥ prāyeṇa vyākhyātāḥ || </l>
+
+
+                    <l xml:id="SS.3.5.28">
+                        <lb n="5"/> bhavati cātra || asnthāṃ tu saṃdhayo hyete kevalaṃ parikīrti<g
+                            ref="#newa-gap-filler"/><cb/>tāḥ |
+                        <caesura/>
+                         peśīsnāyusirāṇān tu sandhisaṃkhyān na vidyate || </l>
+
+
+                    <l xml:id="SS.3.5.29"> nava snāyu śatāni bhavanti | teṣāṃ śā<g
+                            ref="#newa-gap-filler"/><lb n="6"/>khāsu ṣaṭ chatāni | dve śate triṃśac
+                        ca koṣṭhe grīvāyāṃ pratyurdhvaṃ saptatiḥ | ekaikasyāṃ pādāṅgulyāṃ
+                        ṣaṭnicitāni triṃśac ca | <pb n="dscn3153fol175_bottom.jpg"/> tāvatya eva
+                        talakūrccagulpheṣu tāvatya eva jaṃghāyāṃ | daśa jānuni | catvāriṃśadūrvvāḥ |
+                        daśavaṃkṣaṇe | pañcāśat chatam evam ekasmin sakchini bhavanti | etena
+                            itarasa<lb n="2"/>kthi vahū vyākhyātau || ṣaṣṭiḥ kaṭyāḥ pṛṣṭhetvaśītiḥ |
+                        pā<cb/>rśvayoḥ | ṣaṣṭiḥ | urasi triṃśat | ṣaṭtriṃśad grīvāyāṃ | mūrddhri
+                        catustriṃśat | eva navasnāyuśatā<lb n="3"/>ni vyākhyātāni bhavanti |
+                        mahāsnāyuṣu kaṇḍareti saṃjñā || </l>
+
+
+                    <l xml:id="SS.3.5.30">
+                        <cb/> bhavanti cātra ślokāḥ || caturvvidhāni snāyūni nāsateṣān nivodha me |
+                        <caesura/>
+                         pratānavanti vṛtāni<g ref="#newa-gap-filler"/><lb n="4"/> susirāṇi pṛthūni
+                        ca || </l>
+
+
+                    <l xml:id="SS.3.5.31"> pratānavanti śākhāsu sarvvasaṃ<g ref="#newa-gap-filler"/><cb/>dhi<subst>
+                            <add place="margin_upper">ṣu</add>
+                        </subst> cāpy atha |
+                        <caesura/>
+                         vṛtāni kaṇḍarāḥ sarvvā vijñeyā kuśalair iha || </l>
+
+
+                    <l xml:id="SS.3.5.32"> āmapakvāsayānteṣu susirā<lb n="5"/>ṇi pṛthūni ca |
+                        <caesura/>
+                         pārśvorasi tathā pṛṣṭhe pṛthūlāni śiras<unclear/>
+                        <cb/> ca || </l>
+
+
+                    <l xml:id="SS.3.5.33"> naur yathā phalakās tīrṇṇā vandhanair vahubhir yutāḥ |
+                        <caesura/>
+                         bhaved bhārasahā <unclear/> dṛḍhasandhisamāśritāḥ || </l>
+
+
+                    <l xml:id="SS.3.5.34">
+                        <lb n="6"/> eva, eva śarīresmin yāvantaḥ sandhayaḥ smṛtāḥ |
+                        <caesura/>
+                         snāyubhir vvahubhir vvaddāstena bhārasahāḥ smṛtā || </l>
+
+
+                    <l xml:id="SS.3.5.35">
+                        <pb n="dscn3154fol176_top.jpg"/> na hy asthīni na peśyo vā na sirā na ca
+                        sandhayaḥ |
+                        <caesura/>
+                         vyāpāditās tathā hanyur yathā snāyūni dehināṃ || </l>
+
+
+                    <l xml:id="SS.3.5.36"> yaḥ snāyūni vijānāni sa vāhyāsyantarāṇi ca |
+                        <caesura/>
+                         sa guḍhāṃ śalyamu<lb n="2"/>dvarntun dehāc chakroti mānavaḥ || </l>
+
+
+                    <l xml:id="SS.3.5.37"> pañca peśīśatāni tāsā<cb/>ñ ca catvāt iṃ śaktāni śākhāsu
+                        | koṣṭhe ṣaṣṭhiḥ | grīvāyāṃ pratyurddhañ catvāriṃśat || ekaikasyāṃ <lb n="3"
+                        /> pādāṃgulyāṃ tisrastisrastāḥ pañcadaśa | pañcadaśaprape<cb/>de pādopari |
+                        kurccasanniviṣṭās tāvantya eva | daśagulphatalayoḥ | gulphajānvontare
+                            viṃśa<lb n="3"/>tiḥ | pañca jānini | ūrvoddaśa | vaṃkṣaṇe daśa | śatam
+                            eka<g ref="#newa-gap-filler"/><cb/>smin sakthini bhavantye na itara
+                        sakthi vāhū ca vyākhyātau || ekā meḍhra sevanyāṃ | apare dve vṛṣa<lb n="5"
+                        />śayoḥ | gude tisraḥ | sphicoś ca pañca pañca | dve vasti śira<g
+                            ref="#newa-gap-filler"/><cb/>si | saptodare nābhyām ekā |
+                        pṛṣṭhorddhasaṃniviṣṭāḥ pañca pañca dīrghāḥ | pārśvayor daśa | dve vakṣa<lb
+                            n="6"/>si | akṣakāṃ saṃpratisamaṃtāt sapta | dve hṛdyāmāsaye |
+                        ekābhyantarataḥ koṣṭhe | grīvāyāñ ca tasra | ekaikā galakālayoḥ | dve tāluni
+                        | jihvāyāṃ ṣaṭ | dve joṣṭhayoḥ | <pb n="dscn3154fol176_bottom.jpg"/>nāsāyāṃ
+                        dve | gaṇḍayoś catasraś catasraḥ | netrayor ddha | karṇṇayor dve | catasro
+                        lalāṭe | ṣaṭ chirasīti | tāny etāni pañca peśīśatāni puṃsām bhavanti | </l>
+
+
+                    <l xml:id="SS.3.5.38"/>
+
+
+                    <l xml:id="SS.3.5.39"> strīṇāñ caturddaśāsya<lb n="2"/>dhikā | daśa tāsāṃ
+                        stanayor ekaikasmin pañca pañca | yauva<cb/>ne tāsāṃ parivṛddhir bhavati |
+                        apatyapathe catasras tāsāṃ dve prasṛte bhyantarataḥ | dve mukhāsri<g
+                            ref="#newa-gap-filler"/><lb n="3"/>te ca | vṛtte dve garvbham āśritāḥ |
+                        tisraḥ śukrār bhavaḥ prave<g ref="#newa-gap-filler"/><cb/>śinyaḥ | tisra eva
+                        garvbhaśayyāyāṃ yatra garvbhas tiṣṭhati | </l>
+
+
+                    <l xml:id="SS.3.5.40"/>
+
+
+                    <l xml:id="SS.3.5.41"/>
+
+
+                    <l xml:id="SS.3.5.42"> marmmasirādhamanīsrotasām anyatra<g
+                            ref="#newa-gap-filler"/><lb n="4"/> vibhāgaḥ | </l>
+
+
+                    <l xml:id="SS.3.5.43"> bhavati cātra || śaṃkhanābhyo kṛtir yonis tri<cb/>r
+                        āvartā prakīrtitā |
+                        <caesura/>
+                         tasyās tṛtīye tv āvarte garvbhaśayyā pratiṣṭhitā || </l>
+
+
+                    <l xml:id="SS.3.5.44"> yathā rohitamatsya<g ref="#newa-gap-filler"/><lb n="5"
+                        />sya mukham bhavati rūpataḥ |
+                        <caesura/>
+                         tat sthānañ ca yathārūpaṃ garvbhaśa<cb/>yyām vidurvvudhā || </l>
+
+
+                    <l xml:id="SS.3.5.45"> ābhugno 'bhimukhaḥ śete garvbho garvbhāśaye striyāḥ |
+                        <caesura/>
+                         sa yoniṃ yāti śira<lb n="6"/>sā svabhāvāt prasavam prati || </l>
+
+
+                    <l xml:id="SS.3.5.46"> tvak paryantasya dehasya yo yam aṅgaviniścayaḥ |
+                        <caesura/>
+                         śalyajñānādṛte nāyaṃ varṇyate ṅgeṣu keṣucit || </l>
+
+
+                    <l xml:id="SS.3.5.47"> tasyānnisaṃśayaṃ jñānaṃ śalya harttābhi vāñcchatā |
+                        <caesura/>
+                         dhāvayitvā mṛtaṃ samyagdraṣṭavyoṅgaviniścayaḥ || </l>
+
+
+                    <l xml:id="SS.3.5.48"> pratyakṣato hi yad dṛṣṭaṃ śāstradṛṣṭañ ca yad bhavet |
+                        <caesura/>
+                         samāgatan tadubhayam bhūyo jñānam vivarddhayet || </l>
+
+
+                    <l xml:id="SS.3.5.49"> tasmāt samasta<cb/>gātram avihatam adīrghavyādhipīḍitaṃ
+                        puruṣam apahṛtyāpagāyāṃ | vivaddhaṃ muñjavalvajaiḥ pañjarastam<lb n="3"
+                        />prakāśe deśe kothayet | samyak prakuthitañ coddhṛtyāya tad ehaṃ<g
+                            ref="#newa-gap-filler"/><cb/> kṛtvo śīratṛṇeveṣu kurccādīnām anyatamena
+                        śanaiḥ śanair eva ghṛṣyatvagādīn sarvvaān eva vāhyābhyanta<g
+                            ref="#newa-gap-filler"/><lb n="4"/>rāna ṅgapratyaṅgaviśeṣān yathoktān
+                        lakṣayec cakṣuṣā || </l>
+
+
+                    <l xml:id="SS.3.5.50"> ślo<cb/>kau || na śakyañ cakṣuṣā draṣṭaṃ
+                        saukṣmyāsaukṣyataraṃ viduḥ |
+                        <caesura/>
+                         dṛśyate jñānacakṣurbhis tapaś ca kṣurvbhis tapaś cakṣurvbhir evā | </l>
+
+
+                    <l xml:id="SS.3.5.51"> śarīre <lb n="5"/> cāpi śāstre ca dṛṣṭārthas tu viśāradaḥ
+                        |
+                        <caesura/>
+                         dṛṣṭaśrutābhyāṃ sandehaṃ <cb/> vyapo<unclear/>rabhate kriyām iti || || </l>
+
+                    <p xml:id="SS.3.5.ṭrailer"> iti śārīre pañcamodhyāyaḥ || || </p>
+
                 </div>
             </div>
         </body>
