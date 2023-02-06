@@ -940,10 +940,8 @@
                         <caesura/>
                          dagdhvā sarājadrumasomavalkāṃ
                         <caesura/>
-                         taṃ bha<subst>
-                            <del cause="scribal-correction">smā</del>
-                            <add>sma</add>
-                        </subst> śī<lb n="7"/>taṃ vikiret saratsu |</l>
+                         taṃ bha<subst><del cause="scribal-correction"
+                            >smā</del><add>sma</add></subst> śī<lb n="7"/>taṃ vikiret saratsu |</l>
 
                     <l xml:id="SS.5.3.10">bhasmāñjaliñ cāpi ghaṭe <cb n="1"/> nidhāya
                         <caesura/>
@@ -1082,65 +1080,44 @@
                         <caesura/>
                          laulyād viṣārditam māṃsaṃ yaḥ khāden mṛta<cb n="1"/>mātrayoḥ |</l>
 
-                    <l xml:id="SS.5.3.34">yathāvi<subst>
-                            <del resp="scribe">ā</del>
-                            <add>a</add>
-                        </subst>ṣaṃ sa rogeṇa kliśyate mriyate pi vā |
+                    <l xml:id="SS.5.3.34">yathāvi<subst><del resp="scribe"
+                            >ā</del><add>a</add></subst>ṣaṃ sa rogeṇa kliśyate mriyate pi vā |
                         <caesura/>
                          ataś cāpy anayor māṃsam abhakṣyaṃ mṛtamātrayoḥ |</l>
 
-                    <l xml:id="SS.5.3.35ab"> muhū<cb n="2"/>rtāt tad upādeyam prahār<subst>
-                            <add place="inline">ā</add>
-                            <del>ṃ</del>
-                        </subst> daṃśavarjitaṃ </l>
+                    <l xml:id="SS.5.3.35ab"> muhū<cb n="2"/>rtāt tad upādeyam prahā<subst><add
+                                place="inline">rā</add><del>ra</del></subst> daṃśavarjitaṃ </l>
 
                     <l xml:id="SS.5.3.35.1"/>
 
-                    <l xml:id="SS.5.3.35.2">
-                        <metamark function="insertion_marker">#</metamark>
-                        <add place="bottom"><metamark function="start_insertion">#</metamark><gap
-                                reason="damaged" unit="akṣara" quantity="9"
+                    <l xml:id="SS.5.3.35.2" corresp="#SS.1.45.205">
+                        <metamark function="insertion_marker" place="inline">#</metamark>
+                        <add place="bottom"><metamark function="start_insertion" place="inline"
+                                >#</metamark><gap reason="damaged" unit="akṣara" quantity="7"
                                 /><unclear>taikṣṇyoṣṇyād</unclear>
                             <caesura/>
                              vikāsitvāt tathaiva ca | </add></l>
 
-                    <l xml:id="SS.5.3.35.3"><add place="bottom"> viṣam etair guṇair yuktaṃ kṣate
-                            samanudhāvati
+                    <!--     above material corresponds to SS.1.45.205ab, 
+                        where it describes how alcohol affects the body -->
+
+                    <l xml:id="SS.5.3.35.3"><add place="bottom"> viṣam etair guṇair yuktaṃ
+                            <caesura/>
+                             kṣate samanudhāvati
                             <caesura/>
                              vātātapābhyāṃ nihataṃ nirvīyam upajāyate |
                             <caesura/>
-                             tasmād viṣahataṃ sarvam bhakṣitan tu na mārayet <metamark
-                                function="end_insertion">#</metamark>
+                             tasmād viṣahataṃ sarvam
+                            <caesura/>
+                             bhakṣitan tu na mārayet <metamark function="end_insertion"
+                                place="inline">#</metamark>
                         </add>
                     </l>
 
-                    <!--   <l xml:id="SS.5.3.35margin">
-                        <add place="bottom-margin"><metamark>#卍</metamark>
-                                kṣīṇa<unclear>kṣa</unclear>te garbhiṇi <unclear>kuṣṭhim e</unclear>
-                            hi
-                            <caesura/>
-                            <unclear>rūkṣ</unclear>eṣu<lb n="6"/> deheṣv avaleṣu caiva
-                                <metamark>卍</metamark>|
-                            
-                            <caesura/>
-                            <metamark>#</metamark><gap reason="damaged" unit="akṣara" quantity="9"
-                                /><unclear>taikṣṇyoṣṇyād</unclear> vikāsitvāt tathaiva ca | </add>
-                    </l>
+                    <l xml:id="SS.5.3.35cd">savātaṃ gṛhadhūmābhaṃ purīṣaṃ yo tisāryate | </l>
 
-                    <l xml:id="SS.5.3.35.1">
-                        <add place="bottom-margin"> viṣam etair guṇair yuktaṃ kṣate samanudhāvati
-                            <caesura/>
-                             vātātapābhyāṃ nihataṃ nirvīyam upajāyate |
-                            <caesura/>
-                             tasmād viṣahataṃ sarvam bhakṣitan tu na mārayet
-                            <metamark>#卍</metamark></add>
-                    </l>
--->
-                    <l xml:id="SS.5.3.35cd">savātaṃ gṛhadhūmābhaṃ purīṣaṃ yo tisāryate |
-                    </l>
-                    
-                    <l xml:id="SS.5.3.36cd"> 
-                         phe<lb n="3"/>nam udvamate cāpi viṣapītan tam āviśet ||</l>
+                    <l xml:id="SS.5.3.36cd"> phe<lb n="3"/>nam udvamate cāpi viṣapītan tam āviśet
+                        ||</l>
 
                     <l xml:id="SS.5.3.37">viṣapyāptam ato hy agni hṛdayaṃ nirda<cb n="1"/>haty api |
                         <caesura/>

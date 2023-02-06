@@ -56,6 +56,11 @@
                     </msIdentifier>
                 </msDesc>
 
+                <listWit>
+                    <witness xml:id="MN">The <title>Mādhavanidāna</title>, <abbr type="siglum"
+                            >MN</abbr>
+                        <idno type="siglum">Mādhavanidāna</idno></witness>
+                </listWit>
             </sourceDesc>
         </fileDesc>
 
@@ -1290,9 +1295,36 @@
                          ataś cāpy anayor māṃsam abhakṣyam mṛtamātrayoḥ |</l>
 
                     <l xml:id="SS.5.3.35ab"><label>1938 ed. 3.35</label> muhūrtāt tad upādeyam
-                        prahārādaṃśavarjitam | </l>
+                            prahārādaṃśavarjitam<anchor n="#SS.5.3.35ab-n1"/> | </l>
+                    <ab corresp="#SS.5.3.35ab" type="apparatus">
+                        <list type="Notes">
+                            <item corresp="#SS.5.3.35ab-n1">The scribal correction of
+                                    <foreign>ra</foreign> to <foreign>rā</foreign> in both witnesses
+                                K and H shows H's dependence on K or an exceptionally accurate
+                                unknown intermediate, or that the scribe of H corrected K.</item>
+                        </list>
+                    </ab>
 
-                    <l xml:id="SS.5.3.35.1"/>
+                    <l xml:id="SS.5.3.35.1" met="upajāti">
+                        <label>5.3.35.1</label>kṣīṇakṣate <app>
+                            <lem>garbbhiṇi</lem>
+                            <rdg wit="#MN">mehini</rdg>
+                        </app> kuṣṭhim <app>
+                            <lem>eti</lem>
+                            <rdg wit="#MN">eti</rdg>
+                        </app>
+                        <caesura/>
+                         rūkṣeṣu deheṣv abaleṣu caiva | <anchor n="SS.5.3.35.1-n1"/>
+                    </l>
+                    <ab corresp="#SS.5.3.35.1" type="apparatus">
+                        <list type="Testimonia">
+                            <item corresp="#SS.5.3.35.1-n1">
+                                <foreign>Mādhavanidāna</foreign> 69.21: <foreign>kṣīṇakṣate mehini
+                                    kuṣṭhayukte rūkṣe ’bale garbhavatīṣu cāpi | śastrakṣate yasya na
+                                    raktam eti rājyo latābhiś ca na saṃbhavanti 21.</foreign>
+                            </item>
+                        </list>
+                    </ab>
 
                     <l xml:id="SS.5.3.35.2" met="śloka"><label>3.35.2</label>
                         <caesura/>
@@ -1301,10 +1333,12 @@
                     </l>
                     <ab corresp="#SS.5.3.35.2" type="apparatus">
                         <list type="Notes">
-                            <item corresp="#SS.5.3.35.2-n1"> Corresponds to the insertion in MS H
+                            <item corresp="#SS.5.3.35.2-n1"> Corresponds to the passage in MS H
                                 after SS.5.3.39.1. </item>
                         </list>
                     </ab>
+
+
 
                     <l xml:id="SS.5.3.35.3" met="śloka"><label>3.35.3</label> viṣam etair guṇair
                         yuktaṃ kṣate samanudhāvati
@@ -1313,13 +1347,12 @@
                         <caesura/>
                          tasmād viṣahataṃ sarvam bhakṣitan tu na mārayet<anchor n="SS.5.3.35.3-n1"/>
                     </l>
-                 
+
                     <ab corresp="#SS.5.3.35.3" type="apparatus">
                         <list type="Notes">
                             <item corresp="#SS.5.3.35.3-n1">Most of this verse is presented as a
-                                marginal insertion in witness K and the insertion in MS H
-                                after SS.5.3.39.1.
-                            </item>
+                                marginal insertion in witness K and the insertion in MS K after
+                                SS.5.3.39.1. </item>
                         </list>
                         <!--      kṣīṇakṣate           <list type="Testimonia">
                             <item corresp="#SS.5.3.35-n1"><title xml:lang="en">Mādhavanidāna</title>
@@ -1394,23 +1427,23 @@
                         </list>
                     </ab>
 
-                    <l xml:id="SS.5.3.39.2"><anchor n="SS.5.3.39.2-n1"/></l>
+                    <l corresp="#SS.5.3.35.2" xml:id="SS.5.3.39.2"><label>SS.5.3.39.2</label> saran
+                        tu saukṣmyatair ślakṣṇyād vikāsitvāt tathaiva ca |
+                        <caesura/>
+                         viṣamatair gguṇair yuktaṃ kṣate samanudhāvati ||
+                        <caesura/>
+                         vātātapābhyān nihatann ivīyam upajāyate |
+                        <caesura/>
+                         tasmād viṣahataṃ sarvvam bhakṣitan tu na mārayet || <anchor
+                            n="SS.5.3.39.2-n1"/></l>
                     <ab corresp="#SS.5.3.39.2" type="apparatus">
                         <list type="Notes">
-                            <item corresp="#SS.5.3.39.2-n1">This insertion in MS H corresponds to
+                            <item corresp="#SS.5.3.39.2-n1">This passage in MS H corresponds to
                                 SS.5.3.35.2 and 5.3.35.3.</item>
                         </list>
                     </ab>
 
-                    <!--          <l xml:id="SS.5.3.35.1bis"><anchor n="SS.5.3.35.1bis-n1"/></l>
-
-                    <ab corresp="#SS.5.3.35.1bis" type="apparatus">
-                        <list type="Notes">
-                            <item corresp="#SS.5.3.35.1bis-n1">This repeats verse 5.3.35.1.</item>
-                        </list>
-                    </ab>-->
-
-                    <l xml:id="SS.5.3.40ab"/>
+                <l xml:id="SS.5.3.40ab"/>
 
                     <l xml:id="SS.5.3.40cd"><label>1938 ed. 3.40cd</label>śastrakṣate yasya na
                         raktam eti
@@ -1420,7 +1453,9 @@
                     <ab corresp="#SS.5.3.40cd" type="apparatus">
                         <list type="Testimonia">
                             <item corresp="#SS.5.3.40cd-n1"><title xml:lang="en"
-                                    >Mādhavanidāna</title> 69.21cd.</item>
+                                    >Mādhavanidāna</title> 69.21: <foreign>kṣīṇakṣate mehini
+                                    kuṣṭhayukte rūkṣe ’bale garbhavatīṣu cāpi | śastrakṣate yasya na
+                                    raktam eti rājyo latābhiś ca na saṃbhavanti 21.</foreign></item>
                         </list>
                     </ab>
 
