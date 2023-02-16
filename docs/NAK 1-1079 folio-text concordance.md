@@ -110,4 +110,6 @@ In the table below we record the following information:
 | 61v3:2b | 065:upper | 098:upper | 2.15.1 | bhagnanidāna |
 |  |  |  |  |  |
 | 68r1:b | 068:upper | 0102:upper | 3.2.1 | śukraśoṇitaviśuddhiṃ |
+| **From here on it’s another text** |  |  |  |  |
+|  | 073:upper |  | Caraka 6.5.154 | jaladroṇe vipaktavyā viṃśatiḥ pañca cābhayāḥ/ |
 |                     |                                                              |                 |             |  |
