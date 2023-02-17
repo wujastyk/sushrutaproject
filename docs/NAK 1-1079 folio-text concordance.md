@@ -45,6 +45,8 @@ In the table below we record the following information:
 | A 45-5 | A 45-5 | A1267-11 | Contents | atha phrase |
 | --- | -------- | --------------------- | ------------------------- | ---- |
 | *folio:line:column* | *file names* | *file names* | *vulgate nos.* |  |
+|  |  |  |  | |
+|  |  |  |  | **Sūtrasthāna** |
 | 1v:1:a |    003:upper    | 037 | 1.1.1 | athāto vedotpattim ādhyāyaṃ vyākhyāsyāmaḥ // |
 | 2v:5:c |   005:upper   |                038 | 1.2.1      | athātaḥ śiśyopanayanīyam adhyāyaṃ vyā // |
 | 3r:4:c |   005:lower   |                038 | 1.3.1                       | athato 'dhyāyanasampradānīyaṃ vyā // |
@@ -92,6 +94,7 @@ In the table below we record the following information:
 | 37v:4a | 041:lower | 074:lower | 1.45.1 | dravadravyavidhiṃ |
 | 40r:5:c | 044:upper | 077:upper | 1.46.1 | annapānavidhiṃ |
 |  |  |  |  |  |
+|  |  |  |  | **Nidānasthāna** |
 | 51v:3a-b |  055:upper  |       088:upper | 2.01             | vātavyādhi |
 | 52r:4b-c | 056:upper | 089:upper | 2.2.1 | arśasāṃ |
 | 53r:2a-b | 057:upper | 090:upper | 2.3.1 | aśmarīṇāṃ |
@@ -109,7 +112,13 @@ In the table below we record the following information:
 | 61r2:b | 065:lower | 098:lower | 2.16.1 | mukharoganidānaṃ |
 | 61v3:2b | 065:upper | 098:upper | 2.15.1 | bhagnanidāna |
 |  |  |  |  |  |
-| 68r1:b | 068:upper | 0102:upper | 3.2.1 | śukraśoṇitaviśuddhiṃ |
-| **From here on it’s another text** |  |  |  |  |
+|  |  | 101:upper | 2.16.68 | samāptam nidānasthānaṃ |
+| | |  |  |  |
+| | |  |  | **Śārīrasthāna** |
+| | | 101:upper | 3.01 | athātaḥ sarvabhūtacintāṃ |
+| 68r1:b | 068:upper | 102:upper | 3.2.1 | śukraśoṇitaviśuddhiṃ |
+|  |  | 103 | 3.2.35 | sappavṛścikagalagoṇādayaḥ [text breaks off] |
+|  |  |  |  |  |
+|  |  |  |  | **Another text** |
 |  | 073:upper |  | Caraka 6.5.154 | jaladroṇe vipaktavyā viṃśatiḥ pañca cābhayāḥ/ |
 |                     |                                                              |                 |             |  |
