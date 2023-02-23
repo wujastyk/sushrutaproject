@@ -55,7 +55,22 @@
                         <idno type="siglum">NE<!--<sub>ed</sub>--></idno>
                     </msIdentifier>
                 </msDesc>
+
+                <listWit>
+                    <witness xml:id="MN">The <title>Mādhavanidāna</title>, <abbr type="siglum"
+                            >MN</abbr>
+                        <idno type="siglum">Mādhavanidāna</idno></witness>
+                </listWit>
+
+                <listWit>
+                    <witness xml:id="NAK_1-1146">MS Kathmandu NAK 1-1146 <abbr type="siglum"
+                            >1-1146</abbr>
+                        <idno type="siglum">MS NAK 1-1146</idno> A paper manuscript in Devanāgarī. 67 ff.
+                        Filmed as reel no A 224-9. Covers 1.8.3 - 1.44.24 of the Sūtrasthāna.
+                    </witness>
+                </listWit>
             </sourceDesc>
+
         </fileDesc>
 
         <!-- <xenoData>
@@ -649,20 +664,30 @@
                     <head xml:lang="en">[Beginning of an edition of adhyāya 13, based on MS
                         H]</head>
 
-                    <l xml:id="SS.1.13.1"><label>1.13.1</label> athāto jalāyukādhyāyaṃ
-                        vyākhyāsyāmaḥ || </l>
+                    <l xml:id="SS.1.13.1"><label>1.13.1</label> athāto jalāyukādhyāyaṃ vyākhyāsyāmaḥ
+                        || </l>
 
                     <l xml:id="SS.1.13.2"/>
 
                     <l xml:id="SS.1.13.3"><label>1.13.3</label> nṛpāḍhya<pc> </pc>sukumāra<pc
                             > </pc>bāla<pc> </pc>sthavira<pc> </pc>bhīru<pc> </pc>nārīṇām
-                        anugrahārthaṃ paramasukumāro 'yaṃ śoṇitāvasecanopāyo 'bhihito jalaukasaḥ
-                        || </l>
+                        anugrahārthaṃ paramasukumāro 'yaṃ śoṇitāvasecanopāyo 'bhihito jalaukasaḥ || </l>
 
                     <l xml:id="SS.1.13.4"><label>1.13.4</label> tatra vātapittakaphaduṣṭaśoṇitaṃ
-                        yathāsaṃkhyaṃ śṛṅgajalaukālābubhir avasecayet | sarvvāṇi sarvvair vā viśeṣas
-                        tu visrāvyaṃ || </l>
-
+                        yathāsaṃkhyaṃ śṛṅgajalaukālābubhir avasecayet | sarvvāṇi sarvvair vā <app>
+                            <lem>viśeṣas tu</lem>
+                            <rdg wit="#NAK_1-1146">viśeṣa<unclear>s tu</unclear> </rdg>
+                        </app>  visrāvyaṃ ||<anchor n="SS.1.13.4-n1"/> </l>
+                    
+                    <ab corresp="#SS.1.13.4" type="apparatus">
+                        <list type="Notes">
+                            <item corresp="#SS.1.13.4-n1">The 1931 and 1938 editions of the vulgate 
+                                report an insertion at this point, but they report it differently.  Cakrapāṇidatta 
+                                and Ḍalhaṇa also report variant readings at this point in the text. 
+                            </item>
+                        </list>
+                    </ab>
+                    
                     <l xml:id="SS.1.13.5x"><label>1.13.5x</label> bhavanti cātra || </l>
 
                     <l xml:id="SS.1.13.5"><label>1.13.5</label> snigdhaṃ ślakṣṇaṃ sumadhuraṃ gavāṃ
@@ -673,7 +698,7 @@
                     <l xml:id="SS.1.13.5a"><label>1.13.5ef</label> arddhacandrākṛtimahattanu<del>m
                             a</del><add>sa</add>ptāṅgulāyataṃ |
                         <caesura/>
-                         pracchite dāpayet pūrvvam āsye na cūṣayed balī || </l>
+                         pracchite dāpayet pūrvvam āsyena cūṣayed balī || </l>
 
                     <l xml:id="SS.1.13.6"><label>1.13.6</label> śītādhivāsā madhurā jalaukā
                         vārisaṃbhavā |
