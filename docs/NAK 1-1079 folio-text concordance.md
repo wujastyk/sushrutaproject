@@ -127,9 +127,9 @@ In the table below we record the following information:
 | | | | |  |  | **Śārīrasthāna** |
 | 63v:2 | _66 | | | 101:upper | 3.01 | sarvabhūtacintāṃ |
 | 63v:7 | _66 | | |  |  | folio ends with 3.1.9 |
-|  | _66:lower | | |  |  | starts 3.2.10i |
+|  | _66:lower | | | 102:lower |  | starts 3.2.10i |
 |  | _67 | | |  |  | starts 3.2.28-31: copeyād ataḥ param |
-|  |  | 68r1:b | 068:upper | 102:upper | 3.2.1 | śukraśoṇitaviśuddhiṃ |
+|  | _65:upper | 68r1:b | 068:upper | 102:upper | 3.2.1 | śukraśoṇitaviśuddhiṃ |
 |  |  |  |  | 103 | 3.2.35 | sappavṛścikagalagoṇādayaḥ [text breaks off] |
 |  |  |  |  |  |  |  |
 |  |  |  |  |  |  | **Another text** |
