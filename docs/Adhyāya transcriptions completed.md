@@ -83,8 +83,8 @@ Adhyāya references are canonical (i.e., the Ācārya 1938 vulgate edition).
 |          |           |           |           |              |
 | **3. Śārīra** |  |  |           |              |
 | (chapters | KL 699    |     | NAK 5-333 | NAK 1-1079)  |
-| 3.01     | ✗(atha phrase only) |  | 👍        | ✓ |
-| 3.02 | ✗ | 58 | 👍 | ✓ |
+| 3.01     | ✗(atha phrase only) |  | 👍        | 👍 |
+| 3.02 | ✗ | 58 | 👍 | 👍 |
 | 3.03 | ✗ | 36 | 👍 | ✗ |
 | 3.04 | ✗ | 99 | 👍 | ✗ |
 | 3.05 | ✗ | 51 | 👍 | ✗ |
