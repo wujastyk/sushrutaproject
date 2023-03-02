@@ -1,9 +1,22 @@
 \usepackage{../incremental_SS_Translation,  % all customizations in this file
     gitver}
-\addbibresource{../incremental_SS_Translation.bib} % putting this here lets TeXstudio find 
-%it.
+\addbibresource{../incremental_SS_Translation.bib} % putting this here lets TeXstudio 
+%find it.
 
 % Stylistic choices specifically for this book:
+% 
+\usepackage{rotating}
+% geometry
+\usepackage[
+   paperwidth=152mm, %193mm,
+   paperheight= 229mm, %260mm,
+    includefoot,
+    showcrop,
+    showframe
+]
+{geometry}
+
+% fancyheader
 \pagestyle{fancy}
 \renewcommand{\sectionmark}[1]{\markboth{#1}{}} % set the \leftmark
 \fancyhf{}
