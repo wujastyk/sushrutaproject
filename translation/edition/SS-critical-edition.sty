@@ -1,4 +1,6 @@
-% Slowly build up preferences for the printed version of the edition.  I hope we can put as 
+% !TeX root = SS.1.16-critical-edition.tex
+% Slowly build up preferences for the printed version of the edition.  I hope we can put 
+%as 
 %much as possible here, 
 %and 
 % minimize the need to add edits to the Saktumiva output file itself.
@@ -7,6 +9,14 @@
 
 %\secnumdepth{0}
 
+\usepackage[
+paperwidth=193mm,
+paperheight=260mm,
+includefoot,
+showcrop,
+showframe
+]
+{geometry}
 
 \usepackage[normalem]{ulem}
 \usepackage[noend,noeledsec,noledgroup]{reledmac}
@@ -66,27 +76,27 @@ Script=Devanagari]
 % % % % % % % % % % % % % % %
 \newcommand{\WitnessLayer}{%
     \hbox to \textwidth{\hrulefill\footnotesize \textenglish{ Witnesses }\hrulefill }
-    \vskip.5\baselineskip 
+    \vskip.25\baselineskip 
 }
 \renewcommand{\Bfootnoterule}{\WitnessLayer}
 %
 \newcommand{\VariantLayer}{%
     \hbox to \textwidth{\hrulefill\footnotesize \textenglish{ MS variants 
     }\hrulefill}
-    \vskip.5\baselineskip 
+    \vskip.25\baselineskip 
 }
 \renewcommand{\Afootnoterule}{\VariantLayer}
 %
 \newcommand{\VulgateLayer}{%
     \hbox to \textwidth{\hrulefill \textenglish{\footnotesize  Variants from Su 1938 
     }\hrulefill }
-    \vskip.5\baselineskip 
+    \vskip.25\baselineskip 
 }
 \renewcommand{\Dfootnoterule} {\VulgateLayer}
 %
 \newcommand{\NoteLayer}{%
     \hbox to \textwidth{\hrulefill\textenglish{\footnotesize Notes }\hrulefill }
-    \vskip.5\baselineskip 
+    \vskip.25\baselineskip 
 }
 \renewcommand{\footnoteruleD}{\NoteLayer }
 % % % % % % % % % % % % % % %
@@ -118,7 +128,7 @@ Script=Devanagari]
 \newcommand\K{\textenglish{K}}
 
 % citation command for right margin:
-\newcommand{\vulgate}[1]{\ledsidenote{\textenglish{\tiny 1.16.#1}}}
+\newcommand{\vulgate}[1]{\ledsidenote{\textenglish{\footnotesize 1.16.#1}}}
 
 
 % Biblatex:
