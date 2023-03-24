@@ -3,16 +3,7 @@
 % !TeX spellcheck = en_GB
 \documentclass[11pt]{book} %taking out draft switches off marginal notes
 \usepackage{surgery} % format customizations etc.
-%\usepackage[
-%    color={[gray]{0.98}}
-%    ]
-%    {draftwatermark}
 
-
-\usepackage[
-    paper={193mm,260mm}
-    ]
-    {geometry}
 
 % Metadata:
 
@@ -20,55 +11,223 @@
     Version of the \SS}
 
 \author{Dominik Wujastyk \and
-Jason Birch \and
-Andrey Klebanov \and  
-Madhu K. Parameswaran \and 
-Madhusudan Rimal \and  
-Deepro Chakraborty \and 
-Harshal Bhatt \and  
-Vandana Lele \and
+Jason Birch\\
+Andrey Klebanov \and  Madhu K. Parameswaran \\
+Madhusudan Rimal \\ Deepro Chakraborty \and
+Harshal Bhatt \\ Vandana Lele \and
 Paras Mehta}
 \date{\texttt{Draft of \today}}
 
 
-%\includeonly{
-%    Preface,
-%     01 Introduction,
-%     02 Transmission,
-%     04 The Manuscripts,
-%     05 The Critical Edition, 
-%    06 The Translation,
-%    07 Bibliography and indexes
-% }
+\includeonly{%
+   Preface,
+     01 Introduction,
+     02 Transmission,
+     03 The Printed Editions,
+     04 The Manuscripts,
+     05 The Critical Edition, 
+    06 The Translation,
+    07 Bibliography and indexes
+ }
 
 
 \begin{document}
     \input{sanskrit-hyphenations}
-    
-    \maketitle
-    
-    \thispagestyle{empty}
-    \pagenumbering{roman}
-    \vspace*{\fill}
 
-    {\centering [Copyright and publishing statement]\\
-\bigskip        
-        \copyright\ The authors\par}
-    \vspace*{\fill}
+% title page    
+\begin{titlepage}
+    \pagestyle{empty}
+
+\begin{center}
+\vspace*{.3\textheight}
+    \Large
+    On the Plastic Surgery of the Ears and Nose
+\vspace*{.6\textheight}
+
+\end{center}    
+
+\newpage    
+
+\mbox {} % \vspace*{\fill}Blank \vspace*{\fill}
+
+\newpage
+
+\begin{center}
+    \vspace*{.2\textheight}
+    
+    {\huge
+        On the Plastic Surgery\\ of the Ears and Nose
+        
+        
+        \bigskip
+        \Large
+        The Nepalese Version of the \SS\par}
+    
+    \vspace*{.1\textheight}
+    
+   {\renewcommand\baselinestretch{1.25}\large
+    Dominik Wujastyk,
+        Jason Birch,
+        Andrey Klebanov,
+        
+        Madhu K. Parameswaran,
+        Madhusudan Rimal,
+          
+        Deepro Chakraborty,  
+        Harshal Bhatt,   
+        
+        Vandana Lele,      
+        Paras Mehta
+        \par}
+
+\vspace*{\fill}
+
+
+    \includegraphics[width=.2\textwidth]{media/HASP_Logo_black}
+
+  %  Heidelberg Asian Studies Publishing
+  \medskip
+    
+    %Heidelberg
+    
+  %  2023
+\end{center}
+
+\newpage
+% copyright page
+\begin{footnotesize}
+    \sffamily
+    \raggedright
+\vspace*{\fill}
+\begin{scriptsize}
+
+
+The Suśruta Project is funded in part by funding from the Canadian 
+Social Sciences and 
+Humanities
+Research Council.  
+Le projet Suśruta est financé en partie par des fonds du Conseil 
+canadien de recherches en sciences humaines. 
+Insight Grant no.\,\liningnums{435-2020-1077}. 
+% SSHRC logo
+
+\includegraphics[width=\linewidth,trim=190 0 0 75]{media/SSHRC Signature du 
+    CRSH website/sshrc-fip-full-color-eng}
+
+    \medskip
+    
+\newcommand{\ORCID}[2]{#1
+    \raisebox{-.15ex}{\includegraphics[height=1.75ex]
+        {media/ORCID-iD_icon-green}%
+%        {media/ORCID-iD_icon-black}%
+}
+    \url{https://orcid.org/#2}\\}
+\textbf{ORCID}\textsuperscript{®} \\
+\ORCID{Dominik Wujastyk}{0000-0003-0216-6381}
+\ORCID{Jason Birch}{0000-0003-3569-9993}
+\ORCID{Andrey Klebanov}{0000-0001-5241-9434}
+\ORCID{Madhu K. Parameswaran}{0000-0002-4854-4344}
+\ORCID{Deepro Chakraborty}{0000-0001-8852-9934}
+\ORCID{Vandana Lele}{0009-0008-3232-1112}
+\ORCID{Paras Mehta}{0000-0002-8762-016X}
+\ORCID{Harshal Bhatt}{0000-0001-9331-0988}
+\ORCID{Madhusudan Rimal}{0000-0001-9069-4445}
+
+\end{scriptsize}
+
+\bigskip
+
+\textbf{Bibliographic information published by the Deutsche Nationalbibliothek}
+\\
+The Deutsche Nationalbibliothek lists this publication in the Deutsche 
+Nationalbibliografie; 
+detailed bibliographic data are available in the Internet at 
+\href{http://dnb.dnb.de}{http://dnb.dnb.de}.
+
+\bigskip
+
+\begin{tabular}{@{}lp{.7\linewidth}}
+\raisebox{-3.4ex}{\includegraphics[width=.2\linewidth]{media/by-sa}}
+%\parbox[t]{.5\linewidth}{\includegraphics[width=.2\linewidth]{media/by-sa}}
+    &  \raggedright This book is published under the Creative Commons Attribution 
+    License CC 
+    BY-SA \liningnums{4.0}. 
+\end{tabular}
+\bigskip 
+\bigskip
+
+%HASP logo
+\includegraphics[width=.4\linewidth]{media/HASP_horizontal_black}
+
+\medskip
+Published at Heidelberg Asian Studies Publishing (HASP), \liningnums{2023}
+
+\medskip
+
+Heidelberg University / Heidelberg University Library\\
+Heidelberg Asian Studies Publishing (HASP),\\
+Grabengasse \liningnums{1, 69117} Heidelberg, Germany\\
+\href{https://hasp.ub.uni-heidelberg.de}{https://hasp.ub.uni-heidelberg.de}
+
+\bigskip
+
+The electronic open access version of this work is permanently available on the 
+website of 
+Heidelberg Asian Studies Publishing: 
+\href{https://hasp.ub.uni-heidelberg.de}{https://hasp.ub.uni-heidelberg.de}\\
+urn: \liningnums{urn:nbn:de:bsz:16-hasp-1203-0}\\
+doi: 
+\href{https://doi.org/10.11588/hasp.1203}{\liningnums{https://doi.org/10.11588/hasp.1203}}
+\medskip
+
+
+Text © \liningnums{2023}, The Authors
+\medskip
+
+Typeset by Dominik Wujastyk using \XeLaTeX, with \TeX\ Gyre
+Pagella and Sanskrit \liningnums{2003}. The critical edition was typeset using 
+Saktumiva and reLEDMAC.
+\medskip
+
+Cover illustration [To come]: \copyright\ National Archives of Nepal
+
+\medskip
+
+ISBN: \liningnums{978-3-948791-63-6} (Paperback)\\
+ISBN: \liningnums{978-3-948791-62-9} (PDF)
+
+\end{footnotesize}
+
+
+\newpage
+\end{titlepage}
 
     
+\thispagestyle{empty}
+\pagenumbering{roman}
+\setcounter{page}{5}
+ 
+%{page}{1}
     \tableofcontents
+    \pagestyle{fancy}
+    
     \newpage
+
    
     \include{Preface}
-   
+  
     \pagenumbering{arabic}
    
     \include{01 Introduction} 
     \include{02 Transmission} 
     \include{03 The Printed Editions} 
     \include{04 The Manuscripts}
+        \cleardoublepage
+    
+        \setcounter{page}{46}
     \include{05 The Critical Edition} 
+
+        \setcounter{page}{57}
     \include{06 The Translation} 
     \include{07 Bibliography and indexes} 
 

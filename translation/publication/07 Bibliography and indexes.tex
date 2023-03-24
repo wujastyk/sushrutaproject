@@ -5,11 +5,12 @@
 %Cf.\ \cite{adri-engl}.
 \nocite{*} % include everything from the bib file in the bibliography
 
-\defbibnote{aboutARK}{\emph{\footnotesize ARK references can be found by prefixing 
-the resolver “\url{http://n2t.net},”\\ e.g., \url{http://n2t.net/ark:/13960/t3tt6967d}.}}
+%\defbibnote{aboutARK}{\emph{\footnotesize ARK references can be found by 
+%prefixing 
+%the resolver “\url{http://n2t.net},”\\ e.g., \url{http://n2t.net/ark:/13960/t3tt6967d}.}}
 
 \printbiblist[
-    prenote=aboutARK,
+  %  prenote=aboutARK,
     heading=biblistintoc,
     notkeyword=botanical]{shorthand} % the 
 %Abbreviations (shorthands)
@@ -20,11 +21,15 @@ the resolver “\url{http://n2t.net},”\\ e.g., \url{http://n2t.net/ark:/13960/
     
 \printindex[manuscripts]
 
+%\begin{sloppy}
+%{\raggedright
 \printbibliography
 [notkeyword=edition,
 notkeyword=botanical,
 heading=bibintoc
 ]
+%\par}
+%\end{sloppy}
 
 \printbiblist[title={Botanical sourcebooks\label{botanicalsourcebooks}},
     heading=biblistintoc,
