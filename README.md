@@ -22,5 +22,4 @@ All files in this Github repository are copyrighted (C) Dominik Wujastyk 2021.  
 
 This chart is a statement of intentions written in 2019, before the pandemic and before the SSHRC cut one third of the requested grant funding.  There is therefore project slippage, especially regarding other manuscripts, travel and conferences.  But it may be useful to see the original intent. 
 
-![127780310-8578546a-a707-4499-9f14-c2d1fefb2605](https://user-images.githubusercontent.com/762246/218936806-c2ef52aa-2b72-4e14-b0fd-e45d6c36180a.png)
-
+![plan](https://user-images.githubusercontent.com/762246/227660978-7a9a1f91-baa9-4595-adea-fb7fb8d964cb.png)
