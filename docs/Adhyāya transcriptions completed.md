@@ -60,7 +60,22 @@ Adhyāya references are canonical (i.e., the Ācārya 1938 vulgate edition).
 | 1.44 | ✗ | 91 | ✓ | 👍 |
 | 1.45 | ✗ | 229 | ✗ | 👍 |
 | 1.46 | ✗ | 532 | ✓ | 👍         |
-| | | | | |
+| 1.46.1 |  | dhānyavarga 52 | ✓ |  |
+|  | | śālivarga | ✓ | |
+|  | | kudhānyavarga | ✓ | |
+|  | | mudgādivarga | ✓ | |
+|  | | māṣādivarga | ✓ | |
+| 1.46.2 | | māṃsavarga 86 | ✓ | |
+| 1.46.3 |  | phalavarga 72 | ✓ |  |
+| 1.46.4 | | śākavarga 87 | ✓ | |
+|  | | puṣpaśāka | ✓ | |
+|  | | kandavarga 15 | ✓ | |
+| 1.46.5 | | lavaṇavarga 18 | ✓ | |
+|  | | śeṣa 9 | ✓ | |
+| 1.46.6 | | kṛtānna 60 | ✓ | |
+| 1.46.7 | | bhakṣya 107 | ✓ | |
+| 1.46.8 |  | anupāna 27 | ✓ | |
+| 1.46.9 | | āhāravidhi 87 | ✓ | |
 |  | | |  | |
 | **2. Nidāna** |           |           |              |           |
 | chapters | KL 699 (K) |     | NAK 1-1079 (N) | NAK 5-333 (H) |
