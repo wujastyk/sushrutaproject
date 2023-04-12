@@ -60,7 +60,7 @@ In the table below we record the following information:
 |  | 02.jpg | 1v:1:a |    003:upper    | 037 | 1.1.1 | vedotpattim |
 |  | 03.jpg | 2v:5:c |   005:upper   |                038 | 1.2.1      | śiśyopanayanīyam |
 |  | 03.jpg | 3r:4:c |   005:lower   |                038 | 1.3.1                       | 'dhyāyanasampradānīyaṃ |
-|  |  | 4v:1:a | 007:upper |               040 | 1.4.1     | pravacīnīyam |
+|  |  05| 4v:1:a | 007:upper |               040 | 1.4.1     | pravacīnīyam |
 |    |    |  4v:4:b  |   007:upper   |                  040 | 1.5.1    | gropaharaṇīyam |
 |  |  | 5v:2:a |                    008:upper                   |               041 | 1.6.1          | ṛtucaryāṃ |
 |  |  | 6r:1:b | 009:upper | 042 | 1.7.1 | yantravidhim |
