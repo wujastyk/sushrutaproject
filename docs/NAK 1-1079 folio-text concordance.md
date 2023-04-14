@@ -105,7 +105,7 @@ In the table below we record the following information:
 |  | 42.jpg | 40r:5:c | 044:upper | 077:upper | 1.46.1 | annapānavidhiṃ |
 |  |  |  |  |  |  |  |
 |  |  |  |  |  |  | **Nidānasthāna** |
-| 51v | 53.jpg | 51v:3a-b |  055:upper  |       088:upper | 2.01             | vātavyādhi |
+| 51v | 53.jpg | 51v:3a-b |  055:upper  |       088:upper | 2.1             | vātavyādhi |
 |  | 54.jpg | 52r:4b-c | 056:upper | 089:upper | 2.2.1 | arśasāṃ |
 |  | 55.jpg | 53r:2a-b | 057:upper | 090:upper | 2.3.1 | aśmarīṇāṃ |
 |  | 55.jpg | 53v:3b |  057:lower  |       089:lower | 2.4.1       | bhaga |
