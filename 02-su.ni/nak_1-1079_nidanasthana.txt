@@ -1,0 +1,244 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+        <fileDesc>
+            <titleStmt>
+                <title>MS Kathmandu NAK 1-1079: Nidānasthāna</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Suśruta project, University of Alberta</p>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName>
+                            <settlement>Kathmandu</settlement>
+                            <country>Nepal</country>
+                        </placeName>
+                        <institution>National Archives of Kathmandu<ptr
+                                target="https://www.klib.gov.np/"/></institution>
+                        <idno>1-1079</idno>
+                        <idno type="siglum">N</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>[description of manuscript]</summary>
+                        <msItem defective="true" n="1">
+                            <!-- @defective: 'false' for complete, 'true' for incomplete -->
+                            <author role="author" xml:lang="sa">Suśruta</author>
+                            <title xml:lang="sa">Suśrutasaṃhitā</title>
+                            <title type="commentary" xml:lang="sa">[title of
+                                commentary]</title>
+                            <!-- rubric, incipit, explicit, and finalRubric are given as examples -->
+                            <textLang mainLang="sa-Newa">[Sanskrit in Nepalese
+                                script.]</textLang>
+                            <!-- @mainLang can be "sa-Deva", "sa-Mlym", "sa-Telu", "sa-Newa", etc. See ISO 15924 for more details. -->
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="pothi">
+                            <!-- @form can be "pothi", "book", scroll", etc. -->
+                            <supportDesc material="paper"
+                                ><!-- @material can be "paper", "industrial paper", "handmade paper", "palm-leaf", "palmyra palm-leaf", "talipot palm-leaf", "birch bark", "vellum", etc. --><!-- the following <foliation> tags are examples --></supportDesc>
+                        </objectDesc>
+                        <scriptDesc>
+                            <scriptNote xml:id="script-ba-va"><foreign xml:lang="sa"
+                                    >ba</foreign> and <foreign xml:lang="sa">va</foreign>
+                                not distinguished.</scriptNote>
+                        </scriptDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <!-- calendar can be "Vikrama", "Śaka", etc. Dates can be approximate or exact. -->
+                            <origPlace xml:lang="en">Nepal</origPlace>
+                        </origin>
+                        <provenance>[record of ownership]</provenance>
+                        <acquisition>[how it was acquired]</acquisition>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2023-04-19" who="Dominik Wujastyk"> Started the file.</change>
+            <change when="2023-04-19" who="Madhusudana Rimal">Added 2.2</change>
+            
+
+        </revisionDesc>
+    </teiHeader>
+
+    <text xml:lang="sa-Latn">
+        <body>
+
+            <div n="2" type="sthāna">
+
+                <div n="2" type="adhyāya">
+                    <milestone n="A 1267_11_54.jpg_top_52V : 4" unit="folio"/>
+
+                    <l xml:id="SS.2.2.1"> athātorśa<cb/>sān nidāṃ vyākhyāsyāmaḥ || </l>
+
+
+                    <l xml:id="SS.2.2.2"/>
+
+
+                    <l xml:id="SS.2.2.3"> ṣaḍarṣāṃsi bhavanti
+                        vātapittakaphaśoṇitasannipātas sahajāni ceti <lb n="5"/> | </l>
+
+
+                    <l xml:id="SS.2.2.4"> tatrānātmavatāṃ yathoktair prakopanair
+                        prakupitā doṣās ekaikaśaḥ <unclear atMost="2"/>śaḥ sa<subst><add
+                                place="under">ma</add></subst>stāḥ śoṇitasahitā vā ya<g
+                            ref="#newa-gap-filler"/>
+                        <cb n="1"/>thoktaṃ prasṛtāḥ viṣesato mandāgnaṃḥ pradhānadhamanīr
+                        anuprapadhyādho gatvā gudamā gamya pradūṣya gudāvalīr māṃsaprarohā
+                        <unclear/>ja <cb n="2"/>nayanti tāny arṣāsīty ācakṣate | </l>
+
+
+                    <l n="SS.2.2.5"> tatra <unclear/>lāntraprativaddham arddhapaṃcāṅgulaṅ
+                        gudam āhus tasmin valayastisrodhya<lb n="6"
+                        />rddhāṅgulāntarasambhūtāḥ | pravāhaṇī visṛjanī samvaraṇī ceti | </l>
+
+
+                    <l xml:id="SS.2.2.6a"/>
+                    <l xml:id="SS.2.2.6b"/>
+                    <l xml:id="SS.2.2.6c"> romāntebhyo yavādhyardho gudauṣṭha | </l>
+
+
+                    <l xml:id="SS.2.2.7"> pratha<cb n="1"/>mā tu gudauṣṭhādaṅgulamātre </l>
+
+
+                    <l xml:id="SS.2.2.8"> teṣān tu bhaviṣyatāṃ pūrvvarūpāṇi | anne na
+                        śraddhā kṛcchāt pakti<unclear/>kā<unclear/> viṣṭambhaḥ ||
+                        sakthisadanam āṭopaḥ <cb n="2"/> kārśyam udgāravāhulyam
+                        akṣṇośvayathur gudaparikarttanaṃ kāsaśvāsaḥ pāṇḍurogagrahaṇīdoṣaḥ
+                        | kadācit candrā <lb n="7"/> valahānir indriyadaurvalyaṃ ceti | </l>
+
+
+                    <l xml:id="SS.2.2.9"> jāteṣv etān eva liṅgāni pravyaktatarāṇi
+                        bhavanti | </l>
+
+
+                    <l xml:id="SS.2.2.10"> tatra mārutāt pariśuṣkā<cb n="1"/>ruṇavarṇāni
+                                viṣa<subst><add place="margin-lower"
+                        >ma</add></subst>dhyāmāni
+                        kadamvapuṣpatuṇḍikerikānāḍīmukhasūcīmukhākṛtīni tair upadrutaḥ
+                        saśūlaṃ saṃhatam upaveśyate | <cb n="2"/> kaṭīpṛṣṭhagudameḍhreṣu
+                        cāsya vedanā gulmāṣṭhīlāplīhodarāṇi cāsya tan nimittān eva
+                            kṛṣṇanakhanayanavada<pb n="A 1267_11_54.jpg_bottom_53R"
+                        />namūtrapurīṣavarṇṇaś ca puruṣo bhavati || </l>
+
+
+                    <l xml:id="SS.2.2.11"> pi<unclear atLeast="2"/>nīlāgrāṇi
+                            <unclear>ma</unclear>nūni visarppīṇi pītāvabhāsāni yakṛt
+                            prakā<cb n="1"/>śāni śukajihvāsaṃsthānāni yavamadhyāni
+                        jalaukovakra sadṛśāni praklinnāni bhavanti | tair upadrutaḥ
+                        sadāhaṃ sarudhiram avipakvam atisā<cb n="2"/>ryate |
+                        dāhajvarapipāsāmūrchyopadravā bhavanti | tan nisi<unclear/>ny eva
+                            pītanakhanayanavadanamūtrapurīṣarvarṇṇapuru<lb n="2"/>ṣo
+                        bhavati || </l>
+
+
+                    <l xml:id="SS.2.2.12"> śleṣmajāni mahāmūlāni sthirāṇi vṛttāni
+                        snigdhāni pāṃḍūni mulāvatā<unclear/>ni karīrapaṇasāsthigo<cb n="1"
+                        />stanākārāṇi | na bhidyante na sravanti ca kaṇḍavahulāni ca
+                        bhavanti | tair upadrutaḥ | saśleṣmakam
+                            analpamāṃsavasāmedāprakāśa<subst><del/></subst>matisāryate |
+                            <cb n="2"/>
+                        śophaśīta<subst><del/></subst>jvarārocakāvipākaśirogauravagrātra
+                        sadanāni cāsya tannimittāny eva śukle na nakhanayanavadanamū<lb
+                            n="3"/>trapurīṣavarṇṇaś ca puruṣo bhavati || </l>
+
+
+                    <l xml:id="SS.2.2.13"> raktajāni tu
+                        nyagrodhapramehavidru<unclear/>makākanantikaphasadṛśāḥ
+                            pittalakṣa<cb n="1"/>ṇāni ceti | yadā tu
+                        gāḍhapurīṣaprapīḍitāni bhavanti tadātyarthan duṣṭam
+                            <unclear>uśṇam</unclear>asṛk sahasā visṛjanti || tasya
+                        cātipravṛttau śoṇitāti<cb n="2"/>yogopadravā <unclear atLeast="2"
+                        /> bhavanti | </l>
+
+
+                    <l xml:id="SS.2.2.14"> sannipātajāni sarvvalakṣaṇayuktāni </l>
+
+
+                    <l xml:id="SS.2.2.15"> sahajāni duṣṭaśukraśoṇitanimittā<lb n="4"/>ni
+                        | teṣān doṣata eva prasādanan kartavya<unclear/> viśeṣaś cātra
+                        durdarśanāni paruṇāṣāṇa pāṇḍūni dāruṇānyantar mukhā <cb n="1"/>ni
+                        | tair upadrutaḥ kṛśolpabhuk śirāsannatagātrālpaprajaḥ | kṣīṇar
+                        etāś ca bhavati || </l>
+
+
+                    <l xml:id="SS.2.2.16"> śloka || vāhyamadhyamayo valyo pratikuryā<cb
+                            n="2"/>d bhiṣagvaraḥ |
+                        <caesura/>
+                         valyāmantyantaro yān tu pratyākhyāyāvacen kriyā<unclear/> || </l>
+
+
+                    <l xml:id="SS.2.2.17"> prakupitāsty doṣāḥ meḍhrum abhiprapannā māṃ<lb
+                            n="5"/>saśoṇitapraduṣya kaṇḍūn janayanti tasmin kaṇḍūkṣatan
+                        kṣate duṣṭaṃ māsa prarohāḥ picchilarudhirasrāviṇo jāya<cb n="1"
+                        />nte kurcakinobhyantaram upapariṣṭhādvā | te tu sahaṃ
+                        vināśayantyupaghnanti pumstvaṃ | yonim abhiprapannā durgandhi
+                        picchilāsrāviṇaḥ | cchatrā<cb n="2"/>kārāṃ prarohāṃ janayanti | te
+                        tu yonim upaghnantyārtavaś ca | nābhim abhiprapannāḥ sukumārāṇāṃ
+                        picchilaṃ <lb n="6"/> gaṇḍūpadamukhasadṛśāṃ karīrāṃ janayanti | ta
+                        evordhvam āgatāḥ śrotrākṣighrāṇavadaneṣv arśāṃsy upajana<cb n="1"
+                        />yanti | tatra karṇṇajeṣu vādhiryaṃ śūlaḥ pūtikarṇṇatāś ca |
+                        netrajeṣu vartmāvarodho vedanā srāvo darśananāśaś ca | grāṇajeṣu
+                            pratiśyā<cb n="2"/>yotimātraṃ kṣavathuḥ | kṛcchrocchvāsita |
+                        pūtināsya śiro <unclear atLeast="2"/> tu nāsika vākyaś ca bhavati
+                        || vakreṣu <lb n="7"/> kaṇṭhāṣu tāluṣṭhanyatameṣu tair
+                        gadgadavākyatā rasāvaroṇa mukharogāś ca bhavanti || </l>
+
+
+                    <l xml:id="SS.2.2.18"> vyānas tu praku<cb n="1"/>pitaḥ śleṣmāṇam
+                        parigṛhya vahirdh-asthiraṃ kīlavadarśānti nirvartayatitaś
+                        carmakīlasity ācakṣate || </l>
+
+
+                    <l xml:id="SS.2.2.19"> bha || tasyato do<cb n="2"/>ṣa <unclear
+                            atLeast="1"/>ru<unclear atLeast="1"/>m mārutenopajāyate |
+                        <caesura/>
+                         śleṣmaṇā tu savarṇṇatvaṃ graṃthitatvaś ca nirdiśet || </l>
+
+
+                    <l xml:id="SS.2.2.20"> pittaśoṇitajarau<pb n="A 1267_11_55.jpg_53R"
+                        />kṣyaṃ kṛṣṇatā ślakṣṇatā tathā |
+                        <caesura/>
+                         samudīrṇṇakharatvaś ca carmakīlasya lakṣaṇāṃ || </l>
+
+
+                    <l xml:id="SS.2.2.21"> durnāsnāṃ lakṣaṇaṃ vyāsād uktaṃ yat ca
+                        samāsataḥ |
+                        <caesura/>
+                        <cb n="2"/>tat sarvvaṃ prāgabhihitāt sādhayate cikitsakaḥ || </l>
+
+
+                    <l xml:id="SS.2.2.22"> arśaś su dṛśyate rūpaṃ yadā doṣadvayasya tu |
+                        <caesura/>
+                         saṃsargan tam vijānīyāt saṃsargaḥ ṣaḍvidha<unclear atLeast="2"
+                            /><cb n="1"/>saḥ || </l>
+
+
+                    <l xml:id="SS.2.2.23"/>
+
+
+                    <l xml:id="SS.2.2.24"> sannipātasamutthāni sahajāni tu varjayet |
+                        <caesura/>
+                         valyaḥ sarvvā syū yeṣāṃ hi durnām abhir upadrutāḥ || </l>
+
+
+                    <l xml:id="SS.2.2.25"> tais tu pratihi<lb n="2"/>to vāyurapānas
+                        sannivartate | </l>
+
+
+                    <l xml:id="SS.2.2.26"> tato vyānena saṃgamya jyotir asya
+                        pramarddatīti || 2 || ❈ || </l>
+
+
+
+
+                </div>
+
+            </div>
+        </body>
+    </text>
+
+</TEI>
