@@ -59,7 +59,7 @@ Adhyāya references are canonical (i.e., the Ācārya 1938 vulgate edition).
 | 1.43 | ✗ | 11 | ✓ | 👍 |
 | 1.44 | ✗ | 91 | ✓ | 👍 |
 | 1.45 | ✗ | 229 | ✗ | 👍 |
-| 1.46 | ✗ | 532 | ✓ | 👍         |
+| 1.46 | ✗ | 532 | ✓ | 👍 (360 vv.) |
 | 1.46.1 |  | dhānyavarga 52 | ✓ |  |
 |  | | śālivarga | ✓ | |
 |  | | kudhānyavarga | ✓ | |
