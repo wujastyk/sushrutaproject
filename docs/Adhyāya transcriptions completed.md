@@ -66,7 +66,7 @@ Adhyāya references are canonical (i.e., the Ācārya 1938 vulgate edition).
 |  | | mudgādivarga |  | |
 |  | | māṣādivarga | 👍 | |
 | 1.46.2 | | māṃsavarga (53-138) 86 | 👍 | |
-| 1.46.3 |  | phalavarga (139-210) 72 | ✓ |  |
+| 1.46.3 |  | phalavarga (139-210) 72 | 👍 |  |
 | 1.46.4 | | śākavarga (211-312) 87 | ✓ | |
 |  | | puṣpaśāka | ✓ | |
 |  | | kandavarga 15 | ✓ | |
