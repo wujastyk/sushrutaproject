@@ -74,7 +74,7 @@ Adhyāya references are canonical (i.e., the Ācārya 1938 vulgate edition).
 |  | | ✓ | | śeṣa 9 |
 | 1.46.6 | | 👍 | | kṛtānna (340-391) 60 |
 | 1.46.7 | | 👍 | | bhakṣya (392-417) 107 |
-| 1.46.8 |  | ✓ | | anupāna (418-445) 27 |
+| 1.46.8 |  | 👍 | | anupāna (418-445) 27 |
 | 1.46.9 | | ✓ | | āhāravidhi (446-532) 87 |
 |  | |  | | |
 | **2. Nidāna** |           |              |           |           |
