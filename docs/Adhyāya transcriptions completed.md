@@ -68,10 +68,10 @@ Adhyāya references are canonical (i.e., the Ācārya 1938 vulgate edition).
 | 1.46.2 | | 👍 | | māṃsavarga (53-138) 86 |
 | 1.46.3 |  | 👍 |  | phalavarga (139-210) 72 |
 | 1.46.4 | | ✓ | | śākavarga (211-312) 87 |
-|  | | ✓ | | puṣpaśāka |
-|  | | ✓ | | kandavarga 15 |
+|  | |  | | puṣpaśāka |
+|  | |  | | kandavarga 15 |
 | 1.46.5 | | ✓ | | lavaṇavarga (313-339) 18 |
-|  | | ✓ | | śeṣa 9 |
+|  | |  | | śeṣa 9 |
 | 1.46.6 | | 👍 | | kṛtānna (340-391) 60 |
 | 1.46.7 | | 👍 | | bhakṣya (392-417) 107 |
 | 1.46.8 |  | 👍 | | anupāna (418-445) 27 |
