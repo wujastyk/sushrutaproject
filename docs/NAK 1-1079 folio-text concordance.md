@@ -110,7 +110,7 @@ In the table below we record the following information:
 | | 47.jpg upper | | | | 1.46.210-237 | start of śākavarga |
 | | 48.jpg lower | | | | 1.46.237-265 | |
 | | 49.jpg upper | 051:upper | | | 1.46.266-293 | puṣpavarga                                    |
-| | 47.jpg lower | | | | 1.46.293- | continuation of 49.jpg upper |
+| | 47.jpg lower | | | | 1.46.293- |  |
 | | 48.jpg upper | | | | | |
 | | 49.jpg lower |  | | | 1.46.368cd- | mid-kṛtānna |
 | | 50.jpg | | | | |  |
