@@ -114,9 +114,11 @@ In the table below we record the following information:
 | | 48.jpg upper | | | | | |
 | | 49.jpg lower |  | | | 1.46.368cd- | mid-kṛtānna |
 | | 50.jpg | | | | |  |
-| | 51.jpg | | | | | |
-| | 52.jpg | | | | | |
-| |  | | | | | |
+| 49v | 51.jpg upper | | | | 1.46.446-471 | |
+| 50r | 51.jpg lower | | | | 1.46.471-500 | |
+| 50v | 52.jpg upper | | | | 1.46.500-525 | |
+| | 52.jpg lower| | | | | |
+| 51v | 53.jpg upper | | | | | end of Sūtrasthāna |
 |  |  |  |  |  |  | **Nidānasthāna** |
 | 51v | 53.jpg |  055:upper  | 51v:3a-b |       088:upper | 2.1             | vātavyādhi |
 |  | 54.jpg | 056:upper | 52r:4b-c | 089:upper | 2.2.1 | arśasāṃ |
