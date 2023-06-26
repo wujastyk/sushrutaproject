@@ -11,4 +11,4 @@ All files are of the sūtrasthāna of the *Suśrutasaṃhitā*
 | `provisional-edition_sutrasthana.txt` | the evolving critical edition based on the above manuscripts |
 |                                       |                                                              |
 
-  
+  The files are each divided into two: adhyāyas 1-31 and 32-end.
