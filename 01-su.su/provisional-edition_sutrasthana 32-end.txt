@@ -1,0 +1,271 @@
+﻿<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Nepalese Version of the Suśrutasaṃhitā, Sūtrasthāna, based on the
+                    Nepalese MSS</title>
+            </titleStmt>
+
+            <publicationStmt>
+                <authority>The Suśruta Project</authority>
+                <idno>SS.sū.2020-11</idno>
+                <availability status="restricted">
+                    <p>Copyright Notice</p>
+                    <p>Copyright (C) Dominik Wujastyk</p>
+                    <p>
+                        <ref target="http://creativecommons.org/licenses/by-sa/3.0/" type="licence"
+                            >Distributed by <ref target="http://sarit.indology.info" type="url"
+                                >SARIT</ref> under a Creative Commons Attribution-ShareAlike 3.0
+                            Unported License. </ref>
+                    </p>
+                    <p>Under this licence, you are free <list>
+                            <item>to Share — to copy, distribute and transmit the work</item>
+                            <item>to Remix — to adapt the work </item>
+                        </list></p>
+                    <p>Under the following conditions:</p>
+                    <p>
+                        <list>
+                            <item>Attribution — You must attribute the work in the manner specified
+                                by the author or licensor (but not in any way that suggests that
+                                they endorse you or your use of the work).</item>
+                            <item>Share Alike — If you alter, transform, or build upon this work,
+                                you may distribute the resulting work only under the same or similar
+                                license to this one.</item>
+                        </list>
+                    </p>
+                    <p>More information and fuller details of this license are given on the Creative
+                        Commons website.</p>
+                    <p>SARIT assumes no responsibility for unauthorised use that infringes the
+                        rights of any copyright owners, known or unknown.</p>
+                </availability>
+                <address>
+                    <name>University of Alberta</name>
+                </address>
+                <authority>
+                    <name>The Suśruta Project</name></authority>
+                <date>2020</date>
+                <pubPlace>The University of Alberta</pubPlace>
+                <publisher>The Suśruta Project<ptr target="http://sushrutaproject.org"/></publisher>
+            </publicationStmt>
+
+
+            <sourceDesc>
+                <msDesc xml:id="Sanskrit" xml:lang="en">
+                    <msIdentifier>
+                        <idno type="siglum">NE<!--<sub>ed</sub>--></idno>
+                    </msIdentifier>
+                </msDesc>
+
+                <listWit>
+                    <witness xml:id="MN">The <title>Mādhavanidāna</title>, <abbr type="siglum"
+                            >MN</abbr>
+                        <idno type="siglum">Mādhavanidāna</idno></witness>
+                </listWit>
+
+                <listWit>
+                    <witness xml:id="NAK_1-1146">MS Kathmandu NAK 1-1146 <abbr type="siglum"
+                            >1-1146</abbr>
+                        <idno type="siglum">MS NAK 1-1146</idno> A paper manuscript in Devanāgarī.
+                        67 ff. Filmed as reel no A 224-9. Covers 1.8.3 - 1.44.24 of the Sūtrasthāna.
+                    </witness>
+                </listWit>
+            </sourceDesc>
+
+        </fileDesc>
+
+        <!-- <xenoData>
+            <stemma format="nexml">
+                <nex:nexml generator="Bio::Phylo::Project v.0.58" version="0.9"
+                    xmlns="http://www.nexml.org/2009" xmlns:dc="http://purl.org/dc/elements/1.1/"
+                    xmlns:map="http://phylomap.org/terms.owl#" xmlns:nex="http://www.nexml.org/2009"
+                    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://www.nexml.org/2009 http://www.nexml.org/2009/nexml.xsd"
+                    > <otus id="otus1" label="TaxaBlock">
+                        <otu id="otu1" label="A"/>
+                        <otu id="otu2" label="H"/>
+                        <otu id="otu3" label="K"/>
+                        <otu id="otu4" label="N"/>
+                    </otus> <trees otus="otus1" id="trees1" label="TreesBlock">
+                        <tree id="tree1" label="tree1" xsi:type="nex:FloatTree">
+                            <node id="n1" label="A" otu="A"/>
+                            <node id="n2" label="H" otu="H"/>
+                            <node id="n3" label="K" otu="K"/>
+                            <node id="n4" label="N" otu="N"/>
+                            <node id="n5" label="n5"/>
+                            <node id="n6" label="n6"/>
+                            <node id="n7" label="n7" root="true"/>
+                            <edge source="n5" target="n2" id="e1" length="0.0016219388250720487"/>
+                            <edge source="n5" target="n4" id="e2" length="0.0030085840381346013"/>
+                            <edge source="n6" target="n1" id="e3" length="0.023868550299649984"/>
+                            <edge source="n6" target="n5" id="e5" length="5.44043353790739E-4"/>
+                            <edge source="n7" target="n6" id="e6" length="4.092575344587166E-5"/>
+                            <edge source="n7" target="n3" id="e7" length="7.775893154715614E-4"/>
+                        </tree> </trees>
+                </nex:nexml>
+            </stemma>
+        
+        </xenoData>-->
+
+
+        <revisionDesc>
+            <change when="2020-11-04" who="Dominik Wujastyk">Began this file.</change>
+            <change when="2023-11-04" who="Dominik Wujastyk"> added 1.41, based on MS N</change>
+            <change when="2023-06-26" who="Dominik Wujastyk">Separated the file into two parts, 1-31
+                and 32-end, because of processing limits at Saktumiva</change>
+
+        </revisionDesc>
+
+    </teiHeader>
+
+
+    <text xml:lang="sa-Latn">
+        <body>
+
+            <div n="1" type="sthāna">
+
+                <head>[Sūtrasthāna]</head>
+
+           
+
+                <div n="39" type="adhyāya">
+                    <head>[Adhyāya 39]</head>
+
+
+
+                    <l xml:id="SS.1.39.12">cale doṣe mṛdau koṣṭhe nekṣan tatra balan nṛṇāṃ |
+                        <caesura/>
+                         avyāpaddurbbalasyāpi<anchor n="SS.1.39.12-n1"/> śodhanaṃ hi tadā bhavet</l>
+
+                    <ab corresp="#SS.1.39.12" type="apparatus">
+                        <list type="notes">
+                            <item corresp="#SS.1.39.12-n1">Ḍalhaṇa noted the alternative reading
+                                    <foreign>avyāpaddurbalasyāpi</foreign> that appears in our
+                                witnesses.</item>
+                        </list>
+                    </ab>
+
+                </div>
+
+                <div n="41" type="adhyāya">
+                    <head>[Adhyāya 41]</head>
+                    <p xml:lang="en">[First draft based on MS N]</p>
+
+                    <l xml:id="SS.1.41.1"><label>1931 ed. 1.41.1</label> athāto
+                        dravyaviśeṣavijñānīyam vyākhyāsyāmaḥ || </l>
+
+                    <l xml:id="SS.1.41.2"/>
+
+                    <l xml:id="SS.1.41.3"><label>1931 ed. 1.41.3</label> tatra
+                        pṛthivyaptejovāyvākāśānāṃ samudāyād dravyābhinirvṛttir bbhavati | idaṃ
+                        pārthivam idam apyam idan tejasam idam vāyavyam idam ākāśyam iti || </l>
+
+                    <l xml:id="SS.1.41.4.1"><label>1931 ed. 1.41.4.1</label> tatra
+                        sthūlasāndramandasthiragurukaṭhinagaṃdhaguṇabahulam īṣatkaṣāyaprāyaso
+                        madhuram iti pārthivan tat sthairyagauravasaṃghātopacayakaraṃ viśeṣataś
+                        cādhogatisvabhāvam iti || </l>
+
+                    <l xml:id="SS.1.41.4.2"><label>1931 ed. 1.41.4.2</label>
+                        śītastimitamandagururasasāndramṛdupicchilarasaguṇarasaguṇabahulam īṣadamlaṃ
+                        prāyaso madhuram āpyan tat snehanahlādanaviṣyandanakaram iti | </l>
+
+                    <l xml:id="SS.1.41.4.3"><label>1931 ed. 1.41.4.3</label>
+                        tīkṣṇoṣṇarūkṣasūkṣmalaghuviṣadaṃ rūpaguṇabahulam īṣadamlaprāyam viśeṣataś
+                        corddhvagatisvabhāvam iti taijasaṃ ||
+                        taddahanapacanatāpanaprakāśanaprabhāvarṇṇakaram iti | </l>
+
+                    <l xml:id="SS.1.41.4.4"><label>1931 ed. 1.41.4.4</label>
+                        sūkṣmarūkṣakharaśiśiralaghuviṣadaṃ sparśaguṇabahulam īṣattiktam viśeṣataḥ
+                        kaṣāyam iti vāyavyaṃ tadvaiṣadyaṃ lāghavaglapanavirūkṣaṇakaram iti || </l>
+
+                    <l xml:id="SS.1.41.4.5"><label>1931 ed. 1.41.4.5</label>
+                        ślakṣṇasūkṣmavyavāyiviṣadaviviktarasaṃ śabdaguṇabahulam ākāśyan tasmāt tat
+                        mārddavasauṣiryalāghavakaram iti || </l>
+
+                    <l xml:id="SS.1.41.5"><label>1931 ed. 1.41.5</label> anena nidarśanena
+                        nānauṣadhabhūtañ jagati kiñcid dravyam astīti kṛtvā tan taṃ
+                        yuktiviśeṣamarthañ cābhipratītya svavīryaguṇayuktāni dravyāṇi
+                            kārmmukāni<anchor n="SS.1.41.5-n1"/> bhavanti || tāni yadā kurvvanti sa
+                        kālaḥ | yat kurvanti tat karmma | yena kurvvanti tad vīryaṃ | yatra
+                        kurvvanti tad adhikaraṇaṃ | yathā kurvvanti sa upāyaḥ | yad abhiniṣpādayanti
+                        tat phalam iti | </l>
+
+                    <ab corresp="#SS.1.41.5" type="apparatus">
+                        <list type="notes">
+                            <item corresp="#SS.1.41.5-n1">The word "<foreign>kārmuka</foreign>" for
+                                "effective" is very rare, apparently only known from this instance
+                                and one in the Carakasaṃhitā 1.26.13. The word is formed by
+                                P.5.1.103 and the grammatical Kāśikāvṛtti says that it is confined
+                                to describing a "capable" bow since no other usage of the word is
+                                known.</item>
+                        </list>
+                    </ab>
+
+                    <l xml:id="SS.1.41.6"><label>1931 ed. 1.41.6</label> tad atra virecanadravyāṇy
+                        ambupṛthivīguṇabhūyiṣṭhāni | pṛthivyāpo hi gurvvyaḥ | gurutvād adho
+                        gacchanti | tasmād virecanadravyāṇy ambupṛthivīguṇabhūyiṣṭhāni |
+                        vamanadravyāṇy agnivāyuguṇabhūyiṣṭhāni | agnivāyū hi laghū laghutvāc
+                        corddhvam uttiṣṭhataḥ | tasmād vamanaprāmāṇyād agnivāyubhūyiṣṭhāny
+                        ubhayaguṇabhūyiṣṭhan dravyam ubhayato bhāgaharaṃ | ākāśaguṇabhūyiṣṭhaṃ
+                        saṃśamanaṃ | sāṃgrāhikam anilaguṇabhūyiṣṭhaṃ | dīpanam agniguṇabhūyiṣṭhaṃ |
+                        lekhanam anilānalaguṇabhūyiṣṭhaṃ | bṛṃhanam pṛthivyambuguṇabhūyiṣṭhaṃ | evam
+                        auṣadhakarmmāṇy anumānāt sādhayet || </l>
+
+                    <l xml:id="SS.1.41.7"><label>1931 ed. 1.41.7</label> bhavanti ślokāḥ || </l>
+
+                    <l xml:id="SS.1.41.7i"><label>1931 ed. 1.41.7i</label> mahyambvagnyātmakair
+                        ddravyais tribhiḥ sāmyati mārutaḥ |
+                        <caesura/>
+                         khabhūmyambuvāyujaiḥ pittañ caturbbhiḥ saṃpraśāmyati || </l>
+
+                    <l xml:id="SS.1.41.8"><label>1931 ed. 1.41.8</label> kaphaḥ khatejo'nilajais
+                        tribhiḥ śāmyati dehināṃ |
+                        <caesura/>
+                         khavāyuktābhyān dravyābhyāṃ vṛddhim abhyeti mārutaḥ || </l>
+
+                    <l xml:id="SS.1.41.9"><label>1931 ed. 1.41.9</label> āgneyam eva yad dravyan
+                        tena pittam udīryate |
+                        <caesura/>
+                         mahyambujābhyān dravyābhyāṅ kaphaś cābhivivarddhate || </l>
+
+                    <l xml:id="SS.1.41.10"><label>1931 ed. 1.41.10</label> evam eva guṇādhikyaṃ
+                        dravye dravye vyavasthitaṃ |
+                        <caesura/>
+                         dviśo vā bahuśo vāpi jñātvā doṣe 'vacācaret || </l>
+
+                    <l xml:id="SS.1.41.11"><label>1931 ed. 1.41.11</label> tatra ya ime
+                        guṇāṣṭauvīryasaṃjñakāḥ | śītoṣṇasnigdharūkṣamṛdutīkṣṇapicchilaviṣadās teṣān
+                        tīkṣṇoṣṇāv āgneyau | śītapicchilāv ambuguṇabhūyiṣṭhau |
+                        pṛthivīsomaguṇabhūyiṣṭhaḥ | snehas toyākāśaguṇabhūyiṣṭhaṃ | mṛdutvaṃ |
+                        vāyuguṇabhūyiṣṭhaṃ raukṣyaṃ | kṣitisamīraṇabhūyiṣṭhaṃ vaiṣadyaṃ | vipākāv
+                        uktaguṇau | karmmāṇy uṣṇasya dahanapācanamūrcchanasvedanavamanavirecanāni ||
+                        śītasya prahlādanaviṣkambhanasthirīkaraṇaprasādanakledanajīvanāni |
+                        snigdhasya snehanabṛṃhaṇasantarppaṇavyājīkaraṇavayaḥsthāpanāni ||
+                        rūkṣasyānilavṛddhisaṃgrahaṇapīḍanavirūkṣaśoṣarohaṇāni || viṣadasya
+                        kledāvūṣaṇavirūkṣaśoṣarohaṇāni ||
+                        picchilasyopalepanapūraṇabṛṃhaṇasaṃśleṣaṇavyājīkaraṇāni || mṛdo raktamān
+                        saprasādanamukhyasaṃsparśanāni || tīkṣṇasya saṅgrahācūṣaṇāvadāraṇaśrāvaṇāni
+                        | tatroṣṇasnigdhau vātaghnau | śītamṛdupicchilāḥ pittaghnāḥ |
+                        tīkṣṇarūkṣaviṣadāḥ śleṣmaghnāḥ | gurupāko vātapittaghnaḥ | laghupākaḥ
+                        śleṣmapittaghna iti | teṣu mṛduśītoṣṇāḥ sparśagrāhyāḥ | picchilaviṣadau
+                        cakṣuḥsparśābhyāṃ | snigdharūkṣau cakṣuṣā | tīkṣṇaḥ sukhaduḥkhotpādanāt |
+                        gurupākaḥ sṛṣṭaviṇmūtratayā kaphāṃ kleśanañ ca | laghur bbaddhaviṇmūtratayā
+                        mārutakopanañ ca | tatra tulyaguṇeṣu bhūteṣu rasavaiśeṣyam upalakṣayet ||
+                        yathā madhuro guruś ca pārthivaḥ | madhurasnigdhaśītāś cāpyā iti || </l>
+
+                    <l xml:id="SS.1.41.12"><label>1931 ed. 1.41.12</label> || bhavati cātra || </l>
+
+                    <l xml:id="SS.1.41.12i"><label>1931 ed. 1.41.12i</label> guṇā ye uktā dravyeṣu
+                        śarīreṣv api tān viduḥ |
+                        <caesura/>
+                         sthānavṛddhikṣayāt tasmād dehināṃ dravyahetukā iti || </l>
+
+                    <p ana="trailer"> || 41 || </p>
+                </div>
+
+            </div>
+
+        </body>
+    </text>
+</TEI>

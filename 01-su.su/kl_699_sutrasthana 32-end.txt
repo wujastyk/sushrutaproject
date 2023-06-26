@@ -1,0 +1,233 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+        <fileDesc>
+            <titleStmt>
+                <title>MS Kathmandu KL 699: Sūtrasthāna</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Suśruta project, University of Alberta</p>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName>
+                            <settlement>Kathmandu</settlement>
+                            <country>Nepal</country>
+                        </placeName>
+                        <institution>Kaiser Library<ptr target="https://www.klib.gov.np/"
+                            /></institution>
+                        <idno>699</idno>
+                        <idno type="siglum">K</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>A palm-leaf manuscript written in old Nepalese script.</summary>
+                        <msItem defective="true" n="1">
+                            <!-- @defective: 'false' for complete, 'true' for incomplete -->
+                            <author role="author" xml:lang="sa">Suśruta</author>
+                            <title xml:lang="sa">Suśrutasaṃhitā</title>
+                            <!-- rubric, incipit, explicit, and finalRubric are given as examples -->
+                            <textLang mainLang="sa-Newa">Sanskrit in Nepalese script.</textLang>
+                            <!-- @mainLang can be "sa-Deva", "sa-Mlym", "sa-Telu", "sa-Newa", etc. See ISO 15924 for more details. -->
+                        </msItem>
+                    </msContents>
+
+                    <physDesc>
+                        <p resp="Harshal Bhatt">Folios 4r and 4v are missing.</p>
+                        <p resp="Harshal Bhatt">Folio no 12r and 12v missing. Additions SS.1.13.21ab
+                            SS.1.13.21cd SS.1.13.23ef SS.1.13.23gh </p>
+                        <p resp="Harshal Bhatt">Missing verses SS.1.18.9ab SS.1.18.9cd SS.1.18.10ab
+                            SS.1.18.10cd SS.1.18.11 SS.1.18.13ab SS.1.18.13cd SS.1.18.14ab
+                            SS.1.18.14cd SS.1.18.15ab SS.1.18.15cd SS.1.18.15ef SS.1.18.7 and 8
+                            found before SS.1.18.13 After SS.1.18.18 folios are missing. </p>
+
+
+                        <objectDesc form="pothi">
+                            <!-- @form can be "pothi", "book", scroll", etc. -->
+                            <supportDesc material="palm-leaf"
+                                ><!-- @material can be "paper", "industrial paper", "handmade paper", "palm-leaf", "palmyra palm-leaf", "talipot palm-leaf", "birch bark", "vellum", etc. --><!-- the following <foliation> tags are examples --></supportDesc>
+
+                        </objectDesc>
+
+                        <scriptDesc>
+                            <scriptNote xml:id="script-śa-sa"><foreign xml:lang="sa">śa</foreign>
+                                and <foreign xml:lang="sa">sa</foreign> not
+                                distinguished.</scriptNote>
+                            <scriptNote xml:id="script-ba-va"><foreign xml:lang="ba">ba</foreign>
+                                and <foreign xml:lang="va">va</foreign> not
+                                distinguished.</scriptNote>
+                        </scriptDesc>
+                        <!--                     this śa/sa equivalence may be wrong. Still checking, 2021-06-12  - DW -->
+
+                    </physDesc>
+
+                    <history>
+                        <origin>
+                            <origDate calendar="Nepal" when="0301">M Saṃvat 301 (878 CE).</origDate>
+                            <!-- calendar can be "Vikrama", "Śaka", etc. Dates can be approximate or exact. -->
+                        </origin>
+                    </history>
+
+
+                </msDesc>
+
+            </sourceDesc>
+        </fileDesc>
+
+        <revisionDesc>
+            <change when="2020-01-06" who="Jason Birch">Transcribed 1.1.</change>
+            <change when="2020-03-31" who="Jason Birch">Transcribed 1.16.</change>
+            <change when="2021-06-13" who="Deepro Chakraborty">Transcribed 1.21</change>
+            <change when="2021-06-22" who="Harshal Bhatt">Added transcription of 1.3</change>
+            <change when="2021-06-25" who="Harshal Bhatt">Added transcription of 1.4</change>
+            <change when="2021-06-25" who="Harshal Bhatt">Added transcription of 1.5</change>
+
+            <change when="2021-06-13" who="Deepro Chakraborty">added 1.21 of KL699 and NAK5-33, some
+                corrections in the vulgate</change>
+            <change when="2021-06-24" who="Deepro Chakraborty">added 1.22 of KL699 and NAK5-33, some
+                corrections in the vulgate</change>
+            <change when="2021-06-24" who="Deepro Chakraborty">added 1.23 of KL699 and NAK5-33, some
+                corrections in the vulgate</change>
+            <change when="2021-06-28" who="Deepro Chakraborty">added 1.24 of KL699 and NAK5-33, some
+                corrections in the vulgate</change>
+            <change when="2021-06-29" who="Deepro Chakraborty">added 1.25 of KL699 and NAK5-33, some
+                corrections in the vulgate</change>
+
+            <change when="2021-07-08" who="Harshal Bhatt">Added transcription of 1.8</change>
+            <change when="2021-07-10" who="Harshal Bhatt">Added transcription of 1.9</change>
+            <change when="2021-07-11" who="Harshal Bhatt">Added transcription of 1.10</change>
+
+            <change when="2021-07-13" who="Deepro Chakraborty">added 1.26 of KL699 and NAK5-33, some
+                corrections in the vulgate</change>
+
+            <change when="2021-07-16" who="Harshal Bhatt">Added transcription of 1.11</change>
+
+            <change when="2021-07-15" who="Deepro Chakraborty">Added 1.27 of K and H and some
+                corrections in the vulgate (#43)</change>
+
+            <change when="2021-07-16" who="Harshal Bhatt">Added transcription of 1.12</change>
+            <change when="2021-07-18" who="Harshal Bhatt">Added transcription of 1.13</change>
+            <change when="2021-07-15" who="Deepro Chakraborty">Added 1.28 of K and H and some
+                corrections in the vulgate</change>
+            <change when="2021-07-30" who="Deepro Chakraborty">Added 1.29 of K and H and some
+                corrections in the vulgate</change>
+            <change when="2021-07-31" who="Harshal Bhatt">Added transcription of 1.14</change>
+            <change when="2021-08-04" who="Deepro Chakraborty">Added 1.30 of K and H and some
+                corrections in the vulgate</change>
+            <change when="2021-08-08" who="Harshal Bhatt">Added transcription of 1.15</change>
+            <change when="2021-08-11" who="Deepro Chakraborty">Added 1.31 of K and H and some
+                corrections in the vulgate</change>
+            <change when="2021-08-13" who="Deepro Chakraborty">Added 1.32 of K and H and some
+                corrections in the vulgate</change>
+
+
+            <change when="2021-08-12" who="Harshal Bhatt">Added transcription of 1.17</change>
+            <change when="2021-08-17" who="Harshal Bhatt">Added transcription of 1.18</change>
+            <change when="2022-05-02" who="Deepro Chakraborty">some corrections in 1.1.12</change>
+            <change when="2022-05-23" who="Deepro Chakraborty">minor corrections in 1.27</change>
+            <change when="2022-05-23" who="Deepro Chakraborty">minor corrections in 1.28</change>
+            <change when="2022-06-14" who="Deepro Chakraborty">minor corrections in 1.29</change>
+            <change when="2022-07-01" who="Deepro Chakraborty">minor corrections in 1.31</change>
+            <change when="2022-07-19" who="Harshal Bhatt">Added transcription of 1.20</change>
+            <change when="2023-06-26" who="Dominik Wujastyk">Separated the file into two parts, 1-31
+                and 32-end, because of processing limits at Saktumiva</change>
+
+        </revisionDesc>
+
+    </teiHeader>
+
+    <text xml:lang="sa-Latn">
+        <body>
+            <div n="1" type="sthāna">
+
+      
+
+                <div n="32" type="adhyāya">
+                    <milestone n="29v2" unit="folio"/>
+                    <!-- 029V IMG_0119.JPG-->
+
+                    <l xml:id="SS.1.32.1"> athātaḥ svabhāvavipratipattiṃ <abbr>vyā</abbr>
+                        <expan>vyā<ex>khyāsyāmaḥ</ex></expan> || </l>
+
+                    <l xml:id="SS.1.32.2"/>
+
+                    <l xml:id="SS.1.32.3-4"> svabhāvaprasiddhānāṃ śarīraikadeśānā<del rend="erasing"
+                            >ṃ</del>m anyathātvaṃ mara<cb n="2"/>ṇāya tad yathā śuklānāṃ kṛṣṇatvaṃ
+                        kṛṣṇānāṃ śuklatvaṃ | sthirāṇām mṛ<add place="bottom margin" rend="kākapada"
+                            >du</add>tvaṃ calānām acalatvaṃ <unclear confidence="0.3"
+                            reason="damage">a</unclear>calā<lb n="3"/>nāṃ calatvaṃ | pṛthūnāṃ
+                            saṃ<add place="bottom margin" rend="kākapada">kṣi</add>ptatvaṃ
+                        saṃkṣiptānāṃ pṛthutvaṃ | dīrghāṇāṃ hrasvaṃ hrasvānān dīrghatā | apata<cb
+                            n="1"/>nadharmiṇāṃ patanam akasmāc
+                        chaityoṣṇasneharaukṣyaprastambhavaivarṇṇyāni apasarpaṇam aṅgānāṃ svebhyaḥ
+                            <add place="bottom margin" rend="kākapada">sthānebhyaḥ</add>
+                        śarīraikadeśānāṃ mavasraṃso<cb n="2"
+                        />tkṣiptabhrāntapatitavimuktanirgamātigamagurulaghutvāni
+                        pravālavarṇṇavyaṅgaprādurbhāvo vā<lb n="4"/>kasmāt sirāṇāṃ ca darśanaṃ
+                        lalāṭe nāsāvaṃśe vā pi<add place="bottom margin">ṭakotpattiḥ</add>
+                        udakotpattir netrarogaṃ vināsrupravṛttir la<cb n="1"/>lāṭe vā prabhātakāle
+                        svedapravṛttiḥ | gomayacūrṇṇaprakāsasya rajaso darśanam uttamāṅge līyanam vā
+                            kapotakaṅkagṛdhraprabhṛ<cb n="2"/>tīnāṃ mūtra<cb/>purīṣapravṛddhir
+                        abhuñjanānāṃ stanamūlahṛdayoraḥsu ca śūlotpattayaḥ | madhye <lb n="5"
+                        />śūnatvam anteṣu parimlāyitvaṃ | viparyayo vā naṣṭahīnavikalavihṛtasvaraṃ
+                        vā <add place="bottom margin" rend="small circle">vivarṇṇapuṣpaprādurbhāvo
+                            vā</add> dantanakhaśarīreṣu <cb n="1"/><add place="in column break"
+                            >puṣpadarśana</add>
+                        <cb n="1"/>yasya cāpsu kaphaśakṛdretāṃsi nimajjaṃti yasya ca <del
+                            rend="crossed out">na</del> dṛṣṭimaṇḍale bhinnavikṛtāni rūpāṇy ālocyante
+                        snehābhyaktakeśāṃga iva yo <cb n="2"/>bhāti yaś ca durbalo
+                        bhaktadveṣātisārābhyām pīḍyate | kāsamānaś ca tṛṣṇātibhūtaḥ kṣīṇaś
+                            charddi<lb n="6"/>bhaktadveṣayuktaḥ saphenarudhirodvāmī hatasvaraḥ
+                        śūlābhihataś ca manuṣyaśūnakaracaraṇo nnadveṣī <cb n="1"
+                        />srastapiṇḍakāṃsapāṇipādaḥ | yaś ca pūrvāhṇe bhuktam aparāhṇe ścharddayaty
+                        avidagdhaṃ sāryate vā jvarakāsābhibhūtaḥ sa śvāsān mriya<cb n="2"/>te |
+                        vastavad vilapamāno bhūmau patati srastamuṣkaḥ stabdhaśepo bhagnagrīvaḥ
+                        praṇaṣṭamehaś ca <lb n="7"/>manuṣyaḥ prāgviśuṣyamāṇa<add place="bottom
+                            margin" rend="kākapada">hṛdaya</add> ārdraśarīraḥ | yaś ca loṣṭaṃ
+                        loṣṭenābhihanti | kāṣṭham vā kāṣṭhena tṛṇā<cb n="1"/>ni vā cchinatti |
+                        adharoṣṭhaṃ vā daśati uttaroṣṭhaṃ vā leḍhi | āluñcati karṇṇau keśāṃś ca |
+                        devadvijagurusuhṛdvaidyāṃ vā vidveṣṭi <cb n="2"/>yasya ca vakrānuvakragā
+                        grahā garhitasthānagatāḥ | janmaṛkṣam vāsyolkāśanibhyām abhihanyate
+                            <milestone n="29v7" unit="folio"/><!-- folio missing --></l>
+
+                    <l xml:id="SS.1.32.5"/>
+                    <!-- folios 30 to 67 are missing :( -->
+
+                    <l xml:id="SS.1.32.5ab"/>
+
+                    <l xml:id="SS.1.32.5cd"/>
+
+                    <l xml:id="SS.1.32.6ab"/>
+
+                    <l xml:id="SS.1.32.6cd"/>
+
+                    <l xml:id="SS.1.32.7ab"/>
+
+                    <l xml:id="SS.1.32.7cd"/>
+
+
+                </div>
+                <!-- end of chapter 32 of Sūtrasthāna-->
+
+
+            </div>
+            <!-- end of sthana -->
+
+        </body>
+    </text>
+
+    <facsimile>
+
+        <graphic n="1v" url="https://www.dropbox.com/s/9wz8gbyeg3ox6t8/001v%20IMG_0126.JPG?dl=0"/>
+
+        <graphic n="2r" url="https://www.dropbox.com/s/spy14rcvdgxn8s2/002r%20IMG_0111.JPG?dl=0"/>
+        <graphic n="15v" url="https://www.dropbox.com/s/o5n0zhce4oyc06m/015v%20IMG_0065.JPG?dl=0"/>
+        <!-- missing folia -->
+        <graphic n="17r" url="https://www.dropbox.com/s/zqngdiuem88xg2x/017r%20IMG_0065.JPG?dl=0"/>
+        <graphic n="17v" url="https://www.dropbox.com/s/a7ondch5xqyco40/017v%20IMG_0066.JPG?dl=0"/>
+        <!-- missing folia -->
+        <graphic n="21r" url="https://www.dropbox.com/s/rpj0jjzxwtdflhi/021r%20IMG_0112.JPG?dl=0"/>
+        <graphic n="21v" url="https://www.dropbox.com/s/8ke3zpj0sffe3j1/021v%20IMG_0113.JPG?dl=0"/>
+
+    </facsimile>
+
+</TEI>
