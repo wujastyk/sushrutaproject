@@ -112,6 +112,9 @@
         <revisionDesc>
             <change when="2020-11-04" who="Dominik Wujastyk">Began this file.</change>
             <change when="2023-11-04" who="Dominik Wujastyk"> added 1.41, based on MS N</change>
+            <change when="2023-06-26" who="Dominik Wujastyk">Separated the file into two parts, 1-31
+                and 32-end, because of processing limits at Saktumiva</change>
+
         </revisionDesc>
 
     </teiHeader>
@@ -122,7 +125,7 @@
 
             <div n="1" type="sthāna">
 
-                <head>[Sūtrasthāna]</head>
+                <head xml:lang="en">[Sūtrasthāna 1-31]</head>
 
                 <div n="1" type="adhyāya">
 
@@ -670,6 +673,7 @@
 
 
 
+
                 </div>
 
                 <div n="13" type="adhyāya">
@@ -854,7 +858,7 @@
 
 
                     <l xml:id="SS.1.13.23"><label>1931 ed. 1.13.23</label> śoṇitasya ca yogāyogam
-                        avekṣya jalaukāmukhaṃ madhunāvaghaṭṭayet | badhnīta vā 
+                        avekṣya jalaukāmukhaṃ madhunāvaghaṭṭayet | badhnīta vā
                         kaṣāyamadhurasnigdhaśītaiś ca pradehaiḥ pradihyād iti || </l>
 
                     <l xml:id="SS.1.13.23x"><label>1931 ed. 1.13.23x</label> bhavati cātra ||
@@ -1070,6 +1074,7 @@
                     <l xml:id="SS.1.14.45ab-cd"><label>1931 ed. 1.14.45ab-cd</label>srutaraktasya
                         sekādyaiḥ śītaiḥ prakupitenile śophaṃ satodaṃ koṣṇena sarpiṣā pariṣecayed
                         iti || 14 ||</l>
+
 
 
 
@@ -1544,144 +1549,6 @@
 
 
 
-
-
-                </div>
-
-
-                <div n="39" type="adhyāya">
-                    <head>[Adhyāya 39]</head>
-
-
-
-                    <l xml:id="SS.1.39.12">cale doṣe mṛdau koṣṭhe nekṣan tatra balan nṛṇāṃ |
-                        <caesura/>
-                         avyāpaddurbbalasyāpi<anchor n="SS.1.39.12-n1"/> śodhanaṃ hi tadā bhavet</l>
-
-                    <ab corresp="#SS.1.39.12" type="apparatus">
-                        <list type="notes">
-                            <item corresp="#SS.1.39.12-n1">Ḍalhaṇa noted the alternative reading
-                                    <foreign>avyāpaddurbalasyāpi</foreign> that appears in our
-                                witnesses.</item>
-                        </list>
-                    </ab>
-
-                </div>
-
-                <div n="41" type="adhyāya">
-                    <head>[Adhyāya 41]</head>
-                    <p xml:lang="en">[First draft based on MS N]</p>
-
-                    <l xml:id="SS.1.41.1"><label>1931 ed. 1.41.1</label> athāto
-                        dravyaviśeṣavijñānīyam vyākhyāsyāmaḥ || </l>
-
-                    <l xml:id="SS.1.41.2"/>
-
-                    <l xml:id="SS.1.41.3"><label>1931 ed. 1.41.3</label> tatra
-                        pṛthivyaptejovāyvākāśānāṃ samudāyād dravyābhinirvṛttir bbhavati | idaṃ
-                        pārthivam idam apyam idan tejasam idam vāyavyam idam ākāśyam iti || </l>
-
-                    <l xml:id="SS.1.41.4.1"><label>1931 ed. 1.41.4.1</label> tatra
-                        sthūlasāndramandasthiragurukaṭhinagaṃdhaguṇabahulam īṣatkaṣāyaprāyaso
-                        madhuram iti pārthivan tat sthairyagauravasaṃghātopacayakaraṃ viśeṣataś
-                        cādhogatisvabhāvam iti || </l>
-
-                    <l xml:id="SS.1.41.4.2"><label>1931 ed. 1.41.4.2</label>
-                        śītastimitamandagururasasāndramṛdupicchilarasaguṇarasaguṇabahulam īṣadamlaṃ
-                        prāyaso madhuram āpyan tat snehanahlādanaviṣyandanakaram iti | </l>
-
-                    <l xml:id="SS.1.41.4.3"><label>1931 ed. 1.41.4.3</label>
-                        tīkṣṇoṣṇarūkṣasūkṣmalaghuviṣadaṃ rūpaguṇabahulam īṣadamlaprāyam viśeṣataś
-                        corddhvagatisvabhāvam iti taijasaṃ ||
-                        taddahanapacanatāpanaprakāśanaprabhāvarṇṇakaram iti | </l>
-
-                    <l xml:id="SS.1.41.4.4"><label>1931 ed. 1.41.4.4</label>
-                        sūkṣmarūkṣakharaśiśiralaghuviṣadaṃ sparśaguṇabahulam īṣattiktam viśeṣataḥ
-                        kaṣāyam iti vāyavyaṃ tadvaiṣadyaṃ lāghavaglapanavirūkṣaṇakaram iti || </l>
-
-                    <l xml:id="SS.1.41.4.5"><label>1931 ed. 1.41.4.5</label>
-                        ślakṣṇasūkṣmavyavāyiviṣadaviviktarasaṃ śabdaguṇabahulam ākāśyan tasmāt tat
-                        mārddavasauṣiryalāghavakaram iti || </l>
-
-                    <l xml:id="SS.1.41.5"><label>1931 ed. 1.41.5</label> anena nidarśanena
-                        nānauṣadhabhūtañ jagati kiñcid dravyam astīti kṛtvā tan taṃ
-                        yuktiviśeṣamarthañ cābhipratītya svavīryaguṇayuktāni dravyāṇi
-                            kārmmukāni<anchor n="SS.1.41.5-n1"/> bhavanti || tāni yadā kurvvanti sa
-                        kālaḥ | yat kurvanti tat karmma | yena kurvvanti tad vīryaṃ | yatra
-                        kurvvanti tad adhikaraṇaṃ | yathā kurvvanti sa upāyaḥ | yad abhiniṣpādayanti
-                        tat phalam iti | </l>
-
-                    <ab corresp="#SS.1.41.5" type="apparatus">
-                        <list type="notes">
-                            <item corresp="#SS.1.41.5-n1">The word "<foreign>kārmuka</foreign>" for
-                                "effective" is very rare, apparently only known from this instance
-                                and one in the Carakasaṃhitā 1.26.13. The word is formed by
-                                P.5.1.103 and the grammatical Kāśikāvṛtti says that it is confined
-                                to describing a "capable" bow since no other usage of the word is
-                                known.</item>
-                        </list>
-                    </ab>
-
-                    <l xml:id="SS.1.41.6"><label>1931 ed. 1.41.6</label> tad atra virecanadravyāṇy
-                        ambupṛthivīguṇabhūyiṣṭhāni | pṛthivyāpo hi gurvvyaḥ | gurutvād adho
-                        gacchanti | tasmād virecanadravyāṇy ambupṛthivīguṇabhūyiṣṭhāni |
-                        vamanadravyāṇy agnivāyuguṇabhūyiṣṭhāni | agnivāyū hi laghū laghutvāc
-                        corddhvam uttiṣṭhataḥ | tasmād vamanaprāmāṇyād agnivāyubhūyiṣṭhāny
-                        ubhayaguṇabhūyiṣṭhan dravyam ubhayato bhāgaharaṃ | ākāśaguṇabhūyiṣṭhaṃ
-                        saṃśamanaṃ | sāṃgrāhikam anilaguṇabhūyiṣṭhaṃ | dīpanam agniguṇabhūyiṣṭhaṃ |
-                        lekhanam anilānalaguṇabhūyiṣṭhaṃ | bṛṃhanam pṛthivyambuguṇabhūyiṣṭhaṃ | evam
-                        auṣadhakarmmāṇy anumānāt sādhayet || </l>
-
-                    <l xml:id="SS.1.41.7"><label>1931 ed. 1.41.7</label> bhavanti ślokāḥ || </l>
-
-                    <l xml:id="SS.1.41.7i"><label>1931 ed. 1.41.7i</label> mahyambvagnyātmakair
-                        ddravyais tribhiḥ sāmyati mārutaḥ |
-                        <caesura/>
-                         khabhūmyambuvāyujaiḥ pittañ caturbbhiḥ saṃpraśāmyati || </l>
-
-                    <l xml:id="SS.1.41.8"><label>1931 ed. 1.41.8</label> kaphaḥ khatejo'nilajais
-                        tribhiḥ śāmyati dehināṃ |
-                        <caesura/>
-                         khavāyuktābhyān dravyābhyāṃ vṛddhim abhyeti mārutaḥ || </l>
-
-                    <l xml:id="SS.1.41.9"><label>1931 ed. 1.41.9</label> āgneyam eva yad dravyan
-                        tena pittam udīryate |
-                        <caesura/>
-                         mahyambujābhyān dravyābhyāṅ kaphaś cābhivivarddhate || </l>
-
-                    <l xml:id="SS.1.41.10"><label>1931 ed. 1.41.10</label> evam eva guṇādhikyaṃ
-                        dravye dravye vyavasthitaṃ |
-                        <caesura/>
-                         dviśo vā bahuśo vāpi jñātvā doṣe 'vacācaret || </l>
-
-                    <l xml:id="SS.1.41.11"><label>1931 ed. 1.41.11</label> tatra ya ime
-                        guṇāṣṭauvīryasaṃjñakāḥ | śītoṣṇasnigdharūkṣamṛdutīkṣṇapicchilaviṣadās teṣān
-                        tīkṣṇoṣṇāv āgneyau | śītapicchilāv ambuguṇabhūyiṣṭhau |
-                        pṛthivīsomaguṇabhūyiṣṭhaḥ | snehas toyākāśaguṇabhūyiṣṭhaṃ | mṛdutvaṃ |
-                        vāyuguṇabhūyiṣṭhaṃ raukṣyaṃ | kṣitisamīraṇabhūyiṣṭhaṃ vaiṣadyaṃ | vipākāv
-                        uktaguṇau | karmmāṇy uṣṇasya dahanapācanamūrcchanasvedanavamanavirecanāni ||
-                        śītasya prahlādanaviṣkambhanasthirīkaraṇaprasādanakledanajīvanāni |
-                        snigdhasya snehanabṛṃhaṇasantarppaṇavyājīkaraṇavayaḥsthāpanāni ||
-                        rūkṣasyānilavṛddhisaṃgrahaṇapīḍanavirūkṣaśoṣarohaṇāni || viṣadasya
-                        kledāvūṣaṇavirūkṣaśoṣarohaṇāni ||
-                        picchilasyopalepanapūraṇabṛṃhaṇasaṃśleṣaṇavyājīkaraṇāni || mṛdo raktamān
-                        saprasādanamukhyasaṃsparśanāni || tīkṣṇasya saṅgrahācūṣaṇāvadāraṇaśrāvaṇāni
-                        | tatroṣṇasnigdhau vātaghnau | śītamṛdupicchilāḥ pittaghnāḥ |
-                        tīkṣṇarūkṣaviṣadāḥ śleṣmaghnāḥ | gurupāko vātapittaghnaḥ | laghupākaḥ
-                        śleṣmapittaghna iti | teṣu mṛduśītoṣṇāḥ sparśagrāhyāḥ | picchilaviṣadau
-                        cakṣuḥsparśābhyāṃ | snigdharūkṣau cakṣuṣā | tīkṣṇaḥ sukhaduḥkhotpādanāt |
-                        gurupākaḥ sṛṣṭaviṇmūtratayā kaphāṃ kleśanañ ca | laghur bbaddhaviṇmūtratayā
-                        mārutakopanañ ca | tatra tulyaguṇeṣu bhūteṣu rasavaiśeṣyam upalakṣayet ||
-                        yathā madhuro guruś ca pārthivaḥ | madhurasnigdhaśītāś cāpyā iti || </l>
-
-                    <l xml:id="SS.1.41.12"><label>1931 ed. 1.41.12</label> || bhavati cātra || </l>
-
-                    <l xml:id="SS.1.41.12i"><label>1931 ed. 1.41.12i</label> guṇā ye uktā dravyeṣu
-                        śarīreṣv api tān viduḥ |
-                        <caesura/>
-                         sthānavṛddhikṣayāt tasmād dehināṃ dravyahetukā iti || </l>
-
-                    <p ana="trailer"> || 41 || </p>
                 </div>
 
             </div>
