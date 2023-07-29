@@ -11,10 +11,10 @@
 %index/glossaries package
 %
 %todonotes' "draft"
-\usepackage{xelatex-generic-biblatex-indexing,
+%
+\usepackage{%
+    xelatex-generic-biblatex-indexing,
     booktabs, % better-looking tables
-    %    CC-license-footer,
-    %   coffeestains, % kidding about
 }
 
 \usepackage{fancyhdr}
@@ -24,13 +24,11 @@
 \renewcommand{\chaptermark}[1]{\markboth{#1}{}}
 \renewcommand{\sectionmark}[1]{\markright{#1}}
 %
-\fancyhead[RE]{\nouppercase{\leftmark}}
 \fancyhead[LE]{\thepage}
-\fancyhead[LO]{\nouppercase{\rightmark}}
+\fancyhead[RE]{\nouppercase{\emph{\leftmark}}}
+\fancyhead[LO]{\nouppercase{\emph{\rightmark}}}
 \fancyhead[RO]{\thepage}
-
-
-
+%
 \setcounter{secnumdepth}{-2}
 
 %\definecolor{darkbrown}{rgb}{0.4, 0.26, 0.13} % from http://latexcolor.com/
@@ -45,16 +43,16 @@
 \brokenpenalty 2000 % default 100
 
 \renewfontfamily\devanagarifont
-[Script=Devanagari,
-FakeStretch=1.05,
-Mapping=RomDev, %prefer slightly to iast
-]
+    [Script=Devanagari,
+    FakeStretch=1.05,
+    Mapping=RomDev, %prefer slightly to iast
+    ]
 %{Murty Sanskrit}
 %{Sahadeva}
-{Sanskrit  2003}
+    {Sanskrit  2003}
 
 \newfontfamily\tamilfont
-{Maduram}
+    {Maduram}
 %{Noto Serif Tamil}
 \setotherlanguage{tamil}
 
@@ -75,10 +73,7 @@ Mapping=RomDev, %prefer slightly to iast
     {\href{https://n2t.net/#1}{\nolinkurl{#1}}}
     {\nolinkurl{#1}}}
 
-
-
-
-
+%
 \setlist[enumerate]{noitemsep} % enumitem global setting for \items
 \setlist[itemize]{noitemsep} 
 
@@ -96,7 +91,6 @@ Mapping=RomDev, %prefer slightly to iast
     label=\textbullet,
     noitemsep,
     left=0pt .. \parindent}
-
 
 \newcommand{\Su}[2]{#1
     \parencite[#2]{vulgate}}
@@ -150,8 +144,6 @@ Mapping=RomDev, %prefer slightly to iast
 \newcommand{\AS}{\emph{Aṣṭāṅga\-saṅ\-graha}}
 \newcommand{\AHS}{\emph{Aṣṭāṅga\-hṛdaya\-saṃ\-hitā}}
 
-
-
 \let\se\saneng  % just make typing a bit quicker
 \let\sed\sanengdev % puts the Skt. in the text into Devanagari.
 
@@ -165,9 +157,6 @@ Mapping=RomDev, %prefer slightly to iast
 %%
 %\def\q#1{{}\todo{#1}{}}
 %%Put a \verb|\newpage| \verb|\listoftodos| just before \verb|\end{document}|
-
-% \q{} is now defined in xelatex-generic.sty
-
 
 % calling manyfoot to use in the definition of \plant .
 \usepackage[ruled]{manyfoot}

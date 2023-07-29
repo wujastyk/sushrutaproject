@@ -3,8 +3,7 @@
 
 \nocite{*} % include everything from the bib file in the bibliography
 
-\printbiblist
-    [heading=biblistintoc,
+\printbiblist[heading=biblistintoc,
     title=Editions and Abbreviations,
     notkeyword=botanical]
     {shorthand} % the Abbreviations (shorthands)
@@ -14,8 +13,7 @@
 
 \printindex[manuscripts]
 
-\printbibliography
-    [notkeyword=edition,
+\printbibliography[notkeyword=edition,
     notkeyword=shorthand,
     notkeyword=botanical,
     heading=bibintoc]
@@ -31,12 +29,11 @@
 title=Materia Medica Reference Works,
 keyword=botanical]
 
-\renewcommand{\glossaryname}
-    {Materia Medica}
+\renewcommand{\glossaryname}{Materia Medica}
 \printunsrtglossaries % plant names.  iterate over all defined entries 
-% the setup for the glossaries package is in xelatex-indexing etc.
-%
- \par} % end \footnotesize
+%% the setup for the glossaries package is in xelatex-indexing etc.
+%%
+\par} % end \footnotesize
 
 \thispagestyle{empty}
 
