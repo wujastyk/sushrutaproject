@@ -1,15 +1,13 @@
 \RequirePackage{snapshot}
 % !TeX encoding = UTF-8
 % !TeX spellcheck = en_GB
-\documentclass[12pt,draft]{article} %taking out draft switches off marginal notes
+\documentclass[12pt,draft]{book} %taking out draft switches off marginal notes
 
 \usepackage{incremental_SS_Translation} % all customizations in this file
 \usepackage{qtree}
 \addbibresource{incremental_SS_Translation.bib}
 
-%\setmainfont[Script=Devanagari]{Tiro Devanagari Sanskrit} % just for testing
-
-\title{A Translation of the New Edition of the \SS}
+\title{A Translation of the Nepalese Text of the \SS}
 \author{Jason Birch 
     \and Dominik Wujastyk 
     \and Andrey Klebanov
@@ -20,22 +18,28 @@
 
 \includeonly{%
 %    01 manuscripts and editions,
-%    02 features of the transmission,
-%    translation 1-01, 
-%    translation 1-02, % nothing there yet
-%    translation 1-13, % leeches (Lisa Brooks et al.)
-%    translation 1-14, % Blood (Paras Mehta)
-%    translation 1-16, % ear, nose surgery
-%    translation 1-28, % nothing there yet
-%    translation 1-01,
+%   02 features of the transmission,
+    introduction,
+    translation 1-01, 
+    translation 1-02, % nothing there yet
+    translation 1-13, % leeches (Lisa Brooks et al.)
+    translation 1-14, % Blood (Paras Mehta)
+    translation 1-16, % ear, nose surgery
+    translation 1-28, % nothing there yet
+    translation 1-01,
     translation 2-01, % wind diseases
+    translation 3-02, % śukraśonita
+    translation 4-04, % vāta
+    translation 4-05, % vāta
+    translation 4-15, % mūḍhagarbha
     translation 5-01, % veg poisons
     translation 5-02, % veg poisons
     translation 5-03,  % poisons
     translation 5-04, % snakebite
     translation 6-17,
     translation 6-38,
-    translation 6-65,
+    translation 6-39, % jvara
+    translation 6-65, % tantrayukti
     bibliography and indexes,
 %%    appendix,
 %
@@ -53,26 +57,64 @@
 \pagecolor{white}
 %        \include{00 abstract} % also turns off pagecolor
         \tableofcontents
-        \include{01 manuscripts and editions}
-        \include{02 features of the transmission}
+   %     \include{01 manuscripts and editions}
+    %    \include{02 features of the transmission}
+        
+        \include{introduction}
+        
+        \part{Sūtrasthāna}
         \include{translation 1-01}
+            \thispagestyle{empty}
         \include{translation 1-02}
+            \thispagestyle{empty}
         \include{translation 1-13} % leeches
+            \thispagestyle{empty}
         \include{translation 1-14} % blood
+            \thispagestyle{empty}
        \include{translation 1-16}
+            \thispagestyle{empty}
         \include{translation 1-28}
+            \thispagestyle{empty}
         %
+        \part{Nidānasthāna}
         \include{translation 2-01}
-        \include{translation 5-01}
-        \include{translation 5-02}
-        \include{translation 5-03}
-        \include{translation 5-04}
+            \thispagestyle{empty}
         %
+        \part{Śārīrasthāna}
+        \include{translation 3-02}
+            \thispagestyle{empty}
+        %
+        \part{Cikitsāsthāna}
+        \include{translation 4-04}
+            \thispagestyle{empty}
+        \include{translation 4-05}
+            \thispagestyle{empty}
+        \include{translation 4-15}
+            \thispagestyle{empty}
+        %
+        \part{Kalpasthāna}
+        \include{translation 5-01}
+            \thispagestyle{empty}
+        \include{translation 5-02}
+            \thispagestyle{empty}
+        \include{translation 5-03}
+            \thispagestyle{empty}
+        \include{translation 5-04}
+            \thispagestyle{empty}
+        %
+        \part{Uttaratantra}
         \include{translation 6-17}
+            \thispagestyle{empty}
         \include{translation 6-38}
+            \thispagestyle{empty}
+        \include{translation 6-39}
+            \thispagestyle{empty}
         \include{translation 6-65} % tantrayukti
+            \thispagestyle{empty}
+        
         \include{bibliography and indexes}
-        \include{appendix}
+            \thispagestyle{empty}
+%        \include{appendix}
         
 
         \listoftodos  % only prints when in draft mode

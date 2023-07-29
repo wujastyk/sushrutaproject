@@ -3,39 +3,40 @@
 
 \nocite{*} % include everything from the bib file in the bibliography
 
-\printbiblist[heading=biblistintoc,
+\printbiblist
+    [heading=biblistintoc,
     title=Editions and Abbreviations,
-    notkeyword=botanical]{shorthand} % the Abbreviations (shorthands)
+    notkeyword=botanical]
+    {shorthand} % the Abbreviations (shorthands)
 
 \indexprologue{\emph{\footnotesize Numbers after the final 
         colon refer to pages in this book.}} 
 
-
-
 \printindex[manuscripts]
 
-
-\printindex[lexical]
-
-
 \printbibliography
-[notkeyword=edition,
-notkeyword=shorthand,
-notkeyword=botanical,
-heading=bibintoc]
+    [notkeyword=edition,
+    notkeyword=shorthand,
+    notkeyword=botanical,
+    heading=bibintoc]
 
 \newpage
 
 {\footnotesize
     
-    \printindex[lexical]
+% Skt-Eng and Eng-Skt of \se{}{} words
+%\printindex[lexical]  
    
 \printshorthands[heading=biblistintoc,
 title=Materia Medica Reference Works,
 keyword=botanical]
 
-\renewcommand{\glossaryname}{Glossary and Index of Medical Substances}
+\renewcommand{\glossaryname}
+    {Materia Medica}
 \printunsrtglossaries % plant names.  iterate over all defined entries 
 % the setup for the glossaries package is in xelatex-indexing etc.
 %
- \par}
+ \par} % end \footnotesize
+
+\thispagestyle{empty}
+
