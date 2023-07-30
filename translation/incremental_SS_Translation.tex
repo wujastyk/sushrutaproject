@@ -20,27 +20,27 @@
 \date{\texttt{Draft of \today}\\ \copyright\ The Authors}
 %
 \includeonly{%
-    introduction,
-    translation 1-01, 
-    translation 1-02, % nothing there yet
-    translation 1-13, % leeches (Lisa Brooks)
-    translation 1-14, % Blood (Paras Mehta)
-    translation 1-16, % ear, nose surgery
-    translation 1-28, % nothing there yet
-    translation 2-01, % wind diseases
-    translation 3-02, % śukraśonita
-    translation 4-04, % vāta
-    translation 4-05, % vāta
-    translation 4-15, % mūḍhagarbha
-    translation 5-01, % veg poisons
-    translation 5-02, % veg poisons
-    translation 5-03,  % poisons
-    translation 5-04, % snakebite
-    translation 6-17,
-    translation 6-38,
-    translation 6-39, % jvara
-    translation 6-65, % tantrayukti
-    bibliography and indexes,
+    chapters/introduction,
+    chapters/translation 1-01, 
+    chapters/translation 1-02, % nothing there yet
+    chapters/translation 1-13, % leeches (Lisa Brooks)
+    chapters/translation 1-14, % Blood (Paras Mehta)
+    chapters/translation 1-16, % ear, nose surgery
+    chapters/translation 1-28, % nothing there yet
+    chapters/translation 2-01, % wind diseases
+    chapters/translation 3-02, % śukraśonita
+    chapters/translation 4-04, % vāta
+    chapters/translation 4-05, % vāta
+    chapters/translation 4-15, % mūḍhagarbha
+    chapters/translation 5-01, % veg poisons
+    chapters/translation 5-02, % veg poisons
+    chapters/translation 5-03,  % poisons
+    chapters/translation 5-04, % snakebite
+    chapters/translation 6-17,
+    chapters/translation 6-38,
+    chapters/translation 6-39, % jvara
+    chapters/translation 6-65, % tantrayukti
+    chapters/bibliography and indexes,
 }
 %
 \usepackage{xcolor} % why here?  Move it to the sty file?
@@ -52,70 +52,67 @@
     \thispagestyle{empty}
           \maketitle
 
-\newpage
-\pagecolor{white}
-%        \include{00 abstract} % also turns off pagecolor
+        \newpage
+        \pagecolor{white}
         \tableofcontents
-   %     \include{01 manuscripts and editions}
-    %    \include{02 features of the transmission}
         
-        \include{introduction}
+        \include{chapters/introduction}
             \thispagestyle{empty}
         
         \part{Sūtrasthāna} 
                         
-        \include{translation 1-01}
+        \include{chapters/translation 1-01}
             \thispagestyle{empty}
-        \include{translation 1-02}
+        \include{chapters/translation 1-02}
             \thispagestyle{empty}
-        \include{translation 1-13} % leeches
+        \include{chapters/translation 1-13} % leeches
             \thispagestyle{empty}
-        \include{translation 1-14} % blood
+        \include{chapters/translation 1-14} % blood
             \thispagestyle{empty}
-       \include{translation 1-16}
+       \include{chapters/translation 1-16}
             \thispagestyle{empty}
-        \include{translation 1-28}
+        \include{chapters/translation 1-28}
             \thispagestyle{empty}
         %
         \part{Nidānasthāna}
-        \include{translation 2-01}
+        \include{chapters/translation 2-01}
             \thispagestyle{empty}
         %
         \part{Śārīrasthāna}
-        \include{translation 3-02}
+        \include{chapters/translation 3-02}
             \thispagestyle{empty}
         %
         \part{Cikitsāsthāna}
-        \include{translation 4-04}
+        \include{chapters/translation 4-04}
             \thispagestyle{empty}
-        \include{translation 4-05}
+        \include{chapters/translation 4-05}
             \thispagestyle{empty}
-        \include{translation 4-15}
+        \include{chapters/translation 4-15}
             \thispagestyle{empty}
         %
         \part{Kalpasthāna}
-        \include{translation 5-01}
+        \include{chapters/translation 5-01}
             \thispagestyle{empty}
-        \include{translation 5-02}
+        \include{chapters/translation 5-02}
             \thispagestyle{empty}
-        \include{translation 5-03}
+        \include{chapters/translation 5-03}
             \thispagestyle{empty}
-        \include{translation 5-04}
+        \include{chapters/translation 5-04}
             \thispagestyle{empty}
         %
         \part{Uttaratantra}
-        \include{translation 6-17}
+        \include{chapters/translation 6-17}
             \thispagestyle{empty}
-        \include{translation 6-38}
+        \include{chapters/translation 6-38}
             \thispagestyle{empty}
-        \include{translation 6-39}
+        \include{chapters/translation 6-39}
             \thispagestyle{empty}
-        \include{translation 6-65} % tantrayukti
+        \include{chapters/translation 6-65} % tantrayukti
             \thispagestyle{empty}
         
-        \include{bibliography and indexes}
+        \include{chapters/bibliography and indexes}
             \thispagestyle{empty}
-%        \include{appendix}
+%        \include{chapters/appendix}
         
 
         \listoftodos  % only prints when in draft mode
