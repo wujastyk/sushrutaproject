@@ -1,6 +1,6 @@
 % \section{LaTeX style file for the Incremental Translation of SS}
 %
-%    \begin{macro}{hyperref}
+%    \begin{environment}{hyperref}
 %Here we load hyperref and set the colours
 %we want for hyperlinking.
 %
@@ -18,10 +18,10 @@
   %  pagecolor = indigo(dye),
     ]{hyperref}  
 %    \end{macrocode}
-%    \end{macro}
+%    \end{environment}
 %
 %\section{Load other macro packages}
-%  \begin{macro}{packages}
+%  \begin{environment}{packages}
 %Load my standard Xe\LaTeX\ macros.  They are 
 %maintained and published here:
 %\url{https://github.com/wujastyk/xelatex}
@@ -33,9 +33,9 @@
     booktabs, % better-looking tables
 }
 %    \end{macrocode}
-%  \end{macro}
+%  \end{environment}
 %
-% \begin{macro}{definecolor}
+% \begin{macro}{\definecolor}
 % And define our desired colours for hyperref above, 
 % with the help of \url{http://latexcolor.com/}.  
 %
@@ -49,7 +49,7 @@
 %  \end{macro}
 %
 % \section{Running headers and page numbering}
-%  \begin{macro}{fancyhdr}
+%  \begin{environment}{fancyhdr}
 % Use the fancyhdr package to set up the running headers.
 %    \begin{macrocode}
 \usepackage{fancyhdr}
@@ -64,16 +64,16 @@
 \fancyhead[LO]{\nouppercase{\emph{\rightmark}}}
 \fancyhead[RO]{\thepage}
 %    \end{macrocode}
-%  \end{macro}
+%  \end{environment}
 %
-%    \begin{macro}{secnumdepth}
+%    \begin{macro}{\secounter}
 %  We don't want huge CHAPTER 1 headings
 %    \begin{macrocode}
 \setcounter{secnumdepth}{-2}
 %    \end{macrocode}
 %    \end{macro}
 %
-%  \begin{macro}{plain, empty}
+%  \begin{environment}{plain, empty}
 % We don't want page numbers on a \verb|\part| page.  Redefine pagestyle
 %plain as empty. This code is taken from 
 %\href{https://tex.stackexchange.com/questions/359079/how-do-you-get-rid-of-page-numbers-on-part-pages}
@@ -81,18 +81,18 @@
 %    \begin{macrocode}
 \let\ps@plain\ps@empty
 %    \end{macrocode}
-%  \end{macro}
+%  \end{environment}
 %
 %
 % \section{Some more packages}
-%  \begin{macro}{pdfpages, wasysym}
+%  \begin{environment}{pdfpages, wasysym}
 % pdfpages helps us to include pdfs in our document; wasysym loads 
 % a wide range of special symbols that can be useful. 
 %    \begin{macrocode}
 \usepackage[final]{pdfpages}
 \usepackage[nointegrals]{wasysym}%for the blob symbols in the table
 %    \end{macrocode}
-%  \end{macro}
+%  \end{environment}
 % \section{More formatting macros}
 %  \begin{macro}{\hangfootnotes}
 % Nice formatting for footnotes.  Defined in my xelatex-generic style file.
@@ -101,15 +101,15 @@
 %    \end{macrocode}
 %  \end{macro}
 %
-%  \begin{macro}{penalties}
+%  \begin{environment}{penalties}
 % Make nicer pages.
 %    \begin{macrocode}
 \widowpenalty 1500 	% default 150
 \clubpenalty 1000 	  % default 150
 \brokenpenalty 2000 % default 100
 %    \end{macrocode}
-%    \end{macro}
-%    \begin{macro}{draftwatermark}
+%    \end{environment}
+%    \begin{environment}{draftwatermark}
 %  Options for adding a watermark to the whole document; 
 % currently switched off.
 %    \begin{macrocode}
@@ -118,19 +118,19 @@
 % color={[gray]{0.95}},
 % scale=.27]{draftwatermark}
 %    \end{macrocode}
-%    \end{macro}
+%    \end{environment}
 %
-%  \begin{macro}{itemsep}
+%  \begin{environment}{itemsep}
 %  Use the itemsep package to improve the spacing of lists.
 %    \begin{macrocode}
 \setlist[enumerate]{noitemsep} % enumitem global setting for \items
 \setlist[itemize]{noitemsep} 
 %    \end{macrocode}
-%  \end{macro}
+%  \end{environment}
 %
 % \section{Fonts and languages}
 % These are all macros from the Polyglossia package (which uses Fontspec).
-%  \begin{macro}{fontfamily}
+%  \begin{macro}{\fontfamily}
 % Set up a Devanagari font. 
 %    \begin{macrocode}
 \renewfontfamily\devanagarifont
@@ -177,7 +177,7 @@
 %  \end{macro}
 
 % \section{Layout of the translation texts}
-%  \begin{macro}{translation}
+%  \begin{environment}{translation}
 %% Make a new environment for the translation with tweaked spacing.
 %% The old-fashioned LaTeX way, but this is legacy code that we're not
 % actually using:
@@ -198,7 +198,7 @@
     noitemsep,
     left=0pt .. \parindent}
 %    \end{macrocode}
-%  \end{macro}
+%  \end{environment}
 %
 % \newpage
 % \section{Home-made commands for general convenience and consistency}
@@ -367,7 +367,7 @@
 %  \end{macro}
 %
 % \subsection{Some undefined environments}
-%  \begin{macro}{prose, verse, bhavanti phrase}
+%  \begin{environment}{prose, verse, bhavanti phrase}
 % These environments can be used, but they are currently
 % defined to do nothing.  We might want to do something
 % in future.
@@ -376,7 +376,7 @@
 \renewenvironment{verse}{\relax }{\relax }
 \newenvironment{bhavanti}{\relax }{\relax }
 %    \end{macrocode}
-%  \end{macro}
+%  \end{environment}
 %
 %     \newpage
 %    \PrintIndex  
