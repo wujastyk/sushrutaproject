@@ -128,6 +128,24 @@
 %    \end{macrocode}
 %  \end{environment}
 %
+%  \begin{environment}{qtree}
+%  Use the \verb|qtree| package to draw tree-diagrams (see the snakes diagrams 
+%in kalpasthāna 4).
+%    \begin{macrocode}
+\usepackage{qtree} 
+%    \end{macrocode}
+%  \end{environment}
+%
+%  \begin{environment}{quoting}
+%  Use the \verb|quoting| package for more flexible quote environments:
+%    \begin{macrocode}
+\usepackage[vskip=0pt]{quoting} 
+%    \end{macrocode}
+% We can now say \verb|\begin[<options>]{quoting} ... \end{quoting}| and use 
+% the \verb|<options>| for better control.  The default here is set to have no
+% space above or below the quotation. 
+%  \end{environment}
+%
 % \section{Fonts and languages}
 % These are all macros from the Polyglossia package (which uses Fontspec).
 %  \begin{macro}{\fontfamily}
