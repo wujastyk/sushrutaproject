@@ -1,0 +1,36 @@
+%<*driver>
+% incremental translation style documentation driver file
+\documentclass[12pt]{article}
+\usepackage{doc,
+    hyperref, 
+    polyglossia
+}
+\setmainfont{TeX Gyre Pagella}
+\setotherlanguage{sanskrit}
+\newfontfamily\sanskritfont
+  [Script=Devanagari,
+  FakeStretch=1.05,
+  Mapping=RomDev, %prefer slightly to iast
+]{Sanskrit 2003}%{Tiro Devanagari Sanskrit} 
+\newcommand{\dev}[1]{\textsanskrit{\sanskritfont #1}}
+%
+\CodelineIndex
+%\PageIndex
+%\RecordChanges
+%
+\setlength\hfuzz{15pt}
+\hbadness = 7000
+
+\author{Dominik Wujastyk}
+\title{\LaTeX\ style file for the \emph{Suśrutasaṃhitā} Incremental Translation}
+\date{\today }
+
+\begin{document}
+    \sloppypar
+    \maketitle
+    \tableofcontents
+    \newpage
+    \DocInput {incremental_SS_Translation.sty}
+\end{document}
+% say “makeindex -s gind.ist <filename>” to get the index right
+%</driver>
