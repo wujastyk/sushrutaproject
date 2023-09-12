@@ -1,0 +1,112 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+        <fileDesc>
+            <titleStmt>
+                <title>MS Lahore PUL Woolner 7082</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Suśruta project, University of Alberta</p>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName>
+                            <settlement>Lahore</settlement>
+                            <country>Pakistan</country>
+                        </placeName>
+                        <institution>Punjab University Library</institution>
+                        <repository>https://www.pulibrary.edu.pk/</repository>
+                        <idno>7082</idno>
+                        <idno type="siglum">P</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>[description of manuscript]</summary>
+                        <msItem defective="true" n="1">
+                            <!-- @defective: 'false' for complete, 'true' for incomplete -->
+                            <author role="author" xml:lang="sa">Suśruta</author>
+                            <title xml:lang="sa">Suśrutasaṃhitā</title>
+                            <!-- rubric, incipit, explicit, and finalRubric are given as examples -->
+                            <textLang mainLang="sa-Gran">Sanskrit in Grantha script.</textLang>
+                            <!-- @mainLang can be "sa-Deva", "sa-Mlym", "sa-Telu", "sa-Newa", etc. See ISO 15924 for more details. -->
+                        </msItem>
+                    </msContents>
+
+                    <physDesc>
+
+                        <objectDesc form="pothi">
+                            <!-- @form can be "pothi", "book", scroll", etc. -->
+                            <supportDesc material="palm-leaf"
+                                ><!-- @material can be "paper", "industrial paper", "handmade paper", "palm-leaf", "palmyra palm-leaf", "talipot palm-leaf", "birch bark", "vellum", etc. --><!-- the following <foliation> tags are examples --></supportDesc>
+
+                        </objectDesc>
+
+                        <scriptDesc>
+                            <scriptNote/>
+                        </scriptDesc>
+
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate/>
+                            <!-- calendar can be "Vikrama", "Śaka", etc. Dates can be approximate or exact. -->
+                        </origin>
+                    </history>
+
+                </msDesc>
+
+            </sourceDesc>
+        </fileDesc>
+
+        <revisionDesc>
+            <change when="2023-09-11" who="Deepro Chakraborty">began the file</change>
+
+        </revisionDesc>
+
+    </teiHeader>
+
+    <text xml:lang="sa-Latn">
+
+        <body>
+            <div n="3" type="sthāna">
+
+                <div n="1" subtype="adhyāya">
+
+                    <milestone facs="IMG_1456.jpeg" n="1r" unit="folio"/>
+
+                    <l xml:id="SS.3.1.0"><pb facs="IMG_1456.jpeg" n="1"/><lb n="1"/>oṃ namo
+                        dhanvantaraye namaḥ |</l>
+
+                    <l xml:id="SS.3.1.1"><label>1931 ed. 3.1.1</label> athātas sarvabhūtañ
+                        cintāśārīram_ vyākhyāsyāmaḥ |</l>
+
+                    <l xml:id="SS.3.1.2"><label>1931 ed. 3.1.2</label> athovāca bhaga<lb n="2"/>vān
+                            dhanvanta<del unit="char" extent="1"/>ritaḥ | </l>
+
+                    <l xml:id="SS.3.1.3"><label>1931 ed. 3.1.3</label> atha khalv avarma sa suśruta
+                        sarvabhūtānāṃ kāriṇam | akāraṇaṃ | sa<lb n="3"/>tvarajastamolakṣa<cb n="1"
+                        />ṇam | ṣṭarūpam akhilasya jagatas saṃbhavihe<cb n="2"/>tur avyaktan nāma |
+                            ta<lb n="4"/>d ekam anekeṣāṃ | <cb n="1"/>kṣetrajñānām adhiṣṭhānam
+                        samudra ivauda<cb n="2"/>kānām bhāvānām </l>
+
+                    <l xml:id="SS.3.1.4"><label>1931 ed. 3.1.4</label>
+                        <lb n="5"/>tasmād avyaktān mah<cb n="1"/>ān ut_padyate | talliṃga etal
+                        liṃgāc caṃ maha<cb n="2"/>tas tallakṣaṇa evā<lb n="6"/>haṃkāra ut_padyate
+                            <unclear reason="illegible">|</unclear> sa trividhaḥ vaikārikastaijaso
+                        bhūtādir iti | tatra vaikārikā<pb facs="IMG_1457 lower" n="1v"/><lb n="1"/>d
+                        ahaṃkārāt tallakṣaṇāny evaikādeśendriyāṇy ut_padyante | ta<del>thya</del>d
+                        yathā | śrotra<lb n="2"/>tvacakṣujihvāghrāṇavāghghastopasthapāyupādamanāṃsi
+                        tatra | pūrvāṇi | pañca bu<lb n="3"/>ddhīndriyāṇi | itarāṇi <cb n="1"/>pañca
+                        karmmondriyāṇi | ubhayātmakam manaḥ | <cb n="2"/>bhūtādes tallakṣaṇ<lb n="4"
+                        />āny eva<del>ā</del> | pañcatanmā<cb n="1"/>trāṇy ut_padyante | tad yathā |
+                            śabdatanmā<cb n="2"/>traṃ | sparśśatanmātra<lb n="5"/>m | rūpatanmātram_
+                            rasa<cb n="1"/>tanmātram | gandhatanmātram | iti bhūtāni te <unclear
+                            reason="eccentric_ductus">sa</unclear>s tadviśeṣāś śabdaspa<lb n="6"
+                        />rśarūparasagandhāḥ | eva<del>v</del>m etāni tatvāni caturviṃśatir
+                        vyākhyātāni | </l>
+
+                </div><!-- end of chapter 1 of Śārīrasthāna -->
+            </div>
+        </body>
+    </text>
+</TEI>
+
