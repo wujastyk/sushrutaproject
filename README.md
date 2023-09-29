@@ -15,6 +15,10 @@ There, you can read the various transcriptions individually, or collate and comp
 
 Here are [further instructions for readers](https://saktumiva.org/wiki/users).
 
+## Compiling the translation
+
+To compile the translation files with XeLaTeX, you will need [some extra LaTeX local style files](https://github.com/wujastyk/xelatex).  
+
 ## Copyright and Licensing
 All files in this Github repository are copyrighted (C) Dominik Wujastyk 2021.  They are distributed under a  [Creative Commons BY-SA](https://creativecommons.org/licenses/by-sa/4.0/) licence.
 
