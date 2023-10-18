@@ -20,7 +20,7 @@
 
 \newpage
 
-{\footnotesize
+\begin{footnotesize}
     
 % Skt-Eng and Eng-Skt of \se{}{} words
 %\printindex[lexical]  
@@ -33,7 +33,12 @@ keyword=botanical]
 \printunsrtglossaries % plant names.  iterate over all defined entries 
 %% the setup for the glossaries package is in xelatex-indexing etc.
 %%
-\par} % end \footnotesize
+
+\chaptermark{Glossary}\sectionmark{Glossary}
+\printindex[lexical]  
+\clearpage
+%
+\end{footnotesize}
 
 \thispagestyle{empty}
 
