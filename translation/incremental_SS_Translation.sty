@@ -128,6 +128,24 @@
 %    \end{macrocode}
 %  \end{environment}
 %
+%  \begin{environment}{qtree}
+%  Use the \verb|qtree| package to draw tree-diagrams (see the snakes diagrams 
+%in kalpasthāna 4).
+%    \begin{macrocode}
+\usepackage{qtree} 
+%    \end{macrocode}
+%  \end{environment}
+%
+%  \begin{environment}{quoting}
+%  Use the \verb|quoting| package for more flexible quote environments:
+%    \begin{macrocode}
+\usepackage[vskip=0pt]{quoting} 
+%    \end{macrocode}
+% We can now say \verb|\begin[<options>]{quoting} ... \end{quoting}| and use 
+% the \verb|<options>| for better control.  The default here is set to have no
+% space above or below the quotation. 
+%  \end{environment}
+%
 % \section{Fonts and languages}
 % These are all macros from the Polyglossia package (which uses Fontspec).
 %  \begin{macro}{\fontfamily}
@@ -141,7 +159,9 @@
 % {Murty Sanskrit}
 % {Sahadeva}
 % {Tiro Devanagari Sanskrit} % pretty good, with excellent roman
-    {Sanskrit  2003} % hard to beat, but poor roman
+%    {Sanskrit  2003} % hard to beat, but poor roman
+{Tiro Devanagari Sanskrit} % as good as Sanskrit 2003, better roman, less 
+% contrast with Latin text.
 %    \end{macrocode}
 % Set up Tamil.
 %    \begin{macrocode}
@@ -377,6 +397,13 @@
 \newenvironment{bhavanti}{\relax }{\relax }
 %    \end{macrocode}
 %  \end{environment}
+%
+% \subsection{Load the xcolor package here, just before the document begins}
+% \begin{macro}{xcolor}
+%    \begin{macrocode}
+\usepackage{xcolor} % why here?  Move it to the sty file?
+%    \end{macrocode}
+% \end{macro}
 %
 %     \newpage
 %    \PrintIndex  

@@ -4,7 +4,6 @@
 \documentclass[12pt,draft]{book} %taking out draft switches off marginal notes
 
 \usepackage{incremental_SS_Translation} % all customizations in this file
-\usepackage{qtree}
 \addbibresource{incremental_SS_Translation.bib}
 
 \title{A Translation of the Nepalese Text of the \SS}
@@ -15,6 +14,7 @@
     \and Paras Mehta 
     \and Madhusudan Rimal
     \and Deepro Chakraborty
+    \and Harshal Bhatt
     \and Jane Allred
     \and et alii}
 \date{\texttt{Draft of \today}\\ \copyright\ The Authors}
@@ -29,21 +29,21 @@
     chapters/translation 1-28, % nothing there yet
     chapters/translation 2-01, % wind diseases
     chapters/translation 3-02, % śukraśonita
-    chapters/translation 4-04, % vāta
+    chapters/translation 4-04, % vāta complete
     chapters/translation 4-05, % vāta
     chapters/translation 4-15, % mūḍhagarbha
     chapters/translation 5-01, % veg poisons
     chapters/translation 5-02, % veg poisons
-    chapters/translation 5-03,  % poisons
-    chapters/translation 5-04, % snakebite
+    chapters/translation 5-03,  % poisonous insects and animals
+    chapters/translation 5-04, % snakes and snakebite
     chapters/translation 6-17,
     chapters/translation 6-38,
-    chapters/translation 6-39, % jvara
-    chapters/translation 6-65, % tantrayukti
+%%%   chapters/translation 6-39, % jvara   Madhu DO NOT SHARE
+    chapters/translation 6-65, % tantrayukti, complete
     chapters/bibliography and indexes,
 }
 %
-\usepackage{xcolor} % why here?  Move it to the sty file?
+
 
 \begin{document}
         \input{sanskrit-hyphenations}
@@ -73,15 +73,15 @@
             \thispagestyle{empty}
         \include{chapters/translation 1-28}
             \thispagestyle{empty}
-        %
+        
         \part{Nidānasthāna}
         \include{chapters/translation 2-01}
             \thispagestyle{empty}
-        %
+        
         \part{Śārīrasthāna}
         \include{chapters/translation 3-02}
             \thispagestyle{empty}
-        %
+        
         \part{Cikitsāsthāna}
         \include{chapters/translation 4-04}
             \thispagestyle{empty}
@@ -89,7 +89,7 @@
             \thispagestyle{empty}
         \include{chapters/translation 4-15}
             \thispagestyle{empty}
-        %
+        
         \part{Kalpasthāna}
         \include{chapters/translation 5-01}
             \thispagestyle{empty}
@@ -99,7 +99,7 @@
             \thispagestyle{empty}
         \include{chapters/translation 5-04}
             \thispagestyle{empty}
-        %
+        
         \part{Uttaratantra}
         \include{chapters/translation 6-17}
             \thispagestyle{empty}
