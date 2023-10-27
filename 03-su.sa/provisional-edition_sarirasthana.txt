@@ -71,8 +71,9 @@
             <change when="2022-01-17" who="Dominik Wujastyk">Began this file.</change>
             <change when="2023-10-22" who="Dominik Wujastyk">Started adding draft chapters
                 based on H </change>
-            <change when="2023-10-22" who="Dominik Wujastyk">Added all 10 adhyāyas, based on H.  Removed MS transcription coding.</change>
-            
+            <change when="2023-10-22" who="Dominik Wujastyk">Added all 10 adhyāyas, based
+                on H. Removed MS transcription coding.</change>
+
         </revisionDesc>
 
     </teiHeader>
@@ -86,7 +87,7 @@
                 <head xml:lang="en">[Śārīrasthāna]</head>
 
                 <div n="1" type="adhyāya">
-                    
+
                     <head xml:lang="en">[Adhyāya 1. Draft based on MS H]</head>
 
                     <l xml:id="SS.3.1.1"><label>3.1.1</label>athātaḥ sarvvabhūtacintāṃ
@@ -236,7 +237,18 @@
                         (2023-07-29)]</head>
 
                     <l xml:id="SS.3.2.1"><label>3.2.1</label> athātaḥ śukraśoṇitaviśuddhiṃ
-                         vyākhyāsyāmaḥ || </l>
+                        vyākhyāsyāmaḥ ||<anchor n="SS.3.2.1-n1"/>
+                    </l>
+
+                    <ab corresp="#SS.3.2.1" type="apparatus">
+                        <list type="notes">
+                            <item corresp="#SS.3.2.1-n1">In omitting
+                                    <foreign>śārīraṃ</foreign>, we follow witness N which
+                                offers the clearest syntax. Note that the 1931 and 1938
+                                editions of the vulgate text offer two different solutions
+                                to the awkward phrase.</item>
+                        </list>
+                    </ab>
 
                     <l xml:id="SS.3.2.2"/>
 
