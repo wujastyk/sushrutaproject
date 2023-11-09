@@ -1,11 +1,29 @@
-% \section{LaTeX style file for the Incremental Translation of SS}
+% \section{Load various local standard macro packages}
+%  \begin{environment}{packages}
+% Load my standard Xe\LaTeX\ macros.  They are 
+% maintained and published here:
+% \url{https://github.com/wujastyk/xelatex}
+% They do things like set up Polyglossia, choose fonts and languages,
+% load bib\LaTeX\ and point to my bibliography, etc.
+%    \begin{macrocode}
+\usepackage{%
+    xelatex-generic,
+    xelatex-biblatex,
+    xelatex-indexing,
+    xelatex-glossaries,
+    booktabs, % better-looking tables
+}
+%    \end{macrocode}
+%  \end{environment}
 %
 %    \begin{environment}{hyperref}
 %Here we load hyperref and set the colours
 %we want for hyperlinking.
 %
-%We put it at this position before loading 
-%the index/glossaries package, to avoid clashes.
+% We put it at this position \emph{after} loading 
+% the index/glossaries package, \verb|xelatex-indexing|,
+% to avoid clashes.  See the documentation to
+% \verb|indextools| on this topic of priority. 
 %    \begin{macrocode}
 \usepackage[
     final=true, % so it doesn't get turned off by “draft”
@@ -15,25 +33,10 @@
     filecolor = indigo(dye),
     urlcolor = indigo(dye),
     menucolor = indigo(dye),
-  %  pagecolor = indigo(dye),
-    ]{hyperref}  
+    %  pagecolor = indigo(dye),
+]{hyperref}  
 %    \end{macrocode}
 %    \end{environment}
-%
-%\section{Load other macro packages}
-%  \begin{environment}{packages}
-%Load my standard Xe\LaTeX\ macros.  They are 
-%maintained and published here:
-%\url{https://github.com/wujastyk/xelatex}
-% They do things like set up Polyglossia, choose fonts and languages,
-% load bib\LaTeX\ and point to my bibliography, etc.
-%    \begin{macrocode}
-\usepackage{%
-    xelatex-generic-biblatex-indexing,
-    booktabs, % better-looking tables
-}
-%    \end{macrocode}
-%  \end{environment}
 %
 % \begin{macro}{\definecolor}
 % And define our desired colours for hyperref above, 
@@ -304,7 +307,7 @@
 %    \end{macro}
 %
 % \subsection{Citing Sanskrit words in the text}
-%  \begin{macro}{\se, \sed}
+%  \begin{macro}{\se, \sed, \seEngOnly}
 % The main commands \verb|\saneng| and \verb|\sanengdev| are 
 % defined elsewhere.  In xelatex-generic-xindex.sty, I believe.  What we're doing
 % here is just making some convenient shortcuts, \verb|\se| (“Sanskrit-English”)
@@ -319,6 +322,7 @@
 %    \begin{macrocode}
 \let\se\saneng  % just make typing a bit quicker
 \let\sed\sanengdev % puts the Skt. in the text into Devanagari.
+\providecommand{\seEngOnly}[2]{#2} % just print the English
 %    \end{macrocode}
 % Incidentally, they also send
 % the words to the index at the back of the book.
