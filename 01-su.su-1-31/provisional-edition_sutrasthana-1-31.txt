@@ -75,7 +75,30 @@
 
         </fileDesc>
 
+<xenoData>
+      <stemma format="nexml">
+<nex:nexml generator="SplitsTree6" version="0.9" xmlns:nex="http://www.nexml.org/2009" xmlns="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sp5="https://github.com/danielhuson/splitstree6">
 
+	<otus id="otus1" label="TaxaBlock">
+		<otu id="otu1" label="H"/>
+		<otu id="otu2" label="K"/>
+		<otu id="otu3" label="N"/>
+	</otus>
+	
+	<trees otus="otus1" id="trees1" label="TreesBlock">
+		<tree id="tree1" label="tree1" xsi:type="nex:FloatTree">
+			<node id="n1" label="H" root="true"/>
+			<node id="n2" label="K" otu="otu2"/>
+			<node id="n3" label="N" otu="otu3"/>
+			<node id="n4"/>
+			<edge source="n4" target="n2" id="e1" length="0.0046311914920806885"/>
+			<edge source="n4" target="n3" id="e2" length="0.015896709635853767"/>
+			<edge source="n1" target="n4" id="e3" length="0.0057309819385409355"/>
+		</tree>
+	</trees>
+</nex:nexml>
+ </stemma>
+    </xenoData>
 
 
         <revisionDesc>
