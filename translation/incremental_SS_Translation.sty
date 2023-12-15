@@ -10,7 +10,6 @@
     xelatex-generic,
     xelatex-biblatex,
     xelatex-indexing,
-    xelatex-glossaries,
     booktabs, % better-looking tables
 }
 %    \end{macrocode}
@@ -37,6 +36,14 @@
 ]{hyperref}  
 %    \end{macrocode}
 %    \end{environment}
+%
+%\begin{macro}{xelatex-glossaries}
+%    Load \verb|xelatex-glossaries| \emph{after} \verb|hyperref|, so that
+%    indexed words in the main text get linked to the glossary.
+%    \begin{macrocode}
+\usepackage{xelatex-glossaries}
+%    \end{macrocode}    
+%\end{macro}
 %
 % \begin{macro}{\definecolor}
 % And define our desired colours for hyperref above, 
