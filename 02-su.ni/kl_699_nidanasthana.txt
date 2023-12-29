@@ -42,7 +42,9 @@
                                 ><!-- @material can be "paper", "industrial paper", "handmade paper", "palm-leaf", "palmyra palm-leaf", "talipot palm-leaf", "birch bark", "vellum", etc. --><!-- the following <foliation> tags are examples --></supportDesc>
 
                         </objectDesc>
-
+                        <handDesc>
+                            <handNote scope="sole" script="newa" medium="ink black"/>
+                        </handDesc>
                         <scriptDesc>
                             <scriptNote xml:id="script-śa-sa"><foreign xml:lang="sa"
                                     >śa</foreign> and <foreign xml:lang="sa">sa</foreign>
@@ -72,7 +74,7 @@
 
     </teiHeader>
 
-    <text xml:lang="sa-Latn">
+    <text xml:lang="sa">
 
         <body>
             <div n="2" type="sthāna">
