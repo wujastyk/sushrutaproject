@@ -1,0 +1,35 @@
+name: XML build
+on: 
+  push:
+  workflow_dispatch:
+jobs:
+  wordindex:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: cancel previous run
+        uses: styfle/cancel-workflow-action@0.11.0
+        with:
+          all_but_latest: true
+          access_token: ${{ github.token }}
+
+      - uses: actions/checkout@v3
+        with: 
+          ref: ${{ github.head_ref }}
+          submodules: 'true'
+
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: build files index
+        run: |
+          cd xml/_src
+          yarn install
+          yarn go
+
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: automatic XML file update
+          file_pattern: xml/*.xml
+          commit_user_name: Wujastyk Bot
