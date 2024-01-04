@@ -23,3 +23,9 @@ All files in this Github repository are copyrighted (C) Dominik Wujastyk 2021.  
 This chart is a statement of intentions written in 2019, before the pandemic and before the SSHRC cut one third of the requested grant funding.  There is therefore project slippage, especially regarding other manuscripts, travel and conferences.  But it may be useful to see the original intent. 
 
 ![plan](https://user-images.githubusercontent.com/762246/227660978-7a9a1f91-baa9-4595-adea-fb7fb8d964cb.png)
+
+
+## Transcription of KL 699
+### Nidānasthāna
+
+* https://github.com/wujastyk/sushrutaproject/blob/main/xml/02-su.ni/kl_699_nidanasthana.xml
