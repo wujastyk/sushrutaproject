@@ -1,5 +1,5 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/xsl" href="../tei-to-html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>MS Kathmandu KL 699: Nidānasthāna</title>
@@ -38,16 +38,14 @@
 
                         <objectDesc form="pothi">
                             <!-- @form can be "pothi", "book", scroll", etc. -->
-                            <supportDesc material="palm-leaf"
-                                ><!-- @material can be "paper", "industrial paper", "handmade paper", "palm-leaf", "palmyra palm-leaf", "talipot palm-leaf", "birch bark", "vellum", etc. --><!-- the following <foliation> tags are examples --></supportDesc>
+                            <supportDesc material="palm-leaf"><!-- @material can be "paper", "industrial paper", "handmade paper", "palm-leaf", "palmyra palm-leaf", "talipot palm-leaf", "birch bark", "vellum", etc. --><!-- the following <foliation> tags are examples --></supportDesc>
 
                         </objectDesc>
                         <handDesc>
                             <handNote scope="sole" script="newa" medium="ink black"/>
                         </handDesc>
                         <scriptDesc>
-                            <scriptNote xml:id="script-śa-sa"><foreign xml:lang="sa"
-                                    >śa</foreign> and <foreign xml:lang="sa">sa</foreign>
+                            <scriptNote xml:id="script-śa-sa"><foreign xml:lang="sa">śa</foreign> and <foreign xml:lang="sa">sa</foreign>
                                 not distinguished.</scriptNote>
                         </scriptDesc>
                         <!--                     this śa/sa equivalence may be wrong. Still checking, 2021-06-12  - DW -->
@@ -83,8 +81,7 @@
 
                     <milestone n="068rIMG_0107.JPG" unit="folio"/>
 
-                    <l xml:id="SS.2.16.32"><damage type="physical" extent="part of verse"
-                        />nāṃ guṇaharī vijñeyā dantaśarkarā ||</l>
+                    <l xml:id="SS.2.16.32"><damage type="physical" extent="part of verse"/>nāṃ guṇaharī vijñeyā dantaśarkarā ||</l>
 
                     <l xml:id="SS.2.16.33">kapāleṣv iva dīryatsu dantānāṃ saiva śarkkarā |
                         <caesura/>
@@ -109,12 +106,10 @@
                         || kaphena gurvī vahalā citā ca māṃsodga<cb n="2"/>raiḥ
                         śālmalikaṇṭakābhaiḥ |</l>
 
-                    <l xml:id="SS.2.16.38">kapharaktamūr<unclear>tti</unclear> ||<lb n="3"
-                        />jihvāṃ sa tu stambhayate pravṛddho mūle ca jihvā bhṛśameti pākaṃ
+                    <l xml:id="SS.2.16.38">kapharaktamūr<unclear>tti</unclear> ||<lb n="3"/>jihvāṃ sa tu stambhayate pravṛddho mūle ca jihvā bhṛśameti pākaṃ
                         |</l>
 
-                    <l xml:id="SS.2.16.39">jihvāgrarūpaḥ śvayathur hi jihvām unnā<cb n="1"
-                        />mya jātaḥ kapharaktamūlaḥ ||
+                    <l xml:id="SS.2.16.39">jihvāgrarūpaḥ śvayathur hi jihvām unnā<cb n="1"/>mya jātaḥ kapharaktamūlaḥ ||
                         <caesura/>
                          lālākaraḥ kaṇḍuyutaḥ sacoṣaḥ sā tūpajihvā paṭhitā bhiṣagbhiḥ
                         ||</l>
@@ -124,8 +119,7 @@
                         <caesura/>
                          tālupuṣpuṭākaḥ tāluśoṣaḥ tālupā<lb n="4"/>ka iti |</l>
 
-                    <l xml:id="SS.2.16.41">kaphāṃ sṛ<subst><add place="upper line"
-                                >ga</add></subst>bhyāṃ tālumūlāt pravṛddhādīrghaḥ śopho
+                    <l xml:id="SS.2.16.41">kaphāṃ sṛ<subst><add place="upper line">ga</add></subst>bhyāṃ tālumūlāt pravṛddhādīrghaḥ śopho
                         dhmātavastiprakāśaḥ |
                         <caesura/>
                          tṛṣṇākāsaḥ śvāsa<cb n="1"/><unclear>kṛ</unclear> ttaṃ vadanti
@@ -146,8 +140,7 @@
                     <l xml:id="SS.2.16.44">māṃsaṃ nirujaṃ tālu<unclear extent="2"/>kaphān
                             pro<unclear extent="1"/>rvaidyaimāṃsasaṃghāta eṣaḥ ||
                         <caesura/>
-                         aruk sthiraḥ kolamātraḥ kaphena samedasā purpuṭās tāludeśe <cb
-                            n="2"/> ||</l>
+                         aruk sthiraḥ kolamātraḥ kaphena samedasā purpuṭās tāludeśe <cb n="2"/> ||</l>
 
                     <l xml:id="SS.2.16.45">śuṣyaty atyarthaṃ dīryate cāpi tāluḥ śvāsaś
                         caivograstāluśoṣonilāt tu ||
@@ -163,8 +156,7 @@
                     <l xml:id="SS.2.16.47">gale ni<cb n="2"/>laḥ pittakaphau tu mūrcchitau
                         pradūṣyamāṃsañ ca tathaiva śoṇitam |
                         <caesura/>
-                         galopasaṃrodhakarais tathāṅkurau<damage extent="1"/><lb n="7"
-                        />haṃ nyastaṃ vyādhir ayaṃ hi rohiṇī || </l>
+                         galopasaṃrodhakarais tathāṅkurau<damage extent="1"/><lb n="7"/>haṃ nyastaṃ vyādhir ayaṃ hi rohiṇī || </l>
 
                     <l xml:id="SS.2.16.48">jihvāsamantād dhṛtaśavedanāt tu māṃsāṅkuraiḥ
                         kaṇṭhaṃ nirodhinī <cb n="1"/> yā |
@@ -178,9 +170,7 @@
                          srotonirodhinyacalonnatā ca sthirāṃkurā yā kaphasaṃbhavā sā
                         ||</l>
 
-                    <l xml:id="SS.2.16.50">gambhīrapākinyanivāravī<damageSpan extent="1"
-                            /><pb n="068vIMG_0108.JPG"/><milestone n="068rIMG_0107.JPG"
-                            unit="folio"/> tridoṣaliṅgā tritayokti tat tu ||
+                    <l xml:id="SS.2.16.50">gambhīrapākinyanivāravī<damageSpan extent="1"/><pb n="068vIMG_0108.JPG"/><milestone n="068rIMG_0107.JPG" unit="folio"/> tridoṣaliṅgā tritayokti tat tu ||
                         <caesura/>
                          sphoṭaum<unclear>citā</unclear> pittasamānaliṅgāsādhyā pradiṣṭā
                         rudhirātmikā tu ||</l>
@@ -216,8 +206,7 @@
                          nāmnaikavṛndaḥ parikīrtitesau vyādhirvalāsaḥ kṣatajaḥ prasūtaḥ
                         ||</l>
 
-                    <l xml:id="SS.2.16.56">samunnataṃ vṛttam amandadāhaṃ tīvrajva<cb n="1"
-                        />raṃ vṛndam udāharanti ||
+                    <l xml:id="SS.2.16.56">samunnataṃ vṛttam amandadāhaṃ tīvrajva<cb n="1"/>raṃ vṛndam udāharanti ||
                         <caesura/>
                          tac cāpi pittakṣatajaprakopād jñeyaṃ satodaṃ pavanātmakan tu
                         ||</l>
@@ -258,8 +247,7 @@
                         vikāraḥ ||</l>
 
                     <l xml:id="SS.2.16.63">sadāhatodaṃ śvayathuṃ sa
-                            tā<unclear>śramantu</unclear> jale pūtiviśīrṇa<lb n="6"
-                        />māṃsaṃ |
+                            tā<unclear>śramantu</unclear> jale pūtiviśīrṇa<lb n="6"/>māṃsaṃ |
                         <caesura/>
                          pittena vidyād vadane vidārim pārśvaviśeṣān sa tu yena śete
                         ||</l>
@@ -287,8 +275,7 @@
                     <l xml:id="SS.2.16.66ef">sūtre pradiṣṭadaśaṣaṭvā pūrvaṃ sthanan
                         nidānam bhavatīti yac ca |
                         <caesura/>
-                         savistaran tat kathitam mayeha svayam sunā yat kathitaṃ <cb n="2"
-                        /> hitāya ||</l>
+                         savistaran tat kathitam mayeha svayam sunā yat kathitaṃ <cb n="2"/> hitāya ||</l>
 
                     <l xml:id="SS.2.16.68">samāptan nidānasthānam || ❈ ||</l>
 
