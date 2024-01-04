@@ -25,7 +25,8 @@ This chart is a statement of intentions written in 2019, before the pandemic and
 ![plan](https://user-images.githubusercontent.com/762246/227660978-7a9a1f91-baa9-4595-adea-fb7fb8d964cb.png)
 
 
-## Transcription of KL 699
-### Nidānasthāna
 
-* https://github.com/wujastyk/sushrutaproject/blob/main/xml/02-su.ni/kl_699_nidanasthana.xml
+## Display of the raw transcription of KL 699
+* [Sūtrasthāna](https://wujastyk.github.io/sushrutaproject/xml/01-su.su/kl_699_sutrasthana.xml)
+* [Nidānasthāna](https://wujastyk.github.io/sushrutaproject/xml/02-su.ni/kl_699_nidanasthana.xml)
+* to come
