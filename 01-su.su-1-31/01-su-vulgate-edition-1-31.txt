@@ -1,4 +1,6 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -149,8 +151,7 @@
                     <l xml:id="SS.1.1.4b"> teṣāṃ sukhaiṣiṇāṃ rogopaśamārtham ātmanaś ca
                         prāṇayātrārthaṃ prajāhitahetor āyurvedaṃ śrotum icchāma
                         ihopadiśyamānaṃ atrāyattam aihikam āmuṣmikaṃ ca śreyaḥ tad
-                        bhagavantam upapannāḥ smaḥ śiṣyatveneti || <link
-                            target="http://wujastyk.net"/></l>
+                        bhagavantam upapannāḥ smaḥ śiṣyatveneti ||</l>
 
                     <l xml:id="SS.1.1.5"><label>1931 ed. 1.1.5</label>tān uvāca bhagavān
                         svāgataṃ vaḥ sarva evāmīmāṃsyā adhyāpyāś ca bhavanto vatsāḥ || </l>
