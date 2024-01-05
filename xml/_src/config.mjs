@@ -21,8 +21,7 @@ const config = {
             meta: [
                 ['//titleStmt/title','MS Kathmandu KL 699'],
                 ['//facsimile','']
-            ]
-        
+            ]    
         },
     ]
 };
