@@ -12,7 +12,7 @@ const config = {
         },
         {
             input: '../../02-su.ni/kl_699_nidanasthana.txt',
-            output: '../02-su.ni/kl_699_nidanasthana.xml'
+            output: '../02-su.ni/kl_699_nidanasthana.xml',
         },
         {
             input:  ['../../04-su.ci-1-20/kl_699_cikitsasthana_01-20.txt',
