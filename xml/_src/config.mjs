@@ -22,6 +22,10 @@ const config = {
                 ['//titleStmt/title','MS Kathmandu KL 699'],
                       ]    
         },
+        {
+            input: '../../05-su.ka/kl_699_kalpasthana.txt',
+            output: '../02-su.ka/kl_699_kalpasthana.xml',
+        },
     ]
 };
 
