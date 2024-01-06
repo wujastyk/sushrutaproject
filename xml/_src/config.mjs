@@ -20,8 +20,7 @@ const config = {
             output: '../04-su.ci/kl_699_cikitsasthana.xml',
             meta: [
                 ['//titleStmt/title','MS Kathmandu KL 699'],
-                ['//facsimile','']
-            ]    
+                      ]    
         },
     ]
 };
