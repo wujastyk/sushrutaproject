@@ -15,7 +15,7 @@ const config = {
             output: '../02-su.ni/kl_699_nidanasthana.xml',
         },
         {
-            input:  ['../../04-su.ci-1-20/kl_699_cikitsasthana_1-20.txt',
+            input:  ['../../04-su.ci-1-20/kl_699_cikitsasthana_01-20.txt',
                     '../../04-su.ci-21-40/kl_699_cikitsasthana_21-40.txt'], 
             output: '../04-su.ci/kl_699_cikitsasthana.xml',
             meta: [
