@@ -24,7 +24,12 @@ const config = {
         },
         {
             input: '../../05-su.ka/kl_699_kalpasthana.txt',
-            output: '../02-su.ka/kl_699_kalpasthana.xml',
+            output: '../05-su.ka/kl_699_kalpasthana.xml',
+        },
+        {
+            input: ['../../06-su.ut-1-30/kl_699_uttaratantra.txt',
+                    '../../06-su.ut-31-end/kl_699_uttaratantra.txt']
+            output: '../06-su.ut/kl_699_kalpasthana.xml',
         },
     ]
 };
