@@ -6,7 +6,7 @@ const config = {
                     '../../01-su.su-32-end/kl_699_sutrasthana-32-end.txt'],
             output:    '../01-su.su/kl_699_sutrasthana.xml',
             meta: [
-                ['//titleStmt/title','Transcripton of MS Kathmandu KL 699: Sūtrasthāna'],
+                ['//titleStmt/title','Transcription of MS Kathmandu KL 699: Sūtrasthāna'],
                 ['//facsimile','']
             ]
         },
@@ -14,7 +14,7 @@ const config = {
             input: '../../02-su.ni/kl_699_nidanasthana.txt',
             output:   '../02-su.ni/kl_699_nidanasthana.xml',
             meta: [
-                ['//titleStmt/title','Transcripton of MS Kathmandu KL 699: Nidānasthāna']
+                ['//titleStmt/title','Transcription of MS Kathmandu KL 699: Nidānasthāna']
                 ]
         },
         {
@@ -22,14 +22,14 @@ const config = {
                     '../../04-su.ci-21-40/kl_699_cikitsasthana_21-40.txt'] 
             output:    '../04-su.ci/kl_699_cikitsasthana.xml',
             meta: [
-                ['//titleStmt/title','Transcripton of MS Kathmandu KL 699: Cikitsāsthāna']
+                ['//titleStmt/title','Transcription of MS Kathmandu KL 699: Cikitsāsthāna']
                 ]
         },
         {
             input: '../../05-su.ka/kl_699_kalpasthana.txt',
             output:   '../05-su.ka/kl_699_kalpasthana.xml',
             meta: [
-                ['//titleStmt/title','Transcripton of MS Kathmandu KL 699: Kalpasthāna']               
+                ['//titleStmt/title','Transcription of MS Kathmandu KL 699: Kalpasthāna']               
                 ]
         },
         {
@@ -37,7 +37,7 @@ const config = {
                     '../../06-su.ut-31-end/kl_699_uttaratantra.txt']
             output:    '../06-su.ut/kl_699_uttaratantra.xml',
             meta: [
-                ['//titleStmt/title','Transcripton of MS Kathmandu KL 699: Uttaratantra']                
+                ['//titleStmt/title','Transcription of MS Kathmandu KL 699: Uttaratantra']                
                 ]
         },
     ]
