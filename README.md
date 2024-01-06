@@ -31,6 +31,6 @@ This chart is a statement of intentions written in 2019, before the pandemic and
 2. [Nidānasthāna](https://wujastyk.github.io/sushrutaproject/xml/02-su.ni/kl_699_nidanasthana.xml)
 3. Missing from KL 699
 4. [Cikitsāsthāna](https://wujastyk.github.io/sushrutaproject/xml/04-su.ci/kl_699_cikitsasthana.xml)
-5. [Kalpasthāna](https://wujastyk.github.io/sushrutaproject/xml/05-su.ci/kl_699_kalpasthana.xml)
+5. [Kalpasthāna](https://wujastyk.github.io/sushrutaproject/xml/05-su.ka/kl_699_kalpasthana.xml)
 6. [Uttaratantra](https://wujastyk.github.io/sushrutaproject/xml/06-su.ut/kl_699_uttaratantra.xml)
 
