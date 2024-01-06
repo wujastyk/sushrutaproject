@@ -35,7 +35,7 @@ const config = {
         {
             input: ['../../06-su.ut-1-30/kl_699_uttaratantra.txt',
                     '../../06-su.ut-31-end/kl_699_uttaratantra.txt']
-            output: '../06-su.ut/kl_699_kalpasthana.xml',
+            output: '../06-su.ut/kl_699_uttaratantra.xml',
             meta: [
                 ['//titleStmt/title','Transcripton of MS Kathmandu KL 699, Uttaratantra'],                
                 ]
