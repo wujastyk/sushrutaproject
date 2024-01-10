@@ -7,7 +7,8 @@ const config = {
             output:    '../01-su.su/kl_699_sutrasthana.xml',
             meta: [
                 ['//titleStmt/title','Transcription of MS Kathmandu KL 699: Sūtrasthāna'],
-                ['//facsimile','']
+                ['//facsimile',''],
+                ['//revisionDesc','']
             ]
         },
         {
