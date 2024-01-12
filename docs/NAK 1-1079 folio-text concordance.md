@@ -46,15 +46,15 @@ In the table below we record the following information:
   
 * *file names*
   
-  - The file names are the number of the exposure in the digital copy of the microfilm. It is recorded in the upper left corner of each photograph and is part of the file’s name.
+  - The file names areA1267 the number of the exposure in the digital copy of the microfilm. It is recorded in the upper left corner of each photograph and is part of the file’s name.
     Examples:
     A1267-11+103612+*<exposure>*.jpg
     A45-05+73274+*<exposure>*.jpg
 
 
-| scribe | new<br />photos | A 45-5 | A 45-5 | A1267-11 | Contents | atha phrase |
+| scribal  foliation | new photos A 1267_11_ | A 45-5 | A 45-5 | A1267-11+103621 black & white | Contents | atha phrase |
 | --- | -------- | ------------------------- | --------------------- | ---- | --- | --- |
-|  | A 1267_11_ | *file names* | *folio:line:col* | *file names* | *vulgate nos.* |  |
+|  | *file names* | *file names* | *folio:line:col* | *file names* | *vulgate nos.* |  |
 |  |  |  |  |  |  | |
 |  |  |  |  |  |  | **Sūtrasthāna** |
 |  | 02.jpg |    003:upper    | 1v:1:a | 037 | 1.1.1 | vedotpattim |
@@ -135,15 +135,17 @@ In the table below we record the following information:
 |  | 61.jpg | 063:lower | 59v2:b | 096:lower | 2.13.1 | kṣudragonidānaṃ |
 |  | 62.jpg | 64:lower | 60v5:b-c | 97:lower | 2.14.1 | śukadoṣanidānaṃ |
 |  | 63.jpg | 065:lower | 61r2:b | 098:lower | 2.16.1 | mukharoganidānaṃ |
+| | 65.jpg:lower |  |  |  | 2.16.44 | mukharoganidānaṃ |
 |  | 63.jpg | 065:upper | 61v3:2b | 098:upper | 2.15.1 | bhagnanidāna |
-|  | 64.jpg |  |  |  |  |  |
-| | 65.jpg | | | | | |
-| | | | | | | |
+|  | 64.jpg:upper |  |  |  | 2.16.21- | mukharoganidānaṃ |
 |  | 66.jpg |  |  | 101:upper | 2.16.68 | samāptam nidānasthānaṃ |
 | | | | |  |  |  |
 | | | | |  |  | **Śārīrasthāna** |
 | 63v:2 | 66.jpg | | | 101:upper | 3.01 | sarvabhūtacintāṃ |
+|  | 64.jpg:lower | | |  | 3.1.9 | sarvabhūtacintāṃ |
 | 63v:7 | _66 | | |  |  | folio ends with 3.1.9 |
+|  |  | | | | |  |
+| | 65.jpg:upper | | | | 3.1.21 | |
 |  | _66:lower | | | 102:lower |  | starts 3.2.10i |
 |  | _67 | | |  |  | starts 3.2.28-31: copeyād ataḥ param |
 |  | _65:upper | 068:upper | 68r1:b | 102:upper | 3.2.1 | śukraśoṇitaviśuddhiṃ |
