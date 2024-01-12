@@ -12,21 +12,25 @@ Confusingly, the new digital files are labelled "A1267-11", which is actually th
 
 ### Pre-2023 information:
 
-This MS is a single physical object kept at the NAK under the accession number 1-1079.  It has been microfilmed twice,  first as A 45-5 and then again, seventeen years later, as A 1267-11 (on 16.10.1970 and 16.11.1987 respectively). Digital copies of both microfilms are available to us.
+This MS is a single physical object kept at the NAK under the accession number 1-1079.  It has been microfilmed twice before:  first as “A 45-05+73274” and then again, seventeen years later, as “A 1267-11+103612” (on 16.10.1970 and 16.11.1987 respectively). Digital copies of both microfilms are available to us.
 
-The quality of both microfilms is rather inconsistent (some pictures are blurry) and it is often useful to be able to cross-check between both of them.
+The quality of both microfilms is rather inconsistent.  Some pictures are blurry and it is often useful to be able to cross-check between both of them.
 
 I (AK) have a vague memory that there were some instances, where A 45-5 documented a better state of the MS (fewer holes and broken edges) than A 1267-11.  (Check this.)
 
 > NAK 1-1079, is a composite  manuscript. It actually combines three different MSS of (I  guess) the same size: 
 >
-> * [(1)](http://ngmcp.fdm.uni-hamburg.de/mediawiki/index.php/A_1267-11(1)_(Suśrutasaṃhitā)) our N, 
+> * [(1)](http://ngmcp.fdm.uni-hamburg.de/mediawiki/index.php/A_1267-11(1)_(Suśrutasaṃhitā)) our N, the Suśrutasaṃhitā,
 > * [(2)](http://ngmcp.fdm.uni-hamburg.de/mediawiki/index.php/A_1267-11(2)_Siddhāsārasaṃhitā) excerpts from the Siddhasāra (if I’m not mistaken, Emmerick used it in his work) and
 > * [(3)](http://ngmcp.fdm.uni-hamburg.de/mediawiki/index.php/A_1267-11(3)_(Vaidyaka)) something general medical. 
 >
 > Our file directory A 0045-05 contains N + Siddhasāra (starting from exposure 71), while directory A 1267-11 has only N.
 >
 > – From an email of Andrey, 2022-04-29
+
+I (DW) can confirm that microfilm A 45-5 was indeed used by Emmerick; it is “MS C” of his critical edition of the *Siddhasāra*.  See his article “New Light on the "Siddhasāra"”, BSOAS 37(3): 631-632 ([JSTOR](https://www.jstor.org/stable/613804)).
+
+
 
 In the table below we record the following information:
 
@@ -35,17 +39,15 @@ In the table below we record the following information:
   - "folio" refers to the scribal folio number and side (recto, verso) of the MS 
   
   - "line" refers to the scribeal line number
+    - "column" refers to three horizontal columns (a, b, c) separated by the two string holes.  E.g., in MS A 45-5:
+    
+      ​							a                          					               b  									         c
   
-  - "column" refers to three horizontal columns (a, b, c) separated by the two string holes.  E.g., in MS A 45-5:
-  
-    ​                       a                                                   b                                                                c
-  
-    ![image-20211230115155061](/home/dom/.config/Typora/typora-user-images/image-20211230115155061.png)
-  
-  
-  
+
+<img src="/home/dom/Dropbox/Xdrive/projects/Susruta project/Saktumiva files/docs/media/Screenshot from 2024-01-12 16-09-55.png" alt="Screenshot from 2024-01-12 16-09-55" style="zoom:50%;" />
+
+
 * *file names*
-  
   - The file names areA1267 the number of the exposure in the digital copy of the microfilm. It is recorded in the upper left corner of each photograph and is part of the file’s name.
     Examples:
     A1267-11+103612+*<exposure>*.jpg
