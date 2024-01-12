@@ -81,12 +81,13 @@
                     xmlns:nex="http://www.nexml.org/2009"
                     xmlns="http://www.nexml.org/2009"
                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                    xmlns:sp5="https://github.com/danielhuson/splitstree6"> <otus
-                        id="otus1" label="TaxaBlock">
+                    xmlns:sp5="https://github.com/danielhuson/splitstree6">
+                    <otus id="otus1" label="TaxaBlock">
                         <otu id="otu1" label="H"/>
                         <otu id="otu2" label="K"/>
                         <otu id="otu3" label="N"/>
-                    </otus> <trees otus="otus1" id="trees1" label="TreesBlock">
+                    </otus>
+                    <trees otus="otus1" id="trees1" label="TreesBlock">
                         <tree id="tree1" label="tree1" xsi:type="nex:FloatTree">
                             <node id="n1" label="H" root="true"/>
                             <node id="n2" label="K" otu="otu2"/>
@@ -395,19 +396,20 @@
                         ślokasthānanidānaśārīracikitsitakalpeṣv arthavaśād vibhajya uttare
                         vakṣyāmaḥ | </l>
 
-                    <l xml:id="SS.1.1.41x"> bha | </l>
 
-                    <l xml:id="SS.1.1.41"><label>1931 ed. 1.1.41</label> svayambhuvā
-                        proktam idaṃ sanātanam
+
+                    <l xml:id="SS.1.1.41"><label>1931 ed. 1.1.41</label> bhavati cātra |
+                        <caesura/>
+                         svayambhuvā proktam idaṃ sanātanam
                         <caesura/>
                          paṭhet tu yaḥ kāśipatiprakāśitam |
                         <caesura/>
                          sa puṇyakarmā bhuvi pūjito nṛpair
                         <caesura/>
                          asukṣaye śakrasalokatām iyād iti || </l>
-                    
-                    <l xml:id="SS.1.1.41b"/>
-                    
+
+
+
                 </div>
 
                 <div n="2" type="adhyāya">
