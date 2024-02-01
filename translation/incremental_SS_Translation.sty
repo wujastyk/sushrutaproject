@@ -375,15 +375,15 @@
 % Mark significant differences in the translation of the 
 % Nepalese text by putting a red changebar 
 % in the right margin.
+% This is probably just for the draft text, to make interesting 
+% differences obvious so we can write about them later.
 %    \begin{macrocode}
 \usepackage[xetex,color,rightbars]{changebar}
 \cbcolor{red}
-\newcommand{\diff}[1]{\cbstart #1\cbend{}}
+\newcommand{\diff}[1]{\cbstart #1\cbend {}}
 %    \end{macrocode}
 % An older version of this command was
 % \verb|\newcommand{\diff}[1]{\textcolor{red}{#1}}|.
-% This is probably just for the draft text, to make interesting 
-% differences obvious so we can write about them later.
 %    \end{macro}
 %
 % \subsection{Auto-translation and Index of Materia Medica}
