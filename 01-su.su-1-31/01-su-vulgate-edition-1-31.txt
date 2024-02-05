@@ -63,6 +63,7 @@
                     <edition>Revised second edition</edition>
                     <note type="footnote">The sūtrasthāna (SS.1) and śārīrasthāna (SS.3)
                         of this SARIT edition are mainly based on this edition.</note>
+                    <note>For sūtrasthāna 13 (leeches), the text of the 1938 vulgate is used in this file.</note>
                     <note type="footnote">This SARIT edition omits the commentarial
                         material from this edition.</note>
                 </bibl>
@@ -114,6 +115,11 @@
                 1.43.3</change>
             <change when="2023-06-26" who="Dominik Wujastyk">Separated the file into two
                 parts, 1-31 and 32-end, because of processing limits at Saktumiva</change>
+
+            <change when="2024-02-05" who="Lisa Brooks">Changed the text of SS.1.13 to
+                correspond to the 1938 edition of Trikamji Acharya, not the 1931 edition
+                as for the rest of the sūtrasthāna. (In fact, the transcript of the "1931"
+                edition is somewhat mixed between the 1931 and 1938 editions.)</change>
 
         </revisionDesc>
     </teiHeader>
@@ -2100,146 +2106,154 @@
                     <p ana="trailer">iti śrīsuśrutasaṃhitāyāṃ sūtrasthāne 'gnikarmavidhair
                         nāma dvādaśo 'dhyāyaḥ || </p>
                 </div>
+
                 <div n="13" type="adhyāya">
+
                     <head>trayodaśo 'dhyāyaḥ |</head>
 
-                    <l xml:id="SS.1.13.1"><label>1931 ed. 1.13.1</label> athāto
+                    <note>The vulgate text is here transcribed from the 1938 edition, not
+                        the 1931 edition.</note>
+
+                    <l xml:id="SS.1.13.1"><label>1938 ed. 1.13.1</label> athāto
                         jalaukāvacāraṇīyam adhyāyaṃ vyākhyāsyāmaḥ || </l>
 
-                    <l xml:id="SS.1.13.2"><label>1931 ed. 1.13.2</label> yathovāca
+                    <l xml:id="SS.1.13.2"><label>1938 ed. 1.13.2</label> yathovāca
                         bhagavān dhanvantariḥ || </l>
 
-                    <l xml:id="SS.1.13.3"><label>1931 ed. 1.13.3</label>
+                    <l xml:id="SS.1.13.3"><label>1938 ed. 1.13.3</label>
                             nṛpāḍhya<pc> </pc>bāla<pc> </pc>sthavira<pc
                             > </pc>bhīru<pc> </pc>durbala<pc> </pc>nārī<pc
                         > </pc>sukumārāṇām anugrahārthaṃ paramasukumāro 'yaṃ
                         śoṇitāvasecanopāyo 'bhihito jalaukasaḥ || </l>
 
-                    <l xml:id="SS.1.13.4"><label>1931 ed. 1.13.4</label> tatra
-                        vātapittakaphaduṣṭaśoṇitaṃ yathāsaṃkhyaṃ śṛṅgajalaukolābubhir
-                        avasecayet (snigdhaśītarūkṣatvāt ) sarvāṇi sarvair vā || </l>
+                    <l xml:id="SS.1.13.4"><label>1938 ed. 1.13.4</label> tatra
+                        vātapittakaphaduṣṭaśoṇitaṃ yathāsaṃkhyaṃ śṛṅgajalaukālābubhir
+                        avasecayet sarvāṇi sarvair vā (viśeṣas tu visrāvyaṃ
+                        śṛṅgajalaukālābubhir gṛhṇīyāt) || </l>
 
-                    <l xml:id="SS.1.13.5x"><label>1931 ed. 1.13.5</label> bhavanti cātra | </l>
-
-                    <l xml:id="SS.1.13.5"><label>1931 ed. 1.13.5ab</label> uṣṇaṃ
-                        samadhurasnigdhaṃ gavāṃ śṛṅgaṃ prakīrtitam |
+                 
+                    <l xml:id="SS.1.13.5"><label>1938 ed. 1.13.5ab</label> bhavanti cātra
+                        ślokāḥ |
+                        <caesura/>
+                         uṣṇaṃ samadhuraṃ snigdhaṃ gavāṃ śṛṅgaṃ prakīrtitam |
                         <caesura/>
                          tasmād vātopasṛṣṭe tu hitaṃ tad avasecane || </l>
 
-                    <l xml:id="SS.1.13.5a"/>
+     
 
-                    <l xml:id="SS.1.13.6"><label>1931 ed. 1.13.6</label> śītādhivāsā
+                    <l xml:id="SS.1.13.6"><label>1938 ed. 1.13.6</label> śītādhivāsā
                         madhurā jalaukā vārisaṃbhavā |
                         <caesura/>
                          tasmāt pittopasṛṣṭe tu hitā sā tv avasecane || </l>
 
-                    <l xml:id="SS.1.13.7"><label>1931 ed. 1.13.7</label> alābu kaṭukaṃ
+                    <l xml:id="SS.1.13.7"><label>1938 ed. 1.13.7</label> alābu kaṭukaṃ
                         rūkṣaṃ tīkṣṇaṃ ca parikīrtitam |
                         <caesura/>
                          tasmāc chleṣmopasṛṣṭe tu hitaṃ tad avasecane || </l>
 
-                    <l xml:id="SS.1.13.8"><label>1931 ed. 1.13.8</label> tatra pracchite
+                    <l xml:id="SS.1.13.8"><label>1938 ed. 1.13.8</label> tatra pracchite
                             tanu<pc> </pc>basti<pc> </pc>paṭalāvanaddhena śṛṅgeṇa śoṇitam
-                        avasecayed ācūṣaṇāt sāntardīpayā'lābvā || </l>
+                        avasecayed ācūṣaṇāt sāntardīpayā 'lābvā | (jalāyukā vakṣyante) || </l>
 
-                    <l xml:id="SS.1.13.9"><label>1931 ed. 1.13.9</label> jalam āsām āyur
+                    <l xml:id="SS.1.13.9"><label>1938 ed. 1.13.9</label> jalam āsām āyur
                         iti jalāyukāḥ jalam āsām oka iti jalaukasaḥ || </l>
 
-                    <l xml:id="SS.1.13.10"><label>1931 ed. 1.13.10</label> tā dvādaśa
+                    <l xml:id="SS.1.13.10"><label>1938 ed. 1.13.10</label> tā dvādaśa
                         tāsāṃ saviṣāḥ ṣaṭ tāvatya eva nirviṣāḥ || </l>
 
-                    <l xml:id="SS.1.13.11"><label>1931 ed. 1.13.11</label> tatra saviṣāḥ
+                    <l xml:id="SS.1.13.11"><label>1938 ed. 1.13.11</label> tatra saviṣāḥ
                         kṛṣṇā karburā alagardā indrāyudhā sāmudrikā gocandanā ceti | tāsu
                         añjanacūrṇavarṇā pṛthuśirāḥ kṛṣṇā varmimatsyavad āyatā
                         chinnonnatakukṣiḥ karburā romaśā mahāpārśvā kṛṣṇamukhī alagardā
                         indrāyudhavad ūrdhvarājibhiś citritā indrāyudhā īṣadasitapītikā
                         vicitrapuṣpākṛticitrā sāmudrikāḥ govṛṣaṇavad adhobhāge
-                        dvidhābhūtākṛtir aṇumukhī gocandaneti | tābhir daṣṭe puruṣe daśe
+                        dvidhābhūtākṛtir aṇumukhī gocandaneti | tābhir daṣṭe puruṣe daṃśe
                         śvayathur atimātraṃ kaṇḍūrmūrcchā jvaro dāhaś chardir madaḥ
                         sadanam iti liṅgāni bhavanti | tatra mahāgadaḥ pānālepananasya
                         karmādiṣūpayojyaḥ | indrāyudhādaṣṭam asādhyam | ity etāḥ saviṣāḥ
                         sacikitsitā vyākhyātāḥ || </l>
 
-                    <l xml:id="SS.1.13.12"><label>1931 ed. 1.13.12</label> atha nirviṣāḥ
+                    <l xml:id="SS.1.13.12"><label>1938 ed. 1.13.12</label> atha nirviṣāḥ
                         kapilā piṅgalā śaṅkumukhī mūṣikā puṇḍarīkamukhī sāvarikā ceti |
                         tatra manaḥśilārañjitābhyām iva pārśvābhyāṃ pṛṣṭhe snigdhā
-                        mudgavarṇā kapilā | kiṃcidraktā vṛttakāyā piṅgalā''śugā ca piṅgalā
-                        | yakṛdvarṇā śīghrapāyinī dīrghatīkṣṇamukhī śaṅkumukhī
-                        mūṣikākṛtivarṇā'niṣṭagandhā ca mūṣikā mudgavarṇā
-                        puṇḍarīkatulyavaktrā puṇḍarīkamukhī snigdhā
-                        padmapatravarṇā'ṣṭādaśāṅgulapramāṇā sāvarikā sā ca paśvarthe ity
-                        etā aviṣā vyākhyātāḥ || </l>
+                        mudgavarṇā kapilā kiṃcidraktā vṛttakāyā piṅgalā ''śugā ca piṅgalā
+                        yakṛdvarṇā śīghrapāyinī dīrghatīkṣṇamukhī śaṅkumukhīḥ
+                        mūṣikākṛtivarṇā 'niṣṭagandhā ca mūṣikā mudgavarṇā
+                        puṇḍarīkatulyavaktrā puṇḍarīkamukhī snigdhā padmapatravarṇā
+                        'ṣṭādaśāṅgulapramāṇā sāvarikā sā ca paśvarthe ity etā aviṣā
+                        vyākhyātāḥ || </l>
 
-                    <l xml:id="SS.1.13.13"><label>1931 ed. 1.13.13</label> tāsāṃ
+                    <l xml:id="SS.1.13.13"><label>1938 ed. 1.13.13</label> tāsāṃ
                             yavanapāṇḍyasahya<pc> </pc>pautanādīni kṣetrāṇi teṣu
                         mahāśarīrā balavatyaḥ śīghrapāyinyo mahāśanā nirviṣāś ca viśeṣeṇa
                         bhavanti |</l>
 
-                    <l xml:id="SS.1.13.14"><label>1931 ed. 1.13.14</label> tatra
+                    <l xml:id="SS.1.13.14"><label>1938 ed. 1.13.14</label> tatra
                         saviṣamatsyakīṭadarduramūtrapurīṣakothajātāḥ kaluṣeṣv ambhaḥsu ca
                         saviṣāḥ
                         padmotpalanalinakumudasaugandhikakuvalayapuṇḍarīkaśaivalakothajātā
                         vimaleṣv ambhaḥsu ca nirviṣāḥ || </l>
 
-                    <l xml:id="SS.1.13.15"><label>1931 ed. 1.13.15</label> bhavati cātra |
+                    <l xml:id="SS.1.13.15"><label>1938 ed. 1.13.15</label> bhavati cātra |
                         <caesura/>
                          kṣetreṣu vicaranty etāḥ salilāḍhyasugandhiṣu |
                         <caesura/>
                          na ca saṃkīrṇacāriṇyo na ca paṅkeśayāḥ sukhāḥ || </l>
 
-                    <l xml:id="SS.1.13.16"><label>1931 ed. 1.13.16</label> tāsāṃ grahaṇam
+                    <l xml:id="SS.1.13.16"><label>1938 ed. 1.13.16</label> tāsāṃ grahaṇam
                         ārdracarmaṇā, anyair vā prayogair gṛhṇīyāt || </l>
 
-                    <l xml:id="SS.1.13.17"><label>1931 ed. 1.13.17</label> athaināṃ nave
+                    <l xml:id="SS.1.13.17"><label>1938 ed. 1.13.17</label> athaināṃ nave
                         mahati ghaṭe sarastaḍāgodakapaṅkam āvāpya nidadhyāt bhakṣyārthe
                         cāsām upaharec chaivalaṃ vallūram audakāṃś ca kandāṃś cūrṇīkṛtya
                         śayyārthaṃ tṛṇam audakāni ca patrāṇi tryahāt tryahāc cābhyo 'nyaj
                         jalaṃ bhakṣyaṃ ca dadyāt saptarātrāt saptarātrāc ca ghaṭam anyaṃ
                         saṃkrāmayet || </l>
 
-                    <l xml:id="SS.1.13.18"><label>1931 ed. 1.13.18</label> bhavati cātra |
+                    <l xml:id="SS.1.13.18"><label>1938 ed. 1.13.18</label> bhavati cātra |
                         <caesura/>
                          sthūlamadhyāḥ parikliṣṭāḥ pṛthvyo mandaviceṣṭitāḥ |
                         <caesura/>
                          agrāhiṇyo 'lpapāyinyaḥ saviṣāś ca na pūjitāḥ || </l>
 
-                    <l xml:id="SS.1.13.19"><label>1931 ed. 1.13.19</label> atha jalauko
+                    <l xml:id="SS.1.13.19"><label>1938 ed. 1.13.19</label> atha jalauko
                         'vasekasādhyavyādhitam upaveśya saṃveśya vā virūkṣya cāsya tam
                         avakāśaṃ mṛdgomayacūrṇair yady arujaḥ syāt | gṛhītāś ca tāḥ
                             sarṣaparajanī<pc> </pc>kalkodaka<pc> </pc>pradigdha<pc
                         > </pc>gātrīḥ salilasarakamadhye muhūrtasthitā vigataklamā jñātvā
                         tābhī rogaṃ grāhayet | ślakṣṇaśuklārdrapicuprotāvacchannāṃ kṛtvā
-                        mukham apāvṛṇuyāt agṛhṇantyai kṣīrabinduṃ śoṇitabinduṃ vā dadyāc
-                        chastrapadāni vā kurvīta yady evam api na gṛhṇīyāt tadā'nyāṃ
+                        mukham apāvṛṇuyāt agṛhṇantyai kṣīrabinduṃ śoṇitabinduṃ vā dadyāt,
+                        śastrapadāni vā kurvīta yady evam api na gṛhṇīyāt tadā'nyāṃ
                         grāhayet || </l>
 
-                    <l xml:id="SS.1.13.20"><label>1931 ed. 1.13.19</label> yadā ca
+                    <l xml:id="SS.1.13.20"><label>1938 ed. 1.13.20</label> yadā ca
                         niviśate 'śvakhuravad ānanaṃ kṛtvonnamya ca skandhaṃ tadā jānīyād
-                        gṛhṇātīti cārdravastrāvacchannāṃ dhārayet secayec ca || </l>
+                        gṛhṇātīti gṛhṇantīṃ cārdravastrāvacchannāṃ kṛtvā dhārayet || </l>
 
-                    <l xml:id="SS.1.13.21"><label>1931 ed. 1.13.20</label> daṃśe
+                    <l xml:id="SS.1.13.21"><label>1938 ed. 1.13.21</label> daṃśe
                             toda<pc> </pc>kaṇḍu<pc> </pc>prādur<pc> </pc>bhāvair jānīyāc
                         chuddham iyam ādatta iti śuddham ādadānām apanayet atha
                         śoṇitagandhena na muñcen mukham asyāḥ saindhavacūrṇenāvakiret || </l>
 
-                    <l xml:id="SS.1.13.22"><label>1931 ed. 1.13.22</label> atha patitāṃ
+                    <l xml:id="SS.1.13.22"><label>1938 ed. 1.13.22</label> atha patitāṃ
                             taṇḍula<pc> </pc>kaṇḍana<pc> </pc>pradigdhagātrīṃ
                         tailalavaṇābhyaktamukhīṃ vāmahastāṅguṣṭhāṅgulībhyāṃ gṛhītapucchāṃ
                         dakṣiṇahastāṅguṣṭhāṅgulibhyāṃ śanaiḥ śanair anulomam anumārjayed ā
                         mukhāt vāmayet tāvad yāvat samyagvāntaliṅgānīti | samyagvāntā
-                            salilasaraka<pc> </pc>nyastā bhoktukāmā satī caret | yā sīdatī
+                            salilasarake<pc> </pc>nyastā bhoktukāmā satī caret | yā sīdatī
                         na ceṣṭate sā durvāntā tāṃ punaḥ samyag vāmayet | durvāntāyā
                         vyādhir asādhya indramado nāma bhavati | </l>
 
-                    <l xml:id="SS.1.13.22x">atha suvāntāṃ pūrvavat sannidadhyāt || </l>
+                    <l xml:id="SS.1.13.22y">atha suvāntāṃ pūrvavat sannidadhyāt || </l>
 
-                    <l xml:id="SS.1.13.23"><label>1931 ed. 1.13.23</label> śoṇitasya ca
-                        yogāyogān avekṣya śatadhautaghṛtābhyaṅgas tat picudhāraṇaṃ vāi;
-                        jalaukovraṇān madhunā'vaghaṭṭayet śitābhir adbhiś ca pariṣecayed
-                        badhnīta vā; kaṣāyamadhurasnigdhaśītaiś ca pradehaiḥ; pradihyād
-                        iti || </l>
 
-                    <l xml:id="SS.1.13.25"><label>1931 ed. 1.13.24</label> bhavati cātra |
+                    <l xml:id="SS.1.13.23"><label>1938 ed. 1.13.23</label> śoṇitasya
+                        yogāyogān avekṣya śatadhautaghṛtābhyaṅgas tat picudhāraṇaṃ vāi
+                        jalaukovraṇān madhunā 'vaghaṭṭayet śitābhir adbhiś pariṣecayed
+                        badhnīta vā kaṣāyamadhurasnigdhaśītaiś ca pradehaiḥ pradihyād iti
+                        || </l>
+
+                    <l xml:id="SS.1.13.25"><label>1938 ed. 1.13.24</label> bhavati cātra |
                         kṣetrāṇi grahaṇaṃ jātīḥ poṣaṇaṃ sāvacāraṇam |
                         <caesura/>
                          jalaukasāṃ ca yo vetti tat sādhyān sa jayed gadān || </l>
@@ -2401,7 +2415,7 @@
                     <l xml:id="SS.1.14.31"><label>1931 ed. 1.14.31</label> tasmānna śite
                         nātyuṣṇe nāsvinne nātitāpite |
                         <caesura/>
-                        yavāgūṃ pratipītasya śoṇitaṃ mokṣayed bhiṣak || </l>
+                         yavāgūṃ pratipītasya śoṇitaṃ mokṣayed bhiṣak || </l>
 
                     <l xml:id="SS.1.14.32ab"><label>1931 ed. 1.14.32ab</label> samyaggatvā
                         yadā raktaṃ svayamevāvatiṣṭhate | </l>
