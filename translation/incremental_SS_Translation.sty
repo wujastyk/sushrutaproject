@@ -192,12 +192,14 @@
 % Set up Bengali.
 %
 % We say \verb|\renew...| because Bangla is already defined 
-% in the file \texttt{xetex-generic.sty}. 
+% in the file \texttt{xetex-generic.sty}.  We renew the definition
+% here in case we want to choose a different Bengali font just
+% for this document. Note that we explicitly state the Script.
 %    \begin{macrocode}
-\renewfontfamily\bengalifont{Tiro Bangla}
+\renewfontfamily\bengalifont[Script=Bengali]{Tiro Bangla}
 \setotherlanguage{bengali}
 %    \end{macrocode}
-%  \end{macro}
+%   \end{macro}
 %
 % \section{Bibliography magic}
 %  \begin{macro}{\DeclareFieldFormat}
