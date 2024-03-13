@@ -17,7 +17,7 @@ These tables show the locations of the sthānas and adhyāyas of the Suśrutasa�
 ### Within the sthānas
 #### निदानस्थानम्
 
-| **Chapter nos IOL MS**     | **Vulgate No** | **Title** | **Foli nos** | **JPG No** | **Verses in vulgate** | **Verses in IOL ms** |
+| **Chapter nos IOL MS**     | **Vulgate No** | **Title** | **Fol. nos** | **JPG No** | **Verses in vulgate** | **Verses in IOL ms** |
 | -------------------------- | --- | --- | --- | --- | --- | --- |
 | 1                          | 1 | वातव्याधिनिदानम् | 1 | 4 | 91 | 98 |
 | 2                          | 2 | अर्शनिदानम् | 11 | 14 | 26 | 46 |
@@ -82,4 +82,20 @@ These tables show the locations of the sthānas and adhyāyas of the Suśrutasa�
 | 48                         | 48 | तृष्णाप्रतिषेध |  |  |
 | 49                         | 49 | छर्दिप्रतिषेध |  |  |
 | 50                         | 50 | हिक्काप्रतिषेध | 185 | 340 |
+|  |  |  |  |  |
+|  | 52 | kāsapratiṣedha | 202r | 345 |
+|  | 54 | kṛmiprati. | -178v |  |
+|  |  |  |  |  |
+| 57 | 57 | arocaka | 204-206 | 357-359 |
+|  |             |  |  |  |
+|  | 58 | mūtrakṛcchra-m-āghāta | 206-211 | 359-364 |
+| 59 | 58 | mūtrāghāta | 211-213 | 364-366 |
+|  | 60 | amānuṣī | 213-218 | 366-371 |
+|  | 61 | apasmāra | 218- | 371- |
+|  |  |  |  |  |
+|  | 64 | svasthavṛtta | -228r | -380 |
+|  |  |  |  |  |
+| 65 | 65 | tantrayukti | 228r-231r | 380-383 |
+|  | 66 | doṣabhedavikalpanīya | 231r-233 | 383-385 |
+|  |  |  |  |  |
 
