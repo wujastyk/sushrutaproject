@@ -53,6 +53,10 @@
             <idno type="siglum">NE</idno>
           </msIdentifier>
         </msDesc>
+        <listWit>
+          <witness xml:id="JKT">The <title>Jalpakalpataru</title>, <abbr type="siglum"
+              >JKT</abbr><idno type="siglum">Jalpakalpataru</idno></witness>
+        </listWit>
         <msDesc>
           <msIdentifier/>
           <physDesc>
@@ -8339,11 +8343,24 @@
             vyatyāsenoktānāṃ sannikṛṣṭaviprakṛṣṭānāṃ padārthānām ekīkaraṇam ||<anchor
               n="#SS.6.65.9-n1"/>
             <caesura/>
-             tailaṃ pibec cāmṛtavallinimba<pc> </pc>haṃsāhvayāvṛkṣakapippalībhiḥ |
+             tailaṃ pibec cāmṛtavalli<pc> </pc><app>
+              <lem>nimba</lem>
+              <rdg wit="#JKT">vilva</rdg>
+            </app><pc> </pc><app>
+              <lem>haṃsāhvayā</lem>
+              <rdg wit="#JKT">hiṃsrābhayā</rdg>
+            </app><pc> </pc>vṛkṣakapippalībhiḥ |
             <caesura/>
              siddhaṃ balābhyāñ ca sadevadāru hitāya nityaṃ galagaṇḍaroge ||<anchor n="SS.6.65.9-n2"/>
             <caesura/>
-             siddhaṃ pibed iti prathamaṃ vaktavye dvitīye pāde siddhaṃ prayuktam |
+             siddhaṃ pibed iti prathamaṃ vaktavye <app>
+              <lem>dvitīye pāde</lem>
+              <rdg wit="#JKT">tṛtīyapāde</rdg>
+            </app>
+            <app>
+              <lem>siddhaṃ</lem>
+              <rdg wit="#JKT">siddham iti</rdg>
+            </app> prayuktam |
             <caesura/>
              evan dūrasthānām api padārthānām ekīkaraṇaṃ yogaḥ || </l>
 
@@ -8378,14 +8395,42 @@
           </ab>
 
           <l xml:id="SS.6.65.10"><label>1938 ed. 6.65.10</label> yo 'rtho 'bhihitaḥ sūtre
-              pade<anchor n="SS.6.65.10-n1"/> vā sa padārthaḥ | padasya padayoḥ padānāṃ vā yo 'rthaḥ
-            sa padārthaḥ | aparimitāś ca padārthāḥ |
+              pade<anchor n="SS.6.65.10-n1"/> vā sa padārthaḥ | <app>
+              <lem>padasya padayoḥ padānāṃ vā yo 'rthaḥ sa padārthaḥ |</lem>
+              <rdg wit="#JKT"/>
+            </app> aparimitāś ca padārthāḥ |
             <caesura/>
-             yatra tu snehasvedābhyañjaneṣu dvayos trayāṇām vārthānām upapattir dṛśyate tatra yo
-            'rthaḥ pūrvāparayogasiddho bhavati | yathā vedotpattim adhyāyaṃ vyākhyāsyāma ity ukte
-            sandihyate buddhiḥ katamasya vedasyotpattiṃ vakṣyati | sāmavedādayaś ca vedāḥ |
-            pūrvāparam upalakṣya vinda vida ity etayoś ca dhātvor ekārthaḥ | paścāt padam bhavati
-            āyurvedotpattim ayaṃ vivakṣur iti eṣa padārthaḥ |</l>
+             yatra tu sneha<pc> </pc><app>
+              <lem>svedābhyañjaneṣu</lem>
+              <rdg wit="#JKT">svedāñjaneṣu nirddiṣṭeṣu</rdg>
+            </app> dvayos trayāṇāṃ vārthānām upapattir dṛśyate tatra yo 'rthaḥ pūrvāparayogasiddho
+            bhavati <app>
+              <lem>|</lem>
+              <rdg wit="#JKT">sa grahītavyaḥ |</rdg>
+            </app> yathā vedotpattim adhyāyaṃ vyākhyāsyāma ity ukte sandihyate buddhiḥ katamasya
+            vedasyotpattiṃ <app>
+              <lem>vakṣyati</lem>
+              <rdg wit="#JKT">vivakṣur iti</rdg>
+            </app> | <app>
+              <lem>sāmavedādayaś ca</lem>
+              <rdg wit="#JKT">ṛgvedādayas tu</rdg>
+            </app> vedāḥ | <app>
+              <lem>pūrvāparam upalakṣya</lem>
+              <rdg wit="#JKT">pūrvāparayogam upalabhya</rdg>
+            </app>
+            <app>
+              <lem>vinda vida</lem>
+              <rdg wit="#JKT">vid vicāraṇe vid vindati</rdg>
+            </app> ity etayoś ca dhātvor <app>
+              <lem>ekārthaḥ</lem>
+              <rdg wit="#JKT">anekārthayoḥ prayogaḥ</rdg>
+            </app> | paścāt <app>
+              <lem>padam</lem>
+              <rdg wit="#JKT">pratipattir</rdg>
+            </app> bhavati āyurvedotpattim ayaṃ vivakṣur iti <app>
+              <lem>eṣa</lem>
+              <rdg wit="#JKT">evaṃ</rdg>
+            </app> padārthaḥ |</l>
 
           <ab corresp="#SS.6.65.10" type="apparatus">
             <list type="Note">
@@ -8394,12 +8439,25 @@
             </list>
           </ab>
 
-          <l xml:id="SS.6.65.11"><label>1938 ed. 6.65.11</label> yad uktaṃ sādhanaṃ bhavati sa
-            hetvarthaḥ |
+          <l xml:id="SS.6.65.11"><label>1938 ed. 6.65.11</label>
+            <app>
+              <lem>yad uktaṃ sādhanaṃ</lem>
+              <rdg wit="#JKT">yad anyad uktam anyārthasādhakaṃ</rdg>
+            </app> bhavati sa hetvarthaḥ |
             <caesura/>
-             yathā mṛtpiṇḍo 'dbhiḥ praklidyate tathā māṣadugdhaprabhṛtibhir vraṇaḥ klidyate || </l>
+             yathā mṛtpiṇḍo 'dbhiḥ praklidyate tathā māṣa<pc> </pc><app>
+              <lem>dugdha</lem>
+              <rdg wit="#JKT">mudga</rdg>
+            </app><pc> </pc>prabhṛtibhir vraṇaḥ klidyate || </l>
 
-          <l xml:id="SS.6.65.12"><label>1938 ed. 6.65.12</label> samāsavacanaṃ samuddeśaḥ |
+          <l xml:id="SS.6.65.12"><label>1938 ed. 6.65.12</label> samāsa<pc> </pc><app>
+              <lem>vacanaṃ</lem>
+              <rdg wit="#JKT">kathanam</rdg>
+            </app>
+            <app>
+              <lem>samuddeśaḥ</lem>
+              <rdg wit="#JKT">uddeśaḥ</rdg>
+            </app> |
             <caesura/>
              yathā śalyam iti || </l>
 
@@ -8427,7 +8485,10 @@
           <l xml:id="SS.6.65.16"><label>1938 ed. 6.65.16</label> prakṛtasyātikrāntena sādhanaṃ
             pradeśaḥ |
             <caesura/>
-             yathā devadattasyānena śalyam uddhṛtaṃ yajñadattasyāyam uddhariṣyatīti || </l>
+             yathā devadattasyānena śalyam uddhṛtaṃ <app>
+              <lem>yajñadattasyāyam</lem>
+              <rdg wit="#JKT">tasmād yajñadattasyāpy ayam eva</rdg>
+            </app> uddhariṣyatīti || </l>
 
           <l xml:id="SS.6.65.17"><label>1938 ed. 6.65.17</label> prakṛtasyānāgatena sādhanam
             atideśaḥ |
