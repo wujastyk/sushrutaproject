@@ -2,7 +2,7 @@
     <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
         <fileDesc>
             <titleStmt>
-                <title>Suśrutapāthaśuddhi of Candraṭa</title>
+                <title>Suśrutapāthaśuddhi of Candraṭa: Sūtrasthāna</title>
             </titleStmt>
             <publicationStmt>
                 <p>Suśruta project, University of Alberta</p>
@@ -23,7 +23,7 @@
                         <msItem defective="true" n="1">
                             <!-- @defective: 'false' for complete, 'true' for incomplete -->
                             <author role="author" xml:lang="sa">Suśruta</author>
-                            <title xml:lang="sa">Suśrutapāṭhaśuddh</title>
+                            <title xml:lang="sa">Suśrutapāṭhaśuddhi</title>
                             <author>Candraṭa</author>
                             <title type="commentary" xml:lang="sa">[title of
                                 commentary]</title>
@@ -67,10 +67,11 @@
   <text xml:lang="sa-Latn">
 
     <body>
-      
+      <div n="1" type="sthāna">
+        
       <div n="12" type="adhyāya">
       
-      <head>Adhyāya 1.12</head>
+
       
         <milestone unit="folio" n="IOL San 2646 (Eggeling) - 139"/>
         
@@ -353,7 +354,7 @@
         <p ana="trailer"><hi rend="bold">iti sūtrasthānanibaṃdhasaṃgrahe dvādaśo '<lb n="4"/>dhyāyaḥ || |.12||</hi></p>
         
       </div>  
-      
+      </div>      
       
     </body>
   </text>
