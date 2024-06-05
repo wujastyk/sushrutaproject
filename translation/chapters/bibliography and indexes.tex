@@ -32,15 +32,20 @@ heading=bibintoc]
     title=Materia Medica Reference Works,
     keyword=botanical]
     
-    \renewcommand{\glossaryname}{Flora and Fauna}
+    %\renewcommand{\glossaryname}{Flora and Fauna}
+    \newpage
+    \renewcommand{\glossaryname}{Materia Medica}
     % If you want to print all the glossary entries, 
     % use the selection=all option in \GlsXtrLoadResources (see 
     % xelatex-glossaries.sty.
     %
-    \printunsrtglossaries % plant names.  iterate over all defined entries 
+    %\printunsrtglossaries % plant names.  iterate over all defined entries 
     %% the setup for the glossaries package is in xelatex-indexing etc.
     %%
+    \printunsrtglossary[type=plant]
+    \printunsrtglossary[type=animal]
     
+\clearpage % prevent the page heading “Glossary” printing on previous page
     \chaptermark{Glossary}\sectionmark{Glossary}
     \printindex[lexical]  
     \clearpage
