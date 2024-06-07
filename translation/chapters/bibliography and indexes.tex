@@ -32,13 +32,25 @@ heading=bibintoc]
 %    \defbibheading{bibliography}[\bibname]{%
 %        \subsection*{#1}%
 %        \addxcontentsline{toc}{subsection}{#1}}
+       
+       
+    \chapter{Materia Medica}
         
-    \printshorthands[heading=biblistintoc,
-    title=Reference Works,
-    keyword=botanical]
+   
+   % Take the heading of the Abbreviations down from chapter to section:
+   \defbibheading{biblistintoc}[\bibname]{%
+       \addcontentsline{toc}{section}{#1}%
+       \section*{#1}%
+       \markboth{#1}{#1}}
+       
+   % \bibfont{\footnotesize }    
+    \printbiblist[
+    heading=biblistintoc,
+    title=Abbreviations,
+    keyword=botanical]{shorthand}
     
     %\renewcommand{\glossaryname}{Flora and Fauna}
-    \newpage
+    %\newpage
    % \renewcommand{\glossaryname}{Materia Medica}
    
     % If you want to print all the glossary entries, 
@@ -50,14 +62,17 @@ heading=bibintoc]
     %%
  
      
-    \printunsrtglossary[type=plant]
-    \printunsrtglossary[type=animal]
+    \printunsrtglossary[type=plants]
+ 
+    \printunsrtglossary[type=animals]
     
 \clearpage % prevent the page heading “Glossary” printing on previous page
     \chaptermark{Glossary}\sectionmark{Glossary}
     \printindex[lexical]  
-    \clearpage
     %
+    
+    \clearpage
+    % Todo list
 \end{footnotesize}
 
 \thispagestyle{empty}
