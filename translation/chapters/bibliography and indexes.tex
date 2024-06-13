@@ -4,12 +4,12 @@
 \nocite{*} % include everything from the bib file in the bibliography
 
 \printbiblist[%
-    heading=biblistintoc,
-    title=Editions and Abbreviations,
-    notkeyword=botanical
-    %
-    ]
-    {shorthand} % the Abbreviations (shorthands)
+heading=biblistintoc,
+title=Editions and Abbreviations,
+notkeyword=botanical
+%
+]
+{shorthand} % the Abbreviations (shorthands)
 
 \indexprologue{\emph{\footnotesize Numbers after the final 
         colon refer to pages in this book.}} 
@@ -17,35 +17,62 @@
 \printindex[manuscripts]
 
 \printbibliography[notkeyword=edition,
-    notkeyword=shorthand,
-    notkeyword=botanical,
-    heading=bibintoc]
+notkeyword=shorthand,
+notkeyword=botanical,
+heading=bibintoc]
 
 \newpage
 
 \begin{footnotesize}
     
-% Skt-Eng and Eng-Skt of \se{}{} words
-%\printindex[lexical]  
+    % Skt-Eng and Eng-Skt of \se{}{} words
+    %\printindex[lexical]  
+%\chapter{Materia Medica}    
+%    
+%    \defbibheading{bibliography}[\bibname]{%
+%        \subsection*{#1}%
+%        \addxcontentsline{toc}{subsection}{#1}}
+       
+       
+    \chapter{Materia Medica}
+        
    
-\printshorthands[heading=biblistintoc,
-title=Materia Medica Reference Works,
-keyword=botanical]
-
-\renewcommand{\glossaryname}{Materia Medica}
-% If you want to print all the glossary entries, 
-% use the selection=all option in \GlsXtrLoadResources (see 
-% xelatex-glossaries.sty.
-%
-\printunsrtglossaries % plant names.  iterate over all defined entries 
-%% the setup for the glossaries package is in xelatex-indexing etc.
-%%
-
-\chaptermark{Glossary}\sectionmark{Glossary}
-\printindex[lexical]  
-\clearpage
-%
+   % Take the heading of the Abbreviations down from chapter to section:
+   \defbibheading{biblistintoc}[\bibname]{%
+       \addcontentsline{toc}{section}{#1}%
+       \section*{#1}%
+       \markboth{#1}{#1}}
+       
+   % \bibfont{\footnotesize }    
+    \printbiblist[
+    heading=biblistintoc,
+    title=Abbreviations,
+    keyword=botanical]{shorthand}
+    
+    %\renewcommand{\glossaryname}{Flora and Fauna}
+    %\newpage
+   % \renewcommand{\glossaryname}{Materia Medica}
+   
+    % If you want to print all the glossary entries, 
+    % use the selection=all option in \GlsXtrLoadResources (see 
+    % xelatex-glossaries.sty.
+    %
+    %\printunsrtglossaries % plant names.  iterate over all defined entries 
+    %% the setup for the glossaries package is in xelatex-indexing etc.
+    %%
+ 
+     
+    \printunsrtglossary[type=plants]
+ 
+    \printunsrtglossary[type=animals]
+    
+\clearpage % prevent the page heading “Glossary” printing on previous page
+    \chaptermark{Glossary}\sectionmark{Glossary}
+    \printindex[lexical]  
+    %
+    
+    \clearpage
+    % Todo list
 \end{footnotesize}
 
 \thispagestyle{empty}
-
