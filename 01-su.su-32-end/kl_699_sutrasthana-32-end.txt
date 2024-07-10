@@ -1,5 +1,5 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader xmlns="http://www.tei-c.org/ns/1.0"> 
+    <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
         <fileDesc>
             <titleStmt>
                 <title>MS Kathmandu KL 699: Sūtrasthāna 32-end</title>
@@ -139,11 +139,10 @@
         <body>
             <div n="1" type="sthāna">
 
-      
+
 
                 <div n="32" type="adhyāya">
-                    <milestone n="29v2" unit="folio"/>
-                    <!-- 029V IMG_0119.JPG-->
+                    <milestone n="29v2" unit="folio" facs="029V IMG_0119.JPG"/>
 
                     <l xml:id="SS.1.32.1"> athātaḥ svabhāvavipratipattiṃ <abbr>vyā</abbr>
                         <expan>vyā<ex>khyāsyāmaḥ</ex></expan> || </l>
@@ -181,15 +180,15 @@
                         />srastapiṇḍakāṃsapāṇipādaḥ | yaś ca pūrvāhṇe bhuktam aparāhṇe ścharddayaty
                         avidagdhaṃ sāryate vā jvarakāsābhibhūtaḥ sa śvāsān mriya<cb n="2"/>te |
                         vastavad vilapamāno bhūmau patati srastamuṣkaḥ stabdhaśepo bhagnagrīvaḥ
-                        praṇaṣṭamehaś ca <lb n="7"/>manuṣyaḥ prāgviśuṣyamāṇa<add place="bottom
-                            margin" rend="kākapada">hṛdaya</add> ārdraśarīraḥ | yaś ca loṣṭaṃ
-                        loṣṭenābhihanti | kāṣṭham vā kāṣṭhena tṛṇā<cb n="1"/>ni vā cchinatti |
-                        adharoṣṭhaṃ vā daśati uttaroṣṭhaṃ vā leḍhi | āluñcati karṇṇau keśāṃś ca |
-                        devadvijagurusuhṛdvaidyāṃ vā vidveṣṭi <cb n="2"/>yasya ca vakrānuvakragā
-                        grahā garhitasthānagatāḥ | janmaṛkṣam vāsyolkāśanibhyām abhihanyate
-                            <milestone n="29v7" unit="folio"/>
-                            <!-- folio missing --></l>
-                            <gap unit="folio" n="38"/>
+                        praṇaṣṭamehaś ca <lb n="7"/>manuṣyaḥ prāgviśuṣyamāṇa<add
+                            place="bottom                             margin" rend="kākapada"
+                            >hṛdaya</add> ārdraśarīraḥ | yaś ca loṣṭaṃ loṣṭenābhihanti | kāṣṭham vā
+                        kāṣṭhena tṛṇā<cb n="1"/>ni vā cchinatti | adharoṣṭhaṃ vā daśati uttaroṣṭhaṃ
+                        vā leḍhi | āluñcati karṇṇau keśāṃś ca | devadvijagurusuhṛdvaidyāṃ vā
+                        vidveṣṭi <cb n="2"/>yasya ca vakrānuvakragā grahā garhitasthānagatāḥ |
+                        janmaṛkṣam vāsyolkāśanibhyām abhihanyate <milestone n="29v7" unit="folio"/>
+                        <!-- folio missing --></l>
+                    <gap unit="folio" n="38"/>
 
                     <l xml:id="SS.1.32.5"/>
                     <!-- folios 30 to 67 are missing :( -->
@@ -219,16 +218,8 @@
 
     <facsimile>
 
-        <graphic n="1v" url="https://www.dropbox.com/s/9wz8gbyeg3ox6t8/001v%20IMG_0126.JPG?dl=0"/>
-
-        <graphic n="2r" url="https://www.dropbox.com/s/spy14rcvdgxn8s2/002r%20IMG_0111.JPG?dl=0"/>
-        <graphic n="15v" url="https://www.dropbox.com/s/o5n0zhce4oyc06m/015v%20IMG_0065.JPG?dl=0"/>
-        <!-- missing folia -->
-        <graphic n="17r" url="https://www.dropbox.com/s/zqngdiuem88xg2x/017r%20IMG_0065.JPG?dl=0"/>
-        <graphic n="17v" url="https://www.dropbox.com/s/a7ondch5xqyco40/017v%20IMG_0066.JPG?dl=0"/>
-        <!-- missing folia -->
-        <graphic n="21r" url="https://www.dropbox.com/s/rpj0jjzxwtdflhi/021r%20IMG_0112.JPG?dl=0"/>
-        <graphic n="21v" url="https://www.dropbox.com/s/8ke3zpj0sffe3j1/021v%20IMG_0113.JPG?dl=0"/>
+        <graphic n="29v"
+            url="https://uc9bda1721422332ff434c9da127.previews.dropboxusercontent.com/p/thumb/ACVdf9daOCezH6RvDAkp5nI_FzA7oijpixI_83gyhgFC2DdhF92omCVUkpjbOkgNiC99UPdSizS61fRkF-740IoWQYu8tvQABDhk_la0fAQ-CLRZ8GUBC_dB5dzyhabuRX1v0cu6L-pGD5jn5C7Q1wgBZsm2H-B6WxULqQA0awVbvrC2dVotE9iXfg5O_Qwus4x2u-yvu3_hGq4C9ph-AWAQ-3pbaEFHBwnsM_INDVMGBeHTct4AsPde3Wbx_ZWB5BKsZA9GMC0xDECohkOeXzPRNPPOiznGLTMu2r4HVT2Ad9-ZCBzD6jj-59FWw9_m2gfK8PNvdHBGqyoBR0zTO17EuNgP6XgJtt41h5ioh6Ok6A/p.jpeg"/>
 
     </facsimile>
 
