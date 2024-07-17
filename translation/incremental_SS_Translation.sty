@@ -445,5 +445,22 @@
 %    \end{macrocode}
 % \end{macro}
 %
+%\subsection{Private, local commands}
+%\begin{macro}{\egls}
+% Print the glossary entry followed by the transliterated 
+% Sanskrit in parentheses
+%    \begin{macrocode}
+\newcommand{\egls}[1]{\gls{#1} (\emph{#1})}
+%    \end{macrocode}
+%\end{macro}
+%
+%\begin{macro}{\gvdb}
+%  Shorthand for references to \verb|\cite{gvdb}| that I use very often
+%    \begin{macrocode}
+\newcommand{\gvdb}[1]{\cite[#1]{gvdb}}
+\newcommand{\gvdbt}[1]{\citet[#1]{gvdb}}
+%    \end{macrocode}
+%\end{macro}
+%
 %     \newpage
 %    \PrintIndex  
