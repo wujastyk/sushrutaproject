@@ -71,7 +71,7 @@
 
         </fileDesc>
 
-        <xenoData>
+        <!--     <xenoData>
             <stemma format="nexml">
                 <nex:nexml generator="SplitsTree6" version="0.9"
                     xmlns:nex="http://www.nexml.org/2009" xmlns="http://www.nexml.org/2009"
@@ -95,7 +95,7 @@
                     </trees>
                 </nex:nexml>
             </stemma>
-        </xenoData>
+        </xenoData>-->
 
 
         <revisionDesc>
@@ -108,7 +108,8 @@
                 provisional edition files.</change>
             <change when="2024-02-05" who="Lisa Brooks">The numbering and text of SS.1.13 are
                 collated against the 1938 edition, not the 1931 edition.</change>
-            <change when="2024-06-24" who="Deepro Chakraborty">Finalized the edition of SS.1.8</change>
+            <change when="2024-06-24" who="Deepro Chakraborty">Finalized the edition of
+                SS.1.8</change>
         </revisionDesc>
 
     </teiHeader>
@@ -208,7 +209,23 @@
                         upadiśyate | atra kasmai kiṃ varṇyatām iti |</l>
 
                     <l xml:id="SS.1.1.10"><label>1931 ed. 1.1.10</label> ta ūcur asmākaṃ sarvam eva
-                        śalyajñānam upadiśatu bhagavān iti | </l>
+                        śalyajñānam alaṅkṛtvopadiśatu bhagavān iti |<anchor n="SS.1.1.10-n1"/>
+                    </l>
+
+                    <ab corresp="#SS.1.1.10" type="apparatus">
+                        <list type="notes">
+                            <item corresp="#SS.1.1.10-n1">We follow the reading of MSS H and N, pace
+                                Harimoto 2013, in spite of the fact that
+                                    <foreign>alaṃkṛ[tvā]</foreign> is a marginal addition in K. K is
+                                badly damaged at this point, so it is not completely clear what
+                                happend to the manuscript, although it does look as if the word was
+                                not included in the text and was added by a different hand. But H is
+                                usually a faithful witness to the same text as K, and in this case
+                                even N concurs. The use of <foreign>alaṅkṛtvā</foreign> in the sense
+                                "make accessible" is slightly unusual and probably explains the
+                                later banalization to <foreign>mūla</foreign>. </item>
+                        </list>
+                    </ab>
 
                     <l xml:id="SS.1.1.11"><label>1931 ed. 1.1.11</label> sa uvācaivam astv iti |</l>
 
@@ -239,7 +256,8 @@
                         prajāpatir adhijage tasmād aśvināv aśvibhyām indra indrād ahaṃ mayā tv iha
                         pradeyam arthibhyaḥ prajāhitahetoḥ |</l>
 
-                    <l xml:id="SS.1.1.21">bhavati cātra |<anchor n="SS.1.1.21-n1"/>
+                    <l xml:id="SS.1.1.21"><label>1931 ed. 1.1.21</label>bhavati cātra |<anchor
+                            n="SS.1.1.21-n1"/>
                         <caesura/>
                          ahaṃ hi dhanvantarir ādidevo jarārujāmṛtyuharo marāṇāṃ |
                         <caesura/>
@@ -247,7 +265,7 @@
 
                     <ab corresp="#SS.1.1.21" type="apparatus">
                         <list type="notes">
-                            <item corresp="#SS.1.1.21-n1">The Nepalese witnesses use the
+                            <item corresp="#SS.1.1.21-n1">The Nepalese witnesses commonly use the
                                 abbreviation "<foreign>bha</foreign>" for "<foreign>bhavati
                                     cātra</foreign>", introducing the next verse.</item>
                         </list>
@@ -276,6 +294,7 @@
 
                     <l xml:id="SS.1.1.23"><label>1931 ed. 1.1.23</label> tadduḥkhasaṃyogā vyādhaya
                         ity ucyante |</l>
+
                     <l xml:id="SS.1.1.24"><label>1931 ed. 1.1.24</label> te caturvidhā āgantavaḥ
                         śārīrā mānasā svābhāvikāś ceti | teṣv āgantavo 'bhighātanimittāḥ |</l>
 
@@ -290,8 +309,10 @@
                         | </l>
                     <l xml:id="SS.1.1.25.4"><label>1931 ed. 1.1.25.4</label> svābhāvikās tu
                         kṣutpipāsājarāmṛtyunidrāprakṛtayaḥ | </l>
+
                     <l xml:id="SS.1.1.26"><label>1931 ed. 1.1.26</label> ta ete manaḥśarīrādhiṣṭhānā
                         bhavanti |</l>
+
                     <l xml:id="SS.1.1.27"><label>1931 ed. 1.1.27</label> teṣāṃ
                         lekhanabṛmhaṇasaṃśodhanasaṃśamanāhārācārāḥ samyak prayuktā nigrahahetavo
                         bhavanti | </l>
@@ -337,7 +358,8 @@
                     <l xml:id="SS.1.1.34"><label>1931 ed. 1.1.34</label> svabhāvata eva doṣāṇāṃ
                         sañcayaprakopopaśamapratīkārahetavo bhavanti | prayojanavantaś ca | </l>
 
-                    <l xml:id="SS.1.1.35">bha |
+                    <l xml:id="SS.1.1.35">
+                        <expan>bha<ex>vanti cātra</ex></expan> |
                         <caesura/>
                         <label>1931 ed. 1.1.35x</label> śārīrāṇāṃ vikārāṇām eṣa vargaś caturvidhaḥ |
                         <caesura/>
@@ -362,10 +384,11 @@
                         ādeśaḥ | kriyāgrahaṇāt snehādīni cchedyādīni ca karmāṇy upadiṣṭāni bhavanti
                         | kālagrahaṇāt sarva eva kriyākālādeśaḥ | </l>
 
-                    <l xml:id="SS.1.1.39x"> bha |</l>
 
-                    <l xml:id="SS.1.1.39"><label>1931 ed. 1.1.39</label> bījañ cikitsitasyaitat
-                        samāsena prakītam |
+
+                    <l xml:id="SS.1.1.39"><label>1931 ed. 1.1.39</label> bhavati cātra
+                        <caesura/>
+                        bījañ cikitsitasyaitat samāsena prakītam |
                         <caesura/>
                          saviṃśam adhyāyaśatam asya vyākhyā bhaviṣyati || </l>
 
