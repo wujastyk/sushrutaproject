@@ -1,9 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model
-  href="https://vault.tei-c.org/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng"
-  schematypens="http://relaxng.org/ns/structure/1.0"
-  type="application/xml"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+﻿<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
         <fileDesc>
             <titleStmt>
@@ -1977,17 +1972,17 @@
                     <head xml:lang="en">[Adhyāya 13 (based on H alone up to v. 22 and collated
                         against the 1938 edition, not the 1931 one.)]</head>
 
-                    <l xml:id="SS.1.13.1"><label>1938 ed. 1.13.1</label> athāto jalāyukādhyāyaṃ
+                    <l xml:id="SS.1.13.1"><label>1 (1938 ed. 1.13.1)</label> athāto jalāyukādhyāyaṃ
                         vyākhyāsyāmaḥ || </l>
 
                     <l xml:id="SS.1.13.2"/>
 
-                    <l xml:id="SS.1.13.3"><label>1938 ed. 1.13.3</label> nṛpāḍhya<pc
+                    <l xml:id="SS.1.13.3"><label>2 (1938 ed. 1.13.3)</label> nṛpāḍhya<pc
                             > </pc>sukumāra<pc> </pc>bāla<pc> </pc>sthavira<pc> </pc>bhīru<pc
                         > </pc>nārīṇām anugrahārthaṃ paramasukumāro 'yaṃ śoṇitāvasecanopāyo 'bhihito
                         jalaukasaḥ || </l>
 
-                    <l xml:id="SS.1.13.4"><label>1938 ed. 1.13.4</label> tatra
+                    <l xml:id="SS.1.13.4"><label>3 (1938 ed. 1.13.4)</label> tatra
                         vātapittakaphaduṣṭaśoṇitaṃ yathāsaṃkhyaṃ śṛṅgajalaukālābubhir avasecayet |
                         sarvvāṇi sarvvair vā <app><lem>viśeṣas tu</lem><rdg wit="#NAK_1-1146">viśeṣas tu </rdg></app> 
                         visrāvyaṃ ||<anchor n="SS.1.13.4-n1"/>
@@ -2002,13 +1997,13 @@
                     </ab>
 
 
-                    <l xml:id="SS.1.13.5"><label>1938 ed. 1.13.5</label> bhavanti cātra ||
+                    <l xml:id="SS.1.13.5"><label>4 (1938 ed. 1.13.5)</label> bhavanti cātra ||
                         <caesura/>
                          snigdhaṃ ślakṣṇaṃ sumadhuraṃ gavāṃ śṛṅgaṃ prakīrttitaṃ |
                         <caesura/>
                          tasmād vātopasṛṣṭe tu hitan tad avasecane || </l>
 
-                    <l xml:id="SS.1.13.5.1"> arddhacandrākṛti mahattanu saptāṅgulāyataṃ |
+                    <l xml:id="SS.1.13.5.1"><label>5 </label> arddhacandrākṛti mahattanu saptāṅgulāyataṃ |
                         <caesura/>
                          pracchite dāpayet pūrvvam āsyenācūṣayed balī || 
                     <anchor n="SS.1.13.5.1-n1"/>
@@ -2024,7 +2019,7 @@
                         </list>
                     </ab>
 
-                    <l xml:id="SS.1.13.6"><label>1938 ed. 1.13.6</label> śītādhivāsā madhurā jalaukā
+                    <l xml:id="SS.1.13.6"><label>6 (1938 ed. 1.13.6)</label> śītādhivāsā madhurā jalaukā
                         vārisaṃbhavā |
                         <caesura/>
                          tasmāt pittopasṛṣṭe tu hitās tā avasecane || </l>
@@ -2154,8 +2149,9 @@
                         dakṣiṇahastāṅguṣṭhāṅgulībhyāṃ śanaiḥ śanair anulomamārjjayann ā mukhād
                         vāmayec ca yāvat samyagvānteti | samyagvāntā salilasarake nyastā bhoktukāmā
                         satī cared | yā sīdati na ceṣṭate sā durvvāntā punaḥ samyag vāmayet |
-                        durvāntāyās tu indrapado nāma vyādhir asādhyo bhavati | 
-                        <caesura/>
+                        durvāntāyās tu indrapado nāma vyādhir asādhyo bhavati | </l>
+                        
+                        <l xml:id="SS.1.13.22.1"><label>23</label> 
                         aprahṛṣṭaśiraḥ pāti kāyenodveṣṭate sakṛt |
                         <caesura/>
                          yā coṣṇaṃ kurute toyaṃ tasyām indrapadaḥ smṛtaḥ ||<anchor
@@ -2169,21 +2165,24 @@
                                     <foreign>aprahṛṣṭaśiraḥpādakāyenodveṣṭate sakṛt | yā coṣṇaṃ
                                     kurute tāpaṃ tasyām indramadaḥ smṛtaḥ</foreign> (Ācārya 1938:
                                 58, n. 4).</item>
+                            <item>A version of the third pāda of this verse appears as the last sentence
+                                of 1.13.22 in the vulgate edition (Ācārya 1938:
+                                58).</item>
                         </list>
                     </ab>
 
 
-                    <l xml:id="SS.1.13.23"><label>1938 ed. 1.13.23</label> śoṇitasya ca yogāyogam
+                    <l xml:id="SS.1.13.23"><label>24 (1938 ed. 1.13.23)</label> śoṇitasya ca yogāyogam
                         avekṣya jalaukāmukhaṃ madhunāvaghaṭṭayet | badhnīta vā
                         kaṣāyamadhurasnigdhaśītaiś ca pradehaiḥ pradihyād iti || </l>
 
-                    <l xml:id="SS.1.13.23.1"> bhavati cātra ||
+                    <l xml:id="SS.1.13.23.1"> <label>25</label>bhavati cātra ||
                         <caesura/>
                          pītamātre jalaukābhir ghṛtena pariṣecayet |
                         <caesura/>
                          śoṇitasthāpanīyaiś ca śoṇitaṃ pariṣecayet</l>
 
-                    <l xml:id="SS.1.13.24"><label>1938 ed. 1.13.24</label> kṣetrāṇi grahaṇañ cāpi
+                    <l xml:id="SS.1.13.24"><label>26 (1938 ed. 1.13.24)</label> kṣetrāṇi grahaṇañ cāpi
                         poṣaṇaṃ sāvacāraṇam |
                         <caesura/>
                          jānīyād yo jalaukānāṃ sa rājñaḥ karttum arhati || </l>
