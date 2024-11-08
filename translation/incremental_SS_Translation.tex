@@ -2,7 +2,7 @@
 % !TeX encoding = UTF-8
 % !TeX spellcheck = en_GB
 \documentclass[12pt,
-     %taking out draft switches off marginal notes
+ %    draft,     %taking out draft switches off marginal notes and on pictures
     ]{book} 
 \usepackage{incremental_SS_Translation} % all customizations in 
 %this file
@@ -16,8 +16,17 @@
 %\sariratrue
 %
 \ifkalpa  \includeonly{%  this is all a bit pointless, but still.  I'll get rid of it later.
+    chapters/introduction,
+    chapters/translation 5-introduction,
+    chapters/translation 5-01,
+    chapters/translation 5-02,
+    chapters/translation 5-03,
+    chapters/translation 5-04,
+    chapters/translation 5-05,
     chapters/translation 5-06,
-    chapters/bibliography and indexes
+    chapters/translation 5-07,
+    chapters/translation 5-08,
+%    chapters/bibliography and indexes
     }
     \fi
 \ifsarira \includeonly{chapters/translation 3-02,
