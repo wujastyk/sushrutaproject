@@ -15,6 +15,35 @@
 %    \end{macrocode}
 %  \end{environment}
 %
+% \begin{macro}{\if}
+% Here are some private conditionals because I keep having to 
+% process different parts of the book separately.  Delete all this
+% one day.
+%
+% Create some new conditionals and then the 
+% bits of the book that they include or don't include. 
+% In the main document, say \verb|\kalpatrue| to process the just 
+% kalpa files, mutatis mutandis.
+%    \begin{macrocode}
+\newif\ifkalpa 
+\newif\ifsarira 
+\newif\ifjvara 
+%
+\ifkalpa  \includeonly{
+    %chapters/translation 5-02,
+    chapters/translation 5-06,
+    %    chapters/bibliography and indexes
+}
+\fi
+\ifsarira \includeonly{chapters/translation 3-03,
+    %    chapters/bibliography and indexes
+} 
+\fi       
+\ifjvara
+\includeonly{chapters/translation 6-39}
+\fi       
+% end of conditionals
+% \end{macro}
 %    \begin{environment}{hyperref}
 %Here we load hyperref and set the colours
 %we want for hyperlinking.
@@ -165,11 +194,11 @@
 \renewfontfamily\devanagarifont
     [Script=Devanagari,
     FakeStretch=1.05,
-    Mapping=RomDev, %prefer slightly to iast
+    Mapping=RomDev, %prefer RomDev slightly to iast. RomDev needs a{}ṃś, 
+    %see https://github.com/somadeva/RomDev/issues/4
     ]
 % {Murty Sanskrit}
 % {Sahadeva}
-% {Tiro Devanagari Sanskrit} % pretty good, with excellent roman
 %    {Sanskrit  2003} % hard to beat, but poor roman
 {Tiro Devanagari Sanskrit} % as good as Sanskrit 2003, better roman, less 
 % contrast with Latin text.
