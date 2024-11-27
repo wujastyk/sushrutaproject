@@ -1,24 +1,22 @@
-\RequirePackage{snapshot}
+%\RequirePackage{snapshot}
 % !TeX encoding = UTF-8
 % !TeX spellcheck = en_GB
 \documentclass[12pt,
 %    draft,     %taking out draft switches marginal notes off and pictures on
     ]{book} 
-    %
-% some conditional shortcuts for working on specific chapters
-\newif\ifkalpa \newif\ifsarira \newif\ifjvara
-%
-%\kalpatrue
-%\sariratrue
-%\jvaratrue
-
-
-\usepackage{incremental_SS_Translation} % all customizations in 
-%this file
+\usepackage{incremental_SS_Translation} 
 \addbibresource{incremental_SS_Translation.bib}
-%
 
-    
+% private macros for switching between chapters    
+\newif\ifkalpa \newif\ifsarira \newif\ifjvara   
+
+%\kalpatrue
+
+\ifkalpa \includeonly{chapters/translation 5-06} \fi
+\ifsarira \includeonly{chapters/translation 3-03} \fi       
+\ifjvara  \includeonly{chapters/translation 6-39} \fi        
+
+
 \title{A Translation of the Nepalese Text of the \SS}
 \author{Dominik Wujastyk 
     \and Jason Birch
