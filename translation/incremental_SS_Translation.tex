@@ -8,12 +8,18 @@
 \addbibresource{incremental_SS_Translation.bib}
 
 % private macros for switching between chapters    
-\newif\ifkalpa \newif\ifsarira \newif\ifjvara   
+\newif \ifkalpa \newif\ifsarira \newif \ifjvara   
 
 %\kalpatrue
+%\sariratrue
 
-\ifkalpa \includeonly{chapters/translation 5-06} \fi
-\ifsarira \includeonly{chapters/translation 3-03} \fi       
+\ifkalpa \includeonly{%chapters/translation 5-introduction,
+%chapters/translation 1-13,    
+chapters/translation 5-06,    
+%chapters/bibliography and indexes
+} \fi
+\ifsarira \includeonly{chapters/translation 3-03,
+    chapters/bibliography and indexes} \fi       
 \ifjvara  \includeonly{chapters/translation 6-39} \fi        
 
 
@@ -30,6 +36,10 @@
     \and et alii}
 \date{\texttt{Draft of \today}\\ \copyright\ The Authors}
 %
+% from 
+%https://tex.stackexchange.com/questions/361031/biblatex-how-to-automatically-sort-citation-by-year-sortcites-ynt-when-refere/361042#361042
+\AtBeginRefsection{\GenRefcontextData{sorting=ynt}}
+\AtEveryCite{\localrefcontext[sorting=ynt]}
 
 \begin{document}
     
