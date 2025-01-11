@@ -24,5 +24,5 @@ This chart is a statement of intentions written in 2019, before the pandemic and
 
 ![plan](https://user-images.githubusercontent.com/762246/227660978-7a9a1f91-baa9-4595-adea-fb7fb8d964cb.png)
 
-
+The project completed in April 2024.  At the time of writing (Jan 2025) work continues on writing and publishing project results.
 
