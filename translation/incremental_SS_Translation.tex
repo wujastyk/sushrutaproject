@@ -7,6 +7,7 @@
 \usepackage{incremental_SS_Translation} 
 \addbibresource{incremental_SS_Translation.bib}
 
+\newcommand{\ignoreargument}[1]{\empty }
 
 
 % private macros for switching between chapters    
@@ -16,16 +17,15 @@
 \newif\ifsutra
 \newif\ifnidana
 
-%\nidanatrue
+\nidanatrue
 %\kalpatrue
 %\sariratrue
-% \sutratrue
+%\sutratrue
 
 \ifkalpa \includeonly{%chapters/translation 5-introduction,
-    %chapters/translation 5-04,    
     %chapters/translation 5-06,    
     chapters/translation 5-08,    
-   chapters/bibliography and indexes
+%   chapters/bibliography and indexes
 } \fi
 \ifsutra
 \includeonly{%chapters/translation 5-introduction,
@@ -97,7 +97,7 @@
         
         \part{Part 2. Nidānasthāna}
         
-        \include{chapters/translation 2-01}
+        \include{chapters/translation 2-01} % Harshal, vātavyādhi
             \thispagestyle{empty}
         
         \part{Part 3. Śārīrasthāna}

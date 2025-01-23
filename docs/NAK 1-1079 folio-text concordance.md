@@ -119,10 +119,11 @@ In the table below we record the following information:
 | 49v | 51.jpg upper | | | | 1.46.446-471 | |
 | 50r | 51.jpg lower | | | | 1.46.471-500 | |
 | 50v | 52.jpg upper | | | | 1.46.500-525 | |
-| | 52.jpg lower| | | | | |
+| | 52.jpg lower| | | | | Nidānasthāna 2.1.19-2.1.48 |
 | 51v | 53.jpg upper | | | | | end of Sūtrasthāna |
 |  |  |  |  |  |  | **Nidānasthāna** |
 | 51v | 53.jpg |       088:upper |  055:upper  | 51v:3a-b | 2.1             | vātavyādhi |
+|  | (52.jpg lower) |  |  |  |  | out of order, see above. |
 |  | 54.jpg | 089:upper | 056:upper | 52r:4b-c | 2.2.1 | arśasāṃ |
 |  | 55.jpg | 090:upper | 057:upper | 53r:2a-b | 2.3.1 | aśmarīṇāṃ |
 |  | 55.jpg |       089:lower |  057:lower  | 53v:3b | 2.4.1       | bhaga |
