@@ -259,8 +259,8 @@ For another example, file `dscn3345 fol 370.jpg` , shown below, contains the ima
 | 344 lower, line 2 | End of | 5.06 |5.07  |  |
 | 344 lower, line 2 | Start of | 5.07 |5.06  |  |
 | 488uppe upper, line 1 |  | 5.07 |5.7.44-46 | |
-| 345 upper, line 2 | End of | 5.07 |5.07  |  |
-| 345 upper, line 3 | Start of | 5.08 |5.08  |  |
+| 345 *lower*, line 2 | End of | 5.07 |5.07  |  |
+| 345 *lower*, line 3 | Start of | 5.08 |5.08  |  |
 | 352 lower, line 5 | End of | 5.08 |5.08  |  |
 | 352 lower, line 6 | End of | 5 |  |  |
 |  |  |  | | |

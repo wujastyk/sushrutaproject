@@ -14,50 +14,19 @@ jpegs have the prefix DSCN that I’m not repeating each time.
 
 |  |  |  |  |  |  |
 | --- | --- | --- | --- | --- | --- |
-| **MS folio** | **Contents** | Equivalent in 5-333 | **vulgate adhyāyas** | **Notes** | **no. of verses** |
+| **MS folio** DSCN- | **Contents** | Equivalent in 5-333 | **vulgate adhyāyas** | **Notes** | **no. of verses** |
 | **6. Uttaratantra** |  |  |  |  |  |
 | 6771 u                | raktapittapratiṣedha- | 446 u                                                        | 6.45                 |                                                              |                   |
 | 6771 b                | hṛdrogapratiṣedha-    |                                                              | 6.43                 |                                                              |                   |
 |                       |                       |                                                              |                      |                                                              |                   |
-|                       |                       |                                                              |                      |                                                              |                   |
-|                       |                       |                                                              |                      |                                                              |                   |
-|                       |                       |                                                              |                      |                                                              |                   |
-|                       |                       |                                                              |                      |                                                              |                   |
-|                       |                       |                                                              |                      |                                                              |                   |
-|                       |                       |                                                              |                      |                                                              |                   |
-|                       |                       |                                                              |                      |                                                              |                   |
-|                       |                       |                                                              |                      |                                                              |                   |
-|                       |                       |                                                              |                      |                                                              |                   |
-|                       |                       |                                                              |                      |                                                              |                   |
-|                       |                       |                                                              |                      |                                                              |                   |
-|                       |                       |                                                              |                      |                                                              |                   |
-|                       |                       |                                                              |                      |                                                              |                   |
-|                       |                       |                                                              |                      |                                                              |                   |
-|                       |                       |                                                              |                      |                                                              |                   |
-|                       |                       |                                                              |                      |                                                              |                   |
-|                       |                       |                                                              |                      |                                                              |                   |
-|                       |                       |                                                              |                      |                                                              |                   |
-|                       |                       |                                                              |                      |                                                              |                   |
-|                       |                       |                                                              |                      |                                                              |                   |
-|                       |                       |                                                              |                      |                                                              |                   |
-|                       |                       |                                                              |                      |                                                              |                   |
-|                       |                       |                                                              |                      |                                                              |                   |
-|                       |                       |                                                              |                      |                                                              |                   |
-|                       |                       |                                                              |                      |                                                              |                   |
-|                       |                       |                                                              |                      |                                                              |                   |
-|                       |                       |                                                              |                      |                                                              |                   |
-|                       |                       |                                                              |                      |                                                              |                   |
-|                       |                       |                                                              |                      |                                                              |                   |
-|                       |                       |                                                              |                      |                                                              |                   |
-|                       |                       |                                                              |                      |                                                              |                   |
-|                       |                       |                                                              |                      |                                                              |                   |
-|                       |                       |                                                              |                      |                                                              |                   |
-|                       |                       |                                                              |                      |                                                              |                   |
-|                       |                       |                                                              |                      |                                                              |                   |
-|                       |                       |                                                              |                      |                                                              |                   |
-|                       |                       |                                                              |                      |                                                              |                   |
-|                       |                       |                                                              |                      |                                                              |                   |
-|                       |                       |                                                              |                      | 		 | 		 |
+
+
+## Below: NAK 5-333 for comparison
+
+|  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| **MS folio** DSCN- | **Contents** | Equivalent in 5-333 | **vulgate adhyāyas** | **Notes** | **no. of verses** |
+|   | | |                   | 		 | 		 |
 | 45v:5 | Start of | 1.22	 |1.22 	 | 	 | 	 |
 | 47v:1 | End of | 1.22		 |1.22 		 | 		 | 		 |
 | 47v:1 | Start of | 1.23	 |1.23 	 | 	 | 	 |
