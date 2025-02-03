@@ -82,10 +82,21 @@
           <msIdentifier>
             <idno type="siglum">A</idno>
           </msIdentifier>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote xml:id="savarna-nasals">Ignore differences between, for example,
+                <foreign xml:lang="sa">-aṃ tri-</foreign> and <foreign
+                  xml:lang="sa">-an tri-</foreign> etc. See
+                <link target="https://github.com/chchch/upama/issues/94"/></scriptNote>
+            </scriptDesc>
+          </physDesc>
         </msDesc>
+      
+ 
       </sourceDesc>
 
     </fileDesc>
+    
     <revisionDesc>
       <change when="2021-05-12" who="Dominik Wujastyk">Added word spacing; removed +
         marking of avagrahas|</change>
@@ -95,6 +106,7 @@
       <change when="2025-01-15" who="Deepro Chakraborty">added certain xml ids</change>
 
     </revisionDesc>
+    
   </teiHeader>
   <text xml:lang="sa-Latn">
 
