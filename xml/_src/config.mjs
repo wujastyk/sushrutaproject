@@ -36,8 +36,8 @@ const config = {
                 ]
         },
         {
-            input: ['../../06-su.ut-01-30/kl_699_uttaratantra-01-30.txt',
-                    '../../06-su.ut-31-44/kl_699_uttaratantra-31-44.txt'],
+            input: ['../../06-su.ut-01-30/kl_699_uttaratantra-1-30.txt',
+                    '../../06-su.ut-31-44/kl_699_uttaratantra-31-44.txt',
                     '../../06-su.ut-45-66/kl_699_uttaratantra-45-66.txt'],
             output:    '../06-su.ut/kl_699_uttaratantra.xml',
             meta: [
