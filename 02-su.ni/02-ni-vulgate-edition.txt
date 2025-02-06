@@ -82,10 +82,21 @@
           <msIdentifier>
             <idno type="siglum">A</idno>
           </msIdentifier>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote xml:id="savarna-nasals">Ignore differences between, for example,
+                <foreign xml:lang="sa">-aṃ tri-</foreign> and <foreign
+                  xml:lang="sa">-an tri-</foreign> etc. See
+                <link target="https://github.com/chchch/upama/issues/94"/></scriptNote>
+            </scriptDesc>
+          </physDesc>
         </msDesc>
+      
+ 
       </sourceDesc>
 
     </fileDesc>
+    
     <revisionDesc>
       <change when="2021-05-12" who="Dominik Wujastyk">Added word spacing; removed +
         marking of avagrahas|</change>
@@ -95,6 +106,7 @@
       <change when="2025-01-15" who="Deepro Chakraborty">added certain xml ids</change>
 
     </revisionDesc>
+    
   </teiHeader>
   <text xml:lang="sa-Latn">
 
@@ -171,8 +183,9 @@
             śukradoṣapramehās tu vyānāpānaprakopajāḥ || </l>
 
           <l xml:id="SS.2.1.21ab"> yugapat kupitāś cāpi dehaṃ bhindyur asaṃśayam |</l>
-          
-          <l xml:id="SS.2.1.21cd"> ata ūrdhvaṃ pravakṣyāmi nānāsthānāntarāśritaḥ || </l>
+
+          <l xml:id="SS.2.1.21cd"> ata ūrdhvaṃ pravakṣyāmi nānā<pc> </pc>sthānāntarāśritaḥ
+            || </l>
 
           <l xml:id="SS.2.1.22"> bahuśaḥ kupito vāyur vikārān kurute hi yān | vāyur
             āmāśaye kruddhaś chardyādīn kurute gadān || </l>
@@ -183,23 +196,28 @@
           <l xml:id="SS.2.1.24"> kṛcchramūtrapurīṣatvam ānāhaṃ trikavedanām | śrotrādiṣv
             indriyavadhaṃ kuryāt kruddhaḥ samīraṇaḥ || </l>
 
-          <l xml:id="SS.2.1.25"> vaivarṇyaṃ sphuraṇaṃ raukṣyaṃ suptiṃ cumucumāyanam |
-            tvakstho nistodanaṃ kuryāt tvagbhedaṃ paripoṭanam || </l>
+          <l xml:id="SS.2.1.25abc"> vaivarṇyaṃ sphuraṇaṃ raukṣyaṃ suptiṃ cumucumāyanam |
+            <caesura/>
+             tvakstho nistodanaṃ kuryāt</l>
 
-          <l xml:id="SS.2.1.26"> vraṇāṃś ca raktago granthīn saśūlān māṃsasaṃśritaḥ |
-            tathā medaḥśritaḥ kuryād grandhīnmandarujo 'vraṇān || </l>
+          <l xml:id="SS.2.1.25d-26a"> tvagbhedaṃ paripoṭanam || vraṇāṃś ca raktago
+            granthīn </l>
+
+          <l xml:id="SS.2.1.26bcd"> saśūlān māṃsasaṃśritaḥ |
+            <caesura/>
+             tathā medaḥśritaḥ kuryād granthīn mandarujo 'vraṇān || </l>
 
           <l xml:id="SS.2.1.27"> kuryāt sirāgataḥ śūlaṃ sirākuñcanapūraṇam | snāyuprāptaḥ
-            stambhakampau śūlamākṣepaṇaṃ tathā || </l>
+            stambhakampau śūlam ākṣepaṇaṃ tathā || </l>
 
           <l xml:id="SS.2.1.28"> hanti sandhigataḥ sandhīn śūlaśophau karoti ca |
             asthiśoṣaṃ prabhedaṃ ca kuryāc chūlaṃ ca tacchritaḥ || </l>
 
           <l xml:id="SS.2.1.29"> tathā majjagate ruk ca na kadācit praśāmyati | apravṛttiḥ
-            pravṛttirvā vikṛtā śukrage 'nile || </l>
+            pravṛttir vā vikṛtā śukrage 'nile || </l>
 
-          <l xml:id="SS.2.1.30"> hastapādaśirodhātūṃs tathā saṃcarati kramāt | vyāpnuyādvā
-            'khilaṃ dehaṃ vāyuḥ sarvagato nṛṇām || </l>
+          <l xml:id="SS.2.1.30"> hastapādaśirodhātūṃs tathā saṃcarati kramāt | vyāpnuyād
+            vākhilaṃ dehaṃ vāyuḥ sarvagato nṛṇām || </l>
 
           <l xml:id="SS.2.1.31"> stambhanākṣepaṇasvāpaśophaśūlāni sarvagaḥ | sthāneṣūkteṣu
             saṃmiśraḥ saṃmiśrāḥ kurute rujaḥ || </l>
@@ -207,8 +225,8 @@
           <l xml:id="SS.2.1.32"> kuryād avayavaprāpto mārutas tv amitān gadān |
             dāhasaṃtāpamūrcchāḥ syurvāyau pittasamanvite || </l>
 
-          <l xml:id="SS.2.1.33"> śaity aśophagurutvāni tasminn eva kaphāvṛte | sūcībhir
-            iva nistodaḥ sparśadveṣaḥ prasuptatā || </l>
+          <l xml:id="SS.2.1.33"> śaityaśophagurutvāni tasminn eva kaphāvṛte | sūcībhir iva
+            nistodaḥ sparśadveṣaḥ prasuptatā || </l>
 
           <l xml:id="SS.2.1.34"> śeṣāḥ pittavikārāḥ syur mārute śoṇitānvite | prāṇe
             pittāvṛte chardirdāhaś caivopajāyate || </l>
@@ -234,17 +252,16 @@
           <l xml:id="SS.2.1.41"> ṛtusātmyaviparyāsāt snehādīnāṃ ca vibhramāt | avyavāye
             tathā sthūle vātaraktaṃ prakupyati ||) </l>
 
-          <l xml:id="SS.2.1.42"> hastyaśvoṣṭrairgacchato 'nyaiś ca vāyuḥ kopaṃ yātaḥ
+          <l xml:id="SS.2.1.42"> hastyaśvoṣṭrair gacchato 'nyaiś ca vāyuḥ kopaṃ yātaḥ
             kāraṇaiḥ sevitaiḥ svaiḥ | tīkṣṇoṣṇāmlakṣāraśākādibhojyaiḥ saṃtāpādyair bhūyasā
             sevitaiś ca || </l>
 
           <l xml:id="SS.2.1.43"> kṣipraṃ raktaṃ duṣṭimāyāni tac ca vāyor mārgaṃ
-            saṃruṇaddhyāśu yātaḥ | kruddho 'tyarthaṃ mārgarodhāt sa vāyur atyudriktaṃ
+            saṃruṇaddhy āśu yātaḥ | kruddho 'tyarthaṃ mārgarodhāt sa vāyur atyudriktaṃ
             dūṣayed raktam āśu || </l>
 
           <l xml:id="SS.2.1.44"> tat saṃpṛktaṃ vāyunā dūṣitena tat prāvalyād ucyate
-            vātaraktam | tadvat pittaṃ dūṣitenāsṛjā++āktaṃ śleṣmā duṣṭo
-            dūṣitenāsṛjā++āktaḥ || </l>
+            vātaraktam | tadvat pittaṃ dūṣitenāsṛjāktaṃ śleṣmā duṣṭo dūṣitenāsṛjāktaḥ || </l>
 
           <l xml:id="SS.2.1.45"> sparśodvignau todabhedapraśoṣasvāpopetau vātaraktena
             pādau | pittāsṛgbhyām ugradāhau bhavet āmatyarthoṣṇau raktaśophau mṛdū ca || </l>
@@ -271,8 +288,9 @@
           <l xml:id="SS.2.1.52"> so 'patānakasaṃjño yaḥ pātayaty antarā 'ntarā |
             kaphānvito bhṛśaṃ vāyus tāsv eva yadi tiṣṭhati || </l>
 
-          <l xml:id="SS.2.1.53"> sa daṇḍavat stambhayati kṛcchro daṇḍāpatānakaḥ |
-            hanugrahas tadā 'tyarthaṃ kṛcchrān niṣevate || </l>
+          <l xml:id="SS.2.1.53ab"> sa daṇḍavat stambhayati kṛcchro daṇḍāpatānakaḥ |</l>
+
+          <l xml:id="SS.2.1.53cd"> hanugrahas tadā 'tyarthaṃ kṛcchrān niṣevate || </l>
 
           <l xml:id="SS.2.1.54"> dhanus tulyaṃ named yas tu sa dhanuḥstambhasaṃjñakaḥ |
             aṅgulīgulphajaṭharahradvakṣogalasaṃśritaḥ || </l>
