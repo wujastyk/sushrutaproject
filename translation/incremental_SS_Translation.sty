@@ -24,7 +24,7 @@
 % to avoid clashes?  However, things seem okay.  See the documentation to
 % \verb|indextools| on this topic of priority. 
 %    \begin{macrocode}
-\usepackage[
+\hypersetup{
     final=true, % so it doesn't get turned off by “draft”
     linkcolor = indigo(dye),
     anchorcolor = indigo(dye),
@@ -33,7 +33,8 @@
     urlcolor = indigo(dye),
     menucolor = indigo(dye),
     %  pagecolor = indigo(dye),
-]{hyperref}  
+}
+%{hyperref}  
 %    \end{macrocode}
 %    \end{environment}
 %
@@ -211,23 +212,26 @@
 %    \begin{macrocode}
 \DeclareFieldFormat{url}{%
     \ifhyperref
-    % {\textsc{url: }\href{#1}{URL}}
-    {\href{#1}{\textsc{url}}}
-    {\textsc{url: }\nolinkurl{#1}}} %DW bug here
+    {\textsc{url: }\url{#1}}
+    %{\href{#1}{\textsc{url:}}}
+    {\textsc{url: }\nolinkurl{#1}}
+    } %DW bug here
 %    \end{macrocode}
 % Now a macro to make the ARK and DOI links do the right thing.
 %    \begin{macrocode}
 \DeclareFieldFormat{eprint:ark}{%
     %\textsc{ark:}\space
     \ifhyperref  
-    {\href{https://ark.archive.org/#1}{\textsc{ark}}}
-    {\textsc{ark: } \nolinkurl{#1}}}
+    {\textsc{ark: }\url{https://n2t.net/#1}}
+    {\textsc{ark: } \nolinkurl{#1}}
+    }
 %
 \DeclareFieldFormat{doi}{%
     %\textsc{doi:}\space
     \ifhyperref  
-    {\href{https://doi.org/#1}{\textsc{doi}}}
-    {\textsc{doi: } \nolinkurl{#1}}}
+    {\textsc{doi: }\url{https://doi.org/#1}}
+    {\textsc{doi: }\nolinkurl{#1}}
+    }
 %    \end{macrocode}
 %  \end{macro}
 
