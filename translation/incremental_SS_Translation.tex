@@ -7,47 +7,7 @@
 \usepackage{incremental_SS_Translation} 
 \addbibresource{incremental_SS_Translation.bib}
 
-\newcommand{\ignoreargument}[1]{\empty }
-
-
-% private macros for switching between chapters    
-\newif \ifkalpa 
-\newif\ifsarira 
-\newif \ifjvara   
-\newif\ifsutra
-\newif\ifnidana
-
-%\nidanatrue
-%\kalpatrue
-%\sariratrue
-%\sutratrue
-
-
-\ifkalpa \includeonly{chapters/translation 5-introduction,
-%       chapters/introduction,
-chapters/translation 5-01,    
-chapters/translation 5-02,    
-chapters/translation 5-03,    
-chapters/translation 5-04,    
-chapters/translation 5-05,    
-chapters/translation 5-06,    
-chapters/translation 5-07,    
-chapters/translation 5-08,    
-chapters/bibliography and indexes
-    } \fi
-%
-\ifsutra
-\includeonly{chapters/translation 1-13} \fi
-%
-\ifsarira \includeonly{chapters/translation 3-03,
-chapters/translation 1-01,
-chapters/translation 5-05} \fi   
-%    
-\ifjvara  \includeonly{chapters/translation 6-39} \fi
-%        
-\ifnidana \includeonly{chapters/translation 2-01} \fi
-
-\title{A Translation of the Nepalese Text of the \SS}
+\title{A Translation of the Nepalese Text of the Suśrutasaṃhitā}
 \author{Dominik Wujastyk 
     \and Jason Birch
     \and Andrey Klebanov
@@ -64,6 +24,40 @@ chapters/translation 5-05} \fi
 %https://tex.stackexchange.com/questions/361031/biblatex-how-to-automatically-sort-citation-by-year-sortcites-ynt-when-refere/361042#361042
 \AtBeginRefsection{\GenRefcontextData{sorting=ynt}}
 \AtEveryCite{\localrefcontext[sorting=ynt]}
+
+\includeonly{
+    chapters/introduction,
+    chapters/translation 1-01, 
+    chapters/translation 1-02, % nothing there yet
+    chapters/translation 1-03, % nothing there yet
+    chapters/translation 1-10, % viśikhānupraveśanīya, stub
+    chapters/translation 1-11, % kṣārapāka, stub
+    chapters/translation 1-13, % leeches (Lisa Brooks)
+    chapters/translation 1-14, % Blood (Paras Mehta)
+    chapters/translation 1-16, % ear, nose surgery
+    chapters/translation 1-28, % nothing there yet
+    chapters/translation 1-46, % just notes 
+    chapters/translation 2-01, % wind diseases (Harshal) <--
+    chapters/translation 3-02, % śukraśonita (Jan)   
+    chapters/translation 3-03, % garbhāvakrānti  (Jan)
+    chapters/translation 4-04, % vāta complete (Paras) 
+    chapters/translation 4-05, % vāta (Paras)
+    chapters/translation 4-15, % mūḍhagarbha (Vandana)
+    chapters/translation 5-introduction, % (Dominik)
+    chapters/translation 5-01, % veg poisons
+    chapters/translation 5-02, % veg poisons
+    chapters/translation 5-03,  % poisonous insects and animals
+    chapters/translation 5-04, % snakes and snakebite
+    chapters/translation 5-05, % treating snakebite
+    chapters/translation 5-06, % Nepalese 6, vulgate 7, mūṣikā
+    chapters/translation 5-07, % Nepalese 7, vulgate6 dundubhi
+    chapters/translation 5-08, % kīṭakalpam
+    chapters/translation 6-17, % diseases of the pupil
+    chapters/translation 6-38, % Diseases of the Female Reproductive System
+%%%     chapters/translation 6-39, % jvara   (Madhu) - do not share yet
+%%%    chapters/translation 6-65, % tantrayukti (Deepro) complete
+    chapters/bibliography and indexes,
+}
 
 \begin{document}
     
@@ -169,6 +163,7 @@ chapters/translation 5-05} \fi
         \ % invisible space to make the new page have something on it.
 \end{document}
 
+\endinput
 
 \includeonly{
     chapters/introduction,
@@ -202,3 +197,42 @@ chapters/translation 5-05} \fi
     chapters/translation 6-65, % tantrayukti, complete
     chapters/bibliography and indexes,
 }
+
+
+%%%%%%%%%%%
+%% private macros for switching between chapters    
+%\newif \ifkalpa 
+%\newif\ifsarira 
+%\newif \ifjvara   
+%\newif\ifsutra
+%\newif\ifnidana
+%
+%%\nidanatrue
+%%\kalpatrue
+%%\sariratrue
+%%\sutratrue
+%
+%
+%\ifkalpa \includeonly{chapters/translation 5-introduction,
+%%       chapters/introduction,
+%chapters/translation 5-01,    
+%chapters/translation 5-02,    
+%chapters/translation 5-03,    
+%chapters/translation 5-04,    
+%chapters/translation 5-05,    
+%chapters/translation 5-06,    
+%chapters/translation 5-07,    
+%chapters/translation 5-08,    
+%chapters/bibliography and indexes
+%    } \fi
+%%
+%\ifsutra
+%\includeonly{chapters/translation 1-13} \fi
+%%
+%\ifsarira \includeonly{chapters/translation 3-03,
+%chapters/translation 1-01,
+%chapters/translation 5-05} \fi   
+%%    
+%\ifjvara  \includeonly{chapters/translation 6-39} \fi
+%%        
+%\ifnidana \includeonly{chapters/translation 2-01} \fi
