@@ -2,7 +2,7 @@
     <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
         <fileDesc>
             <titleStmt>
-                <title>MS Kathmandu KL 699: Sūtrasthāna 32-end</title>
+                <title>MS Kathmandu KL 699: Sūtrasthāna 32-46</title>
             </titleStmt>
             <publicationStmt>
                 <p>Suśruta project, University of Alberta</p>
@@ -21,7 +21,9 @@
                     </msIdentifier>
                     <msContents>
                         <summary>A palm-leaf manuscript written in old Nepalese
-                            script.</summary>
+                            script.                      
+                       For the text portion from Sūtrasthāna 32-46, this manuscript supports only the beginning of Sūtrasthāna adhyāya 32 (passages 1 - 4).
+                        </summary>
                         <msItem defective="true" n="1">
                             <!-- @defective: 'false' for complete, 'true' for incomplete -->
                             <author role="author" xml:lang="sa">Suśruta</author>
@@ -43,12 +45,9 @@
                             SS.1.18.15ef SS.1.18.7 and 8 found before SS.1.18.13 After
                             SS.1.18.18 folios are missing. </p>
 
-
-                        <objectDesc form="pothi">
-                            <!-- @form can be "pothi", "book", scroll", etc. -->
-                            <supportDesc material="palm-leaf"
-                                ><!-- @material can be "paper", "industrial paper", "handmade paper", "palm-leaf", "palmyra palm-leaf", "talipot palm-leaf", "birch bark", "vellum", etc. --><!-- the following <foliation> tags are examples --></supportDesc>
-
+                        <objectDesc form="pothi">                          
+                            <supportDesc material="palm-leaf"/>
+                                
                         </objectDesc>
 
                         <scriptDesc>
@@ -58,7 +57,7 @@
                             <scriptNote xml:id="script-ba-va"><foreign xml:lang="ba"
                                     >ba</foreign> and <foreign xml:lang="va">va</foreign>
                                 not distinguished.</scriptNote>
-                            <scriptNote xml:id="svarna-nasals"/>
+                            <scriptNote xml:id="savarna-nasals">savarṇa nasals rule applied</scriptNote>
                             <!-- see 
 				https://github.com/chchch/upama/issues/87#issuecomment-2357860543 -->
 
@@ -69,9 +68,9 @@
 
                     <history>
                         <origin>
-                            <origDate calendar="Nepal" when="0301">M Saṃvat 301 (878
+                            <origDate calendar="Nepal" when="0301">7th day of Mādhava (=Vaiśākha) śuklapakṣa Saṃvat 301 (Sunday 13 April 878
                                 CE).</origDate>
-                            <!-- calendar can be "Vikrama", "Śaka", etc. Dates can be approximate or exact. -->
+                            <origPlace cert="medium">The Pashupati Temple of Deopatan, near Kathmandu.</origPlace>
                         </origin>
                     </history>
 
