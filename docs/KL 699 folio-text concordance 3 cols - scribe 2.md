@@ -14,7 +14,7 @@ The digital images of manuscript leaves have names with this format: <999><rv> I
 
 This means "scribal folio 167 verso, camera jpeg image number 33" and so on.  
 
-Some scribal numbers are followed by an underscore, like this:
+Some scribal numbers are followed by an underscore, like this:`
 
 112_r IMG_0142.JPG
 191_r IMG0125.JPG
@@ -24,7 +24,7 @@ The underscore means that the folio is by a different scribe.   From the point o
 |  |  | **Suśruta text contained** | | approx. adhyāya | notes |
 | ------------- | ---------- | ----------- | ------------ | ---------- | ---------- |
 | folio | start | middle |end|||
-| jpeg | **1. Sūtrasthāna** | | | | 
+| jpeg | **4. Cikitsā** | | | ||
 | 112_ | 4.19.44 | 4.19.68 |4.20.17-18|4.19-4.20||
 | 113_ | 4.20.17-18 | 5.07.19* | 5.07.37 (part of the Nighaṇṭu?) | 4.23; 5.07-5.17 |  |
 |  | **6. Uttara** | ||||
