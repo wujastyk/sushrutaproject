@@ -7,7 +7,44 @@
 \usepackage{incremental_SS_Translation} 
 \addbibresource{incremental_SS_Translation.bib}
 
+<<<<<<< Updated upstream
 \title{Draft Translation of the Nepalese Text of the Suśrutasaṃhitā}
+=======
+\newcommand{\ignoreargument}[1]{\empty }
+
+
+% private macros for switching between chapters    
+\newif \ifkalpa 
+\newif\ifsarira 
+\newif \ifjvara   
+\newif\ifsutra
+\newif\ifnidana
+
+\nidanatrue
+%\kalpatrue
+%\sariratrue
+%\sutratrue
+
+\ifkalpa 
+    \includeonly{%chapters/translation 5-introduction,
+    chapters/translation 5-introduction,
+%        chapters/translation 5-08,    
+} \fi
+\ifsutra
+\includeonly{%chapters/translation 5-introduction,
+    chapters/translation 1-13,    
+    %chapters/bibliography and indexes
+} \fi
+\ifsarira \includeonly{chapters/translation 3-03,
+   % chapters/bibliography and indexes
+} \fi       
+\ifjvara  \includeonly{chapters/translation 6-39} \fi        
+\ifnidana \includeonly{chapters/translation 2-01,
+%    chapters/bibliography and indexes,
+    } \fi
+
+\title{A Translation of the Nepalese Text of the \SS}
+>>>>>>> Stashed changes
 \author{Dominik Wujastyk 
     \and Jason Birch
     \and Andrey Klebanov
