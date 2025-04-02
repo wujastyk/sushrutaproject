@@ -1,14 +1,52 @@
-\RequirePackage{snapshot}
+%\RequirePackage{snapshot}
 % !TeX encoding = UTF-8
 % !TeX spellcheck = en_GB
-\documentclass[12pt,draft]{book} %taking out draft switches off marginal notes
-
-\usepackage{incremental_SS_Translation} % all customizations in this file
+\documentclass[12pt,
+%    draft,     %taking out draft switches marginal notes off and pictures on
+    ]{book} 
+\usepackage{incremental_SS_Translation} 
 \addbibresource{incremental_SS_Translation.bib}
 
+<<<<<<< Updated upstream
+\title{Draft Translation of the Nepalese Text of the Suśrutasaṃhitā}
+=======
+\newcommand{\ignoreargument}[1]{\empty }
+
+
+% private macros for switching between chapters    
+\newif \ifkalpa 
+\newif\ifsarira 
+\newif \ifjvara   
+\newif\ifsutra
+\newif\ifnidana
+
+\nidanatrue
+%\kalpatrue
+%\sariratrue
+%\sutratrue
+
+\ifkalpa 
+    \includeonly{%chapters/translation 5-introduction,
+    chapters/translation 5-introduction,
+%        chapters/translation 5-08,    
+} \fi
+\ifsutra
+\includeonly{%chapters/translation 5-introduction,
+    chapters/translation 1-13,    
+    %chapters/bibliography and indexes
+} \fi
+\ifsarira \includeonly{chapters/translation 3-03,
+   % chapters/bibliography and indexes
+} \fi       
+\ifjvara  \includeonly{chapters/translation 6-39} \fi        
+\ifnidana \includeonly{chapters/translation 2-01,
+%    chapters/bibliography and indexes,
+    } \fi
+
 \title{A Translation of the Nepalese Text of the \SS}
-\author{Jason Birch 
-    \and Dominik Wujastyk 
+>>>>>>> Stashed changes
+\author{Dominik Wujastyk 
+    \and Jason Birch
     \and Andrey Klebanov
     \and Lisa A. Brooks 
     \and Paras Mehta 
@@ -19,37 +57,53 @@
     \and et alii}
 \date{\texttt{Draft of \today}\\ \copyright\ The Authors}
 %
-\includeonly{%
-    chapters/introduction,
-    chapters/translation 1-01, 
-    chapters/translation 1-02, % nothing there yet
-    chapters/translation 1-03, % nothing there yet
-    chapters/translation 1-13, % leeches (Lisa Brooks)
-    chapters/translation 1-14, % Blood (Paras Mehta)
-    chapters/translation 1-16, % ear, nose surgery
-    chapters/translation 1-28, % nothing there yet
-    chapters/translation 2-01, % wind diseases
-    chapters/translation 3-02, % śukraśonita
-    chapters/translation 3-03, % garbhāvakrānti  FIRST DRAFT
-    chapters/translation 4-04, % vāta complete
-    chapters/translation 4-05, % vāta
-    chapters/translation 4-15, % mūḍhagarbha
-    chapters/translation 5-01, % veg poisons
-    chapters/translation 5-02, % veg poisons
-    chapters/translation 5-03,  % poisonous insects and animals
-    chapters/translation 5-04, % snakes and snakebite
-    chapters/translation 5-05, % treating snakebite
-    chapters/translation 6-17,
-    chapters/translation 6-38,
-%%   chapters/translation 6-39, % jvara   Madhu - do not share yet
-    chapters/translation 6-65, % tantrayukti, complete
-   chapters/bibliography and indexes,
-}
+% from 
+%https://tex.stackexchange.com/questions/361031/biblatex-how-to-automatically-sort-citation-by-year-sortcites-ynt-when-refere/361042#361042
+\AtBeginRefsection{\GenRefcontextData{sorting=ynt}}
+\AtEveryCite{\localrefcontext[sorting=ynt]}
+
+\newif \ifkalpa 
+\newif\ifsarira 
+\newif \ifjvara   
+\newif\ifsutra
+\newif\ifnidana
+
+%\nidanatrue
+\kalpatrue
+%\sariratrue
+%\sutratrue
+
+
+\ifkalpa \includeonly{chapters/translation 5-introduction,
+%       chapters/introduction,
+%chapters/translation 5-01,    
+%chapters/translation 5-02,    
+%chapters/translation 5-03,    
+%chapters/translation 5-04,    
+%chapters/translation 5-05,    
+%chapters/translation 5-06,    
+%chapters/translation 5-07,    
+chapters/translation 5-08,    
+chapters/bibliography and indexes
+    } \fi
 %
+\ifsutra
+\includeonly{chapters/translation 1-13} \fi
+%
+\ifsarira \includeonly{chapters/translation 3-03,
+chapters/translation 1-01,
+chapters/translation 5-05} \fi   
+%    
+\ifjvara  \includeonly{chapters/translation 6-39} \fi
+%        
+\ifnidana \includeonly{chapters/translation 2-01} \fi
+
+
 
 
 \begin{document}
-        \input{sanskrit-hyphenations}
+    
+    \input{sanskrit-hyphenations}
         
     %\nocite{forb-1856}
     \pagecolor{cyan}
@@ -63,7 +117,7 @@
         \include{chapters/introduction}
             \thispagestyle{empty}
         
-        \part{Sūtrasthāna} 
+        \part{Part 1. Sūtrasthāna} 
                         
         \include{chapters/translation 1-01}
             \thispagestyle{empty}
@@ -71,25 +125,33 @@
             \thispagestyle{empty}
         \include{chapters/translation 1-03}
             \thispagestyle{empty}
-        \include{chapters/translation 1-13} % leeches
+        \include{chapters/translation 1-10} % diagnosis
+            \thispagestyle{empty}
+        \include{chapters/translation 1-11} % preparing caustics
+\thispagestyle{empty}        \include{chapters/translation 1-13} % leeches
             \thispagestyle{empty}
         \include{chapters/translation 1-14} % blood
             \thispagestyle{empty}
        \include{chapters/translation 1-16}
             \thispagestyle{empty}
         \include{chapters/translation 1-28}
+            \thispagestyle{empty}       
+        \include{chapters/translation 1-46}
             \thispagestyle{empty}
         
-        \part{Nidānasthāna}
-        \include{chapters/translation 2-01}
+        \part{Part 2. Nidānasthāna}
+        
+        \include{chapters/translation 2-01} % Harshal, vātavyādhi
             \thispagestyle{empty}
         
-        \part{Śārīrasthāna}
+        \part{Part 3. Śārīrasthāna}
+        
         \include{chapters/translation 3-02} % with Jan Gerris
         \include{chapters/translation 3-03} % with Jan Gerris
             \thispagestyle{empty}
         
-        \part{Cikitsāsthāna}
+        \part{Part 4. Cikitsāsthāna}
+        
         \include{chapters/translation 4-04}
             \thispagestyle{empty}
         \include{chapters/translation 4-05}
@@ -97,10 +159,13 @@
         \include{chapters/translation 4-15}
             \thispagestyle{empty}
         
-        \part{Kalpasthāna}
+        \part{Part 5. Kalpasthāna}
+       
+        \include{chapters/translation 5-introduction}
+            \thispagestyle{empty}
         \include{chapters/translation 5-01}
             \thispagestyle{empty}
-        \include{chapters/translation 5-02}
+        \include{chapters/translation 5-02} % needs work on plant names
             \thispagestyle{empty}
         \include{chapters/translation 5-03}
             \thispagestyle{empty}
@@ -108,14 +173,21 @@
             \thispagestyle{empty}      
         \include{chapters/translation 5-05}
             \thispagestyle{empty}
+        \include{chapters/translation 5-06}
+            \thispagestyle{empty}
+        \include{chapters/translation 5-07}
+       \thispagestyle{empty}
+        \include{chapters/translation 5-08}
+            \thispagestyle{empty}
         
-        \part{Uttaratantra}
+        \part{Part 6. Uttaratantra}
+        
         \include{chapters/translation 6-17}
             \thispagestyle{empty}
         \include{chapters/translation 6-38}
             \thispagestyle{empty}
-        \include{chapters/translation 6-39}
-            \thispagestyle{empty}
+        %\include{chapters/translation 6-39}
+         %   \thispagestyle{empty}
         \include{chapters/translation 6-65} % tantrayukti
             \thispagestyle{empty}
         
@@ -132,3 +204,77 @@
         \pagecolor{cyan} % cyan closing page
         \ % invisible space to make the new page have something on it.
 \end{document}
+
+\endinput
+
+%\includeonly{
+%    chapters/introduction,
+%    chapters/translation 1-01, 
+%    chapters/translation 1-02, % nothing there yet
+%    chapters/translation 1-03, % nothing there yet
+%    chapters/translation 1-11, % kṣārapāka, dummy as yet
+%    chapters/translation 1-13, % leeches (Lisa Brooks)
+%    chapters/translation 1-14, % Blood (Paras Mehta)
+%    chapters/translation 1-16, % ear, nose surgery
+%    chapters/translation 1-28, % nothing there yet
+%    chapters/translation 1-46, % just notes 
+%    chapters/translation 2-01, % wind diseases Harshal <--
+%    chapters/translation 3-02, % śukraśonita <--    
+%    chapters/translation 3-03, % garbhāvakrānti  FIRST DRAFT 
+%    chapters/translation 4-04, % vāta complete Paras <--
+%    chapters/translation 4-05, % vāta Paras
+%    chapters/translation 4-15, % mūḍhagarbha Vandana
+%    chapters/translation 5-introduction,
+%    chapters/translation 5-01, % veg poisons
+%    chapters/translation 5-02, % veg poisons
+%    chapters/translation 5-03,  % poisonous insects and animals
+%    chapters/translation 5-04, % snakes and snakebite
+%    chapters/translation 5-05, % treating snakebite
+%    chapters/translation 5-06, % Nepalese 6, vulgate 7, mūṣikā
+%    chapters/translation 5-07, % Nepalese 7, vulgate6 dundubhi
+%    chapters/translation 5-08, % kīṭakalpam
+%    chapters/translation 6-17, 
+%    chapters/translation 6-38,
+%   % chapters/translation 6-39, % jvara   Madhu - do not share yet
+%    chapters/translation 6-65, % tantrayukti, complete
+%    chapters/bibliography and indexes,
+%}
+
+
+%%%%%%%%%%%
+%% private macros for switching between chapters    
+%\newif \ifkalpa 
+%\newif\ifsarira 
+%\newif \ifjvara   
+%\newif\ifsutra
+%\newif\ifnidana
+%
+%%\nidanatrue
+%%\kalpatrue
+%%\sariratrue
+%%\sutratrue
+%
+%
+%\ifkalpa \includeonly{chapters/translation 5-introduction,
+%%       chapters/introduction,
+%chapters/translation 5-01,    
+%chapters/translation 5-02,    
+%chapters/translation 5-03,    
+%chapters/translation 5-04,    
+%chapters/translation 5-05,    
+%chapters/translation 5-06,    
+%chapters/translation 5-07,    
+%chapters/translation 5-08,    
+%chapters/bibliography and indexes
+%    } \fi
+%%
+%\ifsutra
+%\includeonly{chapters/translation 1-13} \fi
+%%
+%\ifsarira \includeonly{chapters/translation 3-03,
+%chapters/translation 1-01,
+%chapters/translation 5-05} \fi   
+%%    
+%\ifjvara  \includeonly{chapters/translation 6-39} \fi
+%%        
+%\ifnidana \includeonly{chapters/translation 2-01} \fi

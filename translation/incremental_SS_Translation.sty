@@ -19,12 +19,12 @@
 %Here we load hyperref and set the colours
 %we want for hyperlinking.
 %
-% We put it at this position \emph{after} loading 
+% Perhaps we should put it at this position \emph{after} loading 
 % the index/glossaries package, \verb|xelatex-indexing|,
-% to avoid clashes.  See the documentation to
+% to avoid clashes?  However, things seem okay.  See the documentation to
 % \verb|indextools| on this topic of priority. 
 %    \begin{macrocode}
-\usepackage[
+\hypersetup{
     final=true, % so it doesn't get turned off by “draft”
     linkcolor = indigo(dye),
     anchorcolor = indigo(dye),
@@ -33,11 +33,12 @@
     urlcolor = indigo(dye),
     menucolor = indigo(dye),
     %  pagecolor = indigo(dye),
-]{hyperref}  
+}
+%{hyperref}  
 %    \end{macrocode}
 %    \end{environment}
 %
-%\begin{macro}{xelatex-glossaries}
+%\begin{macro}{xelatex-glossaries.sty}
 %    Load \verb|xelatex-glossaries| \emph{after} \verb|hyperref|, so that
 %    indexed words in the main text get linked to the glossary.
 %    \begin{macrocode}
@@ -64,6 +65,7 @@
 %    \begin{macrocode}
 \usepackage{fancyhdr}
 \pagestyle{fancy}
+\setlength{\headheight}{14.49998pt} % as instructed by log file
 % manual p.18
 \fancyhf{}%
 \renewcommand{\chaptermark}[1]{\markboth{#1}{}}
@@ -85,7 +87,7 @@
 %
 %  \begin{environment}{plain, empty}
 % We don't want page numbers on a \verb|\part| page.  Redefine pagestyle
-%plain as empty. This code is taken from 
+% plain as empty. This code is taken from 
 %\href{https://tex.stackexchange.com/questions/359079/how-do-you-get-rid-of-page-numbers-on-part-pages}
 %{Stack Exchange}.
 %    \begin{macrocode}
@@ -164,11 +166,11 @@
 \renewfontfamily\devanagarifont
     [Script=Devanagari,
     FakeStretch=1.05,
-    Mapping=RomDev, %prefer slightly to iast
+    Mapping=RomDev, %prefer RomDev slightly to iast. RomDev needs a{}ṃś, 
+    %see https://github.com/somadeva/RomDev/issues/4
     ]
 % {Murty Sanskrit}
 % {Sahadeva}
-% {Tiro Devanagari Sanskrit} % pretty good, with excellent roman
 %    {Sanskrit  2003} % hard to beat, but poor roman
 {Tiro Devanagari Sanskrit} % as good as Sanskrit 2003, better roman, less 
 % contrast with Latin text.
@@ -180,7 +182,25 @@
 %{Noto Serif Tamil}
 \setotherlanguage{tamil}
 %    \end{macrocode}
+%
+% Set up Malayalam.
+%    \begin{macrocode}
+\newfontfamily\malayalamfont{Noto Serif Malayalam}
+\setotherlanguage{malayalam}
+%    \end{macrocode}
 %  \end{macro}
+
+% Set up Bengali.
+%
+% We say \verb|\renew...| because Bangla is already defined 
+% in the file \texttt{xetex-generic.sty}.  We renew the definition
+% here in case we want to choose a different Bengali font just
+% for this document. Note that we explicitly state the Script.
+%    \begin{macrocode}
+\renewfontfamily\bengalifont[Script=Bengali]{Tiro Bangla}
+\setotherlanguage{bengali}
+%    \end{macrocode}
+%   \end{macro}
 %
 % \section{Bibliography magic}
 %  \begin{macro}{\DeclareFieldFormat}
@@ -191,18 +211,28 @@
 % not the long, ugly URL.
 %    \begin{macrocode}
 \DeclareFieldFormat{url}{%
+    \textsc{url:}\space
     \ifhyperref
-    % {\textsc{url: }\href{#1}{URL}}
-    {\href{#1}{\textsc{url}}}
-    {\textsc{url: }\nolinkurl{#1}}} %DW bug here
+    {\url{#1}}
+    %{\href{#1}{\textsc{url:}}}
+    {\nolinkurl{#1}}
+    } %DW bug here
 %    \end{macrocode}
-% Now a macro to make the ARK links do the right thing.
+% Now a macro to make the ARK and DOI links do the right thing.
 %    \begin{macrocode}
 \DeclareFieldFormat{eprint:ark}{%
-    %    \textsc{ark:}\space
+    \textsc{ark:}\space
     \ifhyperref  
-    {\href{https://n2t.net/#1}{\nolinkurl{#1}}}
-    {\nolinkurl{#1}}}
+    {\url{https://n2t.net/#1}}
+    {\nolinkurl{#1}}
+    }
+%
+\DeclareFieldFormat{doi}{%
+    \textsc{doi:}\space
+    \ifhyperref  
+    {\url{https://doi.org/#1}}
+    {\nolinkurl{#1}}
+    }
 %    \end{macrocode}
 %  \end{macro}
 
@@ -271,7 +301,7 @@
 %    \end{macrocode}
 %    \end{macro}
 %
-%  \begin{macro}{\As, \Ah, \Cakra, \Dalhana}
+%  \begin{macro}{\As, \Ah, \Cakra, \Dalhana, \Ka}
 % The same idea, for the \emph{Aṣṭāṅgasaṅgraha} vulgate by Aṭhāvale 
 % and other standard editions:
 %    \begin{macrocode}
@@ -300,6 +330,11 @@
 % references to the 1938$^2$ ed, 
 % \\ \#1 = canonical
 % \\ \#2 = page of edition
+%    \begin{macrocode}
+\newcommand{\Ka}[2]{#1 \citep[#2]{hema-1938}} 
+%    \end{macrocode}
+% \noindent \#1 = canonical
+% \\ \#2 = page of Hemarājaśarman's edition
 %    \end{macro}
 %
 % \subsection{Names of works}
@@ -310,13 +345,14 @@
 \newcommand{\AS}{\emph{Aṣṭāṅgasaṅgraha}}
 \newcommand{\AHS}{\emph{Aṣṭāṅgahṛdayasaṃhitā}}
 \renewcommand{\AH}{\emph{Aṣṭāṅgahṛdayasaṃhitā}}
+\renewcommand{\CS}{\emph{Carakasaṃhitā}}
 %    \end{macrocode}
 %    \end{macro}
 %
 % \subsection{Citing Sanskrit words in the text}
 %  \begin{macro}{\se, \sed, \seEngOnly}
 % The main commands \verb|\saneng| and \verb|\sanengdev| are 
-% defined elsewhere.  In xelatex-generic-xindex.sty, I believe.  What we're doing
+% defined elsewhere.  In xelatex-indexing-xindex.sty.  What we're doing
 % here is just making some convenient shortcuts, \verb|\se| (“Sanskrit-English”)
 % and \verb|\sed| “Sanskrit-English-Use Devanagari”.  These commands print
 % the English word followed by the Sanskrit in parentheses.  
@@ -368,15 +404,18 @@
 % Mark significant differences in the translation of the 
 % Nepalese text by putting a red changebar 
 % in the right margin.
-%    \begin{macrocode}
-\usepackage[xetex,color,rightbars]{changebar}
-\cbcolor{red}
-\newcommand{\diff}[1]{\cbstart #1\cbend{}}
-%    \end{macrocode}
-% An older version of this command was
-% \verb|\newcommand{\diff}[1]{\textcolor{red}{#1}}|.
 % This is probably just for the draft text, to make interesting 
 % differences obvious so we can write about them later.
+%    \begin{macrocode}
+% %\usepackage[xetex,color,rightbars]{changebar}
+% %\cbcolor{red}
+% %\newcommand{\diff}[1]{\cbstart #1\cbend {}}
+%    \end{macrocode}
+% The changebar package wasn't working well with quotations etc.,
+% so I've moved back to a very simple colour system:
+%    \begin{macrocode}
+\newcommand{\diff}[1]{\textcolor{red}{#1}}
+%    \end{macrocode}
 %    \end{macro}
 %
 % \subsection{Auto-translation and Index of Materia Medica}
@@ -393,7 +432,8 @@
 % \section{Legacy commands}
 %  \subsection{For the old, four-argument plant command}
 %  \begin{macro}{manyfoot, \plant}
-% Calling the manyfoot package to use in the definition of \verb|\plant|.  
+% Calling the manyfoot package to use in the definition of 
+% \verb|\plant|.  
 % It puts notes about plants in a second layer of footnotes.
 % This is a legacy command we don't use any more.  It's here for historical
 % reasons and in case there are any left over by mistake.
@@ -421,6 +461,23 @@
 \usepackage{xcolor} % why here?  Move it to the sty file?
 %    \end{macrocode}
 % \end{macro}
+%
+%\subsection{Private, local commands}
+%\begin{macro}{\egls}
+% Print the glossary entry followed by the transliterated 
+% Sanskrit in parentheses
+%    \begin{macrocode}
+\newcommand{\egls}[1]{\gls{#1} (\emph{#1})}
+%    \end{macrocode}
+%\end{macro}
+%
+%\begin{macro}{\gvdb}
+%  Shorthand for references to \verb|\cite{gvdb}| that I use very often
+%    \begin{macrocode}
+\newcommand{\gvdb}[1]{\cite[#1]{gvdb}}
+\newcommand{\gvdbt}[1]{\citet[#1]{gvdb}}
+%    \end{macrocode}
+%\end{macro}
 %
 %     \newpage
 %    \PrintIndex  

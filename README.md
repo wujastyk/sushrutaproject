@@ -1,4 +1,4 @@
-# Suśruta Project manuscript transcriptions
+# A Critical Edition of the Suśrutasaṃhitā Based on the Earliest Nepalese Manuscripts
 
 [![DOI](https://zenodo.org/badge/305195084.svg)](https://zenodo.org/badge/latestdoi/305195084)
 
@@ -15,11 +15,15 @@ There, you can read the various transcriptions individually, or collate and comp
 
 Here are [further instructions for readers](https://saktumiva.org/wiki/users).
 
+## Project completion
+
+The project came to an end in April 2024.  Project publications in print and digital media can be accessed from [Project Publications](https://sushrutaproject.org/project-publications/) menu of the  main project website.
+
+At the time of writing (Feb 2025) work continues on writing and publishing project results.
+
 ## Copyright and Licensing
 All files in this Github repository are copyrighted (C) Dominik Wujastyk 2021.  They are distributed under a  [Creative Commons BY-SA](https://creativecommons.org/licenses/by-sa/4.0/) licence.
 
-## Project roadmap
 
-This chart is a statement of intentions written in 2019, before the pandemic and before the SSHRC cut one third of the requested grant funding.  There is therefore project slippage, especially regarding other manuscripts, travel and conferences.  But it may be useful to see the original intent. 
 
-![plan](https://user-images.githubusercontent.com/762246/227660978-7a9a1f91-baa9-4595-adea-fb7fb8d964cb.png)
+
