@@ -1,0 +1,15 @@
+{
+  "name": "txt_to_xml",
+  "version": "1.0.0",
+  "description": "TXT to XML converter",
+  "main": "index.mjs",
+  "repository": "https://github.com/wujastyk/sushrutaproject",
+  "license": "MIT",
+  "scripts": {
+    "go": "node index.mjs"
+  },
+  "devDependencies": {
+    "fs": "^0.0.1-security",
+    "jsdom": "^23.0.1"
+  }
+}
