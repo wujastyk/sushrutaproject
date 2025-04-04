@@ -234,7 +234,11 @@ For another example, file `dscn3345 fol 370.jpg` , shown below, contains the ima
 | 301 upper, line 3 | Start of | 4.35 |4.35  |  |
 | 303 upper, line 5 | End of | 4.35 |4.35  |  |
 | 303 upper, line 5 | Start of | 4.36 |4.36  |  |
-| 306 upper, line 6 | End of | 4.36 |4.36  |  |
+| 304 upper |  | 4.36.2.1 only |– | |
+| 304 lower |  | 4.36.2.1 - 4.36.12 | | |
+| **f.305v-306r (jpeg 305) missing** |  | would have been 4.36.12-29ab | | should be between dscn3283 and dscn3284 |
+| 306.jpg upper |  | 4.36.30 - 4.36.41 | |  |
+| 306 upper, line 6 | End of | 4.36.30 - 4.36.41 |4.36  |  |
 | 306 upper, line 6 | Start of | 4.37 |4.37  |  |
 | 311 upper, line 1 | End of | 4.37 |4.37  |  |
 | 311 upper, line 1 | Start of | 4.38 |4.38  |  |
