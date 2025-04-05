@@ -20,44 +20,42 @@
                         <idno type="siglum">K</idno>
                     </msIdentifier>
                     <msContents>
-                        <summary>A palm-leaf manuscript written in old Nepalese
-                            script.                      
-                       For the text portion from Sūtrasthāna 32-46, this manuscript supports only the beginning of Sūtrasthāna adhyāya 32 (passages 1 - 4).
-                        </summary>
+                        <summary>A palm-leaf manuscript written in old Nepalese script. For the text
+                            portion from Sūtrasthāna 32-46, this manuscript supports only the
+                            beginning of Sūtrasthāna adhyāya 32 (passages 1 - 4). </summary>
                         <msItem defective="true" n="1">
                             <!-- @defective: 'false' for complete, 'true' for incomplete -->
                             <author role="author" xml:lang="sa">Suśruta</author>
                             <title xml:lang="sa">Suśrutasaṃhitā</title>
                             <!-- rubric, incipit, explicit, and finalRubric are given as examples -->
-                            <textLang mainLang="sa-Newa">Sanskrit in Nepalese
-                                script.</textLang>
+                            <textLang mainLang="sa-Newa">Sanskrit in Nepalese script.</textLang>
                             <!-- @mainLang can be "sa-Deva", "sa-Mlym", "sa-Telu", "sa-Newa", etc. See ISO 15924 for more details. -->
                         </msItem>
                     </msContents>
 
                     <physDesc>
                         <p resp="Harshal Bhatt">Folios 4r and 4v are missing.</p>
-                        <p resp="Harshal Bhatt">Folio no 12r and 12v missing. Additions
-                            SS.1.13.21ab SS.1.13.21cd SS.1.13.23ef SS.1.13.23gh </p>
-                        <p resp="Harshal Bhatt">Missing verses SS.1.18.9ab SS.1.18.9cd
-                            SS.1.18.10ab SS.1.18.10cd SS.1.18.11 SS.1.18.13ab SS.1.18.13cd
-                            SS.1.18.14ab SS.1.18.14cd SS.1.18.15ab SS.1.18.15cd
-                            SS.1.18.15ef SS.1.18.7 and 8 found before SS.1.18.13 After
-                            SS.1.18.18 folios are missing. </p>
+                        <p resp="Harshal Bhatt">Folio no 12r and 12v missing. Additions SS.1.13.21ab
+                            SS.1.13.21cd SS.1.13.23ef SS.1.13.23gh </p>
+                        <p resp="Harshal Bhatt">Missing verses SS.1.18.9ab SS.1.18.9cd SS.1.18.10ab
+                            SS.1.18.10cd SS.1.18.11 SS.1.18.13ab SS.1.18.13cd SS.1.18.14ab
+                            SS.1.18.14cd SS.1.18.15ab SS.1.18.15cd SS.1.18.15ef SS.1.18.7 and 8
+                            found before SS.1.18.13 After SS.1.18.18 folios are missing. </p>
 
-                        <objectDesc form="pothi">                          
+                        <objectDesc form="pothi">
                             <supportDesc material="palm-leaf"/>
-                                
+
                         </objectDesc>
 
                         <scriptDesc>
-                            <scriptNote xml:id="script-śa-sa"><foreign xml:lang="sa"
-                                    >śa</foreign> and <foreign xml:lang="sa">sa</foreign>
-                                not distinguished.</scriptNote>
-                            <scriptNote xml:id="script-ba-va"><foreign xml:lang="ba"
-                                    >ba</foreign> and <foreign xml:lang="va">va</foreign>
-                                not distinguished.</scriptNote>
-                            <scriptNote xml:id="savarna-nasals">savarṇa nasals rule applied</scriptNote>
+                            <scriptNote xml:id="script-śa-sa"><foreign xml:lang="sa">śa</foreign>
+                                and <foreign xml:lang="sa">sa</foreign> not
+                                distinguished.</scriptNote>
+                            <scriptNote xml:id="script-ba-va"><foreign xml:lang="ba">ba</foreign>
+                                and <foreign xml:lang="va">va</foreign> not
+                                distinguished.</scriptNote>
+                            <scriptNote xml:id="savarna-nasals">savarṇa nasals rule
+                                applied</scriptNote>
                             <!-- see 
 				https://github.com/chchch/upama/issues/87#issuecomment-2357860543 -->
 
@@ -68,9 +66,10 @@
 
                     <history>
                         <origin>
-                            <origDate calendar="Nepal" when="0301">7th day of Mādhava (=Vaiśākha) śuklapakṣa Saṃvat 301 (Sunday 13 April 878
-                                CE).</origDate>
-                            <origPlace cert="medium">The Pashupati Temple of Deopatan, near Kathmandu.</origPlace>
+                            <origDate calendar="Nepal" when="0301">7th day of Mādhava (=Vaiśākha)
+                                śuklapakṣa Saṃvat 301 (Sunday 13 April 878 CE).</origDate>
+                            <origPlace cert="medium">The Pashupati Temple of Deopatan, near
+                                Kathmandu.</origPlace>
                         </origin>
                     </history>
 
@@ -84,78 +83,59 @@
             <change when="2020-01-06" who="Jason Birch">Transcribed 1.1.</change>
             <change when="2020-03-31" who="Jason Birch">Transcribed 1.16.</change>
             <change when="2021-06-13" who="Deepro Chakraborty">Transcribed 1.21</change>
-            <change when="2021-06-22" who="Harshal Bhatt">Added transcription of
-                1.3</change>
-            <change when="2021-06-25" who="Harshal Bhatt">Added transcription of
-                1.4</change>
-            <change when="2021-06-25" who="Harshal Bhatt">Added transcription of
-                1.5</change>
+            <change when="2021-06-22" who="Harshal Bhatt">Added transcription of 1.3</change>
+            <change when="2021-06-25" who="Harshal Bhatt">Added transcription of 1.4</change>
+            <change when="2021-06-25" who="Harshal Bhatt">Added transcription of 1.5</change>
 
-            <change when="2021-06-13" who="Deepro Chakraborty">added 1.21 of KL699 and
-                NAK5-33, some corrections in the vulgate</change>
-            <change when="2021-06-24" who="Deepro Chakraborty">added 1.22 of KL699 and
-                NAK5-33, some corrections in the vulgate</change>
-            <change when="2021-06-24" who="Deepro Chakraborty">added 1.23 of KL699 and
-                NAK5-33, some corrections in the vulgate</change>
-            <change when="2021-06-28" who="Deepro Chakraborty">added 1.24 of KL699 and
-                NAK5-33, some corrections in the vulgate</change>
-            <change when="2021-06-29" who="Deepro Chakraborty">added 1.25 of KL699 and
-                NAK5-33, some corrections in the vulgate</change>
+            <change when="2021-06-13" who="Deepro Chakraborty">added 1.21 of KL699 and NAK5-33, some
+                corrections in the vulgate</change>
+            <change when="2021-06-24" who="Deepro Chakraborty">added 1.22 of KL699 and NAK5-33, some
+                corrections in the vulgate</change>
+            <change when="2021-06-24" who="Deepro Chakraborty">added 1.23 of KL699 and NAK5-33, some
+                corrections in the vulgate</change>
+            <change when="2021-06-28" who="Deepro Chakraborty">added 1.24 of KL699 and NAK5-33, some
+                corrections in the vulgate</change>
+            <change when="2021-06-29" who="Deepro Chakraborty">added 1.25 of KL699 and NAK5-33, some
+                corrections in the vulgate</change>
 
-            <change when="2021-07-08" who="Harshal Bhatt">Added transcription of
-                1.8</change>
-            <change when="2021-07-10" who="Harshal Bhatt">Added transcription of
-                1.9</change>
-            <change when="2021-07-11" who="Harshal Bhatt">Added transcription of
-                1.10</change>
+            <change when="2021-07-08" who="Harshal Bhatt">Added transcription of 1.8</change>
+            <change when="2021-07-10" who="Harshal Bhatt">Added transcription of 1.9</change>
+            <change when="2021-07-11" who="Harshal Bhatt">Added transcription of 1.10</change>
 
-            <change when="2021-07-13" who="Deepro Chakraborty">added 1.26 of KL699 and
-                NAK5-33, some corrections in the vulgate</change>
+            <change when="2021-07-13" who="Deepro Chakraborty">added 1.26 of KL699 and NAK5-33, some
+                corrections in the vulgate</change>
 
-            <change when="2021-07-16" who="Harshal Bhatt">Added transcription of
-                1.11</change>
+            <change when="2021-07-16" who="Harshal Bhatt">Added transcription of 1.11</change>
 
-            <change when="2021-07-15" who="Deepro Chakraborty">Added 1.27 of K and H and
-                some corrections in the vulgate (#43)</change>
+            <change when="2021-07-15" who="Deepro Chakraborty">Added 1.27 of K and H and some
+                corrections in the vulgate (#43)</change>
 
-            <change when="2021-07-16" who="Harshal Bhatt">Added transcription of
-                1.12</change>
-            <change when="2021-07-18" who="Harshal Bhatt">Added transcription of
-                1.13</change>
-            <change when="2021-07-15" who="Deepro Chakraborty">Added 1.28 of K and H and
-                some corrections in the vulgate</change>
-            <change when="2021-07-30" who="Deepro Chakraborty">Added 1.29 of K and H and
-                some corrections in the vulgate</change>
-            <change when="2021-07-31" who="Harshal Bhatt">Added transcription of
-                1.14</change>
-            <change when="2021-08-04" who="Deepro Chakraborty">Added 1.30 of K and H and
-                some corrections in the vulgate</change>
-            <change when="2021-08-08" who="Harshal Bhatt">Added transcription of
-                1.15</change>
-            <change when="2021-08-11" who="Deepro Chakraborty">Added 1.31 of K and H and
-                some corrections in the vulgate</change>
-            <change when="2021-08-13" who="Deepro Chakraborty">Added 1.32 of K and H and
-                some corrections in the vulgate</change>
+            <change when="2021-07-16" who="Harshal Bhatt">Added transcription of 1.12</change>
+            <change when="2021-07-18" who="Harshal Bhatt">Added transcription of 1.13</change>
+            <change when="2021-07-15" who="Deepro Chakraborty">Added 1.28 of K and H and some
+                corrections in the vulgate</change>
+            <change when="2021-07-30" who="Deepro Chakraborty">Added 1.29 of K and H and some
+                corrections in the vulgate</change>
+            <change when="2021-07-31" who="Harshal Bhatt">Added transcription of 1.14</change>
+            <change when="2021-08-04" who="Deepro Chakraborty">Added 1.30 of K and H and some
+                corrections in the vulgate</change>
+            <change when="2021-08-08" who="Harshal Bhatt">Added transcription of 1.15</change>
+            <change when="2021-08-11" who="Deepro Chakraborty">Added 1.31 of K and H and some
+                corrections in the vulgate</change>
+            <change when="2021-08-13" who="Deepro Chakraborty">Added 1.32 of K and H and some
+                corrections in the vulgate</change>
 
 
-            <change when="2021-08-12" who="Harshal Bhatt">Added transcription of
-                1.17</change>
-            <change when="2021-08-17" who="Harshal Bhatt">Added transcription of
-                1.18</change>
-            <change when="2022-05-02" who="Deepro Chakraborty">some corrections in
-                1.1.12</change>
-            <change when="2022-05-23" who="Deepro Chakraborty">minor corrections in
-                1.27</change>
-            <change when="2022-05-23" who="Deepro Chakraborty">minor corrections in
-                1.28</change>
-            <change when="2022-06-14" who="Deepro Chakraborty">minor corrections in
-                1.29</change>
-            <change when="2022-07-01" who="Deepro Chakraborty">minor corrections in
-                1.31</change>
-            <change when="2022-07-19" who="Harshal Bhatt">Added transcription of
-                1.20</change>
-            <change when="2023-06-26" who="Dominik Wujastyk">Separated the file into two
-                parts, 1-31 and 32-end, because of processing limits at Saktumiva</change>
+            <change when="2021-08-12" who="Harshal Bhatt">Added transcription of 1.17</change>
+            <change when="2021-08-17" who="Harshal Bhatt">Added transcription of 1.18</change>
+            <change when="2022-05-02" who="Deepro Chakraborty">some corrections in 1.1.12</change>
+            <change when="2022-05-23" who="Deepro Chakraborty">minor corrections in 1.27</change>
+            <change when="2022-05-23" who="Deepro Chakraborty">minor corrections in 1.28</change>
+            <change when="2022-06-14" who="Deepro Chakraborty">minor corrections in 1.29</change>
+            <change when="2022-07-01" who="Deepro Chakraborty">minor corrections in 1.31</change>
+            <change when="2022-07-19" who="Harshal Bhatt">Added transcription of 1.20</change>
+            <change when="2023-06-26" who="Dominik Wujastyk">Separated the file into two parts, 1-31
+                and 32-end, because of processing limits at Saktumiva</change>
 
         </revisionDesc>
 
@@ -175,77 +155,65 @@
 
                     <l xml:id="SS.1.32.2"/>
 
-                    <l xml:id="SS.1.32.3-4"> svabhāvaprasiddhānāṃ śarīraikadeśānā<del
-                            rend="erasing">ṃ</del>m anyathātvaṃ mara<cb n="2"/>ṇāya tad
-                        yathā śuklānāṃ kṛṣṇatvaṃ kṛṣṇānāṃ śuklatvaṃ | sthirāṇām mṛ<add
-                            place="bottom margin" rend="kākapada">du</add>tvaṃ calānām
-                        acalatvaṃ <unclear confidence="0.3" reason="damage"
-                            >a</unclear>calā<lb n="3"/>nāṃ calatvaṃ | pṛthūnāṃ saṃ<add
-                            place="bottom margin" rend="kākapada">kṣi</add>ptatvaṃ
-                        saṃkṣiptānāṃ pṛthutvaṃ | dīrghāṇāṃ hrasvaṃ hrasvānān dīrghatā |
-                            apata<cb n="1"/>nadharmiṇāṃ patanam akasmāc
-                        chaityoṣṇasneharaukṣyaprastambhavaivarṇṇyāni apasarpaṇam aṅgānāṃ
-                        svebhyaḥ <add place="bottom margin" rend="kākapada"
-                            >sthānebhyaḥ</add> śarīraikadeśānāṃ mavasraṃso<cb n="2"
+                    <l xml:id="SS.1.32.3-4"> svabhāvaprasiddhānāṃ śarīraikadeśānā<del rend="erasing"
+                            >ṃ</del>m anyathātvaṃ mara<cb n="2"/>ṇāya tad yathā śuklānāṃ kṛṣṇatvaṃ
+                        kṛṣṇānāṃ śuklatvaṃ | sthirāṇām mṛ<add place="bottom margin" rend="kākapada"
+                            >du</add>tvaṃ calānām acalatvaṃ <unclear confidence="0.3"
+                            reason="damage">a</unclear>calā<lb n="3"/>nāṃ calatvaṃ | pṛthūnāṃ
+                            saṃ<add place="bottom margin" rend="kākapada">kṣi</add>ptatvaṃ
+                        saṃkṣiptānāṃ pṛthutvaṃ | dīrghāṇāṃ hrasvaṃ hrasvānān dīrghatā | apata<cb
+                            n="1"/>nadharmiṇāṃ patanam akasmāc
+                        chaityoṣṇasneharaukṣyaprastambhavaivarṇṇyāni apasarpaṇam aṅgānāṃ svebhyaḥ
+                            <add place="bottom margin" rend="kākapada">sthānebhyaḥ</add>
+                        śarīraikadeśānāṃ mavasraṃso<cb n="2"
                         />tkṣiptabhrāntapatitavimuktanirgamātigamagurulaghutvāni
-                        pravālavarṇṇavyaṅgaprādurbhāvo vā<lb n="4"/>kasmāt sirāṇāṃ ca
-                        darśanaṃ lalāṭe nāsāvaṃśe vā pi<add place="bottom margin"
-                            >ṭakotpattiḥ</add> udakotpattir netrarogaṃ vināsrupravṛttir
-                            la<cb n="1"/>lāṭe vā prabhātakāle svedapravṛttiḥ |
-                        gomayacūrṇṇaprakāsasya rajaso darśanam uttamāṅge līyanam vā
-                            kapotakaṅkagṛdhraprabhṛ<cb n="2"/>tīnāṃ
-                        mūtra<cb/>purīṣapravṛddhir abhuñjanānāṃ stanamūlahṛdayoraḥsu ca
-                        śūlotpattayaḥ | madhye <lb n="5"/>śūnatvam anteṣu parimlāyitvaṃ |
-                        viparyayo vā naṣṭahīnavikalavihṛtasvaraṃ vā <add
-                            place="bottom margin" rend="small circle"
-                            >vivarṇṇapuṣpaprādurbhāvo vā</add> dantanakhaśarīreṣu <cb
-                            n="1"/><add place="in column break">puṣpadarśana</add>
+                        pravālavarṇṇavyaṅgaprādurbhāvo vā<lb n="4"/>kasmāt sirāṇāṃ ca darśanaṃ
+                        lalāṭe nāsāvaṃśe vā pi<add place="bottom margin">ṭakotpattiḥ</add>
+                        udakotpattir netrarogaṃ vināsrupravṛttir la<cb n="1"/>lāṭe vā prabhātakāle
+                        svedapravṛttiḥ | gomayacūrṇṇaprakāsasya rajaso darśanam uttamāṅge līyanam vā
+                            kapotakaṅkagṛdhraprabhṛ<cb n="2"/>tīnāṃ mūtra<cb/>purīṣapravṛddhir
+                        abhuñjanānāṃ stanamūlahṛdayoraḥsu ca śūlotpattayaḥ | madhye <lb n="5"
+                        />śūnatvam anteṣu parimlāyitvaṃ | viparyayo vā naṣṭahīnavikalavihṛtasvaraṃ
+                        vā <add place="bottom margin" rend="small circle">vivarṇṇapuṣpaprādurbhāvo
+                            vā</add> dantanakhaśarīreṣu <cb n="1"/><add place="in column break"
+                            >puṣpadarśana</add>
                         <cb n="1"/>yasya cāpsu kaphaśakṛdretāṃsi nimajjaṃti yasya ca <del
-                            rend="crossed out">na</del> dṛṣṭimaṇḍale bhinnavikṛtāni rūpāṇy
-                        ālocyante snehābhyaktakeśāṃga iva yo <cb n="2"/>bhāti yaś ca
-                        durbalo bhaktadveṣātisārābhyām pīḍyate | kāsamānaś ca
-                        tṛṣṇātibhūtaḥ kṣīṇaś charddi<lb n="6"/>bhaktadveṣayuktaḥ
-                        saphenarudhirodvāmī hatasvaraḥ śūlābhihataś ca
-                        manuṣyaśūnakaracaraṇo nnadveṣī <cb n="1"
-                        />srastapiṇḍakāṃsapāṇipādaḥ | yaś ca pūrvāhṇe bhuktam aparāhṇe
-                        ścharddayaty avidagdhaṃ sāryate vā jvarakāsābhibhūtaḥ sa śvāsān
-                            mriya<cb n="2"/>te | vastavad vilapamāno bhūmau patati
-                        srastamuṣkaḥ stabdhaśepo bhagnagrīvaḥ praṇaṣṭamehaś ca <lb n="7"
-                        />manuṣyaḥ prāgviśuṣyamāṇa<add place="bottom margin"
-                            rend="kākapada">hṛdaya</add> ārdraśarīraḥ | yaś ca loṣṭaṃ
-                        loṣṭenābhihanti | kāṣṭham vā kāṣṭhena tṛṇā<cb n="1"/>ni vā
-                        cchinatti | adharoṣṭhaṃ vā daśati uttaroṣṭhaṃ vā leḍhi | āluñcati
-                        karṇṇau keśāṃś ca | devadvijagurusuhṛdvaidyāṃ vā vidveṣṭi <cb
-                            n="2"/>yasya ca vakrānuvakragā grahā garhitasthānagatāḥ |
-                        janmaṛkṣam vāsyolkāśanibhyām abhihanyate <milestone n="29v7"
-                            unit="folio"/>
-                        <!-- folio missing --></l>
+                            rend="crossed out">na</del> dṛṣṭimaṇḍale bhinnavikṛtāni rūpāṇy ālocyante
+                        snehābhyaktakeśāṃga iva yo <cb n="2"/>bhāti yaś ca durbalo
+                        bhaktadveṣātisārābhyām pīḍyate | kāsamānaś ca tṛṣṇātibhūtaḥ kṣīṇaś
+                            charddi<lb n="6"/>bhaktadveṣayuktaḥ saphenarudhirodvāmī hatasvaraḥ
+                        śūlābhihataś ca manuṣyaśūnakaracaraṇo nnadveṣī <cb n="1"
+                        />srastapiṇḍakāṃsapāṇipādaḥ | yaś ca pūrvāhṇe bhuktam aparāhṇe ścharddayaty
+                        avidagdhaṃ sāryate vā jvarakāsābhibhūtaḥ sa śvāsān mriya<cb n="2"/>te |
+                        vastavad vilapamāno bhūmau patati srastamuṣkaḥ stabdhaśepo bhagnagrīvaḥ
+                        praṇaṣṭamehaś ca <lb n="7"/>manuṣyaḥ prāgviśuṣyamāṇa<add place="bottom
+                            margin" rend="kākapada">hṛdaya</add> ārdraśarīraḥ | yaś ca loṣṭaṃ
+                        loṣṭenābhihanti | kāṣṭham vā kāṣṭhena tṛṇā<cb n="1"/>ni vā cchinatti |
+                        adharoṣṭhaṃ vā daśati uttaroṣṭhaṃ vā leḍhi | āluñcati karṇṇau keśāṃś ca |
+                        devadvijagurusuhṛdvaidyāṃ vā vidveṣṭi <cb n="2"/>yasya ca vakrānuvakragā
+                        grahā garhitasthānagatāḥ | janmaṛkṣam vāsyolkāśanibhyām abhihanyate
+                            <milestone n="29v7" unit="folio"/>
+                    </l>
+
                     <gap unit="folio" n="38"/>
-
-
 
                     <!-- folios 30 to 67 are missing :( -->
 
-
-
                 </div>
-                <!-- end of chapter 32 of Sūtrasthāna-->
-
 
             </div>
-            <!-- end of sthana -->
 
         </body>
     </text>
-
 
     <facsimile>
         <graphic url="https://wujastyk.github.io/sushrutaproject/kl_699_manifest.json"/>
     </facsimile>
 
-    <!-- <facsimile><graphic n="29v" url="https://zenodo.org/records/6474120/files/029v%20IMG_0119.JPG"/>
+
+</TEI>
+<!-- <facsimile><graphic n="29v" url="https://zenodo.org/records/6474120/files/029v%20IMG_0119.JPG"/>
 
        
     </facsimile>
 -->
-</TEI>
