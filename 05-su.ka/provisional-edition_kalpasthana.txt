@@ -3408,7 +3408,8 @@
                         <caesura/>
                          lihyāt tatra śirīṣasya madhunā sāramāṣakān ||
                         <caesura/>
-                         kuliṅgena rujaḥ śopho rājyaś cādamśamaṇḍale |</l>
+                         kuliṅgena rujaḥ śopho rājyaś cā<pc> </pc>daṃśa<pc> </pc>maṇḍale
+                        |</l>
 
                     <l xml:id="SS.5.7.21">
                         <label>1938 ed. 5.7.21</label>
@@ -4285,7 +4286,7 @@
 
                     <l xml:id="SS.5.8.30"/>
 
-<!-- dardura -->
+                    <!-- dardura -->
 
                     <l xml:id="SS.5.8.31a-verse">
                         <label> 5.8.31a verse</label>
@@ -4302,8 +4303,8 @@
                          tair daṣṭaḥ kaṇḍusaṃyukto haritaṃ mūrchito vamet |</l>
 
                     <l xml:id="SS.5.8.31"/>
-                    
-<!-- jalauka -->
+
+                    <!-- jalauka -->
 
 
                     <l xml:id="SS.5.8.31.add-1">
@@ -4313,7 +4314,8 @@
                         <caesura/>
                          ahikutthuḥ kutthukaś ca vṛttaśūkas tathaiva ca ||</l>
 
-<!-- viśvambhara -->
+                    <!-- viśvambhara -->
+
 
                     <l xml:id="SS.5.8.32-verse">
                         <label> 5.8.32 verse</label>
@@ -4321,77 +4323,100 @@
                          trayo viśvambharāḥ proktāḥ dāhajvararujāvahāḥ |
                         <caesura/>
                          tair daṣṭamātre śvayathur ādaṃśe kaṇḍur eva ca |</l>
-
+                    
                     <l xml:id="SS.5.8.32"/>
-
-                    <l xml:id="SS.5.8.33-verse">
-                        <label> 5.8.33 verse</label>
-                        <caesura/>
-                         phenāgamo 'tisāraś ca koṭhajanme ca dāruṇam |
-                        <caesura/>
-                         gamvāhikāsthūlaśīrṣā brāhmaṇy aṅgulikā tathā |</l>
 
                     <l xml:id="SS.5.8.33"/>
 
-<!-- pipilika -->
 
                     <l xml:id="SS.5.8.34-verse-1">
                         <label> 5.8.34 verse 1</label>
                         <caesura/>
-                         vivarṇṇā kapilā<anchor n="SS.5.8.34-verse-1-n1"/> cāpi ṣaṭ
-                        proktās tu pipīlikāḥ |
+                         phenāgamo 'tisāraś ca koṭhajanmaṃ ca dāruṇam |<anchor
+                            n="SS.5.8.34-verse-1-n1"/>
                         <caesura/>
-                         tābhir daṣṭe rujādāhaḥ kaṇḍuśvayathur eva ca |</l>
+                         samvāhikā sthūlaśīrṣā brāhmaṇy aṅgulikā tathā |<anchor
+                            n="SS.5.8.34-verse-1-n2"/></l>
 
                     <ab corresp="#SS.5.8.34-verse-1" type="apparatus">
+                        <list type="Emendation">
+                            <item corresp="#SS.5.8.34-verse-1-n1">The reading
+                                    <foreign>koṭhajanme</foreign> of both witnesses K and
+                                H can only be a dual and that makes no sense and does
+                                not agree with <foreign>dāruṇam</foreign>.</item>
+                            <item corresp="#SS.5.8.34-verse-1-n2">We emend to
+                                    <foreign>samvāhikā</foreign> with the vulgate reading
+                                in 5.8.34, against the clear <foreign>gam-</foreign> in
+                                both witnesses K and H. This suggests that the latter
+                                reading predates witness K.</item>
+                        </list>
+                    </ab>
+
+                    <!-- pipilika -->
+
+                    <l xml:id="SS.5.8.34-verse-2">
+                        <label> 5.8.34 verse 2</label>
+                        <caesura/>
+                         vivarṇṇā kapilā<anchor n="SS.5.8.34-verse-2-n1"/> cāpi ṣaṭ
+                        proktās tu pipīlikāḥ |
+                        <caesura/>
+                         tābhir daṣṭe rujā dāhaḥ kaṇḍuśvayathur eva ca |</l>
+
+                    <ab corresp="#SS.5.8.34-verse-2" type="apparatus">
                         <list type="Notes">
-                            <item corresp="#SS.5.8.34-verse-1-n1"> In MS K, there is an
+                            <item corresp="#SS.5.8.34-verse-2-n1"> In MS K, there is an
                                 original scribal deletion of <foreign>kā</foreign> in
                                     <foreign>kapikālā</foreign>. And a few characters
                                 later, there is a scribal note in the lower margin saying,
-                                    <foreign>ṣaṭ proktās tu pipīlikāḥ</foreign>, giving
-                                the reading of MS H and completing the number of syllables
-                                for a good śloka. </item>
-                            <item corresp="#SS.5.8.34-verse-1-n1"> Note also the scribal
+                                    <foreign>ṣaṭ proktās tu pipīlikāḥ</foreign>, a reading
+                                we find in MS H and the vulgate that completes the number
+                                of syllables for a good śloka. </item>
+                            <item corresp="#SS.5.8.34-verse-2-n1"> Note also the scribal
                                 marginal note at the same place in MS H, noting a variant
                                 reading <foreign>karṇṇilā</foreign> (for
                                     <foreign>kapilā</foreign>) as being``in another
                                 book.''</item>
                         </list>
                     </ab>
-                    
+
                     <l xml:id="SS.5.8.34"/>
-                    
-                    <l xml:id="SS.5.8.35-verse">
+
+                    <l xml:id="SS.5.8.35-verse"/>
+
+                    <!--                <l xml:id="SS.5.8.35-verse">
                         <label> 5.8.35 verse</label>
-                        dāhacoṣau ca niyatau vahnir eva ca tāpite ||
+                         dāhacoṣau ca niyatau vahnir eva ca tāpite ||
                         <caesura/>
-                         kāntārikā ca kṛṣṇā ca piṅgalā samadhūlikā |</l>
+                         kāntārikā ca kṛṣṇā ca piṅgalā samadhūlikā |</l>-->
 
                     <l xml:id="SS.5.8.35"/>
 
-                    <l xml:id="SS.5.8.27.16">
+                    <!--         <l xml:id="SS.5.8.27.16">
                         <label> 5.8.27.16</label>
                         <caesura/>
                          viśeṣeṇa daṃśaty etāḥ netrayor netravallabhāḥ |
                         <caesura/>
-                         maṇḍalaḥ pārvataś caiva kṛṣṇaḥ sāmudra eva ca |</l>
+                         maṇḍalaḥ pārvataś caiva kṛṣṇaḥ sāmudra eva ca |</l>-->
 
-<!-- maśaka -->
+                    <l xml:id="SS.5.8.27.16"/>
 
-                    <l xml:id="SS.5.8.27.17">
+                    <!-- maśaka -->
+
+                    <!--                    <l xml:id="SS.5.8.27.17">
                         <label> 5.8.27.17</label>
                         <caesura/>
                          maśako hastināmā ca maśakāḥ pañcakīrttitāḥ |
                         <caesura/>
-                         tair daṣṭe roṣasaṃyuktāṃ śūnam ādaṃśamaṇḍalam |</l>
+                         tair daṣṭe roṣasaṃyuktāṃ śūnam ādaṃśamaṇḍalam |</l>-->
+
+                    <l xml:id="SS.5.8.27.17"/>
 
                     <l xml:id="SS.5.8.27.18">
                         <label> 5.8.27.18</label>
                         <caesura/>
                          vedanā rāgabahulaṃ kaṇḍūyuktaṃ kṣaraty asṛk |</l>
 
-<!-- godheraka -->
+                    <!-- godheraka -->
 
                     <l xml:id="SS.5.8.38">
                         <label>1938 ed. 5.8.38</label>
@@ -4407,11 +4432,11 @@
                     <l xml:id="SS.5.8.41"/>
 
                     <l xml:id="SS.5.8.42">
-                        <label>1938 ed. 8.42</label>
+                        <label>1938 ed. 5.8.42</label>
                         <caesura/>
-                         kīṭairdaṣṭānugraviṣaiḥ sarpavat samupācaret |
+                         kīṭair daṣṭānugraviṣaiḥ sarpavat samupācaret |
                         <caesura/>
-                         trividhānāntu śeṣāṇāṃ traividhyaṃ bhavati kriyā |</l>
+                         trividhānān tu śeṣāṇāṃ traividhyaṃ bhavati kriyā |</l>
 
                     <l xml:id="SS.5.8.43">
                         <label>1938 ed. 5.8.43</label>
@@ -4421,7 +4446,7 @@
                     <l xml:id="SS.5.8.44">
                         <label>1938 ed. 5.8.44</label>
                         <caesura/>
-                         viṣaghnañ ca vidhiṃ kuryāt saṃśodhanāni ca</l>
+                         viṣaghnañ ca vidhiṃ kuryāt saṃśodhanāni ca |</l>
 
                     <l xml:id="SS.5.8.45"/>
 
@@ -4765,7 +4790,7 @@
                     <l xml:id="SS.5.8.101">
                         <label>1938 ed. 5.8.101</label>
                         <caesura/>
-                         trimaṇḍalāyā vahalaṃ daṃśaḥ kṛṣṇaṃ kṣaratyasṛk |
+                         trimaṇḍalāyā vahalaṃ daṃśaḥ kṛṣṇaṃ kṣaraty asṛk |
                         <caesura/>
                          vādhiryaṃ kaluṣā dṛṣṭis tathā dāhaś ca netrayoḥ |</l>
 
