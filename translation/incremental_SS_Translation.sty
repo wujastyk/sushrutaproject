@@ -364,6 +364,12 @@
 %\end{quote}
 %    \begin{macrocode}
 \let\se\saneng  % just make typing a bit quicker
+\newcommand{\sepl}[2] % crude pluralization, based on saneng in 
+%xelatex-indexing-xelatex.sty
+    {#2s (\emph{#1})%
+    \index[lexical]{#2@\MakeLowercase{#2}!#1@\emph{#1}}%
+    \index[lexical]{#1@\emph{#1}!#2@\MakeLowercase{#2}}}
+     % crude pluralization
 \let\sed\sanengdev % puts the Skt. in the text into Devanagari.
 \providecommand{\seEngOnly}[2]{#2} % just print the English
 %    \end{macrocode}
