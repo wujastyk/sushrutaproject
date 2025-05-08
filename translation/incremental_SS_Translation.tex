@@ -8,17 +8,12 @@
 \addbibresource{incremental_SS_Translation.bib}
 
 % private macros for switching between chapters    
-\newif \ifkalpa 
-\newif\ifsarira 
-\newif \ifjvara   
-\newif\ifsutra
-\newif\ifnidana
+\newif \ifkalpa \newif\ifsarira \newif \ifjvara \newif\ifsutra \newif\ifnidana
 %
 %\nidanatrue
 %\kalpatrue
 %\sariratrue
 %\sutratrue
-
 
 \title{Draft Translation of the Nepalese Version of the \emph{Suśrutasaṃhitā}}
 
@@ -35,8 +30,6 @@
 
 \newcommand{\ignoreargument}[1]{\empty }
 
-
-
 \ifkalpa 
     \includeonly{%chapters/translation 5-introduction,
 %    chapters/translation 5-introduction,
@@ -52,7 +45,7 @@
 \ifsarira \includeonly{%
    % chapters/translation 3-02,
     chapters/translation 3-03,
-    chapters/bibliography and indexes
+ %   chapters/bibliography and indexes
 } \fi       
 %
 \ifjvara  \includeonly{chapters/translation 6-39} \fi      
