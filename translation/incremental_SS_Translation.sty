@@ -260,6 +260,18 @@
 %    \end{macrocode}
 %  \end{environment}
 %
+%\section{Tweak the \verb|\paragraph|} 
+% Make the \verb|\paragraph| heading more like \verb|\subsubsection|}.  
+% Taken from \verb|book.cls| and updated 
+% with \verb|\itshape| in place of \verb|\textbf|.
+% \begin{macro}{\paragraph}
+%    \begin{macrocode}
+\renewcommand\paragraph{\@startsection{paragraph}{4}{\z@}%
+     {-3.25ex\@plus -1ex \@minus -.2ex}%
+     {1.5ex \@plus .2ex}%
+     {\normalfont\normalsize\itshape}}
+%    \end{macrocode}
+% \end{macro}
 % \newpage
 % \section{Home-made commands for general convenience and consistency}
 % \subsection{Referring to standard editions}
