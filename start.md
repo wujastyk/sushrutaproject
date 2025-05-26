@@ -10,13 +10,13 @@ The tables give links to adhyāyas that have received editorial attention (not a
 
 ## Instructions
 
-“New edition” means that the project has released an edition with full apparatus.  At the present time (2022-2023), the editions of most adhyāyas is provisional: work on proof-reading and edition is still ongoing on a daily basis.  These adhyāyas may be considered to be something like “critical collations” or a  provisional or first draft edition.  You will see the edition in the main window, and the variants from the manuscripts (K, N, H) and the printed edition (A) in the critical apparatus on the right. 
+“New edition” means that the project has released an edition with full apparatus.  At the present time (2022-2025), the editions of most adhyāyas are provisional: work on proof-reading and edition is still ongoing on a daily basis.  These adhyāyas may be considered to be something like “critical collations” or a  provisional or first draft edition.  You will see the edition in the main window, and the variants from the manuscripts (K, N, H) and the printed edition (A) in the critical apparatus on the right. 
 
 **Chapters marked with a puṣpikā ❈ have received critical editorial attention and may be considered  completed critical editions.**  
 
 The “[Instructions for Readers](https://saktumiva.org/wiki/users)” documentation explains how to read the above editions, how to select particular manuscripts for examination, and how to generate the critical apparatus.  The most common option is to press “other witnesses” in the left menu bar, then “select all”, then “generate apparatus.”  Click the अ character in the right-hand menu to select your preferred display script.
 
-## 1 Sūtrasthāna [adhyāyas 1-31](https://saktumiva.org/wiki/wujastyk/susrutasamhita/01-su.su-1-31/provisional-edition_sutrasthana-1-31), [32-46](https://saktumiva.org/wiki/wujastyk/susrutasamhita/01-su.su-32-end/provisional-edition_sutrasthana-32-end) (new edition)
+## 1 Sūtrasthāna [adhyāyas 1-31](https://saktumiva.org/wiki/wujastyk/susrutasamhita/01-su.su-1-31/provisional-edition_sutrasthana-1-31), [32-46](https://saktumiva.org/wiki/wujastyk/susrutasamhita/01-su.su-32-end/provisional-edition_sutrasthana-32-end) 
 
 Witness K is not available from SS.1.33 onwards.
 
@@ -30,9 +30,9 @@ Witness K is not available from SS.1.33 onwards.
 
 
 
-## 2 [Nidānasthāna](https://saktumiva.org/wiki/wujastyk/susrutasamhita/02-su.ni/provisional-edition_nidanasthana) (new edition) 
+## 2 [Nidānasthāna](https://saktumiva.org/wiki/wujastyk/susrutasamhita/02-su.ni/provisional-edition_nidanasthana) 
 
-Witness K is not available for this adhyāya.
+Witness K is not available for most of this adhyāya.
 
 |                                                              |                                                              |                                                              |                                                              |                                                              |                                                              |                                                              |                                                              |                                                              |                                                              |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
@@ -41,7 +41,7 @@ Witness K is not available for this adhyāya.
 
 
 
-## 3 [Śārīrasthāna](https://saktumiva.org/wiki/wujastyk/susrutasamhita/03-su.sa/provisional-edition_sarirasthana) (new edition)
+## 3 [Śārīrasthāna](https://saktumiva.org/wiki/wujastyk/susrutasamhita/03-su.sa/provisional-edition_sarirasthana) 
 
 Witness K is not available for this adhyāya.
 
@@ -51,7 +51,7 @@ Witness K is not available for this adhyāya.
 
 
 
-## 4 [Cikitsāsthāna](https://saktumiva.org/wiki/wujastyk/susrutasamhita/04-su.ci/provisional-edition_cikitsasthana) (new edition)
+## 4 Cikitsāsthāna [adhyāyas 1--20](https://saktumiva.org/wiki/wujastyk/susrutasamhita/04-su.ci-1-20/provisional-edition_cikitsasthana_01-20), [21--40](https://saktumiva.org/wiki/wujastyk/susrutasamhita/04-su.ci-21-40/provisional-edition_cikitsasthana_21-40)  
 
 Witness K is not available for adhyāyas 1-18, 27 and 28.
 
@@ -64,7 +64,7 @@ Witness K is not available for adhyāyas 1-18, 27 and 28.
 
 
 
-## 5 [Kalpasthāna](https://saktumiva.org/wiki/wujastyk/susrutasamhita/05-su.ka/provisional-edition_kalpasthana) (new edition)
+## 5 [Kalpasthāna](https://saktumiva.org/wiki/wujastyk/susrutasamhita/05-su.ka/provisional-edition_kalpasthana) 
 
 |                                                              |                                                              |                                                              |                                                              |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -73,7 +73,7 @@ Witness K is not available for adhyāyas 1-18, 27 and 28.
 
 
 
-## 6 Uttaratantra  [adhyāyas 1-30](https://saktumiva.org/wiki/wujastyk/susrutasamhita/06-su.ut-01-30/provisional-edition_uttaratantra-1-30), [31-44](https://saktumiva.org/wiki/wujastyk/susrutasamhita/06-su.ut-31-44/provisional-edition_uttaratantra-31-44), [45-66](https://saktumiva.org/wiki/wujastyk/susrutasamhita/06-su.ut-45-66/provisional-edition_uttaratantra-45-66) (new edition)
+## 6 Uttaratantra  [adhyāyas 1-30](https://saktumiva.org/wiki/wujastyk/susrutasamhita/06-su.ut-01-30/provisional-edition_uttaratantra-1-30), [31-44](https://saktumiva.org/wiki/wujastyk/susrutasamhita/06-su.ut-31-44/provisional-edition_uttaratantra-31-44), [45-66](https://saktumiva.org/wiki/wujastyk/susrutasamhita/06-su.ut-45-66/provisional-edition_uttaratantra-45-66) 
 
 |                                                              |                                                              |                                                              |                                                              |                                                              |                                                              |                                                              |                                                              |                                                              |                                                              |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
