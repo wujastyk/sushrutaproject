@@ -268,6 +268,8 @@
             <change when="2025-03-31" who="Dominik Wujastyk">Removed the empty passage
                 tags so that these passages do not show up in the edition as being present
                 but empty.</change>
+        <change when="2025-05-27" who="Deepro Chakraborty">Some corrections in SS 6.24 (6.51 in
+                Nepalese version)</change>
         </revisionDesc>
 
     </teiHeader>
@@ -4443,7 +4445,7 @@
 
 
 
-                    <l xml:id="SS.6.24.3">nārīprasaṅgacchirasobhi<pb n="467v"/>ghātād
+                    <l xml:id="SS.6.24.3">nārīprasaṅgac chiraso bhi<pb n="467v"/>ghātād
                         dhūmād rajācchītam avaśya yac ca |
                         <caesura/>
                          vinigrahān mūtrapurīṣayoś ca sadyaḥ pratiśyāyanimittam uktaṃ
@@ -4453,16 +4455,17 @@
                     <l xml:id="SS.6.24.4">cayaṃ gatāmūrddhani mārutādayaḥ pṛthak samastāś
                         ca tathaiva śoṇitaṃ |
                         <caesura/>
-                         prakopyamānā<lb n="2"/>vividhaiḥ prakāpamair<add
-                            place="top-margin">raṇaiḥ</add>rnnṛṇāṃ pratiśyāyakarā bhavanti
-                        hi ||</l>
+                         prakopyamānā<lb n="2"/>vividhaiḥ prakā<subst><del>panai</del><add
+                                place="top-margin">raṇai</add></subst>r nnṛṇāṃ pratiśyāyakarā
+                        bhavanti hi ||</l>
 
 
                     <l xml:id="SS.6.24.5">śiro gu<cb/>rutvaṃ kṣavathu pravarttanaṃ
                         tathāṅgamarddaḥ parihṛṣṭaromatā |
                         <caesura/>
                          upadravāś cāpy aparo pṛthagvidhā nnṛṇām pratiśyā<lb n="3"
-                        />yapurammarāḥ smṛtā</l>
+                        />yapurassarāḥ
+                        smṛtā</l>
 
 
                     <l xml:id="SS.6.24.6">ānaddha pihitā nāsā tanusrāvapraseki<cb/>nī |
@@ -4471,8 +4474,8 @@
 
 
                     <l xml:id="SS.6.24.7">svaropaghātaś ca bhavet pratiśyāyenilātmake
-                            ||<lb n="4"/>
-                        <caesura/>
+                            ||<caesura/>
+                        <lb n="4"/>
                          uṣṇaḥ sapītakaḥ srāvo ghrāṇāt sravati paittike ||</l>
 
 
@@ -4516,22 +4519,21 @@
                     <l xml:id="SS.6.24.16">evaṃ duṣṭapratiśyāyañ jānīyāt sarvvam eva tu
                         |</l>
 
-                    <l xml:id="SS.6.24.16.1">raktaje tu pratiśyāye raktāsrāvaḥ pravarttate
+                    <l xml:id="SS.6.24.16-1">raktaje tu pratiśyāye raktāsrāvaḥ pravarttate
                         ||
                         <caesura/>
                          tāmrākṣasya bhavej jantur uroghātaprapīḍitaḥ |</l>
 
-                    <l xml:id="SS.6.24.16.2">durggandhocchvāsavadano gandhān api na <lb
+                    <l xml:id="SS.6.24.16-2">durggandhocchvāsavadano gandhān api na <lb
                             n="2"/>vetti ca ||
                         <caesura/>
                          mūrcchanti krimayaś cātra svetā snigdhānavas tathā |</l>
 
-                    <l xml:id="SS.6.24.16.3">kri<cb/>miśīrṣavikāreṇa samānañcāsya lakṣaṇaṃ
+                    <l xml:id="SS.6.24.16-3">kri<cb/>miśīrṣavikāreṇa samānañcāsya lakṣaṇaṃ
                         ||</l>
 
 
-                    <l xml:id="SS.6.24.17">bādhiryam āndhyam aghratvaṃ ghorān vā
-                        nayamānayān | |
+                    <l xml:id="SS.6.24.17">bādhiryam āndhyam aghratvaṃ ghorān vā nayanāmayān |
                         <caesura/>
                          kāryā<lb n="3"/>gnisādaśoṣān vā vṛddhāḥ kurvvanti pīnasāḥ ||</l>
 
@@ -4542,8 +4544,8 @@
                          svedair vvicitrair vvamanaiś ca yuktaiḥ kālopapannair
                             avapīḍitai<lb n="4"/>ś ca ||
                         <caesura/>
-                        <add place="inline">śiro virekaṃ tv apare tu kecidāmena dātavyam
-                            iti bruvanti<cb/>|</add></l>
+                        <add place="inline">śiro virekaṃ tv apare tu kecid āmena dātavyam iti
+                            bruvanti<cb/>|</add></l>
 
 
                     <l xml:id="SS.6.24.19">apacyamānasya ca pācanārthaṃ svedo hito mlaṃ
@@ -4553,7 +4555,7 @@
                         cakṣuvikārayogaiḥ |</l>
 
 
-                    <l xml:id="SS.6.24.20">pakvamphalañ cāpy avalambamānaṃ śi<cb/>ro
+                    <l xml:id="SS.6.24.20">pakvam phalañ cāpy avalambamānaṃ śi<cb/>ro
                         virekair apakarṣayec ca ||
                         <caesura/>
                          virecanāsthāpanadhūmapānair avekṣya doṣān kavaḍagrahaiś ca |</l>
@@ -4568,12 +4570,14 @@
 
 
 
-                    <l met="hypermetrical" xml:id="SS.6.24.24">jayed viri<lb n="6"
+                    <l met="hypermetrical" xml:id="SS.6.24.24">jayed viri<gap unit="char" extent="1"/>
+                        <lb n="6"
                         />mṛdutāñ ca teṣāṃ prāglakṣaṇoktaṃ vidhim ādiśec ca ||</l>
 
 
-                    <l xml:id="SS.6.24.25">vātike tu¦¦¦¦ pratiśyāye pibet sarppir
-                        yathākramaṃ |
+                    <l xml:id="SS.6.24.25">vātike tu<g ref="#newa-old-gap-filler"/><g
+                            ref="#newa-old-gap-filler"/><g ref="#newa-old-gap-filler"/><g
+                            ref="#newa-old-gap-filler"/> pratiśyāye pibet sarppir yathākramaṃ |
                         <caesura/>
                          pañcabhir llavaṇaiḥ siddham prathamena gaṇena ca ||</l>
 
@@ -4592,7 +4596,7 @@
 
 
 
-                    <l xml:id="SS.6.24.30">kaphaje sarppiṣā snigdhatilamāṣavipakvayā |</l>
+                    <l xml:id="SS.6.24.30">kaphaje sarppiṣā snigdha<pc> </pc>tilamāṣavipakvayā |</l>
 
 
                     <l xml:id="SS.6.24.31">yavāgvā vāmayed vāntaḥ kaphaghnaṃ kramam
@@ -4607,7 +4611,7 @@
 
                     <l xml:id="SS.6.24.34">sarppīṃṣi kaṭusiddhāni tīkṣṇādhūmāḥ kaṭūni ca |
                         <caesura/>
-                         bheṣajāny u<cb/>ny upayujyāni hanyuḥ sarvvaprakopajaṃ ||</l>
+                         bheṣajāny u<cb/>payujyāni hanyuḥ sarvvaprakopajaṃ ||</l>
 
 
 
@@ -4633,21 +4637,20 @@
                          nastaprayuktam udvṛ<lb n="3"/>ttāṃ pratiśyāyān apohati ||</l>
 
 
-                    <l xml:id="SS.6.24.42">mūtrayuktāḥ samuddiṣṭāḥ kriyāḥ<cb/> kṛmiṣu
-                        yojayet |
+                    <l xml:id="SS.6.24.42">mūtrayuktāḥ samuddiṣṭāḥ kriyāḥ<cb/>krimiṣu yojayet |
                         <caesura/>
-                         yāpanārthaṃ krimighnāni bhojanāni ca buddhimān iti || ❈</l>
+                         yāpanārthaṃ krimighnāni bhojanāni ca buddhimān iti || ❈ ||</l>
 
 
-                    <p ana="trailer">|| uttaratantre<lb n="4"/> ekapañcāśattamaḥ
-                        kāyacikitsāyāṃ pratiśyāyacikitsā ṣo<cb/>ḍaśamo dhyāyaḥ ||</p>
+                    <l xml:id="SS.6.24.trailer"> uttaratantre<lb n="4"/> ekapañcāśattamaḥ
+                        kāyacikitsāyāṃ pratiśyāyacikitsā ṣo<cb/>ḍaśamo dhyāyaḥ ||</l>
                 </div>
 
 
 
                 <div n="25" type="adhyāya">
 
-                    <milestone n="dscn3360fol385ḻower.jpg : 2" unit="folio"/>
+                    <milestone n="dscn3360fol385_lower.jpg : 2" unit="folio"/>
 
 
                     <l xml:id="SS.6.25.1"> athātaḥ śirogatarogavijñānīyaṃ vyākhyāsyāmaḥ
