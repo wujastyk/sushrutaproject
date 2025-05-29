@@ -220,26 +220,26 @@
                 graphic links and some other corrections</change>
 
 
-         <change when="2025-03-31" who="Dominik Wujastyk">Removed the empty passage
-            tags so that these passages do not show up in the edition as being present but 
-            empty.</change>
+            <change when="2025-03-31" who="Dominik Wujastyk">Removed the empty passage
+                tags so that these passages do not show up in the edition as being present
+                but empty.</change>
         </revisionDesc>
     </teiHeader>
 
     <text xml:lang="sa-Latn">
         <body>
 
-            <div n="1" type="sthāna" ana="Sūtrasthāna">
+            <div ana="Sūtrasthāna" n="1" type="sthāna">
 
                 <head xml:lang="en">[Sūtrasthāna 1-31]</head>
 
                 <div n="32" type="adhyāya">
 
-                    <milestone n="65r4" facs="dscn3040 fol 064.jpg lower" unit="folio"/>
+                    <milestone facs="dscn3040 fol 064.jpg lower" n="65r4" unit="folio"/>
 
                     <l xml:id="SS.1.32.1"> athātaḥ svabhāvavipratipattiṃ vyākhyāsyāmaḥ || </l>
 
-                    
+
 
                     <l xml:id="SS.1.32.3-4"> svabhāvaprasiddhānāṃ śarīraikadeśānām
                         anyathātvaṃ maraṇāya | tad yathā śuklānāṃ kṛṣṇatvaṃ kṛṣṇānāṃ
@@ -305,7 +305,7 @@
 
                 <div n="33" type="adhyāya">
 
-                    <milestone n="66r2" facs="dscn3042 fol 066.jpg upper" unit="folio"/>
+                    <milestone facs="dscn3042 fol 066.jpg upper" n="66r2" unit="folio"/>
 
                     <!--166r, line 2, column 2-->
 
@@ -407,7 +407,7 @@
 
                 <div n="34" type="adhyāya">
 
-                    <milestone unit="folio" facs="dscn3054 fol 67.jpg upper" n="67v4"/>
+                    <milestone facs="dscn3054 fol 67.jpg upper" n="67v4" unit="folio"/>
 
 
                     <l xml:id="SS.1.34.1">athāto yuktasenī<cb/>yaṃ vyākhyāsyāmaḥ ||</l>
@@ -542,7 +542,7 @@
 
                     <l xml:id="SS.1.35.1"> athāta āturopakramanīyam vyākhyāsyāmaḥ ||</l>
 
-                    
+
 
 
                     <l xml:id="SS.1.35.3"> āturam upakra<g ref="#newa-gap-filler"/><pb
@@ -664,7 +664,7 @@
                          hīnātiriktā ca kṛtā sādyeṣv api na sidhyati || </l>
 
 
-                    
+
 
 
                     <l xml:id="SS.1.35.24"> prāg abhihito 'gnir annābhipācakaḥ <pb
@@ -777,19 +777,22 @@
                          rājasaṃstabhyambhyamāno 'pi sahate naiva tāmasaḥ || </l>
 
 
-                    <l xml:id="SS.1.35.39"> prakṛtim bheṣajañ cānyatro pade<unclear/>maḥ |
-                        sātmyāni tu deśajāni rogar tu vyāyāmodakarasadivāspnaprabhṛtī<g
+                    <l xml:id="SS.1.35.39"> prakṛtim bheṣajañ cānyatropadeśaḥ | sātmyāni
+                        tu deśajāni rogartuvyāyāmodakarasadivāspnaprabhṛtī<g
                             ref="#newa-gap-filler"/><pb facs="dscn3047 fol 071.jpg lower"
-                            n="72r"/><lb n="1"/>ni prakṛtiviruddhānyapi yānyanāvādhakarāṇi
-                        bhavanti || bha || </l>
+                            n="72r"/><lb n="1"/>ni prakṛtiviruddhāny api yāny
+                        anāvādhakarāṇi bhavanti || </l>
 
 
-                    <l xml:id="SS.1.35.40"> yo rasaḥ kalpito yasya sukhatāṃ yāti sevitaḥ |
+                    <l xml:id="SS.1.35.40">
+                        <abbr>bha</abbr><ex>vati cātra</ex> ||
+                        <caesura/>
+                        yo rasaḥ kalpito yasya sukhatāṃ yāti sevitaḥ |
                         <caesura/>
                          vyāyāmajātam anyad vā tat sātmyam iti nirddiśet || </l>
 
 
-                    
+
 
 
                     <l xml:id="SS.1.35.42">
@@ -841,14 +844,14 @@
                         <caesura/>
                         <lb n="3"/> āhārasvapnaceṣṭādau tad deśaḥ saguṇa satīti || || || </l>
 
-                    <l xml:id="SS.1.35.trailer" ana="letter-numerals"><abbr>la
+                    <l ana="letter-numerals" xml:id="SS.1.35.trailer"><abbr>la
                             hṛ</abbr><expan>30 5</expan></l>
                 </div>
 
 
-                <div n="37" type="adhyāya" corresp="1.36 in NAK 5-333">
+                <div corresp="1.36 in NAK 5-333" n="37" type="adhyāya">
 
-                    <milestone n="72v3" facs="dscn3048 fol 072.jpg upper" unit="folio"/>
+                    <milestone facs="dscn3048 fol 072.jpg upper" n="72v3" unit="folio"/>
 
                     <!-- 72v : 3 -->
 
@@ -930,8 +933,9 @@ which is okay but end is shown at 73r:6 which should be at 74r:6.
                     <l xml:id="SS.1.37.15"> saṃśodhanīnāṃ varttīnāṃ dravyāṇy etāni
                         nirddiśet ||
                         <caesura/>
-                         dravyeṣv eteṣu kurvvīta kalkā<pb facs="dscn3049 fol 073.jpg upper"
-                            n="73v"/><lb n="1"/>n api ca śodhanān | </l>
+                         dravyeṣv eteṣu kurvvīta kalkā<pb
+                            facs="dscn3049 fol 073.jpg upper" n="73v"/><lb n="1"/>n api ca
+                        śodhanān | </l>
 
                     <l xml:id="SS.1.37.17"> arkottamāsudhā kṣīraṃ piṣṭvā kṣārottamām api
                         ||
@@ -1000,7 +1004,7 @@ which is okay but end is shown at 73r:6 which should be at 74r:6.
 
 
 
-                    <l xml:id="SS.1.37.30" met="hyper metrical"> tvakṣu nyagrodhavarggasya
+                    <l met="hyper metrical" xml:id="SS.1.37.30"> tvakṣu nyagrodhavarggasya
                         triphalās tathaiva ca ||
                         <caesura/>
                          rasakriyāṃ ro<lb n="3"/>paṇārthe vidadhīta yathākramaṃ | </l>
@@ -1033,14 +1037,14 @@ which is okay but end is shown at 73r:6 which should be at 74r:6.
                         <caesura/>
                          prayuñjīta bhiṣa<lb n="6"/>k prājño yathoddiṣṭeṣu karmmasu || </l>
 
-                    <l xml:id="SS.1.37.trailer" ana="letter-numerals"><abbr>la
+                    <l ana="letter-numerals" xml:id="SS.1.37.trailer"><abbr>la
                             bhra</abbr><expan>30 7</expan></l>
 
                 </div>
                 <!-- chapter 36 in H -->
 
 
-                <div n="36" type="adhyāya" corresp="1.37 in NAK 5-333">
+                <div corresp="1.37 in NAK 5-333" n="36" type="adhyāya">
 
 
                     <!-- <note> Corresponds to adhyāya 37 in MS H.</note>-->
@@ -1051,14 +1055,14 @@ which is okay but end is shown at 73r:6 which should be at 74r:6.
                     C) Special notes:
                     1) 8ab and 8cd are placed after 16cd.-->
 
-                    <milestone n="74r6" facs="dscn3048 fol 073.jpg lower" unit="folio"/>
+                    <milestone facs="dscn3048 fol 073.jpg lower" n="74r6" unit="folio"/>
 
                     <l xml:id="SS.1.36.1"> athāto bhūmipravibhāgavijñānīyam vyākhyāsyāmaḥ
                         || </l>
 
                     <l xml:id="SS.1.36.3">
                             svabhraśarkkarāśmaviṣamavalmīkaśmaśānā<unclear>gha</unclear>tad
-                            evatāyatana<pb n="74v" facs="dscn3050 fol 074.jpg upper"/><lb
+                            evatāyatana<pb facs="dscn3050 fol 074.jpg upper" n="74v"/><lb
                             n="1"/>sikatoṣairar anupahatāmanūṣarāmabhaṃgurāmadūrodakāṃ
                         snigdhāṃ prarohavatīṃ mṛdvīṃ sthirāṃ samāṃ gaurīṃ lohitāṃ vā
                         bhūmim auṣadha grahaṇāya parīkṣeta || tasyāṅ jātam api hi
@@ -1085,7 +1089,7 @@ which is okay but end is shown at 73r:6 which should be at 74r:6.
                             n="6"/>ny ādadīta || tat tu na samyak kasmāt saumyāgneyatvāj
                         jagataḥ | saumyāny auṣadhāni saumyeṣv ṛtuṣv ādadīta | āgneyāny
                         āgneyeṣv evam avyāpannāni bhavanti || saumyāny auṣadhāni saumyeṣv
-                            ṛtu<pb n="75r" facs="dscn3050 fol 074.jpg lower"/><lb n="1"
+                            ṛtu<pb facs="dscn3050 fol 074.jpg lower" n="75r"/><lb n="1"
                         />ṣu gṛhītāni somaguṇabhūyiṣṭhāyāṃ bhūmau
                         madhurata<del>ā</del>rāsnigdhatarāṇiśītatarāṇi bhavanti | <gap
                             extent="1" unit="line"/>
@@ -1113,35 +1117,35 @@ which is okay but end is shown at 73r:6 which should be at 74r:6.
                     <l xml:id="SS.1.36.13" corresp="1.36.15 of 1938 ed"/>-->
 
 
-                    <l xml:id="SS.1.36.14" corresp="1.36.8 of 1938 ed"> viḍaṅga pippalī
+                    <l corresp="1.36.8 of 1938 ed" xml:id="SS.1.36.14"> viḍaṅga pippalī
                         kṣaudraṃ sarpi<cb/>ś cā<add place="bottom margin">pya</add>navaṃ
                         hitaṃ |
                         <caesura/>
                          śeṣam anyat tv abhinavaṃ gṛhṇīyād doṣavarjjitaṃ || </l>
 
-                    <l xml:id="SS.1.36.15" corresp="1.36.16 of 1938 ed"> jaṅgamānāṃ
+                    <l corresp="1.36.16 of 1938 ed" xml:id="SS.1.36.15"> jaṅgamānāṃ
                         vayaḥsthānāñ carmaromana<lb n="5"/>khādikaṃ |
                         <caesura/>
                          kṣīramūtrapurīṣāṇi jīrṇṇāhāreṣu saṃharet || </l>
 
-                    <l xml:id="SS.1.36.16" corresp="1.36.17 of 1938 ed">
+                    <l corresp="1.36.17 of 1938 ed" xml:id="SS.1.36.16">
                         plo<cb/>tamṛdbhāṇḍaphalakaṃ saṅkuvinyastabheṣajān |
                         <caesura/>
                          praśastāyān diśi śucau bheṣajāgāram iṣyate || </l>
 
-                    <l xml:id="SS.1.36.8" corresp="1.36.10 of 1938 ed"> gopā<lb n="6"/>lās
+                    <l corresp="1.36.10 of 1938 ed" xml:id="SS.1.36.8"> gopā<lb n="6"/>lās
                         tāpasā vyādhā ye cānye vanacāriṇaḥ |
                         <caesura/>
                          mūlāhārāś ca ye teṣāṃ bheṣajavyaktir iṣyate iti || </l>
 
-                    <l xml:id="SS.1.36.trailer" ana="letter-numerals"><abbr>la
+                    <l ana="letter-numerals" xml:id="SS.1.36.trailer"><abbr>la
                             ū</abbr><expan>30 7</expan></l>
 
                 </div>
 
                 <div n="38" type="adhyāya">
 
-                    <milestone unit="folio" facs="dscn3050 fol 74.jpg lower" n="75r6"/>
+                    <milestone facs="dscn3050 fol 74.jpg lower" n="75r6" unit="folio"/>
 
                     <!--                        
 Missing verses: 2, 58-61, 66-78
@@ -1191,7 +1195,7 @@ Notes
 
                     <l xml:id="SS.1.38.13.1"
                         >varuṇārttagalamadhuśigrutarkkārīmeṣaśṛṅgīpūtīkanaktamālapāṭalāgnimanthaśairīyakadvayaṃ
-                            <pb n="76r" facs="dscn3051 fol 075.jpg lower"/><lb n="1"
+                            <pb facs="dscn3051 fol 075.jpg lower" n="76r"/><lb n="1"
                         />bimbīcitraśatāvarībilvājaśṛṅgīdarbbhābṛhatīdvayañ ceti ||</l>
 
                     <l xml:id="SS.1.38.13.2">varuṇādigaṇopyeṣa kaphamedo viśoṣaṇaḥ |
@@ -1446,7 +1450,7 @@ Notes
                         <caesura/>
                          cikitsiteṣu vakṣyāmi jñātvā rogabalābalam</l>
 
-                    <l xml:id="SS.1.38.trailer" ana="letter-numerals"><abbr>iti <cb/> la
+                    <l ana="letter-numerals" xml:id="SS.1.38.trailer"><abbr>iti <cb/> la
                             ḍa ||</abbr><expan>|| 30 8 || </expan></l>
 
 
@@ -1456,7 +1460,7 @@ Notes
 
                 <div n="39" type="adhyāya">
 
-                    <milestone unit="folio" facs="dscn3054 fol 78.jpg lower"/>
+                    <milestone facs="dscn3054 fol 78.jpg lower" unit="folio"/>
 
                     <!--                    
                         Missing verses
@@ -1479,7 +1483,7 @@ Notes
                     <l xml:id="SS.1.39.4">tṛvṛcchyāmādantīdravantīsaphalāviṣāṇigavākṣī<lb
                             n="6"
                         />cchagalāntrīpīlusnehāsuvarṇṇakṣīrīcitrakakiṇihīkuśakāsatilvakampilyakarampakapāṭalā
-                            <pb n="79v" facs="dscn3055 fol 079.jpg upper"/><lb n="1"
+                            <pb facs="dscn3055 fol 079.jpg upper" n="79v"/><lb n="1"
                         />pūgaharītakyāmalakavibhītakanīlinīpañcaṅgulapūtīkāragvadhamahāvṛkṣasaptacchadārkkareṇu
                         jyotiṣmatī cetyadhobhāgaharāṇi ||<lb n="2"/>tatra tilvakapūrvvāṇāṃ
                         mūlāni | tilvakādīnām pāṭalyantānāñ ca <cb/> tvacaḥ | pūgādīnām
@@ -1568,7 +1572,7 @@ Notes
 
                     <p ana="trailer">iti || la<unclear>ḍe</unclear> || || ||</p>
 
-                    <l xml:id="SS.1.39.trailer" ana="letter-numerals">iti || <abbr>la
+                    <l ana="letter-numerals" xml:id="SS.1.39.trailer">iti || <abbr>la
                             ḍe</abbr><expan>30 9</expan>|| || ||</l>
                 </div>
 
@@ -1763,7 +1767,7 @@ Notes
 
                 <div n="41" type="adhyāya">
 
-                    <milestone unit="folio" n="83r4" facs="dscn3058 fol 082.jpg lower"/>
+                    <milestone facs="dscn3058 fol 082.jpg lower" n="83r4" unit="folio"/>
 
                     <l xml:id="SS.1.41.1"> athāto dravyaviśeṣavijñānīyam vyākhyāsyāmaḥ || </l>
 
@@ -1784,8 +1788,8 @@ Notes
 
                     <l xml:id="SS.1.41.4.2"> śīta<pc> </pc>stimita<pc
                             > </pc>manda<pc> </pc>guru<pc> </pc>rasa<pc
-                            > </pc>sāndra<pc> </pc>mṛdu<pb n="83v"
-                            facs="dscn3059 fol 083.jpg upper"/><lb n="1"/><g
+                            > </pc>sāndra<pc> </pc>mṛdu<pb
+                            facs="dscn3059 fol 083.jpg upper" n="83v"/><lb n="1"/><g
                             ref="#newa-placeholder-mark"/>picchila<del rend="dots-above"
                             >rasaguṇa</del>rasaguṇabahulam īṣadamlaṃ prāyaso madhuram
                         āpyan tat snehanahlādanaviṣyandanakaram iti | </l>
@@ -1900,7 +1904,7 @@ Notes
 
                     <head xml:lang="en">[Adhyāya 42, draft based on MS H]</head>
 
-                    <milestone unit="folio" n="85r3" facs="dscn3060 fol 084.jpg lower"/>
+                    <milestone facs="dscn3060 fol 084.jpg lower" n="85r3" unit="folio"/>
 
                     <l xml:id="SS.1.42.1"> athāto rasaviśeṣavi<g ref="#newa-gap-filler"
                             /><cb n="2"/>jñānīyaṃ vyākhyāsyāmaḥ || </l>
@@ -2148,7 +2152,7 @@ Notes
 
                 <div n="44" type="adhyāya">
 
-                    <milestone unit="folio" facs="dscn3066 fol 89.jpg upper" n="89v"/>
+                    <milestone facs="dscn3066 fol 89.jpg upper" n="89v" unit="folio"/>
 
 
                     <!--       Missing verses
@@ -2878,7 +2882,7 @@ Notes
                     -->
 
 
-                    <milestone unit="folio" facs="dscn3074 fol 96.jpg upper"/>
+                    <milestone facs="dscn3074 fol 96.jpg upper" unit="folio"/>
 
 
                     <!--  
@@ -2936,7 +2940,7 @@ Notes
                         <caesura/>
                          kāntārakādvaraḥ pauṇḍraḥ pauṇḍrakādvaṃsa<lb n="4"/>kovaraḥ || </l>
 
-                    
+
 
                     <l xml:id="SS.1.45.157"> śarkkarāsamavīryas tu dantaniṣpīḍi<unclear
                             reason="eccentric_ductus">to</unclear> rasaḥ |</l>
@@ -2976,7 +2980,7 @@ Notes
 
                     <l xml:id="SS.1.45.170ab">madyam a<cb/>mlan dīpanaṃ rocanam</l>
 
-                    
+
 
 
                     <l xml:id="SS.1.45.171cd"> vikāsi sṛṣṭaviṭmūtraṃ śrṇu tasya viśeṣaṇaṃ
@@ -2992,7 +2996,7 @@ Notes
                         alpāntaraṅ kiṃcit khārjjūram vātakopanaṃ |</l>
 
 
-                    <milestone unit="folio" facs="dscn3075 fol 97.jpg upper" n="97v"/>
+                    <milestone facs="dscn3075 fol 97.jpg upper" n="97v" unit="folio"/>
 
                     <!--                    
                         Missing verses: 181ab, 183, 184cd, 185, 186cd, 188ab, 189, 190ab, 193 - 197ab, 
@@ -3078,7 +3082,7 @@ Notes
                     <l xml:id="SS.1.45.211cd">tadvat tadā<lb n="3"/>śrutaṃ sarvvaṃ rocanan
                         tu viśeṣataḥ |</l>
 
-                    
+
 
                     <l xml:id="SS.1.45.213">tuṣāmvu dīpanaṃ hṛdyam uktaṃ sau<cb/>vīrakan
                         tathā ||</l>
@@ -3107,7 +3111,7 @@ Notes
                         sthitaḥ | <g ref="#newa-gap-filler"/></l>
 
                     <l xml:id="SS.1.45.208">
-                        <milestone unit="page" facs="dscn3076 fol 098.jpg upper"/>
+                        <milestone facs="dscn3076 fol 098.jpg upper" unit="page"/>
                         <pb n="98v"/>
                         <lb n="1"/> rājase duḥ<add place="above">kha</add>śīlatvam
                         ātmatyāgaṃ susāhasaṃ |
@@ -3152,7 +3156,8 @@ Notes
                          deśakālavibhāgajño nṛpateḥ karttum arhatīti || </l>
 
                     <l xml:id="SS.1.45.trailer"><choice><abbr ana="Nepalese numerals">pha
-                                ch</abbr> <expan>40 4</expan></choice></l>
+                                ch</abbr>
+                            <expan>40 4</expan></choice></l>
 
                 </div>
 
@@ -3160,7 +3165,7 @@ Notes
 
                 <div n="46" type="adhyāya">
 
-                    <milestone unit="folio" n="98v6" facs="dscn3076 fol 098.jpg upper"/>
+                    <milestone facs="dscn3076 fol 098.jpg upper" n="98v6" unit="folio"/>
 
 
                     <l xml:id="SS.1.46.1"> athāto 'nnapānavidhim vyākhyāsyāmaḥ || </l>
@@ -3466,9 +3471,8 @@ Notes
                         <caesura/>
                          sāṃgrāhī dīpanaḥ śītaḥ kaṣāyamadhuras tathā |
                         <caesura/>
-                         lāvaḥ kaṭuvipākaś ca- <pb n="102v"
-                            facs="dscn3080 fol 102.jpg upper"/><lb n="1"/>sannipāteṣu
-                        pūjitaḥ || </l>
+                         lāvaḥ kaṭuvipākaś ca- <pb facs="dscn3080 fol 102.jpg upper"
+                            n="102v"/><lb n="1"/>sannipāteṣu pūjitaḥ || </l>
 
 
                     <l xml:id="SS.1.46.61"> īṣadgurūṣṇamadhuro vṛṣyo medhāgnivarddhanaḥ |
@@ -3565,7 +3569,7 @@ Notes
 
 
 
-                    <milestone unit="folio" facs="dscn3081 fol 103"/>
+                    <milestone facs="dscn3081 fol 103" unit="folio"/>
 
 
 
@@ -3663,7 +3667,7 @@ Notes
 
                     <l xml:id="SS.1.46.105">
                             haṃsasārasakroñcacakravākakurarakāraṇḍabakādambajīvañjīvakabakabalākā<pb
-                            n="104v" facs="dscn3082 fol 104.jpg upper"/><lb n="1"
+                            facs="dscn3082 fol 104.jpg upper" n="104v"/><lb n="1"
                         />puṇḍarīkāplavaśarārīmadgukrośakākākṣapuṣkaraśāyikākunālakambukukkuṭikamegharāvasvetavālaprabhṛtayaḥ
                         plavāḥ saṃghātacāriṇaḥ || </l>
 
@@ -3680,9 +3684,8 @@ Notes
                     <l xml:id="SS.1.46.108"> śaṅkha<lb n="3"
                         />nakhaśuktiśambūkaballūraprabhṛtayaḥ kośasthāḥ || </l>
 
-                    <l xml:id="SS.1.46.109"> kūrmmakumbhī<cb/>rakarkkaṭa<gap
-                            reason="omitted" extent="11" unit="char"/>prabhṛtayaḥ pādinaḥ
-                        || </l>
+                    <l xml:id="SS.1.46.109"> kūrmmakumbhī<cb/>rakarkkaṭa<gap extent="11"
+                            reason="omitted" unit="char"/>prabhṛtayaḥ pādinaḥ || </l>
 
                     <l xml:id="SS.1.46.110"> śaṅkhakūrmmādayaḥ svādurasapākānilāpahāḥ |
                         <caesura/>
@@ -3704,7 +3707,7 @@ Notes
 
                     <l xml:id="SS.1.46.114"> nādeyā guravo matsyā<g
                             ref="#newa-old-gap-filler"/>
-                        <pb n="105r" facs="dscn3082 fol 104.jpg lower"/><lb n="1"
+                        <pb facs="dscn3082 fol 104.jpg lower" n="105r"/><lb n="1"
                         />madhurāvatanāśanāḥ |
                         <caesura/>
                          raktrapittaharās tūṣṇā vṛṣyā snigdhālpavarccasaḥ || </l>
@@ -4278,7 +4281,7 @@ Notes
                          maha-<lb n="2"/>tī <unclear>sai</unclear>va hṛdyā tu
                             <unclear>meṣā</unclear>gnibalavarddhanī || </l>
 
-                    <l xml:id="SS.1.46.210.5"> grahaṇya<unclear reason="faded" extent="1"
+                    <l xml:id="SS.1.46.210.5"> grahaṇya<unclear extent="1" reason="faded"
                             unit="char"/> vikāra-<cb/>ghnī vṛṣyāśītārasāyanī |
                         <caesura/>
                          kaphapittaharās tiktās tasyā evāṅkurāḥ smṛtāḥ || </l>
@@ -4288,18 +4291,17 @@ Notes
                         <caesura/>
                          viṣṭambhimadhuraṃ rūkṣaṃ durjjaram vātako<cb/>panaṃ || </l>
 
-                    <l xml:id="SS.1.46.210.7"> guruviṣṭambhiśītau<unclear
-                            reason="illegible" extent="1" unit="char"/> śṛṅgāṭakaka<add
+                    <l xml:id="SS.1.46.210.7"> guruviṣṭambhiśītau<unclear extent="1"
+                            reason="illegible" unit="char"/> śṛṅgāṭakaka<add
                             place="top margin">śe</add>rukau |
                         <caesura/>
                          piṇḍolukaṃ kapha<add place="top margin">ka</add>raṃ
                         guruvātaprakopanaṃ || </l>
 
-                    <l xml:id="SS.1.46.210.8"> surendraka<lb n="4"/>nda<unclear
-                            reason="faded" extent="1" unit="char"/>śleṣmaghno vipāke
-                        kaṭupittakṛt ||
+                    <l xml:id="SS.1.46.210.8"> surendraka<lb n="4"/>nda<unclear extent="1"
+                            reason="faded" unit="char"/>śleṣmaghno vipāke kaṭupittakṛt ||
                         <caesura/>
-                         śala<unclear reason="faded" extent="1" unit="char"
+                         śala<unclear extent="1" reason="faded" unit="char"
                         />raṇamāṇakapra<cb/>bhṛtayaḥ kandāḥ || </l>
 
                     <l xml:id="SS.1.46.210.9"> īṣat kaṣāyāḥ kaṭukāviṣṭambhino guravaḥ |
@@ -4375,7 +4377,7 @@ Notes
 
                     <l xml:id="SS.1.46.221">
                             pippalīmaricaśṛṅgaverahiṃgujīrakakustumburujambīrasumukhasurasārjjakabhūstṛṇasugandha<pb
-                            n="110v" facs="dscn3088 fol 110.jpg upper"/><lb n="1"/><g
+                            facs="dscn3088 fol 110.jpg upper" n="110v"/><lb n="1"/><g
                             ref="#newa-old-gap-filler"
                             />kakālamālakuṭhe<unclear>ra</unclear>kakṣavakakharapuṣakāsamarddamadhuśigruphaṇi<unclear>jja</unclear>kasarṣapavetrakulathagaṇḍīratilaparṇṇivarṣābhūcitra<lb
                             n="2"/>kamūlakarasonapalāṇḍuprabhṛtīni || </l>
@@ -4467,7 +4469,7 @@ Notes
                     <l xml:id="SS.1.46.239"> citrakas tilaparṇṇī ca kapha<lb n="6"
                         />śophahare laghū |
                         <caesura/>
-                         varṣā<unclear reason="illegible" extent="1" unit="char"/>
+                         varṣā<unclear extent="1" reason="illegible" unit="char"/>
                         kaphavātaghnau hitau śophodarārśasāṃ || </l>
 
                     <l xml:id="SS.1.46.240"> kaṭustiktarasā hṛdyā rocanī vahnidīpanī |
@@ -4671,7 +4673,7 @@ Notes
                     <l xml:id="SS.1.46.290">kṣa<cb/>vakakulevaravaṃśakarīraprabhṛtīni
                         kaphapittaharāṇi sṛṣṭamūtrapurīṣāṇi ||</l>
 
-                    <l xml:id="SS.1.46.291" met="hypermetrical">kṣavakaṅ krimi<lb n="6"
+                    <l met="hypermetrical" xml:id="SS.1.46.291">kṣavakaṅ krimi<lb n="6"
                         />lanteṣu svādupākaṃ sapicchilaṃ |
                         <caesura/>
                          viṣyandivālatan nātiśleṣmakarañ ca tat ||</l>
@@ -5573,9 +5575,9 @@ Notes
                          yad yat svādutaran tattadvidadhyād uttarottaraṃ || </l>
 
 
-                    <l xml:id="SS.1.46.478"> pra<milestone unit="folio"
-                            facs="dscn3099 fol 121.jpg"/><pb n="121v"/><lb n="1"/>kṣālayed
-                        bhirāsyaṃ bhuñjānasya muhur mmuhuḥ |
+                    <l xml:id="SS.1.46.478"> pra<milestone facs="dscn3099 fol 121.jpg"
+                            unit="folio"/><pb n="121v"/><lb n="1"/>kṣālayed bhirāsyaṃ
+                        bhuñjānasya muhur mmuhuḥ |
                         <caesura/>
                          viśuddhe rasane hy asmai rocate 'nnam apūrvavat ||</l>
 
@@ -5883,7 +5885,7 @@ Notes
                     <l xml:id="SS.1.46.trailer">|| iti <lb n="4"/>suśrute śalyatantre
                         sūtrasthānaṃ samāptaṃ || ||</l>
 
-                    <milestone unit="folio" n="124r4" facs="dscn3101 fol 123.jpg lower"/>
+                    <milestone facs="dscn3101 fol 123.jpg lower" n="124r4" unit="folio"/>
 
                 </div>
 
