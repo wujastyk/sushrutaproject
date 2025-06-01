@@ -22,12 +22,14 @@
                             <ref target="https://www.klib.gov.np/">https://www.klib.gov.np/</ref>
                         </repository>
                         <collection>[collection]</collection>
-                        <idno>699</idno>
+                        <idno>KL 699</idno>
                         <idno type="siglum">K</idno>
+
                     </msIdentifier>
 
                     <msContents>
-                        <summary>[description of manuscript]</summary>
+                        <summary>The Uttaratantra of the Suśrutasaṃhitā</summary>
+
                         <msItem defective="true" n="1">
                             <!-- @defective: 'false' for complete, 'true' for incomplete -->
                             <author role="author" xml:lang="sa">Suśruta</author>
@@ -40,69 +42,18 @@
 
                             <filiation corresp="#N">Nep</filiation>
 
-
                         </msItem>
-
                     </msContents>
 
                     <physDesc>
 
-                        <p resp="Harshal Bhatt" style="prose">In the transcription of 5.1,
-                            Harshal Bhatt notes the following: Missing verses: <list>
-                                <item>SS.5.1.5cd </item>
-                                <item>SS.5.1.5ab </item>
-                                <item>SS.5.1.8cd </item>
-                                <item>SS.5.1.9 </item>
-                                <item>SS.5.1.10 </item>
-                                <item>SS.5.1.11ab </item>
-                                <item>SS.5.1.12cd </item>
-                                <item>SS.5.1.13ab </item>
-                                <item>SS.5.1.14 </item>
-                                <item>SS.5.1.15 </item>
-                                <item>SS.5.1.16 </item>
-                                <item>SS.5.1.17ab </item>
-                                <item>SS.5.1.22 </item>
-                                <item>SS.5.1.23cd </item>
-                                <item>SS.5.1.24 </item>
-                                <item>SS.5.1.30ab </item>
-                                <item>SS.5.1.33cd </item>
-                                <item>SS.5.1.34ab </item>
-                                <item>SS.5.1.36ab </item>
-                                <item>SS.5.1.71ab </item>
-                                <item>SS.5.1.72ab</item>
-                            </list> Metre Break <list>
-                                <item>SS.5.1.29 </item>
-                                <item>SS.5.1.54 </item>
-                            </list> According to KL 699 concordance, the first chapters of
-                            SS 1,2,3,4 are missing. </p>
-
-                        <p resp="Harshal Bhatt" style="prose"> In 5.4, <list>
-                                <item>verse no. 29-30 is given after 31</item>
-                                <item>32-33 are missing.</item>
-                                <item>In the KL 699, Metre Break at SS.5.4.20cd</item>
-                            </list></p>
-
-                        <p>
-                            <note resp="Harshal Bhatt"> In 5.5, <list>
-                                    <item>Missing verses 23cd, 24ab, 25cd, 28cd, 33, 47cd,
-                                        51cd, 52, 54cd, 55, 58cd, 78cd, 79-83, 84cd,
-                                        85ab</item>
-                                    <item>Additions 58.1, 52.1,</item>
-                                    <item> Observations - KL 699 Metre break 7ab,
-                                        20cd</item>
-                                    <item> Missing 25</item>
-                                </list>
-                            </note>
-                        </p>
-
                         <objectDesc form="pothi">
-                            <!-- @form can be "pothi", "book", scroll", etc. -->
-                            <supportDesc material="palm-leaf"><!-- @material can be "paper", "industrial paper", "handmade paper", "palm-leaf", "palmyra palm-leaf", "talipot palm-leaf", "birch bark", "vellum", etc. --><!-- the following <foliation> tags are examples --></supportDesc>
+                            <supportDesc material="palm-leaf"/>
                         </objectDesc>
                         <scriptDesc>
                             <scriptNote xml:id="script-śa-sa"><foreign xml:lang="sa">śa</foreign> and <foreign xml:lang="sa">sa</foreign>
                                 not distinguished.</scriptNote>
-                            <!--                     this śa/sa equivalence may be wrong. Still checking, 2021-06-12  - DW -->
+                            <!-- this śa/sa equivalence may be wrong. Still checking, 2021-06-12  - DW -->
 
                             <scriptNote xml:id="script-ba-va"><foreign xml:lang="ba">ba</foreign> and <foreign xml:lang="va">va</foreign>
                                 not distinguished.</scriptNote>
@@ -118,7 +69,6 @@
                         <origin>
                             <origDate calendar="Nepal" when="0301">M Saṃvat 301 (878
                                 CE).</origDate>
-                            <!-- calendar can be "Vikrama", "Śaka", etc. Dates can be approximate or exact. -->
                         </origin>
                     </history>
                 </msDesc>
@@ -134,6 +84,37 @@
             <div n="5" type="sthāna">
 
                 <div n="1" type="adhyāya">
+
+                    <!--                <p resp="Harshal Bhatt" style="prose">In the transcription of 5.1,
+                        Harshal Bhatt notes the following: Missing verses: <list>
+                            <item>SS.5.1.5cd </item>
+                            <item>SS.5.1.5ab </item>
+                            <item>SS.5.1.8cd </item>
+                            <item>SS.5.1.9 </item>
+                            <item>SS.5.1.10 </item>
+                            <item>SS.5.1.11ab </item>
+                            <item>SS.5.1.12cd </item>
+                            <item>SS.5.1.13ab </item>
+                            <item>SS.5.1.14 </item>
+                            <item>SS.5.1.15 </item>
+                            <item>SS.5.1.16 </item>
+                            <item>SS.5.1.17ab </item>
+                            <item>SS.5.1.22 </item>
+                            <item>SS.5.1.23cd </item>
+                            <item>SS.5.1.24 </item>
+                            <item>SS.5.1.30ab </item>
+                            <item>SS.5.1.33cd </item>
+                            <item>SS.5.1.34ab </item>
+                            <item>SS.5.1.36ab </item>
+                            <item>SS.5.1.71ab </item>
+                            <item>SS.5.1.72ab</item>
+                        </list> Metre Break <list>
+                            <item>SS.5.1.29 </item>
+                            <item>SS.5.1.54 </item>
+                        </list> According to KL 699 concordance, the first chapters of
+                        SS 1,2,3,4 are missing. </p>-->
+
+
 
                     <!-- 143r:1 -->
                     <milestone ana="line 1" facs="143r.jpg" n="143r" unit="digital_image"/>
@@ -1196,6 +1177,14 @@
 
 
                 <div n="4" type="adhyāya">
+
+                    <!--            <p resp="Harshal Bhatt" style="prose"> In 5.4, <list>
+                            <item>verse no. 29-30 is given after 31</item>
+                            <item>32-33 are missing.</item>
+                            <item>In the KL 699, Metre Break at SS.5.4.20cd</item>
+                    </list></p>-->
+
+
                     <milestone n="147v" unit="digital_image"/>
 
                     <l xml:id="SS.5.4.1">athātaḥ sarpa<pc> </pc>daṣṭa<pc> </pc>viṣa<pc> </pc>vijñānīyaṃ kalpaṃ
