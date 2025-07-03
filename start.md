@@ -12,13 +12,18 @@ The tables give links to adhyāyas that have received editorial attention (not a
 
 “New edition” means that the project has released an edition with full apparatus.  At the present time (2022-2025), the editions of most adhyāyas are provisional: work on proof-reading and edition is still ongoing on a daily basis.  These adhyāyas may be considered to be something like “critical collations” or a  provisional or first draft edition.  You will see the edition in the main window, and the variants from the manuscripts (K, N, H) and the printed edition (A) in the critical apparatus on the right. 
 
+* **K** = MS Kathmandu Kaiser Library 699
+* **N** = MS Kathmandu National Archives 1-1079
+* **H** = MS Kathmandu National Archives 5-333
+
 **Chapters marked with a puṣpikā ❈ have received critical editorial attention and may be considered  completed critical editions.**  
 
 The “[Instructions for Readers](https://saktumiva.org/wiki/users)” documentation explains how to read the above editions, how to select particular manuscripts for examination, and how to generate the critical apparatus.  The most common option is to press “other witnesses” in the left menu bar, then “select all”, then “generate apparatus.”  Click the अ character in the right-hand menu to select your preferred display script.
 
 ## 1 Sūtrasthāna [adhyāyas 1-31](https://saktumiva.org/wiki/wujastyk/susrutasamhita/01-su.su-1-31/provisional-edition_sutrasthana-1-31), [32-46](https://saktumiva.org/wiki/wujastyk/susrutasamhita/01-su.su-32-end/provisional-edition_sutrasthana-32-end) 
 
-Witness K is not available from SS.1.33 onwards.
+Based on witnesses K, N, and H.  
+Witness K is not available after SS.1.32.
 
 |                                                              |                                                              |                                                              |                                                              |                                                              |                                                              |                                                              |                                                              |                                                              |                                                              |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
@@ -32,7 +37,8 @@ Witness K is not available from SS.1.33 onwards.
 
 ## 2 [Nidānasthāna](https://saktumiva.org/wiki/wujastyk/susrutasamhita/02-su.ni/provisional-edition_nidanasthana) 
 
-Witness K is not available for most of this adhyāya.
+Based on witnesses K, N, and H. 
+Witness K is not available for most of this adhyāya. 
 
 |                                                              |                                                              |                                                              |                                                              |                                                              |                                                              |                                                              |                                                              |                                                              |                                                              |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
@@ -43,7 +49,9 @@ Witness K is not available for most of this adhyāya.
 
 ## 3 [Śārīrasthāna](https://saktumiva.org/wiki/wujastyk/susrutasamhita/03-su.sa/provisional-edition_sarirasthana) 
 
-Witness K is not available for this adhyāya.
+Based on witnesses N, and H.  
+Witness K is not available for this adhyāya.  
+Witness N is not available after 3.2.35.  Witness N ends at this point.
 
 |                                                              |                                                              |                                                              |                                                              |                                                              |                                                              |                                                              |                                                              |                                                              |                                                              |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -53,6 +61,7 @@ Witness K is not available for this adhyāya.
 
 ## 4 Cikitsāsthāna [adhyāyas 1--20](https://saktumiva.org/wiki/wujastyk/susrutasamhita/04-su.ci-1-20/provisional-edition_cikitsasthana_01-20), [21--40](https://saktumiva.org/wiki/wujastyk/susrutasamhita/04-su.ci-21-40/provisional-edition_cikitsasthana_21-40)  
 
+Based on witnesses K and H.  
 Witness K is not available for adhyāyas 1-18, 27 and 28.
 
 |                                                              |                                                              |                                                              |                                                              |                                                              |                                                              |                                                              |                                                              |                                                              |                                                              |
@@ -66,6 +75,9 @@ Witness K is not available for adhyāyas 1-18, 27 and 28.
 
 ## 5 [Kalpasthāna](https://saktumiva.org/wiki/wujastyk/susrutasamhita/05-su.ka/provisional-edition_kalpasthana) 
 
+Based on witnesses K and H.
+
+
 |                                                              |                                                              |                                                              |                                                              |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | [❈1](https://saktumiva.org/wiki/wujastyk/susrutasamhita/05-su.ka/provisional-edition_kalpasthana?&upama_scroll=SS.5.1.1) | [❈2](https://saktumiva.org/wiki/wujastyk/susrutasamhita/05-su.ka/provisional-edition_kalpasthana?&upama_scroll=SS.5.2.1) | [❈3](https://saktumiva.org/wiki/wujastyk/susrutasamhita/05-su.ka/provisional-edition_kalpasthana?&upama_scroll=SS.5.3.1) | [❈4](https://saktumiva.org/wiki/wujastyk/susrutasamhita/05-su.ka/provisional-edition_kalpasthana?&upama_scroll=SS.5.4.1) |
@@ -73,7 +85,9 @@ Witness K is not available for adhyāyas 1-18, 27 and 28.
 
 
 
-## 6 Uttaratantra  [adhyāyas 1-30](https://saktumiva.org/wiki/wujastyk/susrutasamhita/06-su.ut-01-30/provisional-edition_uttaratantra-1-30), [31-44](https://saktumiva.org/wiki/wujastyk/susrutasamhita/06-su.ut-31-44/provisional-edition_uttaratantra-31-44), [45-66](https://saktumiva.org/wiki/wujastyk/susrutasamhita/06-su.ut-45-66/provisional-edition_uttaratantra-45-66) 
+## 6 Uttaratantra  [adhyāyas 1-30](https://saktumiva.org/wiki/wujastyk/susrutasamhita/06-su.ut-01-30/provisional-edition_uttaratantra-1-30), [31-44](https://saktumiva.org/wiki/wujastyk/susrutasamhita/06-su.ut-31-44/provisional-edition_uttaratantra-31-44), [45-66](https://saktumiva.org/wiki/wujastyk/susrutasamhita/06-su.ut-45-66/provisional-edition_uttaratantra-45-66)
+
+Based on witnesses K and H. 
 
 |                                                              |                                                              |                                                              |                                                              |                                                              |                                                              |                                                              |                                                              |                                                              |                                                              |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |

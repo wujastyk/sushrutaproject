@@ -58,7 +58,8 @@ In the table below we record the following information:
 | --- | -------- | ---- | ------------------------- | --------------------- | --- | --- |
 |  | *file names* | *file names* | *file names* | *folio:line:col* | *vulgate nos.* |  |
 |  |  |  |  |  |  | |
-|  |  |  |  |  |  | **Sūtrasthāna** |
+|  |  |  |  |  | **Sūtrasthāna** |  |
+| | | | | |  |  |
 |  | 02.jpg | 037 |    003:upper    | 1v:1:a | 1.1.1 | vedotpattim |
 |  | 03.jpg |                038 |   005:upper   | 2v:5:c | 1.2.1      | śiśyopanayanīyam |
 |  | 03.jpg |                038 |   005:lower   | 3r:4:c | 1.3.1                       | 'dhyāyanasampradānīyaṃ |
@@ -121,7 +122,9 @@ In the table below we record the following information:
 | 50v | 52.jpg upper | | | | 1.46.500-525 | |
 | | 52.jpg lower| | | | | Nidānasthāna 2.1.19-2.1.48 |
 | 51v | 53.jpg upper | | | | | end of Sūtrasthāna |
-|  |  |  |  |  |  | **Nidānasthāna** |
+|  |  | | | | |  |
+|  |  |  |  |  | **Nidānasthāna** |  |
+| | | | | |  |  |
 | 51v | 53.jpg |       088:upper |  055:upper  | 51v:3a-b | 2.1             | vātavyādhi |
 |  | (52.jpg lower) |  |  |  |  | out of order, see above. |
 |  | 54.jpg | 089:upper | 056:upper | 52r:4b-c | 2.2.1 | arśasāṃ |
@@ -143,7 +146,8 @@ In the table below we record the following information:
 |  | 64.jpg:upper |  |  |  | 2.16.21- | mukharoganidānaṃ |
 |  | 66.jpg | 101:upper |  |  | 2.16.68 | samāptam nidānasthānaṃ |
 | | |  | | |  |  |
-| | |  | | |  | **Śārīrasthāna** |
+| | |  | | | **Śārīrasthāna** |  |
+| | | | | |  |  |
 | 63v:2 | 66.jpg | 101:upper | | | 3.01 | sarvabhūtacintāṃ |
 |  | 64.jpg:lower |  | | | 3.1.9 | sarvabhūtacintāṃ |
 | 63v:7 | _66 |  | | |  | folio ends with 3.1.9 |

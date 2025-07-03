@@ -2,7 +2,7 @@
 ##  Concordance of folios and Suśrutasaṃhitā passages in the vulgate
 ## By Kengo Harimoto, with additions by Dominik Wujastyk
 
-*This is extracted from the main concordance of KL 699 and has only the “underscore” folios, i.e., those by a different scribe.*
+***This is extracted from the main concordance of KL 699 and has only the “underscore” folios, i.e., those by a different scribe.***
 
 ### Notes on file names
 
