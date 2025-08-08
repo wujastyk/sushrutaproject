@@ -1,4 +1,6 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -274,14 +276,12 @@
                          tatra sattvabahulam ākāśaṃ, rajobahulo vāyuḥ, sattvarajobahulo
                         'gniḥ, sattvatamobahulā āpaḥ, tamobahulā pṛthivīti || </l>
 
-                    <l xml:id="SS.3.1.21">
-                        <label>1931 ed. SS.3.1.21</label>
-                        <caesura/>
-                         ślokau cātra bhavataḥ |</l>
-
-                    <lg>
+                  
+                    
                         <l xml:id="SS.3.1.21ab">
                             <label>1931 ed. SS.3.1.21ab</label>
+                            <caesura/>
+                            ślokau cātra bhavataḥ |
                             <caesura/>
                              anyonyānupraviṣṭāni sarvāṇy etāni nirdiśet |</l>
 
@@ -291,15 +291,15 @@
                              sve sve dravye tu sarveṣāṃ vyaktaṃ lakṣaṇamiṣyate ||</l>
 
 
-                    </lg>
+                    
                     <l xml:id="SS.3.1.22">
                         <label>1931 ed. SS.3.1.22</label>
                         <caesura/>
                          aṣṭau prakṛtayaḥ proktā vikārāḥ ṣoḍaśaiva tu || kṣetrajñaś ca
                         samāsena svatantraparatantrayoḥ||</l>
 
-                    <p ana="trailer">iti suśrutasaṃhitāyāṃ śārīrasthāne
-                        sarvabhūtacintāśārīraṃ nāma prathamo 'dhyāyaḥ ||1 ||</p>
+                    <l xml:id="SS.3.1.trailer">iti suśrutasaṃhitāyāṃ śārīrasthāne
+                        sarvabhūtacintāśārīraṃ nāma prathamo 'dhyāyaḥ ||1 ||</l>
                 </div>
 
                 <div n="2" type="adhyāya">
@@ -1729,8 +1729,8 @@
                          mahāprakṛtayastvetā rajaḥsattvatamaḥkṛtāḥ || proktā lakṣaṇataḥ
                         samyag bhiṣak tāś ca vibhāvayet ||</l>
 
-                    <p ana="trailer">iti suśrutasaṃhitāyāṃ śārīrasthāne garbhavyākaraṇaṃ
-                        śārīraṃ nāma caturtho 'dhyāyaḥ ||4 ||</p>
+                    <l xml:id="SS.3.4.trailer">iti suśrutasaṃhitāyāṃ śārīrasthāne garbhavyākaraṇaṃ
+                        śārīraṃ nāma caturtho 'dhyāyaḥ ||4 ||</l>
                 </div>
 
                 <div n="5" type="adhyāya">
@@ -2120,8 +2120,8 @@
                          śarīre caiva śāstre ca dṛṣṭārthaḥ syādviśāradaḥ ||
                         dṛṣṭaśrutābhayāṃ sandehamavāpohyācaret kriyāḥ ||</l>
 
-                    <p ana="trailer">iti suśrutasaṃhitāyāṃ śārīrasthāne
-                        śarīrasaṃkhyāvyākaraṇaśārīraṃ nāma pañcamo 'dhyāyaḥ ||5 ||</p>
+                    <l xml:id="SS.3.5.trailer">iti suśrutasaṃhitāyāṃ śārīrasthāne
+                        śarīrasaṃkhyāvyākaraṇaśārīraṃ nāma pañcamo 'dhyāyaḥ ||5 ||</l>
                 </div>
 
                 <div n="6" type="adhyāya">
@@ -2540,8 +2540,8 @@
                          prāyeṇa te kṛcchratamā bhavanti narasya yatnair api sādhyamānāḥ
                         ||</l>
 
-                    <p ana="trailer">iti suśrutasaṃhitāyāṃ śārīrasthāne
-                        pratyekamarmanirdeśaśārīraṃ nāma ṣaṣṭho 'dhyāyaḥ ||6 ||</p>
+                    <l xml:id="SS.3.6.trailer">iti suśrutasaṃhitāyāṃ śārīrasthāne
+                        pratyekamarmanirdeśaśārīraṃ nāma ṣaṣṭho 'dhyāyaḥ ||6 ||</l>
                 </div>
 
                 <div n="7" type="adhyāya">
@@ -2756,8 +2756,8 @@
                         <caesura/>
                          pratānāḥ padminīkandādbisādīnāṃ yathā jalam ||</l>
 
-                    <p ana="trailer">iti suśrutasaṃhitāyāṃ śārīrasthāne
-                        sirāvrṇavibhaktiśārīraṃ nāma saptamo 'dhyāyaḥ ||7 ||</p>
+                    <l xml:id="SS.3.7.trailer">iti suśrutasaṃhitāyāṃ śārīrasthāne
+                        sirāvrṇavibhaktiśārīraṃ nāma saptamo 'dhyāyaḥ ||7 ||</l>
                 </div>
 
                 <div n="8" type="adhyāya">
@@ -3032,22 +3032,12 @@
                     <lg xml:id="SS.3.8.26">
                         <l> avagāḍhe jalaukāḥ syāt pracchānaṃ piṇḍite hitam ||
                             sirā'ṅgavyāpake rakte śṛṅgālābū tvaci sthite ||</l>
-
-
-
-
-
-
-
-
-
-
-
-
                     </lg>
-                    <p ana="trailer">iti suśrutasaṃhitāyāṃ śārīrasthāne
-                        sirāvyadhavidhiśārīraṃ nāmāṣṭame 'dhyāyaḥ ||8 ||</p>
+                    <l xml:id="SS.3.8.trailer">iti suśrutasaṃhitāyāṃ śārīrasthāne
+                        sirāvyadhavidhiśārīraṃ nāmāṣṭame 'dhyāyaḥ ||8 ||</l>
                 </div>
+
+
 
                 <div n="9" type="adhyāya">
                     <head>navamo 'dhyāyaḥ |</head>
@@ -3206,8 +3196,8 @@
                          srotas tad iti vijñeyaṃ sirādhamanivarjitam ||</l>
 
 
-                    <p ana="trailer">iti suśrutasaṃhitāyāṃ śārīrasthāne
-                        dhamanīvyākaraṇaśārīraṃ nāma navamo 'dhyāyaḥ ||9 ||</p>
+                    <l xml:id="SS.3.9.trailer">iti suśrutasaṃhitāyāṃ śārīrasthāne
+                        dhamanīvyākaraṇaśārīraṃ nāma navamo 'dhyāyaḥ ||9 ||</l>
                 </div>
 
 
