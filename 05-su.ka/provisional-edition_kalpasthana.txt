@@ -73,6 +73,19 @@
                             type="siglum">Gayī</abbr>
                         <idno type="siglum">Bikaner RORI 5157</idno></witness>
 
+                    <witness xml:id="NAK_1-1146">MS Kathmandu NAK 1-1146 <abbr
+                            type="siglum">1-1146</abbr>
+                        <idno type="siglum">MS NAK 1-1146</idno> A paper manuscript in
+                        Devanāgarī. 67 ff. Filmed as reel no A 224-9. Covers 1.8.3 -
+                        1.44.24 of the Sūtrasthāna. </witness>
+
+                    <witness xml:id="PUL_818">MS Lahore PUL 818 <abbr type="siglum"
+                            >PUL-818</abbr>
+                        <idno type="siglum">PUL 818</idno> A paper manuscript in
+                        Devanāgarī. See description at PanditProject <ptr
+                            target="https://www.panditproject.org/entity/113868/manuscript"
+                        />. Parts of Sūtra, Nidāna, Śārīra and Kalpasthānas.</witness>
+
                 </listWit>
             </sourceDesc>
         </fileDesc>
@@ -1734,15 +1747,15 @@
                     <l xml:id="SS.5.3.32cd">
                         <label>1938 ed. 5.3.32cd</label>
                         <caesura/>
-                        svabhāvād avatiṣṭheta prahārādaṃśayor viṣam ||<anchor
-                        n="SS.5.3.32cd-n1"/></l>
+                         svabhāvād avatiṣṭheta prahārādaṃśayor viṣam ||<anchor
+                            n="SS.5.3.32cd-n1"/></l>
                     <ab corresp="#SS.5.3.32cd" type="apparatus">
                         <list type="Notes">
-                            <item corresp="#SS.5.3.32cd-n1">Vulgate verse 5.3.32ab, 
-                                <foreign>kīṭair daṣṭān ... samupācaret</foreign> does not 
-                            appear here in the Nepalese witnesses, but it does appear,
-                            mutatis mutandis, at 5.8.42
-                            (Ācārya 1938: 588).</item>
+                            <item corresp="#SS.5.3.32cd-n1">Vulgate verse 5.3.32ab,
+                                    <foreign>kīṭair daṣṭān ... samupācaret</foreign> does
+                                not appear here in the Nepalese witnesses, but it does
+                                appear, mutatis mutandis, at 5.8.42 (Ācārya 1938:
+                                588).</item>
                         </list>
                     </ab>
 
@@ -5421,14 +5434,35 @@
                         <caesura/>
                          yat kiṃcid ābādhakaran tad yasmāc chalyasaṃjñitaṃ |
                         <caesura/>
-                         vyāptāny aṅgāny atas tena śalyajñānena sūriṇā | </l>
+                         vyāptāny aṅgāny <app>
+                            <lem>atas</lem>
+                            <rdg wit="#PUL_818">ato</rdg>
+                        </app> tena śalyajñānena <app>
+                            <lem>sūriṇā</lem>
+                            <rdg wit="#PUL_818">bhūriṇā</rdg>
+                        </app> |<anchor n="5.8.143.add-2-n1"/> </l>
+                    
+                    <ab corresp="#SS.5.8.143.add-2" type="apparatus">
+                        <list type="Notes">
+                            <item corresp="#SS.5.8.143.add-2-n1"> This verse is present in 
+                                MS Lahore PUL 818, fol. 31.</item>
+                        </list>
+                    </ab>
+
 
                     <l xml:id="SS.5.8.143.add-3">
                         <label>1938 ed. 5.8.143 add 3</label>
                         <caesura/>
                          ataś cāsya viśeṣeṇa gatir na pratiṣidhyate |
                         <caesura/>
-                         yathā svaviṣayasthasya rājño balavato gatiḥ |</l>
+                        yathā svaviṣayasthasya rājño balavato gatiḥ |<anchor n="5.8.143.add-3-n1"/> </l>
+                    
+                    <ab corresp="#SS.5.8.143.add-3" type="apparatus">
+                        <list type="Notes">
+                            <item corresp="#SS.5.8.143.add-3-n1"> This verse is present in 
+                                MS Lahore PUL 818, fol. 31.</item>
+                        </list>
+                    </ab>
 
                     <l xml:id="SS.5.8.143.add-4">
                         <label>1938 ed. 5.8.143 add 4</label>
@@ -5448,7 +5482,17 @@
                         <caesura/>
                          paṭhet sa rājño 'rhati vaidyapūjitaḥ |
                         <caesura/>
-                         kriyām prayoktuṃ bhiṣag āgatakramaḥ ||</l>
+                        kriyām prayoktuṃ bhiṣag <app>
+                            <lem>āgatakramaḥ</lem>
+                            <rdg wit="#PUL_818">āgamajñaḥ</rdg>
+                        </app> ||<anchor n="5.8.143.add-5-n1"/> </l>
+                    
+                    <ab corresp="#SS.5.8.143.add-5" type="apparatus">
+                        <list type="Notes">
+                            <item corresp="#SS.5.8.143.add-5-n1"> This verse is present in 
+                                MS Lahore PUL 818, fol. 31.</item>
+                        </list>
+                    </ab>
 
                     <l xml:id="SS.5.8.143.add-6">
                         <label>1938 ed. 5.8.143 add 6</label>
