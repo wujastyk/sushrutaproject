@@ -21,7 +21,7 @@ Transcriptions done so far:
 
 
 
-| Ms folio         | Corresponding SS text | Transcription File        | Notes         |      |      |
+| Ms scribal folio | Corresponding SS text | Transcription File        | Notes         |      |      |
 | ---------------- | --------------------- | ------------------------- | ------------- | ---- | ---- |
 | 139r - 148r      | SS 1.12.1 - 1.12.39ab | susrutapathasuddhi-01.txt | NS commentary |      |      |
 | 21v - 29r        | SS 2.4.1 - 2.5.34     | susrutapathasuddhi-02     |               |      |      |
