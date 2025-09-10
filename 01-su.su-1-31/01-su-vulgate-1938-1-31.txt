@@ -96,7 +96,7 @@
                 1931 and did some word breaks</change>
             <change when="2025-08-31" who="Dominik Wujastyk">Further work on xml:ids; labels;
                 caesuras.</change>
-
+            <change when="2025-09-10" who="Deepro Chakraborty">Corrections in 1.12</change>
         </revisionDesc>
     </teiHeader>
 
@@ -2344,14 +2344,19 @@
                     <l xml:id="SS.1.12.3b">
                         <label>1938 ed. 1.12.3b</label>
                         <caesura/>
-                         taddagdhānāṃ rogāṇāmapunarbhāvādbheṣajaśastrakṣārairasādhyānāṃ
-                        tatsādhyatvāc ca ||3|| </l>
+                         taddagdhānāṃ rogāṇāmapunarbhāvād</l>
+                    
+                    <l xml:id="SS.1.12.3c">
+                        <label>1938 ed. 1.12.3c</label>
+                        <caesura/>
+                        bheṣajaśastrakṣārairasādhyānāṃ
+                        tatsādhyatvāc ca ||3||</l>
 
 
                     <p xml:id="NS.1.12.3a1" style="stream1">
                         <label>Ḍalhaṇa on 1.12.3a</label>
                         <caesura/>
-                         agnikarmamāhātmyam āha,— kṣārād ityādi |— </p>
+                         agnikarma<pc> </pc>māhātmyam āha,— kṣārād ityādi |— </p>
 
 
                     <p xml:id="NS.1.12.3a2" style="stream1">
@@ -2377,7 +2382,12 @@
                         sādhyānāṃ samyag dagdhānāṃ , etad viparyaye tv agnidagdhasyāpi punar
                         udbhavaḥ anye tv anyā samādadhati — arbudādayo 'gninā samūlam unmūlitā
                         mithyāhārādibhiḥ punardoṣaprakopāt tat sthāna evānye jāyamānās tadvad
-                        upālabhyante | hetvantaraṃ samuccinvan āha, — bheṣajetyādi | tatsādhyatvāt_
+                        upālabhyante | hetvantaraṃ samuccinvan āha, — bheṣajetyādi | </p>
+                    
+                    <p xml:id="NS.1.12.3c" style="stream1">
+                        <label>Ḍalhaṇa on 1.12.3c</label>
+                        <caesura/>
+                        tatsādhyatvāt_
                         agnisādhyatvād ity arthaḥ | anye tu ‘svedaśastrakṣāraiḥ’ iti paṭhanti,
                         tatrāyam arthaḥ — bhagandarārśasādayaḥ pūrvaṃ svidyante, paścāt teṣu śastram
                         avacāryate; athavā svedagrahaṇaṃ bheṣajopalakṣaṇaṃ, bheṣajāśaktau
@@ -2478,6 +2488,8 @@
                         atra pāṭhe kecid vidhiśabdaṃ na paṭhanti ||5|| </p>
 
 
+                        <!--                    -->
+                    
                     <l xml:id="SS.1.12.6a">
                         <label>1938 ed. 1.12.6a</label>
                         <caesura/>
@@ -2488,6 +2500,7 @@
                         <caesura/>
                          mūḍhagarbhāśmarībhagandarodarārśomukharogeṣv abhuktavataḥ karma kurvīta
                         ||6|| </l>
+                    
 
                     <p xml:id="NS.1.12.6a1" style="stream1">
                         <label>Ḍalhaṇa on 1.12.6a</label>
@@ -2600,7 +2613,7 @@
                     <l xml:id="SS.1.12.10">
                         <label>1938 ed. 1.12.10</label>
                         <caesura/>
-                         tvaṅmāṃsasirāsnāyusandhyasthisthite 'tyugraruji
+                         tvaṅmāṃsa<pc> </pc>sirāsnāyusandhyasthisthite 'tyugraruji
                         vāyāvucchritakaṭhinasuptamāṃse vraṇe granthyarśo
                         'rbudabhagandarāpacīślīpadacarmakīlatilakālakāntravṛddhisandhisirācchedanādiṣu
                         nāḍīśoṇitātipravṛttiṣu cāgnikarma kuryāt ||10|| </l>
