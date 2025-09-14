@@ -10,8 +10,8 @@
 % private macros for switching between chapters    
 \newif \ifkalpa \newif\ifsarira \newif \ifjvara \newif\ifsutra \newif\ifnidana
 %
-%\nidanatrue
-\kalpatrue
+% \nidanatrue
+%\kalpatrue
 %\sariratrue
 %\sutratrue
 
@@ -47,7 +47,7 @@
 } \fi
 \ifsarira \includeonly{%
    % chapters/translation 3-02,
-    chapters/translation 3-03,
+    chapters/translation 3-01,
     % chapters/bibliography and indexes
 } \fi       
 %
@@ -108,6 +108,7 @@
         
         \part{Part 3. Śārīrasthāna}
         
+        \include{chapters/translation 3-01} % with Jan Gerris
         \include{chapters/translation 3-02} % with Jan Gerris
         \include{chapters/translation 3-03} % with Jan Gerris
             \thispagestyle{empty}
