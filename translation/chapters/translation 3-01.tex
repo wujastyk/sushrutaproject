@@ -65,18 +65,118 @@ From that unmanifest, the Mahat arises, having exactly the same
 properties.\footnote{In classical Sāṅkhya theory, \dev{mahat} is a
     synonym for \dev{buddhi}, ``intellect.''  In the present passage, this
     identity is not explicit; rather, it is a cosmological entity.  In the
-    cosmology of the \emph{Pātañjalayogaśāstra}, it is pure being, 
-    \dev{sattāmātra} 2.19 \citep[85]{agas-1904}, it is
-    also sometimes designated as the great \dev{ātman} ``great self'' in
-    the sense of a universal being.} %
+    cosmology of the \emph{Pātañjalayogaśāstra}, it is pure being,
+    \dev{sattāmātra} 2.19 \citep[85]{agas-1904}, it is also sometimes
+    designated as the great \dev{ātman} ``great self'' in the sense of a
+    universal being.} %
     From that Mahat, which has those same properties, arises the
     Ahaṅkāra, having exactly the same characteristics.\footnote{The
         Ahaṅkāra ``I-maker'' is the principle of individual identity.}  It
         has three aspects: \se{vaikārika}{mutable}, \se{taijasa}{fiery}
-        and \se{bhūtādi}{elemental}.\footnote{These technical terms occur
-            in the \emph{Sāṅkhakārikā} 22 as synonyms for Ahaṅkāra
-            \parencites[46--47]{sast-1948}[187--188]{wezl-1998}. They also
-            occur in the Purāṇic cosmogonies.}
+        and \se{bhūtādi}{elemental}.\footnote{\label{puraniccosmology}These 
+        technical terms occur in the \emph{Sāṅkhyakārikā} 22 as synonyms for 
+        Ahaṅkāra \parencites[46--47]{sast-1948}[187--188]{wezl-1998}. They 
+        also occur in the Purāṇic cosmogonies; \citet[27]{biar-1981} offered a 
+        useful diagrammatic representation of these showing these relationships, 
+        reproduced in Figure~\ref{fig:biardeau1981-p27}.}
+          
+            \begin{figure}
+                \centering
+                %\includegraphics[height=\textheight]{chapters/media/biardeau1981-p27}
+                \begin{tikzpicture}[
+                  node distance=0.4cm,
+                  every node/.style={font=\itshape},
+                  box/.style={align=center}
+                  ]
+                  
+                  % Top nodes
+                  \node (avyakta) {avyakta = pradhāna};
+                  \node[right=3cm of avyakta] (purusa) {+ \; \textit{puruṣa}};
+                  
+                  % Main vertical line
+                  \node[below=of avyakta] (mahan) {mahān};
+                  \node[below=of mahan] (gunas) {(sāttvika \; rājasa \; tāmasa)};
+                  \node[below=of gunas] (ahamkara) {ahaṅkāra};
+                  
+                  % Threefold division with extra spacing
+                  \node[below left=1cm and 2.5cm of ahamkara] (vaikarika) 
+                  {vaikārika};
+                  \node[below=1cm of ahamkara] (taijasa) {taijasa};
+                  \node[below right=1cm and 2.5cm of ahamkara] (bhutadi) 
+                  {bhūtādi};
+                  
+                  % Wavy brace under the three nodes
+                  \draw[decorate, decoration={snake, amplitude=1mm, segment 
+                      length=6mm}]
+                  ([yshift=-3mm]vaikarika.south west) -- ([yshift=-3mm]bhutadi.south 
+                  east);
+                  
+                  % From vaikārika
+                  \node[below=of vaikarika] (dummy1) {};
+                  \node[below=1.7cm of vaikarika] (buddhi) {5 buddhiindriya};
+                  \node[below=of buddhi] (karmendriya) {+ 5 karmendriya};
+                  \node[below=of karmendriya] (manas) {manas = 
+                  11\textsuperscript{e} 
+                      indriya};
+                  
+                  % From taijasa
+                
+                    \node[below right=1.2cm  and .5cm of taijasa] (sabda) 
+                  {śabdatanmātra};
+                      \node[above=of sabda] (dummy2) {};
+                  \node[below=of sabda] (akasa) {ākāśa};
+                  \node[below=of akasa] (sparsa) {sparśatanmātra};
+                  \node[below=of sparsa] (vayu) {vāyu};
+                  \node[below=of vayu] (rupa) {rūpatanmātra};
+                  \node[below=of rupa] (jyotis) {jyotis};
+                  \node[below=of jyotis] (rasa) {rasatanmātra};
+                  \node[below=of rasa] (apas) {āpaḥ};
+                  \node[below=of apas] (gandha) {gandhatanmātra};
+                  \node[below=of gandha] (sanghata) {saṅghāta};
+                  
+                  % Connections
+                  \draw[->] (avyakta) -- (mahan);
+                  \draw[->] (mahan) -- (gunas);
+                  \draw[->] (gunas) -- (ahamkara);
+                  
+                  % Branches
+%                  \draw[->] (ahamkara) -- (vaikarika);
+%                  \draw[->] (ahamkara) -- (taijasa);
+%                  \draw[->] (ahamkara) -- (bhutadi);
+                  
+                  % Left branch
+                  \draw[->] (dummy1) -- (buddhi);
+                  \draw[->] (buddhi) -- (karmendriya);
+                  \draw[->] (karmendriya) -- (manas);
+                  
+                  % Diagonal slanted connection back into middle branch
+                  %\draw[->] (manas.east) .. controls +(3,0) and +(-3,0) .. 
+                  %(sparsa.west);
+                  
+                  % Middle branch
+                  \draw[->] (dummy2) -- (sabda);
+                  \draw[->] (sabda) -- (akasa);
+                  \draw[->] (akasa) -- (sparsa);
+                  \draw[->] (sparsa) -- (vayu);
+                  \draw[->] (vayu) -- (rupa);
+                  \draw[->] (rupa) -- (jyotis);
+                  \draw[->] (jyotis) -- (rasa);
+                  \draw[->] (rasa) -- (apas);
+                  \draw[->] (apas) -- (gandha);
+                  \draw[->] (gandha) -- (sanghata);
+                  
+              \end{tikzpicture}
+              
+                \caption{Levels of original creation as presented in the following 
+                Purāṇas: \emph{Vāyupurāṇa}, \emph{Brahmāṇḍapurāṇa}, 
+                \emph{Viṣṇupurāṇa}, \emph{Mārkaṇḍeyapurāṇa}, 
+                and \emph{Kūrmapurāṇa}, \citep[after][27]{biar-1981}. 
+                See footnote \ref{puraniccosmology}}
+                \label{fig:biardeau1981-p27}
+            \end{figure}
+            
+          
+            
             
             From that mutable Ahaṅkāra the 
             eleven \se{indriya}{faculties} arise, with the very same
