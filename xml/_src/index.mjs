@@ -12,7 +12,7 @@ const readFile = (str) => {
     const f = Fs.readFileSync(str,{encoding: 'utf-8'});
     const dom = new Jsdom.JSDOM('');
     const parser = new dom.window.DOMParser();
-    const preamble = `<?xml version="1.0" encoding="UTF-8"?>\n<?xml-stylesheet type="text/xsl" href="${Config.xslt}"?>`;
+    const preamble = f.startsWith('<?xml') ? '' : `<?xml version="1.0" encoding="UTF-8"?>\n<?xml-stylesheet type="text/xsl" href="${Config.xslt}"?>`;
     return parser.parseFromString(preamble+f,'text/xml');
 };
 
