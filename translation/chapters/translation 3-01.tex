@@ -104,98 +104,97 @@ properties.\footnote{In classical Sāṅkhya theory, \dev{mahat} is a
             \begin{figure}
                 \centering\large
                 %\includegraphics[height=\textheight]{chapters/media/biardeau1981-p27}
-                \begin{tikzpicture}[
-                   node distance=0.4cm,
-                   every node/.style={font=\itshape},
-                   box/.style={align=center}
-                   ]
-                   
-                   % Top nodes
-                   \node (avyakta) {avyakta = pradhāna};
-                   \node[right=2.5cm of avyakta] (purusa) {+ \; \textit{puruṣa}};
-                   \node[left=3.9cm of avyakta] (kkk1) {}; %DW
-                   
-                   % Main vertical line
-                   \node[below=of avyakta] (mahan) {mahān};
-                   \node[below=of mahan] (gunas) {(sāttvika \; rājasa \; tāmasa)};
-                   \node[below=of gunas] (ahamkara) {ahaṅkāra};
-                   
-                   % Threefold division with extra spacing
-                   \node[below left=1cm and 1cm of ahamkara] (vaikarika) 
-                   {vaikārika};
-                   \node[below=1cm of ahamkara] (taijasa) {taijasa};
-                   \node[below right=1cm and 1cm of ahamkara] (bhutadi) 
-                   {bhūtādi};
-                   
-                   
-                   % Wavy brace under the three nodes
-                   \draw[decorate, decoration={snake, amplitude=1mm, segment 
-                       length=6mm}]
-                   ([yshift=-3mm]vaikarika.south west) -- ([yshift=-3mm]bhutadi.south 
-                   east);
-                   
-                   % From vaikārika
-                   \node[below=of vaikarika] (dummy1) {};
-                   \node[below=1.7cm of vaikarika] (buddhi) {5 buddhīndriya};
-                   \node[below=of buddhi] (karmendriya) {+ 5 karmendriya};
-                   \node[below=of karmendriya] (manas) {manas = 
-                       11\textsuperscript{e} 
-                       indriya};
-                   % DW
-                   \node[left=.6cm of manas] (kkk2) {};
-                   
-                   % From taijasa
-                   
-                   \node[below right=1.2cm and -.8cm of taijasa] 
-                   (sabda){śabdatanmātra};
-                   \node[above=of sabda] (dummy2) {};
-                   \node[below=of sabda] (akasa) {ākāśa};
-                   \node[below=of akasa] (sparsa) {sparśatanmātra};
-                   \node[below=of sparsa] (vayu) {vāyu};
-                   \node[below=of vayu] (rupa) {rūpatanmātra};
-                   \node[below=of rupa] (jyotis) {jyotis};
-                   \node[below=of jyotis] (rasa) {rasatanmātra};
-                   \node[below=of rasa] (apas) {āpaḥ};
-                   \node[below=of apas] (gandha) {gandhatanmātra};
-                   \node[below=of gandha] (sanghata) {saṅghāta};
-                   
-                   % Connections
-                   \draw[->] (avyakta) -- (mahan);
-                   \draw[->] (mahan) -- (gunas);
-                   \draw[->] (gunas) -- (ahamkara);
-                   
-                   % DW lines on left
-                   \draw[-] (avyakta) -- (kkk1);
-                   \draw[-](kkk1) -- (kkk2);
-                   \draw[->](kkk2) -- (manas);       
-                   
-                   % Branches
-                   %                  \draw[->] (ahamkara) -- (vaikarika);
-                   %                  \draw[->] (ahamkara) -- (taijasa);
-                   %                  \draw[->] (ahamkara) -- (bhutadi);
-                   
-                   % Left branch
-                   \draw[->] (dummy1) -- (buddhi);
-                   \draw[->] (buddhi) -- (karmendriya);
-                   \draw[->] (karmendriya) -- (manas);
-                   
-                   % Diagonal slanted connection back into middle branch
-                   %\draw[->] (manas.east) .. controls +(3,0) and +(-3,0) .. 
-                   %(sparsa.west);
-                   
-                   % Middle branch
-                   \draw[->] (dummy2) -- (sabda);
-                   \draw[->] (sabda) -- (akasa);
-                   \draw[->] (akasa) -- (sparsa);
-                   \draw[->] (sparsa) -- (vayu);
-                   \draw[->] (vayu) -- (rupa);
-                   \draw[->] (rupa) -- (jyotis);
-                   \draw[->] (jyotis) -- (rasa);
-                   \draw[->] (rasa) -- (apas);
-                   \draw[->] (apas) -- (gandha);
-                   \draw[->] (gandha) -- (sanghata);
-                   
-               \end{tikzpicture}
+  \begin{tikzpicture}[
+    node distance=0.4cm,
+    every node/.style={font=\itshape},
+    box/.style={align=center}
+    ]
+    
+    % Top nodes
+    \node (avyakta) {avyakta = pradhāna};
+    \node[right=3cm of avyakta] (purusa) {+ \; \textit{puruṣa}};
+    \node[left=3.9cm of avyakta] (kkk1) {}; %DW
+    
+    % Main vertical line
+    \node[below=of avyakta] (mahan) {mahān};
+    \node[below=of mahan] (gunas) {(sāttvika \; rājasa \; tāmasa)};
+    \node[below=of gunas] (ahamkara) {ahaṅkāra};
+    
+    % Threefold division with less spacing
+    \node[below left=.25cm and 1cm of ahamkara] (vaikarika) 
+    {vaikārika};
+    \node[below=.25cm of ahamkara] (taijasa) {taijasa};
+    \node[below right=.25cm and 1cm of ahamkara] (bhutadi) 
+    {bhūtādi};
+    
+    
+    % Wavy brace under the three nodes
+    \draw[decorate, decoration={snake, amplitude=1mm, segment 
+        length=6mm}]
+    ([yshift=-3mm]vaikarika.south west) -- ([yshift=-3mm]bhutadi.south 
+    east);
+    
+    % From vaikārika
+    \node[below=of vaikarika] (dummy1) {};
+    \node[below=1.2cm of vaikarika] (buddhi) {5 buddhīndriya};
+    \node[below=of buddhi] (karmendriya) {+ 5 karmendriya};
+    \node[below=of karmendriya] (manas) {manas = 
+        11\textsuperscript{e} 
+        indriya};
+    % DW
+    \node[left=.6cm of manas] (kkk2) {};
+    
+    % From taijasa
+    
+    \node[below right=1.2cm and -.8cm of taijasa] (sabda){śabdatanmātra};
+    \node[above=of sabda] (dummy2) {}; %DW
+    \node[below=of sabda] (akasa) {ākāśa};
+    \node[below=of akasa] (sparsa) {sparśatanmātra};
+    \node[below=of sparsa] (vayu) {vāyu};
+    \node[below=of vayu] (rupa) {rūpatanmātra};
+    \node[below=of rupa] (jyotis) {jyotis};
+    \node[below=of jyotis] (rasa) {rasatanmātra};
+    \node[below=of rasa] (apas) {āpaḥ};
+    \node[below=of apas] (gandha) {gandhatanmātra};
+    \node[below=of gandha] (sanghata) {saṅghāta};
+    
+    % Connections
+    \draw[->] (avyakta) -- (mahan);
+    \draw[->] (mahan) -- (gunas);
+    \draw[->] (gunas) -- (ahamkara);
+    
+    % DW lines on left
+    \draw[-] (avyakta) -- (kkk1);
+    \draw[-](kkk1) -- (kkk2);
+    \draw[->](kkk2) -- (manas);       
+    
+    % Branches
+    %                  \draw[->] (ahamkara) -- (vaikarika);
+    %                  \draw[->] (ahamkara) -- (taijasa);
+    %                  \draw[->] (ahamkara) -- (bhutadi);
+    
+    % Left branch
+    \draw[->] (dummy1) -- (buddhi);
+    \draw[->] (buddhi) -- (karmendriya);
+    \draw[->] (karmendriya) -- (manas);
+    
+    % Diagonal slanted connection back into middle branch
+    %\draw[->] (manas.east) .. controls +(3,0) and +(-3,0) .. 
+    %(sparsa.west);
+    
+    % Middle branch
+    \draw[->] (dummy2) -- (sabda);
+    \draw[->] (sabda) -- (akasa);
+    \draw[->] (akasa) -- (sparsa);
+    \draw[->] (sparsa) -- (vayu);
+    \draw[->] (vayu) -- (rupa);
+    \draw[->] (rupa) -- (jyotis);
+    \draw[->] (jyotis) -- (rasa);
+    \draw[->] (rasa) -- (apas);
+    \draw[->] (apas) -- (gandha);
+    \draw[->] (gandha) -- (sanghata);
+    
+\end{tikzpicture}
               
                 \caption{Levels of original creation as presented in the following 
                 Purāṇas: \emph{Vāyupurāṇa}, \emph{Brahmāṇḍapurāṇa}, 
