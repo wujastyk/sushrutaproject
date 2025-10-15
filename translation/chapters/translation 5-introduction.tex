@@ -45,25 +45,11 @@ Table~\ref{kalpa-chapters}).
     Jaṅgamaviṣavijñāna & 3 & 3 \\
     Sarppadaṣṭavijñāna & 4 & 4 \\
     Sarppadaṣṭacikitsita & 5 & 5 \\
-    % Use \tikzmarknode{<name>}{<content>} to create a node around 
-    %the number
-    \textbf{Mūṣikākalpa} & 6\tikzmarknode{A}{} & \tikzmarknode{B}{}7 
-    \\
-    \textbf{Dundubhisvana} & 7\tikzmarknode{C}{} & \tikzmarknode{D}{}6 \\
+    \textbf{Mūṣikākalpa} & \textbf{6} & \textbf{7} \\
+    \textbf{Dundubhisvana} & \textbf{7} & \textbf{6} \\
     Kīṭakalpa & 8 & 8 \\
     \bottomrule
 \end{tabular}
-% Use TikZ to draw the lines after the table is built
-\begin{tikzpicture}[overlay, remember picture]
-    % Draw the first crossover line: A (Nepalese 6) to B (vulgate 7)
-    % We connect the center of the nodes A and B
-    \draw[->] (A.center) -- (D.center);
-    
-    % Draw the second crossover line: C (Nepalese 7) to D (vulgate 6)
-    \draw[->] (C.center) -- (B.center);
-\end{tikzpicture}
-
-
 \label{kalpa-chapters}
 \end{table}
 %
