@@ -6,6 +6,9 @@
     ]{book} 
 \usepackage{incremental_SS_Translation} 
 \addbibresource{incremental_SS_Translation.bib}
+% shorthand for the bib file:
+\providecommand{\ark}[1]{\href{http://n2t.net/#1}{#1}}
+%
 \usepackage{tabularray}
 \UseTblrLibrary{booktabs}
 %\DefTblrTemplate{firsthead, middlehead,lasthead}{default}{}
@@ -13,7 +16,7 @@
 \newif \ifkalpa \newif\ifsarira \newif \ifjvara \newif\ifsutra \newif\ifnidana
 %
 %\nidanatrue
-%\kalpatrue
+\kalpatrue
 %\sariratrue
 %\sutratrue
 
@@ -33,13 +36,14 @@
 \newcommand{\ignoreargument}[1]{\empty }
 
 \ifkalpa 
-    \includeonly{%chapters/translation 5-introduction,
-%    chapters/translation 5-introduction,
-        chapters/translation 5-02,   
+    \includeonly{
+chapters/translation 5-introduction,
+%      chapters/translation 5-introduction,
+%        chapters/translation 5-02,   
 %        chapters/translation 5-06,   
 %        chapters/translation 5-03,   
 %        chapters/translation 5-08,   
-        chapters/bibliography and indexes 
+%        chapters/bibliography and indexes 
 } \fi
 %
 \ifsutra
