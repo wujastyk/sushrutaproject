@@ -9,14 +9,17 @@
 % shorthand for the bib file:
 \providecommand{\ark}[1]{\href{http://n2t.net/#1}{#1}}
 %
+% A more modern and better-looking table package, to replace array, 
+% tabular and longtable:
 \usepackage{tabularray}
 \UseTblrLibrary{booktabs}
 %\DefTblrTemplate{firsthead, middlehead,lasthead}{default}{}
+%
 % private macros for switching between chapters    
 \newif \ifkalpa \newif\ifsarira \newif \ifjvara \newif\ifsutra \newif\ifnidana
 %
 %\nidanatrue
-\kalpatrue
+%\kalpatrue
 %\sariratrue
 %\sutratrue
 
@@ -54,7 +57,7 @@ chapters/translation 5-introduction,
 \ifsarira \includeonly{%
    % chapters/translation 3-02,
     chapters/translation 3-01,
-     chapters/bibliography and indexes
+%     chapters/bibliography and indexes
 } \fi       
 %
 \ifjvara  \includeonly{chapters/translation 6-39} \fi      
