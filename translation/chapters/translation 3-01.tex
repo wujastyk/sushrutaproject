@@ -1,28 +1,26 @@
 % !TeX root = incremental_SS_Translation.tex
 
-\chapter{Śārīrasthāna 1:  On the consideration of all beings}
+\chapter{Śārīrasthāna 1:  A Consideration of All Beings}
+
+\section{Introduction}
 
 
+The short account of Sāṅkhya philosophy offered in this chapter of the
+\SS\ is several times characterized by its authors as being ``special to
+physicians".\footnote{3.1.11 \dev{vaidyake tu} ``but in
+    medicine\ldots''; 3.1.13 \dev{cikitsite} ``in medicine''; 3.1.16
+    \dev{āyurvedaśāstreṣu} ``in the treatises about medicine\ldots '';
+    3.1.16 \dev{sa eṣa karmapuruṣaścikitsādhikṛtaḥ} ``it is this agentic
+    person that medicine is concerned with.''}  And it does indeed stand
+    slightly apart from the major classical forms of Sāṅkhya philosophy in
+    some regards.
 
-\section{Literature} 
-
-Meulenbeld offered an annotated overview of this chapter and a
-bibliography of earlier scholarship to
-2002 and, in his notes, citations of the parallel passages in the 
-\CS.\fvolcite{IA}[243]{meul-hist}   The short account of Sāṅkhya philosophy 
-offered in this chapter of the \SS\ is several times characterized as being special 
-to physicians.\footnote{3.1.11 \dev{vaidyake tu} ``but in medicine\ldots''; 
-3.1.13 \dev{cikitsite} ``in medicine''; 3.1.16 \dev{āyurvedaśāstreṣu} ``in the 
-treatises about medicine\ldots ''; 3.1.16 \dev{sa eṣa 
-karmapuruṣaścikitsādhikṛtaḥ} ``it is this agentic person that medicine is 
-concerned with.''} Recent overviews of the classical theory include those of 
-\textcites{ruzs-2025}[ch.\,22]{adam-2022}[\S2.4]{chat-2021}.
-\citet{comb-2011} studied the specifically Ayurvedic interpretations of Indian 
-philosophical ideas.
-
-\citeauthor{solo-1974} pointed out that the description of Ahaṅkāra in the 
-Māṭhara's early commentary on the \emph{Sāṅkhyakārikā} (ca.\ 1000) is 
-unique in the following regard:\footcite[52, 180]{solo-1974}
+For example, the description of the evolution from Ahaṅkāra given in  \SS\
+3.1.4 (p.\,\pageref{3.1.4}) corresponds more to the
+\textit{Māṭharavṛtti} and to the Purāṇas than to other
+commentaries on the \emph{Sāṅkhyakārikā}.  As \citeauthor{solo-1974}
+pointed out, the description of Ahaṅkāra in Māṭhara's commentary on the
+\emph{Sāṅkhyakārikā} (ca.\,1000) is unique in the following regard:
 \begin{quote}
     All [early Sāṅkhya commentaries]
     mention the paryāyas of ahaṃkāra, viz.\ bhūtādi, vaikṛta
@@ -31,14 +29,181 @@ unique in the following regard:\footcite[52, 180]{solo-1974}
     alone explains here that the five tanmātras are produced
     from bhūtādi which is tāmasa, the 11 organs are
     produced from vaikṛta which is sāttvika, while both
-    are produced from taijasa which is rājasa.     
+    are produced from taijasa which is rājasa.\footcite[52, 180]{solo-1974}     
 \end{quote}
-Thus, the description of the evolution from Ahaṅkāra given in the \SS\ 3.1.4 
-(p.\,\pageref{3.1.4}) corresponds more to that of the \textit{Māṭharavṛtti} and 
-to those of the Purāṇas (Figure~\ref{fig:biardeau1981-p27}) that to other 
-commentaries on the \emph{Sāṅkhyakārikā}.
+ This historically distinct scheme, as also presented in the Purāṇas,
+was shown in a clear diagram by \citet[27]{biar-1981}; see
+Figure~\ref{fig:biardeau1981-p27}.
+            \begin{figure}
+                \small
+    \centering
+    %\includegraphics[height=\textheight]{chapters/media/biardeau1981-p27}
+    \begin{tikzpicture}[
+        node distance=0.4cm,
+        every node/.style={font=\itshape},
+        box/.style={align=center}
+        ]
+        
+        % Top nodes
+        \node (avyakta) {avyakta = pradhāna};
+        \node[right=3cm of avyakta] (purusa) {+ \; \textit{puruṣa}};
+        \node[left=3.5cm of avyakta] (kkk1) {}; %DW
+        
+        % Main vertical line
+        \node[below=of avyakta] (mahan) {mahān};
+        \node[below=of mahan] (gunas) {(sāttvika \; rājasa \; tāmasa)};
+        \node[below=of gunas] (ahamkara) {ahaṅkāra};
+        
+        % Threefold division with less spacing
+        \node[below left=.25cm and 1cm of ahamkara] (vaikarika) 
+        {vaikārika};
+        \node[below=.25cm of ahamkara] (taijasa) {taijasa};
+        \node[below right=.25cm and 1cm of ahamkara] (bhutadi) 
+        {bhūtādi};
+        
+        % Wavy brace under the three nodes
+        \draw[decorate, decoration={snake, amplitude=1mm, segment 
+            length=6mm}]
+        ([yshift=-3mm]vaikarika.south west) -- ([yshift=-3mm]bhutadi.south 
+        east);
+        
+        % From vaikārika
+        \node[below=of vaikarika] (dummy1) {};
+        \node[below=1.2cm of vaikarika] (buddhi) {5 buddhīndriya};
+        \node[below=of buddhi] (karmendriya) {+ 5 karmendriya};
+        \node[below=of karmendriya] (manas) {manas = 
+            11\textsuperscript{e} 
+            indriya};
+        % DW
+        \node[left=.6cm of manas] (kkk2) {};
+        
+        % From taijasa
+        
+        \node[below right=1.2cm and -.8cm of taijasa] (sabda){śabdatanmātra};
+        \node[above=of sabda] (dummy2) {}; %DW
+        \node[below=of sabda] (akasa) {ākāśa};
+        \node[below=of akasa] (sparsa) {sparśatanmātra};
+        \node[below=of sparsa] (vayu) {vāyu};
+        \node[below=of vayu] (rupa) {rūpatanmātra};
+        \node[below=of rupa] (jyotis) {jyotis};
+        \node[below=of jyotis] (rasa) {rasatanmātra};
+        \node[below=of rasa] (apas) {āpaḥ};
+        \node[below=of apas] (gandha) {gandhatanmātra};
+        \node[below=of gandha] (sanghata) {saṅghāta};
+        
+        % Connections
+        \draw[->] (avyakta) -- (mahan);
+        \draw[->] (mahan) -- (gunas);
+        \draw[->] (gunas) -- (ahamkara);
+        
+        % DW lines on left
+        \draw[-] (avyakta) -- (kkk1);
+        \draw[-](kkk1) -- (kkk2);
+        \draw[->](kkk2) -- (manas);       
+        
+        % Branches
+        %                  \draw[->] (ahamkara) -- (vaikarika);
+        %                  \draw[->] (ahamkara) -- (taijasa);
+        %                  \draw[->] (ahamkara) -- (bhutadi);
+        
+        % Left branch
+        \draw[->] (dummy1) -- (buddhi);
+        \draw[->] (buddhi) -- (karmendriya);
+        \draw[->] (karmendriya) -- (manas);
+        
+        % Diagonal slanted connection back into middle branch
+        %\draw[->] (manas.east) .. controls +(3,0) and +(-3,0) .. 
+        %(sparsa.west);
+        
+        % Middle branch
+        \draw[->] (dummy2) -- (sabda);
+        \draw[->] (sabda) -- (akasa);
+        \draw[->] (akasa) -- (sparsa);
+        \draw[->] (sparsa) -- (vayu);
+        \draw[->] (vayu) -- (rupa);
+        \draw[->] (rupa) -- (jyotis);
+        \draw[->] (jyotis) -- (rasa);
+        \draw[->] (rasa) -- (apas);
+        \draw[->] (apas) -- (gandha);
+        \draw[->] (gandha) -- (sanghata);
+        
+    \end{tikzpicture}
+    
+    \caption{Levels of original creation as presented in the following 
+        Purāṇas: \emph{Vāyupurāṇa}, \emph{Brahmāṇḍapurāṇa}, 
+        \emph{Viṣṇupurāṇa}, \emph{Mārkaṇḍeyapurāṇa}, 
+        and \emph{Kūrmapurāṇa} \citep[after][27]{biar-1981}. 
+        See footnote \ref{puraniccosmology}.}
+    \label{fig:biardeau1981-p27}
+\end{figure}
 
-\newpage
+Another example of the \SS's eclectic account of Sāṅkhya is the list
+of homologies given in 3.1.7--8.  The evolutes of Prakṛti are
+described as having three aspects or instantiations:  in the
+individual person (\emph{adhyātma}), in the physical world
+(\emph{adhibhūta}), and in the divine realm (\emph{adhideva}).  While
+this terminology is reminiscent of very old language from the
+Upaniṣads, this specific scheme is not widely known in Sāṅkhya
+literature, or anywhere.\footnote{These homologies in the \SS\ were
+    noted by \citet[55]{comb-2011}. For the Upaniṣads, one thinks of
+    \emph{Bṛhadāraṇyaka} 1.5.21 (\emph{adhyātma}), 3.7.15
+    (\emph{adhibhūta, adhyātma}), 2.3.3 (\emph{adhidaivata}), \emph{et
+    passim}.} The scheme is first found in the \emph{Mahābhārata}: see
+    Table~\ref{MbhHomologies}.\footnote{Referred to in \emph{Mahābhārata}
+        6.30.1 \pvolcite{7}[1666--1668]{sukt-1933} and then described in
+        detail twice, in 12.300.17--301.14 (\emph{ibid}.\ 15, 1666--1668) and
+        in 14.42.27–4 (\emph{ibid}.\ 18, 152--153).}
+%
+The scheme also appears in the fourteenth- or fifteenth-century
+\emph{Tattvasamāsasūtra} sūtras 7--9 and in its commentaries
+\emph{Kramadīpikā} and the \emph{Tattvayāthārthyadīpanaṭīkā} of
+Bhāvagaṇeśa, both of  which set out homologous triples, equating
+ontologies on the personal, physical and divine 
+levels.\footnote{\cite[81--82]{dviv-1996}
+    and \cite[15--16]{bhat-1965} respectively.  On the dates of the works,
+    see \cites[152--153]{huli-1978}[ch.\,24 et passim]{lars-1987}.}
+        \begin{table}[t]
+            \small
+    \centering
+    \caption{Homologies according to Mahābhārata 14.42.27--40.}
+    \label{MbhHomologies}
+    \medskip
+    \begin{tblr}{width=0.8\textwidth,colspec = {XXXX}}
+       \toprule
+        \emph{bhūta} & \emph{adhyātma} & \emph{adhibhūta} & 
+        \emph{adhidaiva} \\
+        \midrule
+        ākāśa & śrotra & śabda & Diśas \\
+        māruta & tvag & spraśtavya & Vidyut \\
+        jyotir & cakṣur & rūpa & Sūrya \\
+        āpas& jihvā& rasa& Soma\\
+        pṛthivī & ghrāṇa & gandha & Vāyu \\
+        & pādau & gantavya & Viṣṇu \\
+        & pāyuḥ & visarga & Mitra \\
+        &upastha &śukra & Prajāpati \\
+        & hastau & karmāṇi & Śakra \\
+        & vāk & vaktavya & Vahnis \\
+        & manas & mantavya & Candrams \\
+        & buddhir& vijñeya & Brahmā \\
+        \bottomrule
+    \end{tblr}
+\end{table}
+%        
+
+\section{Literature} 
+
+Meulenbeld offered an annotated overview of this chapter and a
+bibliography of earlier scholarship to 2002 and, in his notes,
+citations of the parallel passages in the
+\CS.\fvolcite{IA}[243]{meul-hist}  \citet{lars-1987} provided a major
+overview of Sāṅkhya literature. Recent overviews of the classical
+Sāṅkhya theory include those of
+\textcites[\S2.4]{chat-2021}[ch.\,22]{adam-2022}{ruzs-2025}.
+\citet[54--56]{comb-2011} studied the Sāṅkhya concepts specifically in
+the \SS.
+
+
+\cleardoublepage
 
 \section{Translation}
 
@@ -88,123 +253,21 @@ properties.\footnote{In classical Sāṅkhya theory, \dev{mahat} is a
     universal being.} %
     From that Mahat, which has those same properties, arises the
     Ahaṅkāra, having exactly the same characteristics.\footnote{The
-        Ahaṅkāra ``I-maker'' is the principle of individual identity.}  It
-        has three aspects: \se{vaikārika}{mutable}, \se{taijasa}{fiery}
-        and \se{bhūtādi}{elemental}.\footnote{\label{puraniccosmology}These 
-        technical terms occur in the \emph{Sāṅkhykārikā} 22 as synonyms for 
-        Ahaṅkāra.  In \emph{Sāṅkhykārikā} 25, they are described as emanations 
-        coming from Ahaṅkāra  
-        \parencites[46--47, 50]{sast-1948}[187--188, 195--196]{wezl-1998}. 
-       
-            They 
-        also occur in the Purāṇic cosmogonies; \citet[27]{biar-1981} offered a 
-        useful diagrammatic representation of these showing these relationships, 
-        reproduced in Figure~\ref{fig:biardeau1981-p27}.}
-          
-            \begin{figure}
-                \centering
-                %\includegraphics[height=\textheight]{chapters/media/biardeau1981-p27}
-  \begin{tikzpicture}[
-    node distance=0.4cm,
-    every node/.style={font=\itshape},
-    box/.style={align=center}
-    ]
-    
-    % Top nodes
-    \node (avyakta) {avyakta = pradhāna};
-    \node[right=3cm of avyakta] (purusa) {+ \; \textit{puruṣa}};
-    \node[left=3.5cm of avyakta] (kkk1) {}; %DW
-    
-    % Main vertical line
-    \node[below=of avyakta] (mahan) {mahān};
-    \node[below=of mahan] (gunas) {(sāttvika \; rājasa \; tāmasa)};
-    \node[below=of gunas] (ahamkara) {ahaṅkāra};
-    
-    % Threefold division with less spacing
-    \node[below left=.25cm and 1cm of ahamkara] (vaikarika) 
-    {vaikārika};
-    \node[below=.25cm of ahamkara] (taijasa) {taijasa};
-    \node[below right=.25cm and 1cm of ahamkara] (bhutadi) 
-    {bhūtādi};
-   
-    % Wavy brace under the three nodes
-    \draw[decorate, decoration={snake, amplitude=1mm, segment 
-        length=6mm}]
-    ([yshift=-3mm]vaikarika.south west) -- ([yshift=-3mm]bhutadi.south 
-    east);
-    
-    % From vaikārika
-    \node[below=of vaikarika] (dummy1) {};
-    \node[below=1.2cm of vaikarika] (buddhi) {5 buddhīndriya};
-    \node[below=of buddhi] (karmendriya) {+ 5 karmendriya};
-    \node[below=of karmendriya] (manas) {manas = 
-        11\textsuperscript{e} 
-        indriya};
-    % DW
-    \node[left=.6cm of manas] (kkk2) {};
-    
-    % From taijasa
-    
-    \node[below right=1.2cm and -.8cm of taijasa] (sabda){śabdatanmātra};
-    \node[above=of sabda] (dummy2) {}; %DW
-    \node[below=of sabda] (akasa) {ākāśa};
-    \node[below=of akasa] (sparsa) {sparśatanmātra};
-    \node[below=of sparsa] (vayu) {vāyu};
-    \node[below=of vayu] (rupa) {rūpatanmātra};
-    \node[below=of rupa] (jyotis) {jyotis};
-    \node[below=of jyotis] (rasa) {rasatanmātra};
-    \node[below=of rasa] (apas) {āpaḥ};
-    \node[below=of apas] (gandha) {gandhatanmātra};
-    \node[below=of gandha] (sanghata) {saṅghāta};
-    
-    % Connections
-    \draw[->] (avyakta) -- (mahan);
-    \draw[->] (mahan) -- (gunas);
-    \draw[->] (gunas) -- (ahamkara);
-    
-    % DW lines on left
-    \draw[-] (avyakta) -- (kkk1);
-    \draw[-](kkk1) -- (kkk2);
-    \draw[->](kkk2) -- (manas);       
-    
-    % Branches
-    %                  \draw[->] (ahamkara) -- (vaikarika);
-    %                  \draw[->] (ahamkara) -- (taijasa);
-    %                  \draw[->] (ahamkara) -- (bhutadi);
-    
-    % Left branch
-    \draw[->] (dummy1) -- (buddhi);
-    \draw[->] (buddhi) -- (karmendriya);
-    \draw[->] (karmendriya) -- (manas);
-    
-    % Diagonal slanted connection back into middle branch
-    %\draw[->] (manas.east) .. controls +(3,0) and +(-3,0) .. 
-    %(sparsa.west);
-    
-    % Middle branch
-    \draw[->] (dummy2) -- (sabda);
-    \draw[->] (sabda) -- (akasa);
-    \draw[->] (akasa) -- (sparsa);
-    \draw[->] (sparsa) -- (vayu);
-    \draw[->] (vayu) -- (rupa);
-    \draw[->] (rupa) -- (jyotis);
-    \draw[->] (jyotis) -- (rasa);
-    \draw[->] (rasa) -- (apas);
-    \draw[->] (apas) -- (gandha);
-    \draw[->] (gandha) -- (sanghata);
-    
-\end{tikzpicture}
-              
-                \caption{Levels of original creation as presented in the following 
-                Purāṇas: \emph{Vāyupurāṇa}, \emph{Brahmāṇḍapurāṇa}, 
-                \emph{Viṣṇupurāṇa}, \emph{Mārkaṇḍeyapurāṇa}, 
-                and \emph{Kūrmapurāṇa}, \citep[after][27]{biar-1981}. 
-                See footnote \ref{puraniccosmology}}
-                \label{fig:biardeau1981-p27}
-            \end{figure}
-            
-          
-            
+        Ahaṅkāra, etymologically ``the utterance `I',''  is the assertion
+        of personal and creative identity. See the classic study by
+        \citet{buit-1957} that discusses the several problems raised by the
+        term.}  It has three aspects: \se{vaikārika}{mutable},
+        \se{taijasa}{fiery} and
+        \se{bhūtādi}{elemental}.\footnote{\label{puraniccosmology}These
+            technical terms occur in \emph{Sāṅkhyakārikā} 22 as synonyms for
+            Ahaṅkāra.  In \emph{Sāṅkhykārikā} 25, they are described as
+            emanations coming from Ahaṅkāra \parencites[46--47,
+            50]{sast-1948}[187--188, 195--196]{wezl-1998}. They also occur in
+            the Purāṇic cosmogonies; \citet[27]{biar-1981} offered a useful
+            diagrammatic representation of these showing these relationships,
+            reproduced in Figure~\ref{fig:biardeau1981-p27}.  See the
+            discussion of these difficult terms by \citet[23--25]{buit-1957}.}
+
             
             From that mutable Ahaṅkāra the 
             eleven \se{indriya}{faculties} arise, with the very same
@@ -252,31 +315,21 @@ And for each of these, the sense object is the
     ``of them'' refers to.  The list that follows has thirteen terms;
     fifteen if one takes hands and feet as duals; seventeen if one takes
     eyes and ears as pairs.  This does not quite correspond to any of the
-    previous listings. 
+    previous listings.   The following list only lists the divine and personal
+    ontologies; the physical ones are not explicitly listed.
     
     The Nepalese version before emendation had a different meaning at
 this point (ignoring grammatical difficulties): "Each and every
-one of them has a sovereign with respect to their domain."
-        
-        The vulgate and our emended Nepalese reading accords with
-texts like the \emph{Mahābhārata}
-6.30.1 \pvolcite{7}[1666--1668]{sukt-1933}, 
-12.300.17--301.14 (\emph{ibid}.\ 15, 1666--1668)
-and 14.42.27–4
-(\emph{ibid}.\ 18, 152--153). The scheme also appears in
-the fourteenth- or fifteenth-century \emph{Tattvasamāsasūtra}
-sūtras 7--9 and in its commentaries \emph{Kramadīpikā}
-\citep[81--82]{dviv-1996} and that of Bhāvagaṇeśa
-(\cite[15--16]{bhat-1965}; on the dates of the works, see
-\cites[152--153]{huli-1978}[ch.\,24 et passim]{lars-1987}),
-which both set out homologous triples, equating ontologies on
-the personal, physical and divine levels.}  But their own 
+one of them has a sovereign with respect to their domain." See the edition's
+critical apparatus for details.}  But their own 
 \se{adhyātma}{personal aspect} is the
 \se{adhideva}{divine aspect}, thus,\\
 \begin{center}
    \DeclareTblrTemplate {contfoot-text}{default}{(\emph{continued\ldots}) }  
    \DeclareTblrTemplate{firsthead,lasthead}{default}{}   
 \begin{longtblr}[
+    caption = {Ontologies on the personal, physical and
+        divine levels.},
     headsep=0pt,
     presep=0pt,
     ]{colspec={XXX},
@@ -285,8 +338,8 @@ the personal, physical and divine levels.}  But their own
 %\toprule
 \emph{Divine} & \emph{Personal}\\
 \toprule
-Brahmā & of Buddhi,\\
-Īśvara & of ahaṃkāra,\\
+ Brahmā & of \se{buddhi}{intellect},\\
+Īśvara & of \se{ahaṃkāra}{sense of self},\\
 the moon & of mind,\\
 the directions & of the ear,\\
 wind & of the skin,\\
