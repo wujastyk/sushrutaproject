@@ -114,9 +114,21 @@
 %  \end{environment}
 % \section{More formatting macros}
 %  \begin{macro}{\hangfootnotes}
-% Nice formatting for footnotes.  Defined in my xelatex-generic style file.
+% Nice formatting for footnotes with hanging indents.  
+% Originally defined in my xelatex-generic style file,
+% but redefined here with a larger leftskip because numbers get to
+% four digits. 
+%
+% Adapted from
+% \url{http://www.ceus-now.com/raggedright-in-footnotes-with-hanging-indent/}
+%
 %    \begin{macrocode}
+\renewcommand\hangfootnotes{%
+    \long\def\@makefntext##1{\leftskip=2.25em\hskip-2.25em\hb@xt@2.25em
+        {\@thefnmark\hss}##1}}
 \hangfootnotes
+%    \end{macrocode}
+%  \end{macro}
 %    \end{macrocode}
 %  \end{macro}
 %
