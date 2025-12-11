@@ -17,7 +17,9 @@
 %
 % private macros for switching between chapters    
 \newif \ifkalpa \newif\ifsarira \newif \ifjvara \newif\ifsutra \newif\ifnidana
+\newif\ifcikitsa
 %
+%\cikitsatrue
 % \nidanatrue
 %\kalpatrue
 %\sariratrue
@@ -66,7 +68,12 @@ chapters/translation 5-introduction,
 \ifnidana \includeonly{chapters/translation 2-01,
     chapters/bibliography and indexes,
     } \fi
-
+\ifcikitsa \includeonly{%
+    chapters/translation 4-04,
+%    chapters/translation 4-05,
+        chapters/bibliography and indexes
+}
+\fi
 %
 % from 
 %https://tex.stackexchange.com/questions/361031/biblatex-how-to-automatically-sort-citation-by-year-sortcites-ynt-when-refere/361042#361042
