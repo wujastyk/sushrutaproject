@@ -4,8 +4,8 @@
     <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
         <fileDesc>
             <titleStmt>
-                <title>The Nepalese Version of the Suśrutasaṃhitā, Nidānasthāna, based on
-                    the Nepalese MSS</title>
+                <title>The Nepalese Version of the Suśrutasaṃhitā, Nidānasthāna, based on the
+                    Nepalese MSS</title>
             </titleStmt>
 
             <publicationStmt>
@@ -15,33 +15,30 @@
                     <p>Copyright Notice</p>
                     <p>Copyright (C) Dominik Wujastyk</p>
                     <p>
-                        <ref target="http://creativecommons.org/licenses/by-sa/3.0/"
-                            type="licence">Distributed by <ref
-                                target="http://sarit.indology.info" type="url">SARIT</ref>
-                            under a Creative Commons Attribution-ShareAlike 3.0 Unported
-                            License. </ref>
+                        <ref target="http://creativecommons.org/licenses/by-sa/3.0/" type="licence"
+                            >Distributed by <ref target="http://sarit.indology.info" type="url"
+                                >SARIT</ref> under a Creative Commons Attribution-ShareAlike 3.0
+                            Unported License. </ref>
                     </p>
                     <p>Under this licence, you are free <list>
-                            <item>to Share — to copy, distribute and transmit the
-                                work</item>
+                            <item>to Share — to copy, distribute and transmit the work</item>
                             <item>to Remix — to adapt the work </item>
                         </list></p>
                     <p>Under the following conditions:</p>
                     <p>
                         <list>
-                            <item>Attribution — You must attribute the work in the manner
-                                specified by the author or licensor (but not in any way
-                                that suggests that they endorse you or your use of the
-                                work).</item>
-                            <item>Share Alike — If you alter, transform, or build upon
-                                this work, you may distribute the resulting work only
-                                under the same or similar license to this one.</item>
+                            <item>Attribution — You must attribute the work in the manner specified
+                                by the author or licensor (but not in any way that suggests that
+                                they endorse you or your use of the work).</item>
+                            <item>Share Alike — If you alter, transform, or build upon this work,
+                                you may distribute the resulting work only under the same or similar
+                                license to this one.</item>
                         </list>
                     </p>
-                    <p>More information and fuller details of this license are given on
-                        the Creative Commons website.</p>
-                    <p>SARIT assumes no responsibility for unauthorised use that infringes
-                        the rights of any copyright owners, known or unknown.</p>
+                    <p>More information and fuller details of this license are given on the Creative
+                        Commons website.</p>
+                    <p>SARIT assumes no responsibility for unauthorised use that infringes the
+                        rights of any copyright owners, known or unknown.</p>
                 </availability>
                 <address>
                     <name>University of Alberta</name>
@@ -50,8 +47,7 @@
                     <name>The Suśruta Project</name></authority>
                 <date>2025</date>
                 <pubPlace>The University of Alberta</pubPlace>
-                <publisher>The Suśruta Project<ptr target="http://sushrutaproject.org"
-                    /></publisher>
+                <publisher>The Suśruta Project<ptr target="http://sushrutaproject.org"/></publisher>
             </publicationStmt>
 
             <sourceDesc>
@@ -60,9 +56,8 @@
                         <idno type="siglum">NE</idno>
                     </msIdentifier>
                     <msContents>
-                        <summary>The Nepalese version of the <title>Nidānasthāna</title>
-                            is supported by manuscripts H and N, but unfortunately not
-                            K.</summary>
+                        <summary>The Nepalese version of the <title>Nidānasthāna</title> is
+                            supported by manuscripts H and N, but unfortunately not K.</summary>
                     </msContents>
                 </msDesc>
 
@@ -71,15 +66,17 @@
 
         <revisionDesc>
             <change when="2023-01-04" who="Dominik Wujastyk">Began this file.</change>
-            <change when="2023-06-22" who="Dominik Wujastyk">Created a first draft of 2.1
-                by cleaning up MS H.</change>
-            <change when="2025-01-15" who="Deepro Chakraborty">fixed certain xml ids and
-                added some missing text</change>
+            <change when="2023-06-22" who="Dominik Wujastyk">Created a first draft of 2.1 by
+                cleaning up MS H.</change>
+            <change when="2025-01-15" who="Deepro Chakraborty">fixed certain xml ids and added some
+                missing text</change>
         </revisionDesc>
 
     </teiHeader>
 
-    <text xml:lang="sa-Latn">
+
+    <text xml:lang="sa-Latn-t-sa-Deva" type="edition">
+
         <body>
 
             <div n="2" type="sthāna">
@@ -87,8 +84,7 @@
                 <head>[Nidānasthāna]</head>
 
                 <div n="1" type="adhyāya">
-                    <head xml:lang="en">[Adhyāya 1: draft edition based on MSS N &amp;
-                        H]</head>
+                    <head xml:lang="en">[Adhyāya 1: draft edition based on MSS N &amp; H]</head>
 
                     <l xml:id="SS.2.1.1">
                         <label xml:lang="en">1938 ed. 2.1.1</label>
@@ -137,15 +133,14 @@
                         <caesura/>
                          tiryaggo dviguṇaś caiva rajo<pc> </pc>bahula eva ca |
                         <caesura/>
-                         acintyavīryo doṣāṇāṃ netā rogasamūharāṭ<anchor n="SS.2.1.8-n1"/>
-                        ||</l>
+                         acintyavīryo doṣāṇāṃ netā rogasamūharāṭ<anchor n="SS.2.1.8-n1"/> ||</l>
                     <ab corresp="#SS.2.1.8" type="apparatus">
                         <list type="Notes">
                             <item xml:lang="en" corresp="#SS.2.1.8-n1">The final
-                                    <foreign>ṭ</foreign> of <foreign>-rāṭ</foreign> has no
-                                virāma sign in witness N, but the character is written
-                                slightly smaller, which may echo a usage from Brāhmī where
-                                small size indicates virāma.</item>
+                                    <foreign>ṭ</foreign> of <foreign>-rāṭ</foreign> has no virāma
+                                sign in witness N, but the character is written slightly smaller,
+                                which may echo a usage from Brāhmī where small size indicates
+                                virāma.</item>
                         </list>
                     </ab>
 
@@ -156,21 +151,22 @@
                         <caesura/>
                          dehe vicaratas tasya lakṣaṇāni nibodha me ||</l>
 
+                    <l xml:id="SS.2.1.10a"/>
+
                     <l xml:id="SS.2.1.10">
                         <label xml:lang="en">1938 ed. 2.1.10</label>
                         <caesura/>
                          indriyārthopasampattir doṣadhātvagni<pc> </pc>sāmyatāṃ |
                         <caesura/>
-                         kriyāṇām ānulomyañ ca kuryād vāyur adūṣitaḥ ||<anchor
-                            n="SS.2.1.10-n1"/></l>
+                         kriyāṇām ānulomyañ ca kuryād vāyur adūṣitaḥ ||<anchor n="SS.2.1.10-n1"
+                        /></l>
                     <ab corresp="#SS.2.1.10" type="apparatus">
                         <list type="Notes">
-                            <item xml:lang="en" corresp="#SS.2.1.10-n1">The 1938 vulgate,
-                                p. 259, gives two versions of this verse, noting that the
-                                second - which is collated here - is the reading accepted
-                                by Gayadāsa. The first reads <foreign>doṣadhātvagnisamatāṃ
-                                    saṃprāptiṃ viṣayeṣu ca | kriyāṇām ānulomyaṃ ca karoty
-                                    akupito 'nilaḥ ||</foreign>
+                            <item xml:lang="en" corresp="#SS.2.1.10-n1">The 1938 vulgate, p. 259,
+                                gives two versions of this verse, noting that the second - which is
+                                collated here - is the reading accepted by Gayadāsa. The first reads
+                                    <foreign>doṣadhātvagnisamatāṃ saṃprāptiṃ viṣayeṣu ca | kriyāṇām
+                                    ānulomyaṃ ca karoty akupito 'nilaḥ ||</foreign>
                             </item>
                         </list>
                     </ab>
@@ -185,16 +181,14 @@
                     <l xml:id="SS.2.1.12">
                         <label xml:lang="en">1938 ed. 2.1.12</label>
                         <caesura/>
-                         prāṇodānaḥ<anchor n="SS.2.1.12-n1"/> samānaś ca vyāno 'pānas
-                        tathaiva ca |
+                         prāṇodānaḥ<anchor n="SS.2.1.12-n1"/> samānaś ca vyāno 'pānas tathaiva ca |
                         <caesura/>
                          sthānasthā mārutāḥ pañca yāpayanti śarīriṇam ||</l>
                     <ab corresp="#SS.2.1.12" type="apparatus">
                         <list type="notes">
                             <item xml:lang="en" corresp="#SS.2.1.12-n1">The words
-                                    <foreign>prāṇaḥ</foreign> and
-                                    <foreign>udānaḥ</foreign> have undergone double
-                                sandhi. See Oberlies 2003: para 1.8.4</item>
+                                    <foreign>prāṇaḥ</foreign> and <foreign>udānaḥ</foreign> have
+                                undergone double sandhi. See Oberlies 2003: para 1.8.4</item>
                         </list>
                     </ab>
 
@@ -250,14 +244,13 @@
                     <l xml:id="SS.2.1.19">
                         <label xml:lang="en">1938 ed. 2.1.19</label>
                         <caesura/>
-                         pakvādhānālayo 'pānaḥ kāle karṣati<anchor n="SS.2.1.19-n1"/> cāpy
-                        adhaḥ |
+                         pakvādhānālayo 'pānaḥ kāle karṣati<anchor n="SS.2.1.19-n1"/> cāpy adhaḥ |
                         <caesura/>
                          vātamūtrapurīṣāṇi śukragarbhārttavāni ca ||</l>
                     <ab corresp="#SS.2.1.19" type="apparatus">
                         <list type="Notes">
-                            <item xml:lang="en" corresp="#SS.2.1.19-n1">A folio of witness
-                                N has been photographed out of order at this point.</item>
+                            <item xml:lang="en" corresp="#SS.2.1.19-n1">A folio of witness N has
+                                been photographed out of order at this point.</item>
                         </list>
                     </ab>
 
@@ -348,31 +341,29 @@
                     <l xml:id="SS.2.1.31">
                         <label xml:lang="en">1938 ed. 2.1.31</label>
                         <caesura/>
-                         stambhanākṣepaṇa<pc> </pc>svāpa<pc> </pc>śopha<pc> </pc>śūlāṃś ca
-                        sarvaśaḥ |
+                         stambhanākṣepaṇa<pc> </pc>svāpa<pc> </pc>śopha<pc> </pc>śūlāṃś ca sarvaśaḥ
+                        |
                         <caesura/>
-                         sthāneṣūkteṣu sammiśraḥ sammiśrāḥ kurute rujāḥ ||<anchor
-                            n="SS.2.1.31-n1"/></l>
+                         sthāneṣūkteṣu sammiśraḥ sammiśrāḥ kurute rujāḥ ||<anchor n="SS.2.1.31-n1"
+                        /></l>
                     <ab corresp="#SS.2.1.31" type="apparatus">
                         <list type="Notes">
-                            <item xml:lang="en" corresp="#SS.2.1.31-n1">Gayadāsa noted the
-                                same reading for this half-śloka as the Nepalese
-                                version.</item>
+                            <item xml:lang="en" corresp="#SS.2.1.31-n1">Gayadāsa noted the same
+                                reading for this half-śloka as the Nepalese version.</item>
                         </list>
                     </ab>
 
                     <l xml:id="SS.2.1.32ab">
                         <label xml:lang="en">1938 ed. 2.1.32ab</label>
                         <caesura/>
-                         kuryād avayavasthaś ca mātariśvā gadān bahūn |<anchor
-                            n="SS.2.1.32-n1"/></l>
+                         kuryād avayavasthaś ca mātariśvā gadān bahūn |<anchor n="SS.2.1.32-n1"
+                        /></l>
                     <ab corresp="#SS.2.1.32ab" type="apparatus">
                         <list type="Notes">
-                            <item xml:lang="en" corresp="#SS.2.1.32-n1">Gayadāsa noted the
-                                same reading for this half-śloka as the Nepalese
-                                version.</item>
-                            <item>Verses 32cd and 33ab of the vulgate appear later in this
-                                chapter, after SS.2.1.62 of the Nepalese version.</item>
+                            <item xml:lang="en" corresp="#SS.2.1.32-n1">Gayadāsa noted the same
+                                reading for this half-śloka as the Nepalese version.</item>
+                            <item>Verses 32cd and 33ab of the vulgate appear later in this chapter,
+                                after SS.2.1.62 of the Nepalese version.</item>
                         </list>
                     </ab>
 
@@ -398,8 +389,7 @@
                         <caesura/>
                          asvedaharṣo mandāgniḥ śītatā ca kaphāvṛte |
                         <caesura/>
-                         sveda<pc> </pc>dāhoṣṇa<pc> </pc>mūrcchāḥ syuḥ samāne pittasaṃyute
-                        ||</l>
+                         sveda<pc> </pc>dāhoṣṇa<pc> </pc>mūrcchāḥ syuḥ samāne pittasaṃyute ||</l>
 
                     <l xml:id="SS.2.1.37">
                         <label xml:lang="en">1938 ed. 2.1.37</label>
@@ -427,16 +417,15 @@
                         <caesura/>
                          prāyaśaḥ sukumārāṇāṃ mithyāhāravihāriṇāṃ ||
                         <caesura/>
-                         doṣādhva<pc> </pc>madyapramadā<pc> </pc>vyāyāmaiś ca prapīḍanāt
-                            ||<anchor n="SS.2.1.40-n1"/></l>
+                         doṣādhva<pc> </pc>madyapramadā<pc> </pc>vyāyāmaiś ca prapīḍanāt ||<anchor
+                            n="SS.2.1.40-n1"/></l>
                     <ab corresp="#SS.2.1.40" type="apparatus">
                         <list type="Emendation">
-                            <item xml:lang="en" corresp="#SS.2.1.40-n1">We emend to the
-                                ablative <foreign>prapīḍanāt</foreign>, similar to the
-                                vulgate, on the analogy of <foreign>paryāsād</foreign> and
-                                    <foreign>bhojanāt</foreign>. The acc. pl. of H is
-                                strained as an object of
-                                <foreign>prakupyati</foreign>.</item>
+                            <item xml:lang="en" corresp="#SS.2.1.40-n1">We emend to the ablative
+                                    <foreign>prapīḍanāt</foreign>, similar to the vulgate, on the
+                                analogy of <foreign>paryāsād</foreign> and
+                                    <foreign>bhojanāt</foreign>. The acc. pl. of H is strained as an
+                                object of <foreign>prakupyati</foreign>.</item>
                         </list>
                     </ab>
 
@@ -502,9 +491,9 @@
 
                     <ab corresp="#SS.2.1.46" type="apparatus">
                         <list type="Emendation">
-                            <item xml:lang="en" corresp="#SS.2.1.46-n1">We emend to the
-                                vulgate reading <foreign>sarvair</foreign> against H and
-                                N, for the sake of metre and sense.</item>
+                            <item xml:lang="en" corresp="#SS.2.1.46-n1">We emend to the vulgate
+                                reading <foreign>sarvair</foreign> against H and N, for the sake of
+                                metre and sense.</item>
                         </list>
                     </ab>
 
@@ -515,17 +504,16 @@
                         <caesura/>
                          pādayor mūlam āsthāya kadācid dhastayor api |
                         <caesura/>
-                         ākhor vviṣam iva kruddhaṃ tad deham<anchor n="SS.2.148"/>
-                        anusarppati ||</l>
+                         ākhor vviṣam iva kruddhaṃ tad deham<anchor n="SS.2.148"/> anusarppati
+                        ||</l>
                     <ab corresp="#SS.2.1.48" type="apparatus">
                         <list type="Note">
-                            <item xml:lang="en" corresp="#SS.2.1.48-n1">The commentators
-                                Gayadāsa and Ḍalhaṇa both read <foreign>saddehaṃ</foreign>
-                                for <foreign>tad dehaṃ</foreign>, interpreting it as
-                                    <foreign>sakalaṃ dehaṃ</foreign> (Ācārya 1938: 264).
-                                There is a difficulty in witness N's reading, which lacks
-                                a <foreign>-d</foreign>. Both N and H read a nominative
-                                    <foreign>kruddhas</foreign> which does not parse
+                            <item xml:lang="en" corresp="#SS.2.1.48-n1">The commentators Gayadāsa
+                                and Ḍalhaṇa both read <foreign>saddehaṃ</foreign> for <foreign>tad
+                                    dehaṃ</foreign>, interpreting it as <foreign>sakalaṃ
+                                    dehaṃ</foreign> (Ācārya 1938: 264). There is a difficulty in
+                                witness N's reading, which lacks a <foreign>-d</foreign>. Both N and
+                                H read a nominative <foreign>kruddhas</foreign> which does not parse
                                 sensibly.</item>
                         </list>
                     </ab>
@@ -645,8 +633,7 @@
                     <l xml:id="SS.2.1.63">
                         <label xml:lang="en">1938 ed. 2.1.63</label>
                         <caesura/>
-                         śuddhavātāhatam pakṣaṃ kṛcchraṃ sādhyatamam viduḥ |<anchor
-                            n="SS.2.1.63"/>
+                         śuddhavātāhatam pakṣaṃ kṛcchraṃ sādhyatamam viduḥ |<anchor n="SS.2.1.63"/>
                         <caesura/>
                          sādhyam anyena saṃsṛṣṭam asādhyaṃ kṣayahetukam ||</l>
 
@@ -654,8 +641,8 @@
                     <ab corresp="#SS.2.1.63" type="apparatus">
                         <list type="Emendation">
                             <item xml:lang="en" corresp="#SS.2.1.63-n1">We read
-                                    <foreign>kṛcchrasādhyatamam</foreign> with the
-                                vulgate, against the Nepalese witnesses, for sense.</item>
+                                    <foreign>kṛcchrasādhyatamam</foreign> with the vulgate, against
+                                the Nepalese witnesses, for sense.</item>
                         </list>
                     </ab>
 
@@ -785,22 +772,21 @@
                         <caesura/>
                          āvṛtya vāyuḥ sakapho dhamanīḥ śabdavāhinīḥ |
                         <caesura/>
-                         narāṅ karoty akriyakām mūka<pc> </pc>minmira<pc> </pc>gadgadām
-                        ||</l>
+                         narāṅ karoty akriyakām mūka<pc> </pc>minmira<pc> </pc>gadgadām ||</l>
 
                     <l xml:id="SS.2.1.84">
                         <label xml:lang="en">1938 ed. 2.1.84</label>
                         <caesura/>
-                         śiro<pc> </pc>grīva<pc> </pc>hanūḥ śaṃkhau yasya bhindann
-                        ivānilaḥ |<anchor n="SS.2.1.84-n1"/>
+                         śiro<pc> </pc>grīva<pc> </pc>hanūḥ śaṃkhau yasya bhindann ivānilaḥ |<anchor
+                            n="SS.2.1.84-n1"/>
                         <caesura/>
                          karṇṇayoḥ kurute śūlaṃ karṇṇaśūlaḥ sa ucyate ||</l>
 
                     <ab corresp="#SS.2.1.84" type="apparatus">
                         <list type="Emendation">
                             <item xml:lang="en" corresp="#SS.2.1.84-n1">We emend <foreign
-                                    xml:lang="sa">-hanuḥ</foreign> to the accusative
-                                plural for grammar.</item>
+                                    xml:lang="sa">-hanuḥ</foreign> to the accusative plural for
+                                grammar.</item>
                         </list>
                     </ab>
                     <l xml:id="SS.2.1.86">
@@ -829,29 +815,27 @@
                         <caesura/>
                          vimuktapārśvahṛdayan tad evāmāśayotthitaṃ |
                         <caesura/>
-                         pratyādhmānam vijānīyāt kaphavyākulitānilam
-                      </l>
+                         pratyādhmānam vijānīyāt kaphavyākulitānilam </l>
 
 
-                    
-                    
+
+
                     <l xml:id="SS.2.1.90">
                         <label xml:lang="en">1938 ed. 2.1.90</label>
                         <caesura/>
-                        nābher adhastāt saṃjātaḥ saṃcārī yadi vācalaḥ ||<anchor
-                            n="SS.2.1.90-n1"/>
+                         nābher adhastāt saṃjātaḥ saṃcārī yadi vācalaḥ ||<anchor n="SS.2.1.90-n1"/>
                         <caesura/>
                          aṣṭhīlāvad ghanaṃ granthim ūrdhvam āyatam unnataṃ |
                         <caesura/>
                          vātāṣṭhīlām vijānīyād bahirmmārggāvarodhinīm ||</l>
-       
+
                     <ab corresp="#SS.2.1.90" type="apparatus">
                         <list type="Notes">
-                            <item xml:lang="en" corresp="#SS.2.1.90-n1">The first line of
-                                this passage, <foreign xml:lang="sa"
-                                    >nābher...acalaḥ</foreign>, occurs only in witness N.
-                                However, it was mentioned by Gayadāsa and Ḍalhaṇa (Ācārya 1938: 270) as
-                                ``the opinion of some'' in their commentaries on 2.1.90.</item>
+                            <item xml:lang="en" corresp="#SS.2.1.90-n1">The first line of this
+                                passage, <foreign xml:lang="sa">nābher...acalaḥ</foreign>, occurs
+                                only in witness N. However, it was mentioned by Gayadāsa and Ḍalhaṇa
+                                (Ācārya 1938: 270) as ``the opinion of some'' in their commentaries
+                                on 2.1.90.</item>
                         </list>
                     </ab>
                     <l xml:id="SS.2.1.91">
@@ -861,8 +845,7 @@
                         <caesura/>
                          pratyaṣṭhīlām iti vadej jaṭhare tiryagutthitām || </l>
 
-                    <l xml:id="SS.2.1.trailer"> iti vātavyādhinidānaṃ prathamaḥ || 1
-                        ||</l>
+                    <l xml:id="SS.2.1.trailer"> iti vātavyādhinidānaṃ prathamaḥ || 1 ||</l>
 
                 </div>
 
@@ -887,18 +870,16 @@
                     <l xml:id="SS.2.2.4">
                         <label xml:lang="en">1938 ed. 2.2.4</label>
                         <caesura/>
-                         tatrānātmavatāṃ yathoktaiḥ pra kopanaiḥ prakupitāḥ doṣāś caiḥ
-                        kaikaśaḥ | dvandvaśaḥ sama stāḥ śoṇitasahitā vā yathoktaṃ prasṛtāḥ
-                        | viśeṣato mandāgneḥ pradhānadhamanīr anuprapadyā dho gatvā gudam
-                        āgamya pradūṣya gudavalīrmmāsam prarohaṃkandāñ janayanti tāny
-                        arśāṃsīty ācakṣate || </l>
+                         tatrānātmavatāṃ yathoktaiḥ pra kopanaiḥ prakupitāḥ doṣāś caiḥ kaikaśaḥ |
+                        dvandvaśaḥ sama stāḥ śoṇitasahitā vā yathoktaṃ prasṛtāḥ | viśeṣato mandāgneḥ
+                        pradhānadhamanīr anuprapadyā dho gatvā gudam āgamya pradūṣya gudavalīrmmāsam
+                        prarohaṃkandāñ janayanti tāny arśāṃsīty ācakṣate || </l>
 
                     <l xml:id="SS.2.2.5">
                         <label xml:lang="en">1938 ed. 2.2.5</label>
                         <caesura/>
-                         tatra sthūlāntrapratibaddham ardhapañcamāṅagulaṃ gudam āhus
-                        tasmin avalayas tisro dhyadhdaṅagulāntarasambhūtāḥ | pravāhiṇī
-                        visṛjanī saṃvaraṇī ceti | </l>
+                         tatra sthūlāntrapratibaddham ardhapañcamāṅagulaṃ gudam āhus tasmin avalayas
+                        tisro dhyadhdaṅagulāntarasambhūtāḥ | pravāhiṇī visṛjanī saṃvaraṇī ceti | </l>
 
                     <l xml:id="SS.2.2.6abcd"/>
 
@@ -915,11 +896,10 @@
                     <l xml:id="SS.2.2.8">
                         <label xml:lang="en">1938 ed. 2.2.8</label>
                         <caesura/>
-                         teṣāṃ tu bhaviṣyetāṃ pūrvarūpāṇi | annena śraddhā kṛcchrāt paktir
-                        amlīkān na vijṛmbheḥ saktisadanamācopaḥ kārśyamudgārabāhulyam
-                        akṣṇoḥ śvayathur ntra daparikartanaṃ kāsaśvāsaḥ
-                        pāṇḍurogagrahaṇīdoṣaḥ kadācittadā balahānirindriyayaiḥ daurbalyam
-                        | </l>
+                         teṣāṃ tu bhaviṣyetāṃ pūrvarūpāṇi | annena śraddhā kṛcchrāt paktir amlīkān
+                        na vijṛmbheḥ saktisadanamācopaḥ kārśyamudgārabāhulyam akṣṇoḥ śvayathur ntra
+                        daparikartanaṃ kāsaśvāsaḥ pāṇḍurogagrahaṇīdoṣaḥ kadācittadā
+                        balahānirindriyayaiḥ daurbalyam | </l>
 
                     <l xml:id="SS.2.2.9">
                         <label xml:lang="en">1938 ed. 2.2.9</label>
@@ -930,39 +910,38 @@
                         <label xml:lang="en">1938 ed. 2.2.10</label>
                         <caesura/>
                          tatra mārutāt pariśu ṣkāruṇavivarṇāni viṣamamadhyamāni
-                        kadambapuṣpatuṇḍikerīkānāḍīmukhasūcīmukhākṛtīni tair upadrutaḥ
-                        saśūlaṃ saṃhatam upaveśyate | kaṭīpraṣṭhagudamadeṣu cāsya vedanā
+                        kadambapuṣpatuṇḍikerīkānāḍīmukhasūcīmukhākṛtīni tair upadrutaḥ saśūlaṃ
+                        saṃhatam upaveśyate | kaṭīpraṣṭhagudamadeṣu cāsya vedanā
                         gulmāsthīlāplīhodarāṇi cāsya tannimittāny eva
-                        kṛṣṇanakhanayanavadanamūtrapūrī ṣas<unclear/><unclear/>ś ca puruṣo
-                        bhavati || </l>
+                        kṛṣṇanakhanayanavadanamūtrapūrī ṣas<unclear/><unclear/>ś ca puruṣo bhavati
+                        || </l>
 
                     <l xml:id="SS.2.2.11">
                         <label xml:lang="en">1938 ed. 2.2.11</label>
                         <caesura/>
                          pittāntunīlāgrāṇi tanūni visa rpāni pīttāvabhāsāni yakṛtprakāśāni
-                        śukajihvāsaṃsthanāni yavamadhyāni jalaukāvaktusadṛ śāni
-                        praklinnāni bhavanti | tair upadṛtaḥ sadāhaṃ sadṛṣitamavi pakvam
-                        atisāryate | dāhajvarapipāsāś cāsyopadravā bhavanti | tannimittāny
-                        eva pītanakhanayanavadanamūtrapurīṣaś ca puruṣo bhavati | </l>
+                        śukajihvāsaṃsthanāni yavamadhyāni jalaukāvaktusadṛ śāni praklinnāni bhavanti
+                        | tair upadṛtaḥ sadāhaṃ sadṛṣitamavi pakvam atisāryate | dāhajvarapipāsāś
+                        cāsyopadravā bhavanti | tannimittāny eva pītanakhanayanavadanamūtrapurīṣaś
+                        ca puruṣo bhavati | </l>
 
                     <l xml:id="SS.2.2.12">
                         <label xml:lang="en">1938 ed. 2.2.12</label>
                         <caesura/>
-                         śleṣmajāni mahāmūlāni sthirāṇi vṛttāni snigdhāni pāṇḍuni
-                        śuklāvabhāsāni karīrapanasāsthigostanākānāṇi na bhidyante na
-                        sravanti ca kaṇḍubahulāni ca bhavanti | tair upadṛtaḥ saśleṣmakam
-                        analpam āmaṃvasā medaḥ | prakāśam atisāryate |
-                        sobhūśītajvarārocakāvipākaśiro gauravagātu sadanāni yāsya
-                        tannimittāny eva śuklanakhanayanavadanamūtrapurīṣavaṇṇaś ca puruṣo
-                        bhavati |</l>
+                         śleṣmajāni mahāmūlāni sthirāṇi vṛttāni snigdhāni pāṇḍuni śuklāvabhāsāni
+                        karīrapanasāsthigostanākānāṇi na bhidyante na sravanti ca kaṇḍubahulāni ca
+                        bhavanti | tair upadṛtaḥ saśleṣmakam analpam āmaṃvasā medaḥ | prakāśam
+                        atisāryate | sobhūśītajvarārocakāvipākaśiro gauravagātu sadanāni yāsya
+                        tannimittāny eva śuklanakhanayanavadanamūtrapurīṣavaṇṇaś ca puruṣo bhavati
+                        |</l>
 
                     <l xml:id="SS.2.2.13">
                         <label xml:lang="en">1938 ed. 2.2.13</label>
                         <caesura/>
                          raktajāni tunyatrodha prarohavidruma kākaṇantikāphalasadṛśāni
-                        pittalakṣaṇāni ceti | yadā tu gāḍhapurīṣaprapīḍitāni bhavanti |
-                        tad ātyarthaṃ duṣṭam analpam asṛk sahasā visṛjanti | tasya cā ti
-                        pravṛttau śoṇitāti yogopadravāś cāsya bhavanti || </l>
+                        pittalakṣaṇāni ceti | yadā tu gāḍhapurīṣaprapīḍitāni bhavanti | tad
+                        ātyarthaṃ duṣṭam analpam asṛk sahasā visṛjanti | tasya cā ti pravṛttau
+                        śoṇitāti yogopadravāś cāsya bhavanti || </l>
 
                     <l xml:id="SS.2.2.14">
                         <label xml:lang="en">1938 ed. 2.2.14</label>
@@ -972,10 +951,10 @@
                     <l xml:id="SS.2.2.15">
                         <label xml:lang="en">1938 ed. 2.2.15</label>
                         <caesura/>
-                         sahajāni duṣṭaśukraśoṇitanimittāni | teṣāṃ doṣata eva prasādanaṃ
-                        kartavyaṃ | viśeṣataś cātra durdarśanāni paruṣāruṇa pāṇuni
-                        dāruṇāny antarmukhāni | tair upavidrutaḥ kṛṣo 'lpabhuk sirāsantata
-                        gātro 'lpaprajaḥ kṣiṇaretaś ca bhavati || </l>
+                         sahajāni duṣṭaśukraśoṇitanimittāni | teṣāṃ doṣata eva prasādanaṃ kartavyaṃ
+                        | viśeṣataś cātra durdarśanāni paruṣāruṇa pāṇuni dāruṇāny antarmukhāni |
+                        tair upavidrutaḥ kṛṣo 'lpabhuk sirāsantata gātro 'lpaprajaḥ kṣiṇaretaś ca
+                        bhavati || </l>
 
                     <l xml:id="SS.2.2.16">
                         <label xml:lang="en">1938 ed. 2.2.16</label>
@@ -989,27 +968,25 @@
                     <l xml:id="SS.2.2.17">
                         <label xml:lang="en">1938 ed. 2.2.17</label>
                         <caesura/>
-                         prakupitās tu doṣā meḍhramabhiprapannā māṃsaśoṇite pradūṣya
-                        kaṇḍūṃ janayanti tataḥ kaṇḍūyanāt kṣataṃ samupajāyate tasmiṃś ca
-                        kṣate duṣṭamāṃsajāḥ prarohāḥ picchilalarudhirasrāviṇo jāyante
-                        kūrcakino 'bhyantaram upariṣṭādvā te tu śepho
-                        vināśayantyupaghnanti ca puṃstvaṃ yonimabhiprapannāḥ sukumārān
-                        durgandhān picchilarudhirasrāviṇaśchatrākārān karīrāñ janayanti te
-                        tu yonim upaghnanty ārtavaṃ ca | nābhim abhiprapannāḥ sukumārān
-                        durgandhān picchilān gaṇḍūpadamukhasadṛśān karīrāñ janayanti ta
-                        evordhvam āgatāḥ śrotrākṣighrāṇavadaneṣv arśāṃsy upanirvartayanti
-                        tatra karṇajeṣu bādhiryaṃ śūlaṃ pūtikarṇatā ca netrajeṣu vartmā
-                        varodho vedanā srāvo darśananāśaś ca, ghrāṇajeṣu pratiśyāyo
-                        'timātraṃ kṣavathuḥ kṛcchrocchvāsatā pūtinasyaṃ
-                        sānunāsikavākyatvaṃ śiroduḥkhaṃ ca vaktrajeṣu kaṇṭhauṣṭhatālūnām
-                        anyatam asmiṃs tair gadgadavākyatā rasājñānaṃ mukharogāś ca
-                        bhavanti || </l>
+                         prakupitās tu doṣā meḍhramabhiprapannā māṃsaśoṇite pradūṣya kaṇḍūṃ
+                        janayanti tataḥ kaṇḍūyanāt kṣataṃ samupajāyate tasmiṃś ca kṣate
+                        duṣṭamāṃsajāḥ prarohāḥ picchilalarudhirasrāviṇo jāyante kūrcakino
+                        'bhyantaram upariṣṭādvā te tu śepho vināśayantyupaghnanti ca puṃstvaṃ
+                        yonimabhiprapannāḥ sukumārān durgandhān picchilarudhirasrāviṇaśchatrākārān
+                        karīrāñ janayanti te tu yonim upaghnanty ārtavaṃ ca | nābhim abhiprapannāḥ
+                        sukumārān durgandhān picchilān gaṇḍūpadamukhasadṛśān karīrāñ janayanti ta
+                        evordhvam āgatāḥ śrotrākṣighrāṇavadaneṣv arśāṃsy upanirvartayanti tatra
+                        karṇajeṣu bādhiryaṃ śūlaṃ pūtikarṇatā ca netrajeṣu vartmā varodho vedanā
+                        srāvo darśananāśaś ca, ghrāṇajeṣu pratiśyāyo 'timātraṃ kṣavathuḥ
+                        kṛcchrocchvāsatā pūtinasyaṃ sānunāsikavākyatvaṃ śiroduḥkhaṃ ca vaktrajeṣu
+                        kaṇṭhauṣṭhatālūnām anyatam asmiṃs tair gadgadavākyatā rasājñānaṃ mukharogāś
+                        ca bhavanti || </l>
 
                     <l xml:id="SS.2.2.18">
                         <label xml:lang="en">1938 ed. 2.2.18</label>
                         <caesura/>
-                         vyānas tu prakupitaḥ śleṣmāṇaṃ parigṛhya bahiḥ sthirāṇi
-                        kīlavadarśāṃsi nirvartayati tāni carmakīlāny arśāṃsīty ācakṣate || </l>
+                         vyānas tu prakupitaḥ śleṣmāṇaṃ parigṛhya bahiḥ sthirāṇi kīlavadarśāṃsi
+                        nirvartayati tāni carmakīlāny arśāṃsīty ācakṣate || </l>
 
                     <l xml:id="SS.2.2.19">
                         <label xml:lang="en">1938 ed. 2.2.19</label>
@@ -1067,8 +1044,8 @@
                         <caesura/>
                          tato vyānena saṅgamya jyotir mṛdgāti dehinām ||</l>
 
-                    <l xml:id="SS.2.2.trailer"> iti suśrutasaṃhitāyāṃ nidānasthāne
-                        'rśonidānaṃ nāma dvitīyo 'dhyāyaḥ ||2 || </l>
+                    <l xml:id="SS.2.2.trailer"> iti suśrutasaṃhitāyāṃ nidānasthāne 'rśonidānaṃ nāma
+                        dvitīyo 'dhyāyaḥ ||2 || </l>
                 </div>
 
                 <div n="3" type="adhyāya">
@@ -1093,57 +1070,54 @@
                         <label xml:lang="en">1938 ed. 2.3.8</label>
                         <caesura/>
                          tatra śleṣmāśmarī śleṣmalamannamabhyasato 'tyartham upalipyādhaḥ
-                        parivṛddhiṃ prāpya bastimukhamadhiṣṭhāya śroto nirupaṇaddhi |
-                        tasya mūtrapratighātād dālyate bhidyate nistudyata iva ca
-                        bastiguruḥ ca bhavati | ūṣmarī cātra śvetā snigdhā mahatī
-                        kukkuṭāṇḍapratīmā madhuvarṇā bhā bhavati | tāṃ ślaiṣmikīmiti
-                        vidyāta | </l>
+                        parivṛddhiṃ prāpya bastimukhamadhiṣṭhāya śroto nirupaṇaddhi | tasya
+                        mūtrapratighātād dālyate bhidyate nistudyata iva ca bastiguruḥ ca bhavati |
+                        ūṣmarī cātra śvetā snigdhā mahatī kukkuṭāṇḍapratīmā madhuvarṇā bhā bhavati |
+                        tāṃ ślaiṣmikīmiti vidyāta | </l>
 
                     <l xml:id="SS.2.3.9">
                         <label xml:lang="en">1938 ed. 2.3.9</label>
                         <caesura/>
-                         pittayuktas tu śleṣmā saṃghātam upagamya yathoktaṃ
-                        parivṛddhimprāpya bastimukha madhiṣṭhāya sroto niruṇaddhi | tasya
-                        mūtrapratighātādūṣyate cūṣyate pacyate iva bastiruṣṇaś ca bhavati
-                        | aśmarī cātra saraktā pītāvabhāsā kṛṣṇā bhallātakāpratimā madhuva
-                        bhā bhavati | tāṃ paittikīm iti vidyāta || </l>
+                         pittayuktas tu śleṣmā saṃghātam upagamya yathoktaṃ parivṛddhimprāpya
+                        bastimukha madhiṣṭhāya sroto niruṇaddhi | tasya mūtrapratighātādūṣyate
+                        cūṣyate pacyate iva bastiruṣṇaś ca bhavati | aśmarī cātra saraktā
+                        pītāvabhāsā kṛṣṇā bhallātakāpratimā madhuva bhā bhavati | tāṃ paittikīm iti
+                        vidyāta || </l>
 
                     <l xml:id="SS.2.3.10">
                         <label xml:lang="en">1938 ed. 2.3.10</label>
                         <caesura/>
                          vātayuktastu śleṣmāsaṃghātamupagamya yathoktaṃ parivṛddhimprāpya
-                        bastimukhamadhiṣṭhāya sroto niruṇaddhi | tasya mūtrapratīghātāt
-                        tīvrā vedanā bhavati | tayā 'tyarthaṃ pīḍamāno dantān khādanti
-                        nābhim pīḍayati meḍhraṃ pramṛdgāti garddhayati vidahati |
-                        vātamūtrapurīṣakṛcchrtād a bhavati | aśmarī cātra śyāvā viṣamā
-                        kharā paruṣā kadambapuṣpavatkaṇṭakācitā bhavati | tāṃ vātikīm iti
-                        vidyāt || </l>
+                        bastimukhamadhiṣṭhāya sroto niruṇaddhi | tasya mūtrapratīghātāt tīvrā vedanā
+                        bhavati | tayā 'tyarthaṃ pīḍamāno dantān khādanti nābhim pīḍayati meḍhraṃ
+                        pramṛdgāti garddhayati vidahati | vātamūtrapurīṣakṛcchrtād a bhavati |
+                        aśmarī cātra śyāvā viṣamā kharā paruṣā kadambapuṣpavatkaṇṭakācitā bhavati |
+                        tāṃ vātikīm iti vidyāt || </l>
 
                     <l xml:id="SS.2.3.11">
                         <label xml:lang="en">1938 ed. 2.3.11</label>
                         <caesura/>
                          prāyeṇaitās tisro 'śmaryo bhavanti |
-                        divāsvapnasamāsanādhyāsanaśītasnigdhamadhurāhārapriyatvād bālānāṃ
-                        teṣāṃ evāvalpabastikāyatvād amāṃsopavayāc ca sukhagrahaṇāharaṇāś
-                        ca bhavanti | mahatān tu śukrāśmarī śukranimittā bhavati || </l>
+                        divāsvapnasamāsanādhyāsanaśītasnigdhamadhurāhārapriyatvād bālānāṃ teṣāṃ
+                        evāvalpabastikāyatvād amāṃsopavayāc ca sukhagrahaṇāharaṇāś ca bhavanti |
+                        mahatān tu śukrāśmarī śukranimittā bhavati || </l>
 
                     <l xml:id="SS.2.3.12">
                         <label xml:lang="en">1938 ed. 2.3.12</label>
                         <caesura/>
                          maithunavighātāc chakram upasthitam
                         anirgacchanvimārgamanilovigṛṣkavṛṣaṇayor antare saṃharati saṃhṛtya
-                        copaśoṣayati sāmūtramārgam āvṛtya mūtrakṛcchraṃ basti śirasi
-                        vedanāṃ śepasi muṣkayoś ca śvayathum utpādayati nipīḍitāmātre ca
-                        tasminnavakāśe pravilayam āpadyate | tāṃ śukrāśmarīm iti vidyāt || </l>
+                        copaśoṣayati sāmūtramārgam āvṛtya mūtrakṛcchraṃ basti śirasi vedanāṃ śepasi
+                        muṣkayoś ca śvayathum utpādayati nipīḍitāmātre ca tasminnavakāśe pravilayam
+                        āpadyate | tāṃ śukrāśmarīm iti vidyāt || </l>
 
                     <l xml:id="SS.2.3.7">
                         <label xml:lang="en">1938 ed. 2.3.7</label>
                         <caesura/>
-                         atha jātāsu vedanā sumūtradhārāsu saṅgaḥ sa rudhiramūtravikiraṇaḥ
-                        ||</l>
+                         atha jātāsu vedanā sumūtradhārāsu saṅgaḥ sa rudhiramūtravikiraṇaḥ ||</l>
 
                     <l xml:id="SS.2.3.13"/>
-                    <l xml:id="SS.2.3.14ab"/>
+
                     <l xml:id="SS.2.3.15"/>
                     <l xml:id="SS.2.3.16ab"/>
 
@@ -1204,8 +1178,8 @@
                         <caesura/>
                          tadvad valāsaṃ bastistham uṣmā saṃhṛtya sānilaḥ || </l>
 
-                    <l xml:id="SS.2.3.14cd">sābhinnamūrttir vvātena śarkkarety abhidhīyate
-                        | </l>
+                    <l xml:id="SS.2.3.14ab"/>
+                    <l xml:id="SS.2.3.14cd">sābhinnamūrttir vvātena śarkkarety abhidhīyate | </l>
 
                     <l xml:id="SS.2.3.27cdef">
                         <label xml:lang="en">1938 ed. 2.3.27cd</label>
@@ -1236,18 +1210,16 @@
                         <label xml:lang="en">1938 ed. 2.4.3</label>
                         <caesura/>
                          vātapittaśleṣmasannipātāgantukanimittāḥ śataponakoṣṭragrīva
-                        parisrāviśambūkāvartonmārgiko yathāsaṃkhyaṃ pañca bhagandarā
-                        bhavanti | te tu gudabastibhagapradeśadāraṇābhagandarā ity ucyante
-                        | abhinnās tu piḍakā bhinnās tu bhagandarāḥ ||<anchor
-                            n="SS.2.4.3-n1"/>
+                        parisrāviśambūkāvartonmārgiko yathāsaṃkhyaṃ pañca bhagandarā bhavanti | te
+                        tu gudabastibhagapradeśadāraṇābhagandarā ity ucyante | abhinnās tu piḍakā
+                        bhinnās tu bhagandarāḥ ||<anchor n="SS.2.4.3-n1"/>
                     </l>
 
                     <ab corresp="#SS.2.4.3" type="apparatus">
                         <list type="Notes">
-                            <item xml:lang="en" corresp="#SS.2.4.3-n1">Ḍalhaṇa noted that
-                                Gayadāsa accepted the next passage, 2.4.4, which is in the
-                                vulgate but not in the Nepalese version (Ācārya 1938: 280,
-                                note 3).</item>
+                            <item xml:lang="en" corresp="#SS.2.4.3-n1">Ḍalhaṇa noted that Gayadāsa
+                                accepted the next passage, 2.4.4, which is in the vulgate but not in
+                                the Nepalese version (Ācārya 1938: 280, note 3).</item>
                         </list>
                     </ab>
 
@@ -1256,59 +1228,56 @@
                     <l xml:id="SS.2.4.5">
                         <label xml:lang="en">1938 ed. 2.4.5</label>
                         <caesura/>
-                         tatrāpathyasevinām vāyuḥ prakupitaḥ sannivṛttaḥ sthirībhūto gudam
-                        abhigato gudadvārād aṅgule dvyaṅgule aṅgule vā māsaśoṇitam
-                        abhipradūṣyāruṇavarṇṇāṃ piḍakāñ janayati | sāsyatodādīn
-                        vedanāviśeṣān upajanayati | apratikriyamāṇā ca pākam upaiti |
-                        mūtrāsayābhyāsagatatvāc ca vraṇapraklinnaḥ śataponakavadaṇumukhaiś
-                        chidrair āpūryate | tāni cacchidrāṇy ajasraṃbhenānuviddham āsrāvam
-                        pravahanti | vraṇaś chidyate bhidyate tāḍyate sūcībhir iva
-                        nistudyate gudaś cāvadīryate vātamūtrapurīṣaretasām apy āgamaś ca
-                        taiś chidrair <unclear reason="unclear">bha</unclear>vati tam
-                        bhagandaraṃ śataponakam ity ācakṣate || </l>
+                         tatrāpathyasevinām vāyuḥ prakupitaḥ sannivṛttaḥ sthirībhūto gudam abhigato
+                        gudadvārād aṅgule dvyaṅgule aṅgule vā māsaśoṇitam abhipradūṣyāruṇavarṇṇāṃ
+                        piḍakāñ janayati | sāsyatodādīn vedanāviśeṣān upajanayati | apratikriyamāṇā
+                        ca pākam upaiti | mūtrāsayābhyāsagatatvāc ca vraṇapraklinnaḥ
+                        śataponakavadaṇumukhaiś chidrair āpūryate | tāni cacchidrāṇy
+                        ajasraṃbhenānuviddham āsrāvam pravahanti | vraṇaś chidyate bhidyate tāḍyate
+                        sūcībhir iva nistudyate gudaś cāvadīryate vātamūtrapurīṣaretasām apy āgamaś
+                        ca taiś chidrair <unclear reason="unclear">bha</unclear>vati tam bhagandaraṃ
+                        śataponakam ity ācakṣate || </l>
 
                     <l xml:id="SS.2.4.6">
                         <label xml:lang="en">1938 ed. 2.4.6</label>
                         <caesura/>
-                         pittaṃ tu kupitam anilenādhaḥ preritaṃ pūrvvavad evāvasthitaṃ
-                        raktān tanvīmucchritāgrām uṣṭragrīvākārām piḍakāñ janayati |
-                        sāsyadāhādīn vedanāviśeṣān upajanayati | apratikriyamāṇā ca pākam
-                        upaiti | vraṇaś cāgnikṣārābhyām iva dahyate durgandham uṣṇam
-                        āsrāvaṃ sravaty upekṣitaś ca vātamūtrapurīṣaretāṃsi visṛjati taṃ
-                        bhagandaram uṣṭragrīvam ity ācakṣate ||</l>
+                         pittaṃ tu kupitam anilenādhaḥ preritaṃ pūrvvavad evāvasthitaṃ raktān
+                        tanvīmucchritāgrām uṣṭragrīvākārām piḍakāñ janayati | sāsyadāhādīn
+                        vedanāviśeṣān upajanayati | apratikriyamāṇā ca pākam upaiti | vraṇaś
+                        cāgnikṣārābhyām iva dahyate durgandham uṣṇam āsrāvaṃ sravaty upekṣitaś ca
+                        vātamūtrapurīṣaretāṃsi visṛjati taṃ bhagandaram uṣṭragrīvam ity ācakṣate
+                        ||</l>
 
                     <l xml:id="SS.2.4.7">
                         <label xml:lang="en">1938 ed. 2.4.7</label>
                         <caesura/>
                          śleṣmā prakupitaḥ samīraṇenādhaḥ preritaḥ pūrvvavadevāvasthitaḥ
                         śuklāvabhāsāṃ sthirāpkaṃṇḍūmatīmpiḍakāñ janayati |
-                        sāsyakaṇḍvādīnvedanāviśeṣān upajanayati | apratikriyamāṇā ca pākam
-                        upaiti | vraṇaś ca kaṭhinaḥ sasaṃrambhaḥ kaṇḍūprāyaḥ
-                        picchilamāsrāvaṃ sravaty upekṣitaś ca vātamūtrapurīṣaretānsi
-                        visṛjati tam bhagandaram parisrāviṇam ity ācakṣate || </l>
+                        sāsyakaṇḍvādīnvedanāviśeṣān upajanayati | apratikriyamāṇā ca pākam upaiti |
+                        vraṇaś ca kaṭhinaḥ sasaṃrambhaḥ kaṇḍūprāyaḥ picchilamāsrāvaṃ sravaty
+                        upekṣitaś ca vātamūtrapurīṣaretānsi visṛjati tam bhagandaram parisrāviṇam
+                        ity ācakṣate || </l>
 
                     <l xml:id="SS.2.4.8">
                         <label xml:lang="en">1938 ed. 2.4.8</label>
                         <caesura/>
-                         vāyuḥ prakupitaḥ prakupitau tu pittaśleṣmāṇau parigṛhyādho gatvā
-                        pūrvvavad eva sthitaḥ pādāṅguṣṭhapramāṇāṃ sarvvaliṃgām piḍaktāñ
-                        janayanti | te 'sya todadāhakaṇḍvādīn vedanāviśeṣān upajanayanty
-                        apratikriyamāṇāś ca pākaṃ gacchanti | vraṇaś ca
-                        nānāvidhavarṇṇavedanā nānāvidhavarṇṇam āsrāvaṃ sravati
-                        pūrṇṇanadīśambukāvarttavac cātrābhyuttiṣṭhati vedanāviśeṣāḥ| taṃ
-                        bhagandaraṃ śambukāvarttam ity ācakṣate || </l>
+                         vāyuḥ prakupitaḥ prakupitau tu pittaśleṣmāṇau parigṛhyādho gatvā pūrvvavad
+                        eva sthitaḥ pādāṅguṣṭhapramāṇāṃ sarvvaliṃgām piḍaktāñ janayanti | te 'sya
+                        todadāhakaṇḍvādīn vedanāviśeṣān upajanayanty apratikriyamāṇāś ca pākaṃ
+                        gacchanti | vraṇaś ca nānāvidhavarṇṇavedanā nānāvidhavarṇṇam āsrāvaṃ sravati
+                        pūrṇṇanadīśambukāvarttavac cātrābhyuttiṣṭhati vedanāviśeṣāḥ| taṃ bhagandaraṃ
+                        śambukāvarttam ity ācakṣate || </l>
 
                     <l xml:id="SS.2.4.9">
                         <label xml:lang="en">1938 ed. 2.4.9</label>
                         <caesura/>
-                         mūḍhena tu sāsthiśalyam annam abhyavahṛtaṃ yad
-                        āgāḍhapurīṣonmiśram apānenādhaḥ preritam asamyag āgataṃ gudaṃ
-                        kṣiṇoti | tadā tatra kṣatanimittāṅgatir upajāyate ||
-                        tasmi~ścakṣate pūyarudhirāvarṇṇaimāṃsakothe bhūmāviva
-                        jalapraklinnāyāṃ krimayaḥ sañjāyate | te bhakṣayanto gudamanekadhā
+                         mūḍhena tu sāsthiśalyam annam abhyavahṛtaṃ yad āgāḍhapurīṣonmiśram
+                        apānenādhaḥ preritam asamyag āgataṃ gudaṃ kṣiṇoti | tadā tatra
+                        kṣatanimittāṅgatir upajāyate || tasmi~ścakṣate pūyarudhirāvarṇṇaimāṃsakothe
+                        bhūmāviva jalapraklinnāyāṃ krimayaḥ sañjāyate | te bhakṣayanto gudamanekadhā
                         pārśvato 'vadārayanti tasya taiś ca kṛmikṛtair mmārgair
-                        vvātamūtrapurīṣaretatāṃsy abhiprapadyante | tam bhagandaram
-                        unmārgiṇam ity ākṣate ||</l>
+                        vvātamūtrapurīṣaretatāṃsy abhiprapadyante | tam bhagandaram unmārgiṇam ity
+                        ākṣate ||</l>
 
                     <l xml:id="SS.2.4.10"/>
 
@@ -1344,116 +1313,111 @@
                     <l xml:id="SS.2.5.3">
                         <label xml:lang="en">1938 ed. 2.5.3</label>
                         <caesura/>
-                         mithyāhārācārasya pittaśleṣmāṇau prakupitau parigṛhyānilaḥ
-                        pravṛddhas tiryagāḥ sirāḥ saṃprapadya samūddhūya bāhyamārgam prati
-                        samantād vikṣipati | yatra yatra vikṣipto niścarati tatra tatra
-                        maṇḍalāni bhavanti | tatra ca parivṛddhim prāpyāpratikriyamāṇo
-                        'bhyantaram anuprāpto dhātūn vidūṣayati | </l>
+                         mithyāhārācārasya pittaśleṣmāṇau prakupitau parigṛhyānilaḥ pravṛddhas
+                        tiryagāḥ sirāḥ saṃprapadya samūddhūya bāhyamārgam prati samantād vikṣipati |
+                        yatra yatra vikṣipto niścarati tatra tatra maṇḍalāni bhavanti | tatra ca
+                        parivṛddhim prāpyāpratikriyamāṇo 'bhyantaram anuprāpto dhātūn vidūṣayati | </l>
 
                     <l xml:id="SS.2.5.4">
                         <label xml:lang="en">1938 ed. 2.5.4</label>
                         <caesura/>
-                         tasya ca pūrvvarūpāṇi tvakpārūṣyam akasmād romaharṣaḥ
-                        kaṇḍusvedabahutvaṃ suptatvam aṅgānām asṛkkṛṣṇatā ca ||</l>
+                         tasya ca pūrvvarūpāṇi tvakpārūṣyam akasmād romaharṣaḥ kaṇḍusvedabahutvaṃ
+                        suptatvam aṅgānām asṛkkṛṣṇatā ca ||</l>
 
                     <l xml:id="SS.2.5.5">
                         <label xml:lang="en">1938 ed. 2.5.5</label>
                         <caesura/>
-                         tatra sapta mahākuṣṭhāni | ekādaśakṣudrakuṣṭhāny evam aṣṭādaśa
-                        bhavanti | te vā mahākuṣṭhāny aruṇodumbara<pc> </pc>ṛṣya<pc
-                            > </pc>jihva<pc> </pc>kapālakākaṇakapaṇḍurīkāni
-                            dardṛ<pc> </pc>kuṣṭhañ ceti kṣūdrakuṣṭhāni tu sthūlāruṣkam
-                        aṣṭhaikakuṣṭhacarmmadalaṃ parisarppo visarppasidhmaṃ vicarccikā
-                        kiṭibhaṃ pāmā ca kasā ceti || </l>
+                         tatra sapta mahākuṣṭhāni | ekādaśakṣudrakuṣṭhāny evam aṣṭādaśa bhavanti |
+                        te vā mahākuṣṭhāny aruṇodumbara<pc> </pc>ṛṣya<pc> </pc>jihva<pc
+                        > </pc>kapālakākaṇakapaṇḍurīkāni dardṛ<pc> </pc>kuṣṭhañ ceti kṣūdrakuṣṭhāni
+                        tu sthūlāruṣkam aṣṭhaikakuṣṭhacarmmadalaṃ parisarppo visarppasidhmaṃ
+                        vicarccikā kiṭibhaṃ pāmā ca kasā ceti || </l>
 
                     <l xml:id="SS.2.5.6">
                         <label xml:lang="en">1938 ed. 2.5.6</label>
                         <caesura/>
-                         sarvvāṇi kuṣṭhāni savātāni sapittāni saśleṣmāṇi sakrimāṇi
-                        bhavanti | utpannasya tu grahaṇam abhibhavānta ||</l>
+                         sarvvāṇi kuṣṭhāni savātāni sapittāni saśleṣmāṇi sakrimāṇi bhavanti |
+                        utpannasya tu grahaṇam abhibhavānta ||</l>
 
                     <l xml:id="SS.2.5.7">
                         <label xml:lang="en">1938 ed. 2.5.7</label>
                         <caesura/>
-                         tra vātenāruṇaṃ | pittenaudumbaraṃ |aṣyajihvakapālakākaṇakāni |
-                        śleṣmaṇā puṇḍarīkaṃ dadṛkuṣṭhañ cety eṣāṃ tu mahatvaṃ
-                        sarvvadhātvanusāritvād asādhdhatvañ ceti |</l>
+                         tra vātenāruṇaṃ | pittenaudumbaraṃ |aṣyajihvakapālakākaṇakāni | śleṣmaṇā
+                        puṇḍarīkaṃ dadṛkuṣṭhañ cety eṣāṃ tu mahatvaṃ sarvvadhātvanusāritvād
+                        asādhdhatvañ ceti |</l>
 
                     <l xml:id="SS.2.5.8">
                         <label xml:lang="en">1938 ed. 2.5.8</label>
                         <caesura/>
-                         tatra vātenārūṇavarṇṇāni tanūni visarppīṇi todasvāpayuktāni
-                        bhavanti || pakvodumbaravarṇṇāny audumbarāṇi | aṣyajihvevakharāṇi
-                        aṣyajihvāni || kṛṣṇakapālikāprakāśāni kapālakuṣṭhāni |kākaṇanti
-                        kaphalasadṛśāni atīva raktāni paryante ca kṛṣṇāni kākaṇanti kāni
-                        teṣāṃ caturṇṇām apy āṣācoṣaparidāhadhūmāyanāni | kṣiprotthāna
-                        prapākabheditvāni ca sāmānyāni | puṇḍarīkaprakāśāni puṇḍarīkāny
-                        atasīpuṣpavarṇṇānitāmrāṇi vā visarppīṇi piḍakā bhavanti
-                        dardṛkuṣṭhāni ca tayor dvayor apyutmannatā | parimaṇḍalatā kaṇḍuś
-                        cirotthānatvañ ceti || </l>
+                         tatra vātenārūṇavarṇṇāni tanūni visarppīṇi todasvāpayuktāni bhavanti ||
+                        pakvodumbaravarṇṇāny audumbarāṇi | aṣyajihvevakharāṇi aṣyajihvāni ||
+                        kṛṣṇakapālikāprakāśāni kapālakuṣṭhāni |kākaṇanti kaphalasadṛśāni atīva
+                        raktāni paryante ca kṛṣṇāni kākaṇanti kāni teṣāṃ caturṇṇām apy
+                        āṣācoṣaparidāhadhūmāyanāni | kṣiprotthāna prapākabheditvāni ca sāmānyāni |
+                        puṇḍarīkaprakāśāni puṇḍarīkāny atasīpuṣpavarṇṇānitāmrāṇi vā visarppīṇi
+                        piḍakā bhavanti dardṛkuṣṭhāni ca tayor dvayor apyutmannatā | parimaṇḍalatā
+                        kaṇḍuś cirotthānatvañ ceti || </l>
 
                     <l xml:id="SS.2.5.9">
                         <label xml:lang="en">1938 ed. 2.5.9</label>
                         <caesura/>
-                         kṣudrakuṣṭhāny ata ūrdhvaṃ vakṣyāmaḥ| aruḥkuṣṭhe sthūlamūlāny
-                        aruṃṣi saṃjāyaṃte sandhiṣu dāruṇāni | mahākumaṣṭhe sarvvadehe
-                        bhavanti tvakkocaḥ bhedāṅgadāhāḥ|| </l>
+                         kṣudrakuṣṭhāny ata ūrdhvaṃ vakṣyāmaḥ| aruḥkuṣṭhe sthūlamūlāny aruṃṣi
+                        saṃjāyaṃte sandhiṣu dāruṇāni | mahākumaṣṭhe sarvvadehe bhavanti tvakkocaḥ
+                        bhedāṅgadāhāḥ|| </l>
 
                     <l xml:id="SS.2.5.10">
                         <label xml:lang="en">1938 ed. 2.5.10</label>
                         <caesura/>
-                         kṛtsne dehe yasya kṛṣṇo 'ruṇovātac caikāravyaṃ kuṣṭhamā sukaṣṭaṃ
-                        | kaṇḍucoṣautodahau tu yasya kāle cāsmin carmmadalam vadanti | </l>
+                         kṛtsne dehe yasya kṛṣṇo 'ruṇovātac caikāravyaṃ kuṣṭhamā sukaṣṭaṃ |
+                        kaṇḍucoṣautodahau tu yasya kāle cāsmin carmmadalam vadanti | </l>
 
 
                     <l xml:id="SS.2.5.12ab">
                         <label xml:lang="en">1938 ed. 2.5.12ab</label>
                         <caesura/>
-                         yasmin sphoṭāsrāvavantas tam āhnaḥ pārīsarppan tac chanaiḥ
-                        sarppamāṇaṃ | </l>
+                         yasmin sphoṭāsrāvavantas tam āhnaḥ pārīsarppan tac chanaiḥ sarppamāṇaṃ | </l>
+
+
+                    <l xml:id="SS.2.5.11ab"/>
+
 
                     <l xml:id="SS.2.5.11cd">
                         <label xml:lang="en">1938 ed. 2.5.11cd</label>
                         <caesura/>
-                         vaisarpyaḥ syāt sarvvataḥ sarpyate tu tvagraktadīn vyāpya bhāvān
-                        suśīghram || </l>
+                         vaisarpyaḥ syāt sarvvataḥ sarpyate tu tvagraktadīn vyāpya bhāvān suśīghram
+                        || </l>
 
                     <l xml:id="SS.2.5.12cd">
                         <label xml:lang="en">1938 ed. 2.5.12cd</label>
                         <caesura/>
-                         svacchasvetapkaṇḍumac cāpi bhiṣmaṃ paridhvaṃsimrā yasaś
-                        cordvakāye | </l>
+                         svacchasvetapkaṇḍumac cāpi bhiṣmaṃ paridhvaṃsimrā yasaś cordvakāye | </l>
 
                     <l xml:id="SS.2.5.12.1">
                         <label xml:lang="en">2.5.12.1</label>
                         <caesura/>
-                         pāṇau pādau dāruṇau yasya rukṣaiśovākaṇaḍuḥsāvicarcciḥ pradiṣṭhā
-                        |</l>
+                         pāṇau pādau dāruṇau yasya rukṣaiśovākaṇaḍuḥsāvicarcciḥ pradiṣṭhā |</l>
 
                     <l xml:id="SS.2.5.12.2">
                         <label xml:lang="en">2.5.12.2</label>
                         <caesura/>
                          vaipādyākhyaḥ pādayoś cāvadīrṇṇu saivārthajñes tīvrakaṇḍusadāhaḥ|
                         <caesura/>
-                         kṛṣṇaṃ kaṇḍummaṇlaṃ kaṇḍarañ ca śyāmopetaṃ kaiṭabham pathate tu
-                        || </l>
+                         kṛṣṇaṃ kaṇḍummaṇlaṃ kaṇḍarañ ca śyāmopetaṃ kaiṭabham pathate tu || </l>
 
                     <l xml:id="SS.2.5.12.3">
                         <label xml:lang="en">2.5.12.3</label>
                         <caesura/>
-                         śukṣāva<unclear n="1" unit="char"/> paiḍakāḥ āvacatyaḥ pāmety
-                        uktāḥ kaṇḍumatyugradāhāḥ|
+                         śukṣāva<unclear n="1" unit="char"/> paiḍakāḥ āvacatyaḥ pāmety uktāḥ
+                        kaṇḍumatyugradāhāḥ|
                         <caesura/>
-                         saivāsthedās tīvradāhair upetākjñathāḥ pāṇyau kaṇḍurugrāḥ sthicau
-                        ca || </l>
+                         saivāsthedās tīvradāhair upetākjñathāḥ pāṇyau kaṇḍurugrāḥ sthicau ca || </l>
 
                     <l xml:id="SS.2.5.12.4">
                         <label xml:lang="en">2.5.12.4</label>
                         <caesura/>
                          kṛtsne dehe paiḍakāḥkaṇḍumatyo tair āsrāvārākasety ucyate tu |
-                        tatrāruṣkaṃrākasaṃyac ca sidhmaṃ kaphādhiṣadeka kuṣṭhammahac ca |
-                        | pitte drekātpārisarpyan tu vidyādṛṣṭo niṣṭhaḥ kuṣṭhavargas
-                        tridoṣaḥ | </l>
+                        tatrāruṣkaṃrākasaṃyac ca sidhmaṃ kaphādhiṣadeka kuṣṭhammahac ca | | pitte
+                        drekātpārisarpyan tu vidyādṛṣṭo niṣṭhaḥ kuṣṭhavargas tridoṣaḥ | </l>
 
                     <l xml:id="SS.2.5.13"/>
                     <l xml:id="SS.2.5.14"/>
@@ -1463,25 +1427,23 @@
                     <l xml:id="SS.2.5.17">
                         <label xml:lang="en">1938 ed. 2.5.17</label>
                         <caesura/>
-                         kilāsam api kuṣṭhavikāra eva | tat tu trividham vā te pittena
-                        ślemaṇeti | kuṣṭhakilāsayor antaraṃ tv agatam eva kilāsam
-                        aparisrāvi ca | tadvātena maṇḍalamaruṇamparidhvaṃsi ca | pittena
-                        padmapatrapratīkāsaṃsaparidhāhaṃ ca | śleṣmaṇā svataṃ snigdhaṃ
-                        kaṇḍurañ ca | tatra sambaddhamaṇḍalamantajātaṃ raktaromāṇañ ca
-                        sādhyam agnidagdhañ ca </l>
+                         kilāsam api kuṣṭhavikāra eva | tat tu trividham vā te pittena ślemaṇeti |
+                        kuṣṭhakilāsayor antaraṃ tv agatam eva kilāsam aparisrāvi ca | tadvātena
+                        maṇḍalamaruṇamparidhvaṃsi ca | pittena padmapatrapratīkāsaṃsaparidhāhaṃ ca |
+                        śleṣmaṇā svataṃ snigdhaṃ kaṇḍurañ ca | tatra sambaddhamaṇḍalamantajātaṃ
+                        raktaromāṇañ ca sādhyam agnidagdhañ ca </l>
 
                     <l xml:id="SS.2.5.18">
                         <label xml:lang="en">1938 ed. 2.5.18</label>
                         <caesura/>
-                         tatra kuṣṭheṣu tvakṣaṃkoca svedaṇobhasvāpabhedakauṇyasvaropaghāto
-                        vātena | pākāvadaraṇam aṅgulipatanaṃ karṇṇanāsābhaṅgākṣirāgāḥ
-                        kṣiprotyattayaḥ pittena | kaṇḍuvarṇṇabhedaḥśobhāsrāvāḥ śleṣmaṇā | </l>
+                         tatra kuṣṭheṣu tvakṣaṃkoca svedaṇobhasvāpabhedakauṇyasvaropaghāto vātena |
+                        pākāvadaraṇam aṅgulipatanaṃ karṇṇanāsābhaṅgākṣirāgāḥ kṣiprotyattayaḥ pittena
+                        | kaṇḍuvarṇṇabhedaḥśobhāsrāvāḥ śleṣmaṇā | </l>
 
                     <l xml:id="SS.2.5.19">
                         <label xml:lang="en">1938 ed. 2.5.19</label>
                         <caesura/>
-                         tatrātibalapravṛttaṃ puṇḍarīkaṃ kākaṇañ cāsādhyam iti || ślokau
-                        ||</l>
+                         tatrātibalapravṛttaṃ puṇḍarīkaṃ kākaṇañ cāsādhyam iti || ślokau ||</l>
 
                     <l xml:id="SS.2.5.20">
                         <label xml:lang="en">1938 ed. 2.5.20</label>
@@ -1587,13 +1549,13 @@
                         <caesura/>
                          kuṣṭhañ jvaraś ca śoṣaś ca netrābhiṣyanda eva ca |
                         <caesura/>
-                         aupasargikarogāś ca saṃkrāmanti narāt naram ||<anchor
-                            n="SS.2.5.34-n1"/></l>
+                         aupasargikarogāś ca saṃkrāmanti narāt naram ||<anchor n="SS.2.5.34-n1"
+                        /></l>
                     <ab corresp="#SS.2.5.34" type="apparatus">
                         <list type="Notes">
-                            <item xml:lang="en" corresp="#SS.2.5.34-n1"><foreign
-                                    xml:lang="la">Sic</foreign> irregular sandhi of
-                                    <foreign xml:lang="sa">narāt</foreign>.</item>
+                            <item xml:lang="en" corresp="#SS.2.5.34-n1"><foreign xml:lang="la"
+                                    >Sic</foreign> irregular sandhi of <foreign xml:lang="sa"
+                                    >narāt</foreign>.</item>
                         </list>
                     </ab>
 
@@ -1617,15 +1579,14 @@
                     <l xml:id="SS.2.6.3">
                         <label xml:lang="en">1938 ed. 2.6.3</label>
                         <caesura/>
-                         divāsvapnaprasaktam alasaṃ śītasnigdhamadhuramedyadravānnapānam
-                        puruṣañ jānīyāt pramehī bhaviṣyatīti |</l>
+                         divāsvapnaprasaktam alasaṃ śītasnigdhamadhuramedyadravānnapānam puruṣañ
+                        jānīyāt pramehī bhaviṣyatīti |</l>
 
                     <l xml:id="SS.2.6.4">
                         <label xml:lang="en">1938 ed. 2.6.4</label>
                         <caesura/>
-                         tasyaivaṃpravṛttasya yadā vātapittaśleṣamāṇo medaś
-                        coparipakvādhogatvā bastimukham āśritya nirbhidyante tadā pramehān
-                        janayanti | </l>
+                         tasyaivaṃpravṛttasya yadā vātapittaśleṣamāṇo medaś coparipakvādhogatvā
+                        bastimukham āśritya nirbhidyante tadā pramehān janayanti | </l>
 
                     <l xml:id="SS.2.6.5">
                         <label xml:lang="en">1938 ed. 2.6.5</label>
@@ -1646,28 +1607,26 @@
                     <l xml:id="SS.2.6.8">
                         <label xml:lang="en">1938 ed. 2.6.8</label>
                         <caesura/>
-                         tatra kaphād udakekṣuvālikāsurāsikatāśanair
-                        llavaṇapiṣṭasāndraśukramehāḥ phenamehaś ceti daśa ||
-                        pittānnīlaharidrāmvlakṣāramañjiṣṭhāmehāḥ śoṇitamehaś ceti ṣaṭ ||
-                        vātātsarppirvvasākṣaudramehāhastimehaś ceti catvāro 'sādhyāḥ|| </l>
+                         tatra kaphād udakekṣuvālikāsurāsikatāśanair llavaṇapiṣṭasāndraśukramehāḥ
+                        phenamehaś ceti daśa || pittānnīlaharidrāmvlakṣāramañjiṣṭhāmehāḥ śoṇitamehaś
+                        ceti ṣaṭ || vātātsarppirvvasākṣaudramehāhastimehaś ceti catvāro 'sādhyāḥ|| </l>
 
                     <l xml:id="SS.2.6.9">
                         <label xml:lang="en">1938 ed. 2.6.9</label>
                         <caesura/>
                          tatra vātapittamedobhir anvitaḥ śleṣmāsvānmehān janayanti |
                         <caesura/>
-                         vātakaphaśoṇitamedobhir anvitampittaṃ |
-                        kaphapittavasāmajjāmedobhir anvito vāyur iti || </l>
+                         vātakaphaśoṇitamedobhir anvitampittaṃ | kaphapittavasāmajjāmedobhir anvito
+                        vāyur iti || </l>
 
                     <l xml:id="SS.2.6.10">
                         <label xml:lang="en">1938 ed. 2.6.10</label>
                         <caesura/>
-                         tatra svetam avedanam udakatulyam udakamehī mehati |
-                        īkṣurasatulyam ikṣuvālikāmehī |surātulyaṃ surāmehī sarujāṃ
-                        sikatānuviddhaṃ sikatāmehī |śanaiḥ sakaphaṃ sāndraṃ śanair mmehī |
-                        viṣadaṃ lavaṇatulyaṃ lavaṇamehī |hṛṣṭaromāpiṣṭatulyaṃ piṣṭamehī |
-                        āvilaṃ sāndraṃ sāndramehī | śukratulyaṃ śukramehī || stokas tokaṃ
-                        saphenañ ca phenamehī mehati || </l>
+                         tatra svetam avedanam udakatulyam udakamehī mehati | īkṣurasatulyam
+                        ikṣuvālikāmehī |surātulyaṃ surāmehī sarujāṃ sikatānuviddhaṃ sikatāmehī
+                        |śanaiḥ sakaphaṃ sāndraṃ śanair mmehī | viṣadaṃ lavaṇatulyaṃ lavaṇamehī
+                        |hṛṣṭaromāpiṣṭatulyaṃ piṣṭamehī | āvilaṃ sāndraṃ sāndramehī | śukratulyaṃ
+                        śukramehī || stokas tokaṃ saphenañ ca phenamehī mehati || </l>
 
                     <l xml:id="SS.2.6.11">
                         <label xml:lang="en">1938 ed. 2.6.11</label>
@@ -1675,46 +1634,42 @@
                          ata ūrdhdvam pittanimittān vakṣyāmaḥ |
                         <caesura/>
                          saphenam acchannīlannīlamehī mehati | sadāhaṃ kadkaṃ haridrābhaṃ
-                        haridrāmehī mehati | amlarasagandhamamlamehī | sṛtakṣārapratimaṃ
-                        kṣāramehī | mañjiṣṭhodakaprakāśaṃ mañjiṣṭhamehī | śoṇitamehī
-                        śoṇitam mehati ||</l>
+                        haridrāmehī mehati | amlarasagandhamamlamehī | sṛtakṣārapratimaṃ kṣāramehī |
+                        mañjiṣṭhodakaprakāśaṃ mañjiṣṭhamehī | śoṇitamehī śoṇitam mehati ||</l>
 
                     <l xml:id="SS.2.6.12">
                         <label xml:lang="en">1938 ed. 2.6.12</label>
                         <caesura/>
-                         vātanimittānvakṣyāmaḥ || sarppiḥprakāśaṃ sarppirmmehī mehati |
-                        vasāprakāśaṃ vasāmehī | kṣaudrasavarṇṇaṃkṣaudramehī
+                         vātanimittānvakṣyāmaḥ || sarppiḥprakāśaṃ sarppirmmehī mehati | vasāprakāśaṃ
+                        vasāmehī | kṣaudrasavarṇṇaṃkṣaudramehī
                         |mattamātaṅgavadanapradhūraṃhastimehimehati ||</l>
 
                     <l xml:id="SS.2.6.13">
                         <label xml:lang="en">1938 ed. 2.6.13</label>
                         <caesura/>
-                         upadravān ata ūrdhvam vakṣyāmaḥ ||
-                        makṣikopasarppaṇamālasyamāsyopadehaḥ pratiśyāyaḥ | śaithilyam
-                        arocakā 'vipākau kaphaprasekaś chardyati nidrākāsa iti śleṣmajānām
-                        upadravā bhavanti || vṛṣaṇayor avadaraṇaṃ bastibhedo meḍhratodo
-                        'mlīkā pipāsā jvaro 'tīsāro mūrcchāpāṇḍuroga iti pittajānām
-                        upadravā bhavanti || hṛdgrahau daurbbalyam anidrālambhaḥ kampaḥ
-                        śūlo badhdapurīṣatvaṃ śoṣaḥ kāsaḥ śvāsa iti vātajānām upadravā
-                        bhavanti ||
+                         upadravān ata ūrdhvam vakṣyāmaḥ || makṣikopasarppaṇamālasyamāsyopadehaḥ
+                        pratiśyāyaḥ | śaithilyam arocakā 'vipākau kaphaprasekaś chardyati nidrākāsa
+                        iti śleṣmajānām upadravā bhavanti || vṛṣaṇayor avadaraṇaṃ bastibhedo
+                        meḍhratodo 'mlīkā pipāsā jvaro 'tīsāro mūrcchāpāṇḍuroga iti pittajānām
+                        upadravā bhavanti || hṛdgrahau daurbbalyam anidrālambhaḥ kampaḥ śūlo
+                        badhdapurīṣatvaṃ śoṣaḥ kāsaḥ śvāsa iti vātajānām upadravā bhavanti ||
                         <caesura/>
                          evam ete viṃśati pramehāḥ sopadravā vyākhyātāḥ ||</l>
 
                     <l xml:id="SS.2.6.14">
                         <label xml:lang="en">1938 ed. 2.6.14</label>
                         <caesura/>
-                         tatra vasāmedobhyām abhipannaśarīrasya doṣair anugatadhātoḥ
-                        pramehiṇo navapiḍakāḥ sañjāyante || tad yathā || sarāvikā |
-                        sarṣaṣī | kacchapikā | jālinī | puttriṇī | masūrikā | alajī |
-                        vidārikā | vidradhikā ceti ||</l>
+                         tatra vasāmedobhyām abhipannaśarīrasya doṣair anugatadhātoḥ pramehiṇo
+                        navapiḍakāḥ sañjāyante || tad yathā || sarāvikā | sarṣaṣī | kacchapikā |
+                        jālinī | puttriṇī | masūrikā | alajī | vidārikā | vidradhikā ceti ||</l>
 
                     <l xml:id="SS.2.6.15">
                         <label xml:lang="en">1938 ed. 2.6.15</label>
                         <caesura/>
                          antonnatā ca tadṛpā nimnamadhyā sarāvikā |
                         <caesura/>
-                         gaurasarṣapasaṃsthānā<!-- 2 symbols maybe fillers -->tatpramāṇā
-                        ca sarṣaṣī || </l>
+                         gaurasarṣapasaṃsthānā<!-- 2 symbols maybe fillers -->tatpramāṇā ca sarṣaṣī
+                        || </l>
 
                     <l xml:id="SS.2.6.16">
                         <label xml:lang="en">1938 ed. 2.6.16</label>
@@ -1771,8 +1726,8 @@
                     <l xml:id="SS.2.6.23">
                         <label xml:lang="en">1938 ed. 2.6.23</label>
                         <caesura/>
-                         kṛcchrāṇy arddhāni vā yasmin pūrvvarūpāṇi mānave | pravṛttaṃ
-                        mūtram atyarthaṃ taṃ pramehiṇam ādiśet ||</l>
+                         kṛcchrāṇy arddhāni vā yasmin pūrvvarūpāṇi mānave | pravṛttaṃ mūtram
+                        atyarthaṃ taṃ pramehiṇam ādiśet ||</l>
 
                     <l xml:id="SS.2.6.24">
                         <label xml:lang="en">1938 ed. 2.6.24</label>
@@ -1791,11 +1746,10 @@
                     <l xml:id="SS.2.6.26">
                         <label xml:lang="en">1938 ed. 2.6.26</label>
                         <caesura/>
-                         yathā śuklādivarṇṇānām pañcānām utkarṣāpakarṣakṛtena
-                        saṃyogaviśeṣeṇa svetababhṛkapilakapotamecakādīnāṃ
-                        varṇṇānāmanekeṣām utpattir bhavati | evam eva
-                        doṣadhātumalāhāraviśeṣeṇotkarṣāpakarṣakṛtena saṃyogaviśeṣeṇa
-                        pramehanān ākaraṇam bhavati ||</l>
+                         yathā śuklādivarṇṇānām pañcānām utkarṣāpakarṣakṛtena saṃyogaviśeṣeṇa
+                        svetababhṛkapilakapotamecakādīnāṃ varṇṇānāmanekeṣām utpattir bhavati | evam
+                        eva doṣadhātumalāhāraviśeṣeṇotkarṣāpakarṣakṛtena saṃyogaviśeṣeṇa pramehanān
+                        ākaraṇam bhavati ||</l>
 
                     <l xml:id="SS.2.6.27">
                         <label xml:lang="en">1938 ed. 2.6.27</label>
@@ -1825,11 +1779,9 @@
                     <l xml:id="SS.2.7.3">
                         <label xml:lang="en">1938 ed. 2.7.3</label>
                         <caesura/>
-                         dhanvantarir dharmmabhṛtām variṣṭho rājarṣir indrapratimo mahātmā
-                        |
+                         dhanvantarir dharmmabhṛtām variṣṭho rājarṣir indrapratimo mahātmā |
                         <caesura/>
-                         brahmarṣiputram vinayopapannaṃ śiṣyaṃ śubhaṃ suśrutam anvaśāsat
-                        || </l>
+                         brahmarṣiputram vinayopapannaṃ śiṣyaṃ śubhaṃ suśrutam anvaśāsat || </l>
 
                     <l xml:id="SS.2.7.4">
                         <label xml:lang="en">1938 ed. 2.7.4</label>
@@ -1838,15 +1790,10 @@
                         <caesura/>
                          āgantukaṃ saptamam aṣṭaman tu dakodaraṃ caiva bhavanti tāni || </l>
 
-                    <l xml:id="SS.2.7.5a">
+                    <l xml:id="SS.2.7.5">
                         <label xml:lang="en">1938 ed. 2.7.5a</label>
                         <caesura/>
-                         sudurbbalāgner ahitāśanasya </l>
-
-                    <l xml:id="SS.2.7.5bc"/>
-
-                    <l xml:id="SS.2.7.5d">
-                        <label xml:lang="en">1938 ed. 2.7.5d</label>
+                         sudurbbalāgner ahitāśanasya
                         <caesura/>
                          vṛddhiṃ gatāḥ koṣṭham abhiprapannāḥ || </l>
 
@@ -1860,8 +1807,7 @@
                     <l xml:id="SS.2.7.7ab">
                         <label xml:lang="en">1938 ed. 2.7.7</label>
                         <caesura/>
-                         tvacaḥ samunnāmya śanaiḥ samastād dhi sarpyamāṇo jaṭharaṃ karoti
-                        || </l>
+                         tvacaḥ samunnāmya śanaiḥ samastād dhi sarpyamāṇo jaṭharaṃ karoti || </l>
 
                     <l xml:id="SS.2.7.7cd"/>
                     <l xml:id="SS.2.7.8ab"/>
@@ -1869,8 +1815,7 @@
                     <l xml:id="SS.2.7.8cd">
                         <label xml:lang="en">1938 ed. 2.7.8cd</label>
                         <caesura/>
-                         yad gṛhyapṛṣṭhodarapārśvavastī na vivarddhate kṛṣṇasirāvanaddhaṃ
-                        | </l>
+                         yad gṛhyapṛṣṭhodarapārśvavastī na vivarddhate kṛṣṇasirāvanaddhaṃ | </l>
 
                     <l xml:id="SS.2.7.9">
                         <label xml:lang="en">1938 ed. 2.7.9</label>
@@ -1889,27 +1834,23 @@
                     <l xml:id="SS.2.7.11">
                         <label xml:lang="en">1938 ed. 2.7.11</label>
                         <caesura/>
-                         snigdham mahatsādanaśophayuktaṃ cirābhivṛddhim prathitaṃ
-                        kaphāttat ||
+                         snigdham mahatsādanaśophayuktaṃ cirābhivṛddhim prathitaṃ kaphāttat ||
                         <caesura/>
-                         striyo 'nnapānannakharomamūtrair vviḍārttavair yuktam
-                        asādhuvṛttāḥ| </l>
+                         striyo 'nnapānannakharomamūtrair vviḍārttavair yuktam asādhuvṛttāḥ| </l>
 
                     <l xml:id="SS.2.7.12">
                         <label xml:lang="en">1938 ed. 2.7.12</label>
                         <caesura/>
                          yasmai prayacchanty arayogarāṃś ca duṣṭāmbudūṣīviṣasevanād vā ||
                         <caesura/>
-                         tenāśu raktaṃ kupitāś ca doṣāḥ kuryuḥ sughorañ jaṭharan triliṅgaṃ
-                        | </l>
+                         tenāśu raktaṃ kupitāś ca doṣāḥ kuryuḥ sughorañ jaṭharan triliṅgaṃ | </l>
 
                     <l xml:id="SS.2.7.13">
                         <label xml:lang="en">1938 ed. 2.7.13</label>
                         <caesura/>
                          tac chītavātātapadurddineṣu viśeṣataḥ kupyati dahyate ca ||
                         <caesura/>
-                         sa cāturo mūrcchati samprayuktaḥ pāṇḍuḥ kṛṣaḥ śuṣyati tṛṣṇayā ca
-                        || </l>
+                         sa cāturo mūrcchati samprayuktaḥ pāṇḍuḥ kṛṣaḥ śuṣyati tṛṣṇayā ca || </l>
 
                     <l xml:id="SS.2.7.14">
                         <label xml:lang="en">1938 ed. 2.7.14</label>
@@ -1921,8 +1862,7 @@
                     <l xml:id="SS.2.7.15">
                         <label xml:lang="en">1938 ed. 2.7.15</label>
                         <caesura/>
-                         plīhābhivṛddhiṃ kurute plihotthaṃ pracakṣata taj jaṭharam
-                        pravṛddhaṃ ||
+                         plīhābhivṛddhiṃ kurute plihotthaṃ pracakṣata taj jaṭharam pravṛddhaṃ ||
                         <caesura/>
                          tad vāmapārśve parivṛddhim eti viśeṣataḥ sīdati cāturo 'tra | </l>
 
@@ -1936,8 +1876,7 @@
                     <l xml:id="SS.2.7.17">
                         <label xml:lang="en">1938 ed. 2.7.17</label>
                         <caesura/>
-                         yasyāntam annair ūpalapibhir vvābālāśmabhir vvāpihitaṃ yathāvat
-                        ||
+                         yasyāntam annair ūpalapibhir vvābālāśmabhir vvāpihitaṃ yathāvat ||
                         <caesura/>
                          sañcīyate tatra malaḥ sadoṣaḥ śanaiḥ śanaiḥ śajvaravaktunāḍyāṃ | </l>
 
@@ -1958,8 +1897,7 @@
                     <l xml:id="SS.2.7.20">
                         <label xml:lang="en">1938 ed. 2.7.20</label>
                         <caesura/>
-                         tasmāt sṛtāntrāt salilaprakāśaḥ srāvaḥ sravedvai gudatas tu
-                        bhūyaḥ|
+                         tasmāt sṛtāntrāt salilaprakāśaḥ srāvaḥ sravedvai gudatas tu bhūyaḥ|
                         <caesura/>
                          nābher adhaś codaram eti vṛddhin nistudyate dālyati cātisrāvaṃ | </l>
 
@@ -1968,8 +1906,7 @@
                         <caesura/>
                          etat parisrāvyu ram praviṣṭaṃ dakodaraṃ kīrttayato nibodhaḥ|
                         <caesura/>
-                         yaḥ snehapīto 'py anuvāsito vā vānto virikto 'py athavā
-                        nicūḍhaḥ|| </l>
+                         yaḥ snehapīto 'py anuvāsito vā vānto virikto 'py athavā nicūḍhaḥ|| </l>
 
                     <l xml:id="SS.2.7.22">
                         <label xml:lang="en">1938 ed. 2.7.22</label>
@@ -1981,11 +1918,9 @@
                     <l xml:id="SS.2.7.23">
                         <label xml:lang="en">1938 ed. 2.7.23</label>
                         <caesura/>
-                         snigdham mahat tat parivṛttanābhiḥ samātatam pūrvvam ivāmbunā ca
-                        |
+                         snigdham mahat tat parivṛttanābhiḥ samātatam pūrvvam ivāmbunā ca |
                         <caesura/>
-                         yathā dṛśyati kṣubhyati kampate ca śabdāyate cāpi dakodaran tat
-                        || </l>
+                         yathā dṛśyati kṣubhyati kampate ca śabdāyate cāpi dakodaran tat || </l>
 
                     <l xml:id="SS.2.7.24">
                         <label xml:lang="en">1938 ed. 2.7.24</label>
@@ -2027,43 +1962,40 @@
 
                     <l xml:id="SS.2.8.2"/>
 
-                    <l xml:id="SS.2.8.3">grāmyadharmma<pc> </pc>yāna<pc
-                            > </pc>vāhanādhva<pc> </pc>gamana<pc
-                            > </pc>praskhalana<pc> </pc>prapatana<pc
-                            > </pc>pīḍanābhighāta<pc> </pc>viṣama<pc
-                            > </pc>śayanopavāsa<pc> </pc>vegābhighātātirūkṣa<pc
+                    <l xml:id="SS.2.8.3">grāmyadharmma<pc> </pc>yāna<pc> </pc>vāhanādhva<pc
+                            > </pc>gamana<pc> </pc>praskhalana<pc> </pc>prapatana<pc
+                            > </pc>pīḍanābhighāta<pc> </pc>viṣama<pc> </pc>śayanopavāsa<pc
+                            > </pc>vegābhighātātirūkṣa<pc
                         > </pc>kaṭukatiktabhojanājīrṇṇagarbhaśātanaprabhṛtibhir
-                            abhighātaviśeṣa<unclear n="2" unit="char"/>nā<unclear n="1"
-                            unit="char"/> cchidyante garbham phalam iva vṛttabandhanāt |
-                        sakhalumuktabandhanatvād garbhaśayyām atikramya
-                        yakṛtplīhāntravivagair avasransamānaḥ koṣṭha saṃkṣobhayati |
-                        tasyāḥ koṣṭhasaṃkṣobhād vāyurapāno mūḍhaḥ
-                        pārśvabastiśiraudarayoniśūlānāhamūtrasadgānāpādyagarbhas
-                        pracyāvayati | taruṇaṃ śoṇitabhāvena kadācid vivṛddham asamyag
-                        āgatam apatyapatham anuprāptam anirgacchantam
-                        apānavaiguṇyasammohitaṅ garbhaṃ mūḍhagarbham ity ācakṣate || </l>
+                            abhighātaviśeṣa<unclear n="2" unit="char"/>nā<unclear n="1" unit="char"
+                        /> cchidyante garbham phalam iva vṛttabandhanāt | sakhalumuktabandhanatvād
+                        garbhaśayyām atikramya yakṛtplīhāntravivagair avasransamānaḥ koṣṭha
+                        saṃkṣobhayati | tasyāḥ koṣṭhasaṃkṣobhād vāyurapāno mūḍhaḥ
+                        pārśvabastiśiraudarayoniśūlānāhamūtrasadgānāpādyagarbhas pracyāvayati |
+                        taruṇaṃ śoṇitabhāvena kadācid vivṛddham asamyag āgatam apatyapatham
+                        anuprāptam anirgacchantam apānavaiguṇyasammohitaṅ garbhaṃ mūḍhagarbham ity
+                        ācakṣate || </l>
 
                     <l xml:id="SS.2.8.4">
                         <label xml:lang="en">1938 ed. 2.8.4</label>
                         <caesura/>
-                         sakīlaḥ pratikhurobījakaḥ parigha iti caturvvidho mūḍhagarbho
-                        bhavatīty eke bhāṣante || ya ūrdhvaṃ śiraḥpādābhyāṃ yonimukhan ni
-                        ruṇaddhi kīla iva sakīlaḥ | niḥsṛtahastapādaśiraḥkāyaśaktaḥ
-                        sapratikhuraḥ | yas tu nirgacchatiśiro bhujaḥ savījakaḥ | parigha
-                        iva yonimukham āvṛtya tiṣṭhet sa parigha iti | tat tu na samyak ||
-                        sa yadā viguṇānilapīḍito 'patyapatham anekadhā pratipadyate | tadā
-                        catuḥsaṃkhyā hīyate || </l>
+                         sakīlaḥ pratikhurobījakaḥ parigha iti caturvvidho mūḍhagarbho bhavatīty eke
+                        bhāṣante || ya ūrdhvaṃ śiraḥpādābhyāṃ yonimukhan ni ruṇaddhi kīla iva
+                        sakīlaḥ | niḥsṛtahastapādaśiraḥkāyaśaktaḥ sapratikhuraḥ | yas tu
+                        nirgacchatiśiro bhujaḥ savījakaḥ | parigha iva yonimukham āvṛtya tiṣṭhet sa
+                        parigha iti | tat tu na samyak || sa yadā viguṇānilapīḍito 'patyapatham
+                        anekadhā pratipadyate | tadā catuḥsaṃkhyā hīyate || </l>
 
                     <l xml:id="SS.2.8.5">
                         <label xml:lang="en">1938 ed. 2.8.5</label>
                         <caesura/>
                          tatra kaś cid dvābhyāṃ sakthibhyāṃ yonim abhiprapadyate | kaścid
-                        ābhugnaikasakthi | kaścid ābhugnaśiraḥsphideśenatiryagāgataḥ |
-                        kaścid udarapārśvapṛṣṭhānām anyatamena yonidvāram pidhāya tiṣṭhati
-                        | kaścid ekena bāhunā pārśvāpavṛttaśirā | kaścid
-                        ābhugnaśirābāhudvayena | kaścid ābhugnamadhyo hastapādaśirobhiḥ |
-                        kaścid ekena sakthnāyonimabhiprapadyāpareṇa pāyum ity
-                        aṣṭavidhāmūḍhagarbhagatir uddiṣṭā samāsena | </l>
+                        ābhugnaikasakthi | kaścid ābhugnaśiraḥsphideśenatiryagāgataḥ | kaścid
+                        udarapārśvapṛṣṭhānām anyatamena yonidvāram pidhāya tiṣṭhati | kaścid ekena
+                        bāhunā pārśvāpavṛttaśirā | kaścid ābhugnaśirābāhudvayena | kaścid
+                        ābhugnamadhyo hastapādaśirobhiḥ | kaścid ekena
+                        sakthnāyonimabhiprapadyāpareṇa pāyum ity aṣṭavidhāmūḍhagarbhagatir uddiṣṭā
+                        samāsena | </l>
 
                     <l xml:id="SS.2.8.6">
                         <label xml:lang="en">1938 ed. 2.8.6</label>
@@ -2383,8 +2315,8 @@
                          evam prakāro gulmas tu tasmāt pākan na gacchati || </l>
 
                     <l xml:id="SS.2.9.32cd">
-                        <label xml:lang="en">1938 ed. 2.9.32cd</label>
-                         māmśaśoṇitahīnasya gulmo na paripacyate | </l>
+                        <label xml:lang="en">1938 ed. 2.9.32cd</label> māmśaśoṇitahīnasya gulmo na
+                        paripacyate | </l>
 
                     <l xml:id="SS.2.9.32ab">
                         <label xml:lang="en">1938 ed. 2.9.32ab</label>
@@ -2442,94 +2374,92 @@
                     <l xml:id="SS.2.10.3">
                         <label xml:lang="en">1938 ed. 2.10.3</label>
                         <caesura/>
-                         tvagmāṃsaśoṇitagatāḥ kupitāś ca doṣāḥ sarvvāṅgacāriṇam iha
-                        sthitam ātmaliṅgaṃ |
+                         tvagmāṃsaśoṇitagatāḥ kupitāś ca doṣāḥ sarvvāṅgacāriṇam iha sthitam
+                        ātmaliṅgaṃ |
                         <caesura/>
-                         kurvvanti vistṛtamanunnatam āśu śophan taṃ sarvvato visaraṇāt tu
-                        visarppam āhuḥ || </l>
+                         kurvvanti vistṛtamanunnatam āśu śophan taṃ sarvvato visaraṇāt tu visarppam
+                        āhuḥ || </l>
 
                     <l xml:id="SS.2.10.4">
                         <label xml:lang="en">1938 ed. 2.10.4</label>
                         <caesura/>
-                         vātātmako sitamṛduḥ paruṣo 'ṅgamarddaḥ
-                        saṃbhedatodapavanajvaraliṅgayuktaḥ | </l>
+                         vātātmako sitamṛduḥ paruṣo 'ṅgamarddaḥ saṃbhedatodapavanajvaraliṅgayuktaḥ | </l>
 
                     <l xml:id="SS.2.10.5">
                         <label xml:lang="en">1938 ed. 2.10.5</label>
                         <caesura/>
-                         pittātmako- drūtagatir jvaradāhapākaḥ sphoṭaprabhedabahula
-                        kṣatajaprakāśaḥ || sadyaḥkṣatānvitam ivāpi hi-tam vihāti
-                        srotojakarddamavapurn na tadā sa sidhyet | </l>
+                         pittātmako- drūtagatir jvaradāhapākaḥ sphoṭaprabhedabahula kṣatajaprakāśaḥ
+                        || sadyaḥkṣatānvitam ivāpi hi-tam vihāti srotojakarddamavapurn na tadā sa
+                        sidhyet | </l>
 
                     <l xml:id="SS.2.10.6">
                         <label xml:lang="en">1938 ed. 2.10.6</label>
                         <caesura/>
-                         śleṣmā-tmakaḥ sarati mandam aśīghrapākī snigdhaḥ
-                        sthirapracurakaṇḍaran anyavarṇṇaḥ || sarvvātmakas
-                        trividhavarṇṇarujāvagāḍhaḥ pakvo na sidhyati sa māṃsasirāpraṇāśāt
-                        | </l>
+                         śleṣmā-tmakaḥ sarati mandam aśīghrapākī snigdhaḥ sthirapracurakaṇḍaran
+                        anyavarṇṇaḥ || sarvvātmakas trividhavarṇṇarujāvagāḍhaḥ pakvo na sidhyati sa
+                        māṃsasirāpraṇāśāt | </l>
 
                     <l xml:id="SS.2.10.7">
                         <label xml:lang="en">1938 ed. 2.10.7</label>
                         <caesura/>
-                         sadyaḥkṣatamvraṇam upetya narasya raktaṃ pittañ ca doṣabahulasya
-                        karoti śopham || śyāvaṃ salo-hitam atijvaradāhapākaḥ sphoṭaiḥ
-                        kulatthasadṛśair asitaiś ca kīrṇṇam || </l>
+                         sadyaḥkṣatamvraṇam upetya narasya raktaṃ pittañ ca doṣabahulasya karoti
+                        śopham || śyāvaṃ salo-hitam atijvaradāhapākaḥ sphoṭaiḥ kulatthasadṛśair
+                        asitaiś ca kīrṇṇam || </l>
 
                     <l xml:id="SS.2.10.8">
                         <label xml:lang="en">1938 ed. 2.10.8</label>
                         <caesura/>
-                         siddhyanti vātakaphapittakṛtā visarppāḥ sarvvātmakaḥ kṣatakṛtaś
-                        ca na siddhim eti || pittātmakoñjanavapuś ca yadā tad āsyāt
-                        kṛcchrāc ca marmmasu bhavanti hi savva eva | </l>
+                         siddhyanti vātakaphapittakṛtā visarppāḥ sarvvātmakaḥ kṣatakṛtaś ca na
+                        siddhim eti || pittātmakoñjanavapuś ca yadā tad āsyāt kṛcchrāc ca marmmasu
+                        bhavanti hi savva eva | </l>
 
                     <l xml:id="SS.2.10.9">
                         <label xml:lang="en">1938 ed. 2.10.9</label>
                         <caesura/>
-                         yaḥ śopham īkṣati supakkvam apakkvasañjī yo vā vraṇaṃ
-                        pracurapūyam asādhuvṛttaḥ |
+                         yaḥ śopham īkṣati supakkvam apakkvasañjī yo vā vraṇaṃ pracurapūyam
+                        asādhuvṛttaḥ |
                         <caesura/>
-                         abhyantaraṃ praviśati pravidārya tasya sthānāni pūrvvavihitāni
-                        tataḥ sa pūyaḥ | </l>
+                         abhyantaraṃ praviśati pravidārya tasya sthānāni pūrvvavihitāni tataḥ sa
+                        pūyaḥ | </l>
 
                     <l xml:id="SS.2.10.10">
                         <label xml:lang="en">1938 ed. 2.10.10</label>
                         <caesura/>
-                         tasyātimātragamanād gatir ity atas tu nāḍī ca yad vahati tena
-                        matā tu nāḍī || doṣais tribir bbhavati yā pṛthag ekaśaś ca
-                        saṃmūrcchitair api ca śalyanimittato nyā | </l>
+                         tasyātimātragamanād gatir ity atas tu nāḍī ca yad vahati tena matā tu nāḍī
+                        || doṣais tribir bbhavati yā pṛthag ekaśaś ca saṃmūrcchitair api ca
+                        śalyanimittato nyā | </l>
 
                     <l xml:id="SS.2.10.11">
                         <label xml:lang="en">1938 ed. 2.10.11</label>
                         <caesura/>
-                         tatrānilāt paruṣasūkṣmamukhī saśūlā phenānuviddhamadhikaṃ sravati
-                        kṣapāsu || </l>
+                         tatrānilāt paruṣasūkṣmamukhī saśūlā phenānuviddhamadhikaṃ sravati kṣapāsu
+                        || </l>
 
                     <l xml:id="SS.2.10.11a">
                         <label xml:lang="en">1938 ed. 2.10.11a</label>
                         <caesura/>
-                         pittāt tu tṛdkarakarī paridāhayuktā pītaṃ sravaty adhikam uṣṇam
-                        ahassu cāpi | </l>
+                         pittāt tu tṛdkarakarī paridāhayuktā pītaṃ sravaty adhikam uṣṇam ahassu cāpi
+                        | </l>
 
                     <l xml:id="SS.2.10.12">
                         <label xml:lang="en">1938 ed. 2.10.12</label>
                         <caesura/>
-                         jñeyā kaphādbahughanārjjunapicchilāsrā stasakaṇḍurarujārajanī
-                        pravṛddhāḥ || || </l>
+                         jñeyā kaphādbahughanārjjunapicchilāsrā stasakaṇḍurarujārajanī pravṛddhāḥ ||
+                        || </l>
 
                     <l xml:id="SS.2.10.13">
                         <label xml:lang="en">1938 ed. 2.10.13</label>
                         <caesura/>
-                         dāhajvaraś ca sanamūrcchanavaktraśoṣā yasyā bhavanty abhihitāni
-                        ca lakṣaṇāni | tām ādiśet pavanapittakaphaprakopād
-                        ghorāṅgatittvasuha-rām iva kālarātrim || </l>
+                         dāhajvaraś ca sanamūrcchanavaktraśoṣā yasyā bhavanty abhihitāni ca
+                        lakṣaṇāni | tām ādiśet pavanapittakaphaprakopād ghorāṅgatittvasuha-rām iva
+                        kālarātrim || </l>
 
                     <l xml:id="SS.2.10.14">
                         <label xml:lang="en">1938 ed. 2.10.14</label>
                         <caesura/>
-                         naṣṭaṅ kathañcid aṇumārggam udīriteṣu sthāneṣu śalyam acireṇa
-                        gatiṅ karoti | sā phenilaṃ mathitamaccham asṛgvimiśram uṣṇaṃ
-                        karoti sahasā su sarujañ ca nityam || </l>
+                         naṣṭaṅ kathañcid aṇumārggam udīriteṣu sthāneṣu śalyam acireṇa gatiṅ karoti
+                        | sā phenilaṃ mathitamaccham asṛgvimiśram uṣṇaṃ karoti sahasā su sarujañ ca
+                        nityam || </l>
 
                     <l xml:id="SS.2.10.15">
                         <label xml:lang="en">1938 ed. 2.10.15</label>
@@ -2600,9 +2530,8 @@
                     <l xml:id="SS.2.10.24">
                         <label xml:lang="en">1938 ed. 2.10.24</label>
                         <caesura/>
-                         pittād amlaṃ sakaṭukaṃ rājyambhasi ca pītikā | śleṣmād ghanam
-                        picchilañ ca jale cāpy avasīdati || sarvvair duṣṭaṃ sarvvaliṅgam
-                        abhighātāc ca du-ṣyati | </l>
+                         pittād amlaṃ sakaṭukaṃ rājyambhasi ca pītikā | śleṣmād ghanam picchilañ ca
+                        jale cāpy avasīdati || sarvvair duṣṭaṃ sarvvaliṅgam abhighātāc ca du-ṣyati | </l>
 
                     <l xml:id="SS.2.10.25"/>
 
@@ -2615,8 +2544,8 @@
                     <l xml:id="SS.2.10.27">
                         <label xml:lang="en">1938 ed. 2.10.27</label>
                         <caesura/>
-                         ṣaṇṇām api ca teṣāṃ hi raktajam vidradhim vinā || lakṣaṇāni
-                        samānāni bāhyavidradhilakṣaṇair iti ||</l>
+                         ṣaṇṇām api ca teṣāṃ hi raktajam vidradhim vinā || lakṣaṇāni samānāni
+                        bāhyavidradhilakṣaṇair iti ||</l>
 
                     <l xml:id="SS.2.10.27a">
                         <label xml:lang="en">1938 ed. 2.10.27a</label>
@@ -2633,7 +2562,7 @@
                         <caesura/>
                          visarppastananāḍībhiḥ pūryate daśakopanaḥ || </l>
 
-                    <p ana="trailer"> visarppanāḍīstanaroganidānadaśamaḥ ||</p>
+                    <l xml:id="SS.2.10.trailer"> visarppanāḍīstanaroganidānadaśamaḥ ||</l>
 
                 </div>
 
@@ -2652,30 +2581,26 @@
                         <label xml:lang="en">1938 ed. 2.11.3</label>
                         <caesura/>
                          vātādayo mānsam asṛk praduṣṭāḥ sandūṣya sedaś ca tathā sirāṃś ca
-                        vṛttonnatam vigrathitan tu śophaṃ kurvantyato granthir iti
-                        pradiṣṭaḥ || </l>
+                        vṛttonnatam vigrathitan tu śophaṃ kurvantyato granthir iti pradiṣṭaḥ || </l>
 
                     <l xml:id="SS.2.11.4">
                         <label xml:lang="en">1938 ed. 2.11.4</label>
                         <caesura/>
-                         āyamyate vṛñjati tudyate ca pratyasya te sāthsyati bhidyate ca |
-                        kṛṣṇo mṛdurv bastir ivātataś ca bhinnaḥ sravec cānilajomremacchaṃ
-                        || </l>
+                         āyamyate vṛñjati tudyate ca pratyasya te sāthsyati bhidyate ca | kṛṣṇo
+                        mṛdurv bastir ivātataś ca bhinnaḥ sravec cānilajomremacchaṃ || </l>
 
                     <l xml:id="SS.2.11.5">
                         <label xml:lang="en">1938 ed. 2.11.5</label>
                         <caesura/>
-                         dandahyate dhūpyati cūṣyate ca pāpacyate prajvalatīva cāpi |
-                        raktaḥ sapitto py athavāpi pittād bhinnaḥ sraved duṣṇam atīva
-                        cāsram || </l>
+                         dandahyate dhūpyati cūṣyate ca pāpacyate prajvalatīva cāpi | raktaḥ sapitto
+                        py athavāpi pittād bhinnaḥ sraved duṣṇam atīva cāsram || </l>
 
                     <l xml:id="SS.2.11.6">
                         <label xml:lang="en">1938 ed. 2.11.6</label>
                         <caesura/>
                          pīto vivarṇo lparujo tikaṇḍūḥ pāṣāṇavat saṃhananopapannaḥ
                         <caesura/>
-                         | cirādhi vṛddhiś ca kaphaprakopādbhinnaḥ sravec chuklaghanañ ca
-                        pūyam || </l>
+                         | cirādhi vṛddhiś ca kaphaprakopādbhinnaḥ sravec chuklaghanañ ca pūyam || </l>
 
                     <l xml:id="SS.2.11.7">
                         <label xml:lang="en">1938 ed. 2.11.7</label>
@@ -2689,14 +2614,12 @@
                         <caesura/>
                          vyāyāmajātair avalasya tais tair ākṣipya vāyurhi sirāpratānaṃ |
                         <caesura/>
-                         saṅkuñcya sapiṇḍya viśoṣya cāpi granthiṅ karoty unnatam āśu
-                        vṛttam || </l>
+                         saṅkuñcya sapiṇḍya viśoṣya cāpi granthiṅ karoty unnatam āśu vṛttam || </l>
 
                     <l xml:id="SS.2.11.9">
                         <label xml:lang="en">1938 ed. 2.11.9</label>
                         <caesura/>
-                         granthiḥ sirājaḥ sa tu kṛcchrasādhyo bhaved yadi syāt
-                        sarujaścalaś ca |
+                         granthiḥ sirājaḥ sa tu kṛcchrasādhyo bhaved yadi syāt sarujaścalaś ca |
                         <caesura/>
                          aruk sa evāpyacalo mahāṃś ca marmotthitaś cāpivivarjjanīyaḥ || </l>
 
@@ -2705,35 +2628,31 @@
                         <caesura/>
                          hanvasthikakṣyākṣakavāhusandhimanyāgaleṣūpacitan tu medaḥ |
                         <caesura/>
-                         granthiṃ sthiraṃ vṛttam athāyatam vā snigdhaṅ kaphaś cāsya rujaṅ
-                        karoti || </l>
+                         granthiṃ sthiraṃ vṛttam athāyatam vā snigdhaṅ kaphaś cāsya rujaṅ karoti || </l>
 
                     <l xml:id="SS.2.11.11">
                         <label xml:lang="en">1938 ed. 2.11.11</label>
                         <caesura/>
-                         taṃ granthibhis tvāmalakāsthimātrair mmatsyāṇḍajālapratimais
-                        tathānyaiḥ ananyavarṇair upacīyamānaṃ cayaprakarṣād apaciṃ vadanti
-                        || </l>
+                         taṃ granthibhis tvāmalakāsthimātrair mmatsyāṇḍajālapratimais tathānyaiḥ
+                        ananyavarṇair upacīyamānaṃ cayaprakarṣād apaciṃ vadanti || </l>
 
                     <l xml:id="SS.2.11.12">
                         <label xml:lang="en">1938 ed. 2.11.12</label>
                         <caesura/>
-                         kaṇḍvanvitās te 'lparujā prabhinnāḥ sravanti naśyanti bhavanti
-                        cānye |
+                         kaṇḍvanvitās te 'lparujā prabhinnāḥ sravanti naśyanti bhavanti cānye |
                         <caesura/>
                          medaḥkaphābhyāṃ khalu roga eṣa sudustaro varṣagaṇānubandhī || </l>
 
                     <l xml:id="SS.2.11.13">
                         <label xml:lang="en">1938 ed. 2.11.13</label>
                         <caesura/>
-                         gātrapradeśe kvacid eva doṣāḥ saṃmūrcchitā māṃsam asṛkpradūṣya |
-                        vṛttaṃ mṛdum mandarujam mahāntam analpamūlañ ciravṛddhyapākam || </l>
+                         gātrapradeśe kvacid eva doṣāḥ saṃmūrcchitā māṃsam asṛkpradūṣya | vṛttaṃ
+                        mṛdum mandarujam mahāntam analpamūlañ ciravṛddhyapākam || </l>
 
                     <l xml:id="SS.2.11.14">
                         <label xml:lang="en">1938 ed. 2.11.14</label>
                         <caesura/>
-                         kurvvanti māṃsocchrayam abhyagādhan tam arvvudaṃ śāstravido
-                        vadanti |
+                         kurvvanti māṃsocchrayam abhyagādhan tam arvvudaṃ śāstravido vadanti |
                         <caesura/>
                          vātena pittena kaphena cāpi raktena māṃsena ca medasā ca || </l>
 
@@ -2742,24 +2661,21 @@
                         <caesura/>
                          yajjāyate tasya ca lakṣaṇāni grantheḥ samānani sadā bhavanti |
                         <caesura/>
-                         doṣāḥ praduṣṭā rudhiraṃ sirāsu sakuñcya sampiṇḍya tatas tv apākaṃ
-                        || </l>
+                         doṣāḥ praduṣṭā rudhiraṃ sirāsu sakuñcya sampiṇḍya tatas tv apākaṃ || </l>
 
                     <l xml:id="SS.2.11.16">
                         <label xml:lang="en">1938 ed. 2.11.16</label>
                         <caesura/>
                          sāsrāvamunnahyati mānsapiṇḍam māṃsāṅkurair ācitam āśu ghoraṃ |
                         <caesura/>
-                         sravaty ajasraṃ rudhiram praduṣṭam asādhyam etad rudhirātmakan tu
-                        || </l>
+                         sravaty ajasraṃ rudhiram praduṣṭam asādhyam etad rudhirātmakan tu || </l>
 
                     <l xml:id="SS.2.11.17">
                         <label xml:lang="en">1938 ed. 2.11.17</label>
                         <caesura/>
                          raktakṣayopahūtapīḍitatvāt pāṇḍurvbhavet so 'rvvudapīḍitas tu |
                         <caesura/>
-                         muṣṭiprahārādibhir arddite ṅge mānsam praduṣṭañ janayat tu śopham
-                        || </l>
+                         muṣṭiprahārādibhir arddite ṅge mānsam praduṣṭañ janayat tu śopham || </l>
 
                     <l xml:id="SS.2.11.18">
                         <label xml:lang="en">1938 ed. 2.11.18</label>
@@ -2771,36 +2687,30 @@
                     <l xml:id="SS.2.11.19">
                         <label xml:lang="en">1938 ed. 2.11.19</label>
                         <caesura/>
-                         māṃsārvvudaṃ tv etad asādhyam uktaṃ sādhyeṣv apīmāni vivarjjayīta
-                        |
+                         māṃsārvvudaṃ tv etad asādhyam uktaṃ sādhyeṣv apīmāni vivarjjayīta |
                         <caesura/>
-                         samprasrutam marmmaṇi yac ca jātaṃ srotassu vā yac ca bhaved
-                        acālyam || </l>
+                         samprasrutam marmmaṇi yac ca jātaṃ srotassu vā yac ca bhaved acālyam || </l>
 
                     <l xml:id="SS.2.11.20">
                         <label xml:lang="en">1938 ed. 2.11.20</label>
                         <caesura/>
-                         yajjāyate 'nyat khalu pūrvvajāte jñeyan tad adhyarvvudam
-                        arbudajñaiḥ |
+                         yajjāyate 'nyat khalu pūrvvajāte jñeyan tad adhyarvvudam arbudajñaiḥ |
                         <caesura/>
-                         yad dvandvajātaṃ yugapat kramād vā dvirarvvudan tac ca bhaved
-                        asādhyam || </l>
+                         yad dvandvajātaṃ yugapat kramād vā dvirarvvudan tac ca bhaved asādhyam || </l>
 
                     <l xml:id="SS.2.11.21">
                         <label xml:lang="en">1938 ed. 2.11.21</label>
                         <caesura/>
                          na pākam āyānti kaphānvitatvān medovahutvāc ca viśeṣatas tu |
                         <caesura/>
-                         doṣasthiratvād grathanāc ca teṣāṃ sarvvārvvudāny eva viśetam tu
-                        || </l>
+                         doṣasthiratvād grathanāc ca teṣāṃ sarvvārvvudāny eva viśetam tu || </l>
 
                     <l xml:id="SS.2.11.22">
                         <label xml:lang="en">1938 ed. 2.11.22</label>
                         <caesura/>
                          vātaḥ kaphaś cāpi gale pra ttu saṃśritya tathaiva medaḥ |
                         <caesura/>
-                         kurvvanti gaṇḍaṃ kramaśaḥ svaliṅgaiḥ samanvitan taṅ galagaṇḍam
-                        āhuḥ || </l>
+                         kurvvanti gaṇḍaṃ kramaśaḥ svaliṅgaiḥ samanvitan taṅ galagaṇḍam āhuḥ || </l>
 
                     <l xml:id="SS.2.11.23">
                         <label xml:lang="en">1938 ed. 2.11.23</label>
@@ -2810,9 +2720,9 @@
                     <l xml:id="SS.2.11.24">
                         <label xml:lang="en">1938 ed. 2.11.24</label>
                         <caesura/>
-                         pāruṣyayuktiś ciravṛddhyapāko yadṛcchayā caiṣa bhavet kadācit
-                        pākam iyāt kadācit || vairasyam āsyasya ca tasya jantor vbhavet
-                        tathā tālugalapraśoṣaḥ | </l>
+                         pāruṣyayuktiś ciravṛddhyapāko yadṛcchayā caiṣa bhavet kadācit pākam iyāt
+                        kadācit || vairasyam āsyasya ca tasya jantor vbhavet tathā tālugalapraśoṣaḥ
+                        | </l>
 
                     <l xml:id="SS.2.11.25">
                         <label xml:lang="en">1938 ed. 2.11.25</label>
@@ -2833,17 +2743,14 @@
                         <caesura/>
                          pralamvate 'lāvuvad alpamūlo vivarddhate hīyati cātra deham ||
                         <caesura/>
-                         snigdhāsyatā tasya bhavec ca jantor ggale ca śavdaṅ kurute ca
-                        nityaṃ | </l>
+                         snigdhāsyatā tasya bhavec ca jantor ggale ca śavdaṅ kurute ca nityaṃ | </l>
 
                     <l xml:id="SS.2.11.28">
                         <label xml:lang="en">1938 ed. 2.11.28</label>
                         <caesura/>
-                         kṛcchrocchvasan tam mṛdusarvvagātraṃ samvatsarāt ī tam
-                        arocakārttam ||
+                         kṛcchrocchvasan tam mṛdusarvvagātraṃ samvatsarāt ī tam arocakārttam ||
                         <caesura/>
-                         kṣīṇañ ca vaidyo galagaṇḍinan tu bhinnasvarañ cāpi vivarjjayīta
-                        || </l>
+                         kṣīṇañ ca vaidyo galagaṇḍinan tu bhinnasvarañ cāpi vivarjjayīta || </l>
 
                     <l xml:id="SS.2.11.29">
                         <label xml:lang="en">1938 ed. 2.11.29</label>
@@ -2869,45 +2776,41 @@
                     <l xml:id="SS.2.12.3">
                         <label xml:lang="en">1938 ed. 2.12.3</label>
                         <caesura/>
-                         vātapittaśleṣmaśoṇitamedomūtrāntranimittāḥ sapta vṛddhayo
-                        bhavanti | teṣu mūtrāntranimittau vātasamutthau | kevalam
-                        utpattihetur anyaḥ || </l>
+                         vātapittaśleṣmaśoṇitamedomūtrāntranimittāḥ sapta vṛddhayo bhavanti | teṣu
+                        mūtrāntranimittau vātasamutthau | kevalam utpattihetur anyaḥ || </l>
 
                     <l xml:id="SS.2.12.4">
                         <label xml:lang="en">1938 ed. 2.12.4</label>
                         <caesura/>
-                         adhaḥ kupito 'nyatamas tu doṣa<unclear/>phalakośayor
-                        vvātavāhinīdhamanīm abhiprapadya phalakoṣayor vvṛddhim upajanayati
-                        || tam vṛddhim ity ācakṣate || </l>
+                         adhaḥ kupito 'nyatamas tu doṣa<unclear/>phalakośayor vvātavāhinīdhamanīm
+                        abhiprapadya phalakoṣayor vvṛddhim upajanayati || tam vṛddhim ity ācakṣate
+                        || </l>
 
                     <l xml:id="SS.2.12.5"/>
 
                     <l xml:id="SS.2.12.6">
                         <label xml:lang="en">1938 ed. 2.12.6</label>
                         <caesura/>
-                         tatrānilapūrṇṇabastim ivātatam puruṣam animittarujam vātavṛddhim
-                        ity ācakṣate | pakvodumbarasaṅkāśam āśu samutthānam pittavṛddhiṃ
-                        || kaṭhinaṃ snigdham alpavedanaṃ śleṣmavṛddhiṃ || kṛṣṇasphoṭāvṛtaṃ
-                        pittavṛddhiliṅgaṃ raktavṛddhiṃ || mṛdusnigdhaṃ sakaṇḍur
-                        alpavedanan tālaphalaprakāśam medovṛddhiṃ ||
-                        mūtrasandhāraṇaśīlasya mūtravṛddhir bbhavati || sa gacchato
-                        'mbupūrṇṇā dṛtir iva kṣubhyate mūtrakṛcchravedanāvantaṃ
-                        mūtravṛddhim ity ācakṣate || tatra balavadvigrahādibhir vviśeṣair
-                        vvāyuḥ prakupito ntrasya sthūlasya cetarasyaikadaśam viguṇam
-                        ādāyādho vaṃkṣaṇasandhim āgamya kālāntareṇa muṣkakoṣam upaiti
-                        ādhmātabastir ivātataḥ pradīrghaḥ śopho bhavati | saśabdam
-                        anupīḍitaś corddhvam utpatati vimuktaś ca punar ādhmāti | tam
-                        antravṛddhim asādhyam ity ācakṣate || </l>
+                         tatrānilapūrṇṇabastim ivātatam puruṣam animittarujam vātavṛddhim ity
+                        ācakṣate | pakvodumbarasaṅkāśam āśu samutthānam pittavṛddhiṃ || kaṭhinaṃ
+                        snigdham alpavedanaṃ śleṣmavṛddhiṃ || kṛṣṇasphoṭāvṛtaṃ pittavṛddhiliṅgaṃ
+                        raktavṛddhiṃ || mṛdusnigdhaṃ sakaṇḍur alpavedanan tālaphalaprakāśam
+                        medovṛddhiṃ || mūtrasandhāraṇaśīlasya mūtravṛddhir bbhavati || sa gacchato
+                        'mbupūrṇṇā dṛtir iva kṣubhyate mūtrakṛcchravedanāvantaṃ mūtravṛddhim ity
+                        ācakṣate || tatra balavadvigrahādibhir vviśeṣair vvāyuḥ prakupito ntrasya
+                        sthūlasya cetarasyaikadaśam viguṇam ādāyādho vaṃkṣaṇasandhim āgamya
+                        kālāntareṇa muṣkakoṣam upaiti ādhmātabastir ivātataḥ pradīrghaḥ śopho
+                        bhavati | saśabdam anupīḍitaś corddhvam utpatati vimuktaś ca punar ādhmāti |
+                        tam antravṛddhim asādhyam ity ācakṣate || </l>
 
                     <l xml:id="SS.2.12.7">
                         <label xml:lang="en">1938 ed. 2.12.7</label>
                         <caesura/>
-                         tatra brahmacāriṇīn dīrghakarkkaśaromāṃ yonirogopasṛṣṭām
-                        alpadvārām apriyām akāmām acaukṣasalilaprakṣālitayonim vā nārīṃ yo
-                        'dhigacchet tathā karajadaśanasaviṣaśūkanipātanāddhastābhighātāc
-                        catuṣpadagamanād acaukṣasalilaprakṣālanād vā prakupitā meḍhragatās
-                        tu doṣāḥ kṣate kṣate vā śvayathum upajanayanti | tam upadaṃśam ity
-                        ācakṣate || </l>
+                         tatra brahmacāriṇīn dīrghakarkkaśaromāṃ yonirogopasṛṣṭām alpadvārām apriyām
+                        akāmām acaukṣasalilaprakṣālitayonim vā nārīṃ yo 'dhigacchet tathā
+                        karajadaśanasaviṣaśūkanipātanāddhastābhighātāc catuṣpadagamanād
+                        acaukṣasalilaprakṣālanād vā prakupitā meḍhragatās tu doṣāḥ kṣate kṣate vā
+                        śvayathum upajanayanti | tam upadaṃśam ity ācakṣate || </l>
 
                     <l xml:id="SS.2.12.8">
                         <label xml:lang="en">1938 ed. 2.12.8</label>
@@ -2918,33 +2821,32 @@
                         <label xml:lang="en">1938 ed. 2.12.9</label>
                         <caesura/>
                          tatra vātike tvakparimoṭanaṃ stabdhameḍhratā paruṣaśophatā
-                        vividhavedanāprādurbhāvaś ca || paittike śvayathur
-                        udumbarapratikāśo jvaradāhayuktaḥ || ślaiṣmike śvayathuḥ kaṇḍūmān
-                        kaṭhinaḥ snigdhaś ca || raktaje kṛṣṇasphoṭaprādurbbhāvo 'tyartham
-                        asṛkpravṛttiḥ pittaliṅgāni ca || sarvvaje sarvvaliṅgadarśanam
-                        avadaraṇañ ca śephasaḥ | krimiprādurbbhāvo maraṇañ ceti || </l>
+                        vividhavedanāprādurbhāvaś ca || paittike śvayathur udumbarapratikāśo
+                        jvaradāhayuktaḥ || ślaiṣmike śvayathuḥ kaṇḍūmān kaṭhinaḥ snigdhaś ca ||
+                        raktaje kṛṣṇasphoṭaprādurbbhāvo 'tyartham asṛkpravṛttiḥ pittaliṅgāni ca ||
+                        sarvvaje sarvvaliṅgadarśanam avadaraṇañ ca śephasaḥ | krimiprādurbbhāvo
+                        maraṇañ ceti || </l>
 
                     <l xml:id="SS.2.12.10">
                         <label xml:lang="en">1938 ed. 2.12.10</label>
                         <caesura/>
-                         prakupitās tu doṣās tv adhaḥprapannā vaṃkṣaṇorujaṃghāsv
-                        avatiṣṭhante | tataḥ kālāntareṇa pādam āśritya śanaiḥ śanaiḥ
-                        śopham upajanayanti | tac chlīpadam ity ācakṣate || tat tu
-                        trividham vātapittakaphanimittam iti || </l>
+                         prakupitās tu doṣās tv adhaḥprapannā vaṃkṣaṇorujaṃghāsv avatiṣṭhante |
+                        tataḥ kālāntareṇa pādam āśritya śanaiḥ śanaiḥ śopham upajanayanti | tac
+                        chlīpadam ity ācakṣate || tat tu trividham vātapittakaphanimittam iti || </l>
 
                     <l xml:id="SS.2.12.11">
                         <label xml:lang="en">1938 ed. 2.12.11</label>
                         <caesura/>
                          tatra vātajaṃ kṛṣṇam paruṣaṃ kharam animittarujam analpavedanam
-                        parisphuṭati ca bahuśaḥ || pittajan tu pītāvabhāsaṃ
-                        mṛdujvaradāhapradañ ca || śleṣmajan tu snigdhaṃ svetāvabhāsaṃ
-                        mavedanam atimahāntaṃ granthikaṇṭakair upacitañ ca || </l>
+                        parisphuṭati ca bahuśaḥ || pittajan tu pītāvabhāsaṃ mṛdujvaradāhapradañ ca
+                        || śleṣmajan tu snigdhaṃ svetāvabhāsaṃ mavedanam atimahāntaṃ
+                        granthikaṇṭakair upacitañ ca || </l>
 
                     <l xml:id="SS.2.12.12">
                         <label xml:lang="en">1938 ed. 2.12.12</label>
                         <caesura/>
-                         tatra samvatsarātītam atimahantaṃ valmīkajātam atiprasrutam iti
-                        varjanīyāni || </l>
+                         tatra samvatsarātītam atimahantaṃ valmīkajātam atiprasrutam iti varjanīyāni
+                        || </l>
 
                     <l xml:id="SS.2.12.13">
                         <label xml:lang="en">1938 ed. 2.12.13</label>
@@ -2967,7 +2869,7 @@
                         <caesura/>
                          karṇākṣināsāsv api ca kecid icchanti tadvida iti ||</l>
 
-                    <p ana="trailer"> vṛddhyupadaṅśaślīpadānān nidāne dvādaśa || ||</p>
+                    <l xml:id="SS.2.12.trailer"> vṛddhyupadaṅśaślīpadānān nidāne dvādaśa || ||</l>
 
                 </div>
 
@@ -2986,16 +2888,14 @@
                         <label xml:lang="en">1938 ed. 2.13.3</label>
                         <caesura/>
                          saptacatvāriṃśat kṣudrarogā bhavanti || tad yathā || ajagallikā |
-                        yavaprakhyā | amvālajī | vivṛtā | kacchapikā | valmīkā |
-                        indraviddhā | garddabhikā | panasikā | pāṣāṇagarddabhaḥ |
-                        icivallikā | kakṣā | gandhanāmā | visphoṭakaṃ | agnirohiṇī | cippa
-                        | anuśayī | vidārikā | śarkkarā | śarkarārvvudaṃ | pāmā |
-                        vicarccikā | rakasā | pādadārī | kadaraṃ | alasakaḥ | rujā
-                        dārūṇakaṃ | arūṣikā | palitaṃ | mayūrikā | yuvānapiṭakā |
-                        padminīkaṇṭakā | jatumaṇi | masakaṃ | tilakā | naccha | vyaṃgaḥ |
-                        nīlikā | parivarttikā | niruddhaprakāśaṃ | avapāṭikā |
-                        sanniruddhagudaṃ | ahipūtanaṃ | vṛṣaṇakacchūḥ | gudabhransaś ceti
-                        || </l>
+                        yavaprakhyā | amvālajī | vivṛtā | kacchapikā | valmīkā | indraviddhā |
+                        garddabhikā | panasikā | pāṣāṇagarddabhaḥ | icivallikā | kakṣā | gandhanāmā
+                        | visphoṭakaṃ | agnirohiṇī | cippa | anuśayī | vidārikā | śarkkarā |
+                        śarkarārvvudaṃ | pāmā | vicarccikā | rakasā | pādadārī | kadaraṃ | alasakaḥ
+                        | rujā dārūṇakaṃ | arūṣikā | palitaṃ | mayūrikā | yuvānapiṭakā |
+                        padminīkaṇṭakā | jatumaṇi | masakaṃ | tilakā | naccha | vyaṃgaḥ | nīlikā |
+                        parivarttikā | niruddhaprakāśaṃ | avapāṭikā | sanniruddhagudaṃ | ahipūtanaṃ
+                        | vṛṣaṇakacchūḥ | gudabhransaś ceti || </l>
 
                     <l xml:id="SS.2.13.4">
                         <label xml:lang="en">1938 ed. 2.13.4</label>
@@ -3127,16 +3027,14 @@
                         <caesura/>
                          kuryā tān dāhapākau ca taṃ vyādhiñ cippam ādiśet || </l>
 
-                    <l xml:id="SS.2.13.22ab"/>
 
-                    <l xml:id="SS.2.13.22cd">
-                        <label xml:lang="en">1938 ed. 2.13.22cd</label>
+                    <l xml:id="SS.2.13.22">
+                        <label xml:lang="en">1938 ed. 2.13.22</label>
                         <caesura/>
                          tad evālpatatarair doṣaiḥ kunakham parūṣaṃ kharam ||</l>
 
-                    <l xml:id="SS.2.13.23ab"/>
 
-                    <l xml:id="SS.2.13.23cd">
+                    <l xml:id="SS.2.13.23">
                         <label xml:lang="en">1938 ed. 2.13.23cd</label>
                         <caesura/>
                          gambhīrām alpasaṃrambhāṃ savarṇṇām uparisthitāṃ | </l>
@@ -3186,11 +3084,12 @@
                     <l xml:id="SS.2.13.30">
                         <label xml:lang="en">1938 ed. 2.13.30</label>
                         <caesura/>
-                         śarkkaronmathite pāde kṣata vā kaṇṭakādibhiḥ |
+                         śarkkaronmathite pāde kṣata vā kaṇṭakādibhiḥ | </l>
+
+                    <l xml:id="SS.2.13.31">
+                        <label xml:lang="en">1938 ed. 2.13.31</label>
                         <caesura/>
                          granthiṃ kīlavad utsanno jāyate kadaran tu tata || </l>
-
-                    <l xml:id="SS.2.13.31"/>
 
                     <l xml:id="SS.2.13.32">
                         <label xml:lang="en">1938 ed. 2.13.32</label>
@@ -3283,10 +3182,9 @@
                         <caesura/>
                          nīrujam maṇḍalaṃ gātre naccham ity abhidhīyate || </l>
 
-                    <l xml:id="SS.2.13.45ab"/>
 
-                    <l xml:id="SS.2.13.45cd">
-                        <label xml:lang="en">1938 ed. 2.13.45cd</label>
+                    <l xml:id="SS.2.13.45">
+                        <label xml:lang="en">1938 ed. 2.13.45</label>
                         <caesura/>
                          krodhāyāsaprakupito vāyuḥ pittena saṃyutaḥ | </l>
 
@@ -3333,12 +3231,11 @@
                         <caesura/>
                          alpīyaḥ khāṃ yadā harṣod valāṅ gacchen striyan naraḥ || </l>
 
-                    <l xml:id="SS.2.13.51ab">
-                        <label xml:lang="en">1938 ed. 2.13.51ab</label>
+                    <l xml:id="SS.2.13.51">
+                        <label xml:lang="en">1938 ed. 2.13.51</label>
                         <caesura/>
                          hastābhighātād api vā carmmāṇyud varttate valāt | </l>
 
-                    <l xml:id="SS.2.13.51cd"/>
 
                     <l xml:id="SS.2.13.52">
                         <label xml:lang="en">1938 ed. 2.13.52</label>
@@ -3417,7 +3314,7 @@
                         <caesura/>
                          tad avekṣya bhiṣak prājño yathādoṣam upācaret || || </l>
 
-                    <p xml:id="SS.2.13.trailer"> iti kṣudraroganidāne trayodaśamaḥ || 0 || </p>
+                    <l xml:id="SS.2.13.trailer"> iti kṣudraroganidāne trayodaśamaḥ || 0 || </l>
 
                 </div>
 
@@ -3435,11 +3332,10 @@
                     <l xml:id="SS.2.14.3">
                         <label xml:lang="en">1938 ed. 2.14.3</label>
                         <caesura/>
-                         liṅgavṛddhimicchatāmakramapravṛttānāṃ śūkadoṣanimittaṃ vyādhayo
-                        daśa cāṣṭau jāyante || tad yathā || sarṣapikāṣṭhīlā grathitaṃ
-                        kumbhīkā alajīmṛditaṃ sammūḍhapiṭakā | avamanthaḥ puṣkarikā
-                        sparśahāniḥ | uttavaḥ śataponakaḥ | tvaṣkākaḥ śoṇitārbbudaṃ
-                        māṃsārbbudaṃ māṃsapāko vidradhis tilakālakañ ceti || </l>
+                         liṅgavṛddhimicchatāmakramapravṛttānāṃ śūkadoṣanimittaṃ vyādhayo daśa cāṣṭau
+                        jāyante || tad yathā || sarṣapikāṣṭhīlā grathitaṃ kumbhīkā alajīmṛditaṃ
+                        sammūḍhapiṭakā | avamanthaḥ puṣkarikā sparśahāniḥ | uttavaḥ śataponakaḥ |
+                        tvaṣkākaḥ śoṇitārbbudaṃ māṃsārbbudaṃ māṃsapāko vidradhis tilakālakañ ceti || </l>
 
                     <l xml:id="SS.2.14.4">
                         <label xml:lang="en">1938 ed. 2.14.4</label>
@@ -3544,7 +3440,7 @@
                         <caesura/>
                          vidradhiś ca na sidhdhanti ye ca syus tilakālakāḥ ||</l>
 
-                    <p ana="trailer">iti śūkadoṣanidāne caturddaśamaḥ || </p>
+                    <l xml:id="SS.2.14.trailer">iti śūkadoṣanidāne caturddaśamaḥ || </l>
                 </div>
 
                 <div n="15" type="adhyāya">
@@ -3567,14 +3463,14 @@
                         <label xml:lang="en">1938 ed. 2.15.4</label>
                         <caesura/>
                          tatra bhagnajātamanekavidhamanusāryamāṇaṃ dvividhamevopapadyate |
-                        sandhimukataṃ kāṇḍabhagnañ ca | tatra ṣaḍvidhaṃ sandhim uktaṃ
-                        dvādaśavidhaṃ kāṇḍabhagnam bhavati | </l>
+                        sandhimukataṃ kāṇḍabhagnañ ca | tatra ṣaḍvidhaṃ sandhim uktaṃ dvādaśavidhaṃ
+                        kāṇḍabhagnam bhavati | </l>
 
                     <l xml:id="SS.2.15.5">
                         <label xml:lang="en">1938 ed. 2.15.5</label>
                         <caesura/>
-                         tatra sandhimuktamutpiṣṭam viśliṣṭam viparivarttitam avakṣiptam
-                        atikṣiptan tiryak kṣiptam iti | </l>
+                         tatra sandhimuktamutpiṣṭam viśliṣṭam viparivarttitam avakṣiptam atikṣiptan
+                        tiryak kṣiptam iti | </l>
 
                     <l xml:id="SS.2.15.6">
                         <label xml:lang="en">1938 ed. 2.15.6</label>
@@ -3586,41 +3482,37 @@
                     <l xml:id="SS.2.15.7">
                         <label xml:lang="en">1938 ed. 2.15.7</label>
                         <caesura/>
-                         vaiśeṣikaṃ tūtpiṣṭe saṃdhāvubhayataḥ śopho vedanāprādurbbhāvo
-                        viśeṣataś ca rātrau bhavati | viśliṣṭe 'lpaśophatā vedanāsātatyaṃ
-                        sandhivikriyā ca || viparivarttite ca sandhau pārśvagamanād
-                        viṣamāṅgatā vedanā ca | avakṣipte sandhiviśleṣas tīvrarujatā ca ||
-                        atikṣipte dvayoḥ sandhdhasthnoratikrāntatā vedanā ca |
-                        tiryakkṣipte tv ekāsthipārśvagamanam atyartham iti || </l>
+                         vaiśeṣikaṃ tūtpiṣṭe saṃdhāvubhayataḥ śopho vedanāprādurbbhāvo viśeṣataś ca
+                        rātrau bhavati | viśliṣṭe 'lpaśophatā vedanāsātatyaṃ sandhivikriyā ca ||
+                        viparivarttite ca sandhau pārśvagamanād viṣamāṅgatā vedanā ca | avakṣipte
+                        sandhiviśleṣas tīvrarujatā ca || atikṣipte dvayoḥ sandhdhasthnoratikrāntatā
+                        vedanā ca | tiryakkṣipte tv ekāsthipārśvagamanam atyartham iti || </l>
 
                     <l xml:id="SS.2.15.8">
                         <label xml:lang="en">1938 ed. 2.15.8</label>
                         <caesura/>
-                         kāṇḍabhagnam ata ūrddhvam vakṣyāmaḥ || karkkaṭakam aśvakarṇṇañ
-                        cūrṇitam piccitam asthicchallitākāṇḍabhagnam atipātitam
-                        majjānugataṃ vakrañ cchinnaṃ sphuṭitaṃ sphāṭitam iti || </l>
+                         kāṇḍabhagnam ata ūrddhvam vakṣyāmaḥ || karkkaṭakam aśvakarṇṇañ cūrṇitam
+                        piccitam asthicchallitākāṇḍabhagnam atipātitam majjānugataṃ vakrañ cchinnaṃ
+                        sphuṭitaṃ sphāṭitam iti || </l>
 
                     <l xml:id="SS.2.15.9">
                         <label xml:lang="en">1938 ed. 2.15.9</label>
                         <caesura/>
-                         śvayathubāhulyam avapīḍyamāne śabdaḥ srastāṅgatā
-                        vividhavedanāpravṛttir iti || sāmānyataḥ kāṇḍabhagnalakṣaṇam uktaṃ
-                        || </l>
+                         śvayathubāhulyam avapīḍyamāne śabdaḥ srastāṅgatā vividhavedanāpravṛttir iti
+                        || sāmānyataḥ kāṇḍabhagnalakṣaṇam uktaṃ || </l>
 
                     <l xml:id="SS.2.15.10">
                         <label xml:lang="en">1938 ed. 2.15.10</label>
                         <caesura/>
-                         viśeṣatas tu sammūḍham ubhayato 'sthi madhye bhagnaṃ
-                        granthirivonnataṃ karkkaṭakaṃ || aśvakarṇṇavad udgatamaśvakarṇṇaṃ
-                        || śabdasparśābhyāñcūrṇṇitam avagacchet || piccitam
-                        pṛthulatāṅgatam alpaśophaṃ || pārśvato 'nvasthihīnodgato
-                        'asthicchalitakannāmavellite prakampyamānaṃ || kāṇḍabhagnam
-                        asthiniḥśeṣacchinnāsthyavayavaḥ ||
+                         viśeṣatas tu sammūḍham ubhayato 'sthi madhye bhagnaṃ granthirivonnataṃ
+                        karkkaṭakaṃ || aśvakarṇṇavad udgatamaśvakarṇṇaṃ || śabdasparśābhyāñcūrṇṇitam
+                        avagacchet || piccitam pṛthulatāṅgatam alpaśophaṃ || pārśvato
+                        'nvasthihīnodgato 'asthicchalitakannāmavellite prakampyamānaṃ ||
+                        kāṇḍabhagnam asthiniḥśeṣacchinnāsthyavayavaḥ ||
                         asthimadhyapraviṣṭātipātitasaṃjñaḥ || kṣatabhagnam unnahyamānam
-                        ajjammajjānugataṃ || ābhugnam iva yad vimuktāsthi tad vakran nāma
-                        || anyatarapārśvāvaśiṣṭaṃ chinnaṃ || sphuṭitama
-                        nubahudāritavedanāvān || śūkapūrṇṇam ivādhmātam vipulaikadā
-                        visphāṭitan nāma || </l>
+                        ajjammajjānugataṃ || ābhugnam iva yad vimuktāsthi tad vakran nāma ||
+                        anyatarapārśvāvaśiṣṭaṃ chinnaṃ || sphuṭitama nubahudāritavedanāvān ||
+                        śūkapūrṇṇam ivādhmātam vipulaikadā visphāṭitan nāma || </l>
 
                     <l xml:id="SS.2.15.11">
                         <label xml:lang="en">1938 ed. 2.15.11</label>
@@ -3632,8 +3524,8 @@
                     <l xml:id="SS.2.15.12">
                         <label xml:lang="en">1938 ed. 2.15.12</label>
                         <caesura/>
-                         bhavati cātra || bhinnaṅkapālaṃ kaṭyāṃ tu sandhim uktaṃ tathā
-                        cyutaṃ | jaghanam pratipiṣṭañ ca varjjayīta vicakṣaṇaḥ | </l>
+                         bhavati cātra || bhinnaṅkapālaṃ kaṭyāṃ tu sandhim uktaṃ tathā cyutaṃ |
+                        jaghanam pratipiṣṭañ ca varjjayīta vicakṣaṇaḥ | </l>
 
                     <l xml:id="SS.2.15.13">
                         <label xml:lang="en">1938 ed. 2.15.13</label>
@@ -3667,7 +3559,7 @@
                         <caesura/>
                          kapālān vibhajyante sphullanti rucakāni tu ||</l>
 
-                    <p ana="trailer">iti bhagnanidāne pañcadaśamaḥ || </p>
+                    <l xml:id="SS.2.15.trailer">iti bhagnanidāne pañcadaśamaḥ || </l>
 
                 </div>
 
@@ -3684,17 +3576,16 @@
                     <l xml:id="SS.2.16.3">
                         <label xml:lang="en">1938 ed. 2.16.3</label>
                         <caesura/>
-                         mukharogāḥ pañca ṣaṣṭir bhavanti || saptasv āyataneṣu ||
-                        tatrāyatanāni oṣṭhau dantamūlāni dantā jihvā tālū kaṇṭha sarvvāṇi
-                        ceti || tatrāṣṭāv oṣṭhayoḥ ||pañcadaśa dantamūle || aṣṭau danteṣu
-                        || pañcajihvāyāṃ || navatāluni || saptadaśakaṇṭhe || trayas
-                        sarvveṣv āyataneṣu || </l>
+                         mukharogāḥ pañca ṣaṣṭir bhavanti || saptasv āyataneṣu || tatrāyatanāni
+                        oṣṭhau dantamūlāni dantā jihvā tālū kaṇṭha sarvvāṇi ceti || tatrāṣṭāv
+                        oṣṭhayoḥ ||pañcadaśa dantamūle || aṣṭau danteṣu || pañcajihvāyāṃ ||
+                        navatāluni || saptadaśakaṇṭhe || trayas sarvveṣv āyataneṣu || </l>
 
                     <l xml:id="SS.2.16.4">
                         <label xml:lang="en">1938 ed. 2.16.4</label>
                         <caesura/>
-                         tatroṣṭhe prakopād vātapittakaphasannipātaraktamānsamedo
-                        'bhighātanimittāḥ || </l>
+                         tatroṣṭhe prakopād vātapittakaphasannipātaraktamānsamedo 'bhighātanimittāḥ
+                        || </l>
 
                     <l xml:id="SS.2.16.5">
                         <label xml:lang="en">1938 ed. 2.16.5</label>
@@ -3738,31 +3629,37 @@
                         <caesura/>
                          jantavaś cātramūrcchanti narasyobhayato mukhāt || </l>
 
-                    <l xml:id="SS.2.16.10a">
-                        <label xml:lang="en">1938 ed. 2.16.10a</label>
+                    <l xml:id="SS.2.16.11ab">
+                        <label xml:lang="en">1938 ed. 2.16.11ab</label>
                         <caesura/>
-                         sarppirmmaṇḍapratīkāśau medasā kaṇḍurau gurū |
-                        oṣṭhauparyavadīryete poṭyete cābhighātataḥ || </l>
+                         sarppirmmaṇḍapratīkāśau medasā kaṇḍurau gurū |</l>
 
-                    <l xml:id="SS.2.16.11">
-                        <label xml:lang="en">1938 ed. 2.16.11</label>
+                    <l xml:id="SS.2.16.12ab">
+                        <label xml:lang="en">1938 ed. 2.16.12ab</label>
+                        <caesura/>
+                        oṣṭhauparyavadīryete poṭyete cābhighātataḥ || </l>
+                    
+                    <l xml:id="SS.2.16.12cd"/>
+
+                    <l xml:id="SS.2.16.11cd">
+                        <label xml:lang="en">1938 ed. 2.16.11cd</label>
                         <caesura/>
                          acchaṃ sphaṭikasaṃkāśaṃ sasrāvaṃ sravato bhṛśaṃ | </l>
 
                     <l xml:id="SS.2.16.11a">
                         <label xml:lang="en">1938 ed. 2.16.11a</label>
                         <caesura/>
-                         dantacchadāvadīryete poṭyete cāsakṛtpunaḥ || tato vraṇaḥ
-                        susaṃrūḍho mṛdutvam upagacchati || </l>
+                         dantacchadāvadīryete poṭyete cāsakṛtpunaḥ ||
+                        <caesura/>
+                         tato vraṇaḥ susaṃrūḍho mṛdutvam upagacchati || </l>
 
-                    <l xml:id="SS.2.16.12"/>
-
+                    
                     <l xml:id="SS.2.16.13">
                         <label xml:lang="en">1938 ed. 2.16.13</label>
                         <caesura/>
-                         dantamūlagatās tu śītādo dantapuppuṭo dantaveṣṭaḥ sauśiro
-                        mahāsauśiraḥ paridaraḥ | upakuśaḥ | dantavaidarbbhaḥ |
-                        khalivarddhanaḥ | adhimāṃsaḥ | nāḍyaḥ pañceti || </l>
+                         dantamūlagatās tu śītādo dantapuppuṭo dantaveṣṭaḥ sauśiro mahāsauśiraḥ
+                        paridaraḥ | upakuśaḥ | dantavaidarbbhaḥ | khalivarddhanaḥ | adhimāṃsaḥ |
+                        nāḍyaḥ pañceti || </l>
 
                     <l xml:id="SS.2.16.14">
                         <label xml:lang="en">1938 ed. 2.16.14</label>
@@ -3795,8 +3692,8 @@
                     <l xml:id="SS.2.16.18">
                         <label xml:lang="en">1938 ed. 2.16.18</label>
                         <caesura/>
-                         śvayathūr ddantamūleṣu rujāvān kaphasambhavaḥ | lālāsrāvī sa
-                        vijñeyaḥ sauśironām anāmataḥ || </l>
+                         śvayathūr ddantamūleṣu rujāvān kaphasambhavaḥ | lālāsrāvī sa vijñeyaḥ
+                        sauśironām anāmataḥ || </l>
 
                     <l xml:id="SS.2.16.19">
                         <label xml:lang="en">1938 ed. 2.16.19</label>
@@ -3815,8 +3712,8 @@
                         <caesura/>
                          pittāsṛkkaphajo vyādhir jñeyaḥ paridaro hi saḥ ||
                         <caesura/>
-                         veṣṭaḥ sadāhampacati yasyadantāścalantica| dāhena veṣṭāstaptāś ca
-                        śuṣyante cāgninā yathā || </l>
+                         veṣṭaḥ sadāhampacati yasyadantāścalantica| dāhena veṣṭāstaptāś ca śuṣyante
+                        cāgninā yathā || </l>
 
                     <l xml:id="SS.2.16.22">
                         <label xml:lang="en">1938 ed. 2.16.22</label>
@@ -3854,8 +3751,8 @@
                     <l xml:id="SS.2.16.27">
                         <label xml:lang="en">1938 ed. 2.16.27</label>
                         <caesura/>
-                         dantagatās tu dālanaḥ krimidanta kodanta harṣo bhañjanakaḥ |
-                        dantaśarkkarā | kapālikā | śyāvadantaḥ | hanur mmokṣaś ceti || </l>
+                         dantagatās tu dālanaḥ krimidanta kodanta harṣo bhañjanakaḥ | dantaśarkkarā
+                        | kapālikā | śyāvadantaḥ | hanur mmokṣaś ceti || </l>
 
                     <l xml:id="SS.2.16.28">
                         <label xml:lang="en">1938 ed. 2.16.28</label>
@@ -3927,17 +3824,14 @@
                         <caesura/>
                          pittātsadāhair anucīyate ca dīrghaiḥ saraktair apikaṇṭakaiś ca ||
                         <caesura/>
-                         kaphena gurvvī bahalā citā ca mānsāṅkuraiḥ
-                        śālmalikaṇṭakaubhābhaiḥ | </l>
+                         kaphena gurvvī bahalā citā ca mānsāṅkuraiḥ śālmalikaṇṭakaubhābhaiḥ | </l>
 
                     <l xml:id="SS.2.16.38">
                         <label xml:lang="en">1938 ed. 2.16.38</label>
                         <caesura/>
-                         adhogato yaḥ śvayathuḥ pragāḍhaḥ so 'lāsasaṃjñaḥkapharaktamūrttiḥ
-                        ||
+                         adhogato yaḥ śvayathuḥ pragāḍhaḥ so 'lāsasaṃjñaḥkapharaktamūrttiḥ ||
                         <caesura/>
-                         jihvāṃ sa tu stambhayate pravṛddho mūle ca jihvā bhṛśam eti pākaṃ
-                        | </l>
+                         jihvāṃ sa tu stambhayate pravṛddho mūle ca jihvā bhṛśam eti pākaṃ | </l>
 
                     <l xml:id="SS.2.16.39">
                         <label xml:lang="en">1938 ed. 2.16.39</label>
@@ -3954,64 +3848,58 @@
                     <l xml:id="SS.2.16.40">
                         <label xml:lang="en">1938 ed. 2.16.40</label>
                         <caesura/>
-                         tālugatās tu || galaśuṇḍikā tuṇḍikerī adhruṣaḥ kacchapaḥ |
-                        arbbudaḥ | mānsasaṃghātaḥ | tālu puppuṭakaḥ | tāluśoṣaḥ | tālupāka
-                        iti || </l>
+                         tālugatās tu || galaśuṇḍikā tuṇḍikerī adhruṣaḥ kacchapaḥ | arbbudaḥ |
+                        mānsasaṃghātaḥ | tālu puppuṭakaḥ | tāluśoṣaḥ | tālupāka iti || </l>
 
                     <l xml:id="SS.2.16.41">
                         <label xml:lang="en">1938 ed. 2.16.41</label>
                         <caesura/>
-                         kaphāsṛgbhyāntālumūlātpravṛddho dīrghaḥ śophodhmātabastiprakāśaḥ
-                        | tṛṣṇākāsaḥ śvāsakṛttam vadanti vyādhim vaidyā galaśuṇḍeti nāmnā
-                        || </l>
+                         kaphāsṛgbhyāntālumūlātpravṛddho dīrghaḥ śophodhmātabastiprakāśaḥ |
+                        tṛṣṇākāsaḥ śvāsakṛttam vadanti vyādhim vaidyā galaśuṇḍeti nāmnā || </l>
 
                     <l xml:id="SS.2.16.42">
                         <label xml:lang="en">1938 ed. 2.16.42</label>
                         <caesura/>
-                         śophaḥ sthūlastodadāha prapākī prāguktābhyāṃ tuṇḍikerīmatā tu |
-                        mṛduḥ śopho lohitottho jñeyo 'dhruṣaḥ sajvaras tīvra ruk ca || </l>
+                         śophaḥ sthūlastodadāha prapākī prāguktābhyāṃ tuṇḍikerīmatā tu | mṛduḥ śopho
+                        lohitottho jñeyo 'dhruṣaḥ sajvaras tīvra ruk ca || </l>
 
                     <l xml:id="SS.2.16.43">
                         <label xml:lang="en">1938 ed. 2.16.43</label>
                         <caesura/>
-                         kūrmmonnato vedanā'śīghrajanmā rogo jñeyaḥ kacchapaḥ śleṣmaṇā tu
-                        || padmākaran tālumadhye tu śophaṃ tam vidyād raktārbbudaṃ
-                        proktaliṃgaṃ | </l>
+                         kūrmmonnato vedanā'śīghrajanmā rogo jñeyaḥ kacchapaḥ śleṣmaṇā tu ||
+                        padmākaran tālumadhye tu śophaṃ tam vidyād raktārbbudaṃ proktaliṃgaṃ | </l>
 
                     <l xml:id="SS.2.16.44">
                         <label xml:lang="en">1938 ed. 2.16.44</label>
                         <caesura/>
-                         māṃsannirujan tālumadhye kaphāt tu prokto vaidyair mmāṃsasaṃghāta
-                        eṣaḥ || arukchiraḥ kolamātraḥ kaphena samedasāpuppuṭas tāludeśe | </l>
+                         māṃsannirujan tālumadhye kaphāt tu prokto vaidyair mmāṃsasaṃghāta eṣaḥ ||
+                        arukchiraḥ kolamātraḥ kaphena samedasāpuppuṭas tāludeśe | </l>
 
                     <l xml:id="SS.2.16.45">
                         <label xml:lang="en">1938 ed. 2.16.45</label>
                         <caesura/>
-                         śuṣyaty atyarthan dīryate cāpi tāluśvāsaś caivograstāluśoṣo
-                        'nilāt tu || pittaṃ kuryāt pākam atyarthaghoraṃ tāluny evan
-                        tālupākam vadanti || </l>
+                         śuṣyaty atyarthan dīryate cāpi tāluśvāsaś caivograstāluśoṣo 'nilāt tu ||
+                        pittaṃ kuryāt pākam atyarthaghoraṃ tāluny evan tālupākam vadanti || </l>
 
                     <l xml:id="SS.2.16.46">
                         <label xml:lang="en">1938 ed. 2.16.46</label>
                         <caesura/>
-                         kaṇṭhagatās tu || rohiṇyaḥ pañca | kaṇṭhaśālūkam adhijihvāṃ
-                        valayaḥ | alāsaḥ | ekavṛndaḥ | śataghnī | gilāyuḥ | galavidradhiḥ
-                        | galaughaḥ | svaraghnaḥ | māṃsatānovicāriś ceti || </l>
+                         kaṇṭhagatās tu || rohiṇyaḥ pañca | kaṇṭhaśālūkam adhijihvāṃ valayaḥ |
+                        alāsaḥ | ekavṛndaḥ | śataghnī | gilāyuḥ | galavidradhiḥ | galaughaḥ |
+                        svaraghnaḥ | māṃsatānovicāriś ceti || </l>
 
                     <l xml:id="SS.2.16.47">
                         <label xml:lang="en">1938 ed. 2.16.47</label>
                         <caesura/>
-                         gale 'nilaḥ pittakaphau tu mūrcchitau pradūṣya māṃsañ ca tathaiva
-                        śoṇitaṃ | galopasaṃrodhakarais tathāṅkurair nihantyas unvyādhir
-                        ayaṃ hi rohiṇī || </l>
+                         gale 'nilaḥ pittakaphau tu mūrcchitau pradūṣya māṃsañ ca tathaiva śoṇitaṃ |
+                        galopasaṃrodhakarais tathāṅkurair nihantyas unvyādhir ayaṃ hi rohiṇī || </l>
 
                     <l xml:id="SS.2.16.48">
                         <label xml:lang="en">1938 ed. 2.16.48</label>
                         <caesura/>
                          jihvā samantād bhṛśavedanān tu mānsāṅkuraiḥ kaṇṭhanirodhinīyā |
                         <caesura/>
-                         tāṃ rohiṇīm vātakṛtām vadanti tisraś ca tāstvād ita eva kṛcchrā
-                        || </l>
+                         tāṃ rohiṇīm vātakṛtām vadanti tisraś ca tāstvād ita eva kṛcchrā || </l>
 
                     <l xml:id="SS.2.16.49">
                         <label xml:lang="en">1938 ed. 2.16.49</label>
@@ -4032,8 +3920,7 @@
                         <caesura/>
                          kolāsthimātraḥ kaphasaṃbhavo yo granthir galekaṇṭakaśūkabhūtaḥ |
                         <caesura/>
-                         kharaḥ sthiraḥ śastranipātasādhyas tat kaṇṭaśālūkam iti bruvanti
-                        || </l>
+                         kharaḥ sthiraḥ śastranipātasādhyas tat kaṇṭaśālūkam iti bruvanti || </l>
 
                     <l xml:id="SS.2.16.52">
                         <label xml:lang="en">1938 ed. 2.16.52</label>
@@ -4058,11 +3945,9 @@
                     <l xml:id="SS.2.16.55">
                         <label xml:lang="en">1938 ed. 2.16.55</label>
                         <caesura/>
-                         vṛttonnatāntaḥ śvayathuḥ sadāhaḥ sakakaṇḍuro 'pāvyagururm mṛduś
-                        ca |
+                         vṛttonnatāntaḥ śvayathuḥ sadāhaḥ sakakaṇḍuro 'pāvyagururm mṛduś ca |
                         <caesura/>
-                         nāmnaikavṛndaḥ parikīrtyate 'sau vyādhir bbalāsakṣatajaḥ prasūtaḥ
-                        || </l>
+                         nāmnaikavṛndaḥ parikīrtyate 'sau vyādhir bbalāsakṣatajaḥ prasūtaḥ || </l>
 
                     <l xml:id="SS.2.16.56">
                         <label xml:lang="en">1938 ed. 2.16.56</label>
@@ -4080,20 +3965,16 @@
                     <l xml:id="SS.2.16.58">
                         <label xml:lang="en">1938 ed. 2.16.58</label>
                         <caesura/>
-                         granthirggale tv āmalakāsthimātraḥ sthiro 'lparukyaḥ
-                        kaphapittamūrttiḥ |
+                         granthirggale tv āmalakāsthimātraḥ sthiro 'lparukyaḥ kaphapittamūrttiḥ |
                         <caesura/>
-                         yo lakṣyate raktam ivāsravaś ca saśasrasādhdhas tu gilāyusaṃjñaḥ
-                        || </l>
+                         yo lakṣyate raktam ivāsravaś ca saśasrasādhdhas tu gilāyusaṃjñaḥ || </l>
 
                     <l xml:id="SS.2.16.59">
                         <label xml:lang="en">1938 ed. 2.16.59</label>
                         <caesura/>
-                         sarvvaṅgalaṃ vyāpya samutthito yaḥ śopho rujāḥ santi ca yatra
-                        sarvvā |
+                         sarvvaṅgalaṃ vyāpya samutthito yaḥ śopho rujāḥ santi ca yatra sarvvā |
                         <caesura/>
-                         sa sarvvadoṣair ggalavidradhis tu tasyaiva tulyaḥ khalu
-                        sarvvajasya || </l>
+                         sa sarvvadoṣair ggalavidradhis tu tasyaiva tulyaḥ khalu sarvvajasya || </l>
 
                     <l xml:id="SS.2.16.60">
                         <label xml:lang="en">1938 ed. 2.16.60</label>
@@ -4105,8 +3986,7 @@
                     <l xml:id="SS.2.16.61">
                         <label xml:lang="en">1938 ed. 2.16.61</label>
                         <caesura/>
-                         yas tāmyamānaḥ śvasiti prasaktam bhinnasvaraḥ śuṣkavimuktakaṇṭhaḥ
-                        |
+                         yas tāmyamānaḥ śvasiti prasaktam bhinnasvaraḥ śuṣkavimuktakaṇṭhaḥ |
                         <caesura/>
                          kaphopadiṣṭeṣv anilāyateṣu jñeyaḥ sa rogaḥ śvasanāts varaghnaḥ || </l>
 
@@ -4134,31 +4014,27 @@
                     <l xml:id="SS.2.16.65">
                         <label xml:lang="en">1938 ed. 2.16.65</label>
                         <caesura/>
-                         sphoṭaiḥ satodair vvadanaṃ samantād yasyācitaṃ sarvvasaraḥ
-                        savātāt |
+                         sphoṭaiḥ satodair vvadanaṃ samantād yasyācitaṃ sarvvasaraḥ savātāt |
                         <caesura/>
-                         raktaiḥ sadāhaiḥ piṭakaiḥ sapītair yasyācitaṃ cāpi sapittakopāt
-                        || </l>
+                         raktaiḥ sadāhaiḥ piṭakaiḥ sapītair yasyācitaṃ cāpi sapittakopāt || </l>
 
                     <l xml:id="SS.2.16.66">
                         <label xml:lang="en">1938 ed. 2.16.66</label>
                         <caesura/>
                          avedanaiḥ kaṇḍuyutaiḥ satodair yasyācitaṃ cāpi sa vai kaphena || </l>
 
-                    <p ana="trailer">|| iti mukharoganidāne ṣoḍaśamaḥ || </p>
+                    <l xml:id="SS.2.16.trailer">|| iti mukharoganidāne ṣoḍaśamaḥ || </l>
 
-                    <l xml:id="SS.2.16.67"> granththyapacyarbudaṅgaṇḍuṃ vṛddhin daṃśañ ca
-                        ślīpadam |
+                    <l xml:id="SS.2.16.67"> granththyapacyarbudaṅgaṇḍuṃ vṛddhin daṃśañ ca ślīpadam |
                         <caesura/>
                          kṣudraśūkaṃ sabhagnañ ca mukharogeṇa ṣaṭsmṛtaḥ ||</l>
 
-                    <l xml:id="SS.2.16.68">sūtre pradiṣṭan daśaṣaṭvā pūrvvaṃ sthanan
-                        nidānam bhavatīti yac ca |
+                    <l xml:id="SS.2.16.68">sūtre pradiṣṭan daśaṣaṭvā pūrvvaṃ sthanan nidānam
+                        bhavatīti yac ca |
                         <caesura/>
-                         savistaran tat kathitam mayeha svayambhunā yat kathitaṃ hitāya
-                        ||</l>
+                         savistaran tat kathitam mayeha svayambhunā yat kathitaṃ hitāya ||</l>
 
-                    <p ana="trailer">samāptan nidānasthānam || </p>
+                    <l xml:id="SS.2.trailer">samāptan nidānasthānam || </l>
 
                 </div>
 
