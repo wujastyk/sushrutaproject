@@ -200,6 +200,9 @@
                 1.13.1-12</change>
             <change when="2025-11-13" who="Deepro Chakraborty">minor corrections in 1.13</change>
             <change when="2025-12-02" who="Deepro Chakraborty">splitting 1.13.22</change>
+            <change when="2026-01-05" who="Deepro Chakraborty">Removed extra splitting of lines in
+                1.12 that was made in order to collate it against L. The file with splitting is sent
+                to Dominik Wujastyk through email. Also corrected the heading.</change>
         </revisionDesc>
     </teiHeader>
 
@@ -208,7 +211,7 @@
 
             <div ana="Sūtrasthāna" n="1" type="sthāna">
 
-                <head xml:lang="en">[Sūtrasthāna 32-end]</head>
+                <head xml:lang="en">[Sūtrasthāna 1-13]</head>
 
                 <div n="1" type="adhyāya">
 
@@ -1821,28 +1824,21 @@
 
 
 
-                    <l xml:id="SS.1.12.3a"> kṣārād agnir ggarīyān kriyāsu vyākhyātās</l>
+                    <l xml:id="SS.1.12.3"> kṣārād agnir ggarīyān kriyāsu vyākhyātās taddagdhā<pb
+                            facs="dscn2995 fol 019.jpg lower" n="20r"/><lb n="1"/>nāṃ rogāṇām
+                            apunar<unclear>bha</unclear>vāt | sveda<pc> </pc>śastra<add
+                            place="top margin">ta<!-- place of insertion not known --></add>kṣārair
+                        aśakyānān tatsādhanāc ca || </l>
 
 
-                    <l xml:id="SS.1.12.3b">taddagdhā<pb facs="dscn2995 fol 019.jpg lower" n="20r"
-                            /><lb n="1"/>nāṃ rogāṇām apunar<unclear>bha</unclear>vāt | </l>
 
-                    <l xml:id="SS.1.12.3c">sveda<pc> </pc>śastra<add place="top margin"
-                            >ta<!-- place of insertion not known --></add>kṣārair aśakyānān
-                        tatsādhanāc ca || </l>
-
-
-                    <l xml:id="SS.1.12.4a"> a<unclear>thai</unclear>māni dahanopakaraṇāni bhavanti |
+                    <l xml:id="SS.1.12.4"> a<unclear>thai</unclear>māni dahanopakaraṇāni bhavanti |
                             pippalyajāsakṛdgodantaśaraśalākā<pc> </pc>jaṃbboṣṭhetaralā<lb n="2"
-                            />ha<pc> </pc>kṣaudraguḍa<unclear>s</unclear>nehādīni |</l>
-
-                    <l xml:id="SS.1.12.4b">tatra pippalyajāśakṛdgo<unclear extent="3" unit="char"
-                        /><cb/>dantaśaraśalākās tvaggatānāṃ |</l>
-
-                    <l xml:id="SS.1.12.4c">jaṃbboṣṭhetaralāhā mānsagatānāṃ |</l>
-
-                    <l xml:id="SS.1.12.4d">kṣaudraguḍasnehāḥ sirā<unclear>s</unclear>nāyu<lb n="3"
-                            />sandhya<unclear>s</unclear>thigatānāṃ | </l>
+                            />ha<pc> </pc>kṣaudraguḍa<unclear>s</unclear>nehādīni | tatra
+                            pippalyajāśakṛdgo<unclear extent="3" unit="char"/><cb/>dantaśaraśalākās
+                        tvaggatānāṃ | jaṃbboṣṭhetaralāhā mānsagatānāṃ | kṣaudraguḍasnehāḥ
+                            sirā<unclear>s</unclear>nāyu<lb n="3"
+                        />sandhya<unclear>s</unclear>thigatānāṃ | </l>
 
 
                     <l xml:id="SS.1.12.5"> tatrāgnikarmma sarvvar<unclear>ttu</unclear>ṣu kuryād
@@ -1850,7 +1846,7 @@
                         tatpratyanīkaṃ vidhiṃ kṛtvā </l>
 
 
-                    <l xml:id="SS.1.12.6a"> sarvvavyādhiṣv ṛtuṣu ca picchi<lb n="4"/>lam annaṃ
+                    <l xml:id="SS.1.12.6"> sarvvavyādhiṣv ṛtuṣu ca picchi<lb n="4"/>lam annaṃ
                             <unclear>bhu</unclear>ktavataḥ | </l>
 
 
@@ -1871,12 +1867,9 @@
                             />śa<unclear>s</unclear>thiravraṇatā ca
                         sandhya<unclear>s</unclear>thidagdhe || </l>
 
-                    <l xml:id="SS.1.12.9a"> tatra śirorogādhimanthayor<unclear extent="1"
-                            unit="char"/>lalāṭaśaṃkhadeśeṣu dahed</l>
-
-                    <l xml:id="SS.1.12.9b">
-                        <unclear>va</unclear>rtmma<pc> </pc>rogeṣv ārddranaktakapraticchannān dṛṣṭiṃ
-                        kṛtvā vartmmaromakūpāṃ | </l>
+                    <l xml:id="SS.1.12.9"> tatra śirorogādhimanthayor<unclear extent="1" unit="char"
+                        />lalāṭaśaṃkhadeśeṣu dahed <unclear>va</unclear>rtmma<pc> </pc>rogeṣv
+                        ārddranaktakapraticchannān dṛṣṭiṃ kṛtvā vartmmaromakūpāṃ | </l>
 
                     <l xml:id="SS.1.12.10"> tva<unclear>dyāṃ</unclear>sasirāsnāyusandhya<lb n="2"
                             /><unclear>s</unclear>thigatam ugrarujaṃ<add place="top margin">je</add>
@@ -1910,28 +1903,18 @@
                         sūkṣmamārggānusāritvāttvagādīn anupraviśyāśu dahati | tasmāt
                             <unclear>s</unclear>nehadagdhe dhikā rujā bhavati || </l>
 
-                    <l xml:id="SS.1.12.16a"> tatra pluṣṭaṃ durddagdhaṃ samyagdagdham ati<lb n="2"
-                        />dagdham iti caturvvidham agnidagdhaṃ bhavati |</l>
-
-                    <l xml:id="SS.1.12.16b">tatra yad vivarṇṇaṃ uṣyate 'ti<cb/>mātran
-                            ta<unclear>t</unclear> pluṣṭaṃ |</l>
-
-                    <l xml:id="SS.1.12.16c">yatrotpatti
-                        <unclear>spho</unclear>ṭanāstīvradāhadoṣavedanā cirāc copaśāmyati tad
-                        duruddagdhaḥ |</l>
-
-                    <l xml:id="SS.1.12.16d">samyak<lb n="3"/>dagdham anavagāḍhaṃ pakvatālavarṇṇaṃ
+                    <l xml:id="SS.1.12.16"> tatra pluṣṭaṃ durddagdhaṃ samyagdagdham ati<lb n="2"
+                        />dagdham iti caturvvidham agnidagdhaṃ bhavati | tatra yad vivarṇṇaṃ uṣyate
+                        'ti<cb/>mātran ta<unclear>t</unclear> pluṣṭaṃ | yatrotpatti
+                            <unclear>spho</unclear>ṭanāstīvradāhadoṣavedanā cirāc copaśāmyati tad
+                        duruddagdhaḥ | samyak<lb n="3"/>dagdham anavagāḍhaṃ pakvatālavarṇṇaṃ
                             <unclear>su</unclear>saṃsthi<add place="top margin">ta</add>
-                        pūrvvalakṣaṇasaṃyuktañ ca |</l>
-
-                    <l xml:id="SS.1.12.16e"><cb/>atidagdhe tu māṃsāvalaṃbanaṃ gātraviśleṣaḥ sandhi
-                        vaiguṇyaṃ sirā<unclear>s</unclear>nāyusandhyasthivyāpādanaṃ jvara<lb n="4"
-                        />dāhapipāsāmūrcchā copadravā bhavanti || sakrimiś cet | vraṇaś cā<cb/>sya
-                        cireṇopaharoty uparūḍhaś ca vivarṇṇo bhavati |</l>
-
-                    <l xml:id="SS.1.12.16f">tad etac caturvvidham agnidagdhalakṣaṇam ānupūrvvoktaṃ
-                            pū<lb n="5"/>rvvakarmma<add place="below"><pc> </pc>prasādhakaṃ</add>
-                        pradhānaṃ bhavati || </l>
+                        pūrvvalakṣaṇasaṃyuktañ ca | <cb/>atidagdhe tu māṃsāvalaṃbanaṃ gātraviśleṣaḥ
+                        sandhi vaiguṇyaṃ sirā<unclear>s</unclear>nāyusandhyasthivyāpādanaṃ jvara<lb
+                            n="4"/>dāhapipāsāmūrcchā copadravā bhavanti || sakrimiś cet | vraṇaś
+                        cā<cb/>sya cireṇopaharoty uparūḍhaś ca vivarṇṇo bhavati | tad etac
+                        caturvvidham agnidagdhalakṣaṇam ānupūrvvoktaṃ pū<lb n="5"/>rvvakarmma<add
+                            place="below"><pc> </pc>prasādhakaṃ</add> pradhānaṃ bhavati || </l>
 
 
                     <l xml:id="SS.1.12.17">
@@ -1947,18 +1930,18 @@
                         <pb facs="dscn2997 fol 021.jpg upper" n="21v"/><lb n="1"/>tenāsya
                         vedanātīvrā prakṛtyā ca vidahyate || </l>
 
-                    <l xml:id="SS.1.12.19ab">
-                        <unclear>s</unclear>phoṭāḥ śīghraṃ prajāyante jvaras tṛṣṇā ca bādhate |</l>
+                    <l xml:id="SS.1.12.19">
+                        <unclear>s</unclear>phoṭāḥ śīghraṃ prajāyante jvaras tṛṣṇā ca bādhate |
+                        <caesura/>
+                         dagdhasyopaśamārthāya <gap n="20" unit="char"/><lb n="2"/> cikitsā
+                        saṃpravakṣyate || </l>
 
-                    <l xml:id="SS.1.12.19cd"> dagdhasyopaśamārthāya <gap n="20" unit="char"/><lb
-                            n="2"/> cikitsā saṃpravakṣyate || </l>
 
-                    <l xml:id="SS.1.12.20ab"> pluṣṭasyāgnipratapanaṃ<gap n="1" unit="char"/>
-                        kāryamuṣṇan tathau<cb/>ṣadhaṃ |</l>
 
-                    <l xml:id="SS.1.12.20cd"> śa<unclear>rī</unclear>re svinnabhūyiṣṭhe svinnaṃ
-                        bhavati śoṇitaṃ || </l>
-
+                    <l xml:id="SS.1.12.20"> pluṣṭasyāgnipratapanaṃ<gap n="1" unit="char"/>
+                        kāryamuṣṇan tathau<cb/>ṣadhaṃ |
+                        <caesura/>
+                         śa<unclear>rī</unclear>re svinnabhūyiṣṭhe svinnaṃ bhavati śoṇitaṃ || </l>
 
                     <l xml:id="SS.1.12.21"> prakṛtyā hyudakaṃ śītaṃ skandayatyathaśoṇi<lb n="3"
                             /><add place="left margin">thaṃ e</add><!-- place of insertion? -->taṃ |
@@ -1989,8 +1972,7 @@
                         <caesura/>
                          vraṇaṃ guḍūcīpatrair vvā chādayed atha coḍakaiḥ || </l>
 
-                    <l xml:id="SS.1.12.27ab"> kriyāṅ kuryāc ca nikhilāṃ bhiṣak pittavisarppavat
-                        ||</l>
+                    <l xml:id="SS.1.12.27"> kriyāṅ kuryāc ca nikhilāṃ bhiṣak pittavisarppavat ||</l>
 
 
                     <l xml:id="SS.1.12.29cd"> athedānīṃ dhūmopahatavidhānaṃ vakṣyāmaḥ | </l>
@@ -2000,18 +1982,16 @@
                         <caesura/>
                          cakṣuṣaḥ paridāhaś ca rāgaś caivopajāyate || </l>
 
+
                     <l xml:id="SS.1.12.31"> samadhūkan niśvasiti ghreyam anyanna vetti ca |
                         <caesura/>
                          tathaiva ca rasān sarvvān smṛtiś cāsyopahanyate || </l>
 
-                    <l xml:id="SS.1.12.32abc"> tṛṣṇādā<lb n="2"/>hajvara<unclear>yu</unclear>taḥ
+                    <l xml:id="SS.1.12.32"> tṛṣṇādā<lb n="2"/>hajvara<unclear>yu</unclear>taḥ
                         sīdatyarthañ ca mūrcchati |
                         <caesura/>
-                         dhūmopahata ity eṣa</l>
+                         dhūmopahata ity eṣa <cb/>śṛṇu tasya cikitsitaṃ || </l>
 
-
-                    <l xml:id="SS.1.12.32d">
-                        <cb/>śṛṇu tasya cikitsitaṃ || </l>
 
                     <l xml:id="SS.1.12.33">
                         <unclear>sarppi</unclear>r ikṣuraso drā<unclear>kṣā</unclear> payo vā
@@ -2045,14 +2025,14 @@
                         <caesura/>
                          avidāhi laghu snigdham āhārañ cāsya kalpayet | </l>
 
-                    <l xml:id="SS.1.12.38ab"> uṣṇavā<g ref="#newa-placeholder-mark"/><pb
+                    <l xml:id="SS.1.12.38"> uṣṇavā<g ref="#newa-placeholder-mark"/><pb
                             facs="dscn2998 fol 022.jpg upper" n="22v"/><lb n="1"/>tātapair ddagdhe
-                        śītaḥ kāryo vidhiḥ sadā ||</l>
+                        śītaḥ kāryo vidhiḥ sadā ||
+                        <caesura/>
+                         śītavarṣānilahate uṣṇa snigdhaś ca śasyate | </l>
 
-                    <l xml:id="SS.1.12.38cd"> śītavarṣānilahate uṣṇa snigdhaś ca śasyate | </l>
-
-                    <l xml:id="SS.1.12.39ab"> tathātitejasā dagdhe siddhir nnaikāntikī bhave<lb
-                            n="2"/>d iti ||</l>
+                    <l xml:id="SS.1.12.39"> tathātitejasā dagdhe siddhir nnaikāntikī bhave<lb n="2"
+                        />d iti ||</l>
 
                     <l xml:id="SS.1.12.trailer">12 || 0 ||</l>
 
