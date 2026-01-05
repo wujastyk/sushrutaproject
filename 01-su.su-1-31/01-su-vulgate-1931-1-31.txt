@@ -60,8 +60,8 @@
                     <edition>Revised second edition</edition>
                     <note type="footnote">The sūtrasthāna (SS.1) and śārīrasthāna (SS.3) of this
                         SARIT edition are mainly based on this edition.</note>
-                    <note xml:lang="en">For sūtrasthāna 13 (leeches), the text of the 1938 vulgate is used in this
-                        file.</note>
+                    <note xml:lang="en">For sūtrasthāna 13 (leeches), the text of the 1938 vulgate
+                        is used in this file.</note>
                     <note type="footnote">This SARIT edition omits the commentarial material from
                         this edition.</note>
                 </bibl>
@@ -78,8 +78,8 @@
                     <date>1938</date>
                     <edition>Revised third edition</edition>
                     <edition>Reprint edition Varanasi/Delhi: Chaukhambha Orientalia, 1992.</edition>
-                    <note xml:lang="en">The nidānasthāna (SS.2), cikitsāsthāna (SS.4) , kalpasthāna (SS.5) and
-                        uttaratantra (SS.6) are based on this edition.</note>
+                    <note xml:lang="en">The nidānasthāna (SS.2), cikitsāsthāna (SS.4) , kalpasthāna
+                        (SS.5) and uttaratantra (SS.6) are based on this edition.</note>
                     <note xml:lang="en">This SARIT edition omits the commentarial material from this
                         edition.</note>
                 </bibl>
@@ -128,6 +128,9 @@
             <change when="2025-09-16" who="Deepro Chakraborty">Rearranged xml ids in 1.12</change>
             <change when="2025-11-02" who="Deepro Chakraborty">Minor corrections in 1.12</change>
             <change when="2025-12-02" who="Deepro Chakraborty">splitting 1.13.22</change>
+            <change when="2026-01-05" who="Deepro Chakraborty">Removed extra splitting of lines in
+                1.12 that was made in order to collate it against L. The file with splitting is sent
+                to Dominik Wujastyk through email.</change>
         </revisionDesc>
     </teiHeader>
 
@@ -2389,37 +2392,22 @@
                          yathovāca bhagavān dhanvantariḥ || </l>
 
 
-                    <l xml:id="SS.1.12.3b">
-                        <label>1931 ed. 1.12.3b</label>
+                    <l xml:id="SS.1.12.3">
+                        <label>1931 ed. 1.12.3</label>
                         <caesura/>
-                         taddagdhānāṃ rogāṇām apunarbhāvād </l>
+                         taddagdhānāṃ rogāṇām apunarbhāvād bheṣaja<pc> </pc>śastrakṣārair asādhyānāṃ
+                        sat sādhyatvāc ca || </l>
 
-                    <l xml:id="SS.1.12.3c">
-                        <label>1931 ed. 1.12.3c</label>
-                        <caesura/>
-                         bheṣaja<pc> </pc>śastrakṣārair asādhyānāṃ sat sādhyatvāc ca || </l>
 
-                    <l xml:id="SS.1.12.4a">
-                        <label>1931 ed. 1.12.4a</label>
+                    <l xml:id="SS.1.12.4">
+                        <label>1931 ed. 1.12.4</label>
                         <caesura/>
                          athemāni dahanopakaraṇāni tad yathā
                             pippalyajāśakṛdgodantaśaraśalākā<pc> </pc>jāmbavauṣṭhetaralauhāḥ
-                        kṣaudraguḍasnehāś ca |</l>
+                        kṣaudraguḍasnehāś ca | tatra pippalyajāśakṛdgodantaśaraśalākās tvaggatānāṃ
+                        jāmbavauṣṭhetaralauhā māṃsagatānāṃ kṣaudraguḍasnehāḥ
+                        sirāsnāyusandhyasthigatānām || </l>
 
-                    <l xml:id="SS.1.12.4b">
-                        <label>1931 ed. 1.12.4b</label>
-                        <caesura/>
-                         tatra pippalyajāśakṛdgodantaśaraśalākās tvaggatānāṃ </l>
-
-                    <l xml:id="SS.1.12.4c">
-                        <label>1931 ed. 1.12.4c</label>
-                        <caesura/>
-                         jāmbavauṣṭhetaralauhā māṃsagatānāṃ </l>
-
-                    <l xml:id="SS.1.12.4d">
-                        <label>1931 ed. 1.12.4d</label>
-                        <caesura/>
-                         kṣaudraguḍasnehāḥ sirāsnāyusandhyasthigatānām || </l>
 
                     <l xml:id="SS.1.12.5">
                         <label>1931 ed. 1.12.5</label>
@@ -2428,23 +2416,12 @@
                         'gnikarmasādhye vyādhau tat pratyanīkaṃ vidhiṃ kṛtvā || </l>
 
 
-                    <l xml:id="SS.1.12.6a">
-                        <label>1931 ed. 1.12.6a</label>
-                        <caesura/>
-                         sarvavyādhiṣv ṛtuṣu ca picchilam annaṃ bhuktavataḥ </l>
-
-                    <l xml:id="SS.1.12.6b">
-                        <label>1931 ed. 1.12.6b</label>
-                        <caesura/>
-                         (? karma kurvīta) aśmarībhagandarārśomukharogeṣv abhuktavataḥ || </l>
-
-
-
                     <l xml:id="SS.1.12.6">
-                        <label>1931 ed. 1.12.6</label>
+                        <label>1931 ed. 1.12.6a</label>
                         <caesura/>
                          sarvavyādhiṣv ṛtuṣu ca picchilam annaṃ bhuktavataḥ (? karma kurvīta)
                         aśmarībhagandarārśomukharogeṣv abhuktavataḥ || </l>
+
 
                     <l xml:id="SS.1.12.7">
                         <label>1931 ed. 1.12.7</label>
@@ -2460,16 +2437,12 @@
                         kṛṣṇonnatavraṇatā srāvasannirodhaś ca sirāsnāyudagdhe rūkṣāruṇatā
                         karkaśasthiravraṇatā ca sandhyasthidagdhe || </l>
 
-                    <l xml:id="SS.1.12.9a">
-                        <label>1931 ed. 1.12.9a</label>
+                    <l xml:id="SS.1.12.9">
+                        <label>1931 ed. 1.12.9</label>
                         <caesura/>
-                         tatra śirorogādhimanthayor bhrūlalāṭaśaṅkhapradeśeṣu dahet</l>
+                         tatra śirorogādhimanthayor bhrūlalāṭaśaṅkhapradeśeṣu dahet vartmarogeṣv
+                        ārdrālaktakapraticchannāṃ dṛṣṭiṃ kṛvā vartmaromakūpān (? dahet ) || </l>
 
-                    <l xml:id="SS.1.12.9b">
-                        <label>1931 ed. 1.12.9b</label>
-                        <caesura/>
-                         vartmarogeṣv ārdrālaktakapraticchannāṃ dṛṣṭiṃ kṛvā vartmaromakūpān (? dahet
-                        ) || </l>
 
                     <l xml:id="SS.1.12.10">
                         <label>1931 ed. 1.12.10</label>
@@ -2512,40 +2485,19 @@
                         va+āśritya dravyam agnir dahati agnisaṃtapto hi snehaḥ sūkṣmasirānusāritvāt
                         tvagādīn anupraviśyāśu dahati tasmāt snehadagdhe 'dhikā rujo bhavanti || </l>
 
-                    <l xml:id="SS.1.12.16a">
+                    <l xml:id="SS.1.12.16">
                         <label>1931 ed. 1.12.16a</label>
                         <caesura/>
                          tatra pluṣṭaṃ durdagdhaṃ samyagdagdham atidagdhaṃ ceti caturvidham
-                        agnidagdham |</l>
-
-                    <l xml:id="SS.1.12.16b">
-                        <label>1938 ed. 1.12.16b</label>
-                        <caesura/>
-                         tatra yad vivarṇaṃ pluṣyate 'timātraṃ tat pluṣṭaṃ</l>
-
-                    <l xml:id="SS.1.12.16c">
-                        <label>1938 ed. 1.12.16c</label>
-                        <caesura/>
-                         yatrottiṣṭhanti sphoṭās tīvrāś coṣadāharāgapākavedanāś cirāc copaśāmyanti
-                        tad drudagdhaṃ </l>
-
-                    <l xml:id="SS.1.12.16d">
-                        <label>1938 ed. 1.12.16d</label>
-                        <caesura/>
-                        samyagdgdham anavagāḍhaṃ tālaphalavarṇaṃ susaṃsthitaṃ pūrvalakṣaṇayuktaṃ ca </l>
-
-                    <l xml:id="SS.1.12.16e">
-                        <label>1938 ed. 1.12.16e</label>
-                        <caesura/>
-                        atidagdhe māṃsāvalambanaṃ gātraviśleṣaḥ
+                        agnidagdham | tatra yad vivarṇaṃ pluṣyate 'timātraṃ tat pluṣṭaṃ
+                        yatrottiṣṭhanti sphoṭās tīvrāś coṣadāharāgapākavedanāś cirāc copaśāmyanti
+                        tad drudagdhaṃ samyagdgdham anavagāḍhaṃ tālaphalavarṇaṃ susaṃsthitaṃ
+                        pūrvalakṣaṇayuktaṃ ca atidagdhe māṃsāvalambanaṃ gātraviśleṣaḥ
                         sirāsnāyusandhyasthivyāpādanamatimātraṃ jvaradāhapipāsāmūrcchāś copadravā
-                        bhavanti vraṇaś cāsya cireṇa rohati rūḍhaś ca vivarṇo bhavati |</l>
+                        bhavanti vraṇaś cāsya cireṇa rohati rūḍhaś ca vivarṇo bhavati | tad etac
+                        caturvidham agnidagdhalakṣaṇam ātmakarma<pc> </pc>prasādhakaṃ(ā.naṃ) bhavati
+                        || </l>
 
-                    <l xml:id="SS.1.12.16f">
-                        <label>1938 ed. 1.12.16f</label>
-                        <caesura/>
-                        tad etac caturvidham agnidagdhalakṣaṇam ātmakarma<pc
-                        > </pc>prasādhakaṃ(ā.naṃ) bhavati || </l>
 
                     <l xml:id="SS.1.12.17">
                         <label>1931 ed. 1.12.17</label>
@@ -2563,23 +2515,18 @@
                         <caesura/>
                          tenāsya vedanāstīvrāḥ prakṛtyā ca vidahyate | </l>
 
-                    <l xml:id="SS.1.12.19ab">
+                    <l xml:id="SS.1.12.19">
                         <label>1931 ed. 1.12.19ab</label>
                         <caesura/>
-                         sphoṭāḥ śīghraṃ prajāyante jvarastṛṣṇā ca vardhate ||</l>
-
-                    <l xml:id="SS.1.12.19cd">
-                        <label>1938 ed., 1.12.19cd</label>
+                         sphoṭāḥ śīghraṃ prajāyante jvarastṛṣṇā ca vardhate ||
                         <caesura/>
                          dagdhasyopaśamārthāya cikitsā saṃpravakṣyate || </l>
 
-                    <l xml:id="SS.1.12.20ab">
-                        <label>1931 ed. 1.12.20ab</label>
-                        <caesura/>
-                         pluṣṭasyāgnipratapanaṃ kāryamuṣṇaṃ tathauṣadham |</l>
 
-                    <l xml:id="SS.1.12.20cd">
-                        <label>1938 ed. 1.12.20ab</label>
+                    <l xml:id="SS.1.12.20">
+                        <label>1931 ed. 1.12.20</label>
+                        <caesura/>
+                         pluṣṭasyāgnipratapanaṃ kāryamuṣṇaṃ tathauṣadham |
                         <caesura/>
                          śarīre svinnabhūyiṣṭhe svinnaṃ bhavati śoṇitam || </l>
 
@@ -2625,15 +2572,13 @@
                         <caesura/>
                          vraṇaṃ guḍūcīpatrair vā chādayed athavaudakaiḥ || </l>
 
-                    <l xml:id="SS.1.12.27ab">
-                        <label>1931 ed. 1.12.27ab</label>
+                    <l xml:id="SS.1.12.27">
+                        <label>1931 ed. 1.12.27</label>
                         <caesura/>
-                         kriyāṃ ca nikhilāṃ kuryād bhiṣak pittavisarpavat |</l>
-
-                    <l xml:id="SS.1.12.27cd">
-                        <label>1938 ed. 1.12.27cd</label>
+                         kriyāṃ ca nikhilāṃ kuryād bhiṣak pittavisarpavat |
                         <caesura/>
                          madhūcchiṣṭaṃ samadhukaṃ rodhraṃ sarjarasaṃ tathā || </l>
+
 
                     <l xml:id="SS.1.12.28">
                         <label>1931 ed. 1.12.28</label>
@@ -2666,17 +2611,12 @@
                         <caesura/>
                          tathaiva ca rasān sarvān śrutiś cāsyopahanyate || </l>
 
-                    <l xml:id="SS.1.12.32abc">
+                    <l xml:id="SS.1.12.32">
                         <label>1931 ed. 1.12.32abc</label>
                         <caesura/>
                          tṛṣṇādāhajvarayutaḥ sīdaty atha ca mūrcchati |
                         <caesura/>
-                         dhūmopahata ity evaṃ</l>
-
-                    <l xml:id="SS.1.12.32d">
-                        <label>1938 ed. 1.12.32d</label>
-                        <caesura/>
-                         śṛṇu tasya cikitsitam || </l>
+                         dhūmopahata ity evaṃ śṛṇu tasya cikitsitam || </l>
 
                     <l xml:id="SS.1.12.33">
                         <label>1931 ed. 1.12.33</label>
@@ -2716,23 +2656,17 @@
                         <caesura/>
                          avidāhi laghu snigdhamāhāraṃ cāsya kalpayet || </l>
 
-                    <l xml:id="SS.1.12.38ab">
-                        <label>1931 ed. 1.12.38ab</label>
+                    <l xml:id="SS.1.12.38">
+                        <label>1931 ed. 1.12.38</label>
                         <caesura/>
-                         uṣṇavātātapair dagdhe śītaḥ kāryo vidhiḥ sadā |</l>
-
-                    <l xml:id="SS.1.12.38cd">
-                        <label>1938 ed. 1.12.38cd</label>
+                         uṣṇavātātapair dagdhe śītaḥ kāryo vidhiḥ sadā |
                         <caesura/>
                          śītavarṣānilair dagdhe snigdhamuṣṇaṃ ca śasyate || </l>
 
-                    <l xml:id="SS.1.12.39ab">
-                        <label>1931 ed. 1.12.39ab</label>
+                    <l xml:id="SS.1.12.39">
+                        <label>1931 ed. 1.12.39</label>
                         <caesura/>
-                         tathā'titejasā dagdhe siddhir nāsti kathaṃcana |</l>
-
-                    <l xml:id="SS.1.12.39cdef">
-                        <label>1931 ed. 1.12.39cd</label>
+                         tathā'titejasā dagdhe siddhir nāsti kathaṃcana |
                         <caesura/>
                          indravajrāgnidaghe 'pi jīvati pratikārayet || </l>
 
@@ -2745,8 +2679,8 @@
 
                     <head>trayodaśo 'dhyāyaḥ |</head>
 
-                    <note xml:lang="en">The vulgate text here in adhyāya 13 is transcribed from the 1938 edition,
-                        not the 1931 edition.</note>
+                    <note xml:lang="en">The vulgate text here in adhyāya 13 is transcribed from the
+                        1938 edition, not the 1931 edition.</note>
 
                     <l xml:id="SS.1.13.1">
                         <label>1938 ed. 1.13.1</label>
