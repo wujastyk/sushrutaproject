@@ -145,12 +145,13 @@
       <change when="2022-05-18" who="Deepro Chakraborty">Transcription of SS 6.23</change>
       <change when="2024-10-15" who="Deepro Chakraborty">Added zenodo links to folios</change>
 
-
       <change when="2025-03-31" who="Dominik Wujastyk">Removed the empty passage tags so that these
         passages do not show up in the edition as being present but empty.</change>
       <change when="2025-05-20" who="Deepro Chakraborty">Updated facs in pb tags</change>
       <change when="2025-10-08" who="Deepro Chakraborty">Changed some xml:ids in SS 6.2 for
         clarification</change>
+      <change when="2026-01-09" who="Deepro Chakraborty">Fixed alignment issues and changed the tags
+        of trailers.</change>
     </revisionDesc>
   </teiHeader>
 
@@ -422,7 +423,7 @@
              nānārūpā vartmaśuklāntasandhau caranty antarnayanaṃ dūṣayaṃtya iti || 0 ||</l>
 
 
-          <p ana="trailer"> || śā<lb n="6"/>lākye 2 || </p>
+          <l xml:id="SS.6.2.trailer">|| śā<lb n="6"/>lākye 2 || </l>
         </div>
 
         <div n="3" type="adhyāya">
@@ -550,8 +551,8 @@
             <caesura/>
              pakṣmakopaḥ savijñeyāvyādhiḥ paramadāruṇa iti|| ❈ ||</l>
 
-          <p ana="trailer">
-            <cb n="2"/> śālākye 3 || </p>
+          <l xml:id="SS.6.3.trailer">
+            <cb n="2"/> śālākye 3 || </l>
         </div>
 
         <div n="4" subtype="adhyāya">
@@ -607,7 +608,7 @@
              kāśābho mṛdur athavāpi <unclear>vinvakalyau</unclear> vijñeyo nayana<lb n="5"/>site
             valāsakākhya iti || || sālākya thva </l>
 
-          <trailer/>
+          <l xml:id="SS.6.4.trailer"/>
 
 
         </div>
@@ -662,10 +663,10 @@
             pracayobhyupaiti tañ cājakājātam iti vyavasyet | 0 || </l>
 
 
-          <p ana="trailer">
+          <l xml:id="SS.6.5.trailer">
             <milestone facs="160r IMG_0028.JPG" n="160r" unit="digital-image"/><pb facs="151"
               n="160r"/><lb n="1"/>śālākye <unclear/>
-          </p>
+          </l>
         </div>
 
         <div n="6" type="adhyāya">
@@ -752,7 +753,7 @@
 
 
 
-          <l xml:id="SS.6.6.22cd"> saṃrambhī dadyate yas tu sokṣi pākaḥ saśophajaḥ ||</l>
+          <l xml:id="SS.6.6.22"> saṃrambhī dadyate yas tu sokṣi pākaḥ saśophajaḥ ||</l>
 
           <l xml:id="SS.6.6.23">śophahīnāni liṅgāni ne<lb n="6"/>trapāke tvaśophaje |
             <caesura/>
@@ -793,7 +794,7 @@
             ||</l>
 
 
-          <p ana="trailer"> śālākye <unclear/></p>
+          <l xml:id="SS.6.6.trailer">śālākye <unclear/></l>
         </div>
 
         <div n="7" type="adhyāya">
@@ -855,13 +856,11 @@
             <caesura/>
              dṛṣṭimadhyesthi te doṣe saha <unclear/> ñ ca pa<cb n="2"/>śyati | </l>
 
-          <l xml:id="SS.6.7.15ab"> dvidhāśrite dvidhā paśyed vahudhā cānavasthite |</l>
-
-          <l xml:id="SS.6.7.15.1"> doṣe dṛṣṭāśrite ti<unclear>yage</unclear>kaṃ vai samyate dvidhā
-            |</l>
-
-          <l xml:id="SS.6.7.15cd"> timirākhya sa <cb n="3"/> vai doṣaś ca caturtha paṭalṃ gataṃḥ
-            |</l>
+          <l xml:id="SS.6.7.15"> dvidhāśrite dvidhā paśyed vahudhā cānavasthite |
+            <caesura/>
+             doṣe dṛṣṭāśrite ti<unclear>yage</unclear>kaṃ vai samyate dvidhā |
+            <caesura/>
+             timirākhya sa <cb n="3"/> vai doṣaś ca caturtha paṭalṃ gataṃḥ |</l>
 
           <l xml:id="SS.6.7.16"> ruṇaddhi sarvato dṛṣṭiliṅganāśamataḥ paraṃ |
             <caesura/>
@@ -1002,8 +1001,8 @@
              teṣāṃ ye pṛthagapṛthak va<unclear/> spaṣṭārthaśṛṇuta cikitsitaṃ yathāvad iti || ❈ || </l>
 
 
-          <p ana="trailer">
-            <cb/>śālākye <unclear/>|| </p>
+          <l xml:id="SS.6.7.trailer">
+            <cb/>śālākye <unclear/>|| </l>
         </div>
 
         <div n="8" type="adhyāya">
@@ -1071,7 +1070,7 @@
             dvāv iti || </l>
 
 
-          <p ana="trailer"> śālākyasthāne <unclear/> || 0 || </p>
+          <l xml:id="SS.6.8.trailer">śālākyasthāne <unclear/> || 0 || </l>
         </div>
 
 
@@ -1194,7 +1193,7 @@
              vījenānena matimān steṣu karmaprayojayet iti || </l>
 
 
-          <p ana="trailer"> śā<cb n="3"/>lākye || <unclear/> || 0 || </p>
+          <l xml:id="SS.6.9.trailer"> śā<cb n="3"/>lākye || <unclear/> || 0 || </l>
         </div>
 
         <div n="10" type="adhyāya">
@@ -1222,10 +1221,13 @@
 
 
 
-          <l xml:id="SS.6.10.5"> padmam patraṃ yaṣṭhi sākaṃ haridrāṃ tathānantā cāpi sambhṛtyasarpiḥ
-            | <lb n="5"/> siddhaṃ sekatarpaṇo cāñjane ca hitaṃ kṣīraṃ cā<unclear/> me te dhūmakai | </l>
+          <l xml:id="SS.6.10.4cd"> padmam patraṃ yaṣṭhi sākaṃ haridrāṃ tathānantā cāpi sambhṛtya
+            sarpiḥ |</l>
 
-          <l xml:id="SS.6.10.6cd"> yojyo vargo vyasta e<cb n="2"/>ṣo dvidhā vā ca<unclear/>
+          <l xml:id="SS.6.10.5cd"><lb n="5"/>siddhaṃ sekatarpaṇo cāñjane ca hitaṃ kṣīraṃ
+            cā<unclear/> me te dhūmakai | </l>
+
+          <l xml:id="SS.6.10.6"> yojyo vargo vyasta e<cb n="2"/>ṣo dvidhā vā ca<unclear/>
             sa<unclear/>cāpi nasyethāvat |
             <caesura/>
              kriyāḥ sarvāḥ pittaharām ca śastāḥ tryahādūrdhvaṃ kṣīrasarpiś ca nasyaṃ | </l>
@@ -1237,7 +1239,7 @@
             <caesura/>
              rasakriyāṃ śarkarākṣaudrayuktaṃ <lb n="6"/> pālindyām vā madhuke cāpi kuryāt | </l>
 
-          <l xml:id="SS.6.10.8ab"> mustaṃ phenaḥ sāgaraṃ sotpalañ ca krimighnai<cb n="1"
+          <l xml:id="SS.6.10.8"> mustaṃ phenaḥ sāgaraṃ sotpalañ ca krimighnai<cb n="1"
             />lādhātrivījād rasañ ca | </l>
 
           <l xml:id="SS.6.10.9"> kāryaṃ cūrṇāñjanārthaṃ raso vā stanyopeto dhātakīsyandanābhyāṃ |
@@ -1339,7 +1341,7 @@
             <caesura/>
              roge valāsagrathitentu<unclear>jān</unclear>ḥ tu kuryād idaṃ syāt praviśāṣyadehaḥ | </l>
 
-          <l xml:id="SS.6.11.11ab"> nīlāṃ yavā<cb n="2"/>nājapayonnupītāṃ saṃśādhya saṃśoṣya tato
+          <l xml:id="SS.6.11.11"> nīlāṃ yavā<cb n="2"/>nājapayonnupītāṃ saṃśādhya saṃśoṣya tato
             nūdahya | </l>
 
 
@@ -1380,7 +1382,7 @@
              syandādhimanthakramam ācare<cb/>c ca sarveṣu caiteṣu sadā pramatta iti || </l>
 
 
-          <p ana="trailer"> śālākye lṛ<unclear/> || 0 || </p>
+          <l xml:id="SS.6.11.trailer">śālākye lṛ<unclear/> || 0 || </l>
 
 
 
@@ -1507,7 +1509,7 @@
             <caesura/>
              śirīṣavījamaricapippalīsaindhavair api | </l>
 
-          <l xml:id="SS.6.12.29ab"> śukrapragha<cb n="3"/>rṣaṇaṃ kārya madhunā saindhave na tu | </l>
+          <l xml:id="SS.6.12.29"> śukrapragha<cb n="3"/>rṣaṇaṃ kārya madhunā saindhave na tu | </l>
 
 
 
@@ -1516,7 +1518,7 @@
 
 
 
-          <l xml:id="SS.6.12.30cd"> kuryād añjanayogā vā samyak ślokārdhikāvimau | </l>
+          <l xml:id="SS.6.12.30"> kuryād añjanayogā vā samyak ślokārdhikāvimau | </l>
 
           <l xml:id="SS.6.12.31"> śaṃ<lb n="4"/>khakolāstikanaka drākṣāmadhukamākṣikaiḥ |
             <caesura/>
@@ -1530,7 +1532,7 @@
             <caesura/>
              vibhītakāsthimajjā vā sakṣaudrā śukraśāntaye || </l>
 
-          <l xml:id="SS.6.12.34ab"> śaṃkhā<lb n="5"/>synta madhudākṣā mayūtakatakāni vā | </l>
+          <l xml:id="SS.6.12.34"> śaṃkhā<lb n="5"/>synta madhudākṣā mayūtakatakāni vā | </l>
 
 
 
@@ -1540,7 +1542,7 @@
             <caesura/>
             <cb n="2"/>kṣāravan śrāvayec cūrṇṇaṃ karabhā<unclear/>tu bhāvayet | </l>
 
-          <l xml:id="SS.6.12.36ab"> vahuśoñjanayetatsyācchukravaivarṇṇanāśanaṃ | </l>
+          <l xml:id="SS.6.12.36"> vahuśoñjanayetatsyācchukravaivarṇṇanāśanaṃ | </l>
 
 
 
@@ -1607,7 +1609,7 @@
             <caesura/>
              piṣṭvān ca jānāṃ payasā<lb n="4"/>malam vā kāṃsasya dagdhā saha tāntavena | </l>
 
-          <l xml:id="SS.6.12.51ab"> pratyañjanatatmaricairūpetaṃ cūrṇṇatāmrasya sa<cb n="2"
+          <l xml:id="SS.6.12.51"> pratyañjanatatmaricairūpetaṃ cūrṇṇatāmrasya sa<cb n="2"
             />hābhiyuñjyāt | </l>
 
 
@@ -1616,11 +1618,11 @@
 
 
 
-          <l xml:id="SS.6.12.52cd"> praklinnavartmāny areta eva yogāḥ prayojyāḥ prasamīkṣya doṣān
-            iti || ||</l>
+          <l xml:id="SS.6.12.52"> praklinnavartmāny areta eva yogāḥ prayojyāḥ prasamīkṣya doṣān iti
+            || ||</l>
 
 
-          <p ana="trailer"> śālākye <unclear/>2 || 0 || </p>
+          <l xml:id="SS.6.12.trailer">śālākye <unclear/>2 || 0 || </l>
 
 
         </div>
@@ -1656,15 +1658,15 @@
 
 
 
-          <l xml:id="SS.6.13.6cd"> śastreṇa patrair athavā tato rakte sthite punaḥ | </l>
+          <l xml:id="SS.6.13.6"> śastreṇa patrair athavā tato rakte sthite punaḥ | </l>
 
 
-          <l xml:id="SS.6.13.7cd"> svedyasai<lb n="6"/>ndhavacūrṇṇena pratisāryasukhāmvunā | </l>
+          <l xml:id="SS.6.13.7"> svedyasai<lb n="6"/>ndhavacūrṇṇena pratisāryasukhāmvunā | </l>
 
-          <l xml:id="SS.6.13.8ab"> prakṣālya siktaṃ haviṣā vraṇavatnsamupācaret | </l>
+          <l xml:id="SS.6.13.8"> prakṣālya siktaṃ haviṣā vraṇavatnsamupācaret | </l>
 
 
-          <l xml:id="SS.6.13.9ab">
+          <l xml:id="SS.6.13.9">
             <cb n="2"/>vyāsatas te tad akhilaṃ vidhānaṃ lekhya vartmaṇi | </l>
 
 
@@ -1674,10 +1676,10 @@
              raktamakṣi srave skannaṃ timiraṃ <cb n="2"/> vyādhyanirjayaḥ | </l>
 
 
-          <l xml:id="SS.6.13.11cd"> vartmañ ca guru śūnañ ca kaṇḍūharṣopadehavat | </l>
+          <l xml:id="SS.6.13.11"> vartmañ ca guru śūnañ ca kaṇḍūharṣopadehavat | </l>
 
 
-          <l xml:id="SS.6.13.12cd"> durviriktaṃ vijānīyād a<lb n="7"/>tat sinnaṃ punar likhet | </l>
+          <l xml:id="SS.6.13.12"> durviriktaṃ vijānīyād a<lb n="7"/>tat sinnaṃ punar likhet | </l>
 
           <l xml:id="SS.6.13.13"> vyāvartatevartma yadā pakṣṃ cāpi vimuñcati |
             <caesura/>
@@ -1716,21 +1718,21 @@
 
 
 
-          <l xml:id="SS.6.14.3."> svedayitvā visagranthipakvaṃ tasya ni<cb n="2"/>rāśayaṃ |
+          <l xml:id="SS.6.14.3"> svedayitvā visagranthipakvaṃ tasya ni<cb n="2"/>rāśayaṃ |
             <caesura/>
              bhitvāc chidrāṇi śastreṇa saindhavenāvacūrṇayet | </l>
 
-          <l xml:id="SS.6.14.4ab"> kāsīsamārgadhī<unclear>muścī</unclear>nepālyelāyutena tu | </l>
+          <l xml:id="SS.6.14.4"> kāsīsamārgadhī<unclear>muścī</unclear>nepālyelāyutena tu | </l>
 
 
           <l xml:id="SS.6.14.5"> rocanakṣā<cb n="3"/>ratutthāni pippalyaḥ kṣaudram eva ca |
             <caesura/>
              pratisāraṇam ekaikaṃ bhinne lagaṇa iṣyate | </l>
 
-          <l xml:id="SS.6.14.6ab"> mahā<lb n="3"/>nty atha ca yuñjīta kṣārāgni vidhikovidaḥ | </l>
+          <l xml:id="SS.6.14.6"> mahā<lb n="3"/>nty atha ca yuñjīta kṣārāgni vidhikovidaḥ | </l>
 
 
-          <l xml:id="SS.6.14.7cd"> rasāñjanamadhubhyān tu bhinnā cāñjanenāmi<cb n="2"/>kāṃ | </l>
+          <l xml:id="SS.6.14.7"> rasāñjanamadhubhyān tu bhinnā cāñjanenāmi<cb n="2"/>kāṃ | </l>
 
 
 
@@ -1755,7 +1757,7 @@
             <caesura/>
              sarveṣv ateṣu vihitaṃ vidhānaṃ snehapūrvakam iti || </l>
 
-          <p ana="trailer"> śālākye <unclear/>3 || ❈ || </p>
+          <l xml:id="SS.6.14.trailer">śālākye <unclear/>3 || ❈ || </l>
 
 
         </div>
@@ -1804,7 +1806,7 @@
 
 
 
-          <l xml:id="SS.6.15.10cd">arma cej jālavac cāpi taddeṣyonmarjjalamvitaṃ </l>
+          <l xml:id="SS.6.15.10">arma cej jālavac cāpi taddeṣyonmarjjalamvitaṃ </l>
 
           <l xml:id="SS.6.15.11">cchidyāc vakreṇaśastreṇa va<cb n="1"/>rtamuklāntamāśritaṃ |
             <caesura/>
@@ -1820,15 +1822,14 @@
             <caesura/>
              vraṇavat samvidhānañ ca tasya kuryāt tataḥ paraṃ |</l>
 
-          <l xml:id="SS.6.15.14ab">trahān muktvā ca saṃsvedya paścoc chodha<cb n="1"/>nam ācaret
-            |</l>
+          <l xml:id="SS.6.15.14">trahān muktvā ca saṃsvedya paścoc chodha<cb n="1"/>nam ācaret |</l>
 
 
 
 
 
 
-          <l xml:id="SS.6.15.16cd">lekhyāñjanaiś copahared armaśeṣaṃ bhaved yadi |</l>
+          <l xml:id="SS.6.15.16">lekhyāñjanaiś copahared armaśeṣaṃ bhaved yadi |</l>
 
           <l xml:id="SS.6.15.17">armañ cālpan dadhinibhaṃ nīlaṃ raktamathāpi vā |
             <caesura/>
@@ -1905,7 +1906,7 @@
             <caesura/>
              śastrakarmaṇyapagate māsañ ca syāt suyantritaḥ ||</l>
 
-          <l xml:id="SS.6.15.34">śālākya | <unclear>lādhū</unclear> || || </l>
+          <l xml:id="SS.6.15.trailer">śālākya | <unclear>lādhū</unclear> || || </l>
         </div>
 
 
@@ -1939,10 +1940,9 @@
 
 
 
-          <l xml:id="SS.6.16.6ab"> lalāṭadeśe ca nivadhya paṭṭāṃ prāksīvitan tatra parañ ca vandhet
-            | </l>
-          <l xml:id="SS.6.16.6cd"> sthairyaṃ gate cāpyatha śastramārge vālām vimuñcet ku<cb n="2"
-            />śalābhikṣya | </l>
+          <l xml:id="SS.6.16.6"> lalāṭadeśe ca nivadhya paṭṭāṃ prāksīvitan tatra parañ ca vandhet |
+            <caesura/>
+             sthairyaṃ gate cāpyatha śastramārge vālām vimuñcet ku<cb n="2"/>śalābhikṣya | </l>
 
           <l xml:id="SS.6.16.7"> evan na cecchāmyati tasya vartma nirbhujya doṣopacitāṃ valīntu |
             <caesura/>
@@ -1959,8 +1959,8 @@
              virecanāś cyotananasya dhūmalepāṃjanasneharasākriyāś ceti || </l>
 
 
-          <p ana="trailer"> śālākye <lb n="3"/>
-            <unclear/>3 || 0 || </p>
+          <l xml:id="SS.6.16.trailer"> śālākye <lb n="3"/>
+            <unclear/>3 || 0 || </l>
 
 
         </div>
@@ -2785,7 +2785,7 @@
              piṇḍāṃjanāni matimāṃ vidadhyāt tu yathāgadam iti ||</l>
 
 
-          <p ana="trailer"> || śālākye 17 || ❈ ||</p>
+          <l xml:id="SS.6.18.trailer">|| śālākye 17 || ❈ ||</l>
 
           <milestone facs="170v IMG_0039.JPG" n="170v2" unit="folio"/>
 
@@ -2904,7 +2904,7 @@
             ||</l>
 
 
-          <p ana="trailer"> śālākye || 18 || ❈ ||</p>
+          <l xml:id="SS.6.19.trailer">śālākye || 18 || ❈ ||</l>
 
           <milestone ana="line 2" facs="171r IMG_0039.JPG" n="171r" unit="folio"/>
 
@@ -2994,7 +2994,7 @@
              pradi<cb n="2"/>ṣṭaliṅgāny arśāṃsi yatnatas tathaiva śophārbudaliṅgam īritam iti || </l>
 
 
-          <p ana="trailer">śālākye 19 || ❈ ||</p>
+          <l xml:id="SS.6.20.trailer">śālākye 19 || ❈ ||</l>
 
           <milestone ana="line 1" facs="171v IMG_0040.JPG" n="171v1" unit="folio"/>
 
@@ -3196,7 +3196,7 @@
              śeṣāṇān tu vikārāṇā prā<cb n="2"/>k cikitsitam ītitaṃ ||</l>
 
 
-          <p ana="trailer">śālākye || 20 ||</p>
+          <l xml:id="SS.6.21.trailer">śālākye || 20 ||</l>
 
           <milestone ana="6c" facs="172r IMG_0040.JPG" n="172r" unit="folio"/>
 
@@ -3338,7 +3338,7 @@
           <l xml:id="SS.6.22.21"> śophās tu śophavijñānā nāsāsrotovyavasthitā iti ||</l>
 
 
-          <p ana="trailer"> śālākye 21 || ❈ ||</p>
+          <l xml:id="SS.6.22.trailer">śālākye 21 || ❈ ||</l>
 
           <milestone ana="line 1c" facs="73r IMG_0042.JPG" n="173r" unit="folio"/>
 
@@ -3515,7 +3515,7 @@
 
 
 
-          <p ana="trailer"> śālākye || <unclear/> 3|| ❈ || </p>
+          <l xml:id="SS.6.25.trailer">śālākye || <unclear/> 3|| ❈ || </l>
 
 
         </div>
@@ -3548,7 +3548,7 @@
 
 
 
-          <l xml:id="SS.6.26.6cd"> svinnair vā matsyāpiśitaiḥ kṛśarair vā sasaindhavaiḥ | </l>
+          <l xml:id="SS.6.26.6"> svinnair vā matsyāpiśitaiḥ kṛśarair vā sasaindhavaiḥ | </l>
 
           <l xml:id="SS.6.26.7"> candanotpalaku<cb n="3"/>ṣṭhair vā snigdhairmmārgadhivāyutaiḥ ||
             <caesura/>
@@ -3662,7 +3662,7 @@
           <l xml:id="SS.6.26.32ab"> śirīṣamūlakaphalair avapīḍanayor hitaḥ || </l>
 
 
-          <l xml:id="SS.6.26.33A"> avabhedahito vāsyādva cā pippalisaṃyutaṃ | </l>
+          <l xml:id="SS.6.26.33"> avabhedahito vāsyādva cā pippalisaṃyutaṃ | </l>
 
 
 
@@ -3826,7 +3826,7 @@
           <l xml:id="SS.6.27.21"> namas skandāya devāya grahādhipata<cb n="2"/>ye namaḥ | śirasā tv
             ābhivande haṃ pratigṛṇhīṣva me valiṃ | nīrujānirvvikāraś ca śiśurvāś ca jayatām iti || </l>
 
-          <p ana="trailer"> kumāre || 1 || 0 || </p>
+          <l xml:id="SS.6.27.trailer">kumāre || 1 || 0 || </l>
 
 
 
@@ -3894,7 +3894,7 @@
              raktadivyavapuḥ śrīmāṃ pātutvāṃ krauñcasūdana iti || </l>
 
 
-          <p ana="trailer"> ku<cb n="2"/>māre || 2 || 0 || </p>
+          <l xml:id="SS.6.28.trailer">ku<cb n="2"/>māre || 2 || 0 || </l>
 
 
 
@@ -3944,7 +3944,7 @@
             <caesura/>
              viśākhasaṃjñaḥ saśiṣāḥ śi<cb n="2"/>vos tu vitānena iti || </l>
 
-          <p ana="trailer"> kumāre || 3 || 0 || </p>
+          <l xml:id="SS.6.29.trailer">kumāre || 3 || 0 || </l>
 
         </div>
 
@@ -4004,7 +4004,7 @@
              laṃvodarīśaṅkukarṇī śakunī te prasīdatām iti || </l>
 
 
-          <p ana="trailer"> kumāra || <unclear/>3 ||<cb n="2"/> ❈ || </p>
+          <l xml:id="SS.6.30.trailer">kumāra || <unclear/>3 ||<cb n="2"/> ❈ || </l>
 
 
         </div>
