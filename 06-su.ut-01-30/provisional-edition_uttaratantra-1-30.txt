@@ -68,7 +68,10 @@
 
         <revisionDesc>
             <change when="2020-11-04" who="Dominik Wujastyk">Began this file.</change>
-            <change when="2025-10-08" who="Deepro Chakraborty">Added subsection names in heading.</change>
+            <change when="2025-10-08" who="Deepro Chakraborty">Added subsection names in
+                heading.</change>
+            <change when="2026-01-09" who="Deepro Chakraborty">Fixed alignment issues and changed
+                the tags of trailers.</change>
         </revisionDesc>
 
     </teiHeader>
@@ -498,7 +501,7 @@
                         <caesura/>
                          caranty antarnayanaṃ dūṣayantya iti || 0 ||</l>
 
-                    <p ana="trailer"> || śālākye dvitīyo 'dhyāyaḥ || </p>
+                    <l xml:id="SS.6.2.trailer"> || śālākye dvitīyo 'dhyāyaḥ || </l>
                 </div>
 
 
@@ -704,7 +707,7 @@
                         <caesura/>
                          pakṣmakopaḥ savijñeyāvyādhiḥ paramadāruṇa iti|| ❈ ||</l>
 
-                    <p ana="trailer">śālākye 3 || </p>
+                    <l xml:id="SS.6.3.trailer">śālākye 3 || </l>
                 </div>
 
                 <div n="4" type="adhyāya">
@@ -713,8 +716,8 @@
                     <note xml:lang="en">Draft based on MS K.</note>
 
 
-                    <note xml:lang="en">From here to the end of 6.4 is the text of KL 699, awaiting critical
-                        editing</note>
+                    <note xml:lang="en">From here to the end of 6.4 is the text of KL 699, awaiting
+                        critical editing</note>
 
                     <l xml:id="SS.6.4.1">
                         <label xml:lang="en">1938 ed. 6.4.1</label>
@@ -773,9 +776,10 @@
                         <caesura/>
                          śuklasthāḥ sitapiḍākāḥ śirāvṛtāyā yās tāṃ yādasiasamīpajāḥ sirājā ||
                         <caesura/>
-                         kāśābho mṛdur athavāpi vinvakalyau vijñeyo nayanasite valāsakākhya iti ||
-                        || sālākya thva </l>
-                    <trailer/>
+                         kāśābho mṛdur athavāpi vinvakalyau vijñeyo nayanasite valāsakākhya iti || </l>
+
+                    <l xml:id="SS.6.4.trailer"> || sālākya thva </l>
+
                 </div>
 
 
@@ -844,7 +848,7 @@
                         pracayobhyupaiti tañ cājakājātam iti vyavasyet | 0 || </l>
 
 
-                    <p ana="trailer"> śālākye 5</p>
+                    <l xml:id="SS.6.5.trailer"> śālākye 5</l>
                 </div>
 
                 <div n="6" type="adhyāya">
@@ -948,8 +952,8 @@
 
                     <l xml:id="SS.6.6.21cd"/>
 
-                    <l xml:id="SS.6.6.22cd">
-                        <label xml:lang="en">1938 ed. 6.6.22cd</label>
+                    <l xml:id="SS.6.6.22">
+                        <label xml:lang="en">1938 ed. 6.6.22</label>
                         <caesura/>
                          saṃrambhī dadyate yas tu sokṣi pākaḥ saśophajaḥ ||</l>
 
@@ -1007,7 +1011,7 @@
                         ||</l>
 
 
-                    <p ana="trailer"> śālākye 6</p>
+                    <l xml:id="SS.6.6.trailer"> śālākye 6</l>
                 </div>
 
                 <div n="7" type="adhyāya">
@@ -1108,18 +1112,12 @@
                         <caesura/>
                          dṛṣṭimadhyesthi te doṣe saha ñ ca paśyati | </l>
 
-                    <l xml:id="SS.6.7.15ab">
-                        <label xml:lang="en">1938 ed. 6.7.15ab</label>
+                    <l xml:id="SS.6.7.15">
+                        <label xml:lang="en">1938 ed. 6.7.15</label>
                         <caesura/>
-                         dvidhāśrite dvidhā paśyed vahudhā cānavasthite |</l>
-
-                    <l xml:id="SS.6.7.15.1">
-                        <label xml:lang="en">1938 ed. 6.7.15.1</label>
+                         dvidhāśrite dvidhā paśyed vahudhā cānavasthite |
                         <caesura/>
-                         doṣe dṛṣṭāśrite tiyagekaṃ vai samyate dvidhā |</l>
-
-                    <l xml:id="SS.6.7.15cd">
-                        <label xml:lang="en">1938 ed. 6.7.15cd</label>
+                         doṣe dṛṣṭāśrite tiyagekaṃ vai samyate dvidhā |
                         <caesura/>
                          timirākhya sa vai doṣaś ca caturtha paṭalṃ gataṃḥ |</l>
 
@@ -1340,7 +1338,7 @@
                          teṣāṃ ye pṛthagapṛthak va spaṣṭārthaśṛṇuta cikitsitaṃ yathāvad iti || ❈ || </l>
 
 
-                    <p ana="trailer"> śālākye 7 || </p>
+                    <l xml:id="SS.6.7.trailer"> śālākye 7 || </l>
                 </div>
 
                 <div n="8" type="adhyāya">
@@ -1432,8 +1430,9 @@
                         dvāv iti || </l>
 
 
-                    <p ana="trailer"> śālākyasthāne || 0 || </p>
+                    <l xml:id="SS.6.8.trailer">śālākyasthāne || 0 || </l>
                 </div>
+
                 <div n="9" type="adhyāya">
                     <head xml:lang="en">[Adhyāya 9, Śālākyatantra 9]</head>
 
@@ -1599,7 +1598,7 @@
                          vījenānena matimān steṣu karmaprayojayet iti || </l>
 
 
-                    <p ana="trailer"> śālākye || || 0 || </p>
+                    <l xml:id="SS.6.9.trailer"> śālākye || || 0 || </l>
                 </div>
 
                 <div n="10" type="adhyāya">
@@ -1633,13 +1632,17 @@
                         <caesura/>
                          drākṣākṣaudraṃ candanañ cotpalañ ca stiyāḥ stanyarasamikṣāḥ sitā ca |</l>
 
-                    <l xml:id="SS.6.10.5">
-                        <label xml:lang="en">1938 ed. 6.10.5</label>
+                    <l xml:id="SS.6.10.4cd">
+                        <label xml:lang="en">1938 ed. 6.10.4cd</label>
                         <caesura/>
-                         padmam patraṃ yaṣṭhi sākaṃ haridrāṃ tathānantā cāpi sambhṛtyasarpiḥ |
-                        siddhaṃ sekatarpaṇo cāñjane ca hitaṃ kṣīraṃ cā me te dhūmakai | </l>
+                         padmam patraṃ yaṣṭhi sākaṃ haridrāṃ tathānantā cāpi sambhṛtyasarpiḥ |</l>
 
-                    <l xml:id="SS.6.10.6cd">
+                    <l xml:id="SS.6.10.5cd">
+                        <label xml:lang="en">1938 ed. 6.10.5ab</label>
+                        <caesura/>
+                         siddhaṃ sekatarpaṇo cāñjane ca hitaṃ kṣīraṃ cā me te dhūmakai | </l>
+
+                    <l xml:id="SS.6.10.6">
                         <label xml:lang="en">1938 ed. 6.10.6cd</label>
                         <caesura/>
                          yojyo vargo vyasta eṣo dvidhā vā ca sacāpi nasyethāvat |
@@ -1653,8 +1656,8 @@
                         <caesura/>
                          rasakriyāṃ śarkarākṣaudrayuktaṃ pālindyām vā madhuke cāpi kuryāt | </l>
 
-                    <l xml:id="SS.6.10.8ab">
-                        <label xml:lang="en">1938 ed. 6.10.8ab</label>
+                    <l xml:id="SS.6.10.8">
+                        <label xml:lang="en">1938 ed. 6.10.8</label>
                         <caesura/>
                          mustaṃ phenaḥ sāgaraṃ sotpalañ ca krimighnailādhātrivījād rasañ ca | </l>
 
@@ -1800,12 +1803,10 @@
                         <caesura/>
                          roge valāsagrathitentujānḥ tu kuryād idaṃ syāt praviśāṣyadehaḥ | </l>
 
-                    <l xml:id="SS.6.11.11ab">
-                        <label xml:lang="en">1938 ed. 6.11.11ab</label>
+                    <l xml:id="SS.6.11.11">
+                        <label xml:lang="en">1938 ed. 6.11.11</label>
                         <caesura/>
                          nīlāṃ yavānājapayonnupītāṃ saṃśādhya saṃśoṣya tato nūdahya | </l>
-
-                    <l xml:id="SS.6.11.11cd"/>
 
 
                     <l xml:id="SS.6.11.12">
@@ -1857,7 +1858,7 @@
                         <caesura/>
                          syandādhimanthakramam ācarec ca sarveṣu caiteṣu sadā pramatta iti || </l>
 
-                    <p ana="trailer"> śālākye || 0 || </p>
+                    <l xml:id="SS.6.11.trailer">śālākye || 0 || </l>
                 </div>
 
 
@@ -2052,19 +2053,16 @@
                         <caesura/>
                          śirīṣavījamaricapippalīsaindhavair api | </l>
 
-                    <l xml:id="SS.6.12.29ab">
-                        <label xml:lang="en">1938 ed. 6.12.29ab</label>
+                    <l xml:id="SS.6.12.29">
+                        <label xml:lang="en">1938 ed. 6.12.29</label>
                         <caesura/>
                          śukrapragharṣaṇaṃ kārya madhunā saindhave na tu | </l>
 
-                    <l xml:id="SS.6.12.29cd"/>
 
 
-                    <l xml:id="SS.6.12.30ab"/>
 
-
-                    <l xml:id="SS.6.12.30cd">
-                        <label xml:lang="en">1938 ed. 6.12.30cd</label>
+                    <l xml:id="SS.6.12.30">
+                        <label xml:lang="en">1938 ed. 6.12.30</label>
                         <caesura/>
                          kuryād añjanayogā vā samyak ślokārdhikāvimau | </l>
 
@@ -2089,12 +2087,10 @@
                         <caesura/>
                          vibhītakāsthimajjā vā sakṣaudrā śukraśāntaye || </l>
 
-                    <l xml:id="SS.6.12.34ab">
+                    <l xml:id="SS.6.12.34">
                         <label xml:lang="en">1938 ed. 6.12.34ab</label>
                         <caesura/>
                          śaṃkhāsynta madhudākṣā mayūtakatakāni vā | </l>
-
-                    <l xml:id="SS.6.12.34cd"/>
 
 
                     <l xml:id="SS.6.12.35">
@@ -2104,12 +2100,11 @@
                         <caesura/>
                          kṣāravan śrāvayec cūrṇṇaṃ karabhātu bhāvayet | </l>
 
-                    <l xml:id="SS.6.12.36ab">
-                        <label xml:lang="en">1938 ed. 6.12.36ab</label>
+                    <l xml:id="SS.6.12.36">
+                        <label xml:lang="en">1938 ed. 6.12.36</label>
                         <caesura/>
                          vahuśoñjanayetatsyācchukravaivarṇṇanāśanaṃ | </l>
 
-                    <l xml:id="SS.6.12.36cd"/>
 
 
                     <l xml:id="SS.6.12.37"/>
@@ -2207,24 +2202,21 @@
                         <caesura/>
                          piṣṭvān ca jānāṃ payasāmalam vā kāṃsasya dagdhā saha tāntavena | </l>
 
-                    <l xml:id="SS.6.12.51ab">
+                    <l xml:id="SS.6.12.51">
                         <label xml:lang="en">1938 ed. 6.12.51ab</label>
                         <caesura/>
                          pratyañjanatatmaricairūpetaṃ cūrṇṇatāmrasya sahābhiyuñjyāt | </l>
 
-                    <l xml:id="SS.6.12.51cd"/>
 
-
-                    <l xml:id="SS.6.12.52ab"/>
-
-
-                    <l xml:id="SS.6.12.52cd">
-                        <label xml:lang="en">1938 ed. 6.12.52cd</label>
+                    <l xml:id="SS.6.12.52">
+                        <label xml:lang="en">1938 ed. 6.12.52</label>
                         <caesura/>
                          praklinnavartmāny areta eva yogāḥ prayojyāḥ prasamīkṣya doṣān iti || ||</l>
 
+                    <l xml:id="SS.6.12.53"/>
 
-                    <p ana="trailer"> śālākye 2 || 0 || </p>
+
+                    <l xml:id="SS.6.12.trailer">śālākye 2 || 0 || </l>
 
 
                 </div>
@@ -2264,31 +2256,27 @@
                         <caesura/>
                          vartvyāveś ca ta plotaṃ sasyas nnaṃ tato likhet | </l>
 
-                    <l xml:id="SS.6.13.6ab  "/>
 
-
-                    <l xml:id="SS.6.13.6cd">
-                        <label xml:lang="en">1938 ed. 6.13.6cd</label>
+                    <l xml:id="SS.6.13.6">
+                        <label xml:lang="en">1938 ed. 6.13.6</label>
                         <caesura/>
                          śastreṇa patrair athavā tato rakte sthite punaḥ | </l>
 
-                    <l xml:id="SS.6.13.7ab"/>
-                    <l xml:id="SS.6.13.7cd">
-                        <label xml:lang="en">1938 ed. 6.13.7cd</label>
+                    <l xml:id="SS.6.13.7">
+                        <label xml:lang="en">1938 ed. 6.13.7</label>
                         <caesura/>
                          svedyasaindhavacūrṇṇena pratisāryasukhāmvunā | </l>
 
-                    <l xml:id="SS.6.13.8ab">
-                        <label xml:lang="en">1938 ed. 6.13.8ab</label>
+                    <l xml:id="SS.6.13.8">
+                        <label xml:lang="en">1938 ed. 6.13.8</label>
                         <caesura/>
                          prakṣālya siktaṃ haviṣā vraṇavatnsamupācaret | </l>
-                    <l xml:id="SS.6.13.8cd"/>
 
-                    <l xml:id="SS.6.13.9ab">
-                        <label xml:lang="en">1938 ed. 6.13.9ab</label>
+
+                    <l xml:id="SS.6.13.9">
+                        <label xml:lang="en">1938 ed. 6.13.9</label>
                         <caesura/>
                          vyāsatas te tad akhilaṃ vidhānaṃ lekhya vartmaṇi | </l>
-                    <l xml:id="SS.6.13.9cd"/>
 
 
                     <l xml:id="SS.6.13.10">
@@ -2298,15 +2286,14 @@
                         <caesura/>
                          raktamakṣi srave skannaṃ timiraṃ vyādhyanirjayaḥ | </l>
 
-                    <l xml:id="SS.6.13.11ab"/>
-                    <l xml:id="SS.6.13.11cd">
-                        <label xml:lang="en">1938 ed. 6.13.11cd</label>
+                    <l xml:id="SS.6.13.11">
+                        <label xml:lang="en">1938 ed. 6.13.11</label>
                         <caesura/>
                          vartmañ ca guru śūnañ ca kaṇḍūharṣopadehavat | </l>
 
-                    <l xml:id="SS.6.13.12ab"/>
-                    <l xml:id="SS.6.13.12cd">
-                        <label xml:lang="en">1938 ed. 6.13.12cd</label>
+
+                    <l xml:id="SS.6.13.12">
+                        <label xml:lang="en">1938 ed. 6.13.12</label>
                         <caesura/>
                          durviriktaṃ vijānīyād atat sinnaṃ punar likhet | </l>
 
@@ -2364,18 +2351,18 @@
                     <l xml:id="SS.6.14.1"/>
                     <l xml:id="SS.6.14.2"/>
 
-                    <l xml:id="SS.6.14.3.">
-                        <label xml:lang="en">1938 ed. 6.14.3.</label>
+                    <l xml:id="SS.6.14.3">
+                        <label xml:lang="en">1938 ed. 6.14.3</label>
                         <caesura/>
                          svedayitvā visagranthipakvaṃ tasya nirāśayaṃ |
                         <caesura/>
                          bhitvāc chidrāṇi śastreṇa saindhavenāvacūrṇayet | </l>
 
-                    <l xml:id="SS.6.14.4ab">
-                        <label xml:lang="en">1938 ed. 6.14.4ab</label>
+                    <l xml:id="SS.6.14.4">
+                        <label xml:lang="en">1938 ed. 6.14.4</label>
                         <caesura/>
                          kāsīsamārgadhīmuścīnepālyelāyutena tu | </l>
-                    <l xml:id="SS.6.14.4cd"/>
+
 
                     <l xml:id="SS.6.14.5">
                         <label xml:lang="en">1938 ed. 6.14.5</label>
@@ -2384,14 +2371,14 @@
                         <caesura/>
                          pratisāraṇam ekaikaṃ bhinne lagaṇa iṣyate | </l>
 
-                    <l xml:id="SS.6.14.6ab">
-                        <label xml:lang="en">1938 ed. 6.14.6ab</label>
+                    <l xml:id="SS.6.14.6">
+                        <label xml:lang="en">1938 ed. 6.14.6</label>
                         <caesura/>
                          mahānty atha ca yuñjīta kṣārāgni vidhikovidaḥ | </l>
-                    <l xml:id="SS.6.14.6cd"/>
 
-                    <l xml:id="SS.6.14.7cd">
-                        <label xml:lang="en">1938 ed. 6.14.7cd</label>
+
+                    <l xml:id="SS.6.14.7">
+                        <label xml:lang="en">1938 ed. 6.14.7</label>
                         <caesura/>
                          rasāñjanamadhubhyān tu bhinnā cāñjanenāmikāṃ | </l>
 
@@ -2425,16 +2412,16 @@
                         <caesura/>
                          sarveṣv ateṣu vihitaṃ vidhānaṃ snehapūrvakam iti || </l>
 
-                    <p ana="trailer"> śālākye 13 || ❈ || </p>
+                    <l xml:id="SS.6.14.trailer"> śālākye 13 || ❈ || </l>
 
 
                 </div>
 
 
                 <div n="15" subtype="adhyāya">
-                    
-                  <head xml:lang="en">[Adhyāya 15, Śālākyatantra 14 in Nepalese version]</head>
-                    
+
+                    <head xml:lang="en">[Adhyāya 15, Śālākyatantra 14 in Nepalese version]</head>
+
                     <note xml:lang="en">Draft based on MS K.</note>
 
 
@@ -2494,11 +2481,8 @@
                         <caesura/>
                          kanīnikavavadhādasraṃndīdī cāpyupajāyate |</l>
 
-                    <l xml:id="SS.6.15.10ab"/>
-
-
-                    <l xml:id="SS.6.15.10cd">
-                        <label xml:lang="en">1938 ed. 6.15.10cd</label>
+                    <l xml:id="SS.6.15.10">
+                        <label xml:lang="en">1938 ed. 6.15.10</label>
                         <caesura/>
                          arma cej jālavac cāpi taddeṣyonmarjjalamvitaṃ </l>
 
@@ -2523,18 +2507,16 @@
                         <caesura/>
                          vraṇavat samvidhānañ ca tasya kuryāt tataḥ paraṃ |</l>
 
-                    <l xml:id="SS.6.15.14ab">
-                        <label xml:lang="en">1938 ed. 6.15.14ab</label>
+                    <l xml:id="SS.6.15.14">
+                        <label xml:lang="en">1938 ed. 6.15.14</label>
                         <caesura/>
                          trahān muktvā ca saṃsvedya paścoc chodhanam ācaret |</l>
 
-                    <l xml:id="SS.6.15.14cd"/>
-
-                    <l xml:id="SS.6.15.16ab"/>
+                    <l xml:id="SS.6.15.15"/>
 
 
-                    <l xml:id="SS.6.15.16cd">
-                        <label xml:lang="en">1938 ed. 6.15.16cd</label>
+                    <l xml:id="SS.6.15.16">
+                        <label xml:lang="en">1938 ed. 6.15.16</label>
                         <caesura/>
                          lekhyāñjanaiś copahared armaśeṣaṃ bhaved yadi |</l>
 
@@ -2662,10 +2644,7 @@
                         <caesura/>
                          śastrakarmaṇyapagate māsañ ca syāt suyantritaḥ ||</l>
 
-                    <l xml:id="SS.6.15.34">
-                        <label xml:lang="en">1938 ed. 6.15.34</label>
-                        <caesura/>
-                         śālākya | lādhū || || </l>
+                    <l xml:id="SS.6.15.trailer"> śālākya | lādhū || || </l>
                 </div>
 
 
@@ -2706,12 +2685,10 @@
                     <l xml:id="SS.6.16.4cd"/>
 
 
-                    <l xml:id="SS.6.16.6ab">
-                        <label xml:lang="en">1938 ed. 6.16.6ab</label>
+                    <l xml:id="SS.6.16.6">
+                        <label xml:lang="en">1938 ed. 6.16.6</label>
                         <caesura/>
-                         lalāṭadeśe ca nivadhya paṭṭāṃ prāksīvitan tatra parañ ca vandhet | </l>
-                    <l xml:id="SS.6.16.6cd">
-                        <label xml:lang="en">1938 ed. 6.16.6cd</label>
+                         lalāṭadeśe ca nivadhya paṭṭāṃ prāksīvitan tatra parañ ca vandhet |
                         <caesura/>
                          sthairyaṃ gate cāpyatha śastramārge vālām vimuñcet kuśalābhikṣya | </l>
 
@@ -2737,7 +2714,7 @@
                          virecanāś cyotananasya dhūmalepāṃjanasneharasākriyāś ceti || </l>
 
 
-                    <p ana="trailer"> śālākye 15 || 0 || </p>
+                    <l xml:id="SS.6.16.trailer"> śālākye 15 || 0 || </l>
 
 
                 </div>
@@ -3143,6 +3120,12 @@
                          prabhūtasarpistriphalodakottaro
                         <caesura/>
                          yavaudano vā timiram vyapohati || </l>
+
+                    <l xml:id="SS.6.17.50"/>
+
+                    <l xml:id="SS.6.17.51"/>
+
+
                     <l xml:id="SS.6.17.52">
                         <label xml:lang="en">1938 ed. 6.17.52</label>
                         <caesura/>
@@ -3155,6 +3138,9 @@
                          arāgaṃ timiraṃ sādhyam ādyaṃ paṭalam āśritaṃ |
                         <caesura/>
                          rāgi dvitīye kṛcchreṇa tṛtīye yāpyam ucyate || </l>
+
+                    <l xml:id="SS.6.17.54"/>
+
                     <l xml:id="SS.6.17.55">
                         <label xml:lang="en">1938 ed. 6.17.55</label>
                         <caesura/>
@@ -3265,6 +3251,10 @@
                          daśāham evaṃ saṃyamya hitaṃ dṛṣṭiprasādanaṃ |
                         <caesura/>
                          paścāt karma ca seveta laghvannañ caiva mātrayā ||63|| </l>
+
+                    <l xml:id="SS.6.17.71"/>
+
+
                     <l xml:id="SS.6.17.72">
                         <label xml:lang="en">1938 ed. 6.17.72</label>
                         <caesura/>
@@ -3392,7 +3382,8 @@
                          bhūyo vakṣyāmi mukhyāni vistareṇāñjanāni tu |
                         <caesura/>
                          kalpe nānāprakārāṇi tāny apīha prayojayet || 82 || iti || </l>
-                    <trailer/>
+
+                    <l xml:id="SS.6.17.trailer"/>
                 </div>
 
 
@@ -4084,7 +4075,7 @@
                         <caesura/>
                          piṇḍāṃjanāni matimāṃ vidadhyāt tu yathāgadam iti ||</l>
 
-                    <p ana="trailer"> || śālākye 17 || ❈ ||</p>
+                    <l xml:id="SS.6.18.trailer"> || śālākye 17 || ❈ ||</l>
 
                 </div>
 
@@ -4309,7 +4300,7 @@
                         <caesura/>
                          sarvam ūhyam agūḍhārthaṃ śāstram āgamabuddhineti ||</l>
 
-                    <p ana="trailer"> śālākye || 18 || ❈ ||</p>
+                    <l xml:id="SS.6.19.trailer"> śālākye || 18 || ❈ ||</l>
 
                 </div>
 
@@ -4425,7 +4416,7 @@
                         <caesura/>
                          pradiṣṭaliṅgāny arśāṃsi yatnatas tathaiva śophārbudaliṅgam īritam iti || </l>
 
-                    <p ana="trailer">śālākye 19 || ❈ ||</p>
+                    <l xml:id="SS.6.20.trailer">śālākye 19 || ❈ ||</l>
 
                 </div>
 
@@ -4772,7 +4763,7 @@
                         <caesura/>
                          śeṣāṇān tu vikārāṇā prāk cikitsitam ītitaṃ ||</l>
 
-                    <p ana="trailer">śālākye || 20 ||</p>
+                    <l xml:id="SS.6.21.trailer">śālākye || 20 ||</l>
 
                     <l xml:id="SS.6.21.60">
                         <label xml:lang="en">1938 ed. 6.21.60</label>
@@ -4835,8 +4826,8 @@
 
                     <ab corresp="#SS.6.22.6" type="apparatus">
                         <list type="Testimonia">
-                            <item xml:lang="en" corresp="#SS.6.22.6-n1">= <title>Carakasaṃhitā</title>
-                                6.26.113cd-114ab.</item>
+                            <item xml:lang="en" corresp="#SS.6.22.6-n1">=
+                                    <title>Carakasaṃhitā</title> 6.26.113cd-114ab.</item>
                         </list>
                     </ab>
 
@@ -4941,7 +4932,7 @@
                         <caesura/>
                          śophās tu śophavijñānā nāsāsrotovyavasthitā iti ||</l>
 
-                    <p ana="trailer"> śālākye 21 || ❈ ||</p>
+                    <l xml:id="SS.6.22.trailer"> śālākye 21 || ❈ ||</l>
 
                 </div>
 
@@ -5034,8 +5025,8 @@
 
                     <ab corresp="#SS.6.23.trailer" type="apparatus">
                         <list type="Note">
-                            <item xml:lang="en" corresp="#SS.6.23.trailer-n1">At this point, witness K continues
-                                directly with the chapter on head diseases,
+                            <item xml:lang="en" corresp="#SS.6.23.trailer-n1">At this point, witness
+                                K continues directly with the chapter on head diseases,
                                     <foreign>śirorogavijñānīyam</foreign>. In the vulgate text, the
                                 next chapter, 24, is <foreign>pratiśyāyapratiṣedham</foreign>. In MS
                                 K, this chapter appears as number 51, between
@@ -5176,7 +5167,7 @@
                         <caesura/>
                          bhiṣak sahasrair api durnivāram iti || </l>
 
-                    <p ana="trailer"> śālākye || 23|| ❈ || </p>
+                    <l xml:id="SS.6.25.trailer">śālākye || 23|| ❈ || </l>
 
                 </div>
 
@@ -5215,11 +5206,9 @@
                         <caesura/>
                          vātaghnasiddhaiḥ kṣīraiś ca sukhoṣṇairllepayec chiraḥ | </l>
 
-                    <l xml:id="SS.6.26.6ab"/>
 
-
-                    <l xml:id="SS.6.26.6cd">
-                        <label xml:lang="en">1938 ed. 6.26.6cd</label>
+                    <l xml:id="SS.6.26.6">
+                        <label xml:lang="en">1938 ed. 6.26.6</label>
                         <caesura/>
                          svinnair vā matsyāpiśitaiḥ kṛśarair vā sasaindhavaiḥ | </l>
 
@@ -5406,8 +5395,8 @@
                          śirīṣamūlakaphalair avapīḍanayor hitaḥ || </l>
                     <l xml:id="SS.6.26.32cd"/>
 
-                    <l xml:id="SS.6.26.33A">
-                        <label xml:lang="en">1938 ed. 6.26.33A</label>
+                    <l xml:id="SS.6.26.33">
+                        <label xml:lang="en">1938 ed. 6.26.33</label>
                         <caesura/>
                          avabhedahito vāsyādva cā pippalisaṃyutaṃ | </l>
 
@@ -5652,7 +5641,7 @@
                          namas skandāya devāya grahādhipataye namaḥ | śirasā tv ābhivande haṃ
                         pratigṛṇhīṣva me baliṃ | nīrujānirvvikāraś ca śiśurvāś ca jayatām iti || </l>
 
-                    <p ana="trailer"> kumāre || 1 || 0 || </p>
+                    <l xml:id="SS.6.27.trailer">kumāre || 1 || 0 || </l>
 
                 </div>
 
@@ -5754,7 +5743,7 @@
                         <caesura/>
                          raktadivyavapuḥ śrīmāṃ pātutvāṃ krauñcasūdana iti || </l>
 
-                    <p ana="trailer"> kumāre || 2 || 0 || </p>
+                    <l xml:id="SS.6.28.trailer"> kumāre || 2 || 0 || </l>
 
                 </div>
 
@@ -5823,7 +5812,7 @@
                         <caesura/>
                          viśākhasaṃjñaḥ saśiṣāḥ śivos tu vitānena iti || </l>
 
-                    <p ana="trailer"> kumāre || 3 || 0 || </p>
+                    <l xml:id="SS.6.29.trailer">kumāre || 3 || 0 || </l>
 
                 </div>
 
@@ -5910,7 +5899,7 @@
                         <caesura/>
                          lambodarīśaṅkukarṇī śakunī te prasīdatām iti || </l>
 
-                    <p ana="trailer"> kumāra || 3 || ❈ || </p>
+                    <l xml:id="SS.6.30.trailer">kumāra || 3 || ❈ || </l>
 
                 </div>
 
