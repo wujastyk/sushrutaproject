@@ -2,7 +2,7 @@
     <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
         <fileDesc>
             <titleStmt>
-                <title>MS Bīkāner Anup 4389</title>
+                <title>Provisional edition of Gayadāsa</title>
             </titleStmt>
             <publicationStmt>
                 <p>Suśruta project, University of Alberta</p>
@@ -15,11 +15,11 @@
                             <country>India</country>
                         </placeName>
                         <institution>Anup Library<ptr/></institution>
-                        <idno>4389</idno>
-                        <idno type="siglum">B</idno>
+                        <idno>2026-01-13</idno>
+                        <idno type="siglum">NE</idno>
                     </msIdentifier>
                     <msContents>
-                        <summary>A paper manuscript in Devanāgarī script.</summary>
+                        <summary>Draft ed. of Nyāyacandrikā.</summary>
                         <msItem defective="true" n="1">
                             <author role="author" xml:lang="sa">Gayadāsa</author>
                             <title xml:lang="sa">Nyāyacandrikā</title>
@@ -31,7 +31,7 @@
                     </msContents>
 
                     <physDesc>
-                        <p resp="Jason Birch">Folio 1r missing.</p>
+                        <p resp="Jason Birch"></p>
                         <objectDesc form="pothi">
                             <!-- @form can be "pothi", "book", scroll", etc. -->
                             <supportDesc material="paper"
@@ -41,25 +41,11 @@
                         <handDesc>
                             <handNote medium="ink black" scope="sole" script="newa"/>
                         </handDesc>
-                        <scriptDesc>
-                            <scriptNote xml:id="script-ba-va"><foreign xml:lang="ba"
-                                    >ba</foreign> and <foreign xml:lang="va">va</foreign>
-                                not distinguished.</scriptNote>
-                            <scriptNote xml:id="svarna-nasals"/>
-                            <!-- see 
-				https://github.com/chchch/upama/issues/87#issuecomment-2357860543 -->
-                        </scriptDesc>
+                       
 
 
                     </physDesc>
 
-                    <history>
-                        <origin>
-                            <origDate calendar="India" when="0301">Śaka 1477 (1555
-                                CE).</origDate>
-                            <!-- calendar can be "Vikrama", "Śaka", etc. Dates can be approximate or exact. -->
-                        </origin>
-                    </history>
 
 
                 </msDesc>
@@ -68,7 +54,7 @@
         </fileDesc>
 
         <revisionDesc>
-            <change when="2020-01-06" who="Jason Birch">Transcribed f. 1v.</change>
+            <change when="2026-01-13" who="Jason Birch">File created on the basis of MS Bikaner 4389</change>
 
 
         </revisionDesc>
@@ -81,8 +67,7 @@
 
                 <div n="1" type="adhyāya">
 
-                    <p><milestone facs="1325.jpg" n="1v" unit="digital_image"/>
-                        <pb facs="1" n="1v"/>
+     
                         <l><unclear>kā</unclear>śipatiṃ prakāśitaṃ | tatra yāva<unclear
                                 reason="overwritten">ṭhi</unclear>
                             <subst><del rend="crossed out">a</del><add place="above"
@@ -99,14 +84,20 @@
                         <l>vṛttau adhikṛtya ta<space unit="akṣara" quantity="1"/>sya
                                 <space unit="akṣara" quantity="2"/> śiśu kradadhaḥ <space
                                 unit="akṣara" quantity="1"/> sa<unclear/>etyādinā i<del
-                                rend="crossed out"/> nama deśakṛtigaṇa cācha||
-                            <!--Chapter 2  --> athavā śi </l>
+                                rend="crossed out"/> nama deśakṛtigaṇa cācha||</l>
+                </div>
+                
+                <div n="2" type="adhyāya">
+                
+                       <l> athavā śi </l>
                         <l>ṣyopanayanam ā<unclear>sā</unclear>n vidyatap iti bhatau chaḥ
                                 <space unit="akṣara" quantity="7"/> vartanāne madarthaḥ
                             dhyāyānuvāka</l>
                         <l><space unit="akṣara" quantity="8"/>manyeṣv apy etaṃ jātīye
-                            rūdhyaya na saṃpradānīyādiṣu cha pratāyaḥ |
-                            <!-- 1.2.3? -->brāhmaṇakṣatriyavaiśvā </l>
+                            rūdhyaya na saṃpradānīyādiṣu cha pratāyaḥ |</l>
+                    
+                    
+                    <l xml:id="NC.1.2.3"> brāhmaṇakṣatriyavaiśvā </l>
                         <l>nāṃ sa<unclear>dhye</unclear><del rend="crossed out"
                             >sa</del>mam ekatamaṃ | an<gap reason="tape" unit="akṣara"
                                 quantity="6"/>atrānvayaḥ āyurvedādhāyikuloṃ
@@ -144,7 +135,6 @@
                                 />praphalamaṃ<unclear>tru</unclear>tādhanaṃ ya yogāt</l>
                         <l>sanmārgapava pravartate |</l>
                     </p>
-                </div>
                 <!-- end of chapter 1 of Sūtrasthāna-->
             </div>
             <!-- end of sthana -->
