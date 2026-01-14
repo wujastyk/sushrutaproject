@@ -2,7 +2,7 @@
     <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
         <fileDesc>
             <titleStmt>
-                <title>Provisional edition of Gayadāsa</title>
+                <title>MS Bīkāner Anup 4389</title>
             </titleStmt>
             <publicationStmt>
                 <p>Suśruta project, University of Alberta</p>
@@ -15,11 +15,11 @@
                             <country>India</country>
                         </placeName>
                         <institution>Anup Library<ptr/></institution>
-                        <idno>2026-01-13</idno>
-                        <idno type="siglum">NE</idno>
+                        <idno>4389</idno>
+                        <idno type="siglum">B</idno>
                     </msIdentifier>
                     <msContents>
-                        <summary>Draft ed. of Nyāyacandrikā.</summary>
+                        <summary>A paper manuscript in Devanāgarī script.</summary>
                         <msItem defective="true" n="1">
                             <author role="author" xml:lang="sa">Gayadāsa</author>
                             <title xml:lang="sa">Nyāyacandrikā</title>
@@ -31,7 +31,7 @@
                     </msContents>
 
                     <physDesc>
-                        <p resp="Jason Birch"></p>
+                        <p resp="Jason Birch">Folio 1r missing.</p>
                         <objectDesc form="pothi">
                             <!-- @form can be "pothi", "book", scroll", etc. -->
                             <supportDesc material="paper"
@@ -41,11 +41,25 @@
                         <handDesc>
                             <handNote medium="ink black" scope="sole" script="newa"/>
                         </handDesc>
-                       
+                        <scriptDesc>
+                            <scriptNote xml:id="script-ba-va"><foreign xml:lang="ba"
+                                    >ba</foreign> and <foreign xml:lang="va">va</foreign>
+                                not distinguished.</scriptNote>
+                            <scriptNote xml:id="svarna-nasals"/>
+                            <!-- see 
+				https://github.com/chchch/upama/issues/87#issuecomment-2357860543 -->
+                        </scriptDesc>
 
 
                     </physDesc>
 
+                    <history>
+                        <origin>
+                            <origDate calendar="India" when="0301">Śaka 1477 (1555
+                                CE).</origDate>
+                            <!-- calendar can be "Vikrama", "Śaka", etc. Dates can be approximate or exact. -->
+                        </origin>
+                    </history>
 
 
                 </msDesc>
@@ -54,7 +68,7 @@
         </fileDesc>
 
         <revisionDesc>
-            <change when="2026-01-13" who="Jason Birch">File created on the basis of MS Bikaner 4389</change>
+            <change when="2020-01-06" who="Jason Birch">Transcribed f. 1v.</change>
 
 
         </revisionDesc>
@@ -67,8 +81,9 @@
 
                 <div n="1" type="adhyāya">
 
-     
-                        <l><unclear>kā</unclear>śipatiṃ prakāśitaṃ | tatra yāva<unclear
+                    <milestone facs="1325.jpg" n="1v" unit="digital_image"/>
+                        <pb facs="1" n="1v"/>
+                       <!-- <l><unclear>kā</unclear>śipatiṃ prakāśitaṃ | tatra yāva<unclear
                                 reason="overwritten">ṭhi</unclear>
                             <subst><del rend="crossed out">a</del><add place="above"
                                     >ṣya</add></subst>say parīkṣāna bhavati |
@@ -84,61 +99,57 @@
                         <l>vṛttau adhikṛtya ta<space unit="akṣara" quantity="1"/>sya
                                 <space unit="akṣara" quantity="2"/> śiśu kradadhaḥ <space
                                 unit="akṣara" quantity="1"/> sa<unclear/>etyādinā i<del
-                                rend="crossed out"/> nama deśakṛtigaṇa cācha||</l>
-                </div>
-                
-                <div n="2" type="adhyāya">
-                
-                       <l> athavā śi </l>
-                        <l>ṣyopanayanam ā<unclear>sā</unclear>n vidyatap iti bhatau chaḥ
-                                <space unit="akṣara" quantity="7"/> vartanāne madarthaḥ
-                            dhyāyānuvāka</l>
-                        <l><space unit="akṣara" quantity="8"/>manyeṣv apy etaṃ jātīye
-                            rūdhyaya na saṃpradānīyādiṣu cha pratāyaḥ |</l>
-                    
-                    
-                    <l xml:id="NC.1.2.3"> brāhmaṇakṣatriyavaiśvā </l>
-                        <l>nāṃ sa<unclear>dhye</unclear><del rend="crossed out"
-                            >sa</del>mam ekatamaṃ | an<gap reason="tape" unit="akṣara"
-                                quantity="6"/>atrānvayaḥ āyurvedādhāyikuloṃ
-                                va<unclear>y</unclear>o bālyāvasthādikaṃ | śau </l>
-                        <!-- anyatamam ekatamam, anvayaḥ āyurvedādhyāyikulaṃ -->
-                        <l>caṃ <unclear>p</unclear>citā| bāhyamābhyaṃtaraṃ cā<gap
-                                reason="tape" unit="akṣara" quantity="5"/> vā<add
-                                place="above">nā</add>dikaṃ | ābhyaṃtaraṃ manaḥ saṃśuddhiḥ
-                                |ācā<del rend="crossed out" unit="akṣara" quantity="3"/>
-                            raṃ krulade </l>
-                        <l>trādyanugataṃ laukikaṃ <unclear>vi</unclear>dhāna<gap
+                                rend="crossed out"/> nama deśakṛtigaṇa cācha||--> 
+                                <l> <!--Chapter 2  --> athavā śi </l>
+                        <l>ṣyopanayanam a<unclear>smi</unclear>n †vidyata p iti bhataucchaḥ°†
+                                <space unit="akṣara" quantity="7"/> †vartanāne madarthaḥ
+                            dhyāyānuvāka†</l>
+                        <l><space unit="akṣara" quantity="8"/>m anyeṣv apy etaṃ jātīye
+                            'dhyayanasaṃpradānīyādiṣu †cha pratāyaḥ† |
+                            <!-- 1.2.3? -->brāhmaṇakṣatriyavaiśyā</l>
+                        <l>nāṃ madhye <choice><orig></orig><corr>anyata</corr></choice>mam ekatamaṃ | an<gap reason="tape" unit="akṣara"
+                                quantity="6"/>atrānvayaḥ āyurvedādhyāyikulaṃ
+                                vayo bālyāvasthādikaṃ | śau</l>
+                        <l>caṃ śucitā| bāhyamābhyaṃtaraṃ ca|<gap
+                                reason="tape" unit="akṣara" quantity="5"/> <choice><orig>vā</orig><corr>snā</corr></choice>nādikaṃ | ābhyaṃtaraṃ manaḥsaṃśuddhiḥ
+                                |ācāraḥ kulade</l>
+                        <l>śādyanugataṃ laukikaṃ vidhānaṃ<gap
                                 reason="tape" unit="akṣara" quantity="5"/>teṃdriyapūrvikā
-                                śā<unclear>??</unclear>uṇapravṛttiḥ| śatrirūn sāha śaktiḥ
+                            śāstṛguṇapravṛttiḥ| śatrir utsāhaśaktiḥ
                             ba</l>
-                        <l>laṃ kriyā nirvarttanakṣamatā anye<gap reason="tape"
+                        <l>laṃ kriyānirvarttanakṣamatā anye<gap reason="tape"
                                 unit="akṣara" quantity="5"/>r viparyayam āhuḥ |
-                                <unclear>pra</unclear>ti<del rend="crossed out"
-                                unit="akṣara" quantity="2">mni</del>rmasaṃtuṣṭismṛtiḥ
-                            pūrvan bhūtasya smara</l>
-                        <l>ṇa | pratipattir avabodhaḥ | anuṣṭhān<gap reason="tape"
+                                dhṛtir manaḥsaṃtuṣṭiḥ smṛtiḥ
+                            pūrvānubhūtasya smara</l>
+                        <l>ṇaṃ | pratipattir avabodhaḥ | anuṣṭhān<gap reason="tape"
                                 unit="akṣara" quantity="4"/>r yuktam
-                                adhi<unclear>tu</unclear>| tatrādvayayukto dhyāyo
-                            dhikṛtacāśadhāyoḥ pratha</l>
+                                †adhitu†| tatrādvayayukto 'dhyāyo
+                            'dhikṛtatvāt| dhāyoḥ pratha</l>
                         <l>maṃ tatraidati ghā<space unit="akṣara" quantity="3"/>kṣity
                                 āha<gap reason="tape" unit="akṣara" quantity="4"/>ravayo
-                                vacchāmu<unclear>ca</unclear> vidyā phalāvāptaḥ | bāhyaḥ
+                                vacchāsu<unclear>ci</unclear>vidyāphalāvāptaḥ | †bāhyaḥ
                             śaucayogād adi</l>
+                    
 
-
-                    <p><milestone facs="1326.jpg" n="2r" unit="digital_image"/>
+                    <milestone facs="1326.jpg" n="2r" unit="digital_image"/>
                         <pb facs="2" n="2r"/>
-                        <l>gahaṇīyaḥ <space unit="akṣara" quantity="1"/>
-                            <unclear>1</unclear>yantaraśaucayogād ānurādhiṃ sa cādhī|
+                        <l>gahaṇīyaḥ† <space unit="akṣara" quantity="1"/>
+                            <unclear>1</unclear>yantaraśaucayogād †ānurādhisacādhī†|
                                 ācārayogāna<gap reason="tape" unit="akṣara" quantity="4"
-                                />praphalamaṃ<unclear>tru</unclear>tādhanaṃ ya yogāt</l>
-                        <l>sanmārgapava pravartate |</l>
-                    </p>
+                                />†praphalamaṃbhrutādha† vinayayogāt</l>
+                    <l>sanmārga †pava† pravartate | śaktiyogāt sadā śāstrodyogaṃ karoti| balayogāt śāstrakleśaṃ kṣayate | te prayātya</l>
+                    
+                    <l>sthāne vā<space unit="akṣara" quantity="3"/>śenagraṃvaṃ vibhurtti| dhṛtiyogād avyākulavittaśāstraaṃ cintayan prasannīkaroti|| yogād abhyasta</l>
+                    
+                    <l>na vismarati pratipattyā śāstrārtham avagacchati ricyate|| <space unit="akṣara" quantity="8"/>nuśabdo jihvādibhiḥ pra</l>
+                    
+                    <l>tyekam abhisaṃbadhyate| ceṣṭā kāyaparispaṃdaḥ | ato viparītaguṇaṃ nopanayet|</l>
+                    
+                </div>
                 <!-- end of chapter 1 of Sūtrasthāna-->
             </div>
             <!-- end of sthana -->
-            </div>
+
         </body>
     </text>
 
