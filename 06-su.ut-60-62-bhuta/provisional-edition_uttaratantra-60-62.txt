@@ -2,8 +2,8 @@
     <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
         <fileDesc>
             <titleStmt>
-                <title>The Nepalese Version of the Suśrutasaṃhitā, uttaratantra 45-66,
-                    based on the Nepalese MSS</title>
+                <title>The Nepalese Version of the Suśrutasaṃhitā: Uttaratantra 60--62,
+                    Bhūtavidyātantra</title>
             </titleStmt>
             <publicationStmt>
                 <authority>The Suśruta Project</authority>
@@ -54,7 +54,7 @@
             <sourceDesc>
                 <msDesc xml:id="Sanskrit" xml:lang="en">
                     <msIdentifier>
-                        <idno type="siglum">PE</idno>
+                        <idno type="siglum">NE</idno>
                     </msIdentifier>
                 </msDesc>
                 <listWit>
@@ -90,6 +90,12 @@
                 (xml:id 53 and 54). This is the position of the pratiśyāya chapter in the
                 Nepalese MSS.</change>
 
+            <change when="2026-01-20" who="Dominik Wujastyk">Restructuring of the
+                Uttaratantra xml files. The xml files are now divided according to the
+                internal naming of the sections, Śālākyatantra (adhyāyas 1-26),
+                Kumāratantra (27-38), Kāyacikitsātantra (39-59), Bhūtavidyātantra (60-62),
+                Tantrabhūṣaṇādhyāya (63-66).</change>
+            
         </revisionDesc>
 
     </teiHeader>
@@ -97,7 +103,8 @@
     <text xml:lang="sa-Latn">
         <body>
             <div n="6" type="sthāna">
-                <head>[Uttaratantra 45-66]</head>
+
+                <head xml:lang="en">[Uttaratantra 60--62, Bhūtavidyātantra]</head>
 
 
                 <div corresp="6.60 in KL 699" n="60" type="adhyāya">
@@ -119,8 +126,8 @@
 
                     <ab corresp="#SS.6.60.2" type="apparatus">
                         <list type="Notes">
-                            <item xml:lang="en" corresp="#SS.6.60.2-n1"> One of the only two places in
-                                the Nepalese version where this
+                            <item xml:lang="en" corresp="#SS.6.60.2-n1"> One of the only
+                                two places in the Nepalese version where this
                                     <foreign>yathovāca</foreign> phrase appears. The other
                                 is Suśrutasaṃhitā 5.1.2. At that location, a scribe of
                                 witness H added the marginal phrase <foreign>atha khalu
@@ -1017,7 +1024,7 @@
                 </div>
 
 
- 
+
             </div>
         </body>
     </text>

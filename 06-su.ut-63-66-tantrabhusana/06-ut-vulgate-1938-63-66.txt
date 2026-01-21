@@ -66,8 +66,8 @@
           <pubPlace>Bombay</pubPlace>
           <date>1938</date>
           <edition>Reprint edition Varanasi/Delhi: Chaukhambha Orientalia, 1992|</edition>
-          <note xml:lang="en">The nidānasthāna (SS.2), cikitsāsthāna (SS.4) , kalpasthāna (SS.5) and
-            uttaratantra (SS.6) are based on this edition</note>
+          <note xml:lang="en">The nidānasthāna (SS.2), cikitsāsthāna (SS.4) , kalpasthāna
+            (SS.5) and uttaratantra (SS.6) are based on this edition</note>
           <note xml:lang="en">This SARIT edition omits the commentarial material from this
             edition|</note>
         </bibl>
@@ -97,9 +97,13 @@
         Nepalese version 6.47.13-1 ... 6.47.13-5</change>
       <change when="2025-05-30" who="Deepro Chakraborty and Dominik Wujastyk">We copied
         chapter xml:id 6.24 "pratiśyāya" from 06-ut-vulgate-edition-01-30.txt to the end
-        of this file, 06-ut-vulgate-edition-45-66.txt.  This enables the text to be collated against the manuscripts
-        of this chapter that are here between svaropaghāta and krimi (xml:id 53 and 54).
-      </change>
+        of this file, 06-ut-vulgate-edition-45-66.txt. This enables the text to be
+        collated against the manuscripts of this chapter that are here between
+        svaropaghāta and krimi (xml:id 53 and 54). </change>
+      <change when="2026-01-20" who="Dominik Wujastyk">Restructuring of the Uttaratantra
+        xml files. The xml files are now divided according to the internal naming of the
+        sections, Śālākyatantra (adhyāyas 1-26), Kumāratantra (27-38), Kāyacikitsātantra
+        (39-59), Bhūtavidyātantra (60-62), Tantrabhūṣaṇādhyāya (63-66).</change>
     </revisionDesc>
   </teiHeader>
 
@@ -3335,14 +3339,14 @@
           <p ana="trailer">iti susrutasaṃhitāyām uttaratantrāntargate bhūtavidyātantre
             'pasmārapratiṣedho nāma (dvitīyo 'dhyāyaḥ, āditaḥ) ekaṣaṣṭitamo 'dhyāyaḥ ||61
             ||</p>
-            
+
         </div>
-        
-        
+
+
         <div n="62" type="adhyāya">
-        
+
           <head>dviṣaṣṭitamo 'dhyāyaḥ | </head>
-          
+
           <l xml:id="SS.6.62.1"> athāta unmādapratiṣedham adhyāyaṃ vyākhyāsyāmaḥ || </l>
 
           <l xml:id="SS.6.62.2"> yathovāca bhagavān dhanvantariḥ || </l>
@@ -3389,7 +3393,7 @@
           <l xml:id="SS.6.62.11"> sarvātmake pavanapittakaphā yathāsvaṃ saṃharṣitā iva ca
             liṅgam udīrayanti || </l>
 
-     
+
 
           <l xml:id="SS.6.62.12"> caurairnarendrapuruṣairaribhis tathānyairvitrāsitasya
             dhanabāndhavasaṃkṣayādvā |
@@ -3511,9 +3515,9 @@
 
 
         <div n="63" type="adhyāya">
-          
+
           <head>triṣaṣṭitamo 'dhyāyaḥ | </head>
-          
+
           <l xml:id="SS.6.63.1"> athāto rasabhedavikalpam adhyāyaṃ vyākhyāsyāmaḥ || </l>
 
           <l xml:id="SS.6.63.2"> yathovāca bhagavān dhanvantariḥ || </l>

@@ -2,8 +2,8 @@
     <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
         <fileDesc>
             <titleStmt>
-                <title>The Nepalese Version of the Suśrutasaṃhitā, uttaratantra 45-66,
-                    based on the Nepalese MSS</title>
+                <title>The Nepalese Version of the Suśrutasaṃhitā: Uttaratantra 63-66,
+                    Tantrabhūṣaṇādhyāya</title>
             </titleStmt>
             <publicationStmt>
                 <authority>The Suśruta Project</authority>
@@ -54,7 +54,7 @@
             <sourceDesc>
                 <msDesc xml:id="Sanskrit" xml:lang="en">
                     <msIdentifier>
-                        <idno type="siglum">PE</idno>
+                        <idno type="siglum">NE</idno>
                     </msIdentifier>
                 </msDesc>
                 <listWit>
@@ -89,6 +89,11 @@
                 provisional-edition_uttaratantra-45-66.txt, between svaropaghāta and krimi
                 (xml:id 53 and 54). This is the position of the pratiśyāya chapter in the
                 Nepalese MSS.</change>
+            <change when="2026-01-20" who="Dominik Wujastyk">Restructuring of the
+                Uttaratantra xml files. The xml files are now divided according to the
+                internal naming of the sections, Śālākyatantra (adhyāyas 1-26),
+                Kumāratantra (27-38), Kāyacikitsātantra (39-59), Bhūtavidyātantra (60-62),
+                Tantrabhūṣaṇādhyāya (63-66).</change>
 
         </revisionDesc>
 
@@ -97,12 +102,12 @@
     <text xml:lang="sa-Latn">
         <body>
             <div n="6" type="sthāna">
-                <head>[Uttaratantra 45-66]</head>
+                <head xml:lang="en">[Uttaratantra 63-66, Tantrabhūṣaṇādhyāya]</head>
 
 
-          
 
-                <div  n="63" corresp="6.62 in KL 699" type="adhyāya">
+
+                <div n="63" corresp="6.62 in KL 699" type="adhyāya">
 
                     <head xml:lang="en">[Adhyāya 63: draft edition based on MS K]</head>
 
@@ -250,7 +255,7 @@
                 </div>
 
 
-                <div n="64" corresp="6.63 in KL 699"  type="adhyāya">
+                <div n="64" corresp="6.63 in KL 699" type="adhyāya">
 
                     <head xml:lang="en">[Adhyāya 64: draft edition based on MS K]</head>
 
@@ -1265,12 +1270,12 @@
 
                     <ab corresp="#SS.6.65.5" type="apparatus">
                         <list type="Note">
-                            <item xml:lang="en" corresp="#SS.6.65.5-n1">We have adopted the vulgate
-                                reading here, although it is highly unlikely to be
-                                original. In MS H, this pāda appears to read <foreign
-                                    xml:lang="sa">asadaprayuktānāñ ca</foreign>. This is
-                                unmetrical, the compound is unusual, and there is an
-                                unexplained <foreign xml:lang="sa">ca</foreign>. There
+                            <item xml:lang="en" corresp="#SS.6.65.5-n1">We have adopted
+                                the vulgate reading here, although it is highly unlikely
+                                to be original. In MS H, this pāda appears to read
+                                    <foreign xml:lang="sa">asadaprayuktānāñ ca</foreign>.
+                                This is unmetrical, the compound is unusual, and there is
+                                an unexplained <foreign xml:lang="sa">ca</foreign>. There
                                 have been interventions in MS K by a second hand, and also
                                 there is a hole in the manuscript just at this point. The
                                 ante correctionem reading of K is unclear but appears to
@@ -1328,10 +1333,10 @@
 
                     <ab corresp="#SS.6.65.9" type="apparatus">
                         <list type="Note">
-                            <item xml:lang="en" corresp="#SS.6.65.9-n1">The sentence, <foreign>yathā...
-                                    ekīkaraṇam </foreign>, does not appear in the vulgate
-                                but an almost identical reading appears in Ḍalhana's
-                                commentary on this section.</item>
+                            <item xml:lang="en" corresp="#SS.6.65.9-n1">The sentence,
+                                    <foreign>yathā... ekīkaraṇam </foreign>, does not
+                                appear in the vulgate but an almost identical reading
+                                appears in Ḍalhana's commentary on this section.</item>
                         </list>
                         <list type="Testimonia">
 
@@ -1409,8 +1414,9 @@
 
                     <ab corresp="#SS.6.65.10" type="apparatus">
                         <list type="Note">
-                            <item xml:lang="en" corresp="#SS.6.65.10-n1">Jadavji notes a variant reading
-                                    <foreign>sūtrapade</foreign> in the vulgate.</item>
+                            <item xml:lang="en" corresp="#SS.6.65.10-n1">Jadavji notes a
+                                variant reading <foreign>sūtrapade</foreign> in the
+                                vulgate.</item>
                         </list>
                     </ab>
 
@@ -1463,9 +1469,9 @@
 
                     <ab corresp="#SS.6.65.14" type="apparatus">
                         <list type="Notes">
-                            <item xml:lang="en" corresp="#SS.6.65.14-n1">We read against witness K
-                                because the text never uses the second person in medical
-                                injunctions.</item>
+                            <item xml:lang="en" corresp="#SS.6.65.14-n1">We read against
+                                witness K because the text never uses the second person in
+                                medical injunctions.</item>
                         </list>
                     </ab>
 
@@ -1868,9 +1874,10 @@
 
                     <ab corresp="#SS.6.66.colophon3" type="apparatus">
                         <list type="Notes">
-                            <item xml:lang="en" corresp="#SS.6.66.colophon3-n1">It is hard to understand how a word ending in
-                                    <foreign>-gaṃ</foreign>, or any accusative, could
-                                precede <foreign>prākhilat</foreign> or even <foreign>pra
+                            <item xml:lang="en" corresp="#SS.6.66.colophon3-n1">It is hard
+                                to understand how a word ending in
+                                <foreign>-gaṃ</foreign>, or any accusative, could precede
+                                    <foreign>prākhilat</foreign> or even <foreign>pra
                                     akhilan</foreign>. Some readers have emended <foreign
                                     xml:lang="sa">prākhilat</foreign> to <foreign
                                     xml:lang="sa">prālikhat</foreign>, a rare verb, but
