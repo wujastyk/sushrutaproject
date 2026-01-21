@@ -35,10 +35,13 @@ const config = {
                 ['//revisionDesc','']               
                 ]
         },
-        {
-            input: ['../../06-su.ut-01-30/kl_699_uttaratantra-1-30.txt',
-                    '../../06-su.ut-31-44/kl_699_uttaratantra-31-44.txt', 
-                    '../../06-su.ut-45-66/kl_699_uttaratantra-45-66.txt'],
+        {          
+            input: ['../../06-su.ut-01-26-salakya/kl_699_uttaratantra-01-26.txt',
+                    '../../06-su.ut-27-38-kumara/kl_699_uttaratantra-27-38.txt',
+                    '../..06-su.ut-39-59-kayacikitsa/kl_699_uttaratantra-39-59.txt',
+                    '../../06-su.ut-60-62-bhuta/kl_699_uttaratantra-60-62.txt',
+                    '../../06-su.ut-63-66-tantrabhusana/kl_699_uttaratantra-63-66.txt',
+                   ],
             output:    '../06-su.ut/kl_699_uttaratantra.xml',
             meta: [
                 ['//titleStmt/title','Transcription of MS Kathmandu KL 699: Uttaratantra'],
