@@ -38,7 +38,7 @@ Started by Dominik; currently maintained by Deepro
 
 | vulgate number | adhyāya name | MS KL 699             | iti folio | MS NAK  5-333       | iti fol. | MS NAK 1-1079 | iti fol. |
 | ------------------------ | ----------------------| --------- | --------------------| -------- | ------------- | -------- | -------- |
-|  |  |  |  |  |  |  |  |
+| 6.27 Kaumārabhṛtyatantra | navagrahavijñānīyam | 6.25 Kumārabhṛtya 1 | 175r2 | 6.26 Kumāratantra 1 | 390r1 |  |  |
 | 6.28 Kaumārabhṛtyatantra | skandagrahapratiṣedhaṃ | 6.26 Kumārabhṛtya 2   | 175r6     | 6.26 Kumāratantra 2  | 390v3    |               |          |
 | 6.29 Kaumārabhṛtyatantra | skandāpasmārapratiṣedhaṃ | 6.27 Kumārabhṛtya 3   | 175v1     | 6.27 Kumāratantra 3  | 391r1    |               |          |
 | 6.30 Kaumārabhṛtyatantra | śakunīpratīṣedhaṃ | 6.28 Kumārabhṛtya 4   | 175v3     | 6.28 Kumāratantra 4  | 391r5    |               |          |
