@@ -54,6 +54,14 @@ heading=biblistintoc
 %% the setup for the glossaries package is in xelatex-indexing etc.
 %%
 
+\apptoglossarypreamble[plants]{\emph{\footnotesize 
+        Numbers after the final colon refer to 
+        pages in this book.  Silent reference regarding plant names has also been 
+        made to Wikipedia, which has well-curated botanical 
+        information, including up-to-date nomenclature and synonym 
+        lists.}\bigskip}
+
+
     \printunsrtglossary[type=plants]
     \printunsrtglossary[type=animals]
     \printunsrtglossary[type=minerals]
