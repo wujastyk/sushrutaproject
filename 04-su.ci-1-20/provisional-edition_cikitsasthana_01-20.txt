@@ -63,7 +63,19 @@
                     </msIdentifier>
 
                     <msContents>
-                        <summary>[description of manuscript]</summary>
+                        <summary xml:lang="en">
+                            <p>This part of the Nepalese version of the
+                                    <title>Suśrutasaṃhitā</title> is supported from
+                                beginning to end by witness H.</p>
+                            <p>Witness K supports SS.4.2.24 - 78, where the MS breaks off.
+                                K resumes at SS.4.19.22 and continues to the end of the
+                                chapter at SS.4.20.63.</p>
+                            <p>Witness Kb is a single leaf that duplicates material in the
+                                main manuscript K and is written by a different scribe. It
+                                supports SS.4.19.44 - 4.20.30.</p>
+                        </summary>
+
+
                         <msItem defective="true" n="1">
 
                             <author role="author" xml:lang="sa">Suśruta</author>
@@ -78,6 +90,8 @@
 
                     <physDesc> </physDesc>
                 </msDesc>
+
+         
             </sourceDesc>
 
         </fileDesc>
@@ -2629,9 +2643,19 @@
                     <l xml:id="SS.4.5.3">
                         <label xml:lang="en">4.5.3</label>
                         <caesura/>
-                         dvividhaṃ vātaraktam uttānam avagāḍhaṃ cety eke bhāṣante || tat
-                        tu na samyak kasmāt kuṣṭhavad uttānam bhūtvā
-                        kālāntareṇāvagāḍhībhavati | tasmād dvitvasaṃkhyā hīyate | </l>
+                         dvividhaṃ vātaraktam uttānam avagāḍhaṃ cety eke bhāṣante
+                            ||<anchor n="SS.4.5.3-n1"/> tat tu na samyak | kasmāt |
+                        kuṣṭhavad uttānam bhūtvā kālāntareṇāvagāḍhībhavati | tasmād
+                        dvitvasaṃkhyā hīyate | </l>
+
+                    <ab corresp="#SS.4.5.3" type="apparatus">
+                        <list type="Testimonia">
+                            <item xml:lang="en" corresp="#SS.4.5.3-n1">Emmerick (1984:
+                                101) pointed out that the view being criticized is Caraka
+                                Ci.29.19.</item>
+                        </list>
+                    </ab>
+
 
                     <l xml:id="SS.4.5.4">
                         <label xml:lang="en">4.5.4</label>
