@@ -89,12 +89,11 @@ Based on witnesses K and H.
 
 - ### Śālākyatantra: [adhyāyas 1-26](https://saktumiva.org/wiki/wujastyk/susrutasamhita/06-su.ut-01-26-salakya/provisional-edition_uttaratantra-01-26)
 
-- ### Kumāratantra: [27-38](https://saktumiva.org/wiki/wujastyk/susrutasamhita/06-su.ut-27-38-kumara/provisional-edition_uttaratantra-27-38)
+- ### Kumāratantra: [27-37](https://saktumiva.org/wiki/wujastyk/susrutasamhita/06-su.ut-27-37-kumara/provisional-edition_uttaratantra-27-37)
 
-- ### Kāyacikitsātantra: [39-59](https://saktumiva.org/wiki/wujastyk/susrutasamhita/06-su.ut-39-59-kayacikitsa/provisional-edition_uttaratantra-39-59)
+- ### Kāyacikitsātantra: [38-59](https://saktumiva.org/wiki/wujastyk/susrutasamhita/06-su.ut-38-59-kayacikitsa/provisional-edition_uttaratantra-38-59)
 
 - ### Bhūtavidyātantra: [60-62](https://saktumiva.org/wiki/wujastyk/susrutasamhita/06-su.ut-60-62-bhuta/provisional-edition_uttaratantra-60-62)
 
 - ### Tantrabhūṣaṇādhyāya [63-66](https://saktumiva.org/wiki/wujastyk/susrutasamhita/06-su.ut-63-66-tantrabhusana/provisional-edition_uttaratantra-63-66)
-
 
