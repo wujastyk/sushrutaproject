@@ -1,8 +1,8 @@
-# A Critical Edition of the Suśrutasaṃhitā Based on the Earliest Nepalese Manuscripts
+# A Critical Edition of the _Suśrutasaṃhitā_ Based on the Earliest Nepalese Manuscripts
 
 [![DOI](https://zenodo.org/badge/305195084.svg)](https://zenodo.org/badge/latestdoi/305195084)
 
-This is the repository for the manuscript and edition transcriptions created as part of the [sushrutaproject.org](http://sushrutaproject.org), q.v. for the full details.
+This is the repository for the manuscript transcriptions and editions created as part of the [Sushruta Project](http://sushrutaproject1.github.io), q.v. for the full details.
 
 
 This repository is currently maintained by Dominik Wujastyk. 
@@ -12,7 +12,7 @@ This repository is currently maintained by Dominik Wujastyk.
 The manuscript collations and provisional edition are handled by [Saktumiva](https://saktumiva.org).  ([Technical documentation](https://chchch.github.io/sanskrit-alignment/docs/index.html).)
 
 There are two major releases of Saktumiva, 1.0 and 2.0.  You can read the edition of the Suśrutasaṃhitā through either interface.
-*  [Landing page for Saktumiva 1.0](https://wujastyk.github.io/Saktumiva1/).  Here are [further instructions for readers](https://saktumiva.org/wiki/users).
+*  [Landing page for Saktumiva 1.0](https://wujastyk.github.io/Saktumiva1/).
 *  [Landing page for Saktumiva 2.0](https://wujastyk.github.io/Saktumiva2/)
 
 
