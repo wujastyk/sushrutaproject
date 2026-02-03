@@ -15,7 +15,8 @@ There are two major releases of Saktumiva, 1.0 and 2.0.  You can read the editio
 *  [Landing page for Saktumiva 1.0](https://wujastyk.github.io/Saktumiva1/).
 *  [Landing page for Saktumiva 2.0](https://wujastyk.github.io/Saktumiva2/)
 
-
+These two interfaces are derived from the same manuscript transcriptions, but their interfaces offer different affordances, 
+especially for editors.  Both the Saktumiva 1.0 and 2.0 versions of the edition have their particular strengths.
 
 ## Project completion
 
