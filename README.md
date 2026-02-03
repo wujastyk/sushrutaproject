@@ -18,12 +18,6 @@ There are two major releases of Saktumiva, 1.0 and 2.0.  You can read the editio
 These two interfaces present the same _Suśrutasaṃhitā_ edition derived from the same manuscript transcriptions, but their interfaces offer different affordances, 
 especially for editors.  Both the Saktumiva 1.0 and 2.0 versions of the edition have their particular strengths.
 
-## Project completion
-
-The first Suśruta Project came to an end in April 2024.  Project publications in print and digital media can be accessed from [Project Outputs](https://sushrutaproject1.github.io/project-outputs/) on the  main Project 1 website.
-
-At the time of writing (Feb 2026) work continues on writing and publishing project results.  The most recent publication is Brooks, "“On Leeches” in a Medical Treatise for Humans," (2026) [DOI](https://doi.org/10.18732/hssa122).
-
 ### Draft translation
 
 * The evolving draft translation of selected adhyāyas (updated twice weekly): [PDF](https://github.com/wujastyk/sushrutaproject/raw/main/translation/incremental_SS_Translation.pdf?raw=true)
@@ -36,6 +30,14 @@ At the time of writing (Feb 2026) work continues on writing and publishing proje
   4. [Cikitsāsthāna](https://wujastyk.github.io/sushrutaproject/xml/04-su.ci/kl_699_cikitsasthana.xml). Missing from KL 699 up to adhyāya 18.
   5. [Kalpasthāna](https://wujastyk.github.io/sushrutaproject/xml/05-su.ka/kl_699_kalpasthana.xml).
   6. [Uttaratantra](https://wujastyk.github.io/sushrutaproject/xml/06-su.ut/kl_699_uttaratantra.xml).
+
+
+## Project completion
+
+The first Suśruta Project came to an end in April 2024.  Project publications in print and digital media can be accessed from [Project Outputs](https://sushrutaproject1.github.io/project-outputs/) on the  main Project 1 website.
+
+At the time of writing (Feb 2026) work continues on writing and publishing project results.  The most recent publication is Brooks, "“On Leeches” in a Medical Treatise for Humans," (2026) [DOI](https://doi.org/10.18732/hssa122).
+
 
 ## Copyright and Licensing
 All files in this Github repository are copyrighted (C) Dominik Wujastyk 2021.  They are distributed under a  [Creative Commons BY-SA](https://creativecommons.org/licenses/by-sa/4.0/) licence.
