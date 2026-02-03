@@ -9,33 +9,25 @@ This repository is currently maintained by Dominik Wujastyk.
 
 ## Reading and collating manuscript transcriptions
 
-The manuscript collations and provisional edition are handled by [Saktumiva](https://saktumiva.org/wiki/wujastyk/susrutasamhita/start).
+The manuscript collations and provisional edition are handled by [Saktumiva](https://saktumiva.org).  ([Technical documentation](https://chchch.github.io/sanskrit-alignment/docs/index.html).)
 
-There, you can read the various transcriptions individually, or collate and compare them selectively in the manner of a critical edition. 
+There are two major releases of Saktumiva, 1.0 and 2.0.  You can read the edition of the Suśrutasaṃhitā through either interface.
+*  [Landing page for Saktumiva 1.0](https://wujastyk.github.io/Saktumiva1/).  Here are [further instructions for readers](https://saktumiva.org/wiki/users).
+*  [Landing page for Saktumiva 2.0](https://wujastyk.github.io/Saktumiva2/)
 
-Here are [further instructions for readers](https://saktumiva.org/wiki/users).
+
 
 ## Project completion
 
-The project came to an end in April 2024.  Project publications in print and digital media can be accessed from [Project Publications](https://sushrutaproject.org/project-publications/) menu of the  main project website.
+The first Suśruta Project came to an end in April 2024.  Project publications in print and digital media can be accessed from [Project Outputs](https://sushrutaproject1.github.io/project-outputs/) on the  main Project 1 website.
 
-At the time of writing (May 2025) work continues on writing and publishing project results.  
+At the time of writing (Feb 2026) work continues on writing and publishing project results.  The most recent publication is Brooks, "“On Leeches” in a Medical Treatise for Humans," (2026) [DOI](https://doi.org/10.18732/hssa122).
 
-### Project Outputs
+### Draft translation
 
-The current project outputs include:
+* The evolving draft translation of selected adhyāyas (updated twice weekly): [PDF](https://github.com/wujastyk/sushrutaproject/raw/main/translation/incremental_SS_Translation.pdf?raw=true)
 
-#### Draft Critical edition
-
-* The draft New Critical Edition of the Nepalese version of the _Suśrutasaṃhitā_: [Table of Contents](https://saktumiva.org/wiki/wujastyk/susrutasamhita/start)
-
-#### Draft translation
-
-* The evolving draft translation of selected adhyāyas (updated weekly): [PDF](https://github.com/wujastyk/sushrutaproject/raw/main/translation/incremental_SS_Translation.pdf?raw=true)
-
-
-
-#### Diplomatic transcription of MS Kathmandu Kaiser Library 699
+### Diplomatic transcription of MS Kathmandu Kaiser Library 699
 
   1. [Sūtrasthāna](https://wujastyk.github.io/sushrutaproject/xml/01-su.su/kl_699_sutrasthana.xml)
   2. [Nidānasthāna](https://wujastyk.github.io/sushrutaproject/xml/02-su.ni/kl_699_nidanasthana.xml). Missing from KL 699 except for part of the last adhyāya.
