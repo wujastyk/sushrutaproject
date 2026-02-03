@@ -22,7 +22,7 @@ especially for editors.  Both the Saktumiva 1.0 and 2.0 versions of the edition 
 
 * The evolving draft translation of selected adhyāyas (updated twice weekly): [PDF](https://github.com/wujastyk/sushrutaproject/raw/main/translation/incremental_SS_Translation.pdf?raw=true)
 
-### Diplomatic transcription of MS Kathmandu Kaiser Library 699
+### Diplomatic transcription of MS Kathmandu Kaiser Library 699 with facing manuscript images
 
   1. [Sūtrasthāna](https://wujastyk.github.io/sushrutaproject/xml/01-su.su/kl_699_sutrasthana.xml)
   2. [Nidānasthāna](https://wujastyk.github.io/sushrutaproject/xml/02-su.ni/kl_699_nidanasthana.xml). Missing from KL 699 except for part of the last adhyāya.
