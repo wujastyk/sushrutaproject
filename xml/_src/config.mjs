@@ -40,7 +40,7 @@ const config = {
                     '../../06-su.ut-27-37-kumara/kl_699_uttaratantra-27-37.txt',
                     '../../06-su.ut-39-24-57-kayacikitsa/kl_699_uttaratantra-39-24-57.txt',
                     '../../06-su.ut-58-38-66-dasaka/kl_699_uttaratantra-58-38-66.txt',
-            output:    '../06-su.ut/kl_699_uttaratantra.xml',
+            output: '../../06-su.ut/kl_699_uttaratantra.xml',
             meta: [
                 ['//titleStmt/title','Transcription of MS Kathmandu KL 699: Uttaratantra'],
                 ['//revisionDesc','']                
