@@ -9,9 +9,9 @@ This repository is currently maintained by Dominik Wujastyk.
 
 ## Reading and collating manuscript transcriptions
 
-The manuscript collations and provisional edition are handled by [Saktumiva](https://saktumiva.org).  ([Technical documentation](https://chchch.github.io/sanskrit-alignment/docs/index.html).)
+The manuscript collations and provisional edition are handled by [Saktumiva](https://saktumiva.org), a system written by [Dr Charles Li](https://orcid.org/0000-0001-8247-9374) for editing and publishing Sanskrit critical editions. 
 
-There are two major releases of Saktumiva, 1.0 and 2.0.  You can read the edition of the Suśrutasaṃhitā through either interface.
+There are two major releases of Saktumiva, 1.0 and 2.0 (in development, Feb 2026).  You can read the edition of the _Suśrutasaṃhitā_ through either interface.
 *  [Suśruta edition table of contents (Saktumiva 1.0)](https://wujastyk.github.io/Saktumiva1/).
 *  [Suśruta edition table of contents (Saktumiva 2.0)](https://wujastyk.github.io/Saktumiva2/)
 
