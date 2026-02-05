@@ -7,13 +7,13 @@ This is the repository for the manuscript transcriptions and editions created as
 
 This repository is currently maintained by Dominik Wujastyk. 
 
-## Reading and collating manuscript transcriptions
+## Reading the edition
 
-The manuscript collations and provisional edition are handled by [Saktumiva](https://saktumiva.org).  ([Technical documentation](https://chchch.github.io/sanskrit-alignment/docs/index.html).)
+The provisional edition of the Nepalese _Suśrutasaṃhitā_ is published using [Saktumiva](https://saktumiva.org), a system written by [Dr Charles Li](https://orcid.org/0000-0001-8247-9374) for editing and publishing Sanskrit critical editions. 
 
-There are two major releases of Saktumiva, 1.0 and 2.0.  You can read the edition of the Suśrutasaṃhitā through either interface.
-*  [Suśruta edition table of contents (Saktumiva 1.0)](https://wujastyk.github.io/Saktumiva1/).
-*  [Suśruta edition table of contents (Saktumiva 2.0)](https://wujastyk.github.io/Saktumiva2/)
+There are two major releases of Saktumiva, 1.0 and 2.0 (in development, Feb 2026).  You can read the edition of the _Suśrutasaṃhitā_ through either interface.
+*  [Suśrutasaṃhitā edition table of contents (Saktumiva 1.0)](https://wujastyk.github.io/Saktumiva1/).
+*  [Suśrutasaṃhitā edition table of contents (Saktumiva 2.0)](https://wujastyk.github.io/Saktumiva2/)
 
 These two interfaces present the same _Suśrutasaṃhitā_ edition derived from the same manuscript transcriptions, but their interfaces offer different affordances, especially for editors.  Both the Saktumiva 1.0 and 2.0 versions of the edition have their particular strengths.  Version 2.0 is still in development (Feb 2026).
 
