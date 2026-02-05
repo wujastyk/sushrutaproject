@@ -29,10 +29,9 @@ Started by Dominik; currently maintained by Deepro
 | 6.21 Śālākyatantra       | karṇagatarogapratiṣedhaṃ | 6.20 Śālākyatantra 20 | 172r7     | 6.20 Śālākyatantra 20| 384r1    |               |          |
 | 6.22 Śālākyatantra       | nāsāgatarogavijñānīyam | 6.21 Śālākyatantra 21 | 173r1     | 6.21 Śālākyatantra 21| 385r5    |               |          |
 | 6.23 Śālākyatantra       | nāsāgatarogapratiṣedhaṃ | 6.22 Śālākyatantra 22 | 173r5     | 6.22 Śālākyatantra 22| 386r2    |               |          |
-| 6.24 Śālākyatantra       | pratiśyāyapratiṣedhaṃ | **6.51** **Kāyacikitsā** 16 | 197v1     | 6.51 Kāyacikitsā 16  | 93v4 (dscn3443  fol 468.jpg)|  |    |
+| 6.24 Śālākyatantra       | pratiśyāyapratiṣedhaṃ | –>**6.51** **Kāyacikitsā** 16 | **–>197v1** | **–> 6.51 Kāyacikitsā 16** | **–>93v4 (dscn3443  fol 468.jpg)** |  |    |
 | 6.25 Śālākyatantra       | śirorogavijñānīyam | 6.23 Śālākyatantra 23 | 173v4     | 6.23 Śālākyatantra 23| 387r1    |               |          |
 | 6.26 Śālākyatantra       | śirorogapratiṣedhaṃ | 6.24 Śālākyatantra 24 | 174v2     | 6.24 Śālākyatantra 24| 388v6    |               |          |
-|  | |  |  | |  | | |
 
 ## 2 Kumārabhṛtya
 
@@ -55,9 +54,7 @@ Started by Dominik; currently maintained by Deepro
 | vulgate number | adhyāya name | MS KL 699             | iti folio | MS NAK  5-333       | iti fol. | MS NAK 1-1079 | iti fol. |
 | ------------------------ | ----------------------| --------- | --------------------| -------- | ------------- | -------- | -------- |
 |  |  |  |  |  |  |  |  |
-| 6.38 Kaumārabhṛtyatantra | yonivyāpatpratiṣedhaṃ | 6.58 Kāyacikitsā 23   | 202v1     | 6.58 Kāyacikitsā 23  | 106v3 (dscn3456  fol 481.jpg) | |   |
-| 6.39 | jvarapratiṣedhaṃ |  |  | (SS.6.39.121-) | 398v (dscn3373 fol 401.jpg) | | |
-| 6.39 Kāyacikitsātantra   | = | 6.36 Kāyacikitsā 1    | 185_r6    | 6.36 Kāyacikitsā 1 (text missing after 6.39.164) | 400r1 (dscn3374 fol 399.jpg bottom) (final part is missing) | | |
+| 6.39 Kāyacikitsātantra   | jvarapratiṣedhaṃ | 6.36 Kāyacikitsā 1    | 185_r6    | (SS.6.39.121-)  <br />6.36 Kāyacikitsā 1 (text missing after 6.39.164) | 398v (dscn3373 fol 401.jpg)  <br />400r1 (dscn3374 fol 399.jpg bottom) (final part is missing) | | |
 | 6.40 Kāyacikitsātantra | atīsārapratiṣedhaṃ | 6.37 Kāyacikitsā 2| 192_r2? (192_r IMG_0125.JPG top) | 6.37 Kāyacikitsā 2, atīsāra - śoṣa-cikitsita | dscn3461  fol 486.jpg (1, folio non paginated), 6.40.182-6.41.10 | | |
 | 6.41 Kāyacikitsātantra   | śoṣapratiṣedham | 6.38 Kāyacikitsā 3    | 182_v4    | 6.38 Kāyacikitsā 3   | 66v6 (dscn3416  fol 441.jpg) |  |   |
 | 6.42 Kāyacikitsātantra   | gulmapratiṣedhaṃ | 6.39 Kāyacikitsā 4    | 188v1     | 6.39 Kāyacikitsā 4   | 71v2 (dscn3421  fol 446.jpg) |  |   |
@@ -72,12 +69,14 @@ Started by Dominik; currently maintained by Deepro
 | 6.51 Kāyacikitsātantra   | śvāsapratiṣedhaṃ | 6.48 Kāyacikitsā 13   | 195v5     | 6.48 Kāyacikitsā 13  | 89v1 (dscn3439  fol 464.jpg) |  |   |
 | 6.52 Kāyacikitsātantra   | kāsapratiṣedham | 6.49 Kāyacikitsā 14   | 196v4     | 6.49 Kāyacikitsā 14  | 91v2 (dscn3441  fol 466.jpg) |  |   |
 | 6.53 Kāyacikitsātantra   | svarabhedapratiṣedham | 6.50 Kāyacikitsā 15   | 197r1     | 6.50 Kāyacikitsā 15  | 92r6 (dscn3441  fol 466.jpg) |  |   |
+| **6.24** | pratiśyāyapratiṣedhaṃ | **6.51 Kāyacikitsā 16** | **197v1** |  |  | | |
 | 6.54 Kāyacikitsātantra   | kṛmirogapratiṣedham | 6.52 Kāyacikitsā 17   | 198r3     | 6.52 Kāyacikitsā 17  | 95r4 (dscn3444  fol 469.jpg) |  |   |
 | 6.55 Kāyacikitsātantra   | udāvartapratiṣedham | 6.53 Kāyacikitsā 18   | 199r3     | 6.53 Kāyacikitsā 18  | 97v6 (dscn3447  fol 472.jpg) |  |   |
 | 6.56 Kāyacikitsātantra   | visūcikāpratiṣedham | 6.54 Kāyacikitsā 19   | 199v4     | 6.54 Kāyacikitsā 19  | 99r6 (dscn3448  fol 473.jpg) |  |   |
 | 6.57 Kāyacikitsātantra   | arocakapratiṣedham | 6.55 Kāyacikitsā 20   | 200r4     | 6.55 Kāyacikitsā 20  | 100v4 (dscn3450  fol 475.jpg)|  |   |
 | 6.58 Kāyacikitsātantra   | mūtrāghāta- | 6.56 Kāyacikitsā 21   | 201r1     | 6.56 Kāyacikitsā 21  | 103r1 (dscn3452  fol 477.jpg)|  |   |
 | 6.59 Kāyacikitsātantra   | mūtrakṛcchra- | 6.57 Kāyacikitsā 22   | 201v6     | 6.57 Kāyacikitsā 22  | 105r3 (dscn3452  fol 477.jpg)|  |   |
+| 6.38 Kaumārabhṛtyatantra | yonivyāpatpratiṣedhaṃ | **6.58 Kāyacikitsā 23** | **202v1** | **6.58 Kāyacikitsā 23** | **106v3 (dscn3456  fol 481.jpg)** | |   |
 
 ## 4 Kāyacikitsā/Bhūtavidyā
 
