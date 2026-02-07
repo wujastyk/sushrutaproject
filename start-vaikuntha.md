@@ -22,9 +22,8 @@ The manuscript collations and provisional edition are handled by [[https://githu
   * Uttaratantra:
     * [[https://206-12-96-209.cloud.computecanada.ca/dokuwiki/doku.php?id=wiki%3Asusrutaproject%3A06-su.ut-01-26-salakya%3Aprovisional-edition_uttaratantra-01-26&upama_script=devanagari|Śālākyatantra: adhyāyas 1-26]]
     * [[https://206-12-96-209.cloud.computecanada.ca/dokuwiki/doku.php?id=wiki%3Asusrutaproject%3A06-su.ut-27-37-kumara%3Aprovisional-edition_uttaratantra-27-37&upama_script=devanagari|Kumāratantra: adhyāyas 27-37]]
-    * [[https://206-12-96-209.cloud.computecanada.ca/dokuwiki/doku.php?id=wiki%3Asusrutaproject%3A06-su.ut-38-59-kayacikitsa%3Aprovisional-edition_uttaratantra-38-59&upama_script=devanagari9|Kāyacikitsātantra: adhyāyas 38-59]]
-    * [[https://206-12-96-209.cloud.computecanada.ca/dokuwiki/doku.php?id=wiki%3Asusrutaproject%3A06-su.ut-60-62-bhuta%3Aprovisional-edition_uttaratantra-60-62&upama_script=devanagari|Bhūtavidyātantra: adhyāyas 60-62]]
-    * [[https://206-12-96-209.cloud.computecanada.ca/dokuwiki/doku.php?id=wiki%3Asusrutaproject%3A06-su.ut-63-66-tantrabhusana%3Aprovisional-edition_uttaratantra-63-66&upama_script=devanagari|Tantrabhūṣaṇādhyāya: adhyāyas 63-66]]
+    * [[https://206-12-96-209.cloud.computecanada.ca/dokuwiki/doku.php?id=wiki%3Asusrutaproject%3A06-su.ut-39-24-57-kayacikitsa/provisional-edition_uttaratantra-39-24-57&upama_script=devanagari9|Kāyacikitsātantra: adhyāyas 39-57 (with 24)]]
+    * [[https://206-12-96-209.cloud.computecanada.ca/dokuwiki/doku.php?id=wiki%3Asusrutaproject%3A06-su.ut-58-38-66-dasaka/provisional-edition_uttaratantra-58-38-66&upama_script=devanagari| Uttaratantra – Daśaka: adhyāyas 58–66, with 38]]
 
 
 Here are [[https://saktumiva.org/wiki/users|further instructions for readers]].
