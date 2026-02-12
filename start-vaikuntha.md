@@ -8,8 +8,6 @@ This repository is currently maintained by Dominik Wujastyk.
 
 ===== Reading and collating manuscript transcriptions =====
 
-
-
 The manuscript collations and provisional edition are handled by [[https://github.com/chchch/upama|Saktumiva and Upama]].
 
   * [[https://206.12.96.209/dokuwiki/doku.php?id=wiki%3Asusrutaproject%3A01-su.su-1-31%3Aprovisional-edition_sutrasthana-1-31&upama_script=devanagari|Sūtrasthāna, adhyāyas 1-31]]
@@ -27,6 +25,11 @@ The manuscript collations and provisional edition are handled by [[https://githu
 
 
 Here are [[https://saktumiva.org/wiki/users|further instructions for readers]].
+
+===== Transcriptions of the manuscripts of the Nyāyacandrikā by Gayadāsa  =====
+
+    * [[https://206-12-96-209.cloud.computecanada.ca/dokuwiki/doku.php?id=wiki%3Asusrutaproject%3Agayadasa%3Anyayacandrika_sutrasthana| MS Bīkāner Anup 4389, ff. 2--4v: Sūtrasthāna]].  [[https://sushrutaproject2.github.io/website/blog/2026/MS-Bikaner-Anup-4389/| Blog post]] about this transcription.
+    * [[https://206-12-96-209.cloud.computecanada.ca/dokuwiki/doku.php?id=wiki%3Asusrutaproject%3Agayadasa%3Anyayacandrika_sarirasthana| MS Cambridge CUL Add. 2491: Śārīrasthāna]] 
 
 ===== Copyright and Licensing =====
 
