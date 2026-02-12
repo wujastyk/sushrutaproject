@@ -1,0 +1,132 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+        <fileDesc>
+            <titleStmt>
+                <title>MS Cambridge CUL Add. 2491</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Suśruta project, University of Alberta</p>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName>
+                            <settlement>Cambridge</settlement>
+                            <country>UK</country>
+                        </placeName>
+                        <institution>Cambridge University Library<ptr/></institution>
+                        <idno>Add. 2491</idno>
+                        <idno type="siglum">C</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>A paper manuscript in Devanāgarī script.</summary>
+                        <msItem defective="true" n="1">
+                            <author role="author" xml:lang="sa">Gayadāsa</author>
+                            <title xml:lang="sa">NyāyacandrikāNyāyacandrikā</title>
+                            <!-- rubric, incipit, explicit, and finalRubric are given as examples -->
+                            <textLang mainLang="sa-Newa">Sanskrit in Devanagari script.</textLang>
+                            <!-- @mainLang can be "sa-Deva", "sa-Mlym", "sa-Telu", "sa-Newa", etc. See ISO 15924 for more details. -->
+                        </msItem>
+                    </msContents>
+                    
+                    <physDesc>
+                        <p resp="Jason Birch">Folio 1 missing.</p>
+                        <objectDesc form="pothi">
+                            <!-- @form can be "pothi", "book", scroll", etc. -->
+                            <supportDesc material="paper"
+                                ><!-- @material can be "paper", "industrial paper", "handmade paper", "palm-leaf", "palmyra palm-leaf", "talipot palm-leaf", "birch bark", "vellum", etc. --><!-- the following <foliation> tags are examples --></supportDesc>
+                            
+                        </objectDesc>
+                        <handDesc>
+                            <handNote medium="ink black" scope="sole" script="newa"/>
+                        </handDesc>
+                        <scriptDesc>
+                            <scriptNote xml:id="script-ba-va"><foreign xml:lang="ba">ba</foreign>
+                                and <foreign xml:lang="va">va</foreign> not
+                                distinguished.</scriptNote>
+                            <scriptNote xml:id="svarna-nasals"/>
+                            <!-- see 
+				https://github.com/chchch/upama/issues/87#issuecomment-2357860543 -->
+                        </scriptDesc>
+                        
+                        
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origDate calendar="India" when="0301"></origDate>
+                            <!-- calendar can be "Vikrama", "Śaka", etc. Dates can be approximate or exact. -->
+                        </origin>
+                    </history>
+                    
+                    
+                </msDesc>
+                
+            </sourceDesc>
+        </fileDesc>
+        
+        <revisionDesc>
+            <change when="2026-02-12" who="Jason Birch">Transcribed f. 2r.</change>
+            
+            
+        </revisionDesc>
+        
+    </teiHeader>
+    
+    <text xml:lang="sa">
+        <body>
+            <div n="1" type="sthāna">
+                
+                <div n="1" type="adhyāya">
+                    
+                    
+                    <milestone facs="MS-ADD-02491-000-00001.jpg" n="1v" unit="digital_image"/>
+                    
+                    <pb facs="1" n="2r"/>
+                    
+                </div>
+                
+                <div n="2" type="adhyāya">
+                    
+                    <l xml:id="G.3.1.1">
+                        <lb/><unclear reason="damage">bālo tikaṃ</unclear> kṛtaṃ prāṇikāyaṃ
+                        tasyedaṃ hetusvala<unclear
+                            reason="faded">kṣa</unclear>ṇakā<unclear>rya</unclear>ciṃtayā sthānam
+                        iti|| hetutvād iti eva viśeṣo <unclear
+                            reason="faded">rali</unclear><lb/>vyākhyā
+                        prakathayiṣyām<unclear>ā||</unclear> yathovāca dhanvaṃtarir iti
+                        pratisaṃskartṛsūtraṃ||  </l>
+                        
+                        <l xml:id="G.3.1.2"> tatrādau hetuniścaṃtanam <!-- hetucintām --> āha|| sa<unclear
+                                reason="faded">rvabhū</unclear><lb/>tānām ityādi|| sarvabhūtāni
+                            kṛ<unclear>ty</unclear>āni utpādayaṃti| vakṣyamāṇamahadāyāmūlatagaṃ tasya kāraṇaṃ kiṃ tad ity āhā <lb/>
+                        avyaktaṃ nāma || nāmaprasiddhyupasaṃgrahe|| tatra vyaktam api yat dravyaṃ
+                        prasiddhaṃ || tena vyaktād avyaktam iti || paramā<unclear
+                            reason="faded">tma</unclear><lb/>ny api avyaktasaṃjñā nirastā | kiṃ tad
+                            avyaktaśabdaprasiddham ity āha| satvarajastamolakṣaṇam iti| carake ||
+                            puna<lb/>r ātmany evāvyaktavyapadeśā|| ata eva caturviṃśatikatatvaṃ ||
+                            tasyāvyaktasya kāraṇam athāstīti darśayann āha||<lb/> akāraṇam iti
+                            avidyamānotpattihetrur<!-- hetu --> aṣṭarūpam iti|| aṣṭau rūpāṇi cāsya||
+                            etā ca tā buddhi ahaṃkāraspā<lb/><unclear
+                                reason="faded">ñca</unclear>tanmātrāṇāṃ pṛthakkāraṇatvaṃ niṣiddhaṃ||
+                            anye pi pradhānasyaiva pariṇamato buddhyādīni rūpāṇīty ūcuḥ||cha||
+                          
+                          
+                    </l>
+
+
+
+
+                    
+                    
+                    
+                    
+                </div>
+                <!-- end of chapter 2 of Sūtrasthāna-->
+            </div>
+            <!-- end of sthana -->
+            
+        </body>
+    </text>
+    
+</TEI>
