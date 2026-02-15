@@ -74,11 +74,11 @@
                     <msIdentifier>
                         <idno type="siglum">A1938</idno>
                     </msIdentifier>
-                    <msContents>
+                    <!--  <msContents>
                         <msItem>
                             <filiation corresp="#A">A</filiation>
                         </msItem>
-                    </msContents>
+                    </msContents>-->
                 </msDesc>
             </sourceDesc>
 
@@ -95,6 +95,10 @@
                 typos.</change>
             <change when="2025-08-15" who="Dominik Wujastyk">Removed Ācārya's avagrahas
                 after long ā (vā'pi > vāpi, etc.).</change>
+            <change when="2026-02-14" who="Dominik Wujastyk">commented out the filiation
+                so that siglum A isn't bold. We aren't including the 1931 edition in our
+                collations, normally.</change>
+
         </revisionDesc>
     </teiHeader>
 
@@ -3935,13 +3939,11 @@
                         <label xml:lang="en">1938 ed. SS.3.10.trailer</label>
                         <caesura/>
                          iti suśrutasaṃhitāyāṃ śārīrasthāne garbhiṇīvyākaraṇaṃ śārīraṃ
-                        nāma daśamo 'dhyāyaḥ ||10|| 
-                    </l>
-                    
-                    <l xml:id="SS.3.trailer">
-                        iti bhagavatā
-                        śrīdhanvantariṇopadiṣṭāyāṃ tacchiṣyeṇa maharṣiṇā suśrutena
-                        viracitāyāṃ suśrutasaṃhitāyāṃ tṛtīyaṃ śārīrasthānaṃ samāptam |</l>
+                        nāma daśamo 'dhyāyaḥ ||10|| </l>
+
+                    <l xml:id="SS.3.trailer"> iti bhagavatā śrīdhanvantariṇopadiṣṭāyāṃ
+                        tacchiṣyeṇa maharṣiṇā suśrutena viracitāyāṃ suśrutasaṃhitāyāṃ
+                        tṛtīyaṃ śārīrasthānaṃ samāptam |</l>
                 </div>
 
             </div>
