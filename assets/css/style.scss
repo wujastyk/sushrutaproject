@@ -3,6 +3,10 @@
 
 @import "{{ site.theme }}";
 #header_wrap {
-  background: #212121;
+  background: #e39f00;
   background: -moz-linear-gradient(top, #e39f00, #e39f00);
+}
+
+#footer_wrap {
+  background: #e39f00;
 }
