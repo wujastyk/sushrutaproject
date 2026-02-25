@@ -242,14 +242,14 @@
 \DeclareFieldFormat{eprint:ark}{%
     \textsc{ark:}\space
     \ifhyperref  
-    {\url{https://n2t.net/#1}}
+    {\href{https://n2t.net/#1}{#1}}
     {\nolinkurl{#1}}
     }
 %
 \DeclareFieldFormat{doi}{%
     \textsc{doi:}\space
     \ifhyperref  
-    {\url{https://doi.org/#1}}
+    {\href{https://doi.org/#1}{#1}}
     {\nolinkurl{#1}}
     }
 %    \end{macrocode}
@@ -517,5 +517,21 @@
 %    \end{macrocode}
 %\end{macro}
 %
+%  \begin{macro}{\ark}
+% Shorthand for the bib file:
+%    \begin{macrocode}
+\providecommand{\ark}[1]{\href{http://n2t.net/#1}{#1}}
+%    \end{macrocode}
+% \end{macro}
+%
+% \begin{macro}{tabularray}
+% A more modern and better-looking table package, to replace array, 
+% tabular and longtable:
+%    \begin{macrocode}
+\usepackage{tabularray}
+\UseTblrLibrary{booktabs}
+%\DefTblrTemplate{firsthead, middlehead,lasthead}{default}{}
+%    \end{macrocode}
+% \end{macro}
 %     \newpage
 %    \PrintIndex  

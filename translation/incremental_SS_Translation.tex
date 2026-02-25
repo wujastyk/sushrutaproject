@@ -6,18 +6,11 @@
     ]{book} 
 \usepackage{incremental_SS_Translation} 
 \addbibresource{incremental_SS_Translation.bib}
-% shorthand for the bib file:
-\providecommand{\ark}[1]{\href{http://n2t.net/#1}{#1}}
 %
-% A more modern and better-looking table package, to replace array, 
-% tabular and longtable:
-\usepackage{tabularray}
-\UseTblrLibrary{booktabs}
-%\DefTblrTemplate{firsthead, middlehead,lasthead}{default}{}
 %
 % private macros for switching between chapters    
-\newif \ifkalpa \newif\ifsarira \newif \ifjvara \newif\ifsutra \newif\ifnidana
-\newif\ifcikitsa
+\newif \ifkalpa \newif\ifsarira \newif \ifjvara 
+\newif\ifsutra \newif\ifnidana \newif\ifcikitsa
 %
 %\cikitsatrue
 %\nidanatrue
@@ -63,9 +56,10 @@ chapters/translation 5-introduction,
 } \fi
 \ifsarira \includeonly{%
    % chapters/translation 3-02,
-    chapters/translation 3-04,
+%    chapters/translation 3-04,
+    chapters/translation 3-09,
 %    chapters/translation 6-65,
-%     chapters/bibliography and indexes
+     chapters/bibliography and indexes
 } \fi       
 %
 \ifjvara  \includeonly{chapters/translation 6-39} \fi      
@@ -74,9 +68,9 @@ chapters/translation 5-introduction,
     chapters/bibliography and indexes,
     } \fi
 \ifcikitsa \includeonly{%
-    chapters/translation 4-04,
-%    chapters/translation 4-05,
-       chapters/bibliography and indexes
+%    chapters/translation 4-04,
+    chapters/translation 4-05,
+%       chapters/bibliography and indexes
 }
 \fi
 %
@@ -136,6 +130,7 @@ chapters/translation 5-introduction,
         \include{chapters/translation 3-02} % with Jan Gerris
         \include{chapters/translation 3-03} % with Jan Gerris
         \include{chapters/translation 3-04} % with Jan Gerris
+        \include{chapters/translation 3-09} % with Jan Gerris
             \thispagestyle{empty}
         
         \part{Part 4. Cikitsāsthāna}
