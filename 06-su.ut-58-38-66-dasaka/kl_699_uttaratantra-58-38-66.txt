@@ -191,6 +191,8 @@
         SS.SS.6.66.17ii. The final ten xml files are now brought together as a single
         group, combining the last 3 adhyāyas of the vulgate's Kāyacikitsātantra and all of
         the vulgate's Bhūtavidyātantra (60-62) and Tantrabhūṣaṇādhyāya (63-66).</change>
+      
+      <change when="2026-02-25" who="Deepro Chakraborty">Fixed alignment problems and updated the trailers</change>
     </revisionDesc>
     
     
@@ -432,7 +434,7 @@
              pibet mūtravikāraghnaṃ saṃsṛṣṭan tailamātrayeti || ❈ ||</l>
 
 
-          <p ana="trailer"> kāyaci || 21 || ❈ || </p>
+          <l xml:id="SS.6.58.trailer"> kāyaci || 21 || ❈ || </l>
 
           <milestone ana="line 1b" facs="201r IMG_0060.JPG" n="201r" unit="folio"/>
 
@@ -659,7 +661,8 @@
 
           <l xml:id="SS.6.59.27"> sakṛjje <unclear reason="damage">vā</unclear> tathānyau
             tu muddhiṣṭau kriyāvidhīti || </l>
-          <p ana="trailer"> kāyaci || 22 || 0 ||</p>
+          
+          <l xml:id="SS.6.59.trailer"> kāyaci || 22 || 0 ||</l>
           <milestone ana="line 6b" facs="201v IMG_0061.JPG" n="201v" unit="folio"/>
 
         </div>
@@ -1143,7 +1146,7 @@
           <l xml:id="SS.6.60.56ab"> hitāhitavidhānañ ca nityam eva samācared iti || </l>
 
 
-          <p ana="trailer"> kāyaci || <unclear extent="2" unit="char"/> || </p>
+         <l xml:id="SS.6.60.trailer"> kāyaci || <unclear extent="2" unit="char"/> || </l>
         </div>
 
 
@@ -1188,7 +1191,7 @@ In the previous file of NAK -533 Vulgate 6.61, I forgot to mention xml id: SS.6.
 
 
 
-          <l xml:id="SS.6.61.9.cd"> dantāṃ khādaṃ vaman phenaṃ vivṛtākṣaḥ patat kṣitau | </l>
+          <l xml:id="SS.6.61.9cd"> dantāṃ khādaṃ vaman phenaṃ vivṛtākṣaḥ patat kṣitau | </l>
 
 
           <l xml:id="SS.6.61.10cd"> so pasmāra iti khyātaḥ sa ca dṛ<unclear
@@ -1304,8 +1307,9 @@ In the previous file of NAK -533 Vulgate 6.61, I forgot to mention xml id: SS.6.
           <l xml:id="SS.6.61.41"> jātagandhāṃ<cb/> jātarasāṃ pāyayed āsavaṃ bhiṣak |
             <caesura/>
              sirā<unclear>ñ</unclear> ca vyadhayet prāptāṃ maṃgalyaṃ cāpi dhārayed iti || </l>
-          <p ana="trailer"><abbr type="supention">kāyaci</abbr>
-            <expan><ex>kitsā</ex></expan> || <unclear extent="2" unit="char"/> || </p>
+          
+          <l xml:id="SS.6.61.trailer"><abbr type="supention">kāyaci</abbr>
+            <expan><ex>kitsā</ex></expan> || <unclear extent="2" unit="char"/> || </l>
         </div>
         <div corresp="6.62 in KL 699" n="62" type="adhyāya">
           <!--     (A)  Missing Verses:
@@ -1453,9 +1457,9 @@ iii) 19ef is placed after 18ab     -->
 
 
 
-          <p ana="SS.6.62.trailer"><abbr type="suspension">kāyaci</abbr>
+          <l xml:id="SS.6.62.trailer"><abbr type="suspension">kāyaci</abbr>
             <expan><ex>kitsā</ex></expan> || <cb/>
-            <unclear extent="2" unit="char"/> || </p>
+            <unclear extent="2" unit="char"/> || </l>
         </div>
 
 
@@ -1564,9 +1568,10 @@ iii) 19ef is placed after 18ab     -->
           <l xml:id="SS.6.63.17"> evam ete triṣaṣṭirasayogāḥ vyākhyātāḥ |
             <caesura/>
              doṣabhedāt | dviṣaṣṭyās te prayoktavyā vicakṣaṇair i<cb/>ti || </l>
-          <p ana="trailer"><abbr type="suspension">kāyaci</abbr>
+          
+          <l xml:id="SS.6.63.trailer"><abbr type="suspension">kāyaci</abbr>
             <expan><ex>kitsā</ex></expan> || <cb/>
-            <unclear extent="2" unit="char"/> || </p>
+            <unclear extent="2" unit="char"/> || </l>
         </div>
 
 
@@ -2172,10 +2177,11 @@ iii) 19ef is placed after 18ab     -->
           <cb/>
           <l xml:id="SS.6.64.84b"> bhagavāṃn āha dha<abbr type="suspension">dhaṃ</abbr>
             <expan><ex>vantariḥ</ex></expan> || </l>
-          <p ana="trailer" xml:id="SS.6.64.84x">
+          
+          <l xml:id="SS.6.64.trailer">
             <abbr type="suspension">kāyaci</abbr>
             <expan><ex>kitsā</ex></expan> || <unclear extent="2" reason="torn" unit="char"
-            /> || </p>
+            /> || </l>
         </div>
 
 
@@ -2393,9 +2399,9 @@ iii) 19ef is placed after 18ab     -->
             bhagavān dha<cb n="1"/>nvatariḥ | </l>
 
 
-          <p ana="trailer" xml:id="SS.6.65.colophon">
+          <l xml:id="SS.6.65.trailer">
             <abbr type="supention">kāyaci</abbr>
-            <expan><ex>kāyacikitsā</ex></expan> || 0 || 29 || 0 ||</p>
+            <expan><ex>kāyacikitsā</ex></expan> || 0 || 29 || 0 ||</l>
         </div>
         <!-- end of chapter 65 (64 in Nepalese mss) of the Uttaratantra -->
 
