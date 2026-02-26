@@ -89,6 +89,7 @@
         06-ut-vulgate-1938-57-66.txt</change>
       <change when="2026-02-24" who="Deepro Chakraborty">Fixed alignment problems and updated the
         trailers</change>
+      <change when="2026-02-25" who="Deepro Chakraborty">Fixed alignment problems</change>
 
     </revisionDesc>
   </teiHeader>
@@ -109,8 +110,7 @@
 
           <l xml:id="SS.6.39.2"> yathovāca bhagavān dhanvantariḥ || </l>
 
-          <l xml:id="SS.6.39.3.1"/>
-
+         
           <l xml:id="SS.6.39.3"> yenāmṛtam apāṃ madhyād uddhṛtaṃ pūrvajanmani |
             <caesura/>
              yato 'maratvaṃ saṃprāptās tridaśās tridiveśvarāt || </l>
@@ -1775,7 +1775,7 @@
             <caesura/>
              tvakpiṇḍaṃ dīrghavṛntasya padmakesarasaṃyutam || </l>
 
-          <l xml:id="SS.6.40.82"> kāśmarīpadmapatraiś cāveṣṭya sūtreṇa saṃdṛḍham |</l>
+          <l xml:id="SS.6.40.82ab"> kāśmarīpadmapatraiś cāveṣṭya sūtreṇa saṃdṛḍham |</l>
           <l xml:id="SS.6.40.82cd"> mṛdāvaliptaṃ sukṛtamaṅgāreṣv avakūlayet || </l>
 
           <l xml:id="SS.6.40.83"> svinnamuddhṛtya niṣpīḍya rasamādāya taṃ tataḥ |
@@ -2242,8 +2242,8 @@
             <caesura/>
              kampano 'rucimān bhinnakāṃsyapātrahatasvaraḥ(naḥ) || </l>
 
-          <l xml:id="SS.6.41.20"> ṣṭhīvati śleṣmaṇā hīnaṃ gauravārucipīḍitaḥ |
-            <caesura/>
+          <l xml:id="SS.6.41.20ab"> ṣṭhīvati śleṣmaṇā hīnaṃ gauravārucipīḍitaḥ |</l>
+          <l xml:id="SS.6.41.20cd">
              saṃprasrutāsyanāsākṣaḥ suptarūkṣamalacchaviḥ || </l>
 
           <l xml:id="SS.6.41.21"> adhvapraśoṣī srastāṅgaḥ saṃbhṛṣṭaparuṣacchaviḥ |
@@ -2618,8 +2618,8 @@
 
           <l xml:id="SS.6.42.54cd"> peyā vātaharaiḥ siddhāḥ kaulatthāḥ saṃskṛtā rasāḥ || </l>
 
-          <l xml:id="SS.6.42.55"> khalāḥ sapañcamūlāś ca gulmināṃ bhojane hitāḥ |
-            <caesura/>
+          <l xml:id="SS.6.42.55ab"> khalāḥ sapañcamūlāś ca gulmināṃ bhojane hitāḥ |</l>
+          <l xml:id="SS.6.42.55cd">
              baddhavarconilānāṃ tu sārdrakaṃ kṣīramiṣyate || </l>
 
           <l xml:id="SS.6.42.56"> kumbhīpiṇḍeṣṭakāsvedān kārayet kuśalo bhiṣak |
@@ -2659,8 +2659,8 @@
             <caesura/>
              baddhaviṇmāruto gulmī bhuñjīta payasā yavān || </l>
 
-          <l xml:id="SS.6.42.66"> kulmāṣān vā bahusnehān bhakṣyellavaṇottarān |
-            <caesura/>
+          <l xml:id="SS.6.42.66ab"> kulmāṣān vā bahusnehān bhakṣyellavaṇottarān |</l>
+            <l xml:id="SS.6.42.66cd">
              athāsyopadravaḥ śūlaḥ kathaṃcid upajāyate || </l>
 
           <l xml:id="SS.6.42.67"> śūlaṃ nikhānitamivāsukhaṃ yena tu vattyasau |
