@@ -247,7 +247,7 @@
                 sections, Śālākyatantra (adhyāyas 1-26), Kumāratantra (27-38), Kāyacikitsātantra
                 (39-59), Bhūtavidyātantra (60-62), Tantrabhūṣaṇādhyāya (63-66).</change>
             <change when="2026-02-02" who="Dominik Wujastyk">More restructuring of the Uttaratantra
-                xml files in line with the manuscript colophons and verse SS.SS.6.66.17ii. The final
+                xml files in line with the manuscript colophons and verse SS.SS.6.66.17.add2. The final
                 ten xml files are now brought together as a single group, combining the last 3
                 adhyāyas of the vulgate's Kāyacikitsātantra and all of the vulgate's
                 Bhūtavidyātantra (60-62) and Tantrabhūṣaṇādhyāya (63-66).</change>
@@ -1220,13 +1220,14 @@ This is pointed out here with reference to Jason's paper.
                         <caesura/>
                          hṛdye veśmani yakṣasya<cb/> kulmāśāsṛksurādibhiḥ | </l>
 
-                    <l xml:id="SS.6.60.35"> atimuktakacampādyaiḥ puṣpaiś ca vitarebaliṃ ||
-                        <caesura/>
-                         nadyāṃ pitṛgrahāyaṣṭaṃ<lb n="3"/> kuśāstaraṇabhūṣitaṃ | </l>
+                    <l xml:id="SS.6.60.35ab"> atimuktakacampādyaiḥ puṣpaiś ca vitarebaliṃ ||</l>
+                    <l xml:id="SS.6.60.35cd"> nadyāṃ pitṛgrahāyaṣṭaṃ<lb n="3"/> kuśāstaraṇabhūṣitaṃ
+                        | </l>
 
-                    <l xml:id="SS.6.60.36"> tatrai<unclear>ṣā</unclear>paharec cāpi nāgāya
-                        vi<cb/>dhivad baliṃ ||
-                        <caesura/>
+                    <l xml:id="SS.6.60.36ab"> tatrai<unclear>ṣā</unclear>paharec cāpi nāgāya
+                        vi<cb/>dhivad baliṃ ||</l>
+
+                        <l xml:id="SS.6.60.36cd"> 
                          catuṣpathe rākṣasasya bhīmeṣu gahaneṣu vā | </l>
 
                     <l xml:id="SS.6.60.37ab"> śūnyālaye piśācasya citram bali<lb n="4"/>m upāharet
@@ -1247,12 +1248,8 @@ This is pointed out here with reference to Jason's paper.
                         <caesura/>
                          godhānakulamārjjāraṛṣapittaprapeṣi<lb n="6"/>mān || </l>
 
-                    <l xml:id="SS.6.60.41ab"> nasyābhyañjanasekeṣu vidadhyādyogatatvavit | </l>
-
-
-
-
-                    <l xml:id="SS.6.60.41cd"> kharāśvāśvatarolūkakarabhaś ca sṛgālajaṃ || </l>
+                    <l xml:id="SS.6.60.41ab"> nasyābhyañjanasekeṣu vidadhyād yogatatvavit | </l>
+                    <l xml:id="SS.6.60.41cd"> svarāśvāśvatarolūkakarabhaś ca sṛgālajaṃ || </l>
 
                     <l xml:id="SS.6.60.42"> purīṣaṃ kāṅkagṛdhrṇāṃ<add place="below"
                         >nyā</add><!-- insertion place not found --> varāhasya ca pīṣayet ||
@@ -1650,8 +1647,8 @@ I have not transcribed गन्धककल्पं  gandhakakalpaṃ given on
                     <l xml:id="SS.6.62.32"> chāyāviśuṣkās tāvat<unclear>yāṃ</unclear> yojayed
                         vidhikovidaḥ |
                         <caesura/>
-                         avapīte ñjane bhya<unclear>ṅge</unclear><pb
-                            facs="dscn3379 fol 404.jpg, lower"/> nasye dhūpe tathaiva ca || </l>
+                         avapīte ñjane bhya<unclear>ṅge</unclear><pb facs="dscn3379 fol 404.jpg,
+                            lower"/> nasye dhūpe tathaiva ca || </l>
 
                     <l xml:id="SS.6.62.33"> uropāṅgalalāṭeṣu sirāṃ cāsya vimokṣayet |
                         <caesura/>
@@ -2142,10 +2139,9 @@ I have not transcribed गन्धककल्पं  gandhakakalpaṃ given on
                     <l xml:id="SS.6.64.39j"> vātacakrasamuddhūtaśuṣkaparṇṇasvanānvitaṃ || </l>
                     <pb n="409r"/>
 
-                    <l xml:id="SS.6.64.39k"> raukṣyaṃ saṃjanayatyāśu tataḥ śuṣyaṃti dehinaḥ | </l>
+                    <l xml:id="SS.6.64.39k"> raukṣyaṃ saṃjanayaty āśu tataḥ śuṣyaṃti dehinaḥ | </l>
 
                     <l xml:id="SS.6.64.39l"> tasmān nidāghasamaye śoṣaṇaṃ rūkṣaṇañ ca yat || </l>
-
 
                     <l xml:id="SS.6.64.40cd"> vyāyāmamuṣṇamāyāsaṃ maithunaṃ paridāhi ca | </l>
 
@@ -2736,16 +2732,16 @@ got to here
 
                     <l xml:id="SS.6.66.17"><gap reason="blank" extent="1" unit="verse"/></l>
 
-                    <l xml:id="SS.6.66.17i"><gap reason="blank" extent="1" unit="hemistich"/>
+                    <l xml:id="SS.6.66.17.add1"><gap reason="blank" extent="1" unit="hemistich"/>
                         <caesura/>
                          apasmāronmādakañ caiva rasabhedas tathaiva ca || </l>
 
-                    <l xml:id="SS.6.66.17ii"> svasthārakṣāvidhānañ ca tantrayuktiś ca<lb n="6"/>
+                    <l xml:id="SS.6.66.17.add2"> svasthārakṣāvidhānañ ca tantrayuktiś ca<lb n="6"/>
                         doṣabhit |
                         <caesura/>
                          ity ebhir ddarśakaṃ proktaṃ punaḥ kāyacikitsite || ❈ ||</l>
 
-                    <l xml:id="SS.6.66.trailer"> iti sauśrute sahottaratantraṃ catuḥṣaṣṭitamo
+                    <l xml:id="SS.6.66.trailer1"> iti sauśrute sahottaratantraṃ catuḥṣaṣṭitamo
                         'dhyāyaḥ samāptaḥ || ❈ ||</l>
 
                     <!-- end of chapter 66 (65 in Nepalese mss) of the Uttaratantra -->
