@@ -170,11 +170,17 @@
                                 <!-- the following <foliation> tags are examples -->
                             </supportDesc>
                         </objectDesc>
-                        <scriptDesc>
-                            <scriptNote xml:id="script-ba-va"><foreign xml:lang="sa"
-                                    >ba</foreign> and <foreign xml:lang="sa">va</foreign>
-                                not distinguished.</scriptNote>
-                        </scriptDesc>
+                           <scriptDesc>
+              <scriptNote xml:id="script-śa-sa"><foreign xml:lang="sa">śa</foreign> and
+                  <foreign xml:lang="sa">sa</foreign> not distinguished.</scriptNote>
+
+              <scriptNote xml:id="script-ba-va"><foreign xml:lang="sa">ba</foreign> and
+                  <foreign xml:lang="sa">va</foreign> not distinguished.</scriptNote>
+              <scriptNote xml:id="svarna-nasals"/>
+              <!-- see https://github.com/chchch/upama/issues/87#issuecomment-2357860543 -->
+
+              <scriptNote xml:id="script-all-long-vowels"/>
+              </scriptDesc>
                     </physDesc>
                     <history>
                         <origin>
@@ -323,7 +329,7 @@
 
 
 
-                    <l xml:id="SS.6.27.3"> vālagrahāṇām vijñānaṃ sādhanañ cāpyanantaraṃ |
+                    <l xml:id="SS.6.27.3"> vālagrahāṇām vijñānaṃ sādhanañ cāpy anantaraṃ |
                         <caesura/>
                          utpattiñ kāraṇaiñ caiva saśrutaika<pb
                             n="dscn3363fol388_lower.jpg"/>manā śṛṇu || </l>
