@@ -1,5 +1,6 @@
 ﻿<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+        <!--
         <fileDesc>
             <titleStmt>
                 <title>The Nepalese Version of the Suśrutasaṃhitā, Sūtrasthāna 1-31, based
@@ -78,7 +79,139 @@
             </sourceDesc>
 
         </fileDesc>
+        
+        -->
 
+        <fileDesc>
+            <titleStmt>
+                <title>MS Kathmandu KL 699: Transcription of Sūtrasthāna 1-31</title>
+                <editor><persName>Dominik Wujastyk</persName><orgName>University of
+                        Alberta</orgName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <p>Suśruta project, University of Alberta,
+                    <date>2026</date></p>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName>
+                            <settlement>Kathmandu</settlement>
+                            <country>Nepal</country>
+                        </placeName>
+                        <institution>Kaiser Library<ptr target="https://www.klib.gov.np/"
+                            /></institution>
+                        <idno>699</idno>
+                        <idno type="siglum">K</idno>
+                        <idno type="shelfmark">MS Kathmandu KL 699</idno>
+                        
+                    </msIdentifier>
+
+                    <msContents class="#MTM">
+                        <summary>A palm-leaf manuscript written in old Nepalese script.
+                            The manuscript supports the text of the Suśrutasaṃhitā and the
+                            Sauśrutanighaṇṭu.</summary>
+
+                        <msItem defective="true">
+                            <title>Suśrutasaṃhitā</title>
+                            <author>Suśruta</author>
+                            <textLang mainLang="sa-Newa"/>
+                        </msItem>
+                    </msContents>
+
+                    <physDesc>
+                        <p resp="Harshal Bhatt">Folios 4r and 4v are missing.</p>
+                        <p resp="Harshal Bhatt">Folio no 12r and 12v missing. Additions
+                            SS.1.13.21ab SS.1.13.21cd SS.1.13.23ef SS.1.13.23gh </p>
+                        <p resp="Harshal Bhatt">Missing verses SS.1.18.9ab SS.1.18.9cd
+                            SS.1.18.10ab SS.1.18.10cd SS.1.18.11 SS.1.18.13 SS.1.18.14ab
+                            SS.1.18.14cd SS.1.18.15ab SS.1.18.15cd SS.1.18.15ef SS.1.18.7
+                            and 8 found before SS.1.18.13 After SS.1.18.18 folios are
+                            missing. </p>
+
+
+                        <objectDesc form="pothi" rend="manuscript">
+                            <!-- @form can be "pothi", "book", scroll", etc. -->
+                            <supportDesc material="palm-leaf">
+                                <!-- @material can be "paper", "industrial paper", "handmade paper", "palm-leaf", "palmyra palm-leaf", "talipot palm-leaf", "birch bark", "vellum", etc. -->
+                                <!-- the following <foliation> tags are examples -->
+                                <extent><measure quantity="152" unit="folio"/><dimensions
+                                        type="object" unit="mm">
+                                        <width quantity="535"/>
+                                        <height quantity="44"/>
+                                    </dimensions><dimensions type="leaf" unit="mm"
+                                        /><dimensions type="written" unit="mm"/></extent>
+                                <condition>Most leaves are well preserved with clearly
+                                    legible text. Some damage to the edges of some leaves
+                                    and wear around string holes. </condition>
+                            </supportDesc>
+
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="7" cert="medium">Most leaves have
+                                    two string holes. The transcription tags these as
+                                    "column breaks."</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+
+                            <handNote scope="sole" script="newa" scriptRef="#vaba"
+                                medium="ink black"/>
+                        </handDesc>
+                        <scriptDesc>
+                            <scriptNote xml:id="script-śa-sa"><foreign xml:lang="sa"
+                                    >śa</foreign> and <foreign xml:lang="sa">sa</foreign>
+                                not distinguished.</scriptNote>
+                            <scriptNote xml:id="script-ba-va"><foreign xml:lang="ba"
+                                    >ba</foreign> and <foreign xml:lang="va">va</foreign>
+                                not distinguished.</scriptNote>
+                            <scriptNote xml:id="svarna-nasals"/>
+                            <!-- see 
+				https://github.com/chchch/upama/issues/87#issuecomment-2357860543 -->
+                        </scriptDesc>
+                        <!--                     this śa/sa equivalence may be wrong. Still checking, 2021-06-12  - DW -->
+                        <decoDesc>
+                            <decoNote type="decorative" subtype="intertextual"><desc>See
+                                    Bidur Bhattarai, _Dividing Texts_ (2020) for
+                                    documentation of text decorations in this
+                                    manuscript.</desc></decoNote>
+                        </decoDesc>
+                        <bindingDesc>
+                            <binding>
+                                <p>Wooden covers</p>
+                                <decoNote type="stringhole"><measure unit="stringhole"
+                                        quantity="2"/></decoNote>
+                            </binding>
+                        </bindingDesc>
+                        
+                    </physDesc>
+
+                    <history>
+                        <origin>
+                            <origDate calendar="Nepal" when="0301">Nepal Saṃvat 301 (878
+                                CE).</origDate>
+                            <!-- calendar can be "Vikrama", "Śaka", etc. Dates can be approximate or exact. -->
+                            <origPlace>Kathmandu</origPlace></origin>
+                        <provenance><p>First catalogued in the Nepal Durbar collection by
+                                Hara Prasad Shastri. Later moved to the Kesar Library.
+                            </p></provenance>
+                    </history>
+
+
+                </msDesc>
+                <listWit>
+                    <witness xml:id="MN">The <title>Mādhavanidāna</title>, <abbr
+                            type="siglum">MN</abbr>
+                        <idno type="siglum">Mādhavanidāna</idno></witness>
+
+                    <witness xml:id="NAK_1-1146">MS Kathmandu NAK 1-1146 <abbr
+                            type="siglum">1-1146</abbr>
+                        <idno type="siglum">MS NAK 1-1146</idno> A paper manuscript in
+                        Devanāgarī. 67 ff. Filmed as reel no A 224-9. Covers 1.8.3 -
+                        1.44.24 of the Sūtrasthāna. </witness>
+                </listWit>
+
+            </sourceDesc>
+        </fileDesc>
         <!--     <xenoData>
             <stemma format="nexml">
                 <nex:nexml generator="SplitsTree6" version="0.9"
@@ -2293,16 +2426,15 @@
                         punar api pākāyādhiśrayet tata eva ca kṣārodakakuḍavamadhyardha
                         kṛtvāpanayet tataḥ kaṭaśarkarābhasmaśarkarāś ca |
                         kṣīrapakaśaṃkhanābhīr agnivarṇṇāḥ kṛtvāyase pātre tasmiṃ kṣārodake
-                        niṣicya | piṣṭvā tathaiva ca
-                         pratīvāpo yathālābhaṃ
+                        niṣicya | piṣṭvā tathaiva ca pratīvāpo yathālābhaṃ
                         dantīcitrakalāṅgalīpūtīkapravāḍatālapatrīviḍasauvarcikākanakakṣīrīhiṃguvacātiviṣāśuktīḥ
-                        ślakṣṇacūrṇṇaṅ kṛtvā nidadhyāt |
-                         satatam apramattaś ca darvyāvaghaṭāyaṃ vipacet | sa yathā
-                        nātisāndro nātidravaś ca bhavati tathā prayateta | athainam
-                        āgatapākam avatāryānuguptam āyase kumbhe nidadhyāt |</l>
-                   
+                        ślakṣṇacūrṇṇaṅ kṛtvā nidadhyāt | satatam apramattaś ca
+                        darvyāvaghaṭāyaṃ vipacet | sa yathā nātisāndro nātidravaś ca
+                        bhavati tathā prayateta | athainam āgatapākam avatāryānuguptam
+                        āyase kumbhe nidadhyāt |</l>
+
                     <!-- 1.11.11 includes 1.11.12 and 13 -->
-                    
+
                     <l xml:id="SS.1.11.12"/>
                     <l xml:id="SS.1.11.13"/>
                     <l xml:id="SS.1.11.14"/>
@@ -6184,7 +6316,7 @@
                          tāni tu yadā vegakṣayāt pratighātād vā tvagādiṣu vraṇavastuṣv
                         avatiṣṭhante dhamanīsroto 'sthivivarapeśīprabhṛtiṣu vā
                         śarīrapradeśeṣu ||</l>
-                    
+
                     <l xml:id="SS.1.26.10">
                         <label xml:lang="en">cf. 1938 ed. 1.26.10</label>
                         <caesura/>
@@ -6304,18 +6436,18 @@
                         <caesura/>
                          śalyāni na viśīryante śarīre mṛnmayāni ca || </l>
 
-            <!--        <l xml:id="SS.1.26.23">
+                    <!--        <l xml:id="SS.1.26.23">
                         <label xml:lang="en">cf. 1938 ed. 1.26.23</label>
                         <caesura/>
                          dvividhaṃ pañcagatimattvagādivraṇavastuṣu |
                         <caesura/>
                          viśliṣṭaṃ vetti yaḥ śalyaṃ sa rājñaḥ kartum arhati || </l>
 -->
-                    
+
                     <l xml:id="SS.1.26.23"/>
-                    
+
                     <l xml:id="SS.1.26.trailer"> || 26 || </l>
-              
+
                 </div>
 
                 <div n="27" type="adhyāya">
@@ -6329,7 +6461,7 @@
                     <l xml:id="SS.1.27.2"/>
 
                     <l xml:id="SS.1.27.3"/>
-             <!--           <label xml:lang="en">cf. 1938 ed. 1.27.3</label>
+                    <!--           <label xml:lang="en">cf. 1938 ed. 1.27.3</label>
                         <caesura/>
                          śalyaṃ dvividham avabaddham anavabaddhaṃ ca || </l>-->
 
@@ -6509,7 +6641,7 @@
                         <label xml:lang="en">cf. 1938 ed. 1.28.1</label>
                         <caesura/>
                          athāto viparītavraṇavijñānīyaṃ vyākhyāsyāmaḥ || </l>
-                    
+
                     <l xml:id="SS.1.28.2"/>
 
                     <l xml:id="SS.1.28.3">
