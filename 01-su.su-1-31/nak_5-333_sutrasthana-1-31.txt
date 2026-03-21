@@ -503,7 +503,10 @@
                         <caesura/>
                          sa puṇyakarmmā<lb n="2"/> bhuvi pūjito nṛpair
                         <caesura/>
-                         asukṣaye śakrasalokatām iyād iti ||1|| </l>
+                         asukṣaye śakrasalokatām iyād </l>
+
+
+                    <l xml:id="SS.1.1.trailer"> iti ||1|| </l>
 
                 </div>
 
@@ -1200,9 +1203,10 @@
                             <del>mā</del>
                             <add>sā</add>
                         </subst> śāntimupaiti siktā koṣṇena yaṣṭīmadhukānvi<lb n="6"/>te
-                        neti || <unclear>hya</unclear>|| </l>
+                        neti ||</l>
 
-                    <p ana="trailer"><gap extent="1" reason="omitted" unit="line"/> ||</p>
+                    <l xml:id="SS.1.5.trailer">
+                        <unclear>hya</unclear>|| ||</l>
 
                 </div>
 
@@ -1402,7 +1406,7 @@
                     <l xml:id="SS.1.7.1"> athāto yantravidhim adhyāyaṃ vyākhyāsyāmaḥ || </l>
 
 
-                    <l xml:id="SS.1.7.2a"> tva<unclear>hyā</unclear><cb/>tsasandhiśrotaḥ
+                    <l xml:id="SS.1.7.2.add"> tva<unclear>hyā</unclear><cb/>tsasandhiśrotaḥ
                             <unclear>s</unclear>nāyva<unclear>s</unclear>thikoṣṭhagataśalyād
                         dharaṇārtham upadiśyate | </l>
 
@@ -1547,7 +1551,9 @@
                         gṛhyoddharate ca yasmāt |
                         <caesura/>
                         <unclear>ya</unclear>smāt smṛtaṃ kaṅkamukhaṃ pradhānaṃ
-                            <unclear>sthā</unclear>neṣu sarvveṣv avikāriyac ceti<unclear
+                        <unclear>sthā</unclear>neṣu sarvveṣv avikāriyac ceti </l>
+                    
+                    <l xml:id="SS.1.7.trailer"><unclear
                             extent="1" unit="char"/><cb/> || ṅ || </l>
 
                     <p ana="trailer"/>
@@ -1880,19 +1886,18 @@
                         >ḍo</add><!-- place of insertion not known --> kṣīre
                         pakaśaṃkhanābhīragnivarṇṇāḥ kṛ<unclear>tyā</unclear>yase pātre
                         tasmin kṣā<unclear extent="1" unit="char"/><cb/>rodake niṣicya |
-                        piṣṭvā tathaiva ca                 
-                        pratīvāpo yathā lābhaṃ
+                        piṣṭvā tathaiva ca pratīvāpo yathā lābhaṃ
                             dantīcitrakalāṅgalīpūtīkapravālatāla<unclear extent="1"
                             unit="char"/><lb n="4"/><add place="left margin"><unclear
                                 extent="1" unit="char"/></add>pa<unclear>ttrī</unclear>
                         viḍasauvarccikākanakakṣīrīhiṃguvacātiviṣāśuktī<cb/>ḥślakṣṇacūrṇṇāṅ
-                        kṛtvā nidadhyāt |  satatam apra<add place="bottom margin"
-                            >ma</add>ttaś ca darvvyāvaghaṭayan vipacet | sa yathā
-                        nātisāndro nāti<lb n="5"/>dravaś ca bhavati tathā prayateta |
-                        athainam āgatapākam avatāryānu<cb/>guptam āyase kumbhe nidadhyāt | </l>
+                        kṛtvā nidadhyāt | satatam apra<add place="bottom margin"
+                        >ma</add>ttaś ca darvvyāvaghaṭayan vipacet | sa yathā nātisāndro
+                            nāti<lb n="5"/>dravaś ca bhavati tathā prayateta | athainam
+                        āgatapākam avatāryānu<cb/>guptam āyase kumbhe nidadhyāt | </l>
 
                     <!-- 1.11.11 includes 1.11.12 and 13 -->
-                    
+
                     <l xml:id="SS.1.11.15"> kṣīṇabale ca kṣārodakam āvaped balakaraṇārthaṃ
                         || </l>
 
@@ -1944,11 +1949,13 @@
                         <caesura/>
                          evañ cen manyase vatsa procyamānaṃ śṛṇuṣva me || </l>
 
-                    <l xml:id="SS.1.11.23ef">
-                            a<unclear>mla</unclear>var<unclear>jyā</unclear><cb/>rasāṃ
-                        kṣāre sarvvāneva vibhāvayet |</l>
 
-                    <l xml:id="SS.1.11.24"> kaṭukas tatra bhūyiṣṭho lavaṇonurasas tathā |
+
+                    <l xml:id="SS.1.11.24">
+                            a<unclear>mla</unclear>var<unclear>jyā</unclear><cb/>rasāṃ
+                        kṣāre sarvvān eva vibhāvayet |
+                        <caesura/>
+                         kaṭukas tatra bhūyiṣṭho lavaṇonurasas tathā |
                         <caesura/>
                          amlena <del>ma</del><add>sa</add>ha saṃyu<lb n="6"/>ktaḥ
                             sutī<unclear>kṣṇo</unclear>lavaṇo rasaḥ | </l>
@@ -2139,8 +2146,8 @@
                          śa<unclear>rī</unclear>re svinnabhūyiṣṭhe svinnaṃ bhavati śoṇitaṃ
                         || </l>
 
-                    <l xml:id="SS.1.12.21"> prakṛtyā hy udakaṃ śītaṃ skandayaty atha śoṇi<lb
-                            n="3"/><add place="left margin">thaṃ
+                    <l xml:id="SS.1.12.21"> prakṛtyā hy udakaṃ śītaṃ skandayaty atha
+                            śoṇi<lb n="3"/><add place="left margin">thaṃ
                         e</add><!-- place of insertion? -->taṃ |
                         <caesura/>
                          tasmāt sukhayati hy uṣṇan natu śītaṃ kathañcana || </l>
@@ -3001,8 +3008,7 @@
                     <l xml:id="SS.1.16.1">athātaḥ karṇṇavya<lb n="3"/>dha<pc> </pc>vidhim
                         vyākhyāsyāmaḥ || </l>
 
-                    <!--     <l xml:id="SS.1.16.2"/> -->
-
+              
                     <l xml:id="SS.1.16.3"> rakṣābhūṣaṇanimittam vālasya karṇṇau
                         <cb/>vyadhayet | tau ṣaṣṭhe māse saptame vā śuklapakṣe praśasteṣu
                         tithikaraṇamuhūrttanakṣatreṣu kṛtamaṅgalaṃ <lb/>| svastivācanan
@@ -3332,7 +3338,7 @@
                         nā<cb/>ḍīñ janayitvā bhavaty asādhyaḥ || </l>
 
                     <l xml:id="SS.1.17.10">
-                        <expan>bha<ex cert="medium">vati cātra</ex></expan> ||
+                        <abbr>bha</abbr><ex cert="medium">vati cātra</ex> ||
                         <caesura/>
                          yaś chinatty āmam ajñānādyaś ca pakvam upekṣate |
                         <caesura/>
@@ -3594,9 +3600,9 @@
                     <l xml:id="SS.1.19.9">na ca divānidrāvaśagaḥ syād</l>
 
 
-                    <l xml:id="SS.1.19.11">utthāsamvesanaparimārjjanādiṣu
-                        cātmaceṣṭāsv apramatto vraṇaṃ rakṣet || <abbr>bha</abbr><ex>vati
-                            cātra</ex> ||</l>
+                    <l xml:id="SS.1.19.11">utthāsamvesanaparimārjjanādiṣu cātmaceṣṭāsv
+                        apramatto vraṇaṃ rakṣet || <abbr>bha</abbr><ex>vati cātra</ex>
+                        ||</l>
 
                     <l xml:id="SS.1.19.12">sthānāsanañcaṅkramaṇaṃ divāsvapnan tathaiva ca
                         |
@@ -5800,12 +5806,11 @@
         </body>
     </text>
     <facsimile>
-        <graphic url="https://wujastyk.github.io/sushrutaproject/nak_5-333_manifest.json"/>
+        <graphic url="https://wujastyk.github.io/sushrutaproject/nak_5-333_manifest.json"
+        />
     </facsimile>
-    
+
 </TEI>
-
-
 <!-- <facsimile>
 
         <graphic n="1r" url="https://zenodo.org/records/6474130/files/dscn2976%20fol%20000.jpg"/>
