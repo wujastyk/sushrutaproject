@@ -25,26 +25,36 @@ def update_facs_and_compare(filepath):
         facs_match = re.search(r'facs=(["\'])(.*?)\1', pb_tag)
         
         if not facs_match:
-            # If a <pb> tag doesn't have a facs attribute, leave it exactly as is
             return pb_tag
             
         quote_type = facs_match.group(1)
         current_val = facs_match.group(2)
+        old_facs_str = f'facs={quote_type}{current_val}{quote_type}'
         
+        # Initialize the counter on the first integer facs value
         if counter is None:
-            # This is the first <pb> tag with a facs attribute we've encountered
             try:
                 counter = int(current_val)
+                # If the initialization integer somehow contains 'jpg', preserve it
+                if "jpg" in current_val.lower():
+                    new_attrs = f'ana={quote_type}{current_val}{quote_type} facs={quote_type}{counter}{quote_type}'
+                    return pb_tag.replace(old_facs_str, new_attrs, 1)
+                return pb_tag
             except ValueError:
-                print(f"Warning: First facs value '{current_val}' is not an integer.")
-            # Do not modify the first valid facs value
-            return pb_tag
+                # Skip tags until we find a valid integer to start counting from
+                return pb_tag
         
         # Increment the counter for subsequent tags
         counter += 1
         
-        # Replace only the facs attribute string within this specific <pb> tag
-        new_tag = re.sub(r'facs=["\'].*?["\']', f'facs={quote_type}{counter}{quote_type}', pb_tag, count=1)
+        # Preserve the value in 'ana' if it contains 'jpg'
+        if "jpg" in current_val.lower():
+            new_attrs = f'ana={quote_type}{current_val}{quote_type} facs={quote_type}{counter}{quote_type}'
+        else:
+            new_attrs = f'facs={quote_type}{counter}{quote_type}'
+            
+        # Replace the old attribute string with the new one
+        new_tag = pb_tag.replace(old_facs_str, new_attrs, 1)
         return new_tag
 
     # Find all <pb ...> tags and pass them to the replacement function
