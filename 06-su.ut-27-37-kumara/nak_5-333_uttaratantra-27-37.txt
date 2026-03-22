@@ -170,17 +170,19 @@
                                 <!-- the following <foliation> tags are examples -->
                             </supportDesc>
                         </objectDesc>
-                           <scriptDesc>
-              <scriptNote xml:id="script-śa-sa"><foreign xml:lang="sa">śa</foreign> and
-                  <foreign xml:lang="sa">sa</foreign> not distinguished.</scriptNote>
+                        <scriptDesc>
+                            <scriptNote xml:id="script-śa-sa"><foreign xml:lang="sa"
+                                    >śa</foreign> and <foreign xml:lang="sa">sa</foreign>
+                                not distinguished.</scriptNote>
 
-              <scriptNote xml:id="script-ba-va"><foreign xml:lang="sa">ba</foreign> and
-                  <foreign xml:lang="sa">va</foreign> not distinguished.</scriptNote>
-              <scriptNote xml:id="svarna-nasals"/>
-              <!-- see https://github.com/chchch/upama/issues/87#issuecomment-2357860543 -->
+                            <scriptNote xml:id="script-ba-va"><foreign xml:lang="sa"
+                                    >ba</foreign> and <foreign xml:lang="sa">va</foreign>
+                                not distinguished.</scriptNote>
+                            <scriptNote xml:id="svarna-nasals"/>
+                            <!-- see https://github.com/chchch/upama/issues/87#issuecomment-2357860543 -->
 
-              <scriptNote xml:id="script-all-long-vowels"/>
-              </scriptDesc>
+                            <scriptNote xml:id="script-all-long-vowels"/>
+                        </scriptDesc>
                     </physDesc>
                     <history>
                         <origin>
@@ -311,7 +313,8 @@
                 internal naming of the sections, Śālākyatantra (adhyāyas 1-26),
                 Kumāratantra (27-38), Kāyacikitsātantra (39-59), Bhūtavidyātantra (60-62),
                 Tantrabhūṣaṇādhyāya (63-66).</change>
-            <change when="2026-01-26" who="Deepro Chakraborty">Moved vulgate 6.38 to the Kāyacikitsā, where it appears in NE</change>
+            <change when="2026-01-26" who="Deepro Chakraborty">Moved vulgate 6.38 to the
+                Kāyacikitsā, where it appears in NE</change>
         </revisionDesc>
     </teiHeader>
     <text xml:lang="sa-Latn">
@@ -320,19 +323,18 @@
 
                 <div n="27" type="adhyāya">
 
-                    <milestone n="dscn3363fol388_upper.jpg : 6" unit="folio"/>
+                    <pb facs="391" n="388: 6"/>
+
+                    <pb n="dscn3363fol388_upper.jpg" facs="392"/>
 
 
                     <l xml:id="SS.6.27.1"> athāto navagrahavijñāyam vyākhyāsyāmaḥ ||</l>
 
 
-
-
-
                     <l xml:id="SS.6.27.3"> vālagrahāṇām vijñānaṃ sādhanañ cāpy anantaraṃ |
                         <caesura/>
-                         utpattiñ kāraṇaiñ caiva saśrutaika<pb
-                            n="dscn3363fol388_lower.jpg"/>manā śṛṇu || </l>
+                         utpattiñ kāraṇaiñ caiva saśrutaika<milestone
+                            facs="dscn3363fol388_lower.jpg" unit="jpeg"/>manā śṛṇu || </l>
 
 
                     <l xml:id="SS.6.27.4"> skandagrahas tu prathamaḥ skandāpasmāra eva ca
@@ -405,8 +407,8 @@
                         <caesura/>
                          vi<unclear/>bhinnāṃ sṛjati ca kākatulyagandhiḥ |
                         <caesura/>
-                         chardyārto hṛṣi<pb n="dscn3364fol389_upper.jpg"/>tatanūr uhaḥ
-                        kumāras
+                         chardyārto hṛṣi<milestone facs="dscn3364fol389_upper.jpg"
+                            unit="jpeg"/>tatanūr uhaḥ kumāras
                         <caesura/>
                          tṛṣṇālur bhavati ca pūtanāgṛhītaḥ || </l>
 
@@ -474,8 +476,9 @@
                         grahādhipataye namaḥ | śirasā tvabhivandehaṃ pratigṛṇhīṣva me
                         valiṃ || nīrujānirvvikāraś ca śiśurvvāś ca jāyatām iti || ❈ || </l>
 
-                    <l xml:id="SS.6.27.trailer">kumāratantre navagraha¦<pb
-                            n="dscn3364fol389_lower.jpg"/>vijñānīyaṃ prathamodhyāyaḥ || || </l>
+                    <l xml:id="SS.6.27.trailer">kumāratantre navagraha¦<milestone
+                            facs="dscn3364fol389_lower.jpg" unit="jpeg"/>vijñānīyaṃ
+                        prathamodhyāyaḥ || || </l>
 
 
 
@@ -484,7 +487,7 @@
                 </div>
                 <div n="28" type="adhyāya">
 
-                    <milestone n="dscn3364fol389_lower.jpg : 1" unit="folio"/>
+                    <pb n="dscn3364fol389_lower.jpg : 1" facs="393"/>
 
 
                     <l xml:id="SS.6.28.1"> athāto skandhagrahapratiṣedhanīyam adhyāyaṃ
@@ -544,8 +547,8 @@
 
 
                     <l xml:id="SS.6.28.11"> tapasān tejasāñ caiva vapi<g
-                            ref="#newa-gap-filler"/><pb n="dscn3365fol390.jpg"/>ṣāṃ
-                        yaśasān tathā ||
+                            ref="#newa-gap-filler"/><milestone facs="dscn3365fol390.jpg"
+                            unit="jpeg"/>ṣāṃ yaśasān tathā ||
                         <caesura/>
                          vidhānaṃ yovyayo devaḥ sa te skandaḥ prasīdatu || </l>
 
@@ -579,7 +582,7 @@
 
                 <div n="29" type="adhyāya">
 
-                    <milestone n="dscn3365 fol390.jpg : 3" unit="folio"/>
+                    <pb n="dscn3365 fol390.jpg : 3" facs="394"/>
 
 
                     <l xml:id="SS.6.29.1"> athātaḥ skandāpasmārapratiṣedham adhyāyam
@@ -630,8 +633,8 @@
                          viśākhasaṃjñaḥ saśiṇāḥ śivos tu vitānena iti || 0 || </l>
 
 
-                    <l xml:id="SS.6.29.trailer">skandāpasmārapratiṣedha<pb
-                            n="dscn3365fol390_bottom.jpg"/>stṛtīyaḥ || || </l>
+                    <l xml:id="SS.6.29.trailer">skandāpasmārapratiṣedha<milestone
+                            facs="dscn3365fol390_bottom.jpg" unit="jpeg"/>stṛtīyaḥ || || </l>
 
 
 
@@ -640,7 +643,7 @@
 
                 <div n="30" type="adhyāya">
 
-                    <milestone n="dscn3360fol385ḻower.jpg : 2" unit="folio"/>
+                    <pb n="dscn3360fol385ḻower.jpg : 2" facs="395"/>
 
 
                     <l xml:id="SS.6.30.1"> athātaḥ śakunipratiṣedham adhyāyaṃ
@@ -714,7 +717,7 @@
 
                 <metamark ana="image file" n="DSCN3345"/>
                 <div n="31" type="adhyāya">
-                    <milestone n="175vIMG_0052.JPG: 3" unit="folio"/>
+                    <pb n="175vIMG_0052.JPG: 3" facs="396"/>
 
                     <l xml:id="SS.6.31.1"> athāto revatīpratiṣedhaṃ <abbr
                             type="suspension">vyā</abbr>
@@ -760,12 +763,12 @@
                          lamvākarālāvinatā tathaiva vahuputrikā |
                         <caesura/>
                          raivatī śuṣkanāsā ca sā ca de<cb n="3"/>vī prasīdatām iti || </l>
-                    
+
                     <l xml:id="SS.6.31.trailer"> kumāra || <unclear/>3 ||<cb n="2"/> ❈ || </l>
 
                 </div>
                 <div n="32" type="adhyāya">
-                    <milestone n="dscn3366fol391_top.jpg : 5" unit="folio"/>
+                    <pb n="dscn3366fol391_top.jpg : 5" facs="397"/>
 
                     <l xml:id="SS.6.32.1"> athātaḥ putanā<cb/>pratiṣedham adhyāyam
                         vyākhyāsyāmaḥ ||</l>
@@ -779,7 +782,8 @@
                          kuṣṭhaṃ sarjjarasaś caiva tailārthe vargam iṣyate || </l>
 
                     <l xml:id="SS.6.32.5"> hitaṃ ghṛtaṃ tukākṣīryāḥ siddhaṃ madhurakeṣu
-                            <pb n="dscn3366fol391_bottom.jpg"/> ca |
+                            <pb ana="dscn3366fol391_bottom.jpg" facs="398" unit="jpeg"/>
+                        ca |
                         <caesura/>
                          kuṣthatālīsakhadirāḥ sarṣapaiṣṭajane tathā || </l>
 
@@ -806,7 +810,7 @@
 
                 </div>
                 <div n="33" type="adhyāya">
-                    <milestone n="dscn3366fol391_bottom.jpg : 3" unit="folio"/>
+                    <pb n="dscn3366fol391_bottom.jpg : 3" unit="folio" facs="399"/>
 
                     <l xml:id="SS.6.33.1"> athā¦<lb n="4"/>to 'ndhapūtanāpratiṣedham
                         adhyāyam vyākhyāsyāmaḥ ||</l>
@@ -833,19 +837,20 @@
                         <caesura/>
                          mānsamāsan tathā pakvaṃ śoṇitañ ca catuṣpathe || </l>
 
-                    <l xml:id="SS.6.33.8"> nivedyam antañ ca gṛhe śiśoḥ <pb
-                            n="dscn3367fol392_top.jpg"/>snapanam iṣyate || </l>
+                    <l xml:id="SS.6.33.8"> nivedyam antañ ca gṛhe śiśoḥ<pb
+                            ana="dscn3367fol392_top.jpg" facs="400"/>snapanam iṣyate || </l>
 
                     <l xml:id="SS.6.33.9"> karālapiṅgalā muṇḍā <unclear/>ṣāyamvaradhāriṇī
                         |
                         <caesura/>
                          devī vālam imaṃ prītā rakṣatām andhapūtanā iti || 0 || </l>
-                    
-                    <l xml:id="SS.6.33.trailer"> andhapūtanāpratiṣedhaḥ saptamodhyāyaḥ || || </l>
+
+                    <l xml:id="SS.6.33.trailer"> andhapūtanāpratiṣedhaḥ saptamodhyāyaḥ ||
+                        || </l>
 
                 </div>
                 <div n="34" type="adhyāya">
-                    <milestone n="dscn3367fol392_bottom.jpg : 1" unit="folio"/>
+                    <pb n="dscn3367fol392_bottom.jpg : 1" unit="folio" facs="401"/>
 
                     <l xml:id="SS.6.34.1"> athāta<lb n="2"/>ḥ śītapūtanāpratiṣedhanīyam
                         adhyāyam vyākhyāsyāmaḥ ||</l>
@@ -878,12 +883,12 @@
                     <l xml:id="SS.6.34.9"> mugdaudanāśinī devī surāśoṇitapāyinī |
                         <caesura/>
                          jalāśayaratādevī pātu tvāṃ śītapūtanā i<lb n="6"/>ti || 0 || </l>
-                    
+
                     <l xml:id="SS.6.34.trailer"> śītapūtanāpratiṣedho 'ṣṭamaḥ || || </l>
 
                 </div>
                 <div n="35" type="adhyāya">
-                    <milestone n="dscn3367fol392_bottom.jpg : 6" unit="folio"/>
+                    <pb n="dscn3367fol392_bottom.jpg : 6" unit="folio" facs="402"/>
 
                     <l xml:id="SS.6.35.1"> athāto mukhamaṇḍikāpratiṣedhanīyam adhyāyam
                         vyākhyāsyāmaḥ ||</l>
@@ -896,8 +901,8 @@
                     <l xml:id="SS.6.35.4"> svarasairbhṛṅgavṛkṣāṇāṃ tathaiva hayagandhayā |
                         tailaṃ vasāṃ ca saṃyojya paced abhyañjanaṃ śiśāḥ || </l>
 
-                    <l xml:id="SS.6.35.5"> madhūlikā payasyā ca tukākṣī<pb
-                            n="dscn3367fol392_bottom.jpg"/>dyo gaṇe na ca |
+                    <l xml:id="SS.6.35.5"> madhūlikā payasyā ca tukākṣī<milestone
+                            facs="dscn3367fol392_bottom.jpg"/>dyo gaṇe na ca |
                         <caesura/>
                          madhuraiḥ pañcamūlyāś ca kanīyasyā ghṛtam pacet || </l>
 
@@ -918,12 +923,13 @@
                         <caesura/>
                          goṣṭha<lb n="3"/>madhyālayā devī pātu tvāṃ mukhamaṇḍikā iti || 0
                         || </l>
-                    
-                    <l xml:id="SS.6.35.trailer"> mukha<cb/>maṇḍikāpratiṣedhanīyaṃ navamaḥ || || </l>
+
+                    <l xml:id="SS.6.35.trailer"> mukha<cb/>maṇḍikāpratiṣedhanīyaṃ navamaḥ
+                        || || </l>
 
                 </div>
                 <div n="36" type="adhyāya">
-                    <milestone n="dscn3367fol392_bottom.jpg : 3" unit="folio"/>
+                    <pb n="dscn3367fol392_bottom.jpg : 3" unit="folio" facs="403"/>
 
                     <l xml:id="SS.6.36.1"> athāto naigameṣapratiṣedhanīyam adhyāyam
                             vyākhyāsyāma<lb n="4"/>ḥ ||</l>
@@ -955,15 +961,17 @@
                         mahāyaśāḥ |
                         <caesura/>
                          vālaṃ vālapitā devo naigameṣo 'bhirakṣatām iti || 0 || </l>
-                    
-                    <l xml:id="SS.6.36.trailer"> naigameṣapratiṣedhanīyaṃ daśamodhyāya || || </l>
+
+                    <l xml:id="SS.6.36.trailer"> naigameṣapratiṣedhanīyaṃ daśamodhyāya ||
+                        || </l>
 
                 </div>
-                <div n="37" type="adhyāya">
-                    <milestone n="dscn3367fol392_bottom.jpg : 7" unit="folio"/>
 
-                    <l xml:id="SS.6.37.1"> athāto grahotpatnāmā<pb n=""/>dhyāyam
-                        vyākhyāsyāmaḥ ||</l>
+                <div n="37" type="adhyāya">
+                    <milestone facs="dscn3367fol392_bottom.jpg : 7" unit="jpeg"/>
+
+                    <l xml:id="SS.6.37.1"> athāto grahotpatnāmā<pb n="392" facs="404"
+                        />dhyāyam vyākhyāsyāmaḥ ||</l>
 
                     <l xml:id="SS.6.37.3"> navaskandādayaḥ proktā vālānāṃ ya ime grahāḥ |
                         <caesura/>
@@ -1020,8 +1028,9 @@
                     <l xml:id="SS.6.37.15"> yathākālaṃ pravarttanta uṣṇaṃ varṣahimādribhiḥ
                         |
                         <caesura/>
-                         ijyāvalinama¦<pb n="dscn3368fol393_bottom.jpg"/>skārair
-                            jappa<unclear>ho</unclear>mais tathaiva ca || </l>
+                         ijyāvalinama¦<milestone facs="dscn3368fol393_bottom.jpg"
+                            unit="jpeg"/>skārair jappa<unclear>ho</unclear>mais tathaiva
+                        ca || </l>
 
                     <l xml:id="SS.6.37.16"> samyak prayuktaiś ca naraiḥ prīṇayantya
                         tadevatāṃ |
@@ -1065,10 +1074,10 @@
                         grahasambhavaḥ |
                         <caesura/>
                          sampiṇḍu na hi pālānām adhyādādaśacaika ca || </l>
-                    
+
                     <l xml:id="SS.6.37.trailer"> iti kumāratantre grahotpattin
-                        nāmaikādaśamodhyāya uttaratantre pañcatriṃśattamo 'dhyā<pb
-                            n="dscn3369fol394_top.jpg"/>yaḥ || || </l>
+                        nāmaikādaśamodhyāya uttaratantre pañcatriṃśattamo 'dhyā<milestone
+                            facs="dscn3369fol394_top.jpg" unit="jpeg"/>yaḥ || || </l>
 
                 </div>
 
@@ -1077,8 +1086,10 @@
             </div>
         </body>
     </text>
-       <facsimile>
-        <graphic url="https://wujastyk.github.io/sushrutaproject/nak_5-333_manifest.json"/>
+    <facsimile>
+        <graphic url="https://wujastyk.github.io/sushrutaproject/nak_5-333_manifest.json"
+        />
     </facsimile>
- 
+
+    <!-- facsimile pages 392 - 397-->
 </TEI>
