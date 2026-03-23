@@ -63,6 +63,11 @@
                         <provenance>[record of ownership]</provenance>
                         <acquisition>[how it was acquired]</acquisition>
                     </history>
+                    <!--      <msContents>
+                        <msItem>
+                            <filiation corresp="#Nep">Nep</filiation>
+                        </msItem>
+                    </msContents>-->
                 </msDesc>
             </sourceDesc>
         </fileDesc>
@@ -268,7 +273,7 @@
 
                     <l xml:id="SS.1.1.13">sa uvācaivam astv iti | </l>
 
-                    <l xml:id="SS.1.1.14"> iha khalv āyuvedaprayojanaṃ vyādhyupasṛṣṭasya
+                    <l xml:id="SS.1.1.14"> iha khalv āyurvedaprayojanaṃ vyādhyupasṛṣṭasya
                         vyādhiparimokṣaḥ | svastharakṣaṇañ</l>
 
                     <l xml:id="SS.1.1.15"> cāyur asmin vidanty anena vāyu vidyata ity
@@ -1757,11 +1762,11 @@
                          evaṃ cet manyase va<unclear>tsa</unclear> procyamānaṃ sṛṇuṣva me
                         || </l>
 
-                    <l xml:id="SS.1.11.23ef">
-                            aṃblavar<unclear>jyā</unclear>rasāṃ<unclear>tlā</unclear>re
-                            sa<unclear>r</unclear>vān eva vibhā<cb n="3"/>vayet ||</l>
-
-                    <l xml:id="SS.1.11.24">kaṭukas tatra bhūyiṣṭho lavaṇena rasas tathā ||
+                    <l xml:id="SS.1.11.24"
+                            >aṃblavar<unclear>jyā</unclear>rasāṃ<unclear>tlā</unclear>re
+                            sa<unclear>r</unclear>vān eva vibhā<cb n="3"/>vayet ||
+                        <caesura/>
+                         kaṭukas tatra bhūyiṣṭho lavaṇena rasas tathā ||
                         <caesura/>
                          aṃblena saha saṃyuktaḥ sutīkṣṇalavaṇo rasaḥ || </l>
 
@@ -2668,7 +2673,7 @@
                     <l xml:id="SS.1.15.39">doṣādīnā<unclear>n tu</unclear> samatām
                         anu<cb/>mānena lakṣayet |
                         <caesura/>
-                         prasannāmendriyaṃ jñātvā puruṣan tatra buddhimāṃ |</l>
+                         prasa<sic>nnāme</sic>ndriyaṃ jñātvā puruṣan tatra buddhimāṃ |</l>
 
                     <l xml:id="SS.1.15.40cdef">kṣapayed bṛṃhayec cāpi doṣadhātumalāṃ
                             bhi<lb n="6"/>ṣak |
@@ -2679,18 +2684,18 @@
                         <caesura/>
                          prasannātmendriya<cb/>manāḥ svastha ity abhidhīyate || </l>
 
-                    <l xml:id="SS.1.15.trailer"> ṇṭa ḥṛ
-                        <!-- this are letter numerals for 10 and 5, author="Andrey Klebanov"-->
-                        || ॰ || </l>
+                    <l xml:id="SS.1.15.trailer">
+                        <interp ana="Nepalese letter-numerals for 10 and 5"
+                            resp="Andrey Klebanov">ṇṭa ḥṛ</interp> || ॰ || </l>
                     <trailer/>
                 </div>
-
+             
 
                 <div n="16" type="adhyāya">
-                    <pb n="13v"/>
-                    <milestone facs="13v" unit="folio"/>
+
+                    <milestone ana="13v 6" unit="folio"/>
                     <p>[...]</p>
-                    <l xml:id="SS.1.16.1"><lb n="6"/>athātaḥ karṇavyadha<pc> </pc>vidhim
+                    <l xml:id="SS.1.16.1">athātaḥ karṇavyadha<pc> </pc>vidhim
                         vyākhyāsyāmaḥ || </l>
 
 
@@ -2803,7 +2808,7 @@
                         budhaḥ |
                         <caesura/>
                          tato nupadravam samyag balavāṃś ca vivardhate |</l>
-                    
+
                     <!-- Ācārya's sū.16.21 and 22ab verses are not in the N MS! -->
 
                     <l xml:id="SS.1.16.22">ye tu karṇā na vardhante
@@ -4602,8 +4607,10 @@
                             n="1"/>ñ ca dvāv evāharaṇahetū bhavataḥ pratilomo nulomaś ca
                         || </l>
 
-                    <l xml:id="SS.1.27.7-8"> tatra pratilomam avāṃcīnam apanayet |
-                        anulomaṃ parācīnam utuṇḍi<cb n="2"/>ta<unclear>ṃ</unclear> chitvā
+                    <l xml:id="SS.1.27.7"> tatra pratilomam avāṃcīnam apanayet |
+                        anulomaṃ parācīnam</l>
+                    
+                    <l xml:id="SS.1.27.8"> utuṇḍi<cb n="2"/>ta<unclear>ṃ</unclear> chitvā
                         nirghātayet | </l>
 
                     <l xml:id="SS.1.27.9"> cchedanīyamukhāny acchedanīyamukhāni
@@ -4644,15 +4651,19 @@
                         praveśyāgnitaptāś ca śalākāntayā prāptā śītābhir adbhiḥ pariṣicya
                         sthirībhūtaṃ śalyam uddharet | </l>
 
-                    <l xml:id="SS.1.27.18-21"> ajātuṣaṃ jatunā li<cb n="2"/>ptayā
+                    <l xml:id="SS.1.27.19"> ajātuṣaṃ jatunā li<cb n="2"/>ptayā
                         pūrvakalpenāsthiśalyam anyad vā tirya śaktām avekṣyañ ca
                         keśoṇḍuvaṃ dṛḍhaikadīrghāsūtrabandhanaṃ kṛtvā dravabhakto<lb n="7"
                             />pahita<unclear>ṃ</unclear> pāyayad ākaṇṭhāc ca pūrṇṇakoṣṭhaṃ
                         vāmayed vamataś ca śalyaikadeśaktaṃ sūtraṃ anyad vā sahasā tv
                         ākṣipet | <cb n="1"/>mṛdunā dantadhāvanakūrccakenāharet | praṇuded
                         vāntaḥkṣatakaṇṭhaya ca madhusarpiloha prayacchet | triphalācūrṇṇam
-                        vā madhuśarkarāmiśram u<cb n="2"/>dakapūrṇṇam avāṃcchirasam
-                        avapīḍayet | dhunuyād vāmayec ca grāsaśalye tu kaṇṭhaśakte
+                        vā madhuśarkarāmiśram</l>
+                    
+                    <l xml:id="SS.1.27.20"> u<cb n="2"/>dakapūrṇṇam avāṃcchirasam
+                        avapīḍayet | dhunuyād vāmayec ca</l>
+                    
+                    <l xml:id="SS.1.27.21">  grāsaśalye tu kaṇṭhaśakte
                         niḥśaṅkam anavabaddhaṃ <pb n="23v"
                         /><!-- A1267-11+103612+060.jpg -->skandhe muṣṭhino haret |
                         snehasukhodakam vā pāyayet || </l>
