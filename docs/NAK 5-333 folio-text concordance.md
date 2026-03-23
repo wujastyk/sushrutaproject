@@ -362,7 +362,7 @@ For another example, file `dscn3345 fol 370.jpg` , shown below, contains the ima
 | **400, 401, 402, 403top** |  |  |  | a table of contents |
 | not found | End of |  6.36(1) |  6.39 |   |
 | 403 upper, line 1 |  |  | 6.62.1 - 6.62.13 |  |
-| 404 uppernot found | Start of |  6.37(2) | 6.62.13 - 6.62.32cd6.40.182 | nepalese folio nos. 171atīsārapratiṣedham |
+| 404 upper not found | Start of |  6.37(2) | 6.62.13 - 6.62.32cd6.40.182 | nepalese folio nos. 171atīsārapratiṣedham |
 | 404 lower |  |  | 6.62.32cd - |  |
 | 404 lower upper, line  3486 upper, line 2 | End ofStart of | 6.61(3)6.38(3) | 6.626.41.58 | nepalese 172śoṣapratiṣedham |
 | 404 lower upper, line  3486 lower, line 2 | Start ofEnd of | 6.626.37(2) | 6.636.40 | atīsārapratiṣedham |
