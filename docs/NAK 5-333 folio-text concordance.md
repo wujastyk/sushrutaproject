@@ -364,8 +364,8 @@ For another example, file `dscn3345 fol 370.jpg` , shown below, contains the ima
 | 403 upper, line 1 |  |  | 6.62.1 - 6.62.13 |  |
 | 404 upper not found | Start of |  6.37(2) | 6.62.13 - 6.62.32cd6.40.182 | nepalese folio nos. 171atīsārapratiṣedham |
 | 404 lower |  |  | 6.62.32cd - |  |
-| 404 lower upper, line  3486 upper, line 2 | End ofStart of | 6.61(3)6.38(3) | 6.626.41.58 | nepalese 172śoṣapratiṣedham |
-| 404 lower upper, line  3486 lower, line 2 | Start ofEnd of | 6.626.37(2) | 6.636.40 | atīsārapratiṣedham |
+| 404 lower upper, line  3486 upper, line 2 | End of Start of | 6.61(3)6.38(3) | 6.626.41.58 | nepalese 172śoṣapratiṣedham |
+| 404 lower upper, line  3486 lower, line 2 | Start of End of | 6.626.37(2) | 6.636.40 | atīsārapratiṣedham |
 | 406 upper, line 4487 upper, line 1 | End of | 6.62 | 6.636.41 | 6.41.13–23 |
 | 406 upper, line 4 | Start of | 6.63 | 6.64 |  |
 |  |  |  |  | |
@@ -421,9 +421,9 @@ For another example, file `dscn3345 fol 370.jpg` , shown below, contains the ima
 | 484 upper, line 3 | Start of |  6.60(2) |  6.61 |   |
 | 485 upper, line 6 | End of |  6.60(2) |  6.61 | apasmārapratiṣedham |
 | 485 upper, line 6 | Start of |  | 6.62 | unmādapratiṣedam |
-| 485 lower, line 6 | Start of |  6.61(3) |  6.62 | a short gandhakakalpa  declared by Nāgārjuna. Not in the vulgate.  This is similar to (but not the same words) Vaṅgasenasaṃhitā Rasāyanādhikāra 33. |
+| 485 lower, line 6 (Mirador 488) | Start of |  6.61(3) |  6.62 | a short gandhakakalpa  declared by Nāgārjuna. Not in the vulgate.  This is similar to (but not the same words) Vaṅgasenasaṃhitā Rasāyanādhikāra 33. |
 |  |  |  |  |  |
-| **400, 401, 402, 403top** |  |  |  | a table of contents |
+| **400, 401, 402, 403 top** |  |  |  | a table of contents |
 |  |  |  |  |  |
 | 403 upper, line 1 |  |  | 6.62.1 - 6.62.13 |  |
 | 404 upper | |  | 6.62.13 - 6.62.32cd | nepalese folio nos. 171 |
