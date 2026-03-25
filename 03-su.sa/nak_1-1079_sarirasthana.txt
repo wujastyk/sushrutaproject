@@ -71,6 +71,10 @@
             <change when="2023-02-24" who="Dominik Wujastyk"> Started this file. </change>
             <change when="2023-02-27" who="Paras Mehta">Added 3.02</change>
             <change when="2023-02-28" who="Paras Mehta">Added 3.01</change>
+            <change when="2026-03-25" who="Dominik Wujastyk">Added page-begin markers with
+                facs attributes that match the IIIF image numbers delivered from
+                archive.org.</change>
+
         </revisionDesc>
     </teiHeader>
 
@@ -80,6 +84,9 @@
             <div n="3" type="sthāna">
 
                 <div n="1" type="adhyāya">
+
+                    <pb facs="69" n="63v, top image, end of line 2"/>
+
                     <l xml:id="SS.3.1.1"> athātaḥ sarvabhūtacintāṃ <lb n="3"/> śārīraṃ
                         vyākhyāsyāmaḥ || </l>
 

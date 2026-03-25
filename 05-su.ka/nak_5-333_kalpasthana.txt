@@ -168,6 +168,8 @@
                 tags</change>
             <change when="2025-03-31" who="Dominik Wujastyk">Removed the empty passage tags so that
                 these passages do not show up in the edition as being present but empty.</change>
+            <change when="2026-03-25" who="Dominik Wujastyk">Added page-begin markers with facs attributes that match the IIIF image numbers delivered from archive.org.</change>
+            
         </revisionDesc>
     </teiHeader>
 
@@ -385,7 +387,7 @@
 
                     <l xml:id="SS.5.1.55">utsādane parīṣeke kaṣāye sānulepane |
                         <caesura/>
-                         śayyāvastra<pb ana="upper image" ana="dscn3304 fol 326.jpg" facs="330" n="326v"/><lb
+                         śayyāvastra<milestone facs="dscn3304 fol 326.jpg upper" unit="jpeg"/><pb facs="330" n="326v"/><lb
                             n="1"
                         /><!-- The scribal foliation of the images on dscn 3303 fol 325.jpg and dscn3304 fol 326.jpg are not in sequence. 
                             So I have transcribed here from dscn 3304 fol 326.jpg upper (scribal folio 326v), which continues from 
@@ -1545,8 +1547,8 @@
                         <caesura/>
                          prāyo hi vamanenaiva sukhan nirhriyate viṣaṃ ||</l>
 
-                    <l xml:id="SS.5.5.20">phaṇinām viṣavege tu prathamaṃ <pb facs="dscn3317 fol
-                            339.jpg" n="339v" facs="356"/><lb n="1"/>śoṇitaṃ haret ||
+                    <l xml:id="SS.5.5.20">phaṇinām viṣavege tu prathamaṃ <milestone facs="dscn3317 fol
+                            339.jpg" unit="jpeg"/><pb n="339v" facs="356"/><lb n="1"/>śoṇitaṃ haret ||
                         <caesura/>
                          dvitīye madhusarppirbhyām agadaṃ saha pāyayet ||</l>
 
