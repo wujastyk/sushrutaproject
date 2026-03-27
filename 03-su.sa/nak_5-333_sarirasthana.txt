@@ -89,7 +89,8 @@
             <change when="2026-03-25" who="Dominik Wujastyk">Added page-begin markers with
                 facs attributes that match the IIIF image numbers delivered from
                 archive.org.</change>
-
+            <change when="2026-03-26" who="Dominik Wujastyk">Removed intrusive label
+                entities. </change>
         </revisionDesc>
 
     </teiHeader>
@@ -266,7 +267,7 @@ C) Special notes :
                     <milestone n="159r : 6" unit="digital_image"/>
 
 
-                    <l xml:id="SS.3.2.3"> vāta<pb n="160v" facs="165"/><pc
+                    <l xml:id="SS.3.2.3"> vāta<pb n="160v" facs="164"/><pc
                             > </pc>pitta<pc> </pc>śleṣma<pc> </pc>śoṇita<pc
                             > </pc>kuṇapa<pc> </pc>granthi<pc> </pc>pūti<pc
                             > </pc>pūya<pc> </pc>kṣīṇa<pc> </pc>mūtra<pc
@@ -373,7 +374,7 @@ C) Special notes :
                         teṣām eva kaṣāyam ācamanaṃ || </l>
 
                     <l xml:id="SS.3.2.10.add9"> kuṇapākhye mañjiṣṭhābhadraśriyakaṣā<pb
-                            n="161r" facs="166"/>yaṃ pāyayet ||
+                            n="161r" facs="165"/>yaṃ pāyayet ||
                         kuṭajaphalabhadraśriyacandanam vā śarkkarāyuktaṃ || pūyābhe vā tad
                         eva prayacchet | </l>
 
@@ -393,7 +394,7 @@ C) Special notes :
                     <l xml:id="SS.3.2.13cd"> kuryāt kalkam pi<cb/>cūṃś cāpi pathyāny
                         ācamanāni ca || </l>
 
-                    <!--                    got to here -->
+                    <!--   to here -->
 
                     <l xml:id="SS.3.2.14cd"> durggandhapūtisaṃkāśe majjābhe vāpi śoṇite | </l>
 
@@ -1009,26 +1010,24 @@ C) Special notes :
                     <l xml:id="SS.3.4.28ab"><lb n="3"/> jantoḥ saṃjāyate jihvā yayā
                         vedayate rasān || </l>
 
-                    <!--          29 and 30 missing in MS?  Check. -->
+               
 
 
                     <l xml:id="SS.3.4.31.2"> śoṇitakaphapra<cb/>sādajaṃ hṛdayaṃ |
-                        yadāsrayā hi dhamanyaḥ prāṇavahās </l>
-
-                    <l xml:id="SS.3.4.31.4"> tadviśeṣeṇa cetanāsthānam uktaṃ || tasmim̐s
-                            ta<lb n="4"/>masāvṛte sarvvaprāṇinaḥ svapanti || </l>
+                        yadāsrayā hi dhamanyaḥ prāṇavahās tadviśeṣeṇa cetanāsthānam uktaṃ
+                        || tasmim̐s ta<lb n="4"/>masāvṛte sarvvaprāṇinaḥ svapanti || </l>
 
 
 
-                    <l xml:id="SS.3.4.33"> nidrān tu vaiṣṇaṃ vīpāpmānam upa<g
+                    <l xml:id="SS.3.4.33"> nidrān tu vaiṣṇavīṃ pāpmānam upa<g
                             ref="#broken-danda"/><cb/>diśanti | sā svabhāvataḥ
                         sarvvaprāṇino nispṛśati | tatra yadā saṃjñāvahāni srotānsi
                             tamobhū<g ref="#broken-danda"/><lb n="5"/>yiṣṭhaḥ śleṣmā
-                        pratipadyate || tadā tāmasī nāma nidrā bhavatyana<g
+                        pratipadyate || tadā tāmasī nāma nidrā bhavaty ana<g
                             ref="#broken-danda"/><cb/>vabodhinī sā pralayakāle
-                        tamobhūyiṣṭhānāmahaḥsu ca niśāsu bhavati | rajobhūyiṣṭhā nāma<lb
-                            n="6"/> nimittasatvabhūyiṣṭhānām ardharātre kṣīṇaśleṣmaṇām
-                        anilavahulānām mano bhighātāc ca vaikārikī || </l>
+                        tamobhūyiṣṭhānām ahaḥsu ca niśāsu bhavati | rajobhūyiṣṭhānām a<lb
+                            n="6"/>nimitta satvabhūyiṣṭhānām ardharātre kṣīṇaśleṣmaṇām
+                        anilavahulānām manobhighātāc ca vaikārikī || </l>
 
                     <l xml:id="SS.3.4.34"> bhavanti cātra || hṛdayañ cetanāsthānaṃ muktaṃ
                         suśruta dehinām | tamobhi<pb n="170v" facs="174"/>bhūte tasmiṃs tu
@@ -1074,25 +1073,17 @@ C) Special notes :
                     <l xml:id="SS.3.4.42"> nidrānāśonilāt pittātmanas tāpāt kṣayādapi |
                         abhi<cb/>ghātāc ca bhavati pratyanīkaiḥ sa śāmyati || </l>
 
-                    <l xml:id="SS.3.4.43">
-                        <label xml:lang="en">śā.4.43</label>
-                         nidrānāśe 'bhyaṅgayogo mūrdhni tailaniṣevaṇam ||
-                        gātrasyodvartanaṃ caiva hitaṃ saṃvāhanāni ca || </l>
+                    <l xml:id="SS.3.4.43"> nidrānāśe 'bhyaṅgayogo mūrdhni tailaniṣevaṇam
+                        || gātrasyodvartanaṃ caiva hitaṃ saṃvāhanāni ca || </l>
 
-                    <l xml:id="SS.3.4.44">
-                        <label xml:lang="en">śā.4.44</label>
-                         śāligodhūmapiṣṭānnabhakṣyairaikṣavasaṃskṛtaiḥ || bhojanaṃ
-                        madhuraṃ snigdhaṃ kṣīramāṃsarasādibhiḥ || </l>
+                    <l xml:id="SS.3.4.44"> śāligodhūmapiṣṭānnabhakṣyairaikṣavasaṃskṛtaiḥ
+                        || bhojanaṃ madhuraṃ snigdhaṃ kṣīramāṃsarasādibhiḥ || </l>
 
-                    <l xml:id="SS.3.4.45">
-                        <label xml:lang="en">śā.4.45</label>
-                         rasairbileśayānāṃ ca viṣkirāṇāṃ tathaiva ca ||
+                    <l xml:id="SS.3.4.45"> rasairbileśayānāṃ ca viṣkirāṇāṃ tathaiva ca ||
                         drākṣāsitekṣudravyāṇām upayogo bhavenniśi || </l>
 
-                    <l xml:id="SS.3.4.46">
-                        <label xml:lang="en">śā.4.46</label>
-                         śayanāsanayānāni manojñāni mṛduni ca || nidrānāśe tu kurvīta
-                        tathā'nyānyapi buddhimān || </l>
+                    <l xml:id="SS.3.4.46"> śayanāsanayānāni manojñāni mṛduni ca ||
+                        nidrānāśe tu kurvīta tathā'nyānyapi buddhimān || </l>
 
                     <l xml:id="SS.3.4.47">nidrātiyoge vamanaṃ hitaṃ saṃśodhanāni ca |
                             laṃ<lb n="3"/>ghanaṃ raktamokṣaś ca manovyākulanāni ca || </l>
@@ -1101,11 +1092,9 @@ C) Special notes :
                         /><cb/>ṣārttānāṃ rātrau jāgaraṇaṃ hitam | divāsvapnaś ca
                         bhṛṭchūlahikkājīrṇṇātisāriṇāṃ || </l>
 
-                    <l xml:id="SS.3.4.49">
-                        <label xml:lang="en">śā.4.49</label>
-                         indriyārthe<lb n="4"/>ṣv asamvittir jjṛmbhanaṃ gauravaṃ klamaḥ |
-                        nidrārttasyaiva yasyehā <g ref="#broken-danda"/><cb/> tasya tandrā
-                        vinirddiśet || </l>
+                    <l xml:id="SS.3.4.49"> indriyārthe<lb n="4"/>ṣv asamvittir jjṛmbhanaṃ
+                        gauravaṃ klamaḥ | nidrārttasyaiva yasyehā <g ref="#broken-danda"
+                        /><cb/> tasya tandrā vinirddiśet || </l>
 
 
 
@@ -1193,11 +1182,10 @@ C) Special notes :
 
 
 
-                    <l xml:id="SS.3.4.75">
-                        <label xml:lang="en">śā.4.75</label>
-                         dṛḍhaśāstramatiḥ sthiramitramanaḥ pari<g ref="#broken-danda"
-                        /><cb/>gaṇya cirāc ca dadāti vahuḥ pariniṣṭatavākyapadaḥ satataṃ
-                        gurumānakaraś ca kaphaprakṛti<lb n="6"/>ḥ || </l>
+                    <l xml:id="SS.3.4.75"> dṛḍhaśāstramatiḥ sthiramitramanaḥ pari<g
+                            ref="#broken-danda"/><cb/>gaṇya cirāc ca dadāti vahuḥ
+                        pariniṣṭatavākyapadaḥ satataṃ gurumānakaraś ca kaphaprakṛti<lb
+                            n="6"/>ḥ || </l>
 
 
 
