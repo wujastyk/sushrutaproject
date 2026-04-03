@@ -9,14 +9,14 @@
 %
 %
 % private macros for switching between chapters    
-\newif \ifkalpa \newif\ifsarira \newif \ifjvara 
-\newif\ifsutra \newif\ifnidana \newif\ifcikitsa
+\newif \ifkalpa 
+\newif\ifsarira
+\newif\ifcikitsa
 %
 %\cikitsatrue
-%\nidanatrue
 %\kalpatrue
 %\sariratrue
-%\sutratrue
+%
 %\includeonly{chapters/introduction}
 % \includeonly{chapters/translation 6-introduction}
 
@@ -49,28 +49,17 @@
 %        chapters/bibliography and indexes 
 } \fi
 %
-\ifsutra
-\includeonly{%chapters/translation 5-introduction,
-    chapters/translation 1-13,    
-    %chapters/bibliography and indexes
-} \fi
 \ifsarira \includeonly{%
    % chapters/translation 3-02,
-    chapters/translation 3-04,
+%    chapters/translation 3-04,
     chapters/translation 3-09,
 %    chapters/translation 6-65,
-%     chapters/bibliography and indexes
+     chapters/bibliography and indexes
 } \fi       
 %
-\ifjvara  \includeonly{chapters/translation 6-39} \fi      
-%  
-\ifnidana \includeonly{chapters/translation 2-01,
-    chapters/bibliography and indexes,
-    } \fi
 \ifcikitsa \includeonly{%
 %    chapters/translation 4-04,
     chapters/translation 4-05,
-    chapters/translation 2-01,
 %       chapters/bibliography and indexes
 }
 \fi
