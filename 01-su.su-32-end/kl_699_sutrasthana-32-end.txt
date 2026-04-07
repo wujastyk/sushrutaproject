@@ -159,6 +159,9 @@
                 1.20</change>
             <change when="2023-06-26" who="Dominik Wujastyk">Separated the file into two
                 parts, 1-31 and 32-end, because of processing limits at Saktumiva</change>
+            <change when="2026-03-26" who="Dominik Wujastyk">Added page-begin marker
+                with facs attributes that match the IIIF image numbers delivered from
+                archive.org.</change>
 
         </revisionDesc>
 
@@ -171,8 +174,9 @@
 
 
                 <div n="32" type="adhyāya">
-                    <milestone n="29v" ana="line 2" unit="folio" facs="029V IMG_0119.JPG"/>
-
+                    <milestone unit="jpeg" facs="029V IMG_0119.JPG"/>
+                    <pb n="29v, line 2"  facs="46"/>
+                    
                     <l xml:id="SS.1.32.1"> athātaḥ svabhāvavipratipattiṃ
                             <abbr>vyā</abbr><ex>khyāsyāmaḥ</ex> || </l>
 
@@ -223,8 +227,8 @@
                         cchinatti | adharoṣṭhaṃ vā daśati uttaroṣṭhaṃ vā leḍhi | āluñcati
                         karṇṇau keśāṃś ca | devadvijagurusuhṛdvaidyāṃ vā vidveṣṭi <cb
                             n="2"/>yasya ca vakrānuvakragā grahā garhitasthānagatāḥ |
-                        janmaṛkṣam vāsyolkāśanibhyām abhihanyate <milestone n="29v7"
-                            unit="folio"/>
+                        janmaṛkṣam vāsyolkāśanibhyām abhihanyate
+                        
                     </l>
 
 
