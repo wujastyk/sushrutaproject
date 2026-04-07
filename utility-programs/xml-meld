@@ -1,0 +1,237 @@
+#!/usr/bin/env python3
+import tkinter as tk
+from tkinter import filedialog, messagebox
+import re
+import os
+import sys
+
+class MeldXMLTool(tk.Tk):
+    def __init__(self):
+        super().__init__()
+        self.title("XML ID Visual Comparator")
+        self.geometry("1200x700")
+        self.files = [None] * 5
+        self.setup_ui()
+        self.load_from_cli()
+
+    def load_from_cli(self):
+        """Allows loading files directly from the terminal."""
+        args = sys.argv[1:] 
+        for i, filepath in enumerate(args[:5]):
+            if os.path.exists(filepath):
+                self.files[i] = filepath
+                self.file_labels[i].config(text=filepath, fg="black")
+                
+        if len(args) >= 2:
+            self.compare_files()
+
+    def setup_ui(self):
+        # --- File Selection Area ---
+        file_frame = tk.Frame(self, padx=10, pady=10)
+        file_frame.pack(fill=tk.X)
+
+        self.file_labels = []
+        for i in range(5):
+            btn = tk.Button(file_frame, text=f"Select File {i+1}", width=15, 
+                            command=lambda idx=i: self.select_file(idx))
+            btn.grid(row=i, column=0, sticky=tk.W, padx=5, pady=2)
+            
+            lbl = tk.Label(file_frame, text="No file selected", fg="gray")
+            lbl.grid(row=i, column=1, sticky=tk.W, padx=5, pady=2)
+            self.file_labels.append(lbl)
+
+        # --- Controls and Search Area ---
+        control_frame = tk.Frame(self, padx=10)
+        control_frame.pack(fill=tk.X, pady=5)
+
+        comp_btn = tk.Button(control_frame, text="Compare Files", command=self.compare_files, 
+                             bg="#4CAF50", fg="white", font=("Arial", 11, "bold"))
+        comp_btn.pack(side=tk.LEFT, padx=5)
+
+        # Search Bar
+        tk.Label(control_frame, text="  |  Search ID:", font=("Arial", 10, "bold")).pack(side=tk.LEFT, padx=(10, 5))
+        self.search_var = tk.StringVar()
+        search_entry = tk.Entry(control_frame, textvariable=self.search_var, width=15)
+        search_entry.pack(side=tk.LEFT, padx=5)
+        search_entry.bind("<Return>", lambda event: self.perform_search())
+        
+        search_btn = tk.Button(control_frame, text="Find", command=self.perform_search)
+        search_btn.pack(side=tk.LEFT)
+
+        # Legend
+        tk.Label(control_frame, text="  |  Legend: ", font=("Arial", 10, "bold")).pack(side=tk.LEFT, padx=(10, 5))
+        tk.Label(control_frame, text=" Match ", bg="#e6ffe6", borderwidth=1, relief="solid").pack(side=tk.LEFT, padx=5)
+        tk.Label(control_frame, text=" Partial ", bg="#e6f2ff", borderwidth=1, relief="solid").pack(side=tk.LEFT, padx=5)
+        tk.Label(control_frame, text=" Absent ", bg="#f0f0f0", fg="#757575", borderwidth=1, relief="solid").pack(side=tk.LEFT, padx=5)
+        tk.Label(control_frame, text=" Empty <l/> ", bg="#ffb3b3", borderwidth=1, relief="solid").pack(side=tk.LEFT, padx=5)
+
+        # --- Text/Diff Display Area ---
+        txt_frame = tk.Frame(self, padx=10, pady=10)
+        txt_frame.pack(fill=tk.BOTH, expand=True)
+
+        self.text_area = tk.Text(txt_frame, wrap=tk.NONE, font=("Consolas", 11), bg="white")
+        
+        vsb = tk.Scrollbar(txt_frame, orient="vertical", command=self.text_area.yview)
+        hsb = tk.Scrollbar(txt_frame, orient="horizontal", command=self.text_area.xview)
+        self.text_area.configure(yscrollcommand=vsb.set, xscrollcommand=hsb.set)
+
+        vsb.pack(side=tk.RIGHT, fill=tk.Y)
+        hsb.pack(side=tk.BOTTOM, fill=tk.X)
+        self.text_area.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
+
+        # Define color tags for the cells
+        self.text_area.tag_config("match", background="#e6ffe6")    # Light Green
+        self.text_area.tag_config("partial", background="#e6f2ff")  # Light Blue
+        self.text_area.tag_config("absent", background="#f0f0f0", foreground="#a0a0a0") # Light Gray
+        self.text_area.tag_config("empty", background="#ffb3b3", foreground="black") # Light Red
+        self.text_area.tag_config("header", background="#333333", foreground="white", font=("Consolas", 11, "bold"))
+        self.text_area.tag_config("search_highlight", background="yellow", foreground="black")
+
+    def select_file(self, idx):
+        path = filedialog.askopenfilename(filetypes=[
+            ("XML files", "*.xml"), 
+            ("Text files", "*.txt"), 
+            ("All files", "*.*")
+        ])
+        if path:
+            self.files[idx] = path
+            self.file_labels[idx].config(text=path, fg="black")
+
+    def extract_ids(self, filepath):
+        """Extracts xml:id values, ignoring XML comments, and checks if <l> is empty."""
+        try:
+            with open(filepath, 'r', encoding='utf-8') as f:
+                content = f.read()
+            
+            # 1. STRIP COMMENTS: Remove everything between across multiple lines
+            content = re.sub(r'', '', content, flags=re.DOTALL)
+            
+            ids = []
+            empty_ids = set()
+            
+            # 2. EXTRACT IDs: Find <l xml:id="..."> and check if it's empty
+            pattern = re.compile(r'<l\b[^>]*\bxml:id\s*=\s*(["\'])(.*?)\1[^>]*?(?:/>|>(.*?)</l>)', re.IGNORECASE | re.DOTALL)
+            
+            for match in pattern.finditer(content):
+                uid = match.group(2)
+                ids.append(uid)
+                
+                text_content = match.group(3)
+                # If group 3 is None (self-closing <l/>) or just whitespace, mark as empty
+                if text_content is None or text_content.strip() == "":
+                    empty_ids.add(uid)
+                    
+            return ids, empty_ids
+            
+        except Exception as e:
+            messagebox.showerror("Error", f"Failed to read {filepath}:\n{e}")
+            return [], set()
+
+    def perform_search(self):
+        query = self.search_var.get().strip()
+        self.text_area.tag_remove("search_highlight", "1.0", tk.END)
+        
+        if not query: 
+            return
+
+        start_pos = "1.0"
+        first_match = None
+
+        while True:
+            start_pos = self.text_area.search(query, start_pos, stopindex=tk.END)
+            if not start_pos: break
+            if not first_match: first_match = start_pos
+            
+            end_pos = f"{start_pos}+{len(query)}c"
+            self.text_area.tag_add("search_highlight", start_pos, end_pos)
+            start_pos = end_pos
+
+        if first_match:
+            self.text_area.see(first_match)
+        else:
+            messagebox.showinfo("Search Result", f"Could not find '{query}'.")
+
+    def compare_files(self):
+        loaded_files = [(i, f) for i, f in enumerate(self.files) if f is not None]
+        if len(loaded_files) < 2:
+            messagebox.showwarning("Warning", "Please select at least two files to compare.")
+            return
+
+        self.text_area.config(state=tk.NORMAL)
+        self.text_area.delete(1.0, tk.END)
+        self.search_var.set("") 
+
+        # 1. Extract IDs from all loaded files
+        all_ids = []
+        all_empty_ids = []
+        file_names = []
+        for idx, path in loaded_files:
+            ids, empty_ids = self.extract_ids(path)
+            all_ids.append(ids)
+            all_empty_ids.append(empty_ids)
+            file_names.append(os.path.basename(path))
+
+        # 2. Set-based alignment (Ignore position, check presence)
+        ordered_unique_ids = []
+        seen = set()
+        for ids in all_ids:
+            for uid in ids:
+                if uid not in seen:
+                    seen.add(uid)
+                    ordered_unique_ids.append(uid)
+
+        # Build the table rows by checking if the unique ID exists in each file's list
+        aligned_table = []
+        for uid in ordered_unique_ids:
+            row = []
+            for ids in all_ids:
+                if uid in ids:
+                    row.append(uid)
+                else:
+                    row.append(None)
+            aligned_table.append(row)
+
+        # 3. Format and Display Output
+        col_width = 22 
+        num_cols = len(loaded_files)
+
+        # Print Headers
+        header_str = ""
+        for name in file_names:
+            display_name = (name[:col_width-4] + "…") if len(name) > col_width-3 else name
+            header_str += f" {display_name:^{col_width-2}} |"
+        self.text_area.insert(tk.END, header_str + "\n", "header")
+
+        # Print Rows with Colors
+        for row in aligned_table:
+            non_none = [v for v in row if v is not None]
+            
+            for col_idx, val in enumerate(row):
+                if val is None:
+                    cell_text = " [Missing]"
+                    tag = "absent"
+                else:
+                    cell_text = f" {val}"
+                    
+                    # Apply Empty (Red) first, then Match/Partial
+                    if val in all_empty_ids[col_idx]:
+                        tag = "empty" 
+                    elif len(non_none) == num_cols:
+                        tag = "match"
+                    else:
+                        tag = "partial"
+
+                # Truncate string to fit the narrow column width perfectly
+                if len(cell_text) > col_width - 1:
+                    cell_text = cell_text[:col_width-2] + "…"
+                formatted_cell = f"{cell_text:<{col_width}}|"
+
+                self.text_area.insert(tk.END, formatted_cell, tag)
+
+            self.text_area.insert(tk.END, "\n")
+        
+        self.text_area.config(state=tk.DISABLED)
+
+if __name__ == "__main__":
+    app = MeldXMLTool()
+    app.mainloop()
