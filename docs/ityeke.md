@@ -17,7 +17,7 @@ The use of present tense (*bruvate*, *bhāṣante*) may suggest that the others 
 In this case the *ity eke* expression is found in the vulgate but not in the Nepalese version. 
 The Nepalese version reads:
 
-> [tato dūtanimittaśakunamaṅgalānulomyenāturagṛham āgamyopaviśyāturam abhipaśyet spṛśet pṛcchec ca tribhir etair vijñānopāyaiḥ | dīrgham āyuṣo 'lpāyuṣo veditavyāḥ |](https://saktumiva.org/wiki/wujastyk/susrutasamhita/01-su.su-1-31/provisional-edition_sutrasthana-1-31?upama_scroll=SS.1.10.4.1)
+> [tato dūtanimittaśakunamaṅgalānulomyenāturagṛham āgamyopaviśyāturam abhipaśyet spṛśet pṛcchec ca tribhir etair vijñānopāyaiḥ | dīrgham āyuṣo 'lpāyuṣo veditavyāḥ |](https://saktumiva.org/wiki/wujastyk/susrutasamhita/01-su.su-1-31/provisional-edition_sutrasthana-1-31?upama_scroll=SS.1.10.4.1)
 
 This passage talks about three methods of clinical diagnosis: 
 
@@ -29,7 +29,7 @@ This helps the physician to know whether the patient will live long or short.
 
 The vulgate has a similar reading but rejects this view by adding the *ity eke* phrase. The reading goes like this:
 
-> [tato dūtanimittaśakunamaṅgalānulomyenāturagṛhamabhigamya, upaviśya, āturamabhipaśyet spṛśet pṛcchec ca | tribhir etair vijñānopāyai rogāḥ prāyaśo veditavyā **ity eke; tat tu na samyak, ṣaḍvidho hi rogāṇāṃ vijñānopāyaḥ, tad yathā— pañcabhiḥ śrotrādibhiḥ praśnena ceti** ||4||](https://saktumiva.org/wiki/wujastyk/susrutasamhita/01-su.su-1-31/01-su-vulgate-1931-1-31?upama_scroll=SS.1.10.4.1)
+> [tato dūtanimittaśakunamaṅgalānulomyenāturagṛhamabhigamya, upaviśya, āturamabhipaśyet spṛśet pṛcchec ca | tribhir etair vijñānopāyai rogāḥ prāyaśo veditavyā **ity eke; tat tu na samyak, ṣaḍvidho hi rogāṇāṃ vijñānopāyaḥ, tad yathā— pañcabhiḥ śrotrādibhiḥ praśnena ceti** ||4||](https://saktumiva.org/wiki/wujastyk/susrutasamhita/01-su.su-1-31/01-su-vulgate-1931-1-31?upama_scroll=SS.1.10.4.1)
 
 According to this reading, some people consider the three methods—inspection, palpation, and interrogation—as the usual methods of clinical diagnosis. But this is not correct. The method of diagnosis of diseases is of six types: inspection with the five sense organs as well as interrogation.   
 
@@ -39,33 +39,56 @@ The vulgate here adds a passage that is taken to be a reference to the doctrines
 
 In this case, the "some say" statement is found in both the Nepalese version and the vulgate. The Nepalese version reads:
 
-> [yad vāyoḥ pathyan tat pittasyāpathyam ity anena hetunā na kiñcid dravyam ekāntena hitam ahitam vāst**īti kecid ācāryā bruvate | tat tu na samyak |** iha khalu dravyāṇi svabhāvataḥ saṃyogataś ca ekāntahitāni ekāntāhitāni hitāhitāni ca bhavanti ||](https://saktumiva.org/wiki/wujastyk/susrutasamhita/01-su.su-1-31/provisional-edition_sutrasthana-1-31?upama_scroll=SS.1.20.3)
+> [yad vāyoḥ pathyan tat pittasyāpathyam ity anena hetunā na kiñcid dravyam ekāntena hitam ahitam vāst**īti kecid ācāryā bruvate | tat tu na samyak |** iha khalu dravyāṇi svabhāvataḥ saṃyogataś ca ekāntahitāni ekāntāhitāni hitāhitāni ca bhavanti ||](https://saktumiva.org/wiki/wujastyk/susrutasamhita/01-su.su-1-31/provisional-edition_sutrasthana-1-31?upama_scroll=SS.1.20.3)
 
 This passage raises objection against the opinion of certain other teachers that a substance is never absolutely wholesome or unwholesome because we see what is wholesome for the wind is wholesome for the bile. The *Suśrutasaṃhitā* does not accept this view. It believes that whether by their inherent nature or through specific combination, substances can be absolutely wholesome or absolutely unwholesome or both wholesome and unwholesome. 
 
 **[Caraka's reference needs to be added]**  
 
 
+
+
 ## SS Vulgate 1.27.18:
 
-In this case, the "some say" statement appears only in the vulgate and unlike most of the other cases, this other opinion is not rejected in the text. 
+In this case, the "some say" statement appears only in the vulgate and unlike most of the other cases, this other opinion is not rejected in the text. The vulgate reads: 
 
-> [ajātuṣaṃ tu jatumadhūcchiṣṭapraliptayā śalākayā pūrvakalpenety eke ||](https://saktumiva.org/wiki/wujastyk/susrutasamhita/01-su.su-1-31/01-su-vulgate-1938-1-31?upama_scroll=SS.1.27.18)
+> [ajātuṣaṃ tu jatumadhūcchiṣṭapraliptayā śalākayā pūrvakalpenety eke ||](https://saktumiva.org/wiki/wujastyk/susrutasamhita/01-su.su-1-31/01-su-vulgate-1938-1-31?upama_scroll=SS.1.27.18)
+
+The reading *ity eke* is likely not read by Ḍalhaṇa. In the Nepalese version, this sentence and the following sentence of the vulgate constitute a single sentence. 
+
+
 
 ## SS Vulgate 1.36.5: Seasonal Collection by Plant Part vs Seasonal Collection by Plant Nature
 
 Here as well, others' opinion is rejected in both the Nepalese version and the vulgate. The Nepalese version reads:
 
-> [tatra **kecid ācāryāḥ** prāvṛṭvarṣāśaraddhemantavasantagrīṣmeṣu yathāsaṃkhyam mūlapattratvacakṣīrasāraphalāny ādadīta | **tat tu na samyak** kasmāt saumyāgneyatvāj jagataḥ | saumyāny auṣadhāni saumyeṣv ṛtuṣv ādadīta | āgneyāny āgneyeṣv evam avyāpannāni bhavanti || saumyāny auṣadhāni saumyeṣv ṛtuṣu gṛhītāni somaguṇabhūyiṣṭhāyāṃ bhūmau madhuratarāsnigdhatarāṇiśītatarāṇi bhavanti |](https://saktumiva.org/wiki/wujastyk/susrutasamhita/01-su.su-32-end/provisional-edition_sutrasthana-32-end?upama_scroll=SS.1.36.5) 
+> [tatra **kecid ācāryāḥ** prāvṛṭvarṣāśaraddhemantavasantagrīṣmeṣu yathāsaṃkhyam mūlapattratvacakṣīrasāraphalāny ādadīta | **tat tu na samyak** kasmāt saumyāgneyatvāj jagataḥ | saumyāny auṣadhāni saumyeṣv ṛtuṣv ādadīta | āgneyāny āgneyeṣv evam avyāpannāni bhavanti || saumyāny auṣadhāni saumyeṣv ṛtuṣu gṛhītāni somaguṇabhūyiṣṭhāyāṃ bhūmau madhuratarāsnigdhatarāṇiśītatarāṇi bhavanti |](https://saktumiva.org/wiki/wujastyk/susrutasamhita/01-su.su-32-end/provisional-edition_sutrasthana-32-end?upama_scroll=SS.1.36.5) 
 
-The issue here concerns the proper time for collecting medicinal plants. The rejected opinion maintains that the root, leaf, bark, latex, pith, and fruit should be collected respectively in the early rainy season, the rainy season, autumn, winter, spring, and summer. The *Suśrutasaṃhitā*, however, does not accept a schedule based on plant parts. Instead, it proposes a more general principle based on the two fundamental natures of the world, the watery *(saumya)* and the igneous *(āgneya)*, and the corresponding two-fold division of seasons. Accordingly, watery plants should be collected in the watery seasons and igneous plants in the igneous seasons, since when collected in their proper seasons they remain unspoiled and possess superior qualities.
+The issue here concerns the proper time for collecting medicinal plants. The rejected opinion maintains that the root, leaf, bark, latex, pith, and fruit should be collected respectively in the early rainy season, the rainy season, autumn, winter, spring, and summer. This idea is found in the *Carakasaṃhitā*. It reads:
 
-**[Caraka's reference needs to be added]**  
+> teṣāṃ śākhāpalāśam aciraprarūḍhaṃ varṣāvasantayor grāhyaṃ , grīṣme mūlāni śiśire vā śīrṇaprarūḍhaparṇānāṃ, śaradi tvakkandakṣīrāṇi, hemante sārāṇi, yathartu puṣpaphalam iti... || Ca.Sa. 7.1.10
+
+The *Suśrutasaṃhitā*, however, does not accept a schedule based on plant parts. Instead, it proposes a more general principle based on the two fundamental natures of the world, the watery *(saumya)* and the igneous *(āgneya)*, and the corresponding two-fold division of seasons. Accordingly, watery plants should be collected in the watery seasons and igneous plants in the igneous seasons, since when collected in their proper seasons they remain unspoiled and possess superior qualities.
+
+## SS Vulgate 1.45.5: Determination of the taste of water in various lands: according to colour vs according to substance 
+
+The divergent opinion arises about how the taste of the water in a particular land is determined. The Nepalese version of the text reads:
+
+> [tatra lohitakapilapāṇḍupītanīlaśukleṣv avanipradeśeṣu madhurāmlalavaṇakaṭutiktakaṣāyā yathāsaṃkhyam udakarasā bhavantīty eke bhāṣante | tat tu na samyak pṛthivyādīnām anyo 'nyānupraveśakṛtaḥ sa khalūdakaraso bhavaty utkarṣāpakarṣakṛtena saṃyogaviśeṣeṇa ||](https://saktumiva.org/wiki/wujastyk/susrutasamhita/01-su.su-32-end/provisional-edition_sutrasthana-32-end?upama_scroll=SS.1.45.5)
+
+The view rejected in the *Suśrutasaṃhitā* is the taste of the water is depends on the colour of the land: sweet, sour salty, pungent, bitter, and astringent tastes appear in red, brown, pale, blue, yellow, and white lands respectively. 
+
+Similar idea has been expressed in the *Carakasaṃhitā*: it reads:
+
+> śvete kaṣāyaṃ bhavati pāṇḍare syāttu tiktakam |
+> kapile kṣārsaṃsṛṣṭam ūṣare lavaṇānvitam ||
+>
+> kaṭu parvatavistāre madhuraṃ kṛṣṇamṛttike |
+> etat ṣāḍguṇyam ākhyātaṃ mahīsthasya jalasya hi || Ca.Sa.1.27.199–200
+
+According to the *Suśrutasaṃhitā*, however, the taste in water arises from the mutual interpenetration of the five basic elements, viz., earth, water, fire, wind, and sky. The taste is produced through a particular kind of combination determined by predominance and subordination among them.
 
 
-## SS Vulgate 1.45.5
-
-> [tatra lohitakapilapāṇḍupītanīlaśukleṣv avanipradeśeṣu madhurāmlalavaṇakaṭutiktakaṣāyā yathāsaṃkhyam udakarasā bhavantīty eke bhāṣante | tat tu na samyak pṛthivyādīnām anyo 'nyānupraveśakṛtaḥ sa khalūdakaraso bhavaty utkarṣāpakarṣakṛtena saṃyogaviśeṣeṇa ||](https://saktumiva.org/wiki/wujastyk/susrutasamhita/01-su.su-32-end/provisional-edition_sutrasthana-32-end?upama_scroll=SS.1.45.5)
 
 ## SS 4.5.3
 
