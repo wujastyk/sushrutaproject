@@ -1,6 +1,6 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc>
+    <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+          <fileDesc>
             <titleStmt>
                 <title>Printed edition: Ācārya 1938: Cikitsāsthāna</title>
             </titleStmt>
@@ -335,7 +335,7 @@
 
                     <l xml:id="SS.4.1.50"> yathoktaiḥ śītaladravyaiḥ kṣīrapiṣṭair ghṛtāplutaiḥ |
                         <caesura/>
-                         dihyādabahalān sekān suśītāṃś cāvacārayet || </l>
+                         dihyād abahalān sekān suśītāṃś cāvacārayet || </l>
 
                     <l xml:id="SS.4.1.51"> vraṇeṣu kṣīṇamāṃseṣu tanusrāviṣvapākiṣu |
                         <caesura/>
@@ -1071,8 +1071,10 @@
                         <caesura/>
                          śatadhautaghṛtonmiśraṃ śālipiṣṭaṃ ca saṃharet || </l>
 
-                    <l xml:id="SS.4.3.8"> saptāhād atha saptāhāt saumyeṣv ṛtuṣu bandhanam |
-                        <caesura/>
+                    <l xml:id="SS.4.3.8ab"> saptāhād atha saptāhāt saumyeṣv ṛtuṣu bandhanam |
+                    </l>
+                    
+                    <l xml:id="SS.4.3.8cd">
                          sādhāraṇeṣu kartavyaṃ pañcame pañcame 'hani || </l>
 
                     <l xml:id="SS.4.3.9"> āgneyeṣu tryahā tu kuryād bhagnadoṣavaśena vā |
