@@ -116,6 +116,13 @@
 
             <change when="2025-03-31" who="Dominik Wujastyk">Removed the empty passage tags so that
                 these passages do not show up in the edition as being present but empty.</change>
+                
+                <change when="2025-04-16" who="Dominik Wujastyk">Removed the "add inline" tags which 
+                are the wrong way to indicate that there's something in this MS that isn't in the vulgate.
+                The right way is to not mark such passages at all.  The collation process will show them
+                in the apparatus.</change>
+                <change when="2025-04-16" who="Dominik Wujastyk">Sorted out the 
+                tags for milestones and made pb facs numbers point to the MS scan images. </change>
         </revisionDesc>
 
     </teiHeader>
