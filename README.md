@@ -22,7 +22,7 @@ The adhyāyas linked below have received varying degrees of editorial attention.
 
 The “[Instructions for Readers](https://saktumiva.org/wiki/users)” documentation explains how to read the above editions, how to select particular manuscripts for examination, and how to generate the critical apparatus.  The most common option is to press “other witnesses” in the left menu bar, then “select all”, then “generate apparatus.”  Click the अ character in the right-hand menu to select your preferred display script.
 
-## 1 Sūtrasthāna [adhyāyas 1-31](https://saktumiva.org/wiki/wujastyk/susrutasamhita/01-su.su-1-31/provisional-edition_sutrasthana-1-31), [32-46](https://saktumiva.org/wiki/wujastyk/susrutasamhita/01-su.su-32-end/provisional-edition_sutrasthana-32-end) 
+## 1 Sūtrasthānam [adhyāyas 1-31](https://saktumiva.org/wiki/wujastyk/susrutasamhita/01-su.su-1-31/provisional-edition_sutrasthana-1-31), [32-46](https://saktumiva.org/wiki/wujastyk/susrutasamhita/01-su.su-32-end/provisional-edition_sutrasthana-32-end) 
 
 Based on witnesses K, N, and H.  
 Witness K is not available after SS.1.32.
@@ -37,7 +37,7 @@ Witness K is not available after SS.1.32.
 
 
 
-## 2 [Nidānasthāna](https://saktumiva.org/wiki/wujastyk/susrutasamhita/02-su.ni/provisional-edition_nidanasthana) 
+## 2 [Nidānasthānam](https://saktumiva.org/wiki/wujastyk/susrutasamhita/02-su.ni/provisional-edition_nidanasthana) 
 
 Based on witnesses K, N, and H. 
 Witness K is not available for most of this adhyāya. 
@@ -49,7 +49,7 @@ Witness K is not available for most of this adhyāya.
 
 
 
-## 3 [Śārīrasthāna](https://saktumiva.org/wiki/wujastyk/susrutasamhita/03-su.sa/provisional-edition_sarirasthana) 
+## 3 [Śārīrasthānam](https://saktumiva.org/wiki/wujastyk/susrutasamhita/03-su.sa/provisional-edition_sarirasthana) 
 
 Based on witnesses N, and H.  
 Witness K is not available for this adhyāya.  
@@ -61,7 +61,7 @@ Witness N is not available after 3.2.35.
 
 
 
-## 4 Cikitsāsthāna [adhyāyas 1--20](https://saktumiva.org/wiki/wujastyk/susrutasamhita/04-su.ci-1-20/provisional-edition_cikitsasthana_01-20), [21--40](https://saktumiva.org/wiki/wujastyk/susrutasamhita/04-su.ci-21-40/provisional-edition_cikitsasthana_21-40)  
+## 4 Cikitsāsthānam [adhyāyas 1--20](https://saktumiva.org/wiki/wujastyk/susrutasamhita/04-su.ci-1-20/provisional-edition_cikitsasthana_01-20), [21--40](https://saktumiva.org/wiki/wujastyk/susrutasamhita/04-su.ci-21-40/provisional-edition_cikitsasthana_21-40)  
 
 Based on witnesses K and H.  
 Witness K is not available for adhyāyas 1-18, 27 and 28.
@@ -75,7 +75,7 @@ Witness K is not available for adhyāyas 1-18, 27 and 28.
 
 
 
-## 5 [Kalpasthāna](https://saktumiva.org/wiki/wujastyk/susrutasamhita/05-su.ka/provisional-edition_kalpasthana) 
+## 5 [Kalpasthānam](https://saktumiva.org/wiki/wujastyk/susrutasamhita/05-su.ka/provisional-edition_kalpasthana) 
 
 Based on witnesses K and H.
 
@@ -88,17 +88,21 @@ Based on witnesses K and H.
 
 
 
-## 6 Uttaratantra  
+## 6 Uttaratantram  
 
 Based on witnesses K and H.  
 
-- ### Śālākyatantra: [adhyāyas 1-26](https://saktumiva.org/wiki/wujastyk/susrutasamhita/06-su.ut-01-26-salakya/provisional-edition_uttaratantra-01-26)
+- ### Śālākyatantram: [adhyāyas 1-26](https://saktumiva.org/wiki/wujastyk/susrutasamhita/06-su.ut-01-26-salakya/provisional-edition_uttaratantra-01-26)
 
-- ### Kumāratantra: [27-37](https://saktumiva.org/wiki/wujastyk/susrutasamhita/06-su.ut-27-37-kumara/provisional-edition_uttaratantra-27-37)
+- ### Kumāratantram: [27-37](https://saktumiva.org/wiki/wujastyk/susrutasamhita/06-su.ut-27-37-kumara/provisional-edition_uttaratantra-27-37)
 
-- ### Kāyacikitsātantra: [39-24-57](https://saktumiva.org/wiki/wujastyk/susrutasamhita/06-su.ut-39-24-57-kayacikitsa/provisional-edition_uttaratantra-39-24-57)
+- ### Kāyacikitsātantram: [39-24-57](https://saktumiva.org/wiki/wujastyk/susrutasamhita/06-su.ut-39-24-57-kayacikitsa/provisional-edition_uttaratantra-39-24-57)
 
-- ### Daśaka: [58-38-66](https://saktumiva.org/wiki/wujastyk/susrutasamhita/06-su.ut-58-38-66-dasaka/provisional-edition_uttaratantra-58-38-66)
+- ### Daśakaḥ: [58-38-66](https://saktumiva.org/wiki/wujastyk/susrutasamhita/06-su.ut-58-38-66-dasaka/provisional-edition_uttaratantra-58-38-66)
 
 The Daśaka section above is the name given to the last ten adhyāyas of the Uttaratantra in verse SS.6.66.17ii, a verse that appears only in the Nepalese manuscripts.  The Daśaka includes what the vulgate transmission calls the end of the Kāyacikitsā, the Bhūtavidyā and the Tantrabhūṣaṇādhyāya. 
+
+#### Citation of this website
+
+Wujastyk, Dominik. “Sushruta Project Github Repository Files”. Archived at Zenodo, May 9, 2026. https://doi.org/10.5281/zenodo.20091000.
 
