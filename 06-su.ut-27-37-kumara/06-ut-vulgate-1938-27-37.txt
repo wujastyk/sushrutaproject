@@ -1,5 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+  <script src="./lib/js/xslt-polyfill.min.js" xmlns="http://www.w3.org/1999/xhtml"/><teiHeader xmlns="http://www.tei-c.org/ns/1.0">
     <fileDesc>
       <titleStmt>
         <title>Printed edition: Ācārya 1938: Uttaratantra, 27-37</title>
@@ -105,7 +107,7 @@
 
         <div n="27" type="adhyāya">
           <head>saptaviṃśatitamo 'dhyāyaḥ | </head>
-          <l xml:id="SS.6.27.1"> athāto navagrahākṛtivijñānīyam adhyāyaṃ vyākhyāsyāmaḥ ||</l>
+          <pb facs="743" n="659a"/><l xml:id="SS.6.27.1"> athāto navagrahākṛtivijñānīyam adhyāyaṃ vyākhyāsyāmaḥ ||</l>
 
           <l xml:id="SS.6.27.2"> yathovāca bhagavān dhanvantariḥ ||</l>
 
@@ -140,7 +142,7 @@
              udvigraḥ sululitacakṣuralparodī skandārto bhavati ca gāḍhamuṣṭivarcāḥ || </l>
 
 
-          <l xml:id="SS.6.27.9"> niḥsaṃjño bhavati punar bhavet sasaṃjñaḥ saṃrabdhaḥ karacaraṇaiś ca
+          <pb facs="744" n="660a"/><l xml:id="SS.6.27.9"> niḥsaṃjño bhavati punar bhavet sasaṃjñaḥ saṃrabdhaḥ karacaraṇaiś ca
             nṛtyatīva |
             <caesura/>
              viṇmūtre sṛjati vinadya jṛmbhamāṇaḥ phenaṃ ca prasṛjati tat sakhābhipannaḥ || </l>
@@ -194,7 +196,7 @@
 
           <l xml:id="SS.6.27.18"> viparītamataḥ sādhyaṃ cikitsedacirārditam |
             <caesura/>
-             gṛhe purāṇahaviṣābhyajya bālaṃ śucau śuciḥ || </l>
+             gṛhe purāṇahaviṣābhyajya bālaṃ śucau śuciḥ || <pb facs="745" n="661a"/></l>
 
 
           <l xml:id="SS.6.27.19"> sarṣapān prakiretteṣāṃ tailairdīpaṃ ca kārayet |
@@ -281,7 +283,7 @@
              gaṅgomākṛttikānāṃ ca sa te śarma prayacchatu || </l>
 
 
-          <l xml:id="SS.6.28.14"> raktamālyāmbaraḥ śrīmān raktacandanabhūṣitaḥ |
+          <pb facs="746" n="662a"/><l xml:id="SS.6.28.14"> raktamālyāmbaraḥ śrīmān raktacandanabhūṣitaḥ |
             <caesura/>
              raktadivyavapurdevaḥ pātu tvāṃ krauñcasūdanaḥ ||</l>
 
@@ -316,7 +318,7 @@
              vṛkṣabhasya ca romāṇi yojyāny uddhūpane 'pi ca || </l>
 
 
-          <l xml:id="SS.6.29.7"> anantāṃ kukkuṭīṃ bimbīṃ markaṭīṃ cāpi dhārayet |
+          <pb facs="746" n="662b"/><l xml:id="SS.6.29.7"> anantāṃ kukkuṭīṃ bimbīṃ markaṭīṃ cāpi dhārayet |
             <caesura/>
              pakvāpakvāni māṃsāni prasannā rudhiraṃ payaḥ || </l>
 
@@ -348,7 +350,7 @@
 
 
           <l xml:id="SS.6.30.4ab"> kaṣāyamadhurais tailaṃ kāryamabhyañjane śiśoḥ |</l>
-          <l xml:id="SS.6.30.4cd"> madhukośīrahrīberasārivotpalapadmakaiḥ || </l>
+          <pb facs="747" n="663a"/><l xml:id="SS.6.30.4cd"> madhukośīrahrīberasārivotpalapadmakaiḥ || </l>
 
 
           <l xml:id="SS.6.30.5ab"> rodhrapriyaṅgumañjiṣṭhāgairikaiḥ pradihec chiśum |</l>
@@ -394,7 +396,7 @@
 
           <head>ekatriṃśattamo 'dhyāyaḥ | </head>
 
-          <l xml:id="SS.6.31.1"> athāto revatīpratiṣedhaṃ vyākhyāsyāmaḥ ||</l>
+          <pb facs="747" n="663b"/><l xml:id="SS.6.31.1"> athāto revatīpratiṣedhaṃ vyākhyāsyāmaḥ ||</l>
 
           <l xml:id="SS.6.31.2"> yathovāca bhagavān dhanvantariḥ ||</l>
 
@@ -442,7 +444,7 @@
 
         <div n="32" type="adhyāya">
           <head>dvātriṃśattamo 'dhyāyaḥ | </head>
-          <l xml:id="SS.6.32.1"> athātaḥ pūtanāratiṣedhaṃ vyākhyāsyāmaḥ ||</l>
+          <l xml:id="SS.6.32.1"> athātaḥ pūtanāratiṣedhaṃ vyākhyāsyāmaḥ ||<pb facs="748" n="664a"/></l>
 
           <l xml:id="SS.6.32.2"> yathovāca bhagavān dhanvantariḥ ||</l>
 
@@ -495,7 +497,7 @@
 
           <l xml:id="SS.6.33.2"> yathovāca bhagavān dhanvantariḥ || </l>
 
-          <l xml:id="SS.6.33.3"> tiktakadrumapatrāṇāṃ kāryaḥ kvātho 'vasecane |
+          <pb facs="749" n="665a"/><l xml:id="SS.6.33.3"> tiktakadrumapatrāṇāṃ kāryaḥ kvātho 'vasecane |
             <caesura/>
              surā sauvīrakaṃ kuṣṭhaṃ haritālaṃ manaḥśilā || </l>
 
@@ -530,7 +532,7 @@
         
         <div n="34" type="adhyāya">
           <head>catustriṃśattamo 'dhyāyaḥ | </head>
-          <l xml:id="SS.6.34.1"> athātaḥ śītapūtanāpratiṣedhaṃ vyākhyāsyāmaḥ ||</l>
+          <pb facs="749" n="665b"/><l xml:id="SS.6.34.1"> athātaḥ śītapūtanāpratiṣedhaṃ vyākhyāsyāmaḥ ||</l>
 
           <l xml:id="SS.6.34.2"> yathovāca bhagavān dhanvantariḥ ||</l>
 
@@ -575,7 +577,7 @@
 
           <l xml:id="SS.6.35.2"> yathovāca bhagavān dhanvantariḥ ||</l>
 
-          <l xml:id="SS.6.35.3"> kapitthabilvatarkārīvāṃśīgandharvahastakāḥ |
+          <pb facs="750" n="666a"/><l xml:id="SS.6.35.3"> kapitthabilvatarkārīvāṃśīgandharvahastakāḥ |
             <caesura/>
              kuberākṣī ca yojyāḥ syur bālānāṃ pariṣecane || </l>
 
@@ -612,7 +614,7 @@
         
         <div n="36" type="adhyāya">
           <head>ṣaṭtriṃśattamo 'dhyāyaḥ | </head>
-          <l xml:id="SS.6.36.1"> athāto naigameṣapratiṣedhaṃ vyākhyāsyāmaḥ || </l>
+          <pb facs="750" n="666b"/><l xml:id="SS.6.36.1"> athāto naigameṣapratiṣedhaṃ vyākhyāsyāmaḥ || </l>
 
           <l xml:id="SS.6.36.2"> yathovāca bhagavān dhanvantariḥ || </l>
 
@@ -648,7 +650,7 @@
 
           <l xml:id="SS.6.36.10cd"> baliṃ nyagrodhavṛkṣeṣu tithau ṣaṣṭhyāṃ nivedayet || </l>
 
-          <l xml:id="SS.6.36.11"> ajānanaś calākṣibhrūḥ kāmarūpī mahāyaśāḥ |
+          <pb facs="751" n="667a"/><l xml:id="SS.6.36.11"> ajānanaś calākṣibhrūḥ kāmarūpī mahāyaśāḥ |
             <caesura/>
              bālaṃ bālapitā devo naigameṣo 'bhir akṣatu ||</l>
           
@@ -663,7 +665,7 @@
 
           <l xml:id="SS.6.37.2"> yathovāca bhagavān dhanvantariḥ ||</l>
 
-          <l xml:id="SS.6.37.3"> navaskandādayaḥ proktā bālānāṃ ya ime grahāḥ |
+          <l xml:id="SS.6.37.2a"/><l xml:id="SS.6.37.3"> navaskandādayaḥ proktā bālānāṃ ya ime grahāḥ |
             <caesura/>
              śrīmanto divyavapuṣo nārīpuruṣavigrahāḥ || </l>
 
@@ -723,7 +725,7 @@
             <caesura/>
              kuleṣu yeṣu nejyante devāḥ pitara eva ca || </l>
 
-          <l xml:id="SS.6.37.18"> brāhmaṇāḥ sādhavaś caiva guravo 'tithayas tathā |
+          <pb facs="752" n="668a"/><l xml:id="SS.6.37.18"> brāhmaṇāḥ sādhavaś caiva guravo 'tithayas tathā |
             <caesura/>
              nivṛttācāraśauceṣu parapākopajīviṣu || </l>
 
@@ -752,4 +754,6 @@
       </div>
     </body>
   </text>
-</TEI>
+<facsimile>
+    <graphic url="https://iiif.wellcomecollection.org/presentation/b3288199x"/>
+  </facsimile></TEI>
