@@ -114,13 +114,51 @@ It also advises that she should adopt the diet, recreation, customs, and attire 
 
 >  tato yā yā yeṣāṃ yeṣāṃ janapadānāṃ manuṣyāṇām anurūpaṃ putram āśāsīta sā sā teṣāṃ teṣāṃ janapadānāṃ manuṣyāṇām āhāravihāropacāraparicchadān anuvidhatsveti vācyā syāt || Ca.Sa. 4.8.14 (Ācārya 1941: 342)
 
-## SS Vulgate 3.3.32
+## SS Vulgate 3.3.32: Sequential vs simultaneous development of the embryo
 
-## SS Vulgate 3.10.16
+In this passage, the opinions of several authorities, namely Śaunaka, Kṛtavīrya, Pārāśarya, Mārkaṇḍeya, and Subhūtigautama, are presented and subsequently dismissed with specific reasoning. The central debate concerns embryological development, specifically which body part emerges first. While these figures suggest the head, heart, navel, hands and feet, or torso respectively, the *Suśrutasaṃhitā* contends that all body parts are formed simultaneously. According to this view, these parts are initially imperceptible due to their minuteness, becoming clearly manifest only over time. The text illustrates this with the analogies of a maturing mango and a bamboo shoot, noting that just as the internal structures of a fruit are present but unseen in its early stages, the embryo’s limbs and organs exist from the beginning. The passage reads as follows:
 
-## SS 4.1.5
+>  [garbbhasya khalu sambhavataḥ || pūrvvaṃ śiraḥ sambhavatīty āha śaunakas tanmūlatvāt || pradhānendriyāṇāṃ hṛdayam iti kṛtavīryaḥ buddher manasaś ca sthānaṃ || nābhir iti pārāśaryas tato varddhate dehadehinaḥ prāṇaḥ | pāṇipādam iti mārkkaṇḍeyas tanmūlatvāc ceṣṭāyāḥ | garbbhasya śarīram iti subhūtigautamas tatra nibandhatvāt sarvvagātrasambhavasya | **tat tu na samyak |** sarvvāṇy aṅgapratyaṅgāni yugapat sambhavanti | kāle garbbhasya sūkṣmatvān nopalabhyante | vaṃśāṅkuravac cūtaphalavac ca | tad yathā cūtaphale vipakve keśaramāṃsāsthimajjānaḥ pṛthak pṛthag dṛśyante kālaprakarṣāt tāny eva taruṇe nopalabhyante sūkṣmatvāt | teṣāṃ sūkṣmāṇāṃ keśarādīnām pravyaktaṃ kālaḥ karoti | etenaiva vaṃśāṅkuro vyākhyātaḥ | evaṃ garbbhasya tāruṇye sarvveṣv aṅgapratyaṅgeṣu satsv api saukṣmyād anupalabdhis tāny eva kālaprakarṣāt pravyaktāni bhavanti | pūrvvottarakālayogo nāstīti kevalan tu saukṣmyān nābhivyajyante | yathākālaṃ pravyaktāni bhavanti |](https://saktumiva.org/wiki/wujastyk/susrutasamhita/03-su.sa/provisional-edition_sarirasthana?upama_scroll=SS.3.3.32)
 
-## SS 4.6.4
+The *Carakasaṃhitā* (4.6.21) maintains a similar view, indicating that, unlike several other instances marked by the *tat tu na samyak* phrase, there is no disagreement between Caraka and Suśruta on this point. However, a philological discrepancy exists regarding the attribution of this final view: the vulgate attributes this final summary view to Dhanvantari (HIML: 1A, 247), while the Nepalese version does not. Ḍalhaṇa apparently did not have this attribution in the text before him, suggesting that it may have been added after the twelfth century. However, in the *Carakasaṃhitā*, this view is attributed to Dhanvantari. It seems likely that the name Dhanvantari was here added to the *Suśrutasaṃhitā* because of the passage in the *Carakasaṃhitā*.
+
+## SS Vulgate 3.9.3:
+
+The discussion here concerns the distinction between pipes (*dhamanī*), ducts (*śirā*), and tubes (*srotas*). The *Suśrutasaṃhitā* introduces and subsequently dismisses the view of certain teachers who argue that there is no difference between ducts, pipes, and tubes, because pipes and tubes are just types of ducts. Rejecting this opinion, the text maintains that Pipes, tubes and ducts are quite different because of the difference in their colours, in their connections to their roots, because of their divergent  functions, and because of traditional doctrine. The text explains that that the distinct functions only appear to have no functional difference because of the close proximity of their mutual ramifications, the similarity of their functions, and their smallness.
+
+The passage in the Nepalese version is as follows:
+
+> [caturvviṃśatir dhamanyo bhavanti | tās tu nābhiprabhavāḥ | **tatra kecid āhur ācāryāḥ |** sirādhamanīsrotasām avibhāgaḥ | sirāvikārā eva hi dhamanyaḥ srotāṃsi ceti | **tat tu na samyag** atrocyate | anyā eva hi dhamanyaḥ srotāṃsi sirāśceti | kasmād vyañjanānyatvāt mūlasanniyamāt karmavaiśeṣyād āgamāc ca | kevalaṃ tu parasparapratānasannikarṣāt sadṛśakarmatvāt saukṣmyāc ca vibhaktakarmaṇām apy avibhāga eva karmasu bhavati |](https://saktumiva.org/wiki/wujastyk/susrutasamhita/03-su.sa/provisional-edition_sarirasthana?upama_scroll=SS.3.9.3)
+
+In the *Carakasaṃhitā* (3.5.9), these vessels are considered synonymous:
+
+> srotāṃsi, sirāḥ, dhamanyaḥ, rasāyanyaḥ, rasavāhinyaḥ, nāḍyaḥ, panthānaḥ, mārgāḥ, śarīracchidrāṇi, saṃvṛtāsaṃvṛtāni, sthānāni, āśayāḥ, niketāś ceti śarīradhātvavakāśānāṃ lakṣyālakṣyāṇāṃ nāmāni bhavanti |
+
+## SS Vulgate 3.10.16: postpartum period lasts one month and a half vs 
+
+This passage, found in the vulgate but absent from the Nepalese version, concerns the management of the postpartum period. The text prescribes a specific regimen for the puerpera to follow for a month and a half after childbirth. It then records an alternative view, marked by the phrase *ity eke*, which recommends that these prescriptions continue until the menses reappear. Notably, this view appears as an acceptable alternative opinion as the passage lacks the dismissive *tat tu na samyak* phrase. Ḍalhaṇa does not comment on the sentence containing the *ity eke* phrase. Thus, it is not clear whether his version of the text included this sentence. The passage is as follows:
+
+> [anena vidhinādhyardhamāsam upasaṃskṛtā vimuktāhārācārā vigatasūtikābhidhānā syāt, **punar ārtavadarśanād ity eke** ||16||](https://saktumiva.org/wiki/wujastyk/susrutasamhita/03-su.sa/03-za-vulgate-1938?upama_scroll=SS.3.10.16)
+
+No parallel passage is found in the *Carakasaṃhitā*.
+
+## SS Vulgate 4.1.5: Clean wound as the sixteenth type
+
+In this passage, after mentioning the vitiation of humours as of fifteen types, the text introduces a sixteenth type: the clean wound, which is free from vitiation of all humours. The reference to this sixteenth type is marked by the phrase *ity eke* in the vulgate, whereas the Nepalese version reads *ity ucyate* instead. The reading of the vulgate is as follows:
+
+>  [doṣopaplavaviśeṣaḥ punaḥ samāsataḥ pañcadaśaprakāraḥ, prasaraṇasāmarthyāt, yathokto vraṇapraśnādhikāre; śuddhatvāt ṣoḍaśaprakāra **ity eke**||‌](https://saktumiva.org/wiki/wujastyk/susrutasamhita/04-su.ci-1-20/04-ci-vulgate-1938_01-20?upama_scroll=SS.4.1.5)
+
+In the Nepalese version, it reads:
+
+> [doṣopaplavaviśeṣaḥ punaḥ samāsataḥ pañcadaśaprakāro bhavati | yathokte vraṇapraśnādhyāye prasaraṇasāmarthyāc chaddhaś ceti ṣoḍaśaprakāra **ity ucyate*** |](https://saktumiva.org/wiki/wujastyk/susrutasamhita/04-su.ci-1-20/provisional-edition_cikitsasthana_01-20?upama_scroll=SS.4.1.5)
+
+This *ity eke* phrase in the vulgate is most likely a corrupt reading. Notably, it is not followed by the dismissive *tat tu na samyak* phrase. Therefore, it is clear that the *Suśrutasaṃhitā* in fact endorses this opinion. Furthermore, Ḍalhaṇa's use of the lemma *śuddhaḥ*, which appears in the Nepalese version, instead of *śuddhatvāt* of the vulgate, suggests that Ḍalhaṇa's version is closer to the Nepalese version in this case than to the vulgate. 
+
+## SS Vulgate 4.6.4: 
+
+
+
+> [tato yaṣṭīmadhukamiśreṇasarpiṣā nirvāpya yantram upanīyotthāpy āturasuṣṇodake 'vagāhya śītābhir adbhiḥ pariṣecayet | aśītābhir adbhir ity eke | ](https://saktumiva.org/wiki/wujastyk/susrutasamhita/04-su.ci-1-20/provisional-edition_cikitsasthana_01-20?upama_scroll=SS.4.6.4)
 
 ## SS 4.5.3
 
@@ -130,7 +168,7 @@ It also advises that she should adopt the diet, recreation, customs, and attire 
 
 Emmerick 1984:101  pointed out that the view being criticized in Su.4.5.3  is found in *Carakasaṃhitā* 6.29.19.  It is also found in 1.19.3.
 
-## 
+
 ## SS 4.7.33
 ## SS 4.35.9
 ## SS 5.4.34
