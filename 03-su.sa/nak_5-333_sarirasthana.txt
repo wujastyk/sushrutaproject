@@ -86,12 +86,12 @@
             <change when="2025-03-31" who="Dominik Wujastyk">Removed the empty passage
                 tags so that these passages do not show up in the edition as being present
                 but empty.</change>
-            <change when="2026-03-25" who="Dominik Wujastyk">Added page-begin pb elements  with
-                @facs attributes that match the IIIF image numbers delivered from
+            <change when="2026-03-25" who="Dominik Wujastyk">Added page-begin pb elements
+                with @facs attributes that match the IIIF image numbers delivered from
                 archive.org.</change>
             <change when="2026-03-26" who="Dominik Wujastyk">Removed intrusive label
                 entities. </change>
-                
+
         </revisionDesc>
 
     </teiHeader>
@@ -420,10 +420,10 @@ C) Special notes :
                         snānānulepanād duḥśīlaḥ | va<unclear>dhi</unclear>raḥ | añjanād
                         andhaḥ | rodanād tailābhyaṅgā<unclear>t</unclear> kuṣṭhī |
                             nakhāvakarttanā<unclear>t</unclear><milestone
-                            facs="dscn3140 fol 162.jpg upper" unit="jpeg"/><pb n="162v"
-                            facs="166"/> kunakhaḥ | pralepanāt khalatiḥ |
-                        mārutāyāsasevanād utmatto garbhbho bhavatīty evam etām pariharet
-                        || darbhbha<pc> </pc>saṃstaraṇa<pc> </pc>śāyinīṃ
+                            facs="dscn3140 fol 162.jpg                             upper"
+                            unit="jpeg"/><pb n="162v" facs="166"/> kunakhaḥ | pralepanāt
+                        khalatiḥ | mārutāyāsasevanād utmatto garbhbho bhavatīty evam etām
+                        pariharet || darbhbha<pc> </pc>saṃstaraṇa<pc> </pc>śāyinīṃ
                             karatala<pc> </pc>śa<unclear>rā</unclear>va<pc> </pc>parṇṇānām
                             anyatama<pc> </pc>bhojinīṃ haviṣyaṃ<lb n="2"/> tryahaṃ bharttā
                         rakṣet tataḥ śuddhasnātān tu caturthyām anāhata<pc
@@ -643,6 +643,8 @@ C) Special notes :
 
 
                     <l xml:id="SS.3.2.trailer">iti śārīraṃ dvitīyo 'dhyāyaḥ || ||</l>
+
+
 
                 </div>
 
@@ -878,6 +880,8 @@ C) Special notes :
                     <l xml:id="SS.3.3.trailer">
                         <lb n="2"/> iti śārī<unclear>ratṛtī</unclear>yo 'dhyāyaḥ || </l>
 
+
+
                 </div>
 
                 <div n="4" type="adhyāya">
@@ -1068,56 +1072,30 @@ C) Special notes :
                         />lavarṇṇānvitā bhṛśaṃ | nātisthūlakṛṣaḥ śrīmān naro jīvet
                         samāśataṃ || </l>
 
-                    <l xml:id="SS.3.4.56"> mūrcchā pittatamaḥ prāyā rajaḥpittānilādbhramaḥ
-                        | tamovātakaphātandrā nidrā śleṣmatamobhavā <lb n="2"/>|| </l>
+                    <l xml:id="SS.3.4.56"> mūrcchā pittatamaḥprāyā rajaḥpittānilād bhramaḥ
+                        |
+                        <caesura/>
+                         tamovātakaphā tandrā nidrā śleṣmatamodbhavā <lb n="2"/>|| </l>
 
 
 
-                    <l xml:id="SS.3.4.42"> nidrānāśonilāt pittātmanas tāpāt kṣayādapi |
+                    <l xml:id="SS.3.4.42"> nidrānāśo nilāt pittāt manastāpāt kṣayād api |
                         abhi<cb/>ghātāc ca bhavati pratyanīkaiḥ sa śāmyati || </l>
-
-                    <l xml:id="SS.3.4.43"> nidrānāśe 'bhyaṅgayogo mūrdhni tailaniṣevaṇam
-                        || gātrasyodvartanaṃ caiva hitaṃ saṃvāhanāni ca || </l>
-
-                    <l xml:id="SS.3.4.44"> śāligodhūmapiṣṭānnabhakṣyairaikṣavasaṃskṛtaiḥ
-                        || bhojanaṃ madhuraṃ snigdhaṃ kṣīramāṃsarasādibhiḥ || </l>
-
-                    <l xml:id="SS.3.4.45"> rasairbileśayānāṃ ca viṣkirāṇāṃ tathaiva ca ||
-                        drākṣāsitekṣudravyāṇām upayogo bhavenniśi || </l>
-
-                    <l xml:id="SS.3.4.46"> śayanāsanayānāni manojñāni mṛduni ca ||
-                        nidrānāśe tu kurvīta tathā'nyānyapi buddhimān || </l>
 
                     <l xml:id="SS.3.4.47">nidrātiyoge vamanaṃ hitaṃ saṃśodhanāni ca |
                             laṃ<lb n="3"/>ghanaṃ raktamokṣaś ca manovyākulanāni ca || </l>
 
                     <l xml:id="SS.3.4.48"> kaphamedovi<g ref="#broken-danda"
-                        /><cb/>ṣārttānāṃ rātrau jāgaraṇaṃ hitam | divāsvapnaś ca
-                        bhṛṭchūlahikkājīrṇṇātisāriṇāṃ || </l>
+                        /><cb/>ṣārttānāṃ rātrau jāgaraṇaṃ hitam |
+                        <caesura/>
+                        divāsvapnaś ca tṛṭchūlahikkājīrṇṇātisāriṇāṃ || </l>
 
                     <l xml:id="SS.3.4.49"> indriyārthe<lb n="4"/>ṣv asamvittir jjṛmbhanaṃ
-                        gauravaṃ klamaḥ | nidrārttasyaiva yasyehā <g ref="#broken-danda"
+                        gauravaṃ klamaḥ | nidrārttasyaiva yasyeha <g ref="#broken-danda"
                         /><cb/> tasya tandrā vinirddiśet || </l>
 
-
-
-
-
-
-
-
-
-
-
-
-
-                    <l xml:id="SS.3.4.57"> garbbhasya khalu rasaguṇanimittātmā
-                        turāhāranimittā <unclear>ca</unclear> parivṛddhi<lb n="5"
-                        />rbbhavati || </l>
-
-
-
-
+                    <l xml:id="SS.3.4.57"> garbbhasya khalu rasaguṇanimittātmāt mātur
+                        āhāranimittāc ca parivṛddhi<lb n="5"/>r bbhavati || </l>
 
                     <l xml:id="SS.3.4.60"> bhavati cātra || dṛṣṭiś ca romakūpāś ca
                         vardhante na <cb/> kadācana | dhruvāṇy etāni marttyānām iti
@@ -2049,11 +2027,11 @@ C) Special notes :
                         <caesura/>
                          tadāsya rogā jāyante vividhā vātasambhavāḥ ||</l>
 
-                    <l xml:id="SS.3.7.9.1"><add>yadā tvakupitam pittaṃ sevate<lb n="3"/>
+                    <l xml:id="SS.3.7.9.add">yadā tvakupitam pittaṃ sevate<lb n="3"/>
                             svavahāḥ sirāḥ |
                             <caesura/>
                              avyāpannas tadāgnis tu samyak carati bho<cb/>janaṃ
-                        ||</add></l>
+                        ||</l>
 
                     <l xml:id="SS.3.7.10">bhrājiṣṇutām annarucim agner ddīptim arogatāṃ |
                         <caesura/>
@@ -2237,7 +2215,8 @@ C) Special notes :
                         uttamāṅgagatānām eṣa sirotthāpam ayantravidhiḥ | sthitasakthim
                         īṣet kuñcitapādam uccaiḥ sthāpayi<lb n="6"/>tvā
                         vyadhapradeśasyopari samyag yantram badhvā pādasirām vidhyet |
-                        upaviṣṭasya hastaṃ gūḍhāṃ<sic ana="seems cancelled"
+                        upaviṣṭasya hastaṃ gūḍhāṃ<sic
+                            ana="seems                             cancelled"
                         >ṣṭha</sic>guṣṭhanibaddhamuṣṭiṃ samyagāsane sthāpayitvā hastasirāṃ
                         vidhyet | <unclear>gṛ</unclear>dhrasīviśvacyo<milestone
                             facs="dscn3165 fol 187" unit="jpeg"/><pb facs="191" n="188rv"
@@ -2285,20 +2264,20 @@ C) Special notes :
                         apacyāmindrabaster adhastād dvyaṅgule | jānusandher upari
                         caturaṃgule gṛdhrasyāmūrusaṃ<lb n="3"/>dhisanniviṣṭāṃ | galagaṇḍe
                         śroṇipratisamantāt pravāhikā<sic
-                            ana="perhaps the anusvāra is cancelled">ṃ</sic>yāṃśūlinyāṃ
-                        parivarttikopadaṃśaśūkavyāpatsu meḍhramadhye |
-                        etenetarasakthibāhūvyākhyātau || <lb n="4"/> viśeṣatas tu
-                        vāmabāhukurpparasandhāvabhyantarato bāhumadhye plīhni etām eva
-                        dakṣiṇabāhuyakṛddālye | etām eva ca kāsaśvāsayor apyādiśanti |
-                            gṛdhrasyāmi<lb n="5"/>va vipa<unclear>ṃ</unclear>cyām
-                        vāmapārśvakakṣastanāntarayor antarasthām vidradhau pārśvaśūle ca |
-                        etām eva ca kaphodare | dakṣiṇapārśve bāhuśoṣāpabāhukayor
-                        bbāhumadhye eke <lb n="6"/> vadanty aṃsamadhye
-                        trikasandhimadhyagatān tṛtīyake | skandhasandhigatānām
-                        anyatarapārśvasaṃsthitānāñ caturthake | hanusandhimadhyagatām
-                            apa<milestone facs="dscn3166 fol 188" unit="jpeg"/><pb
-                            facs="192" n="189r"/>smāre | śaṃkhasandhigatānām unmāde |
-                            jihvāroge<metamark cert="high"
+                            ana="perhaps the anusvāra is                             cancelled"
+                            >ṃ</sic>yāṃśūlinyāṃ parivarttikopadaṃśaśūkavyāpatsu
+                        meḍhramadhye | etenetarasakthibāhūvyākhyātau || <lb n="4"/>
+                        viśeṣatas tu vāmabāhukurpparasandhāvabhyantarato bāhumadhye plīhni
+                        etām eva dakṣiṇabāhuyakṛddālye | etām eva ca kāsaśvāsayor
+                        apyādiśanti | gṛdhrasyāmi<lb n="5"/>va
+                        vipa<unclear>ṃ</unclear>cyām vāmapārśvakakṣastanāntarayor
+                        antarasthām vidradhau pārśvaśūle ca | etām eva ca kaphodare |
+                        dakṣiṇapārśve bāhuśoṣāpabāhukayor bbāhumadhye eke <lb n="6"/>
+                        vadanty aṃsamadhye trikasandhimadhyagatān tṛtīyake |
+                        skandhasandhigatānām anyatarapārśvasaṃsthitānāñ caturthake |
+                        hanusandhimadhyagatām apa<milestone facs="dscn3166 fol 188"
+                            unit="jpeg"/><pb facs="192" n="189r"/>smāre |
+                        śaṃkhasandhigatānām unmāde | jihvāroge<metamark cert="high"
                             function="to_indicate_insertion_in_some_line_of_the_digital_image"
                             place="above">dī 3</metamark>ṣv adhojihvāyāṃ | dantavyādhiṣu
                         dantamūle | tāluni tālavye ca | karṇṇayor upari samantāt
@@ -2897,6 +2876,8 @@ Half part of 57 found after 64-->
                             garbbhiṇyā<unclear>pūryate daśa ||</unclear></l>
 
                     <l xml:id="SS.3.trailer">|| iti śārīrasthānaṃ samāptaṃ || ❈ || </l>
+
+
 
                 </div>
 
